@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about specific components of NIM and TNAV changes, and RoTE target feasibility\",\n  \"main_topics\": [\"UK NIM\", \"TNAV\", \"RoTE target\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first, I just wondered what was in the 7 basis points of a drag that's coming through in the UK NIM in the quarter.\",\n  \"answer_quote\": \"Okay, thanks Jonathan, I will take both of those. So in the seven basis points of other is product, it contains pretty much everything else that isn't to the left.\",\n  \"reason\": \"The answer directly addresses the components of the NIM drag and provides a detailed explanation, including specific figures and a clear stance on the RoTE target.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1073,
+      "batch_seconds": 33.79182608800056
+    }
+  ],
+  "exchange_id": "4e98e4abfb11-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "456b27cd55b9861777101952840c5dd3c96b6e9ff6106fa12d5316f7520b5fb0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about specific components of NIM and TNAV changes, and RoTE target feasibility",
+    "main_topics": [
+      "UK NIM",
+      "TNAV",
+      "RoTE target"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first, I just wondered what was in the 7 basis points of a drag that's coming through in the UK NIM in the quarter.",
+    "answer_quote": "Okay, thanks Jonathan, I will take both of those. So in the seven basis points of other is product, it contains pretty much everything else that isn't to the left.",
+    "reason": "The answer directly addresses the components of the NIM drag and provides a detailed explanation, including specific figures and a clear stance on the RoTE target."
+  },
+  "whitespace_adjusted_quotes": []
+}

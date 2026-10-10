@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Identify discretionary levers and potential changes in bank strategy.\",\n  \"main_topics\": [\"Performance Costs\", \"Investment Priorities\", \"Strategic Focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And in terms of the change in guidance, I guess, just going back onto costs, what are the top two or three areas of discretionary levers that you have or you could pull back?\",\n  \"answer_quote\": \"Obviously one of the biggest levers that we have is performance costs. We pay performance costs for returns, so to the extent that returns are not there, then you might expect the performance costs to be a little lower.\",\n  \"reason\": \"The answer directly addresses the question, providing specific areas of discretionary levers and indicating a strategic shift, with high evidence level due to the explicit mention of 'performance costs' and 'investment priorities'.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 734,
+      "batch_seconds": 20.983468356999765
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "21fb3d2c9d7cb6ece9f9f2de059a1973234556014c489886aa5f94069e6e8555",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Identify discretionary levers and potential changes in bank strategy.",
+    "main_topics": [
+      "Performance Costs",
+      "Investment Priorities",
+      "Strategic Focus"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And in terms of the change in guidance, I guess, just going back onto costs, what are the top two or three areas of discretionary levers that you have or you could pull back?",
+    "answer_quote": "Obviously one of the biggest levers that we have is performance costs. We pay performance costs for returns, so to the extent that returns are not there, then you might expect the performance costs to be a little lower.",
+    "reason": "The answer directly addresses the question, providing specific areas of discretionary levers and indicating a strategic shift, with high evidence level due to the explicit mention of 'performance costs' and 'investment priorities'."
+  },
+  "whitespace_adjusted_quotes": []
+}

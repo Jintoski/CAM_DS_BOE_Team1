@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Acknowledgment and prompt for next question\",\n  \"main_topics\": [\"Acknowledgment\", \"Prompt for next question\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"That's good. Thank you.\",\n  \"answer_quote\": \"Thank you, Guy. Next question, please.\",\n  \"reason\": \"The response deflects the acknowledgment with a prompt for the next question, without addressing the previous question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Expressing gratitude and prompting for the next question\",\n  \"main_topics\": [\"Gratitude\", \"Transition to next question\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"That's good. Thank you.\",\n  \"answer_quote\": \"Thank you, Guy. Next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 405,
+      "batch_seconds": 6.255509784999958
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 3,
+      "input_tokens": 450,
+      "batch_seconds": 6.076693746999808
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "908dbff64c2ee3c4f53f4d4b4e0943c02375e6c260cdc847d31e5be7308538c1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Acknowledgment and prompt for next question",
+    "main_topics": [
+      "Acknowledgment",
+      "Prompt for next question"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "That's good. Thank you.",
+    "answer_quote": "Thank you, Guy. Next question, please.",
+    "reason": "The response deflects the acknowledgment with a prompt for the next question, without addressing the previous question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

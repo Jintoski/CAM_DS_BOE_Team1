@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call question about future NII and IB performance\",\n  \"main_topics\": [\"2026 NII\", \"Product margin\", \"IB performance\", \"Investment in technology\", \"Maturity of cards\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So two questions. One, again, just to follow up on the product margin, I just want to check what your thinking is in terms of 2026, given there are a few more kind of parts to it, versus 2025. Would you expect a positive contribution then?\",\n  \"answer_quote\": \"Okay. Thank you. I'll take the first and then hand to Venkat for the second. As I said it's a bit too early to talk about 2026 NII or particularly the product margin, and I'll just call out a couple of things, one on the numerator and one on the denominator.\",\n  \"reason\": \"The answer addresses some topics but does not fully answer the question about the product margin for 2026, and the evidence provided is not highly quantitative.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future NII and IB cost management\",\n  \"main_topics\": [\"2026 NII\", \"IB cost management\", \"2025 NII\", \"IB performance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"One, again, just to follow up on the product margin, I just want to check what your thinking is in terms of 2026, given there are a few more kind of parts to it, versus 2025. Would you expect a positive contribution then?\",\n  \"answer_quote\": \"Okay. Thank you. I'll take the first and then hand to Venkat for the second. As I said it's a bit too early to talk about 2026 NII or particularly the product margin, and I'll just call out a couple of things, one on the numerator and one on the denominator.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 985,
+      "batch_seconds": 32.63806307300001
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1030,
+      "batch_seconds": 93.30540008299977
+    }
+  ],
+  "exchange_id": "700cb9deb01d-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b7aa40b590ce1d9830c154dc1736aad6da3b8d0a6f850e29d786c2cb93c06743",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call question about future NII and IB performance",
+    "main_topics": [
+      "2026 NII",
+      "Product margin",
+      "IB performance",
+      "Investment in technology",
+      "Maturity of cards"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So two questions. One, again, just to follow up on the product margin, I just want to check what your thinking is in terms of 2026, given there are a few more kind of parts to it, versus 2025. Would you expect a positive contribution then?",
+    "answer_quote": "Okay. Thank you. I'll take the first and then hand to Venkat for the second. As I said it's a bit too early to talk about 2026 NII or particularly the product margin, and I'll just call out a couple of things, one on the numerator and one on the denominator.",
+    "reason": "The answer addresses some topics but does not fully answer the question about the product margin for 2026, and the evidence provided is not highly quantitative."
+  },
+  "whitespace_adjusted_quotes": []
+}

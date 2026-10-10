@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss factors influencing customer movement between bank products and nominal growth in banking services.\",\n  \"main_topics\": [\n    \"Customer movement between bank products\",\n    \"Nominal growth in banking services\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"But I guess your argument is as that differential between your instant access and the timed deposits widens, there is more incentive [for them to move their savings from one product to another].\",\n  \"answer_quote\": \"I would say so. There is another factor going in the opposite direction so I am probably not helping you, but I am hopefully helping you understand how we think. The other factor will be [to] the extent that the economy is uncertain, people tend to not [put] their money [in fixed deposit schemes] because they will be a little bit more cautious. There are quite a few factors going on in there so let us see. We have never trodden this path with this structure to the industry, so it is quite difficult to call. In terms of your second question about nominal growth, you are right, there are two ways to look at it. The first would be the particular products that have a fee associated with transactions, so you would see that in credit cards, in current accounts, you are going to see that coming through in the fee line. You are also going to see that on the corporate side, in [Transaction] Banking, so you are starting to see that momentum build there as corporates do more activity. They are the lines that I would pick out in particular. The other area is our Payments business. If you look quarter on quarter, that Payments business is now ticking up simply because it is exposed to the nominal flow of economic activity in the environment. The other areas that you will probably see it coming through - you will see a bit on the CIB side more broadly in terms of businesses reacting to the volatility and those [rate] increases. So whether in Corporate or in the Markets business, you are going to see some movement there and again, that would particularly be in FICC where we see that kind of volatility. But predominantly, it is going to be in the transactional businesses that relate to retail or corporate activity, so cards, both types, Transaction Banking, Payments is where you will see it.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear stance on customer movement between products and explaining nominal growth in banking services with specific examples and evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 800,
+      "batch_seconds": 22.248980599999413
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "946de5547365f1d4c92cb4a52d27c5376178f06d12df8e1017ea5685b708faac",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss factors influencing customer movement between bank products and nominal growth in banking services.",
+    "main_topics": [
+      "Customer movement between bank products",
+      "Nominal growth in banking services"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "But I guess your argument is as that differential between your instant access and the timed deposits widens, there is more incentive [for them to move their savings from one product to another].",
+    "answer_quote": "I would say so. There is another factor going in the opposite direction so I am probably not helping you, but I am hopefully helping you understand how we think. The other factor will be [to] the extent that the economy is uncertain, people tend to not [put] their money [in fixed deposit schemes] because they will be a little bit more cautious. There are quite a few factors going on in there so let us see. We have never trodden this path with this structure to the industry, so it is quite difficult to call. In terms of your second question about nominal growth, you are right, there are two ways to look at it. The first would be the particular products that have a fee associated with transactions, so you would see that in credit cards, in current accounts, you are going to see that coming through in the fee line. You are also going to see that on the corporate side, in [Transaction] Banking, so you are starting to see that momentum build there as corporates do more activity. They are the lines that I would pick out in particular. The other area is our Payments business. If you look quarter on quarter, that Payments business is now ticking up simply because it is exposed to the nominal flow of economic activity in the environment. The other areas that you will probably see it coming through - you will see a bit on the CIB side more broadly in terms of businesses reacting to the volatility and those [rate] increases. So whether in Corporate or in the Markets business, you are going to see some movement there and again, that would particularly be in FICC where we see that kind of volatility. But predominantly, it is going to be in the transactional businesses that relate to retail or corporate activity, so cards, both types, Transaction Banking, Payments is where you will see it.",
+    "reason": "The answer directly addresses the question, providing a clear stance on customer movement between products and explaining nominal growth in banking services with specific examples and evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

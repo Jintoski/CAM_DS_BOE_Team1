@@ -1,0 +1,26 @@
+﻿bank,audience,responder_names,response_episodes,mean_episode_directness,mean_episode_specificity,mean_answer_polarity,topic_match_rate,low_directness_episode_rate,low_specificity_episode_rate,attribution
+barclays,equity,Anna Cross,561,0.5820298186634585,0.46965240641711237,,,0.2905525846702317,0.40819964349376114,whole response episode; shared credit for multiple responders
+barclays,equity,C. S. Venkatakrishnan,14,0.6144880883680284,0.5464285714285715,,,0.07142857142857142,0.21428571428571427,whole response episode; shared credit for multiple responders
+barclays,equity,C.S. Venkatakrishnan,104,0.6237968776586744,0.6467548076923078,,,0.19230769230769232,0.14423076923076922,whole response episode; shared credit for multiple responders
+barclays,equity,Chris Manners,1,0.4490267038345337,0.575,,,1.0,0.0,whole response episode; shared credit for multiple responders
+barclays,equity,Dan Fairclough,32,0.5506577789297348,0.4640625,,,0.40625,0.375,whole response episode; shared credit for multiple responders
+barclays,equity,Daniel Fairclough,4,0.6325331131139627,0.478125,,,0.25,0.25,whole response episode; shared credit for multiple responders
+barclays,equity,Jes Staley,27,0.6571901529170234,0.65,,,0.14814814814814814,0.14814814814814814,whole response episode; shared credit for multiple responders
+barclays,equity,Marina Shchukina,7,0.5209985818181719,0.5589285714285714,,,0.2857142857142857,0.2857142857142857,whole response episode; shared credit for multiple responders
+barclays,equity,Tushar Morzaria,110,0.5957189844505295,0.46863636363636363,,,0.2909090909090909,0.41818181818181815,whole response episode; shared credit for multiple responders
+hsbc,equity,Alastair Ryan,25,0.6057329806497137,0.46299999999999997,,,0.2,0.44,whole response episode; shared credit for multiple responders
+hsbc,equity,Carlo Pellerani,15,0.5395721575883097,0.45416666666666666,,,0.4,0.26666666666666666,whole response episode; shared credit for multiple responders
+hsbc,equity,Claire Baird,5,0.7946348763429201,0.8074999999999999,,,0.0,0.0,whole response episode; shared credit for multiple responders
+hsbc,equity,Ewen Stevenson,119,0.5605778839183508,0.5322478991596639,,,0.29411764705882354,0.3445378151260504,whole response episode; shared credit for multiple responders
+hsbc,equity,Faisal Yousaf,16,0.5735335753520187,0.5984375,,,0.25,0.125,whole response episode; shared credit for multiple responders
+hsbc,equity,Fas Yousaf,4,0.4534570248797536,0.309375,,,0.25,0.75,whole response episode; shared credit for multiple responders
+hsbc,equity,Georges Elhedery,175,0.6457261797105371,0.7126428571428571,,,0.16,0.13714285714285715,whole response episode; shared credit for multiple responders
+hsbc,equity,Jack Yang,1,0.768470823764801,1.0,,,0.0,0.0,whole response episode; shared credit for multiple responders
+hsbc,equity,Jon Bingham,22,0.5988809446166287,0.5965909090909091,,,0.22727272727272727,0.2727272727272727,whole response episode; shared credit for multiple responders
+hsbc,equity,Jonathan Bingham,3,0.6924858589967092,0.2916666666666667,,,0.0,0.6666666666666666,whole response episode; shared credit for multiple responders
+hsbc,equity,Ming Lau,31,0.6146410428172694,0.605241935483871,,,0.16129032258064516,0.1935483870967742,whole response episode; shared credit for multiple responders
+hsbc,equity,Neil Sankoff,19,0.6951625631452244,0.7361842105263158,,,0.05263157894736842,0.05263157894736842,whole response episode; shared credit for multiple responders
+hsbc,equity,Noel Quinn,91,0.6131767018250988,0.7162087912087912,,,0.1978021978021978,0.14285714285714285,whole response episode; shared credit for multiple responders
+hsbc,equity,Pam Kaur,158,0.6497690421563853,0.5792721518987343,,,0.15822784810126583,0.2848101265822785,whole response episode; shared credit for multiple responders
+hsbc,equity,Richard O'Connor,50,0.528865332222614,0.50275,,,0.36,0.3,whole response episode; shared credit for multiple responders
+hsbc,equity,Tim Fradin,1,0.6475738286972046,1.0,,,0.0,0.0,whole response episode; shared credit for multiple responders

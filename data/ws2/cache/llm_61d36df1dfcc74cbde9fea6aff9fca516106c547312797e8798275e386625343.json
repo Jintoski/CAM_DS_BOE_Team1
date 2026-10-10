@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about opportunities for RWA growth, mortgage density, and Kensington mortgage specifics.\",\n  \"main_topics\": [\"RWA growth\", \"mortgage density\", \"Kensington mortgage\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Couple of questions on the UK and regarding your target of £30 billion RWA growth. Just wanted to see if you see any particular areas of opportunity at the moment.\",\n  \"answer_quote\": \"Okay so, in terms of the RWA growth in the UK expect more of the same. If you look at our current run rate, we're around £2 billion per quarter across the first half, we might expect that to pick up a little.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of RWA growth, mortgage density, and Kensington mortgage specifics.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1158,
+      "batch_seconds": 37.31215783100015
+    }
+  ],
+  "exchange_id": "08b5e1a731d1-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "61d36df1dfcc74cbde9fea6aff9fca516106c547312797e8798275e386625343",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about opportunities for RWA growth, mortgage density, and Kensington mortgage specifics.",
+    "main_topics": [
+      "RWA growth",
+      "mortgage density",
+      "Kensington mortgage"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Couple of questions on the UK and regarding your target of £30 billion RWA growth. Just wanted to see if you see any particular areas of opportunity at the moment.",
+    "answer_quote": "Okay so, in terms of the RWA growth in the UK expect more of the same. If you look at our current run rate, we're around £2 billion per quarter across the first half, we might expect that to pick up a little.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of RWA growth, mortgage density, and Kensington mortgage specifics."
+  },
+  "whitespace_adjusted_quotes": []
+}

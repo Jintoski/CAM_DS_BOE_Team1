@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the impact of AARP and Gap acquisitions on the bank's back book portfolio.\",\n  \"main_topics\": [\"AARP acquisition\", \"Gap acquisition\", \"back book portfolio\", \"Emirates comparison\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. Thanks so the AARP and the Gap acquisitions, you're obviously getting the back books with those.\",\n  \"answer_quote\": \"Yes, unlike Emirates which is only a front book portfolio. So, yes, the back books are going to be helpful for those deals.\",\n  \"reason\": \"The answer directly addresses the impact of AARP and Gap acquisitions on the back book portfolio, comparing it to Emirates' front book portfolio.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 438,
+      "batch_seconds": 8.018176011999458
+    }
+  ],
+  "exchange_id": "0bcb8152dc08-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5b069327126f050ee30d9f760752fad9876c0e0768c60aead1ea64ecd678dbd4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the impact of AARP and Gap acquisitions on the bank's back book portfolio.",
+    "main_topics": [
+      "AARP acquisition",
+      "Gap acquisition",
+      "back book portfolio",
+      "Emirates comparison"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Okay. Thanks so the AARP and the Gap acquisitions, you're obviously getting the back books with those.",
+    "answer_quote": "Yes, unlike Emirates which is only a front book portfolio. So, yes, the back books are going to be helpful for those deals.",
+    "reason": "The answer directly addresses the impact of AARP and Gap acquisitions on the back book portfolio, comparing it to Emirates' front book portfolio."
+  },
+  "whitespace_adjusted_quotes": []
+}

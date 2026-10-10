@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify the impact of cost of carry on fixed positions and the magnitude of the uplift in bank earnings.\",\n  \"main_topics\": [\"cost of carry\", \"fixed positions\", \"maturity\", \"reversal\", \"uplift\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could we just get an idea of the magnitude of the uplift coming through, quarter to quarter?\",\n  \"answer_quote\": \"Cost of carry on that piece went up very sharply in Q422.\",\n  \"reason\": \"The answer partially addresses the question by mentioning the cost of carry increase in Q422 but does not provide a specific magnitude of the uplift, thus only partially completing the request.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the maturity and impact of cost of carry on fixed positions and the magnitude of the uplift in bank earnings.\",\n  \"main_topics\": [\"Cost of carry\", \"Fixed positions\", \"Maturity\", \"Impact on bank earnings\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could we just get an idea of the magnitude of the uplift coming through, quarter to quarter?\",\n  \"answer_quote\": \"So, a few things to note on it. Firstly, short-dated. Secondly, actively managed. Thirdly, within a strict risk limit.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 664,
+      "batch_seconds": 15.948184826000215
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 709,
+      "batch_seconds": 16.73286601899963
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0f9655cbfecea37a4140337aaaecc05e56d6e92cad5494c20f431468aab64f85",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify the impact of cost of carry on fixed positions and the magnitude of the uplift in bank earnings.",
+    "main_topics": [
+      "cost of carry",
+      "fixed positions",
+      "maturity",
+      "reversal",
+      "uplift"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Could we just get an idea of the magnitude of the uplift coming through, quarter to quarter?",
+    "answer_quote": "Cost of carry on that piece went up very sharply in Q422.",
+    "reason": "The answer partially addresses the question by mentioning the cost of carry increase in Q422 but does not provide a specific magnitude of the uplift, thus only partially completing the request."
+  },
+  "whitespace_adjusted_quotes": []
+}

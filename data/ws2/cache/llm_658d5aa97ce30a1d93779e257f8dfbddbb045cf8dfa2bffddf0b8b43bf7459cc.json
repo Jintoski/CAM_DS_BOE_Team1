@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about future hedge turnover and regulatory framework adjustments\",\n  \"main_topics\": [\"Hedge Turnover\", \"Regulatory Framework\", \"Leverage\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Should we expect £50 billion being the turnover in terms of the maturing balances?\",\n  \"answer_quote\": \"I think it's reasonable assumption that the hedge is broadly programmatic. We haven't given any specific details in 2027, but you can extrapolate from 2025 and 2026, that's reasonable.\",\n  \"reason\": \"The answer partially addresses the question about hedge turnover, suggesting extrapolation from previous years but not confirming the £50 billion figure. It also touches on the regulatory framework and leverage but does not provide specific details or a clear stance on adjustments.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 673,
+      "batch_seconds": 17.66034953899998
+    }
+  ],
+  "exchange_id": "08b5e1a731d1-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "658d5aa97ce30a1d93779e257f8dfbddbb045cf8dfa2bffddf0b8b43bf7459cc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about future hedge turnover and regulatory framework adjustments",
+    "main_topics": [
+      "Hedge Turnover",
+      "Regulatory Framework",
+      "Leverage"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Mixed",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Should we expect £50 billion being the turnover in terms of the maturing balances?",
+    "answer_quote": "I think it's reasonable assumption that the hedge is broadly programmatic. We haven't given any specific details in 2027, but you can extrapolate from 2025 and 2026, that's reasonable.",
+    "reason": "The answer partially addresses the question about hedge turnover, suggesting extrapolation from previous years but not confirming the £50 billion figure. It also touches on the regulatory framework and leverage but does not provide specific details or a clear stance on adjustments."
+  },
+  "whitespace_adjusted_quotes": []
+}

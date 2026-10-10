@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Medium-term RWA allocation and resilience of book with respect to impairment charges\",\n  \"main_topics\": [\"RWAs\", \"CIB growth\", \"Impairment charges\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I have a couple of questions, the first one is on the RWAs. Obviously, the CIB had seen quite a significant increase driven by market risk, and you have got FX-related growth all over the bank. I am just trying to understand where we should think the medium-term RWAs or the mix should lie? It looks like it is skewing towards CIB and CC&P, so is that shift likely to continue? Could you perhaps give us some sense on the moving parts from here, especially in the second half?\",\n  \"answer_quote\": \"From here on in, we do not have hard-and-fast RWA allocation rules that we want to follow. If anything, that would fly in the face of what we are trying to do as a diversified bank. We are trying to step into opportunities as we see them. Having said that, growth from here is more likely to be [from] consumer recovery, where you are seeing that come through, whether that be the US, or hopefully the UK. A recovery in cards, [would therefore lead to RWA growth as] obviously cards are a bit more RWA-heavy than the majority of retail. CIB growth from here, if you think about what we are focused on, or the things I have called out before, whether that be Prime or the specific parts of Banking, that is not particularly RWA-heavy growth, so I would expect to see a rebalancing. However, we do not have hard-and-fast rules around that, and we will be reacting to the opportunities that we see, but nothing concerning at this point in time.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on RWA allocation and the resilience of the bank's book, with high evidence level and numeric evidence present.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1292,
+      "batch_seconds": 43.28837274200032
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a715e25f6c33324dd02f0d57d681a4fcba142afc15a3d9bd5ec374d7e3353914",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Medium-term RWA allocation and resilience of book with respect to impairment charges",
+    "main_topics": [
+      "RWAs",
+      "CIB growth",
+      "Impairment charges"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I have a couple of questions, the first one is on the RWAs. Obviously, the CIB had seen quite a significant increase driven by market risk, and you have got FX-related growth all over the bank. I am just trying to understand where we should think the medium-term RWAs or the mix should lie? It looks like it is skewing towards CIB and CC&P, so is that shift likely to continue? Could you perhaps give us some sense on the moving parts from here, especially in the second half?",
+    "answer_quote": "From here on in, we do not have hard-and-fast RWA allocation rules that we want to follow. If anything, that would fly in the face of what we are trying to do as a diversified bank. We are trying to step into opportunities as we see them. Having said that, growth from here is more likely to be [from] consumer recovery, where you are seeing that come through, whether that be the US, or hopefully the UK. A recovery in cards, [would therefore lead to RWA growth as] obviously cards are a bit more RWA-heavy than the majority of retail. CIB growth from here, if you think about what we are focused on, or the things I have called out before, whether that be Prime or the specific parts of Banking, that is not particularly RWA-heavy growth, so I would expect to see a rebalancing. However, we do not have hard-and-fast rules around that, and we will be reacting to the opportunities that we see, but nothing concerning at this point in time.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on RWA allocation and the resilience of the bank's book, with high evidence level and numeric evidence present."
+  },
+  "whitespace_adjusted_quotes": []
+}

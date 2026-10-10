@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Capacity and risk appetite in mortgage lending\",\n  \"main_topics\": [\"mortgage lending capacity\", \"risk appetite\", \"LTI limit\", \"affordability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I mean is there not capacity to be, given your credit loss profile is extraordinary, there must surely be capacity to ease that and accept more?\",\n  \"answer_quote\": \"We've meaningfully changed our profile in mortgages. So, you know, last year about 15% of our flow was high loan to value. That's meaningfully higher than it has been in the past, which had been around 9% [in FY23]. And that was really bringing Kensington to bear and that's sort of more advanced risk capability within the market.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high evidence with specific figures, and aligns with the narrative of changing mortgage lending practices.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Capacity to accept more mortgage applications despite high credit loss profile and discussion on LTI limit changes.\",\n  \"main_topics\": [\"Mortgage application capacity\", \"Credit loss profile\", \"LTI limit\", \"Affordability\", \"Housing market health\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I mean is there not capacity to be, given your credit loss profile is extraordinary, there must surely be capacity to ease that and accept more?\",\n  \"answer_quote\": \"We've meaningfully changed our profile in mortgages. So, you know, last year about 15% of our flow was high loan to value. That's meaningfully higher than it has been in the past, which had been around 9% [in FY23]. And that was really bringing Kensington to bear and that's sort of more advanced risk capability within the market.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Capacity to accept more mortgage applications despite high credit loss profile\",\n  \"main_topics\": [\"mortgage application capacity\", \"credit loss profile\", \"LTI limit\", \"affordability\", \"housing market health\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I mean is there not capacity to be, given your credit loss profile is extraordinary, there must surely be capacity to ease that and accept more?\",\n  \"answer_quote\": \"We've meaningfully changed our profile in mortgages. So, you know, last year about 15% of our flow was high loan to value. That's meaningfully higher than it has been in the past, which had been around 9% [in FY23].\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Capacity and risk appetite in mortgage lending\",\n  \"main_topics\": [\"mortgage lending capacity\", \"risk appetite\", \"LTI limit\", \"affordability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I mean is there not capacity to be, given your credit loss profile is extraordinary, there must surely be capacity to ease that and accept more?\",\n  \"answer_quote\": \"We've meaningfully changed our profile in mortgages. So, you know, last year about 15% of our flow was high loan to value. That's meaningfully higher than it has been in the past, which had been around 9% [in FY23]. And that was really bringing Kensington to bear and that's sort of more advanced risk capability within the market.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high evidence with specific figures, and aligns with the narrative of changing mortgage lending practices.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 857,
+      "batch_seconds": 24.51077147400065
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 905,
+      "batch_seconds": 26.728799688000436
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 902,
+      "batch_seconds": 27.97939145899909
+    }
+  ],
+  "exchange_id": "ce1602510e69-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d458b04281ec26aa67d5f4e54195a09a50dd2278a400594af2c87ac1df3a40a5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for clarification on bank earnings-call topics\",\n  \"main_topics\": [\"adjusted disclosure\", \"banking NIM\", \"pro forma figures\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I have two, please? Richard, you started with disclosure, so on disclosure I'm wondering what your thought process was about doing away with adjusted disclosure.\",\n  \"answer_quote\": \"First, we're not fully removing adjusted, because at this stage we decided to retain the constant currency adjustment.\",\n  \"reason\": \"The question and answer are directly related, with the answer providing a clear response to the inquiry about adjusted disclosure, banking NIM, and pro forma figures, including specific figures and future plans.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquiry about bank's disclosure practices and potential changes in financial reporting\",\n \"main_topics\": [\"Adjusted Disclosure\", \"Banking NIM\", \"Pro Forma Figures\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Could I have two, please? Richard, you started with disclosure, so on disclosure I'm wondering what your thought process was about doing away with adjusted disclosure.\",\n \"answer_quote\": \"First, we're not fully removing adjusted, because at this stage we decided to retain the constant currency adjustment.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1400,
+      "batch_seconds": 48.62065319600015
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1445,
+      "batch_seconds": 100.27776254699984
+    }
+  ],
+  "exchange_id": "4970375d012d-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ab29a3f200ac5e87f6f4ec169a553fe91edee0a0375fabc5b730e83b54343ac3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for clarification on bank earnings-call topics",
+    "main_topics": [
+      "adjusted disclosure",
+      "banking NIM",
+      "pro forma figures"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I have two, please? Richard, you started with disclosure, so on disclosure I'm wondering what your thought process was about doing away with adjusted disclosure.",
+    "answer_quote": "First, we're not fully removing adjusted, because at this stage we decided to retain the constant currency adjustment.",
+    "reason": "The question and answer are directly related, with the answer providing a clear response to the inquiry about adjusted disclosure, banking NIM, and pro forma figures, including specific figures and future plans."
+  },
+  "whitespace_adjusted_quotes": []
+}

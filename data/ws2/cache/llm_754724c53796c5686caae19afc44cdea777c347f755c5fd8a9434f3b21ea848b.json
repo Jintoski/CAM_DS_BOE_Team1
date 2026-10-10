@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about changes in costs, particularly regarding staff compensation for performance, and ask for expectations on cost growth and NIM in Hong Kong and the UK.\",\n  \"main_topics\": [\"costs\", \"staff compensation\", \"cost growth\", \"NIM\", \"Hong Kong\", \"UK\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions, please. Firstly, on costs, can I just probe you a little bit more on exactly what's changed around costs?\",\n  \"answer_quote\": \"So, first, on costs, I think with regards to this 1% cost we contemplate for Q4, look, we have to put this in the perspective of the financial performance.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about changes in costs, particularly regarding staff compensation for performance, and ask for expectations on cost growth and NIM in Hong Kong and the UK.\",\n \"main_topics\": [\"Costs\", \"Staff Compensation\", \"Cost Growth\", \"NIM\", \"Hong Kong\", \"UK\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Two questions, please. Firstly, on costs, can I just probe you a little bit more on exactly what's changed around costs?\",\n \"answer_quote\": \"So, first, on costs, I think with regards to this 1% cost we contemplate for Q4, look, we have to put this in the perspective of the financial performance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about changes in costs, particularly regarding staff compensation for performance, and ask for expectations on cost growth and NIM in Hong Kong and the UK.\",\n  \"main_topics\": [\"costs\", \"staff compensation\", \"cost growth\", \"NIM\", \"Hong Kong\", \"UK\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions, please. Firstly, on costs, can I just probe you a little bit more on exactly what's changed around costs?\",\n  \"answer_quote\": \"So, first, on costs, I think with regards to this 1% cost we contemplate for Q4, look, we have to put this in the perspective of the financial performance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about changes in costs, particularly regarding staff compensation for performance, and ask for expectations on cost growth and NIM in Hong Kong and the UK.\",\n  \"main_topics\": [\"costs\", \"staff compensation\", \"cost growth\", \"NIM\", \"Hong Kong\", \"UK\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions, please. Firstly, on costs, can I just probe you a little bit more on exactly what's changed around costs?\",\n  \"answer_quote\": \"So, first, on costs, I think with regards to this 1% cost we contemplate for Q4, look, we have to put this in the perspective of the financial performance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1589,
+      "batch_seconds": 103.67732233900006
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1634,
+      "batch_seconds": 57.86427026899946
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1634,
+      "batch_seconds": 58.222243031999824
+    }
+  ],
+  "exchange_id": "d02980fb1573-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "754724c53796c5686caae19afc44cdea777c347f755c5fd8a9434f3b21ea848b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

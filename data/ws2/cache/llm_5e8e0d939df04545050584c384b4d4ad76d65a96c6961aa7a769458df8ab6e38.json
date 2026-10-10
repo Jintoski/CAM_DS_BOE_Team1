@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Outlook for NII and deposit base for UK ring-fenced bank\",\n  \"main_topics\": [\"NII outlook\", \"deposit base\", \"hedge capacity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just ask one relating to the outlook for NII for the UK ring-fenced bank?\",\n  \"answer_quote\": \"So, answering your second question first, yes, some of the hedges that we have undertaken have been in sterling overall, not all necessarily in the ring-fenced bank but, let's say, in sterling as a currency, and there is some more capacity, in particular in terms of extending the duration rather than the quantum, which will reduce the sensitivity to the downside.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and includes forward guidance on NII and hedge capacity.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Outlook for NII and deposit base for UK ring-fenced bank\",\n  \"main_topics\": [\"NII outlook\", \"deposit base\", \"hedge capacity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just ask one relating to the outlook for NII for the UK ring-fenced bank?\",\n  \"answer_quote\": \"So, answering your second question first, yes, some of the hedges that we have undertaken have been in sterling overall, not all necessarily in the ring-fenced bank but, let's say, in sterling as a currency, and there is some more capacity, in particular in terms of extending the duration rather than the quantum, which will reduce the sensitivity to the downside.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 943,
+      "batch_seconds": 27.160419657999228
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 988,
+      "batch_seconds": 28.67375667199849
+    }
+  ],
+  "exchange_id": "4970375d012d-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5e8e0d939df04545050584c384b4d4ad76d65a96c6961aa7a769458df8ab6e38",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Outlook for NII and deposit base for UK ring-fenced bank",
+    "main_topics": [
+      "NII outlook",
+      "deposit base",
+      "hedge capacity"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I just ask one relating to the outlook for NII for the UK ring-fenced bank?",
+    "answer_quote": "So, answering your second question first, yes, some of the hedges that we have undertaken have been in sterling overall, not all necessarily in the ring-fenced bank but, let's say, in sterling as a currency, and there is some more capacity, in particular in terms of extending the duration rather than the quantum, which will reduce the sensitivity to the downside.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and includes forward guidance on NII and hedge capacity."
+  },
+  "whitespace_adjusted_quotes": []
+}

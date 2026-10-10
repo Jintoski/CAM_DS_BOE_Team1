@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Regulatory impact of risk transfer transactions\",\n  \"main_topics\": [\"Regulatory EL\", \"Regulatory modelling\", \"Risk transfer transactions\", \"RWAs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I think that would show up in the regulatory EL though, wouldn't it? Wouldn't that also come through in your regulatory modelling of EL if you've got risk transfer transactions?\",\n  \"answer_quote\": \"Yes, we have. So that does impact the RWAs, yes.\",\n  \"reason\": \"The answer directly addresses the question's intent and confirms the impact of risk transfer transactions on RWAs, but lacks specific numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Regulatory impact of risk transfer transactions\",\n  \"main_topics\": [\"Regulatory EL\", \"Regulatory modelling\", \"Risk transfer transactions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I think that would show up in the regulatory EL though, wouldn't it? Wouldn't that also come through in your regulatory modelling of EL if you've got risk transfer transactions?\",\n  \"answer_quote\": \"Yes, we have. So that does impact the RWAs, yes.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 438,
+      "batch_seconds": 7.9235276970002815
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 483,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ba189f91132882532ce86f5601374c45ce234ba7f2955d3f3cdc8f452dcd7fdb",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Regulatory impact of risk transfer transactions",
+    "main_topics": [
+      "Regulatory EL",
+      "Regulatory modelling",
+      "Risk transfer transactions",
+      "RWAs"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I think that would show up in the regulatory EL though, wouldn't it? Wouldn't that also come through in your regulatory modelling of EL if you've got risk transfer transactions?",
+    "answer_quote": "Yes, we have. So that does impact the RWAs, yes.",
+    "reason": "The answer directly addresses the question's intent and confirms the impact of risk transfer transactions on RWAs, but lacks specific numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

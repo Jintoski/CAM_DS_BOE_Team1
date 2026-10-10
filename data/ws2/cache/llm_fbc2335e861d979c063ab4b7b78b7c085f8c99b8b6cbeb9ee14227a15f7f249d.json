@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the cost implications of a real estate footprint review and the outlook for Business Banking.\",\n  \"main_topics\": [\"Real Estate Footprint Review\", \"Business Banking Outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, just to come back to the cost point. You talked about 2021 being above 2020. On the structural cost end, particularly the review of the real estate footprint, where do you expect those costs to predominantly come through? Is that Head Office or UK or CIB? Anything more you can shed in terms of where that cost is coming through? And obviously a timeframe of that during the year would be helpful.\",\n  \"answer_quote\": \"I'll ask Anna to talk a bit more about the Business Banking top line and then I'll cover costs. I think there's a high chance that we will complete our review during the second quarter, and it'll be reflected in the second quarter numbers. The review is around general office space. For those of you who will be familiar with Canary Wharf, for example, we have two large buildings in Canary Wharf. Our headquarter building at 1 Churchill Place and the Investment Bank at 5 North Colonnade. As you can imagine, for those of you who actually come into the Wharf these days, it's pretty empty around there. It turns out we may have more than we need, we shall see. We also have general office space in more provincial towns and cities as well. We have a fairly large footprint, so that will be included in the review. Branches is something that we've constantly been chipping away at, and I think the pandemic has perhaps galvanised an even further push into forms of digital interaction rather than physical interaction. In terms of the segment split, we haven't concluded on that. We'll be driven by correct IFRS accounting around that, but whatever we do, we'll call it out. It'll be clear to you what, if anything, we are writing off in terms of the future lease payments on real estate and what benefit it will accrue thereafter. The themes on Business Banking are very similar to the ones that we've discussed on Retail Banking actually. The first thing I'd call out is the impact of the lower rate environment. If you think about the fact that it's a very liability-led business, the rate environment and particularly the structural hedge outlook impact Business Banking just as it does Retail Banking. On the lending side, clearly we've seen both BBLS and CBILS come to an end. There is the more recent launch of the recovery loan scheme from April 2021 onwards. It's too early to comment on that, but what I would say is that again you'd expect to see the same factors playing out as we would in UK cards. Beyond BBLS and CBILS, there hasn't been a huge appetite to borrow at this point in time. We might expect that alongside economic recovery, you may see a pick-up in that, and that would be at a higher margin than the existing BBLS and CBILS activity. That remains pretty uncertain at this point in time, so we wouldn't guide you to any particular outlook there. I'd just think about it in the same way as you do the rest of Retail Banking. Think about the impact of the structural hedge and the economy re-emerging back into more normal borrowing patterns, but that's all that's going on there.\",\n  \"reason\": \"The answer directly addresses the cost implications of the real estate review and provides a clear outlook for Business Banking, including a timeframe for the review and the impact of the rate environment and lending schemes.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1100,
+      "batch_seconds": 33.84535162700013
+    }
+  ],
+  "exchange_id": "d46e8685e978-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fbc2335e861d979c063ab4b7b78b7c085f8c99b8b6cbeb9ee14227a15f7f249d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the cost implications of a real estate footprint review and the outlook for Business Banking.",
+    "main_topics": [
+      "Real Estate Footprint Review",
+      "Business Banking Outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Firstly, just to come back to the cost point. You talked about 2021 being above 2020. On the structural cost end, particularly the review of the real estate footprint, where do you expect those costs to predominantly come through? Is that Head Office or UK or CIB? Anything more you can shed in terms of where that cost is coming through? And obviously a timeframe of that during the year would be helpful.",
+    "answer_quote": "I'll ask Anna to talk a bit more about the Business Banking top line and then I'll cover costs. I think there's a high chance that we will complete our review during the second quarter, and it'll be reflected in the second quarter numbers. The review is around general office space. For those of you who will be familiar with Canary Wharf, for example, we have two large buildings in Canary Wharf. Our headquarter building at 1 Churchill Place and the Investment Bank at 5 North Colonnade. As you can imagine, for those of you who actually come into the Wharf these days, it's pretty empty around there. It turns out we may have more than we need, we shall see. We also have general office space in more provincial towns and cities as well. We have a fairly large footprint, so that will be included in the review. Branches is something that we've constantly been chipping away at, and I think the pandemic has perhaps galvanised an even further push into forms of digital interaction rather than physical interaction. In terms of the segment split, we haven't concluded on that. We'll be driven by correct IFRS accounting around that, but whatever we do, we'll call it out. It'll be clear to you what, if anything, we are writing off in terms of the future lease payments on real estate and what benefit it will accrue thereafter. The themes on Business Banking are very similar to the ones that we've discussed on Retail Banking actually. The first thing I'd call out is the impact of the lower rate environment. If you think about the fact that it's a very liability-led business, the rate environment and particularly the structural hedge outlook impact Business Banking just as it does Retail Banking. On the lending side, clearly we've seen both BBLS and CBILS come to an end. There is the more recent launch of the recovery loan scheme from April 2021 onwards. It's too early to comment on that, but what I would say is that again you'd expect to see the same factors playing out as we would in UK cards. Beyond BBLS and CBILS, there hasn't been a huge appetite to borrow at this point in time. We might expect that alongside economic recovery, you may see a pick-up in that, and that would be at a higher margin than the existing BBLS and CBILS activity. That remains pretty uncertain at this point in time, so we wouldn't guide you to any particular outlook there. I'd just think about it in the same way as you do the rest of Retail Banking. Think about the impact of the structural hedge and the economy re-emerging back into more normal borrowing patterns, but that's all that's going on there.",
+    "reason": "The answer directly addresses the cost implications of the real estate review and provides a clear outlook for Business Banking, including a timeframe for the review and the impact of the rate environment and lending schemes."
+  },
+  "whitespace_adjusted_quotes": []
+}

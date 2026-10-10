@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank earnings-call Q&A for BoE research\",\n  \"main_topics\": [\"Net Interest Income\", \"Non-Interest Income\", \"Market Expectations\", \"IFRS 17 Adjustment\", \"Non-NII Performance\", \"Wealth Management\", \"Foreign Exchange Trading\", \"Q1 Performance\", \"Future Guidance\", \"Strategic Initiatives\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Both your net interest income and your non-interest income are performing really well in Q1, and they are annualising at levels that would suggest a pretty material upside to market expectations for both of those lines. Your net interest income is annualising north of $36 billion on the Q1 number. Your guide is obviously greater than $34 billion.\",\n  \"answer_quote\": \"I think if you go back to what we said in February, there was - we talked about $36 billion plus, and when people were talking about our NII, they were sort of annualising it to about $38 billion, and consensus was around $37 to $37.5 billion, and I think we said that we were comfortable with that. So I think, if you go back to then, we sort of said, 'Yes, we're sort of comfortable that consensus had a calculation on the 'plus' bit of the $36 billion plus. That put it sort of north of $37 billion. That was around about consensus back then, and what I'm saying to you now is the only thing you need to adjust for is IFRS 17, which takes about $2 billion off of that. So we're talking about $34 billion plus, and that therefore would put you north of $35 billion. So I think what we're saying is - we're sort of saying the street has probably got NII around about the right place back in February, and we're saying there's no need to change what the street is. You've only got to do the mechanical adjustment for IFRS 17.\",\n  \"reason\": \"The response directly addresses the question's intent, provides high-level evidence with specific numbers, and aligns with the narrative of the question, covering main topics such as NII, non-NII, market expectations, and future guidance.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarify NII guidance and assess non-NII revenue expectations\",\n \"main_topics\": [\"Net Interest Income (NII) guidance\", \"Non-NI income performance\", \"IFRS 17 adjustment\", \"Wealth Management business outlook\", \"Foreign Exchange trading performance\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"In terms of your commentary around consensus at full-year and now, there's a $1.7 billion gap between where the street is and what you're guiding for the street at $35.7 billion. It doesn't actually sound like you see much downside to that consensus number at $35.7 billion, unless there's something here on term deposit mix. It feels like there's a lot of conservatism in that NII guidance, or there's something I'm missing, so can you help us with that?\",\n \"answer_quote\": \"I think if you go back to what we said in February, there was - we talked about $36 billion plus, and when people were talking about our NII, they were sort of annualising it to about $38 billion, and consensus was around $37 to $37.5 billion, and I think we said that we were comfortable with that. So I think, if you go back to then, we sort of said, 'Yes, we're sort of comfortable that consensus had a calculation on the 'plus' bit of the $36 billion plus. That put it sort of north of $37 billion. That was around about consensus back then, and what I'm saying to you now is the only thing you need to adjust for is IFRS 17, which takes about $2 billion off of that. So we're talking about $34 billion plus, and that therefore would put you north of $35 billion. So I think what we're saying is - we're sort of saying the street has probably got NII around about the right place back in February, and we're saying there's no need to change what the street is. You've only got to do the mechanical adjustment for IFRS 17.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call Q&A\",\n  \"main_topics\": [\"Net Interest Income (NII)\", \"Non-Interest Income (NII)\", \"IFRS 17 adjustment\", \"Non-NII performance\", \"Wealth Management\", \"Foreign Exchange Trading\", \"Q1 performance\", \"Market Expectations\", \"Guidance Review\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of your commentary around consensus at full-year and now, there's a $1.7 billion gap between where the street is and what you're guiding for the street at $35.7 billion.\",\n  \"answer_quote\": \"I think if you go back to what we said in February, there was - we talked about $36 billion plus, and when people were talking about our NII, they were sort of annualising it to about $38 billion, and consensus was around $37 to $37.5 billion, and I think we said that we were comfortable with that.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric details. The narrative is aligned with the question's topics.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call Q&A for BoE research\",\n  \"main_topics\": [\"Net Interest Income\", \"Non-Interest Income\", \"Market Expectations\", \"IFRS 17 Adjustment\", \"Non-NII Performance\", \"Wealth Management\", \"Foreign Exchange Trading\", \"Q1 Performance\", \"Future Guidance\", \"Strategic Initiatives\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Both your net interest income and your non-interest income are performing really well in Q1, and they are annualising at levels that would suggest a pretty material upside to market expectations for both of those lines. Your net interest income is annualising north of $36 billion on the Q1 number. Your guide is obviously greater than $34 billion.\",\n  \"answer_quote\": \"I think if you go back to what we said in February, there was - we talked about $36 billion plus, and when people were talking about our NII, they were sort of annualising it to about $38 billion, and consensus was around $37 to $37.5 billion, and I think we said that we were comfortable with that. So I think, if you go back to then, we sort of said, 'Yes, we're sort of comfortable that consensus had a calculation on the 'plus' bit of the $36 billion plus. That put it sort of north of $37 billion. That was around about consensus back then, and what I'm saying to you now is the only thing you need to adjust for is IFRS 17, which takes about $2 billion off of that. So we're talking about $34 billion plus, and that therefore would put you north of $35 billion. So I think what we're saying is - we're sort of saying the street has probably got NII around about the right place back in February, and we're saying there's no need to change what the street is. You've only got to do the mechanical adjustment for IFRS 17.\",\n  \"reason\": \"The response directly addresses the question's intent, provides high-level evidence with specific numbers, and aligns with the narrative of the question, covering main topics such as NII, non-NII, market expectations, and future guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1327,
+      "batch_seconds": 97.91451945900008
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1372,
+      "batch_seconds": 98.61168351199922
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1381,
+      "batch_seconds": 99.92895879800017
+    }
+  ],
+  "exchange_id": "f2c2f493cdb9-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1518c05719f292a23fd352ba71923faf2732a1cd47e98d7319aa4617acb06f81",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

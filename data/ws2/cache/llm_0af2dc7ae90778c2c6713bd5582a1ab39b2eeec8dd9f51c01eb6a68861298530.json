@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Sustainability and effectiveness of cost reduction and simplification initiatives\",\n  \"main_topics\": [\"cost reduction\", \"simplification\", \"headcount\", \"sustainability\", \"divestment\", \"technology reinvestment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When you look at the downsizing you've done over the last five years, it does look like headcount in 'central services' has gone up. If I think about that 2% simplification number for this year, and I look at the 'central services' headcount, should we think that that 2% simplification is sustainable in outer years? Is it a particularly good year? Any colour?\",\n  \"answer_quote\": \"I think the 2% number this year was important because the simplification work and actions were going to complete this year. That was really a completion of one very specific initiative to firstly simplify the bank, and then the cost reduction came as a consequence of it. It didn't start with a journey to say, 'I want to reduce the cost base by 2%. As we go ahead and follow through, a couple of things will happen. In terms of an FTE, because, as we are selling some of these businesses - and you've seen the list - they do make a very small contribution in terms of revenue and cost, but from an FTE perspective, they're not insignificant - it all adds up. When you're reinvesting, you can reinvest in technology, which is preferred, or you can reinvest in people. If more of the reinvestment from the redeployment goes into technology rather than people, in terms of people cost inflation, you get yourself into a better space. So the efficiencies that we will continue to drive, as a BAU process, will continue beyond this year. But the core of the simplification, with the formation of CIB and the removal of the matrix, finishes this year. And then it really comes through in terms of the divestment of the businesses.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Sustainability and effectiveness of a 2% simplification in 'central services' headcount\",\n  \"main_topics\": [\"cost reduction\", \"simplification\", \"headcount\", \"divestment\", \"technology reinvestment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Should we think that that 2% simplification is sustainable in outer years? Is it a particularly good year? Any colour?\",\n  \"answer_quote\": \"I think the 2% number this year was important because the simplification work and actions were going to complete this year. That was really a completion of one very specific initiative to firstly simplify the bank, and then the cost reduction came as a consequence of it. It didn't start with a journey to say, 'I want to reduce the cost base by 2%'.\",\n  \"reason\": \"The answer directly addresses the sustainability and effectiveness of the 2% simplification, providing a clear stance and high evidence level with forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Sustainability and impact of cost simplification\",\n  \"main_topics\": [\n    \"cost simplification\",\n    \"headcount\",\n    \"sustainability\",\n    \"divestment\",\n    \"technology investment\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When you look at the downsizing you've done over the last five years, it does look like headcount in 'central services' has gone up. If I think about that 2% simplification number for this year, and I look at the 'central services' headcount, should we think that that 2% simplification is sustainable in outer years? Is it a particularly good year? Any colour?\",\n  \"answer_quote\": \"I think the 2% number this year was important because the simplification work and actions were going to complete this year. That was really a completion of one very specific initiative to firstly simplify the bank, and then the cost reduction came as a consequence of it. It didn't start with a journey to say, 'I want to reduce the cost base by 2%. As we go ahead and follow through, a couple of things will happen. In terms of an FTE, because, as we are selling some of these businesses - and you've seen the list - they do make a very small contribution in terms of revenue and cost, but from an FTE perspective, they're not insignificant - it all adds up. When you're reinvesting, you can reinvest in technology, which is preferred, or you can reinvest in people. If more of the reinvestment from the redeployment goes into technology rather than people, in terms of people cost inflation, you get yourself into a better space. So the efficiencies that we will continue to drive, as a BAU process, will continue beyond this year. But the core of the simplification, with the formation of CIB and the removal of the matrix, finishes this year. And then it really comes through in terms of the divestment of the businesses.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Sustainability and effectiveness of cost reduction and simplification initiatives\",\n  \"main_topics\": [\"cost reduction\", \"simplification\", \"headcount\", \"sustainability\", \"divestment\", \"technology reinvestment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When you look at the downsizing you've done over the last five years, it does look like headcount in 'central services' has gone up. If I think about that 2% simplification number for this year, and I look at the 'central services' headcount, should we think that that 2% simplification is sustainable in outer years? Is it a particularly good year? Any colour?\",\n  \"answer_quote\": \"I think the 2% number this year was important because the simplification work and actions were going to complete this year. That was really a completion of one very specific initiative to firstly simplify the bank, and then the cost reduction came as a consequence of it. It didn't start with a journey to say, 'I want to reduce the cost base by 2%. As we go ahead and follow through, a couple of things will happen. In terms of an FTE, because, as we are selling some of these businesses - and you've seen the list - they do make a very small contribution in terms of revenue and cost, but from an FTE perspective, they're not insignificant - it all adds up. When you're reinvesting, you can reinvest in technology, which is preferred, or you can reinvest in people. If more of the reinvestment from the redeployment goes into technology rather than people, in terms of people cost inflation, you get yourself into a better space. So the efficiencies that we will continue to drive, as a BAU process, will continue beyond this year. But the core of the simplification, with the formation of CIB and the removal of the matrix, finishes this year. And then it really comes through in terms of the divestment of the businesses.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 750,
+      "batch_seconds": 19.6119751870001
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 798,
+      "batch_seconds": 20.96559369500028
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 795,
+      "batch_seconds": 20.02667680200102
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x023",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0af2dc7ae90778c2c6713bd5582a1ab39b2eeec8dd9f51c01eb6a68861298530",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

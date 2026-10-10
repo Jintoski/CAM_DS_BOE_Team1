@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank's expectations for net mortgage growth, Pillar 2A add-on confirmation, and market analysis.\",\n  \"main_topics\": [\"Net mortgage growth\", \"Pillar 2A add-on\", \"Mortgage market analysis\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is on the mortgage market. It feels like housing and mortgages are starting to turn. What's your expectations for net mortgage growth for this year?\",\n  \"answer_quote\": \"In terms of what we're seeing in customer behaviour, again, very defensive. They're re-mortgaging very quickly. We're seeing no change in arrears. We're seeing some slightly elevated levels of over-payment, but not so much that it would move the overall balance. So, nothing of concern. Actually, I would say, absolute margins are still healthy, it's the mix and churn effect that we're thoughtful about.\",\n  \"reason\": \"The answer directly addresses the bank's expectations for net mortgage growth, confirms the status of the Pillar 2A add-on, and provides a detailed analysis of the mortgage market, aligning with the question's intent.\"\n}",
+  "data": {
+    "question_intent": "Bank's expectations for net mortgage growth, Pillar 2A add-on confirmation, and market analysis.",
+    "main_topics": [
+      "Net mortgage growth",
+      "Pillar 2A add-on",
+      "Mortgage market analysis"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is on the mortgage market. It feels like housing and mortgages are starting to turn. What's your expectations for net mortgage growth for this year?",
+    "answer_quote": "In terms of what we're seeing in customer behaviour, again, very defensive. They're re-mortgaging very quickly. We're seeing no change in arrears. We're seeing some slightly elevated levels of over-payment, but not so much that it would move the overall balance. So, nothing of concern. Actually, I would say, absolute margins are still healthy, it's the mix and churn effect that we're thoughtful about.",
+    "reason": "The answer directly addresses the bank's expectations for net mortgage growth, confirms the status of the Pillar 2A add-on, and provides a detailed analysis of the mortgage market, aligning with the question's intent."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "9ba7893c81ce-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "dd5dd3a82ca50320f0d4e60bb8db05effabfde06b72a2f84ffc9430cb2c9f7d6"
+}

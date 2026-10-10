@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the decision-making process for capital return in Q3, considering the headwinds and capital buffer.\",\n  \"main_topics\": [\"Capital Return\", \"Management Decision\", \"Regulatory Considerations\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I guess, what held you back at Q3, given you've got clearly a reasonable capital buffer?\",\n  \"answer_quote\": \"It's a decision which we will take in Q4. Basically, that's it.\",\n  \"reason\": \"The answer deflects the question by stating the decision will be made in Q4 without addressing the specific reasons for the delay in Q3 or the balance between prudence and regulatory considerations.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 554,
+      "batch_seconds": 12.271816891000526
+    }
+  ],
+  "exchange_id": "6d4760f97290-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "69b7c713a2fe43a3e28bc87cb099d5e688283f8c00daae67544c5c571c9f5f53",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the decision-making process for capital return in Q3, considering the headwinds and capital buffer.",
+    "main_topics": [
+      "Capital Return",
+      "Management Decision",
+      "Regulatory Considerations"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "I guess, what held you back at Q3, given you've got clearly a reasonable capital buffer?",
+    "answer_quote": "It's a decision which we will take in Q4. Basically, that's it.",
+    "reason": "The answer deflects the question by stating the decision will be made in Q4 without addressing the specific reasons for the delay in Q3 or the balance between prudence and regulatory considerations."
+  },
+  "whitespace_adjusted_quotes": []
+}

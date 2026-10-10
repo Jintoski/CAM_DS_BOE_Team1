@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiry about capital inefficiencies\",\n  \"main_topics\": [\"Capital inefficiencies\", \"Capital release\", \"Regulatory discussions\", \"Business growth\", \"Lending pipeline\", \"Growth and transformation plans\", \"Cost-transformation plans\", \"Optimism and caution\", \"Uncertainties\", \"Further questions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was just wondering on capital inefficiencies.\",\n  \"answer_quote\": \"I think you should assume that that is a multi-year programme of work. We've got, for example, probably $5 billion plus of excess capital in the US. That will come out, we expect, over several CCAR cycles.\",\n  \"reason\": \"The answer directly addresses the question about capital inefficiencies, provides a numeric example of excess capital, and discusses the multi-year nature of the work, aligning with the question's intent. It also touches on related topics such as regulatory discussions and business growth.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about capital inefficiencies and their resolution.\",\n  \"main_topics\": [\"Capital inefficiencies\", \"Capital release\", \"Regulatory discussions\", \"Business growth\", \"Lending pipeline\", \"Growth and transformation plans\", \"Cost-transformation plans\", \"Optimism and caution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was just wondering on capital inefficiencies.\",\n  \"answer_quote\": \"I think you should assume that that is a multi-year programme of work. We've got, for example, probably $5 billion plus of excess capital in the US. That will come out, we expect, over several CCAR cycles. There's various capital-optimisation opportunities that we're working on in Asia, which will take a few years to effect. So I would say it's a multi-year programme of work. We know what that programme of work is and we're just progressively working on it. And some of it is driven by ongoing discussions with regulators, and I think the confidence in regulators to see capital release coming out of places will improve as we see a stronger path out of Covid. To summarise, we've had a good start to the year, with good business growth and an improved lending pipeline moving into the rest of 2021. We're making good progress on our growth and transformation plans and we remain on track to deliver what we promised in February. We remain absolutely committed to our cost-transformation plans. We're feeling more optimistic about the rest of the year than we did in February, but we remain cautious around the uncertainties that remain. If you have any further questions, please do pick them up with Richard and the team. Thank you once again for joining us today.\",\n  \"reason\": \"The answer directly addresses the question about capital inefficiencies, provides a multi-year plan with a specific numeric example, and discusses ongoing efforts and future expectations, aligning with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiry about capital inefficiencies and their impact on the bank's financials.\",\n  \"main_topics\": [\"Capital inefficiencies\", \"Capital release\", \"Regulatory discussions\", \"Business growth\", \"Lending pipeline\", \"Growth and transformation plans\", \"Cost-transformation plans\", \"Optimism and caution\", \"Uncertainties\", \"Further questions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was just wondering on capital inefficiencies.\",\n  \"answer_quote\": \"I think you should assume that that is a multi-year programme of work. We've got, for example, probably $5 billion plus of excess capital in the US. That will come out, we expect, over several CCAR cycles.\",\n  \"reason\": \"The answer directly addresses the question about capital inefficiencies, provides a numeric example of excess capital, and discusses the multi-year nature of the programme, aligning with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiry about capital inefficiencies\",\n  \"main_topics\": [\"Capital inefficiencies\", \"Capital release\", \"Regulatory discussions\", \"Business growth\", \"Lending pipeline\", \"Growth and transformation plans\", \"Cost-transformation plans\", \"Optimism and caution\", \"Uncertainties\", \"Further questions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was just wondering on capital inefficiencies.\",\n  \"answer_quote\": \"I think you should assume that that is a multi-year programme of work. We've got, for example, probably $5 billion plus of excess capital in the US. That will come out, we expect, over several CCAR cycles.\",\n  \"reason\": \"The answer directly addresses the question about capital inefficiencies, provides a numeric example of excess capital, and discusses the multi-year nature of the work, aligning with the question's intent. It also touches on related topics such as regulatory discussions and business growth.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 653,
+      "batch_seconds": 17.227680126999985
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 707,
+      "batch_seconds": 16.73286601899963
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 707,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "97ce61f9fc1a56c180178f67ab83093ef73c61f2dcc05572ef188e245adb8d20",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

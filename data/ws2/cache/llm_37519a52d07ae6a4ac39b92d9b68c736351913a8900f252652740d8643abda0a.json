@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Impairment run-rate and hedge size and duration\",\n  \"main_topics\": [\n    \"Impairment run-rate\",\n    \"Hedge size and duration\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"answer_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"reason\": \"The answer directly addresses the impairment run-rate and hedge size and duration, providing a high level of evidence with specific figures and a clear stance on the future outlook.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impairment run-rate and hedge size and duration\",\n  \"main_topics\": [\"Impairment run-rate\", \"Hedge size and duration\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"answer_quote\": \"I think one thing I'd refer you to is that a lot of our impairment run-rate is obviously driven by our unsecured books. The unsecured books in terms of size are down a lot. They're down about £17bn if you add up the US and the UK. Then of course there's an argument to be made that obviously the quality of the books may feel quite different now having gone through a period of stress and reset. I would be very surprised if our impairment run-rates were getting back to those levels any time soon. In some ways, it would be nice if they were, because that means our balances are growing extremely quickly. I think that's unlikely though. So, impairment run-rate, I'll be surprised if it gets anywhere near £500m in the timeframe you were indicating.\",\n  \"reason\": \"The answer directly addresses the impairment run-rate question, providing a high-level estimate and explaining the factors affecting it, and also discusses the hedge size and duration, indicating ongoing review and potential changes.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impairment run-rate and hedge size and duration\",\n  \"main_topics\": [\n    \"Impairment run-rate\",\n    \"Hedge size and duration\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"answer_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"reason\": \"The answer directly addresses the impairment run-rate and hedge size and duration, providing a high level of evidence with specific figures and a clear stance on the future outlook.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impairment run-rate and hedge size and duration\",\n  \"main_topics\": [\n    \"Impairment run-rate\",\n    \"Hedge size and duration\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"answer_quote\": \"In terms of impairment, I think the gist of your question is, what is the run-rate of the impairment, away from book ups and releases? Then you quoted pre-pandemic levels of about £500m and, ask where would it be now?\",\n  \"reason\": \"The answer directly addresses the impairment run-rate and hedge size and duration, providing a high level of evidence with specific figures and a clear stance on the future outlook.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1039,
+      "batch_seconds": 29.782261903999824
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1087,
+      "batch_seconds": 93.95158396999977
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1087,
+      "batch_seconds": 95.09612621699853
+    }
+  ],
+  "exchange_id": "5c9f6bef592a-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "37519a52d07ae6a4ac39b92d9b68c736351913a8900f252652740d8643abda0a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

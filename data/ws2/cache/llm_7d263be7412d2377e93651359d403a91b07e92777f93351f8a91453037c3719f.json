@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about trends in Q423 regarding BUK and mix in depositor behavior.\",\n  \"main_topics\": [\"Q423 trends\", \"Depositor behavior\", \"BUK\", \"Mix\", \"Deposit pricing\", \"Competitive dynamic\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there anything you can say in terms of what you are seeing thus far in Q423, how that looks versus third quarter particularly in terms of BUK and mix?\",\n  \"answer_quote\": \"The one thing I would say though is that, if you think about the broad trends as customers continue to seek yield, I think those trends remain out there. I think clearly the deposit pricing tables have changed a little bit. So some of the very high rate products have come out of the market, although there are still some smaller players at similar rates. So the competitive dynamic has changed slightly, but I would say the big macros that of consumer trends are still in evidence.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about trends in depositor behavior in Q423 compared to Q3, focusing on BUK and mix.\",\n  \"main_topics\": [\"Depositor behavior\", \"Q423 trends\", \"Q3 comparison\", \"BUK\", \"Mix\", \"Deposit pricing\", \"Competitive dynamics\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there anything you can say in terms of what you are seeing thus far in Q423, how that looks versus third quarter particularly in terms of BUK and mix?\",\n  \"answer_quote\": \"Yes, obviously we get daily MI. The one thing I would say though is we've only seen one month end, consumer deposits move around an awful lot during a month, so looking at any particular day doesn't tell you very much actually. So we've only had really one key read. However, what I would say is that, if you think about the broad trends as customers continue to seek yield, I think those trends remain out there. I think clearly the deposit pricing tables have changed a little bit. So some of the very high rate products have come out of the market, although there are still some smaller players at similar rates. So the competitive dynamic has changed slightly, but I would say the big macros that of consumer trends are still in evidence.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about trends in Q423 regarding BUK and mix in depositor behavior.\",\n  \"main_topics\": [\"Q423 trends\", \"Depositor behavior\", \"BUK\", \"Mix\", \"Deposit pricing\", \"Competitive dynamic\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there anything you can say in terms of what you are seeing thus far in Q423, how that looks versus third quarter particularly in terms of BUK and mix?\",\n  \"answer_quote\": \"The one thing I would say though is that, if you think about the broad trends as customers continue to seek yield, I think those trends remain out there. I think clearly the deposit pricing tables have changed a little bit. So some of the very high rate products have come out of the market, although there are still some smaller players at similar rates. So the competitive dynamic has changed slightly, but I would say the big macros that of consumer trends are still in evidence.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about trends in Q423 regarding BUK and mix in depositor behavior.\",\n  \"main_topics\": [\"Q423 trends\", \"Depositor behavior\", \"BUK\", \"Mix\", \"Deposit pricing\", \"Competitive dynamic\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there anything you can say in terms of what you are seeing thus far in Q423, how that looks versus third quarter particularly in terms of BUK and mix?\",\n  \"answer_quote\": \"The one thing I would say though is that, if you think about the broad trends as customers continue to seek yield, I think those trends remain out there. I think clearly the deposit pricing tables have changed a little bit. So some of the very high rate products have come out of the market, although there are still some smaller players at similar rates. So the competitive dynamic has changed slightly, but I would say the big macros that of consumer trends are still in evidence.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 624,
+      "batch_seconds": 15.590586241999517
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 669,
+      "batch_seconds": 14.078725104000114
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 669,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7d263be7412d2377e93651359d403a91b07e92777f93351f8a91453037c3719f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

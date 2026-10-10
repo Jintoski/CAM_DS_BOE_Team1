@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Sustainability of deposit outflows and effects on Transaction Banking\",\n  \"main_topics\": [\"Corporate deposit outflows\", \"Transaction Banking\", \"Deposit migration\", \"Rate cycle\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had a question on deposits and margins, but actually I'll keep it to Transaction Banking. You obviously had a very strong Q422 once again. We're seeing a lot of deposit outflows in corporate, and you've seen some as well. If you can give us a bit more colour, is that sustainable and should we build on that, or are we going to see some of the effects that we've been debating this results season where, if you lose more deposits or it becomes more competitive, you will get some of that back? Obviously, we're almost at the peak of the rate cycle. Just some colour on what happens if there are deposit outflows there.\",\n  \"answer_quote\": \"If you look quarter-on-quarter, you can see a bit of movement in corporate. I think the average balances, quarter on quarter, were probably a bit stronger than that year-end position would indicate, so there's a bit of seasonality in there, we think. There's also a bit of FX. I think the thing I would probably call out more than that is we have seen quite strong migration within corporate. I think it's exactly what you'd expect, because typically corporates are multi-bank, you've got a treasurer there optimising the deposit position. So, you will have seen that we reduced the size of the structural hedge by £3bn, quarter on quarter, that is relating to wholesale deposits, because of the migration period. And so, what we've done is we've paused the roll to preserve the buffer that we have that takes account of that volatility. So, I think it's more of a migration effort. We have seen that happen. Now, behaviourally, what do we think will happen from here? It's difficult to call, but we've been probably quite surprised by the speed at which retail migration has happened, it's been quite slow. You'd probably imagine that corporate migration is faster, so I think they've been faster off the mark. So, do we see a greater movement from here? I wouldn't have thought so. I would have thought we've seen that really early activity.\",\n  \"reason\": \"The response directly addresses the question's intent, provides high-level evidence with a specific numeric example, and aligns with the narrative of the question without forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Sustainability of deposit outflows and effects on Transaction Banking\",\n \"main_topics\": [\"Corporate deposit outflows\", \"Transaction Banking\", \"Migration of deposits\", \"FX impact\", \"Structural hedge\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I had a question on deposits and margins, but actually I'll keep it to Transaction Banking. You obviously had a very strong Q422 once again. We're seeing a lot of deposit outflows in corporate, and you've seen some as well. If you can give us a bit more colour, is that sustainable and should we build on that, or are we going to see some of the effects that we've been debating this results season where, if you lose more deposits or it becomes more competitive, you will get some of that back? Obviously, we're almost at the peak of the rate cycle. Just some colour on what happens if there are deposit outflows there.\",\n \"answer_quote\": \"If you look quarter-on-quarter, you can see a bit of movement in corporate. I think the average balances, quarter on quarter, were probably a bit stronger than that year-end position would indicate, so there's a bit of seasonality in there, we think. There's also a bit of FX. I think the thing I would probably call out more than that is we have seen quite strong migration within corporate. I think it's exactly what you'd expect, because typically corporates are multi-bank, you've got a treasurer there optimising the deposit position. So, you will have seen that we reduced the size of the structural hedge by £3bn, quarter on quarter, that is relating to wholesale deposits, because of the migration period. And so, what we've done is we've paused the roll to preserve the buffer that we have that takes account of that volatility. So, I think it's more of a migration effort. We have seen that happen. Now, behaviourally, what do we think will happen from here? It's difficult to call, but we've been probably quite surprised by the speed at which retail migration has happened, it's been quite slow. You'd probably imagine that corporate migration is faster, so I think they've been faster off the mark. So, do we see a greater movement from here? I wouldn't have thought so. I would have thought we've seen that really early activity.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 797,
+      "batch_seconds": 22.248980599999413
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 842,
+      "batch_seconds": 22.267153798000436
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "18ccb895bb90dc5b277f3c397b81480cf1be4a5b3b8df556a2eb3a27824c83ad",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Sustainability of deposit outflows and effects on Transaction Banking",
+    "main_topics": [
+      "Corporate deposit outflows",
+      "Transaction Banking",
+      "Deposit migration",
+      "Rate cycle"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I had a question on deposits and margins, but actually I'll keep it to Transaction Banking. You obviously had a very strong Q422 once again. We're seeing a lot of deposit outflows in corporate, and you've seen some as well. If you can give us a bit more colour, is that sustainable and should we build on that, or are we going to see some of the effects that we've been debating this results season where, if you lose more deposits or it becomes more competitive, you will get some of that back? Obviously, we're almost at the peak of the rate cycle. Just some colour on what happens if there are deposit outflows there.",
+    "answer_quote": "If you look quarter-on-quarter, you can see a bit of movement in corporate. I think the average balances, quarter on quarter, were probably a bit stronger than that year-end position would indicate, so there's a bit of seasonality in there, we think. There's also a bit of FX. I think the thing I would probably call out more than that is we have seen quite strong migration within corporate. I think it's exactly what you'd expect, because typically corporates are multi-bank, you've got a treasurer there optimising the deposit position. So, you will have seen that we reduced the size of the structural hedge by £3bn, quarter on quarter, that is relating to wholesale deposits, because of the migration period. And so, what we've done is we've paused the roll to preserve the buffer that we have that takes account of that volatility. So, I think it's more of a migration effort. We have seen that happen. Now, behaviourally, what do we think will happen from here? It's difficult to call, but we've been probably quite surprised by the speed at which retail migration has happened, it's been quite slow. You'd probably imagine that corporate migration is faster, so I think they've been faster off the mark. So, do we see a greater movement from here? I wouldn't have thought so. I would have thought we've seen that really early activity.",
+    "reason": "The response directly addresses the question's intent, provides high-level evidence with a specific numeric example, and aligns with the narrative of the question without forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

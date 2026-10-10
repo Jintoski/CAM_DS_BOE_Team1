@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for quantification of impact and guidance on NII\",\n  \"main_topics\": [\"late fee changes impact\", \"NII guidance\", \"Bank of England levy offset\", \"swap market movements\", \"NII sensitivity to base rate\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you just give us some quantification of the expected annualised impact around the late fee changes for your US consumer business?\",\n  \"answer_quote\": \"However, on the 20th of February, we did include it in the flight path. You can see that it's actually a net negative over the period.\",\n  \"reason\": \"The answer provides some quantification and guidance but does not fully address the request for expected annualised impact, and hedges on the sensitivity of NII to base rate changes.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Quantify the impact of late fee changes on US consumer business RoTE, discuss NII guidance in light of Bank of England levy and swap market movements, and explain NII sensitivity to base rate changes.\",\n \"main_topics\": [\"Late Fee Impact on RoTE\", \"NII Guidance and Bank of England Levy\", \"NII Sensitivity to Base Rate Changes\"],\n \"answer_completeness\": \"Partial\",\n \"response_stance\": \"Hedged\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"Could you just give us some quantification of the expected annualised impact around the late fee changes for your US consumer business?\",\n \"answer_quote\": \"We continue to guide to circa GBP 10.7 billion for the full business excluding the IB and head office and to circa GBP 6.1 billion for BUK.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1162,
+      "batch_seconds": 36.2811490590002
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1207,
+      "batch_seconds": 96.16280181799993
+    }
+  ],
+  "exchange_id": "b70241a32d2d-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "cae1447764605dda94a3a94fa6b79c3526c3329f30af6e2c5f6e0569cb2f9ca6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for quantification of impact and guidance on NII",
+    "main_topics": [
+      "late fee changes impact",
+      "NII guidance",
+      "Bank of England levy offset",
+      "swap market movements",
+      "NII sensitivity to base rate"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Could you just give us some quantification of the expected annualised impact around the late fee changes for your US consumer business?",
+    "answer_quote": "However, on the 20th of February, we did include it in the flight path. You can see that it's actually a net negative over the period.",
+    "reason": "The answer provides some quantification and guidance but does not fully address the request for expected annualised impact, and hedges on the sensitivity of NII to base rate changes."
+  },
+  "whitespace_adjusted_quotes": []
+}

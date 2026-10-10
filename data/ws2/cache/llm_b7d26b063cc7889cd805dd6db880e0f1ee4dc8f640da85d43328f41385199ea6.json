@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on non-interest income components and trends\",\n  \"main_topics\": [\n    \"Payments disclosure\",\n    \"Non-interest income breakdown\",\n    \"Trends in non-interest income\",\n    \"Private Bank non-interest income\",\n    \"CIB Payments business\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"What's the remaining £300m made up of? What trends are you seeing in that part? Then in CC&P, similarly there was £1.2bn of non-interest income, so is the balance the Private Bank in non-interest income? How are the trends looking there? Lastly, the same in the CIB. What you're showing in the Payments business, is that coming through the Transaction Banking line?\",\n  \"answer_quote\": \"In BUK, we've given a list of things that are included in what we consider Payments, and by inference everything that isn't there would be excluded. For example, fees in BUK that we don't consider payments related include our wealth business, to the extent that there are any fees and surcharges for late payment or other forms of banking services that aren't related to the list that we've got there. In the corporate wholesale space, the wholesale payment fee would be any fees associated with a payment in the Transaction Banking space. We would consider them as Payments. Corporate payments is actually one of the things that we're really excited about. It's very hard for a non-bank competitor to compete when you can link up payment acceptance, making payments and the fees that you charge for that. We've given a segment split, which is seen on slide 35, that gives you the segment split of everything we've called out. Hopefully there's enough there to go on. If you want to spend a bit more time just to see if you've got the geography [and segmentation] right, I'd probably suggest you spend some time with IR, who can bridge it back to all the various other things we may have said.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the composition and trends of non-interest income in various banking segments.\",\n  \"main_topics\": [\"Payments disclosure\", \"Non-interest income composition\", \"Trends in non-interest income\", \"Private Bank non-interest income\", \"CIB non-interest income\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"What's the remaining £300m made up of? What trends are you seeing in that part? Then in CC&P, similarly there was £1.2bn of non-interest income, so is the balance the Private Bank in non-interest income? How are the trends looking there? Lastly, the same in the CIB. What you're showing in the Payments business, is that coming through the Transaction Banking line?\",\n  \"answer_quote\": \"In BUK, we've given a list of things that are included in what we consider Payments, and by inference everything that isn't there would be excluded. For example, fees in BUK that we don't consider payments related include our wealth business, to the extent that there are any fees and surcharges for late payment or other forms of banking services that aren't related to the list that we've got there. In the corporate wholesale space, the wholesale payment fee would be any fees associated with a payment in the Transaction Banking space. We would consider them as Payments. Corporate payments is actually one of the things that we're really excited about. It's very hard for a non-bank competitor to compete when you can link up payment acceptance, making payments and the fees that you charge for that. We've given a segment split, which is seen on slide 35, that gives you the segment split of everything we've called out. Hopefully there's enough there to go on. If you want to spend a bit more time just to see if you've got the geography [and segmentation] right, I'd probably suggest you spend some time with IR, who can bridge it back to all the various other things we may have said.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on non-interest income components and trends\",\n  \"main_topics\": [\n    \"Payments disclosure\",\n    \"Non-interest income breakdown\",\n    \"Trends in non-interest income\",\n    \"Private Bank non-interest income\",\n    \"CIB Payments business\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"What's the remaining £300m made up of? What trends are you seeing in that part? Then in CC&P, similarly there was £1.2bn of non-interest income, so is the balance the Private Bank in non-interest income? How are the trends looking there? Lastly, the same in the CIB. What you're showing in the Payments business, is that coming through the Transaction Banking line?\",\n  \"answer_quote\": \"In BUK, we've given a list of things that are included in what we consider Payments, and by inference everything that isn't there would be excluded. For example, fees in BUK that we don't consider payments related include our wealth business, to the extent that there are any fees and surcharges for late payment or other forms of banking services that aren't related to the list that we've got there. In the corporate wholesale space, the wholesale payment fee would be any fees associated with a payment in the Transaction Banking space. We would consider them as Payments. Corporate payments is actually one of the things that we're really excited about. It's very hard for a non-bank competitor to compete when you can link up payment acceptance, making payments and the fees that you charge for that. We've given a segment split, which is seen on slide 35, that gives you the segment split of everything we've called out. Hopefully there's enough there to go on. If you want to spend a bit more time just to see if you've got the geography [and segmentation] right, I'd probably suggest you spend some time with IR, who can bridge it back to all the various other things we may have said.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on non-interest income components and trends\",\n  \"main_topics\": [\n    \"Payments disclosure\",\n    \"Non-interest income breakdown\",\n    \"Trends in non-interest income\",\n    \"Private Bank non-interest income\",\n    \"CIB Payments business\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"What's the remaining £300m made up of? What trends are you seeing in that part? Then in CC&P, similarly there was £1.2bn of non-interest income, so is the balance the Private Bank in non-interest income? How are the trends looking there? Lastly, the same in the CIB. What you're showing in the Payments business, is that coming through the Transaction Banking line?\",\n  \"answer_quote\": \"In BUK, we've given a list of things that are included in what we consider Payments, and by inference everything that isn't there would be excluded. For example, fees in BUK that we don't consider payments related include our wealth business, to the extent that there are any fees and surcharges for late payment or other forms of banking services that aren't related to the list that we've got there. In the corporate wholesale space, the wholesale payment fee would be any fees associated with a payment in the Transaction Banking space. We would consider them as Payments. Corporate payments is actually one of the things that we're really excited about. It's very hard for a non-bank competitor to compete when you can link up payment acceptance, making payments and the fees that you charge for that. We've given a segment split, which is seen on slide 35, that gives you the segment split of everything we've called out. Hopefully there's enough there to go on. If you want to spend a bit more time just to see if you've got the geography [and segmentation] right, I'd probably suggest you spend some time with IR, who can bridge it back to all the various other things we may have said.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 744,
+      "batch_seconds": 21.440061830999184
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 789,
+      "batch_seconds": 20.96559369500028
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 789,
+      "batch_seconds": 20.02667680200102
+    }
+  ],
+  "exchange_id": "d46e8685e978-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b7d26b063cc7889cd805dd6db880e0f1ee4dc8f640da85d43328f41385199ea6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

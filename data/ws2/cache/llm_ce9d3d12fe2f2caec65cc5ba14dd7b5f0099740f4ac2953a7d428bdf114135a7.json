@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Long-term outlook for loan-to-deposit ratio, business targets, and deposit dynamics\",\n  \"main_topics\": [\"Loan-to-deposit ratio\", \"Business targets\", \"Deposit dynamics\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions, please. One is on your loan-to-deposit ratio. I think it's now sub-60%. It reflects a massive injection of deposits over the last three years, and this has driven an excess liquidity position that's become extremely lucrative for yourself and other banks and a big source of earnings for you now. What's the long-term outlook for the loan-to-deposit ratio? Where do you want to run the business at? Indeed, how do we get there in terms of loans and deposits? Because there's a lot of focus on the emerging deposit dynamic globally, and it could include things like outflows. How do you think about that?\",\n  \"answer_quote\": \"Aman, we're not specifically targeting an LDR. What we're targeting is medium-term loan growth of mid-single-digit. And for deposits, we want to have a leading proposition and remain competitive, but you've probably already seen we're not going to be paying above market to attract deposits. So we will be within the market average of deposit growth, whereas for loans, we have medium-term mid-single-digit growth. Where does this take the LDR is not something we really track. It's not necessarily a leading performance metric for us. The way to think about it is mid-single-digit loans and possibly a bit more, and we will defend our deposit franchises in our home markets - Hong Kong and the UK - as you've seen in Q4, but we'll retain our very strong franchise, but I wouldn't be that bullish with deposit growth over the next year or two, because we had this massive growth in deposits. Some of that will flow out of the system over the next year or two, but I think you should probably think deposits broadly stable and loan growth at that mid-single-digit and, ideally, slightly above over the two or three years.\",\n  \"reason\": \"The answer directly addresses the long-term outlook for the loan-to-deposit ratio, business targets, and deposit dynamics, providing specific figures and a clear stance on the future, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 745,
+      "batch_seconds": 21.440061830999184
+    }
+  ],
+  "exchange_id": "4970375d012d-x023",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ce9d3d12fe2f2caec65cc5ba14dd7b5f0099740f4ac2953a7d428bdf114135a7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Long-term outlook for loan-to-deposit ratio, business targets, and deposit dynamics",
+    "main_topics": [
+      "Loan-to-deposit ratio",
+      "Business targets",
+      "Deposit dynamics"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Two questions, please. One is on your loan-to-deposit ratio. I think it's now sub-60%. It reflects a massive injection of deposits over the last three years, and this has driven an excess liquidity position that's become extremely lucrative for yourself and other banks and a big source of earnings for you now. What's the long-term outlook for the loan-to-deposit ratio? Where do you want to run the business at? Indeed, how do we get there in terms of loans and deposits? Because there's a lot of focus on the emerging deposit dynamic globally, and it could include things like outflows. How do you think about that?",
+    "answer_quote": "Aman, we're not specifically targeting an LDR. What we're targeting is medium-term loan growth of mid-single-digit. And for deposits, we want to have a leading proposition and remain competitive, but you've probably already seen we're not going to be paying above market to attract deposits. So we will be within the market average of deposit growth, whereas for loans, we have medium-term mid-single-digit growth. Where does this take the LDR is not something we really track. It's not necessarily a leading performance metric for us. The way to think about it is mid-single-digit loans and possibly a bit more, and we will defend our deposit franchises in our home markets - Hong Kong and the UK - as you've seen in Q4, but we'll retain our very strong franchise, but I wouldn't be that bullish with deposit growth over the next year or two, because we had this massive growth in deposits. Some of that will flow out of the system over the next year or two, but I think you should probably think deposits broadly stable and loan growth at that mid-single-digit and, ideally, slightly above over the two or three years.",
+    "reason": "The answer directly addresses the long-term outlook for the loan-to-deposit ratio, business targets, and deposit dynamics, providing specific figures and a clear stance on the future, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

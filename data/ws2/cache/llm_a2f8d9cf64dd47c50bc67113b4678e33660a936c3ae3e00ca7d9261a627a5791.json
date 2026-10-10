@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Exploring bank hedging strategies and structural hedge notional changes\",\n  \"main_topics\": [\"Bank hedging strategies\", \"Structural hedge notional\", \"Hedge sensitivity reduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Does that mean that it then gives you more potential to then increase the structural hedge notional and that's the logic or you're talking about the broader picture?\",\n  \"answer_quote\": \"What we've said is that we're always looking for opportunities to reduce the overall structural hedge sensitivity. We've taken it down from $4.3 billion about a year ago down to $2.7 billion now, and it was, if you look back, above $7 billion 18 months, two years ago, so we've brought it down quite a lot.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on the bank's hedging strategy and structural hedge notional changes, supported by high-level numeric evidence and forward guidance.\"\n}",
+  "data": {
+    "question_intent": "Exploring bank hedging strategies and structural hedge notional changes",
+    "main_topics": [
+      "Bank hedging strategies",
+      "Structural hedge notional",
+      "Hedge sensitivity reduction"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Does that mean that it then gives you more potential to then increase the structural hedge notional and that's the logic or you're talking about the broader picture?",
+    "answer_quote": "What we've said is that we're always looking for opportunities to reduce the overall structural hedge sensitivity. We've taken it down from $4.3 billion about a year ago down to $2.7 billion now, and it was, if you look back, above $7 billion 18 months, two years ago, so we've brought it down quite a lot.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on the bank's hedging strategy and structural hedge notional changes, supported by high-level numeric evidence and forward guidance."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "7f553358cc34-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a2f8d9cf64dd47c50bc67113b4678e33660a936c3ae3e00ca7d9261a627a5791"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Seeking clarification on NII guidance and potential RWA savings from reallocation.\",\n  \"main_topics\": [\"NII guidance\", \"Hong Kong loan growth\", \"RWA savings from reallocation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And then the second question is on the reallocation. You've obviously called out the $1.5 billion and given some colour on the revenues, but are there any capital-intensive businesses further down the line that we could look forward to in terms of RWA savings that you could reallocate?\",\n  \"answer_quote\": \"In terms of the reallocation, just to remind, the reallocation really comes from those businesses which are either sub-scale or not strategic, so there's nothing specific, from an RWA perspective, which is highly concentrated, that's being considered as part of that picture.\",\n  \"reason\": \"The answer directly addresses the questions asked, providing a complete response with medium-level evidence, including specific figures like the $42 billion NII guidance and the $1.5 billion reallocation.\"\n}",
+  "data": {
+    "question_intent": "Seeking clarification on NII guidance and potential RWA savings from reallocation.",
+    "main_topics": [
+      "NII guidance",
+      "Hong Kong loan growth",
+      "RWA savings from reallocation"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And then the second question is on the reallocation. You've obviously called out the $1.5 billion and given some colour on the revenues, but are there any capital-intensive businesses further down the line that we could look forward to in terms of RWA savings that you could reallocate?",
+    "answer_quote": "In terms of the reallocation, just to remind, the reallocation really comes from those businesses which are either sub-scale or not strategic, so there's nothing specific, from an RWA perspective, which is highly concentrated, that's being considered as part of that picture.",
+    "reason": "The answer directly addresses the questions asked, providing a complete response with medium-level evidence, including specific figures like the $42 billion NII guidance and the $1.5 billion reallocation."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "b1e2035f0240-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b3e94edd90b00226f09dda3d91e1e64e15d3241d14587e0e52ecfaee390d65f0"
+}

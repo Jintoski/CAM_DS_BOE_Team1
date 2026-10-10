@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about cost synergies, cost base, and capital allocation in USCB\",\n  \"main_topics\": [\"cost synergies\", \"cost base\", \"capital allocation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I'm just mindful of that implying potentially a step up in costs in USCB as we look into 2026. I'm just curious if you could give us an indication of the cost base that's attached to this.\",\n  \"answer_quote\": \"I wouldn't call out any particular integration chunks next year, but clearly, we'll update you on that. But funding, revenue and costs will come in time, but we do have confidence that we can get this to high teens RoTE.\",\n  \"reason\": \"The response directly addresses the inquiry about cost synergies, cost base, and capital allocation, providing a high level of evidence with numeric references and forward guidance.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about cost synergies, cost base, and capital allocation in Best Egg's financials.\",\n  \"main_topics\": [\"Cost Synergies\", \"Cost Base\", \"Capital Allocation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I'm just mindful of that implying potentially a step up in costs in USCB as we look into 2026. I'm just curious if you could give us an indication of the cost base that's attached to this.\",\n  \"answer_quote\": \"I wouldn't necessarily do the kind of scaling that that you're talking about here. That said, you've replaced capital heavy balances with capital light balances.\",\n  \"reason\": \"The answer partially addresses the cost base inquiry but hedges on the specifics of cost synergies and capital allocation, providing some numeric evidence but not fully satisfying the question's intent.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about cost synergies, cost base, and capital allocation in Best Egg's financials\",\n  \"main_topics\": [\"cost synergies\", \"cost base\", \"capital allocation\", \"ROIC\", \"funding synergies\", \"revenue synergies\", \"Investment Bank target\", \"AIRB treatment\", \"UK growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I'm just mindful of that implying potentially a step up in costs in USCB as we look into 2026. I'm just curious if you could give us an indication of the cost base that's attached to this.\",\n  \"answer_quote\": \"I wouldn't necessarily do the kind of scaling that that you're talking about here. That said, you've replaced capital heavy balances with capital light balances.\",\n  \"reason\": \"The answer provides some information on cost synergies and capital allocation but does not fully address the cost base inquiry, and the response is hedged with phrases like 'I wouldn't necessarily do the kind of scaling that that you're talking about here.'\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about cost synergies, cost base, and capital allocation in USCB\",\n  \"main_topics\": [\"cost synergies\", \"cost base\", \"capital allocation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I'm just mindful of that implying potentially a step up in costs in USCB as we look into 2026. I'm just curious if you could give us an indication of the cost base that's attached to this.\",\n  \"answer_quote\": \"I wouldn't call out any particular integration chunks next year, but clearly, we'll update you on that. But funding, revenue and costs will come in time, but we do have confidence that we can get this to high teens RoTE.\",\n  \"reason\": \"The response directly addresses the inquiry about cost synergies, cost base, and capital allocation, providing a high level of evidence with numeric references and forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1296,
+      "batch_seconds": 43.28837274200032
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1344,
+      "batch_seconds": 98.05423513099959
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1350,
+      "batch_seconds": 94.00161404900064
+    }
+  ],
+  "exchange_id": "b1b01ee860a4-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0ab1de876cc83681a322630a02a2b4e1e8ec14ad041c02d4657f34690a1cbc2d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the implications of the shift in investment from deposits to invested assets, the impact of geopolitical events on wealth, the current state of capital management, and the timing of share buybacks.\",\n  \"main_topics\": [\"Invested Assets\", \"Geopolitical Impact\", \"Capital Management\", \"Share Buybacks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How should we think about that? Is that a structural change you're seeing? Are clients becoming more invested and, if so, what does that mean for fee margins and for returns going forward? Within the $39 billion, without the conflict in Iran, would that number have been higher or lower?\",\n  \"answer_quote\": \"Firstly, in terms of invested assets - we are very pleased with the growth in invested assets, but I just want to remind you: typically, Q1 is strong for investments. There is some seasonality of money moving from deposits into investment assets in Q1. We've also been very strong in terms of the new mandates we've got from Private Banking, so, overall, wealth is a very robust story to call out and it's very broad-based, not just dependent on one lever. In terms of the conflict, there was a bit of risk of wait and watch in the second half of March. However, as April has come through, we continue to see a high volume of transaction activity and, as I said earlier, our customers continue to readjust their portfolios, and our strength lies in the broad range of products we have on offer. We have really invested in this business. Going forward, from a fee income perspective, I do believe there is a huge tailwind for us in terms of how we build on this year on year. Coming back to capital now, firstly, I'm really pleased that, even with this very large core investment we have done in Hong Kong - which is a critical market for us, where we are hugely confident about the future growth prospects - we have still remained, throughout the entire period, within our CET1 operating range and that truly reflects the very strong capital generation capabilities of our business across all four businesses. That is very encouraging. Now, in terms of share buybacks, you're right that, even with all the one-offs we've had in the first quarter, we are in a good position, and I expect Q2 to be equally highly capital generating for us but, of course, a share buyback decision is done on a quarterly basis. Starting point is always capital generation, which looks strong. We have to also look at loan growth. Then, we have to look at our 50% dividend payout ratio, which is an important target for us, and the residual is always in terms of share buybacks and distributions, notwithstanding any inorganic opportunities for which we have an extremely high hurdle rate. We will look at it again starting from Q2.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific references to invested assets, geopolitical impact, capital management, and share buybacks, and includes forward guidance for Q2.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1021,
+      "batch_seconds": 31.574076158000025
+    }
+  ],
+  "exchange_id": "351debb0a36f-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bda6a5a9d3f8750611d6e43d4e71c16a987d5f1fa0d39d7de0fd146324f3667c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the implications of the shift in investment from deposits to invested assets, the impact of geopolitical events on wealth, the current state of capital management, and the timing of share buybacks.",
+    "main_topics": [
+      "Invested Assets",
+      "Geopolitical Impact",
+      "Capital Management",
+      "Share Buybacks"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How should we think about that? Is that a structural change you're seeing? Are clients becoming more invested and, if so, what does that mean for fee margins and for returns going forward? Within the $39 billion, without the conflict in Iran, would that number have been higher or lower?",
+    "answer_quote": "Firstly, in terms of invested assets - we are very pleased with the growth in invested assets, but I just want to remind you: typically, Q1 is strong for investments. There is some seasonality of money moving from deposits into investment assets in Q1. We've also been very strong in terms of the new mandates we've got from Private Banking, so, overall, wealth is a very robust story to call out and it's very broad-based, not just dependent on one lever. In terms of the conflict, there was a bit of risk of wait and watch in the second half of March. However, as April has come through, we continue to see a high volume of transaction activity and, as I said earlier, our customers continue to readjust their portfolios, and our strength lies in the broad range of products we have on offer. We have really invested in this business. Going forward, from a fee income perspective, I do believe there is a huge tailwind for us in terms of how we build on this year on year. Coming back to capital now, firstly, I'm really pleased that, even with this very large core investment we have done in Hong Kong - which is a critical market for us, where we are hugely confident about the future growth prospects - we have still remained, throughout the entire period, within our CET1 operating range and that truly reflects the very strong capital generation capabilities of our business across all four businesses. That is very encouraging. Now, in terms of share buybacks, you're right that, even with all the one-offs we've had in the first quarter, we are in a good position, and I expect Q2 to be equally highly capital generating for us but, of course, a share buyback decision is done on a quarterly basis. Starting point is always capital generation, which looks strong. We have to also look at loan growth. Then, we have to look at our 50% dividend payout ratio, which is an important target for us, and the residual is always in terms of share buybacks and distributions, notwithstanding any inorganic opportunities for which we have an extremely high hurdle rate. We will look at it again starting from Q2.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific references to invested assets, geopolitical impact, capital management, and share buybacks, and includes forward guidance for Q2."
+  },
+  "whitespace_adjusted_quotes": []
+}

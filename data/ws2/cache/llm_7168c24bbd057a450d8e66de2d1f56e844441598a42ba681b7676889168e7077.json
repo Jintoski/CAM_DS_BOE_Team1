@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Market stability and competition\",\n  \"main_topics\": [\"Market stability\", \"Competition\", \"Banking sector\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And we can take some reassurance in some of the smaller players that paid up hundred percent on the way up as if they're paying down hundred percent on the way back down.\",\n  \"answer_quote\": \"Yeah, I mean, what we're seeing is the continued stability in deposits. You're not seeing any degree of market volatility coming as a result of those rate cuts. And I don't think we are seeing any pockets of pricing which we would deem to be commercially not rational. Competition is normalised as well compared to where it was at the back end of the rate rising cycle. So both the smaller challenger banks and the NS&I product were distorting the market a little bit and it's now much more normal in terms of competition. Yeah, I think that's right, if you look year on year, the amount of the TFSME deficits are much lower. If you look at that NS&I product it's back open but [it feels like it's structured much more differently].\",\n  \"reason\": \"The answer directly addresses the question's concern about market stability and competition, providing a clear stance on the current state of the banking sector without using numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 575,
+      "batch_seconds": 13.414522689000478
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7168c24bbd057a450d8e66de2d1f56e844441598a42ba681b7676889168e7077",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Market stability and competition",
+    "main_topics": [
+      "Market stability",
+      "Competition",
+      "Banking sector"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And we can take some reassurance in some of the smaller players that paid up hundred percent on the way up as if they're paying down hundred percent on the way back down.",
+    "answer_quote": "Yeah, I mean, what we're seeing is the continued stability in deposits. You're not seeing any degree of market volatility coming as a result of those rate cuts. And I don't think we are seeing any pockets of pricing which we would deem to be commercially not rational. Competition is normalised as well compared to where it was at the back end of the rate rising cycle. So both the smaller challenger banks and the NS&I product were distorting the market a little bit and it's now much more normal in terms of competition. Yeah, I think that's right, if you look year on year, the amount of the TFSME deficits are much lower. If you look at that NS&I product it's back open but [it feels like it's structured much more differently].",
+    "reason": "The answer directly addresses the question's concern about market stability and competition, providing a clear stance on the current state of the banking sector without using numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

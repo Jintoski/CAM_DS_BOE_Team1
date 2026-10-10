@@ -1,0 +1,67 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Understanding Group's overall NII with a focus on CIB and Transactional Banking\",\n  \"main_topics\": [\"Group's NII\", \"CIB NII\", \"Transactional Banking\", \"Corporate NII\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you help us a little bit around how to think about the Group's overall NII? I suspect that might be a little bit of a focus going forward and, within that, the CIB.\",\n  \"answer_quote\": \"The CIB NII is a bit of a \\\"lesser spotted\\\" number, I think. The other thing to remember that's going through there is Transaction Banking. Corporate is in there, so that's a large part of what you're seeing.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a focused explanation on CIB and Transactional Banking's impact on Group's NII, aligning with the question's narrative.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding Group's overall NII with a focus on CIB and Transactional Banking\",\n  \"main_topics\": [\"Group's NII\", \"CIB NII\", \"Transactional Banking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you help us a little bit around how to think about the Group's overall NII?\",\n  \"answer_quote\": \"The CIB NII is a bit of a \\\"lesser spotted\\\" number, I think. The other thing to remember that's going through there is Transactional Banking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding Group's overall NII with a focus on CIB and Transactional Banking\",\n  \"main_topics\": [\"Group's NII\", \"CIB NII\", \"Transactional Banking\", \"Corporate NII\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you help us a little bit around how to think about the Group's overall NII?\",\n  \"answer_quote\": \"The CIB NII is a bit of a \\\"lesser spotted\\\" number, I think. The other thing to remember that's going through there is Transactional Banking. Corporate is in there, so that's a large part of what you're seeing.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear explanation of the Group's NII with a focus on CIB and Transactional Banking, aligning with the question's intent.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 593,
+      "batch_seconds": 14.784660463999899
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 638,
+      "batch_seconds": 14.894256813000538
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 641,
+      "batch_seconds": 14.608119999000337
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "94aeebacf1b4e34c3a87b06a366b3ccaf4ee60b829ce5acfc2496ef177df2a9d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Understanding Group's overall NII with a focus on CIB and Transactional Banking",
+    "main_topics": [
+      "Group's NII",
+      "CIB NII",
+      "Transactional Banking",
+      "Corporate NII"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can you help us a little bit around how to think about the Group's overall NII? I suspect that might be a little bit of a focus going forward and, within that, the CIB.",
+    "answer_quote": "The CIB NII is a bit of a \"lesser spotted\" number, I think. The other thing to remember that's going through there is Transaction Banking. Corporate is in there, so that's a large part of what you're seeing.",
+    "reason": "The answer directly addresses the question's intent, providing a focused explanation on CIB and Transactional Banking's impact on Group's NII, aligning with the question's narrative."
+  },
+  "whitespace_adjusted_quotes": []
+}

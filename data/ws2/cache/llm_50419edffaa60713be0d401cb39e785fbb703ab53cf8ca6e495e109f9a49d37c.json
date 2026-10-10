@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Update on US consumer deposit growth and UK mortgage flow from Kensington versus heritage book.\",\n  \"main_topics\": [\"US consumer deposit growth\", \"UK mortgage flow\", \"Funding cost benefits\", \"Mortgage spreads\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first question was on the US consumer, on the deposit side. Slide 25 shows some really good growth, particularly in the core segment, so just wanted to get an update on what you're seeing there, and anything in terms of the economic, in terms of the funding cost benefit you get there, versus the other deposits in that franchise.\",\n  \"answer_quote\": \"So we're pleased with the progress of deposits in US cards. So the difference here is really we've gone from something that was essentially a funding objective to something that is now much more strongly a retail proposition and specifically dealing with our partners. So I'd call out AARP (American Association of Retired Persons) and the launch of a tiered savings product that happened in Q3 of last year, to underpin our strategy to drive retail deposits up to around 75%.\",\n  \"reason\": \"The answer directly addresses the question's request for an update on US consumer deposit growth and UK mortgage flow, providing specific details and percentages, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1084,
+      "batch_seconds": 29.851370065000083
+    }
+  ],
+  "exchange_id": "61b944164df6-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "50419edffaa60713be0d401cb39e785fbb703ab53cf8ca6e495e109f9a49d37c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Update on US consumer deposit growth and UK mortgage flow from Kensington versus heritage book.",
+    "main_topics": [
+      "US consumer deposit growth",
+      "UK mortgage flow",
+      "Funding cost benefits",
+      "Mortgage spreads"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first question was on the US consumer, on the deposit side. Slide 25 shows some really good growth, particularly in the core segment, so just wanted to get an update on what you're seeing there, and anything in terms of the economic, in terms of the funding cost benefit you get there, versus the other deposits in that franchise.",
+    "answer_quote": "So we're pleased with the progress of deposits in US cards. So the difference here is really we've gone from something that was essentially a funding objective to something that is now much more strongly a retail proposition and specifically dealing with our partners. So I'd call out AARP (American Association of Retired Persons) and the launch of a tiered savings product that happened in Q3 of last year, to underpin our strategy to drive retail deposits up to around 75%.",
+    "reason": "The answer directly addresses the question's request for an update on US consumer deposit growth and UK mortgage flow, providing specific details and percentages, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Maturity yield on hedges in 2027\",\n  \"main_topics\": [\"Maturity yield\", \"Hedges\", \"2027\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Understood. I don't suppose any chance you could tell us what the maturity yield on the hedges is in 2027?\",\n  \"answer_quote\": \"Not off the top of my head. The average is about three, but we'll come back to you if there's anything that we can help you [with] on the detail. That was three years average [duration], rather than the specific maturing yield, but we'll come back to you.\",\n  \"reason\": \"The response deflects the question without providing the specific maturity yield, and the evidence level is low as it lacks a direct answer or numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 478,
+      "batch_seconds": 9.364408016999732
+    }
+  ],
+  "exchange_id": "700cb9deb01d-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "96f6f37fb965eed3d0954db990ac03704bf43d7a2731e669d922196245e70bee",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Maturity yield on hedges in 2027",
+    "main_topics": [
+      "Maturity yield",
+      "Hedges",
+      "2027"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Understood. I don't suppose any chance you could tell us what the maturity yield on the hedges is in 2027?",
+    "answer_quote": "Not off the top of my head. The average is about three, but we'll come back to you if there's anything that we can help you [with] on the detail. That was three years average [duration], rather than the specific maturing yield, but we'll come back to you.",
+    "reason": "The response deflects the question without providing the specific maturity yield, and the evidence level is low as it lacks a direct answer or numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

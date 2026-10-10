@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Calculate non-NII amount based on profitability\",\n  \"main_topics\": [\"Best Egg income\", \"Securitised margins\", \"Reference rates\", \"Optionality\", \"Balance sheet control\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So if we just assume a similar level of profitability to what it has been doing, so we can then work out the non-NII [amount]?\",\n  \"answer_quote\": \"So I would expect that the Best Egg income as broadly as we took it on, subject to the point that I made, which is that the securitised margins are a little bit compressed by the fact that the reference rates in the industry are a bit elevated at the moment.\",\n  \"reason\": \"The answer discusses factors affecting income and margins but does not provide a specific calculation for the non-NII amount.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 541,
+      "batch_seconds": 11.927918320000572
+    }
+  ],
+  "exchange_id": "f3f29bd0739c-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ed915752846c9cb95909b1ecbcae81c5048f6ed245e7962106cd716e7e006f26",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Calculate non-NII amount based on profitability",
+    "main_topics": [
+      "Best Egg income",
+      "Securitised margins",
+      "Reference rates",
+      "Optionality",
+      "Balance sheet control"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So if we just assume a similar level of profitability to what it has been doing, so we can then work out the non-NII [amount]?",
+    "answer_quote": "So I would expect that the Best Egg income as broadly as we took it on, subject to the point that I made, which is that the securitised margins are a little bit compressed by the fact that the reference rates in the industry are a bit elevated at the moment.",
+    "reason": "The answer discusses factors affecting income and margins but does not provide a specific calculation for the non-NII amount."
+  },
+  "whitespace_adjusted_quotes": []
+}

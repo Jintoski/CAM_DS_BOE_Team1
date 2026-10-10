@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about NII sensitivity outside the UK and the impact of rate changes on different banking segments.\",\n  \"main_topics\": [\"NII sensitivity\", \"Transaction Banking\", \"Private Bank\", \"Rate changes impact\", \"Corporate banking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I want to know what the NII sensitivity is there. Clearly, [there is] a big deposit book in the Private Bank. You have got Transaction Banking deposits that should have a bit of sensitivity as well. So we have focused on [BUK] NIM but what is the upside outside the UK?\",\n  \"answer_quote\": \"We have seen some upside outside the UK. One of the reasons that we do not call out a simple pass-through is for exactly the nuances you are calling out. You would expect that from the beginning, the pass-through in Corporate and in Private Bank has been an awful lot higher than it has been in retail.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with a clear stance, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"NII sensitivity outside the UK\",\n  \"main_topics\": [\"NII sensitivity\", \"Transaction Banking\", \"Private Bank\", \"UK rates\", \"Outside the UK rates\", \"Corporate and Retail Pass-Through\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I want to know what the NII sensitivity is there. Clearly, [there is] a big deposit book in the Private Bank. You have got Transaction Banking deposits that should have a bit of sensitivity as well. So we have focused on [BUK] NIM but what is the upside outside the UK?\",\n  \"answer_quote\": \"We have seen some upside outside the UK. One of the reasons that we do not call out a simple pass-through is for exactly the nuances you are calling out. You would expect that from the beginning, the pass-through in Corporate and in Private Bank has been an awful lot higher than it has been in retail.\",\n  \"reason\": \"The answer directly addresses the question about NII sensitivity outside the UK, providing a clear stance on the pass-through in Corporate and Private Bank compared to retail, which is relevant to the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 670,
+      "batch_seconds": 15.884756681999534
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 724,
+      "batch_seconds": 17.366536229999838
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b69992fcc03f37ea5af4b723d1496f9dc2dd6a26ec8a9723c978100c1d109bc4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about NII sensitivity outside the UK and the impact of rate changes on different banking segments.",
+    "main_topics": [
+      "NII sensitivity",
+      "Transaction Banking",
+      "Private Bank",
+      "Rate changes impact",
+      "Corporate banking"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I want to know what the NII sensitivity is there. Clearly, [there is] a big deposit book in the Private Bank. You have got Transaction Banking deposits that should have a bit of sensitivity as well. So we have focused on [BUK] NIM but what is the upside outside the UK?",
+    "answer_quote": "We have seen some upside outside the UK. One of the reasons that we do not call out a simple pass-through is for exactly the nuances you are calling out. You would expect that from the beginning, the pass-through in Corporate and in Private Bank has been an awful lot higher than it has been in retail.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with a clear stance, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

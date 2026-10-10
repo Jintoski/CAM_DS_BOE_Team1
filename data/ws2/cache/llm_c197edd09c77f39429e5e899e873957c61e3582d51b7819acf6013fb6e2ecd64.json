@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request to take a break or pause the meeting.\",\n  \"main_topics\": [\"Meeting Break\", \"Time Management\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Okay, sure, happy to take it offline. Thanks.\",\n  \"answer_quote\": \"I think, just because we're getting close to the top of the hour, should we take one more question? Could we have one more question, please?\",\n  \"reason\": \"The answer deflects the request to take a break by asking for another question, not directly addressing the intent of the original question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 432,
+      "batch_seconds": 7.036173496000629
+    }
+  ],
+  "exchange_id": "a055cc76c938-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c197edd09c77f39429e5e899e873957c61e3582d51b7819acf6013fb6e2ecd64",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request to take a break or pause the meeting.",
+    "main_topics": [
+      "Meeting Break",
+      "Time Management"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Okay, sure, happy to take it offline. Thanks.",
+    "answer_quote": "I think, just because we're getting close to the top of the hour, should we take one more question? Could we have one more question, please?",
+    "reason": "The answer deflects the request to take a break by asking for another question, not directly addressing the intent of the original question."
+  },
+  "whitespace_adjusted_quotes": []
+}

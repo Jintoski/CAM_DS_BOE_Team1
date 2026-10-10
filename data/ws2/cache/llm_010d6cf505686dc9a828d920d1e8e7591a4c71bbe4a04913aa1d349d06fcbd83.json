@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on pre-allocation of risk-weighted assets for growth in Investment Bank\",\n  \"main_topics\": [\"pre-allocation of RWAs\", \"growth in Investment Bank\", \"reallocation from investment banking\", \"revenue over RWAs\", \"reduction of RWA footprint\", \"client by client reallocation\", \"markets reallocation\", \"Q1 meeting\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just come back on I was just wondering if you could expand on this pre allocation of risk weighted assets for growth in the Investment Bank. Just talk through how that works please.\",\n  \"answer_quote\": \"So, essentially what they're doing is they're picking specific parts of the complex. They are allocating RWAs to that business and then growing from there. So that's happened already. What is still to happen is the reallocation that we talked about from investment banking into the ICB and into markets.\",\n  \"reason\": \"The response directly addresses the question's intent, providing a clear explanation of the pre-allocation process and future reallocation plans, with high evidence level due to the explicit mention of actions and strategies.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Explain pre-allocation of risk-weighted assets for growth in Investment Bank\",\n  \"main_topics\": [\n    \"Pre-allocation of RWAs\",\n    \"Growth in Investment Bank\",\n    \"Reallocation of RWAs\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just come back on I was just wondering if you could expand on this pre allocation of risk weighted assets for growth in the Investment Bank. Just talk through how that works please.\",\n  \"answer_quote\": \"So, essentially what they're doing is they're picking specific parts of the complex. They are allocating RWAs to that business and then growing from there. So that's happened already. What is still to happen is the reallocation that we talked about from investment banking into the ICB and into markets.\",\n  \"reason\": \"The answer directly addresses the question, explaining the pre-allocation of RWAs, the growth strategy, and the planned reallocation, with high evidence level due to the detailed explanation and forward guidance on future actions.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on pre-allocation of risk-weighted assets for growth in Investment Bank\",\n  \"main_topics\": [\"pre-allocation of RWAs\", \"growth in Investment Bank\", \"reallocation of RWAs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just come back on I was just wondering if you could expand on this pre allocation of risk weighted assets for growth in the Investment Bank. Just talk through how that works please.\",\n  \"answer_quote\": \"So we've done some pre-allocation and there's some still to go. So, within markets, we talked about them having allocated some RWAs into the businesses that they want to grow. That's typically what they have done slowly in the past. So essentially what they're doing is they're picking specific parts of the complex. They are allocating RWAs to that business and then growing from there. So they do it in a very deliberate, very, very focused way. Honestly, it's no more technical than that. So that's happened already. What is still to happen is the reallocation that we talked about from investment banking into the ICB and into markets. So one of the ways in which we will increase the revenue over RWAs for investment banking within the Investment Bank is to grow the other areas of investment banking. So ECM and M&A, but also reduce its RWA footprint. And that happens client by client obviously as lending periods cease. So they have got a very, very clear view about when those facilities come to an end and what they would expect to do at that point in time. And that will then release RWAs within the Investment Bank and allow them to give it either to Markets or into the ICB. So that's yet to come. The markets that is essentially done. Well thank you very much. Thank you for coming for breakfast. You can feed back on the table arrangements. Really good to see you. And any further questions you have, please reach out to Marina and the team and if not, we will see you in a distressingly short period of time for Q1 because it's not long. But thank you.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on pre-allocation of risk-weighted assets for growth in Investment Bank\",\n  \"main_topics\": [\"pre-allocation of RWAs\", \"growth in Investment Bank\", \"reallocation from investment banking\", \"revenue over RWAs\", \"reduction of RWA footprint\", \"client by client reallocation\", \"markets reallocation\", \"Q1 meeting\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just come back on I was just wondering if you could expand on this pre allocation of risk weighted assets for growth in the Investment Bank. Just talk through how that works please.\",\n  \"answer_quote\": \"So, essentially what they're doing is they're picking specific parts of the complex. They are allocating RWAs to that business and then growing from there. So that's happened already. What is still to happen is the reallocation that we talked about from investment banking into the ICB and into markets.\",\n  \"reason\": \"The response directly addresses the question's intent, providing a clear explanation of the pre-allocation process and future reallocation plans, with high evidence level due to the explicit mention of actions and strategies.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 762,
+      "batch_seconds": 19.727787560999786
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 810,
+      "batch_seconds": 22.38289157899999
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 807,
+      "batch_seconds": 21.285828822999974
+    }
+  ],
+  "exchange_id": "dfbf37092448-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "010d6cf505686dc9a828d920d1e8e7591a4c71bbe4a04913aa1d349d06fcbd83",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

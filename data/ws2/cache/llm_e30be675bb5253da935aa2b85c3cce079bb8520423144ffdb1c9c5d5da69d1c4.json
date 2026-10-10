@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing the accuracy of a net interest income forecast\",\n  \"main_topics\": [\"Net Interest Income Forecast\", \"Consensus Model\", \"Rate Rises\", \"Internal Forecasts\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"if we take the 4% volume growth over the year and just run it into 2023, and then give you about 150 basis points of yield-curve moves, I'm getting $37-38 billion of net interest income. Consensus is in the 33s.\",\n  \"answer_quote\": \"No. Well, you know I don't like talking about NIM and net interest income forecasts, Jason, but look, I think, reflecting on what's happened over the last couple of months, I think the average consensus model was probably updated following our full-year results in late February. Since then, we've seen very material rate rises coming through in March and April, which I don't think is reflected in consensus. Our internal forecasts are materially ahead of consensus as they currently sit for net interest income in 2023, without commenting on your numbers.\",\n  \"reason\": \"The answer partially addresses the question by discussing the consensus model and internal forecasts, but does not directly comment on the specific numbers provided in the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 646,
+      "batch_seconds": 15.891535941999791
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e30be675bb5253da935aa2b85c3cce079bb8520423144ffdb1c9c5d5da69d1c4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing the accuracy of a net interest income forecast",
+    "main_topics": [
+      "Net Interest Income Forecast",
+      "Consensus Model",
+      "Rate Rises",
+      "Internal Forecasts"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "if we take the 4% volume growth over the year and just run it into 2023, and then give you about 150 basis points of yield-curve moves, I'm getting $37-38 billion of net interest income. Consensus is in the 33s.",
+    "answer_quote": "No. Well, you know I don't like talking about NIM and net interest income forecasts, Jason, but look, I think, reflecting on what's happened over the last couple of months, I think the average consensus model was probably updated following our full-year results in late February. Since then, we've seen very material rate rises coming through in March and April, which I don't think is reflected in consensus. Our internal forecasts are materially ahead of consensus as they currently sit for net interest income in 2023, without commenting on your numbers.",
+    "reason": "The answer partially addresses the question by discussing the consensus model and internal forecasts, but does not directly comment on the specific numbers provided in the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

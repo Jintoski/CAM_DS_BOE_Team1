@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about the distribution of structural hedging and revenue expectations for Corporate lending and Transaction banking lines.\",\n  \"main_topics\": [\"structural hedging distribution\", \"revenue expectations\", \"Corporate lending\", \"Transaction banking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the structural hedge, you said in the slides that about two thirds of the hedging is coming through in the UK. But where does the other one third get booked by business, please, and how much of that will be coming through the Transaction banking line?\",\n  \"answer_quote\": \"Okay, let me take those, Chris. The majority of the rest of the structural hedge does appear in Transaction banking.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the distribution of structural hedging, revenue expectations for Corporate lending and Transaction banking, and mortgage book margins.\",\n  \"main_topics\": [\"Structural Hedge Distribution\", \"Corporate Lending Revenue Outlook\", \"Transaction Banking Revenue Outlook\", \"Mortgage Book Margins\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the structural hedge, you said in the slides that about two thirds of the hedging is coming through in the UK. But where does the other one third get booked by business, please, and how much of that will be coming through the Transaction banking line?\",\n  \"answer_quote\": \"Okay, let me take those, Chris. The majority of the rest of the structural hedge does appear in Transaction banking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the distribution of structural hedging and revenue expectations for Corporate lending and Transaction banking lines.\",\n  \"main_topics\": [\"structural hedging distribution\", \"revenue expectations\", \"Corporate lending\", \"Transaction banking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the structural hedge, you said in the slides that about two thirds of the hedging is coming through in the UK. But where does the other one third get booked by business, please, and how much of that will be coming through the Transaction banking line?\",\n  \"answer_quote\": \"The majority of the rest of the structural hedge does appear in Transaction banking. In terms of Corporate lending, I've given some guidance on this line before, but just remember, the other thing that's in there is our SRT costs, so our first-loss protection costs.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the distribution of structural hedging and revenue expectations for Corporate lending and Transaction banking lines.\",\n  \"main_topics\": [\"structural hedging distribution\", \"revenue expectations\", \"Corporate lending\", \"Transaction banking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the structural hedge, you said in the slides that about two thirds of the hedging is coming through in the UK. But where does the other one third get booked by business, please, and how much of that will be coming through the Transaction banking line?\",\n  \"answer_quote\": \"Okay, let me take those, Chris. The majority of the rest of the structural hedge does appear in Transaction banking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1013,
+      "batch_seconds": 31.431468079000297
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1058,
+      "batch_seconds": 93.49079408299986
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1058,
+      "batch_seconds": 33.82638684199992
+    }
+  ],
+  "exchange_id": "0459b7abee3e-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "95345ea15872a5975127e57815a2e6f0bdb45d6ad9eb41961781548355b0b01a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

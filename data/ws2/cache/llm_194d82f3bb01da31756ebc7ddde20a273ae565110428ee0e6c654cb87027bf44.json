@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Summary of bank's performance and future outlook\",\n  \"main_topics\": [\"operating performance\", \"credit losses\", \"earnings diversity\", \"growth in transformation\", \"Asia Wealth strategy\", \"lending volumes\", \"cost reduction\", \"ROTE\", \"investor relations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. That's something to look forward to. Thank you very much.\",\n  \"answer_quote\": \"So to wrap up, a good operating performance supported by a net release of expected credit losses, good earnings diversity both by geography and by business, good momentum behind our growth in transformation plans with good delivery in all four pillars of our strategy, traction in our Asia Wealth strategy with strong growth in Wealth Balances, early growth in both lending volumes and fee income, particularly in Asia, and we're on track in both our RWA and cost reduction programmes and confident in delivering our ROTE at or above 10% over the medium term. Thank you for joining today. If you have any further questions, do pick them up with Richard and the rest of the Investor Relations team. Thank you and have a good summer.\",\n  \"reason\": \"The answer provides a comprehensive summary of the bank's performance and future outlook, aligning with the question's intent, and includes high evidence with numeric references to ROTE and other financial metrics.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Summarize the bank's earnings call highlights and future outlook.\",\n  \"main_topics\": [\"operating performance\", \"credit losses\", \"earnings diversity\", \"growth in transformation\", \"Asia Wealth strategy\", \"lending volumes\", \"cost reduction\", \"ROTE outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. That's something to look forward to. Thank you very much.\",\n  \"answer_quote\": \"So to wrap up, a good operating performance supported by a net release of expected credit losses, good earnings diversity both by geography and by business, good momentum behind our growth in transformation plans with good delivery in all four pillars of our strategy, traction in our Asia Wealth strategy with strong growth in Wealth Balances, early growth in both lending volumes and fee income, particularly in Asia, and we're on track in both our RWA and cost reduction programmes and confident in delivering our ROTE at or above 10% over the medium term. Thank you for joining today. If you have any further questions, do pick them up with Richard and the rest of the Investor Relations team. Thank you and have a good summer.\",\n  \"reason\": \"The answer directly addresses the question's request for a summary of the bank's earnings call highlights and future outlook, providing a comprehensive overview with specific details and forward guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Summary of bank's performance and future outlook\",\n  \"main_topics\": [\"operating performance\", \"credit losses\", \"earnings diversity\", \"growth in transformation\", \"Asia Wealth strategy\", \"lending volumes\", \"cost reduction\", \"ROTE\", \"investor relations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. That's something to look forward to. Thank you very much.\",\n  \"answer_quote\": \"So to wrap up, a good operating performance supported by a net release of expected credit losses, good earnings diversity both by geography and by business, good momentum behind our growth in transformation plans with good delivery in all four pillars of our strategy, traction in our Asia Wealth strategy with strong growth in Wealth Balances, early growth in both lending volumes and fee income, particularly in Asia, and we're on track in both our RWA and cost reduction programmes and confident in delivering our ROTE at or above 10% over the medium term. Thank you for joining today. If you have any further questions, do pick them up with Richard and the rest of the Investor Relations team. Thank you and have a good summer.\",\n  \"reason\": \"The answer provides a comprehensive summary of the bank's performance and future outlook, aligning with the question's intent. It includes high-level evidence and forward guidance, with a direct response stance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Summary of bank's performance and future outlook\",\n  \"main_topics\": [\"operating performance\", \"credit losses\", \"earnings diversity\", \"growth in transformation\", \"Asia Wealth strategy\", \"lending volumes\", \"cost reduction\", \"ROTE\", \"investor relations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. That's something to look forward to. Thank you very much.\",\n  \"answer_quote\": \"So to wrap up, a good operating performance supported by a net release of expected credit losses, good earnings diversity both by geography and by business, good momentum behind our growth in transformation plans with good delivery in all four pillars of our strategy, traction in our Asia Wealth strategy with strong growth in Wealth Balances, early growth in both lending volumes and fee income, particularly in Asia, and we're on track in both our RWA and cost reduction programmes and confident in delivering our ROTE at or above 10% over the medium term. Thank you for joining today. If you have any further questions, do pick them up with Richard and the rest of the Investor Relations team. Thank you and have a good summer.\",\n  \"reason\": \"The answer provides a comprehensive summary of the bank's performance and future outlook, aligning with the question's intent, and includes high evidence with numeric references to ROTE and other financial metrics.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 546,
+      "batch_seconds": 12.863929854000162
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 600,
+      "batch_seconds": 14.27197855400118
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 600,
+      "batch_seconds": 13.606166855000993
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "194d82f3bb01da31756ebc7ddde20a273ae565110428ee0e6c654cb87027bf44",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

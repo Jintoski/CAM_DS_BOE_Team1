@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on Kensington integration, mortgage originations, and revenue trends in transaction bank.\",\n  \"main_topics\": [\"Kensington integration\", \"Mortgage originations\", \"Revenue trends in transaction bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first is on Kensington and on the topic of acquisitions, is that now 100% fully integrated up and running, and also how much of the recent increase in mortgage originations has that supplied please?\",\n  \"answer_quote\": \"OK. So on Kensington, yes, it's up and running.\",\n  \"reason\": \"The answer directly addresses the question about Kensington's integration and its role in mortgage originations, providing a complete response with high evidence level, including a direct quote from the question and an answer quote.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquiries about Kensington's integration, its impact on mortgage originations, and the revenue trends in the transaction bank, including migration effects and US deposit growth.\",\n \"main_topics\": [\"Kensington integration\", \"Mortgage originations\", \"Transaction bank revenue trends\", \"Migration effects\", \"US deposit growth\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first is on Kensington and on the topic of acquisitions, is that now 100% fully integrated up and running, and also how much of the recent increase in mortgage originations has that supplied please?\",\n \"answer_quote\": \"OK. So on Kensington, yes, it's up and running. Clearly we bought it at a period of time when we were less able to bring it to market to its fullest extent. But what it's doing right now is it's underpinning that broadening of product proposition that we have within Barclays UK. So it's really helping us both in terms of volume, but also in terms of our margin.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1276,
+      "batch_seconds": 39.33959417799997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1321,
+      "batch_seconds": 42.72194012299951
+    }
+  ],
+  "exchange_id": "4740a0d8a633-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c265238742d77f372049009dbfae053962c06924010b4c1bf2d8c0b512f85469",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on Kensington integration, mortgage originations, and revenue trends in transaction bank.",
+    "main_topics": [
+      "Kensington integration",
+      "Mortgage originations",
+      "Revenue trends in transaction bank"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first is on Kensington and on the topic of acquisitions, is that now 100% fully integrated up and running, and also how much of the recent increase in mortgage originations has that supplied please?",
+    "answer_quote": "OK. So on Kensington, yes, it's up and running.",
+    "reason": "The answer directly addresses the question about Kensington's integration and its role in mortgage originations, providing a complete response with high evidence level, including a direct quote from the question and an answer quote."
+  },
+  "whitespace_adjusted_quotes": []
+}

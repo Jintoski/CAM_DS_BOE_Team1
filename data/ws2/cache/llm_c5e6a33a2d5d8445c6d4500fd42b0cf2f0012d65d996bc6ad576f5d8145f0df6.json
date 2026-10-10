@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Revenue growth and business expansion strategy by 2028\",\n  \"main_topics\": [\"Revenue growth\", \"Wealth trajectory\", \"Markets business growth in Asia\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I am interested in your revenue target by 2028 of achieving 5% revenue growth. I wonder if you could talk about some of the components of how you would get there. Presumably Wealth is part of that, and so maybe you could talk about the Wealth trajectory and how sustainable that is. Presumably, at some stage we are going to see a kick-in of development of Markets in Asia, and that Markets business can grow more, so I wonder if you could talk a little bit about how you want to grow that Markets business in Asia.\",\n  \"answer_quote\": \"Thank you, Nick, for the question. I am going to share some high-level comments as we are looking at the growth opportunities, and Pam can take you through the various components. The first thing is we have delivered growth in 2025. We have delivered growth, as we mentioned, across all our businesses and all our key metrics, including deposits, loans, fee income in Transaction Banking and Wealth. This is reflected in our revenues growing at 5% in 2025. The second item to call out is, if you look at our footprint, we are basically aligned to the strong structural growth opportunities. Hong Kong - we have called it out, and we are basically consolidating our leadership position to capture these growth opportunities with the privatisation of Hang Seng among others. Asia and Middle East - structural growth opportunities in wealth, but also Asia and Middle East hitting record volumes in shipments for trade. Asia is buying Asia, and our footprint allows us to capture these growth opportunities. In the UK, we have seen the strongest loan growth in 2025, and we have indicators to believe that there is a possibility for this trend to carry on. This is the strongest loan growth we have seen in the UK for many years, but it is also the strongest loan growth we have seen across all our businesses that we have seen in the UK. The last thing I will call out is that we are investing for all these growth opportunities. We are now putting in investment from within our cost base. We are putting in investment from the additional costs we are taking in 2026, and we will be putting in even further investment from the reallocation of the $1.8 billion, as we free up these costs, back into those core areas where we can grow, and this is what's giving us this confidence to give you the growth targets of revenue growing year-on-year every year, rising to 5% in 2028. In 2026, we expect broad-based growth in revenue across all our businesses, but just unbundling a little, in banking NII, as we have said, we expect a low single-digit growth, fundamentally driven through deposits. Yes, there are pockets of growth in loans, but so far, we've just seen in the UK market. Overall, we expect that growth in Wealth and Transaction Banking and our fee-generating businesses will continue to be very positive. As we go beyond 2026, we do expect balance sheet growth should kick in in Asia and other markets, not just in the UK. Of course, we are seeing domestic growth in the US already, but we're not a big player in the US market. We are continuing to invest in our fee businesses, and our investment plans are multi-year plans, so it's not just for growth for one year; it's a very strong building block for growth through the period we have called out and beyond, particularly in markets like Hong Kong, in the UK, and other key markets for us in Asia and the Middle East.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high-level comments on revenue growth and business expansion, and includes specific numeric evidence and forward guidance, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1128,
+      "batch_seconds": 35.32207129899962
+    }
+  ],
+  "exchange_id": "13220c46f1a6-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c5e6a33a2d5d8445c6d4500fd42b0cf2f0012d65d996bc6ad576f5d8145f0df6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Revenue growth and business expansion strategy by 2028",
+    "main_topics": [
+      "Revenue growth",
+      "Wealth trajectory",
+      "Markets business growth in Asia"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I am interested in your revenue target by 2028 of achieving 5% revenue growth. I wonder if you could talk about some of the components of how you would get there. Presumably Wealth is part of that, and so maybe you could talk about the Wealth trajectory and how sustainable that is. Presumably, at some stage we are going to see a kick-in of development of Markets in Asia, and that Markets business can grow more, so I wonder if you could talk a little bit about how you want to grow that Markets business in Asia.",
+    "answer_quote": "Thank you, Nick, for the question. I am going to share some high-level comments as we are looking at the growth opportunities, and Pam can take you through the various components. The first thing is we have delivered growth in 2025. We have delivered growth, as we mentioned, across all our businesses and all our key metrics, including deposits, loans, fee income in Transaction Banking and Wealth. This is reflected in our revenues growing at 5% in 2025. The second item to call out is, if you look at our footprint, we are basically aligned to the strong structural growth opportunities. Hong Kong - we have called it out, and we are basically consolidating our leadership position to capture these growth opportunities with the privatisation of Hang Seng among others. Asia and Middle East - structural growth opportunities in wealth, but also Asia and Middle East hitting record volumes in shipments for trade. Asia is buying Asia, and our footprint allows us to capture these growth opportunities. In the UK, we have seen the strongest loan growth in 2025, and we have indicators to believe that there is a possibility for this trend to carry on. This is the strongest loan growth we have seen in the UK for many years, but it is also the strongest loan growth we have seen across all our businesses that we have seen in the UK. The last thing I will call out is that we are investing for all these growth opportunities. We are now putting in investment from within our cost base. We are putting in investment from the additional costs we are taking in 2026, and we will be putting in even further investment from the reallocation of the $1.8 billion, as we free up these costs, back into those core areas where we can grow, and this is what's giving us this confidence to give you the growth targets of revenue growing year-on-year every year, rising to 5% in 2028. In 2026, we expect broad-based growth in revenue across all our businesses, but just unbundling a little, in banking NII, as we have said, we expect a low single-digit growth, fundamentally driven through deposits. Yes, there are pockets of growth in loans, but so far, we've just seen in the UK market. Overall, we expect that growth in Wealth and Transaction Banking and our fee-generating businesses will continue to be very positive. As we go beyond 2026, we do expect balance sheet growth should kick in in Asia and other markets, not just in the UK. Of course, we are seeing domestic growth in the US already, but we're not a big player in the US market. We are continuing to invest in our fee businesses, and our investment plans are multi-year plans, so it's not just for growth for one year; it's a very strong building block for growth through the period we have called out and beyond, particularly in markets like Hong Kong, in the UK, and other key markets for us in Asia and the Middle East.",
+    "reason": "The answer directly addresses the question's intent, provides high-level comments on revenue growth and business expansion, and includes specific numeric evidence and forward guidance, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

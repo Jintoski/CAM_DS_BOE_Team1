@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the impact of low-single-digit revenue changes, the bank's reliance on trade corridors, and opportunities in trade, as well as new customer trends in Hong Kong.\",\n  \"main_topics\": [\"bank earnings-call\", \"trade business impact\", \"new customer trends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just ask on the plausible downside scenarios for the low-single-digit impact on revenue?\",\n  \"answer_quote\": \"So we are the world's trade bank. We have been ranked the number one trade bank for eight consecutive years, but our trade covers a variety of products, as well as we cover all the large corridors of trade, including intra-regional corridors, which have been growing quite fast over the last few years.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss downside scenarios, bank's trade business positioning, and opportunities, and comment on new-to-bank customers in Hong Kong.\",\n  \"main_topics\": [\"downside scenarios\", \"trade business positioning\", \"bank opportunities\", \"new-to-bank customers in Hong Kong\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just ask on the plausible downside scenarios for the low-single-digit impact on revenue?\",\n  \"answer_quote\": \"So the specific scenario which we homed into was based on a significant increase in tariffs, as well as retaliatory tariffs.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1179,
+      "batch_seconds": 37.95864154999981
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1224,
+      "batch_seconds": 97.16297759400004
+    }
+  ],
+  "exchange_id": "c6e92c439106-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3cae09397912972c78e3c7ecfc0a1943d63007d3fc14f7e2bd2b1d55e27373d5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the impact of low-single-digit revenue changes, the bank's reliance on trade corridors, and opportunities in trade, as well as new customer trends in Hong Kong.",
+    "main_topics": [
+      "bank earnings-call",
+      "trade business impact",
+      "new customer trends"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I just ask on the plausible downside scenarios for the low-single-digit impact on revenue?",
+    "answer_quote": "So we are the world's trade bank. We have been ranked the number one trade bank for eight consecutive years, but our trade covers a variety of products, as well as we cover all the large corridors of trade, including intra-regional corridors, which have been growing quite fast over the last few years.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

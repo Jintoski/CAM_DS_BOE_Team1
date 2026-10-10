@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the impact of migration to Stage 3 on ECL under IFRS 9.\",\n  \"main_topics\": [\"IFRS 9\", \"ECL\", \"Stage 3 migration\", \"disclosure\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Effectively, Taking Downside 1 scenario as an example, there's a similar magnitude of difference to the macro-overlay PMAs, but it doesn't capture migration to Stage 3.\",\n  \"answer_quote\": \"In our disclosures we don't migrate people to Stage 3, I'm not aware of anybody who does, actually. Our view would be that by the time you get into the far right, if you like, of Stage 3, we've captured the majority of the impact.\",\n  \"reason\": \"The answer partially addresses the impact of migration to Stage 3 on ECL, but does not provide a specific number or clear forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 728,
+      "batch_seconds": 19.723983283000052
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x020",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "159c2bed5d502689305fc911b9f3f93e0dd37d6fec54109eb2e9abf557fe656d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the impact of migration to Stage 3 on ECL under IFRS 9.",
+    "main_topics": [
+      "IFRS 9",
+      "ECL",
+      "Stage 3 migration",
+      "disclosure"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Effectively, Taking Downside 1 scenario as an example, there's a similar magnitude of difference to the macro-overlay PMAs, but it doesn't capture migration to Stage 3.",
+    "answer_quote": "In our disclosures we don't migrate people to Stage 3, I'm not aware of anybody who does, actually. Our view would be that by the time you get into the far right, if you like, of Stage 3, we've captured the majority of the impact.",
+    "reason": "The answer partially addresses the impact of migration to Stage 3 on ECL, but does not provide a specific number or clear forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

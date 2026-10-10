@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss changes in net interest income rate sensitivities and capital management strategy.\",\n  \"main_topics\": [\n    \"Net Interest Income (NII) rate sensitivities\",\n    \"Capital management and buyback strategy\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could talk us a little bit through how the published rate sensitivities have changed versus what was published at the interim results.\",\n  \"answer_quote\": \"So if you look at the downside 100 basis point shift we are reporting now $4 billion. You may have a record of $6 billion previously.\",\n  \"reason\": \"The answer directly addresses the question about rate sensitivities, providing specific figures and explaining the factors affecting the change. It also discusses capital management strategy without giving a specific target, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1082,
+      "batch_seconds": 29.851370065000083
+    }
+  ],
+  "exchange_id": "90eabcdcf010-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "4aa3a84fce15f8fd27444a648ce65f8635fc897af052362660d344215a9a85c2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss changes in net interest income rate sensitivities and capital management strategy.",
+    "main_topics": [
+      "Net Interest Income (NII) rate sensitivities",
+      "Capital management and buyback strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I was wondering if you could talk us a little bit through how the published rate sensitivities have changed versus what was published at the interim results.",
+    "answer_quote": "So if you look at the downside 100 basis point shift we are reporting now $4 billion. You may have a record of $6 billion previously.",
+    "reason": "The answer directly addresses the question about rate sensitivities, providing specific figures and explaining the factors affecting the change. It also discusses capital management strategy without giving a specific target, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on NII reduction and RoTE target\",\n  \"main_topics\": [\"NII reduction\", \"RoTE target\", \"Revenue growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just two. So just to confirm, the GBP 300 million reduction in NII within BUK, that was set before the BoE levy kind of changes? I'm going to get probably about a GBP 50 million NII benefit within BUK.\",\n  \"answer_quote\": \"Okay. Thanks, Robin. So on the first one, our circa GBP 6.1 billion for BUK was struck for the 20th of February, which was before these changes. Just mathematically, that is true.\",\n  \"reason\": \"The answer directly addresses the NII reduction and RoTE target, providing specific figures and confirming the bank's position on both topics.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1181,
+      "batch_seconds": 37.95864154999981
+    }
+  ],
+  "exchange_id": "b70241a32d2d-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "05752c217e6e45e857e3239fe572062e3bf401aedd794b44fb6e1218fbae8ba4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on NII reduction and RoTE target",
+    "main_topics": [
+      "NII reduction",
+      "RoTE target",
+      "Revenue growth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just two. So just to confirm, the GBP 300 million reduction in NII within BUK, that was set before the BoE levy kind of changes? I'm going to get probably about a GBP 50 million NII benefit within BUK.",
+    "answer_quote": "Okay. Thanks, Robin. So on the first one, our circa GBP 6.1 billion for BUK was struck for the 20th of February, which was before these changes. Just mathematically, that is true.",
+    "reason": "The answer directly addresses the NII reduction and RoTE target, providing specific figures and confirming the bank's position on both topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

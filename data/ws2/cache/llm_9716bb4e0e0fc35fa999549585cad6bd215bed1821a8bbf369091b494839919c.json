@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Timing and frequency of strategic business decisions in response to credit environment\",\n  \"main_topics\": [\"Credit environment\", \"Business strategy\", \"Risk management\", \"Cost transformation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"At what point do you start thinking, well, this is by far and away my most profitable business, it's time to start competing a little bit and taking some share and seeing if I can grow? Is it something you review annually, or is it something you review monthly? At what point could we start seeing that change?\",\n  \"answer_quote\": \"Yes. We look on a fairly frequent basis about our positioning and how much we want to take risk, and in all parts of the UK market. It's not something that happens annually. It happens frankly monthly/quarterly through risk committees, and we've been doing it since the start of this year.\",\n  \"reason\": \"The answer directly addresses the timing and frequency of strategic business decisions, provides a high level of evidence with specific timeframes, and aligns with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 984,
+      "batch_seconds": 32.63806307300001
+    }
+  ],
+  "exchange_id": "0459b7abee3e-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9716bb4e0e0fc35fa999549585cad6bd215bed1821a8bbf369091b494839919c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Timing and frequency of strategic business decisions in response to credit environment",
+    "main_topics": [
+      "Credit environment",
+      "Business strategy",
+      "Risk management",
+      "Cost transformation"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "At what point do you start thinking, well, this is by far and away my most profitable business, it's time to start competing a little bit and taking some share and seeing if I can grow? Is it something you review annually, or is it something you review monthly? At what point could we start seeing that change?",
+    "answer_quote": "Yes. We look on a fairly frequent basis about our positioning and how much we want to take risk, and in all parts of the UK market. It's not something that happens annually. It happens frankly monthly/quarterly through risk committees, and we've been doing it since the start of this year.",
+    "reason": "The answer directly addresses the timing and frequency of strategic business decisions, provides a high level of evidence with specific timeframes, and aligns with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

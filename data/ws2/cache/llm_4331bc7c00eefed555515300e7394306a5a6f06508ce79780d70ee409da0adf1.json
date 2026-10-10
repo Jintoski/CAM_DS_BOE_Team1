@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on scenario analysis duration\",\n  \"main_topics\": [\"scenario analysis\", \"duration\", \"sensitivity table\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"But, is that the 60 days, that you put into the scenario analysis that you gave us?\",\n  \"answer_quote\": \"Yes, so when we do our sensitivity table, that lag effect would reflect the 60 days.\",\n  \"reason\": \"The answer directly addresses the question about the 60-day duration in the scenario analysis, providing a clear and complete response with high evidence level.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on scenario analysis duration\",\n  \"main_topics\": [\"scenario analysis\", \"sensitivity table\", \"lag effect\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"But, is that the 60 days, that you put into the scenario analysis that you gave us?\",\n  \"answer_quote\": \"Yes, so when we do our sensitivity table, that lag effect would reflect the 60 days.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 430,
+      "batch_seconds": 7.036173496000629
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 475,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "4331bc7c00eefed555515300e7394306a5a6f06508ce79780d70ee409da0adf1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on scenario analysis duration",
+    "main_topics": [
+      "scenario analysis",
+      "duration",
+      "sensitivity table"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "But, is that the 60 days, that you put into the scenario analysis that you gave us?",
+    "answer_quote": "Yes, so when we do our sensitivity table, that lag effect would reflect the 60 days.",
+    "reason": "The answer directly addresses the question about the 60-day duration in the scenario analysis, providing a clear and complete response with high evidence level."
+  },
+  "whitespace_adjusted_quotes": []
+}

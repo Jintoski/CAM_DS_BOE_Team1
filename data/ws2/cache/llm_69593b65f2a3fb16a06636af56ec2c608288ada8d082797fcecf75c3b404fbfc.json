@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on ECL disclosure and stage migration\",\n  \"main_topics\": [\"ECL disclosure\", \"Stage migration\", \"Downside scenarios\", \"PMAs\"],\n  \"answer_completeness\": \"Unclear\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"The third question, or follow-on, was just around how stage migration is embedded into the ECL disclosure you give for downside scenarios, just to gauge the relative conservativism of the ECLs that come out and comments around you could switch the PMAs to absorb a Downside 1 scenario.\",\n  \"answer_quote\": \"I'm sorry, I still don't understand your question, Guy. We might need to take it out of the room. We'll come back to you. Probably need to talk that through.\",\n  \"reason\": \"The response does not address the question's intent and instead deflects by asking to take the conversation out of the room.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on ECL disclosure and stage migration\",\n  \"main_topics\": [\"ECL disclosure\", \"Stage migration\", \"Downside scenarios\", \"PMAs\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"The third question, or follow-on, was just around how stage migration is embedded into the ECL disclosure you give for downside scenarios, just to gauge the relative conservativism of the ECLs that come out and comments around you could switch the PMAs to absorb a Downside 1 scenario.\",\n  \"answer_quote\": \"I'm sorry, I still don't understand your question, Guy. We might need to take it out of the room. We'll come back to you. Probably need to talk that through.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 499,
+      "batch_seconds": 10.323243250000814
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 544,
+      "batch_seconds": 10.71841162399869
+    }
+  ],
+  "exchange_id": "6d4760f97290-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "69593b65f2a3fb16a06636af56ec2c608288ada8d082797fcecf75c3b404fbfc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on ECL disclosure and stage migration",
+    "main_topics": [
+      "ECL disclosure",
+      "Stage migration",
+      "Downside scenarios",
+      "PMAs"
+    ],
+    "answer_completeness": "Unclear",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "The third question, or follow-on, was just around how stage migration is embedded into the ECL disclosure you give for downside scenarios, just to gauge the relative conservativism of the ECLs that come out and comments around you could switch the PMAs to absorb a Downside 1 scenario.",
+    "answer_quote": "I'm sorry, I still don't understand your question, Guy. We might need to take it out of the room. We'll come back to you. Probably need to talk that through.",
+    "reason": "The response does not address the question's intent and instead deflects by asking to take the conversation out of the room."
+  },
+  "whitespace_adjusted_quotes": []
+}

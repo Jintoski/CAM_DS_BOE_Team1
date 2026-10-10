@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Scenario analysis and capital ratio discussion\",\n  \"main_topics\": [\"CET1 ratio\", \"Hong Kong CRE scenario analysis\", \"Capital ratio management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On Hong Kong CRE, you very clearly articulated why you're not particularly concerned, but I'm guessing you do a lot of scenario analysis, so maybe you could just help us think about under what scenario you would be concerned about material losses and how unlikely you think that is.\",\n  \"answer_quote\": \"In terms of the CET1, it's a range of 14% to 14.5% that accommodates, RWA growth or other opportunities - I would look at it more like 14% to 14.5%, rather than 14.5% to 14%. From a Hong Kong CRE perspective, we do from an IFRS 9 perspective all kinds of extreme downside scenarios for our portfolios, and when we look at the broader ECL guidance for our financial planning purposes, we look at a range of them.\",\n  \"reason\": \"The answer directly addresses the scenario analysis and CET1 ratio, providing a range and discussing the stress tests and ECLs, with high evidence level due to the inclusion of specific percentages and scenarios.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 900,
+      "batch_seconds": 26.18008355099937
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2f53bd14d90cdbd6df346349dd38d2d5bcf340edba747f3ea3a5d9f76067a0ec",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Scenario analysis and capital ratio discussion",
+    "main_topics": [
+      "CET1 ratio",
+      "Hong Kong CRE scenario analysis",
+      "Capital ratio management"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On Hong Kong CRE, you very clearly articulated why you're not particularly concerned, but I'm guessing you do a lot of scenario analysis, so maybe you could just help us think about under what scenario you would be concerned about material losses and how unlikely you think that is.",
+    "answer_quote": "In terms of the CET1, it's a range of 14% to 14.5% that accommodates, RWA growth or other opportunities - I would look at it more like 14% to 14.5%, rather than 14.5% to 14%. From a Hong Kong CRE perspective, we do from an IFRS 9 perspective all kinds of extreme downside scenarios for our portfolios, and when we look at the broader ECL guidance for our financial planning purposes, we look at a range of them.",
+    "reason": "The answer directly addresses the scenario analysis and CET1 ratio, providing a range and discussing the stress tests and ECLs, with high evidence level due to the inclusion of specific percentages and scenarios."
+  },
+  "whitespace_adjusted_quotes": []
+}

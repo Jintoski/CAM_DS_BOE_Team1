@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Evolution of dialogue with Ping An and its impact on the market\",\n  \"main_topics\": [\"dialogue with Ping An\", \"market impact\", \"shareholder value\", \"dividend yield\", \"share price\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you see the, for lack of a better word, dialogue with Ping An evolving over time?\",\n  \"answer_quote\": \"They're our largest shareholder. As you'd expect, we are in regular dialogue with them.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Evolution of dialogue with Ping An and its impact on the bank's strategy and share price\",\n  \"main_topics\": [\"Dialogue with Ping An\", \"Bank's strategy\", \"Share price\", \"Dividend yield\", \"Regulatory approvals\", \"Material dis-synergies\", \"Return on tangible equity\", \"Share price valuation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you see the, for lack of a better word, dialogue with Ping An evolving over time?\",\n  \"answer_quote\": \"They're our largest shareholder. As you'd expect, we are in regular dialogue with them. As we said as part of the second quarter results, while the work is not finished, all of the work that we've done to date would say it's very costly to put in place any structure that's being proposed.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Evolution of dialogue with Ping An and its impact on the market\",\n  \"main_topics\": [\"dialogue with Ping An\", \"market impact\", \"shareholder value\", \"dividend yield\", \"share price\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you see the, for lack of a better word, dialogue with Ping An evolving over time?\",\n  \"answer_quote\": \"They're our largest shareholder. As you'd expect, we are in regular dialogue with them.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Evolution of dialogue with Ping An and its impact on the market\",\n  \"main_topics\": [\"dialogue with Ping An\", \"market impact\", \"shareholder value\", \"dividend yield\", \"share price\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you see the, for lack of a better word, dialogue with Ping An evolving over time?\",\n  \"answer_quote\": \"They're our largest shareholder. As you'd expect, we are in regular dialogue with them.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 986,
+      "batch_seconds": 32.63806307300001
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1031,
+      "batch_seconds": 93.30540008299977
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1031,
+      "batch_seconds": 33.325112773
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0112685b983f1e03b466f729adbcf850950b826cd25f82a14e45e1e7719d348d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

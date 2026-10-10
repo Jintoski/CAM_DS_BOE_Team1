@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about the sustainability of deposit growth and the impact of RMB appreciation and global taxation on mainland Chinese nationals opening new accounts in Hong Kong.\",\n  \"main_topics\": [\n    \"HSBC's confidence in deposit growth\",\n    \"Impact of RMB appreciation and global taxation on mainland Chinese nationals\",\n    \"HSBC's wealth management and deposit strategies\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My question is on NII. What gives HSBC the confidence then on the sustainability of the deposit growth? One trend we noted is that, say, for example in mainland China, with RMB appreciation and also mainland China starting to tax its citizens globally, will that actually slow down, for example, mainland Chinese nationals coming to Hong Kong to open new accounts and then the money flow movement? So can we be more a bit specific on what are the key drivers and then the key path on the deposit growth?\",\n  \"answer_quote\": \"We have a deep-rooted trust, across our four businesses and across all the geographies where we operate, which we nurture to support customers giving us their deposits and using us as their deposit bank, by preference or by excellence, that can support, if you want, our outlook on our deposit growth. We have seen deposit growth, as you've seen in our new disclosures and wealth, across the spectrum of our customer base, Premier, Private Bank, Retail, in every market, in every jurisdiction, even when there isn't a home market.\",\n  \"reason\": \"The answer provides some information on deposit growth and trust but does not directly address the specific concerns about RMB appreciation, global taxation, and their impact on mainland Chinese nationals opening accounts in Hong Kong.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about the sustainability of deposit growth and the impact of RMB appreciation and global taxation on mainland Chinese nationals opening new accounts in Hong Kong.\",\n \"main_topics\": [\"HSBC's confidence in deposit growth\", \"Impact of RMB appreciation and global taxation on mainland Chinese nationals\", \"HSBC's wealth management strategy\", \"HSBC's deposit base growth\", \"HSBC's loan growth and banking NII\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"My question is on NII. What gives HSBC the confidence then on the sustainability of the deposit growth? One trend we noted is that, say, for example in mainland China, with RMB appreciation and also mainland China starting to tax its citizens globally, will that actually slow down, for example, mainland Chinese nationals coming to Hong Kong to open new accounts and then the money flow movement? So can we be more a bit specific on what are the key drivers and then the key path on the deposit growth?\",\n \"answer_quote\": \"We have a deep-rooted trust, across our four businesses and across all the geographies where we operate, which we nurture to support customers giving us their deposits and using us as their deposit bank, by preference or by excellence, that can support, if you want, our outlook on our deposit growth. We have seen deposit growth, as you've seen in our new disclosures and wealth, across the spectrum of our customer base, Premier, Private Bank, Retail, in every market, in every jurisdiction, even when there isn't a home market.\",\n \"reason\": \"The answer directly addresses the sustainability of deposit growth and the impact of RMB appreciation and global taxation on mainland Chinese nationals opening new accounts in Hong Kong, providing evidence of deep-rooted trust and observed deposit growth across various markets.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the sustainability of deposit growth and the impact of RMB appreciation and global taxation on mainland Chinese nationals opening new accounts in Hong Kong.\",\n  \"main_topics\": [\"HSBC's confidence in deposit growth\", \"Impact of RMB appreciation and global taxation on mainland Chinese nationals\", \"HSBC's wealth management opportunities\", \"HSBC's deposit base and trust\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My question is on NII. What gives HSBC the confidence then on the sustainability of the deposit growth? One trend we noted is that, say, for example in mainland China, with RMB appreciation and also mainland China starting to tax its citizens globally, will that actually slow down, for example, mainland Chinese nationals coming to Hong Kong to open new accounts and then the money flow movement? So can we be more a bit specific on what are the key drivers and then the key path on the deposit growth?\",\n  \"answer_quote\": \"We have a deep-rooted trust, across our four businesses and across all the geographies where we operate, which we nurture to support customers giving us their deposits and using us as their deposit bank, by preference or by excellence, that can support, if you want, our outlook on our deposit growth. We have seen deposit growth, as you've seen in our new disclosures and wealth, across the spectrum of our customer base, Premier, Private Bank, Retail, in every market, in every jurisdiction, even when there isn't a home market.\",\n  \"reason\": \"The answer directly addresses the question about HSBC's confidence in deposit growth and provides specific evidence of deep-rooted trust and observed deposit growth across various customer bases and geographies.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the sustainability of deposit growth and the impact of RMB appreciation and global taxation on mainland Chinese nationals opening new accounts in Hong Kong.\",\n  \"main_topics\": [\n    \"HSBC's confidence in deposit growth\",\n    \"Impact of RMB appreciation and global taxation on mainland Chinese nationals\",\n    \"HSBC's wealth management and deposit strategies\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My question is on NII. What gives HSBC the confidence then on the sustainability of the deposit growth? One trend we noted is that, say, for example in mainland China, with RMB appreciation and also mainland China starting to tax its citizens globally, will that actually slow down, for example, mainland Chinese nationals coming to Hong Kong to open new accounts and then the money flow movement? So can we be more a bit specific on what are the key drivers and then the key path on the deposit growth?\",\n  \"answer_quote\": \"We have a deep-rooted trust, across our four businesses and across all the geographies where we operate, which we nurture to support customers giving us their deposits and using us as their deposit bank, by preference or by excellence, that can support, if you want, our outlook on our deposit growth. We have seen deposit growth, as you've seen in our new disclosures and wealth, across the spectrum of our customer base, Premier, Private Bank, Retail, in every market, in every jurisdiction, even when there isn't a home market.\",\n  \"reason\": \"The answer provides some information on deposit growth and trust but does not directly address the specific concerns about RMB appreciation, global taxation, and their impact on mainland Chinese nationals opening accounts in Hong Kong.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1793,
+      "batch_seconds": 71.30604900900016
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1841,
+      "batch_seconds": 111.91430351500003
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1841,
+      "batch_seconds": 112.26392812099948
+    }
+  ],
+  "exchange_id": "13220c46f1a6-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "db01f7df2688c065cb1b49555473537f442c4c028cdf26ab1d293888d5b27477",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

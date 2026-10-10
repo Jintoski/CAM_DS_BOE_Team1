@@ -1,0 +1,13 @@
+﻿error_category,count,share_failed
+Schema mismatch,160,0.43360433604336046
+Ungrounded excerpt,73,0.1978319783197832
+ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings,57,0.15447154471544716
+Malformed JSON,50,0.13550135501355012
+ValueError: Duplicate JSON field: main_topics,8,0.02168021680216802
+ValueError: Duplicate JSON field: answer_completeness,6,0.016260162601626018
+ValueError: Duplicate JSON field: contains_numeric_evidence,5,0.013550135501355014
+ValueError: Duplicate JSON field: question_quote,4,0.01084010840108401
+ValueError: Duplicate JSON field: question_intent,3,0.008130081300813009
+ValueError: Duplicate JSON field: response_stance,1,0.0027100271002710027
+ValueError: Duplicate JSON field: narrative_alignment,1,0.0027100271002710027
+ValueError: Duplicate JSON field: evidence_level,1,0.0027100271002710027

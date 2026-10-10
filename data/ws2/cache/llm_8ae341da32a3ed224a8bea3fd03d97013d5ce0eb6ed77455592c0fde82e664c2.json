@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on Net Interest Income (NII) forecasts, cost: income ratio, and dividend shape\",\n  \"main_topics\": [\"Net Interest Income (NII) forecasts\", \"Cost: income ratio\", \"Dividend shape\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first is really just a clarification of some of the answers you've given in the last 30 minutes on both Net Interest Income and costs. On the NII, it sounded like, from what you were saying Anna, as though USCB forecasts for 2028 have maybe got to circa the right place, but UKCB is still a bit low. I know you don't want to be marking-to-market every quarter, but it would be helpful just to get a sense as to whether I've read between the lines correctly there. And then on the cost: income ratio, again totally understand you don't want to be bound to an absolute cost number next year, but consensus is at 55.5% on the cost: income ratio. That feels a meaningful step down from this year, towards the low 50s in full year '28. Are you comfortable with consensus cost: income ratio for next year? So sorry to focus on consensus and guidance.\",\n  \"answer_quote\": \"So Jonathan, let me take your first clarification points. So, I'll just repeat what I said. I'm not going to mark-to-market. Clearly, the analyst community has listened, and we've seen a movement in that consensus for 2028. We have confidence in all of our businesses, and we have confidence in the UK Corporate Bank, as well as the US Consumer Bank. So, we've seen both of them move up. In terms of cost: income ratio, look, it's high 50s this year. Our expectation low 50s in 2028. We haven't given you any guidance at all for 2027, but what we are saying is that given that we are committed to progressive returns year-on-year and progressive distributions, you should expect us to be making a meaningful step between the high and the low position in 2027. And then coming to dividends, you're right over the last few years, we've typically done one-third, two-thirds. We've made a deliberate shift towards a 40% to 60%. The reason that we've done that is we feel it's more reflective of our US and our European peers. It is more consistent with our general desire to get distributions into the hands of shareholders more quickly. See it as consistent with the move to the quarterly buyback. At the half-year, we are at £9 billion of our at least £10 billion guidance that we gave you for '24 to '26. We've paid £800 [million] of the £2 billion dividend already. You should be expecting £9 billion plus £1.2 billion plus another two-quarters of buybacks. Clearly we said our distributions would be progressive and that's probably the limit of the guidance I can give you at this stage, Jonathan, but hopefully you can see the conviction that we have around distributions which are up 61% year on year.\",\n  \"reason\": \"The answer directly addresses the clarification points on NII forecasts, cost: income ratio, and dividend shape, providing specific figures and guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1078,
+      "batch_seconds": 33.79182608800056
+    }
+  ],
+  "exchange_id": "59043c81adbf-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8ae341da32a3ed224a8bea3fd03d97013d5ce0eb6ed77455592c0fde82e664c2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on Net Interest Income (NII) forecasts, cost: income ratio, and dividend shape",
+    "main_topics": [
+      "Net Interest Income (NII) forecasts",
+      "Cost: income ratio",
+      "Dividend shape"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first is really just a clarification of some of the answers you've given in the last 30 minutes on both Net Interest Income and costs. On the NII, it sounded like, from what you were saying Anna, as though USCB forecasts for 2028 have maybe got to circa the right place, but UKCB is still a bit low. I know you don't want to be marking-to-market every quarter, but it would be helpful just to get a sense as to whether I've read between the lines correctly there. And then on the cost: income ratio, again totally understand you don't want to be bound to an absolute cost number next year, but consensus is at 55.5% on the cost: income ratio. That feels a meaningful step down from this year, towards the low 50s in full year '28. Are you comfortable with consensus cost: income ratio for next year? So sorry to focus on consensus and guidance.",
+    "answer_quote": "So Jonathan, let me take your first clarification points. So, I'll just repeat what I said. I'm not going to mark-to-market. Clearly, the analyst community has listened, and we've seen a movement in that consensus for 2028. We have confidence in all of our businesses, and we have confidence in the UK Corporate Bank, as well as the US Consumer Bank. So, we've seen both of them move up. In terms of cost: income ratio, look, it's high 50s this year. Our expectation low 50s in 2028. We haven't given you any guidance at all for 2027, but what we are saying is that given that we are committed to progressive returns year-on-year and progressive distributions, you should expect us to be making a meaningful step between the high and the low position in 2027. And then coming to dividends, you're right over the last few years, we've typically done one-third, two-thirds. We've made a deliberate shift towards a 40% to 60%. The reason that we've done that is we feel it's more reflective of our US and our European peers. It is more consistent with our general desire to get distributions into the hands of shareholders more quickly. See it as consistent with the move to the quarterly buyback. At the half-year, we are at £9 billion of our at least £10 billion guidance that we gave you for '24 to '26. We've paid £800 [million] of the £2 billion dividend already. You should be expecting £9 billion plus £1.2 billion plus another two-quarters of buybacks. Clearly we said our distributions would be progressive and that's probably the limit of the guidance I can give you at this stage, Jonathan, but hopefully you can see the conviction that we have around distributions which are up 61% year on year.",
+    "reason": "The answer directly addresses the clarification points on NII forecasts, cost: income ratio, and dividend shape, providing specific figures and guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about leverage exposure, market share assumptions, and AI implementation in the bank.\",\n  \"main_topics\": [\"leverage exposure\", \"market share\", \"AI implementation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are you able to give any colour on perhaps how much leverage exposure is tied up in the Investment Bank?\",\n  \"answer_quote\": \"We don't talk about return on leverage balance sheet a lot with this community, but you can imagine we are very focused on it in the background.\",\n  \"reason\": \"The answer directly addresses the question about leverage exposure, provides a high level of evidence with specific references to the bank's focus and activities, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about leverage exposure in the Investment Bank, relevance of RWAs in growth, market share assumptions, and the impact and integration speed of AI technologies.\",\n \"main_topics\": [\"Leverage Exposure\", \"RWAs and Growth\", \"Market Share Assumptions\", \"AI Impact and Integration\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Are you able to give any colour on perhaps how much leverage exposure is tied up in the Investment Bank?\",\n \"answer_quote\": \"We don't talk about return on leverage balance sheet a lot with this community, but you can imagine we are very focused on it in the background.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1230,
+      "batch_seconds": 33.825311269999474
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1275,
+      "batch_seconds": 96.81079734500054
+    }
+  ],
+  "exchange_id": "f7f72b2656e8-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "65dd3cf897b00adb70ba92858bde033b2ee05262a083185903fd10f3a8af3a2c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about leverage exposure, market share assumptions, and AI implementation in the bank.",
+    "main_topics": [
+      "leverage exposure",
+      "market share",
+      "AI implementation"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Are you able to give any colour on perhaps how much leverage exposure is tied up in the Investment Bank?",
+    "answer_quote": "We don't talk about return on leverage balance sheet a lot with this community, but you can imagine we are very focused on it in the background.",
+    "reason": "The answer directly addresses the question about leverage exposure, provides a high level of evidence with specific references to the bank's focus and activities, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

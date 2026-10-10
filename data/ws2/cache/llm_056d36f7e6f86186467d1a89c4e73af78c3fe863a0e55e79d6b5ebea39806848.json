@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Forecast RWA assumptions for Q4\",\n  \"main_topics\": [\"RWA forecast\", \"credit migration\", \"common equity tier 1\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Maybe just to follow up on the 14%, what kind of RWA assumption? You must have some optimisation coming through in the second of the year, and related to that, you must have an assumption of credit migration as well. I'm just wondering if we can get any more sense on what you think RWAs will shape up, especially towards Q4.\",\n  \"answer_quote\": \"I'm not going to give an RWA forecast, but we've taken all of that stuff into account. As I said, we track our common equity tier 1 daily, and as of yesterday we're still in line with the guidance we gave at Q2.\",\n  \"reason\": \"The answer deflects the question by stating they won't provide a forecast but acknowledges considering the factors, without giving a direct answer on RWA assumptions for Q4.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 512,
+      "batch_seconds": 11.167466369000067
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "056d36f7e6f86186467d1a89c4e73af78c3fe863a0e55e79d6b5ebea39806848",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Forecast RWA assumptions for Q4",
+    "main_topics": [
+      "RWA forecast",
+      "credit migration",
+      "common equity tier 1"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Maybe just to follow up on the 14%, what kind of RWA assumption? You must have some optimisation coming through in the second of the year, and related to that, you must have an assumption of credit migration as well. I'm just wondering if we can get any more sense on what you think RWAs will shape up, especially towards Q4.",
+    "answer_quote": "I'm not going to give an RWA forecast, but we've taken all of that stuff into account. As I said, we track our common equity tier 1 daily, and as of yesterday we're still in line with the guidance we gave at Q2.",
+    "reason": "The answer deflects the question by stating they won't provide a forecast but acknowledges considering the factors, without giving a direct answer on RWA assumptions for Q4."
+  },
+  "whitespace_adjusted_quotes": []
+}

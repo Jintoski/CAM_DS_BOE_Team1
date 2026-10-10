@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiries about the size of the mortgage book and its profitability\",\n  \"main_topics\": [\"mortgage book size\", \"profitability\", \"legacy products\", \"market rates\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I have a couple of questions on your mortgage book. The first one is, how big is your legacy lifetime tracker book? And is the churn you're seeing here margin-positive? And, second, what's the size of your SVR book, including balances on reversionary rates, please?\",\n  \"answer_quote\": \"So, I don't think we've given any disclosure on the substructure of our mortgage book, so it's not something that I would do here. To help you think about it though, what matters for a customer is, they're looking at the rate they're paying now, versus what is the prevailing front book rate in the market. So, the extent to which the base rate rises and drives those legacy rates higher, there will come a point where it makes economic sense for that customer to switch to a front book product. There will come a point where they will choose to remortgage if it makes sense for them to pay the fee. But they are legacy products. They've been out there for some time, so that may not be rational for the customer. But I won't comment on the scale of the book.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Size of mortgage book and churn margin\",\n  \"main_topics\": [\"Mortgage book size\", \"Churn margin\", \"Legacy products\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"How big is your legacy lifetime tracker book? And is the churn you're seeing here margin-positive? And, second, what's the size of your SVR book, including balances on reversionary rates, please?\",\n  \"answer_quote\": \"So, I don't think we've given any disclosure on the substructure of our mortgage book, so it's not something that I would do here. To help you think about it though, what matters for a customer is, they're looking at the rate they're paying now, versus what is the prevailing front book rate in the market. So, the extent to which the base rate rises and drives those legacy rates higher, there will come a point where it makes economic sense for that customer to switch to a front book product. There will come a point where they will choose to remortgage if it makes sense for them to pay the fee. But they are legacy products. They've been out there for some time, so that may not be rational for the customer. But I won't comment on the scale of the book.\",\n  \"reason\": \"The response deflects the question about the size of the mortgage book and churn margin, instead discussing the economic rationale for customers to switch products without providing the requested numerical information.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Size of mortgage book and churn margin\",\n  \"main_topics\": [\"Mortgage book size\", \"Churn margin\", \"SVR book size\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"How big is your legacy lifetime tracker book? And is the churn you're seeing here margin-positive? And, second, what's the size of your SVR book, including balances on reversionary rates, please?\",\n  \"answer_quote\": \"So, I don't think we've given any disclosure on the substructure of our mortgage book, so it's not something that I would do here. To help you think about it though, what matters for a customer is, they're looking at the rate they're paying now, versus what is the prevailing front book rate in the market. So, the extent to which the base rate rises and drives those legacy rates higher, there will come a point where it makes economic sense for that customer to switch to a front book product. There will come a point where they will choose to remortgage if it makes sense for them to pay the fee. But they are legacy products. They've been out there for some time, so that may not be rational for the customer. But I won't comment on the scale of the book.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiries about the size of the mortgage book and its profitability\",\n  \"main_topics\": [\"mortgage book size\", \"profitability\", \"legacy products\", \"market rates\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I have a couple of questions on your mortgage book. The first one is, how big is your legacy lifetime tracker book? And is the churn you're seeing here margin-positive? And, second, what's the size of your SVR book, including balances on reversionary rates, please?\",\n  \"answer_quote\": \"So, I don't think we've given any disclosure on the substructure of our mortgage book, so it's not something that I would do here. To help you think about it though, what matters for a customer is, they're looking at the rate they're paying now, versus what is the prevailing front book rate in the market. So, the extent to which the base rate rises and drives those legacy rates higher, there will come a point where it makes economic sense for that customer to switch to a front book product. There will come a point where they will choose to remortgage if it makes sense for them to pay the fee. But they are legacy products. They've been out there for some time, so that may not be rational for the customer. But I won't comment on the scale of the book.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 608,
+      "batch_seconds": 14.887864954000179
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 656,
+      "batch_seconds": 14.078725104000114
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 653,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "40fbb063266a-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d469016dd83b2f9b00b9b8f58eb0f25dfc1215a5ec291f70a332c670df761e74",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

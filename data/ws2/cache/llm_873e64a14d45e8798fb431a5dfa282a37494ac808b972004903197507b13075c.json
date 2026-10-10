@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on US Consumer Bank top line, NIM, non-interest income, and UK Mortgages\",\n  \"main_topics\": [\"US Consumer Bank top line\", \"NIM\", \"non-interest income\", \"UK Mortgages\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Hi, morning Venkat, morning Anna. Thanks for taking the questions. The first one was on the US Consumer [Bank] top line. Clearly very strong up 20% year over year, both non-interest income and then the NIM moving up to 11.5%. Just helpful to understand if there's anything particularly lumpy in there.\",\n  \"answer_quote\": \"Okay, thanks Guy. I'll take both of those and thanks for opening the call for us. And just on the US Consumer [Bank] top line, I think what you're seeing coming together now is a real combination of all of the operational actions that we've been undertaking over the last few quarters.\",\n  \"reason\": \"The response directly addresses the questions asked, provides a high level of evidence with specific figures, and offers forward guidance on the NIM and non-interest income, aligning with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss US Consumer Bank's NIM growth, non-interest income, and UK mortgage market performance.\",\n \"main_topics\": [\"US Consumer Bank NIM growth\", \"Non-interest income\", \"UK mortgage market performance\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Just to confirm that we should be thinking about growth of that 11.5% NIM base, given the sort of ongoing lending mix actions you've talked to and growth in retail deposit base.\",\n \"answer_quote\": \"I expect over the next couple of quarters, Q4 and Q1 to be broadly at the level of NIM that we're currently running at, around 11.5%. I'm not going to guide you to Q2 and beyond, because obviously, once we exit the American Airlines portfolio, that NIM is going to jump up again.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1344,
+      "batch_seconds": 55.57041523099997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1389,
+      "batch_seconds": 98.95444901700102
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "873e64a14d45e8798fb431a5dfa282a37494ac808b972004903197507b13075c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on US Consumer Bank top line, NIM, non-interest income, and UK Mortgages",
+    "main_topics": [
+      "US Consumer Bank top line",
+      "NIM",
+      "non-interest income",
+      "UK Mortgages"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Hi, morning Venkat, morning Anna. Thanks for taking the questions. The first one was on the US Consumer [Bank] top line. Clearly very strong up 20% year over year, both non-interest income and then the NIM moving up to 11.5%. Just helpful to understand if there's anything particularly lumpy in there.",
+    "answer_quote": "Okay, thanks Guy. I'll take both of those and thanks for opening the call for us. And just on the US Consumer [Bank] top line, I think what you're seeing coming together now is a real combination of all of the operational actions that we've been undertaking over the last few quarters.",
+    "reason": "The response directly addresses the questions asked, provides a high level of evidence with specific figures, and offers forward guidance on the NIM and non-interest income, aligning with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiries about bank earnings, fixed-income results, and mortgage balance growth.\",\n  \"main_topics\": [\"Fixed-Income Results\", \"Mortgage Balance Growth\", \"Market Performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just firstly on the fixed-income result and very strong relative to peers. So any reason why there might be episodic revenues in that or any additional seasonality compared to your peers? And if you could help us think about the breakdown between credit, securitized products, rates and FX? Any colour you can share would be helpful.\",\n  \"answer_quote\": \"I called out Rates and I called out Securitized Products. There are no one-ofs in there. And so where we take marks on positions, they are not in FICC. They are on our corporate lending line and we've called that out separately. So I wouldn't call out any one-of. So it's a good performance.\",\n  \"reason\": \"The answer directly addresses the fixed-income results and provides a breakdown of the performance, aligning with the question's intent. It also touches on the mortgage balance growth, explaining the market conditions that led to the results.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 805,
+      "batch_seconds": 22.406666687000325
+    }
+  ],
+  "exchange_id": "d970c7e31290-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3968140be6772ffcfc86d45342463ae292145c7123b6e67ee90cd17d42a4c4a4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiries about bank earnings, fixed-income results, and mortgage balance growth.",
+    "main_topics": [
+      "Fixed-Income Results",
+      "Mortgage Balance Growth",
+      "Market Performance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just firstly on the fixed-income result and very strong relative to peers. So any reason why there might be episodic revenues in that or any additional seasonality compared to your peers? And if you could help us think about the breakdown between credit, securitized products, rates and FX? Any colour you can share would be helpful.",
+    "answer_quote": "I called out Rates and I called out Securitized Products. There are no one-ofs in there. And so where we take marks on positions, they are not in FICC. They are on our corporate lending line and we've called that out separately. So I wouldn't call out any one-of. So it's a good performance.",
+    "reason": "The answer directly addresses the fixed-income results and provides a breakdown of the performance, aligning with the question's intent. It also touches on the mortgage balance growth, explaining the market conditions that led to the results."
+  },
+  "whitespace_adjusted_quotes": []
+}

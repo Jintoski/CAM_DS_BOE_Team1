@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Impact of inflation on lending volumes and growth\",\n  \"main_topics\": [\"inflation\", \"lending volumes\", \"volume growth\", \"cost structure\", \"macroeconomic impact\", \"trade\", \"confidence\", \"UK inflation\", \"Asia inflation\", \"Middle East economic conditions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on inflation and lending volumes? Is inflation good or bad for volume growth, do you think, on net?\",\n  \"answer_quote\": \"High inflation is net-net negative for us. It's negative on the cost structure. It's negative on macro. Macro is probably the main driver of volume growth rather than the underlying inflationary impacts on volume growth, so net-net, I would say negative. It's positive for trade, as we've seen, albeit not just price, it's volume. We've seen very strong volume growth in trade. It's a relatively small part of the book, about 10% of the book. Elsewhere, both in retail and wholesale, people are borrowing, unless it's involuntary, which is bad. It depends on confidence: confidence to invest, confidence to buy a house, confidence to buy a car, and so to the extent inflation impacts confidence - which it's clearly doing - then we think it would be net-net a negative to our business. Before we get too bearish - here in the UK we've seen very high inflation. We are seeing inflation higher than normal in Asia, but just to be aware, we have a different footprint. In Asia and the Middle East, there's a different dynamic. The Middle East is booming at the moment. Asia, certainly outside of Hong Kong and China, had a very strong first half. I think your general point is noted, particularly in the UK, where it is impacting confidence in both the personal and the wholesale sector.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of inflation on lending volumes and growth\",\n  \"main_topics\": [\"Inflation\", \"Lending Volumes\", \"Volume Growth\", \"Confidence\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on inflation and lending volumes? Is inflation good or bad for volume growth, do you think, on net?\",\n  \"answer_quote\": \"High inflation is net-net negative for us. It's negative on the cost structure. It's negative on macro. Macro is probably the main driver of volume growth rather than the underlying inflationary impacts on volume growth, so net-net, I would say negative. It's positive for trade, as we've seen, albeit not just price, it's volume. We've seen very strong volume growth in trade. It's a relatively small part of the book, about 10% of the book. Elsewhere, both in retail and wholesale, people are borrowing, unless it's involuntary, which is bad. It depends on confidence: confidence to invest, confidence to buy a house, confidence to buy a car, and so to the extent inflation impacts confidence - which it's clearly doing - then we think it would be net-net a negative to our business. Before we get too bearish - here in the UK we've seen very high inflation. We are seeing inflation higher than normal in Asia, but just to be aware, we have a different footprint. In Asia and the Middle East, there's a different dynamic. The Middle East is booming at the moment. Asia, certainly outside of Hong Kong and China, had a very strong first half. I think your general point is noted, particularly in the UK, where it is impacting confidence in both the personal and the wholesale sector.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of inflation on lending volumes and growth\",\n  \"main_topics\": [\"inflation\", \"lending volumes\", \"volume growth\", \"cost structure\", \"macroeconomic impact\", \"trade\", \"confidence\", \"UK inflation\", \"Asia inflation\", \"Middle East economic conditions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on inflation and lending volumes? Is inflation good or bad for volume growth, do you think, on net?\",\n  \"answer_quote\": \"High inflation is net-net negative for us. It's negative on the cost structure. It's negative on macro. Macro is probably the main driver of volume growth rather than the underlying inflationary impacts on volume growth, so net-net, I would say negative. It's positive for trade, as we've seen, albeit not just price, it's volume. We've seen very strong volume growth in trade. It's a relatively small part of the book, about 10% of the book. Elsewhere, both in retail and wholesale, people are borrowing, unless it's involuntary, which is bad. It depends on confidence: confidence to invest, confidence to buy a house, confidence to buy a car, and so to the extent inflation impacts confidence - which it's clearly doing - then we think it would be net-net a negative to our business. Before we get too bearish - here in the UK we've seen very high inflation. We are seeing inflation higher than normal in Asia, but just to be aware, we have a different footprint. In Asia and the Middle East, there's a different dynamic. The Middle East is booming at the moment. Asia, certainly outside of Hong Kong and China, had a very strong first half. I think your general point is noted, particularly in the UK, where it is impacting confidence in both the personal and the wholesale sector.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of inflation on lending volumes and growth\",\n  \"main_topics\": [\"inflation\", \"lending volumes\", \"volume growth\", \"cost structure\", \"macroeconomic impact\", \"trade\", \"confidence\", \"UK inflation\", \"Asia inflation\", \"Middle East economic conditions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on inflation and lending volumes? Is inflation good or bad for volume growth, do you think, on net?\",\n  \"answer_quote\": \"High inflation is net-net negative for us. It's negative on the cost structure. It's negative on macro. Macro is probably the main driver of volume growth rather than the underlying inflationary impacts on volume growth, so net-net, I would say negative. It's positive for trade, as we've seen, albeit not just price, it's volume. We've seen very strong volume growth in trade. It's a relatively small part of the book, about 10% of the book. Elsewhere, both in retail and wholesale, people are borrowing, unless it's involuntary, which is bad. It depends on confidence: confidence to invest, confidence to buy a house, confidence to buy a car, and so to the extent inflation impacts confidence - which it's clearly doing - then we think it would be net-net a negative to our business. Before we get too bearish - here in the UK we've seen very high inflation. We are seeing inflation higher than normal in Asia, but just to be aware, we have a different footprint. In Asia and the Middle East, there's a different dynamic. The Middle East is booming at the moment. Asia, certainly outside of Hong Kong and China, had a very strong first half. I think your general point is noted, particularly in the UK, where it is impacting confidence in both the personal and the wholesale sector.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 683,
+      "batch_seconds": 16.33152911400066
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 728,
+      "batch_seconds": 17.366536229999838
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 728,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6bb44f9a709dc27275df887404c5182bc4ee2d0f12a0483ae125988e465ed930",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

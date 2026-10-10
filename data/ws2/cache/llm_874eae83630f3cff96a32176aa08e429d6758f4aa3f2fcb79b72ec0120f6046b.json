@@ -1,0 +1,67 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Optimal level of inflation\",\n  \"main_topics\": [\"Inflation\", \"UK economic growth\", \"Global macro outlook\", \"2023 economic forecast\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there an optimal level of inflation, in your perspective?\",\n  \"answer_quote\": \"Probably mid-teens is not optimal. We're not going to do a Brian Pitman on you. Don't worry about that. Brian Pitman talked about inflation all the time, for those of us who have got the grey hairs. In terms of global macro, I think for 2023 the UK is going to be slower, but places like Hong Kong and China are probably one of the few parts of the world we're going to see better macro growth in 2023 than in 2022. If you think about the mix of our business, while UK will be slower we do think Hong Kong will pick up as Covid restrictions progressively lift there. But again, we've guided to mid-single-digit loan growth for 2022-2023. I don't see at this point there's any reason to deviate from that guidance.\",\n  \"reason\": \"The answer partially addresses the question by discussing inflation and economic growth but does not provide a clear stance on the optimal level of inflation, and lacks numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Optimal inflation level\",\n  \"main_topics\": [\"Inflation\", \"UK economic growth\", \"Global macro outlook\", \"Loan growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there an optimal level of inflation, in your perspective?\",\n  \"answer_quote\": \"Probably mid-teens is not optimal. We're not going to do a Brian Pitman on you. Don't worry about that. Brian Pitman talked about inflation all the time, for those of us who have got the grey hairs. In terms of global macro, I think for 2023 the UK is going to be slower, but places like Hong Kong and China are probably one of the few parts of the world we're going to see better macro growth in 2023 than in 2022. If you think about the mix of our business, while UK will be slower we do think Hong Kong will pick up as Covid restrictions progressively lift there. But again, we've guided to mid-single-digit loan growth for 2022-2023. I don't see at this point there's any reason to deviate from that guidance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Optimal inflation level\",\n  \"main_topics\": [\"inflation\", \"UK economic growth\", \"global macro outlook\", \"COVID-19 impact\", \"loan growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there an optimal level of inflation, in your perspective?\",\n  \"answer_quote\": \"Probably mid-teens is not optimal. We're not going to do a Brian Pitman on you. Don't worry about that. Brian Pitman talked about inflation all the time, for those of us who have got the grey hairs. In terms of global macro, I think for 2023 the UK is going to be slower, but places like Hong Kong and China are probably one of the few parts of the world we're going to see better macro growth in 2023 than in 2022. If you think about the mix of our business, while UK will be slower we do think Hong Kong will pick up as Covid restrictions progressively lift there. But again, we've guided to mid-single-digit loan growth for 2022-2023. I don't see at this point there's any reason to deviate from that guidance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 566,
+      "batch_seconds": 13.144700353999724
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 611,
+      "batch_seconds": 14.27197855400118
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 611,
+      "batch_seconds": 13.606166855000993
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "874eae83630f3cff96a32176aa08e429d6758f4aa3f2fcb79b72ec0120f6046b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Optimal level of inflation",
+    "main_topics": [
+      "Inflation",
+      "UK economic growth",
+      "Global macro outlook",
+      "2023 economic forecast"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Is there an optimal level of inflation, in your perspective?",
+    "answer_quote": "Probably mid-teens is not optimal. We're not going to do a Brian Pitman on you. Don't worry about that. Brian Pitman talked about inflation all the time, for those of us who have got the grey hairs. In terms of global macro, I think for 2023 the UK is going to be slower, but places like Hong Kong and China are probably one of the few parts of the world we're going to see better macro growth in 2023 than in 2022. If you think about the mix of our business, while UK will be slower we do think Hong Kong will pick up as Covid restrictions progressively lift there. But again, we've guided to mid-single-digit loan growth for 2022-2023. I don't see at this point there's any reason to deviate from that guidance.",
+    "reason": "The answer partially addresses the question by discussing inflation and economic growth but does not provide a clear stance on the optimal level of inflation, and lacks numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

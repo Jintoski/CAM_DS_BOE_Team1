@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request breakdown of Transaction Banking performance\",\n  \"main_topics\": [\"Transaction Banking performance\", \"Margins\", \"Volumes\", \"Underlying business activity\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you help us break that down in margins, volumes, underlying business activity?\",\n  \"answer_quote\": \"I won't split the numbers out for you; however, you can see there's a few things going on there.\",\n  \"reason\": \"The answer deflects the request for specific numbers and instead provides a general explanation without the requested numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Break down the year-on-year performance increase in Transaction Banking\",\n  \"main_topics\": [\"Transaction Banking performance\", \"Margins\", \"Volumes\", \"Underlying business activity\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you help us break that down in margins, volumes, underlying business activity?\",\n  \"answer_quote\": \"I won't split the numbers out for you; however, you can see there's a few things going on there. Firstly, [deposit] balances have continued to grow. We've obviously seen some margin widening there, but for us, certainly, the amount of margin widening that you see in corporates is less than we see in the other books, [specifically] corporates with multi-bank relationships. That's important, there's some margin widening, but not to the extent that you would've seen in a retail book. Then there's also an increase in nominal economic activity. Whether that be foreign exchange payments, whether that be trade finance, or payments more generally, etc., you're going to see an increase in that fee line also going through Transaction Banking. But this is a very stable source of income for us. It's the oldest part of the bank, a really key part of the franchise, so one that we are very focussed on investing behind, as well. We've done some investment in the cash management system. And our ability to manage clients cross-border, not just the UK or the US.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 640,
+      "batch_seconds": 16.037525024999923
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 685,
+      "batch_seconds": 16.749183160998655
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "4dc08e1a93f0f9eb85a477db17de0228e7acd11202386729d661cb9ac64c7bb4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request breakdown of Transaction Banking performance",
+    "main_topics": [
+      "Transaction Banking performance",
+      "Margins",
+      "Volumes",
+      "Underlying business activity"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Could you help us break that down in margins, volumes, underlying business activity?",
+    "answer_quote": "I won't split the numbers out for you; however, you can see there's a few things going on there.",
+    "reason": "The answer deflects the request for specific numbers and instead provides a general explanation without the requested numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

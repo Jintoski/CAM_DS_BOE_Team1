@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for forward guidance on non-interest income expectations\",\n  \"main_topics\": [\"non-interest income\", \"forward guidance\", \"profit forecast\", \"net interest income\", \"insurance MCU\", \"Global Banking and Markets P&L\", \"Wealth Management\", \"fee growth\", \"Global Markets performance\", \"event-based fees\", \"Global Payment Solutions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Would you be tempted to guide for your expectations for non-interest income next year, based on your current understanding of the momentum?\",\n  \"answer_quote\": \"I don't see that trend declining. I see that trend continuing of good fee generation there.\",\n  \"reason\": \"The response provides a mixed stance on forward guidance, with some elements of the original question being addressed and others not, and it contains medium-level evidence with some numeric references.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Guidance on non-interest income expectations\",\n \"main_topics\": [\"Non-interest income\", \"Non-interest income momentum\", \"Non-interest income guidance\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Would you be tempted to guide for your expectations for non-interest income next year, based on your current understanding of the momentum?\",\n \"answer_quote\": \"I think there are some elements of our fee performance that are going to be enduring.\"\n\"reason\": \"The answer directly addresses the question about providing guidance on non-interest income, with high evidence level due to the inclusion of specific figures and a clear stance on the future performance of non-interest income.\"",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 1 (char 642)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for forward guidance on non-interest income expectations\",\n  \"main_topics\": [\"non-interest income\", \"forward guidance\", \"profit forecast\", \"net interest income\", \"insurance MCU\", \"Global Banking and Markets P&L\", \"Wealth Management\", \"fee growth\", \"Global Markets performance\", \"event-based fees\", \"Global Payment Solutions\", \"alternative asset classes\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Would you be tempted to guide for your expectations for non-interest income next year, based on your current understanding of the momentum?\",\n  \"answer_quote\": \"I don't see that trend declining. I see that trend continuing of good fee generation there. And as I said earlier, my expectation is there'd be an opportunity for some growth in our fees around Wealth Management as both activities and markets start to pick up, and investment starts to flow back into alternative asset classes. But it's unpredictable at this stage. We'll have to see how next year goes.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for forward guidance on non-interest income expectations\",\n  \"main_topics\": [\"non-interest income\", \"forward guidance\", \"profit forecast\", \"net interest income\", \"insurance MCU\", \"Global Banking and Markets P&L\", \"Wealth Management\", \"fee growth\", \"Global Markets performance\", \"event-based fees\", \"Global Payment Solutions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Would you be tempted to guide for your expectations for non-interest income next year, based on your current understanding of the momentum?\",\n  \"answer_quote\": \"I don't see that trend declining. I see that trend continuing of good fee generation there.\",\n  \"reason\": \"The response provides a mixed stance on forward guidance, with some elements of the original question being addressed and others not, and it contains medium-level evidence with some numeric references.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 797,
+      "batch_seconds": 22.248980599999413
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 851,
+      "batch_seconds": 21.946229556999242
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 842,
+      "batch_seconds": 21.521728711000833
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f82e3a1a40ac46874bc2e1ba3f43a7ee0eaa5b31a823c4a7f1252f2c0ae0d2b5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

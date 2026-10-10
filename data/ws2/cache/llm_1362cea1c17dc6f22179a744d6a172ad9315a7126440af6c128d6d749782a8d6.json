@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Explaining the decline in ECL allowance for stage 3 Hong Kong CRE\",\n  \"main_topics\": [\"ECL allowance\", \"stage 3\", \"Hong Kong CRE\", \"secured exposures\", \"China CRE exposure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at the ECL allowance to stage 3, it was 67% FY23, and that's fallen to, I think, about 26% - 25-26% - in respect of full-year for the Hong Kong piece. So I guess I'm just wondering what explains that decline. Is it the proportion of the stage 3s that are secured that's driving that reduction in coverage, or what's the answer there, and how low that number can go?\",\n  \"answer_quote\": \"I'm happy to take the question, thank you. You're absolutely right. It is really because all of the stage 3s, virtually - a very large majority is coming through from the secured and, given the cover, ECL coverage is dropping through. But also we've written off some of the China CRE exposure overall, and you should think in terms of total exposures that we have, and that's also reducing the ECL coverage.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear explanation for the decline in ECL allowance, citing the majority of stage 3s coming from secured exposures and the write-off of China CRE exposure as reasons.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Explaining the decline in ECL allowance for stage 3 Hong Kong CRE\",\n  \"main_topics\": [\"ECL allowance\", \"stage 3\", \"Hong Kong CRE\", \"secured exposures\", \"China CRE exposure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at the ECL allowance to stage 3, it was 67% FY23, and that's fallen to, I think, about 26% - 25-26% - in respect of full-year for the Hong Kong piece. So I guess I'm just wondering what explains that decline. Is it the proportion of the stage 3s that are secured that's driving that reduction in coverage, or what's the answer there, and how low that number can go?\",\n  \"answer_quote\": \"I'm happy to take the question, thank you. You're absolutely right. It is really because all of the stage 3s, virtually - a very large majority is coming through from the secured and, given the cover, ECL coverage is dropping through. But also we've written off some of the China CRE exposure overall, and you should think in terms of total exposures that we have, and that's also reducing the ECL coverage.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear explanation for the decline in ECL allowance, citing the majority of stage 3s coming from secured exposures and the write-off of China CRE exposure as reasons.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Explaining the decline in ECL allowance for stage 3 Hong Kong CRE\",\n  \"main_topics\": [\"ECL allowance\", \"stage 3\", \"Hong Kong CRE\", \"secured exposures\", \"China CRE exposure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at the ECL allowance to stage 3, it was 67% FY23, and that's fallen to, I think, about 26% - 25-26% - in respect of full-year for the Hong Kong piece. So I guess I'm just wondering what explains that decline. Is it the proportion of the stage 3s that are secured that's driving that reduction in coverage, or what's the answer there, and how low that number can go?\",\n  \"answer_quote\": \"I'm happy to take the question, thank you. You're absolutely right. It is really because all of the stage 3s, virtually - a very large majority is coming through from the secured and, given the cover, ECL coverage is dropping through. But also we've written off some of the China CRE exposure overall, and you should think in terms of total exposures that we have, and that's also reducing the ECL coverage.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear explanation for the decline in ECL allowance, citing the majority of stage 3s coming from secured exposures and the write-off of China CRE exposure as reasons.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Explaining the decline in ECL allowance for stage 3 Hong Kong CRE\",\n  \"main_topics\": [\"ECL allowance\", \"stage 3\", \"Hong Kong CRE\", \"secured exposures\", \"China CRE exposure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at the ECL allowance to stage 3, it was 67% FY23, and that's fallen to, I think, about 26% - 25-26% - in respect of full-year for the Hong Kong piece. So I guess I'm just wondering what explains that decline. Is it the proportion of the stage 3s that are secured that's driving that reduction in coverage, or what's the answer there, and how low that number can go?\",\n  \"answer_quote\": \"I'm happy to take the question, thank you. You're absolutely right. It is really because all of the stage 3s, virtually - a very large majority is coming through from the secured and, given the cover, ECL coverage is dropping through. But also we've written off some of the China CRE exposure overall, and you should think in terms of total exposures that we have, and that's also reducing the ECL coverage.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear explanation for the decline in ECL allowance, citing the majority of stage 3s coming from secured exposures and the write-off of China CRE exposure as reasons.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 611,
+      "batch_seconds": 14.887864954000179
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 659,
+      "batch_seconds": 14.078725104000114
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 659,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1362cea1c17dc6f22179a744d6a172ad9315a7126440af6c128d6d749782a8d6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

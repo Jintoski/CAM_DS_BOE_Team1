@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss excess liquidity in the UK banking system and its potential impact on deposit betas.\",\n  \"main_topics\": [\"excess liquidity\", \"deposit betas\", \"UK banking system\", \"rate sensitivity\", \"retail ring-fences\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Looking at the progression of deposits in the UK system as a whole, compared to loans, and the market increase and excess liquidity now trapped in retail ring-fences in the UK, I was just wondering if you could highlight your thinking on this excess liquidity. Do you think this is likely to stay? Or could we see a scenario where this is going to gradually decrease? The question here being, could this, in your view, lead to a phase where deposit betas are markedly lower compared to where they were in history?\",\n  \"answer_quote\": \"Yes. I think the way I'd answer that, Martin, is that we've never really paid up for balances so we don't believe we've got much, if you like, hot money. If you look at our savings rates, you probably wouldn't be choosing Barclays as your deposit account if you were just looking for the best rate available. That's never really been a part of our business. They're much more franchise balances, as we call them, and they've grown quite nicely. Having said that, at some point, these balances will become rate-sensitive. Our view is we haven't seen that yet. The last time base rates peaked, they were 75bps and we didn't see rate sensitivity then so it's probably reasonable to assume, for the next 25-50bps, that maybe there will be not much rate sensitivity. Beyond that, we don't have any empirical, historical data to calibrate them off. What gives us a little bit of comfort is that we've never paid up for the balances in the first place, so it's not that people have been parking money with us in the expectation that they'll move it when they can get a better deal elsewhere.\",\n  \"reason\": \"The answer directly addresses the question about excess liquidity and its potential impact on deposit betas, providing a clear stance and high evidence level with numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1200,
+      "batch_seconds": 38.11599010600003
+    }
+  ],
+  "exchange_id": "a055cc76c938-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "be03931467cdaf26d4b14e1391a79c613e24ad831c45f8209733f1a3148f9d48",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss excess liquidity in the UK banking system and its potential impact on deposit betas.",
+    "main_topics": [
+      "excess liquidity",
+      "deposit betas",
+      "UK banking system",
+      "rate sensitivity",
+      "retail ring-fences"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Looking at the progression of deposits in the UK system as a whole, compared to loans, and the market increase and excess liquidity now trapped in retail ring-fences in the UK, I was just wondering if you could highlight your thinking on this excess liquidity. Do you think this is likely to stay? Or could we see a scenario where this is going to gradually decrease? The question here being, could this, in your view, lead to a phase where deposit betas are markedly lower compared to where they were in history?",
+    "answer_quote": "Yes. I think the way I'd answer that, Martin, is that we've never really paid up for balances so we don't believe we've got much, if you like, hot money. If you look at our savings rates, you probably wouldn't be choosing Barclays as your deposit account if you were just looking for the best rate available. That's never really been a part of our business. They're much more franchise balances, as we call them, and they've grown quite nicely. Having said that, at some point, these balances will become rate-sensitive. Our view is we haven't seen that yet. The last time base rates peaked, they were 75bps and we didn't see rate sensitivity then so it's probably reasonable to assume, for the next 25-50bps, that maybe there will be not much rate sensitivity. Beyond that, we don't have any empirical, historical data to calibrate them off. What gives us a little bit of comfort is that we've never paid up for the balances in the first place, so it's not that people have been parking money with us in the expectation that they'll move it when they can get a better deal elsewhere.",
+    "reason": "The answer directly addresses the question about excess liquidity and its potential impact on deposit betas, providing a clear stance and high evidence level with numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

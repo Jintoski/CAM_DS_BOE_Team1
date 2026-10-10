@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for details on PBWM cost impacts, confidence in cost income ratio, and immediate and medium-term synergies from Best Egg acquisition.\",\n  \"main_topics\": [\"PBWM cost impacts\", \"Best Egg synergies\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just firstly, on the PBWM business I think you spoke about the cost increase at Q1 from accelerated investments and inflation, which is set to continue throughout the year. Are you able to provide any more colour on the phasing and cadence of these cost impacts throughout the year? And do you retain confidence in the cost income ratio targets of high 60s percentage for 2026?\",\n  \"answer_quote\": \"Yes, sure. Thank you, Sachin. So on PBWM, what we're saying really is that you've seen a pickup in investment in this business. That's really coming through, I would say, in two meaningful areas. The first is the digital platform. The second is the wealth advisers that we're onboarding. And you'll see in Q2, the launch of that wealth advisory business very strongly linked to what Vim is doing with his premier banking opportunity in the UK. Expect that to continue. We repeated our cost: income ratio. I remain confident in that, but we do expect to continue to invest in this business. And obviously, it's a very high RoTE business and one that we think has considerable opportunity to grow. So we think that's the right decision. On Best Egg, well, I can't remember what the date is today, but we've had it for 12 days. So I wouldn't call out any synergies just yet. But I would expect them to come through on the income line first. That's what we saw in Tesco. That's what I'd expect to see here. They're going to come through on funding specifically. So if you think about the Best Egg model, they were having to raise wholesale funding in order to fund those portfolios prior to securitisation. Clearly, we're not going to have to do that. So we will be able to fund them in a different way. And then there will also be other synergies from the fact that we'll be handling our own securitisation. So they are the things that I would expect to come through sooner rather than later. And then obviously, we will see revenue synergies coming from both being able to introduce Best Egg customers to cards and vice versa. And then over time, cost synergies. A bit like Tesco, the cost synergies will come later. We want to ensure that this business is operating very, very well. It is, of course, a fintech, so it's a bit more easy to integrate than some of the businesses we've done in the past. So you'll hear more about that in time. It is a high cost: income ratio business, as you would expect, because it's fee driven. And we gave you some guidance around the cost of being about $45 million a month. Thank you so much, everybody. Good to see you. Thank you.\",\n  \"reason\": \"The answer provides detailed information on PBWM cost impacts, confidence in cost income ratio, and expected synergies from Best Egg, aligning with the question's intent and containing high evidence with numeric details.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 981,
+      "batch_seconds": 28.591533906999757
+    }
+  ],
+  "exchange_id": "0b87d27c6af4-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5f2a8b093c3b8c21ef624e1e99605d27d9cb83872f7dd8e6cd01f56d4fac913e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for details on PBWM cost impacts, confidence in cost income ratio, and immediate and medium-term synergies from Best Egg acquisition.",
+    "main_topics": [
+      "PBWM cost impacts",
+      "Best Egg synergies"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just firstly, on the PBWM business I think you spoke about the cost increase at Q1 from accelerated investments and inflation, which is set to continue throughout the year. Are you able to provide any more colour on the phasing and cadence of these cost impacts throughout the year? And do you retain confidence in the cost income ratio targets of high 60s percentage for 2026?",
+    "answer_quote": "Yes, sure. Thank you, Sachin. So on PBWM, what we're saying really is that you've seen a pickup in investment in this business. That's really coming through, I would say, in two meaningful areas. The first is the digital platform. The second is the wealth advisers that we're onboarding. And you'll see in Q2, the launch of that wealth advisory business very strongly linked to what Vim is doing with his premier banking opportunity in the UK. Expect that to continue. We repeated our cost: income ratio. I remain confident in that, but we do expect to continue to invest in this business. And obviously, it's a very high RoTE business and one that we think has considerable opportunity to grow. So we think that's the right decision. On Best Egg, well, I can't remember what the date is today, but we've had it for 12 days. So I wouldn't call out any synergies just yet. But I would expect them to come through on the income line first. That's what we saw in Tesco. That's what I'd expect to see here. They're going to come through on funding specifically. So if you think about the Best Egg model, they were having to raise wholesale funding in order to fund those portfolios prior to securitisation. Clearly, we're not going to have to do that. So we will be able to fund them in a different way. And then there will also be other synergies from the fact that we'll be handling our own securitisation. So they are the things that I would expect to come through sooner rather than later. And then obviously, we will see revenue synergies coming from both being able to introduce Best Egg customers to cards and vice versa. And then over time, cost synergies. A bit like Tesco, the cost synergies will come later. We want to ensure that this business is operating very, very well. It is, of course, a fintech, so it's a bit more easy to integrate than some of the businesses we've done in the past. So you'll hear more about that in time. It is a high cost: income ratio business, as you would expect, because it's fee driven. And we gave you some guidance around the cost of being about $45 million a month. Thank you so much, everybody. Good to see you. Thank you.",
+    "reason": "The answer provides detailed information on PBWM cost impacts, confidence in cost income ratio, and expected synergies from Best Egg, aligning with the question's intent and containing high evidence with numeric details."
+  },
+  "whitespace_adjusted_quotes": []
+}

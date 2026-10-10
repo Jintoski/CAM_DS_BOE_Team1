@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discussing the evolution of comfort in sharing financial targets.\",\n  \"main_topics\": [\"Financial comfort\", \"Target sharing\", \"Evolution of communication\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The shape of it - the shape of evolution.\",\n  \"answer_quote\": \"Yes. Look, the moment we reach a level of comfort to share this, we probably would have reached a level of comfort to give you targets for ROTE in the medium term, so hopefully, one will lead to the other in due course.\",\n  \"reason\": \"The answer partially addresses the question by discussing the evolution of comfort in sharing financial targets, but it lacks concrete evidence and is hedged, indicating uncertainty.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 449,
+      "batch_seconds": 9.044579651000276
+    }
+  ],
+  "exchange_id": "287d803c2083-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9a3e80fac5dc8a8b6ad826a6f023e402843019a5a78af20964375d3938610c90",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discussing the evolution of comfort in sharing financial targets.",
+    "main_topics": [
+      "Financial comfort",
+      "Target sharing",
+      "Evolution of communication"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The shape of it - the shape of evolution.",
+    "answer_quote": "Yes. Look, the moment we reach a level of comfort to share this, we probably would have reached a level of comfort to give you targets for ROTE in the medium term, so hopefully, one will lead to the other in due course.",
+    "reason": "The answer partially addresses the question by discussing the evolution of comfort in sharing financial targets, but it lacks concrete evidence and is hedged, indicating uncertainty."
+  },
+  "whitespace_adjusted_quotes": []
+}

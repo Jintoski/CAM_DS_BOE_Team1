@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess the sustainability of Hong Kong's return on tangible equity (ROTE) into the next year.\",\n  \"main_topics\": [\"Hong Kong ROTE sustainability\", \"Interest rate environment\", \"Hong Kong business profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just wanted to get a sense of how sustainable you thought that was. Do you think that ROTE is sustainable at this kind of current rate into next year, for example?\",\n  \"answer_quote\": \"Yes, a few elements, I guess, Aman, in terms of how to think about the ROTE for Hong Kong. One, it's a very strong wealth franchise, which is low capital intensive. It's got a very large deposit base, which is 60% current savings accounts, which today we're paying less than 10 basis points for, in terms of cost of funding. Thirdly, it's got scale, and the cost/income ratio of our Hong Kong business is in the 20% range, overall. Add in all those factors, that leads you to a very, very strong return on tangible equity for our Hong Kong business.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of Hong Kong's ROTE sustainability.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assess the sustainability of Hong Kong's return on tangible equity (ROTE)\",\n  \"main_topics\": [\"ROTE sustainability\", \"interest rate environment\", \"wealth franchise\", \"cost efficiency\", \"deposit franchise\", \"economic challenges\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just wanted to get a sense of how sustainable you thought that was. Do you think that ROTE is sustainable at this kind of current rate into next year, for example?\",\n  \"answer_quote\": \"Yes, a few elements, I guess, Aman, in terms of how to think about the ROTE for Hong Kong. One, it's a very strong wealth franchise, which is low capital intensive. It's got a very large deposit base, which is 60% current savings accounts, which today we're paying less than 10 basis points for, in terms of cost of funding. Thirdly, it's got scale, and the cost/income ratio of our Hong Kong business is in the 20% range, overall. Add in all those factors, that leads you to a very, very strong return on tangible equity for our Hong Kong business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess sustainability of ROTE in Hong Kong\",\n  \"main_topics\": [\"ROTE sustainability\", \"interest rate environment\", \"fee businesses outlook\", \"wealth franchise\", \"cost efficiency\", \"deposit franchise\", \"rate outlook\", \"operating accounts\", \"profitability\", \"geopolitical challenges\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just wanted to get a sense of how sustainable you thought that was. Do you think that ROTE is sustainable at this kind of current rate into next year, for example?\",\n  \"answer_quote\": \"Yes, a few elements, I guess, Aman, in terms of how to think about the ROTE for Hong Kong. One, it's a very strong wealth franchise, which is low capital intensive. It's got a very large deposit base, which is 60% current savings accounts, which today we're paying less than 10 basis points for, in terms of cost of funding. Thirdly, it's got scale, and the cost/income ratio of our Hong Kong business is in the 20% range, overall. Add in all those factors, that leads you to a very, very strong return on tangible equity for our Hong Kong business. In terms of sustainability, if things fall back to a zero interest rate environment, which is not the current base case, then that ROTE is at risk. If you look at the rate outlook, and assuming base rates on the Fed and Hong Kong dollar settles in the 300 basis point range, then I'm pretty comfortable that the returns that we're seeing in the Hong Kong business is sustainable, because at a 300 basis point range, given our deposit mix and the sizeable amount we've got in operating accounts, we can make a decent margin. You add in the factors then, a big and strong wealth business, very cost-efficient business overall when you look at cost to income/ratio, and a strong deposit franchise. It should not be a surprise that the Hong Kong business is such a high-returning business for the group. Aman, I'll just add, the Hong Kong ROTE level is not just a one-off quarter. Even in a quarter like the second quarter, where so much was affecting it as a headwind, whether it was ECLs, low HIBOR, it was still a 30% plus ROTE. I would just supplement, Aman, just to remember, if you stand back to look at Hong Kong, whether it's through the social unrest, through Covid, challenges on Hong Kong CRE, geopolitics, the last five, six years have been challenging for Hong Kong economically, but if you stand back to look at where we are as a business in Hong Kong, we continue to print record levels of profitability. We continue to generate, as you've mentioned, 40% plus return on tangible equity overall for Hong Kong as a geography in a challenging environment.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of Hong Kong's ROTE sustainability.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess the sustainability of Hong Kong's return on tangible equity (ROTE) into the next year.\",\n  \"main_topics\": [\"Hong Kong ROTE sustainability\", \"Interest rate environment\", \"Hong Kong business profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just wanted to get a sense of how sustainable you thought that was. Do you think that ROTE is sustainable at this kind of current rate into next year, for example?\",\n  \"answer_quote\": \"Yes, a few elements, I guess, Aman, in terms of how to think about the ROTE for Hong Kong. One, it's a very strong wealth franchise, which is low capital intensive. It's got a very large deposit base, which is 60% current savings accounts, which today we're paying less than 10 basis points for, in terms of cost of funding. Thirdly, it's got scale, and the cost/income ratio of our Hong Kong business is in the 20% range, overall. Add in all those factors, that leads you to a very, very strong return on tangible equity for our Hong Kong business.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of Hong Kong's ROTE sustainability.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 992,
+      "batch_seconds": 30.456091934999677
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1037,
+      "batch_seconds": 33.19210055500116
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1046,
+      "batch_seconds": 41.46973215899925
+    }
+  ],
+  "exchange_id": "df882adea623-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e5ddda8ac3c3767fa8a20bfd38a9cdbeda49cdc1cc9e524aba1edaec3a3cab2c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

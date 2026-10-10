@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing the reasonableness of a financial assumption\",\n  \"main_topics\": [\"Bank margins\", \"Risk appetite\", \"Asia vs Western Europe\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is that a reasonable assumption or conclusion to draw?\",\n  \"answer_quote\": \"In the UK, we have good margins. It's still a healthy franchise. So I wouldn't necessarily call it that way, but margins also reflect risk appetite. Asia is pretty expensive and there is a less of a fee culture in Asia than there is the west. So I hope you're right, but I think that would be optimistic.\",\n  \"reason\": \"The answer partially addresses the question by discussing bank margins and risk appetite, comparing Asia and Western Europe, but it does not provide a clear conclusion on the reasonableness of the assumption.\"\n}",
+  "data": {
+    "question_intent": "Assessing the reasonableness of a financial assumption",
+    "main_topics": [
+      "Bank margins",
+      "Risk appetite",
+      "Asia vs Western Europe"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Is that a reasonable assumption or conclusion to draw?",
+    "answer_quote": "In the UK, we have good margins. It's still a healthy franchise. So I wouldn't necessarily call it that way, but margins also reflect risk appetite. Asia is pretty expensive and there is a less of a fee culture in Asia than there is the west. So I hope you're right, but I think that would be optimistic.",
+    "reason": "The answer partially addresses the question by discussing bank margins and risk appetite, comparing Asia and Western Europe, but it does not provide a clear conclusion on the reasonableness of the assumption."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "4970375d012d-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "807f0b2751718bcad127b5c7404a7e1bc4705df8f056e385a58d7297731e0026"
+}

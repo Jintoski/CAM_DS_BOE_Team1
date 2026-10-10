@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Future interest rate impact on bank valuation\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"Bank valuation\", \"Forward curve\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would there be anything additional to that $1 billion or will we think about it -\",\n  \"answer_quote\": \"That very much depends on the forward curve of interest rates from here over the remainder of the quarter. If they didn't move it would be about $1 billion. If they do move it will adjust up and down. Just to give you some sense of sensitivity ‒ and please take this as a very broad and basic sensitivity, but every approximately 25 basis points of higher rates across the curve adds about $1 billion of additional fair value losses, and the reverse of that also being true, i.e. if they were 25 basis points lower, that fair value loss would come in by about $1 billion. So I think that will give you enough to model over the quarter, depending on where interest rates are relative to today.\"\n}\n",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Sensitivity of fair value losses to interest rate changes\",\n  \"main_topics\": [\"Interest Rate Sensitivity\", \"Fair Value Losses\", \"Forward Curve of Interest Rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would there be anything additional to that $1 billion or will we think about it -\",\n  \"answer_quote\": \"That very much depends on the forward curve of interest rates from here over the remainder of the quarter. If they didn't move it would be about $1 billion. If they do move it will adjust up and down. Just to give you some sense of sensitivity ‒ and please take this as a very broad and basic sensitivity, but every approximately 25 basis points of higher rates across the curve adds about $1 billion of additional fair value losses, and the reverse of that also being true, i.e. if they were 25 basis points lower, that fair value loss would come in by about $1 billion. So I think that will give you enough to model over the quarter, depending on where interest rates are relative to today.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future interest rate impact on bank valuation\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"Bank valuation\", \"Forward curve\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would there be anything additional to that $1 billion or will we think about it -\",\n  \"answer_quote\": \"That very much depends on the forward curve of interest rates from here over the remainder of the quarter. If they didn't move it would be about $1 billion. If they do move it will adjust up and down. Just to give you some sense of sensitivity ‒ and please take this as a very broad and basic sensitivity, but every approximately 25 basis points of higher rates across the curve adds about $1 billion of additional fair value losses, and the reverse of that also being true, i.e. if they were 25 basis points lower, that fair value loss would come in by about $1 billion. So I think that will give you enough to model over the quarter, depending on where interest rates are relative to today.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future interest rate impact on bank valuation\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"Bank valuation\", \"Forward curve\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would there be anything additional to that $1 billion or will we think about it -\",\n  \"answer_quote\": \"That very much depends on the forward curve of interest rates from here over the remainder of the quarter. If they didn't move it would be about $1 billion. If they do move it will adjust up and down. Just to give you some sense of sensitivity ‒ and please take this as a very broad and basic sensitivity, but every approximately 25 basis points of higher rates across the curve adds about $1 billion of additional fair value losses, and the reverse of that also being true, i.e. if they were 25 basis points lower, that fair value loss would come in by about $1 billion. So I think that will give you enough to model over the quarter, depending on where interest rates are relative to today.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 554,
+      "batch_seconds": 12.271816891000526
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 599,
+      "batch_seconds": 14.185100319999037
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 599,
+      "batch_seconds": 13.606166855000993
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "668b231a70f84b2811de724d5be0f3fa7884b537a29abd63d46a7cbe12734278",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

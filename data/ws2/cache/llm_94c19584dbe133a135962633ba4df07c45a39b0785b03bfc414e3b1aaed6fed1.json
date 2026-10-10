@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss bank's hedging strategy and forward guidance\",\n  \"main_topics\": [\"hedging strategy\", \"forward guidance\", \"banking NII\", \"mortgage caps\", \"structural hedge disclosure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Mid-teens billions.\",\n  \"answer_quote\": \"Yes. Your second point is on the hedging. First, it definitely is our intention to increase the quantum and the duration of the hedge.\",\n  \"reason\": \"The response directly addresses the question about the bank's intention to increase hedging, provides a range of additional hedges, and discusses forward guidance, all supported by specific figures and statements.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss bank's hedging strategy and its impact on earnings\",\n \"main_topics\": [\"Hedging strategy\", \"Earnings impact\", \"Banking NII sensitivity\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Mid-teens billions.\",\n \"answer_quote\": \"Yes. Your second point is on the hedging. First, it definitely is our intention to increase the quantum and the duration of the hedge.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1255,
+      "batch_seconds": 97.20588447
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1300,
+      "batch_seconds": 42.315160068001205
+    }
+  ],
+  "exchange_id": "287d803c2083-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "94c19584dbe133a135962633ba4df07c45a39b0785b03bfc414e3b1aaed6fed1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss bank's hedging strategy and forward guidance",
+    "main_topics": [
+      "hedging strategy",
+      "forward guidance",
+      "banking NII",
+      "mortgage caps",
+      "structural hedge disclosure"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Mid-teens billions.",
+    "answer_quote": "Yes. Your second point is on the hedging. First, it definitely is our intention to increase the quantum and the duration of the hedge.",
+    "reason": "The response directly addresses the question about the bank's intention to increase hedging, provides a range of additional hedges, and discusses forward guidance, all supported by specific figures and statements."
+  },
+  "whitespace_adjusted_quotes": []
+}

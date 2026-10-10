@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call question on BoCom recapitalization and new strategy\",\n  \"main_topics\": [\"BoCom recapitalization\", \"HSBC strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first question would be just following on from the BoCom issue. As a base case, should we assume that you would subscribe to your fair share if there was a recapitalisation?\",\n  \"answer_quote\": \"Firstly on BoCom, I don't think you should assume anything. We are very comfortable with our investment, the way it stands.\",\n  \"reason\": \"The response addresses the question about BoCom recapitalization and new strategy, providing a hedged stance with high evidence level, but no numeric evidence or forward guidance is given.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss assumptions about recapitalization and critique HSBC's new strategy\",\n \"main_topics\": [\"recapitalization assumptions\", \"HSBC's new strategy\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first question would be just following on from the BoCom issue. As a base case, should we assume that you would subscribe to your fair share if there was a recapitalisation?\",\n \"answer_quote\": \"Firstly on BoCom, I don't think you should assume anything. We are very comfortable with our investment, the way it stands. We don't know the full details on how the capitalisation is going to be, and we will look at it as it comes through, so please don't assume anything.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1349,
+      "batch_seconds": 42.4809242780002
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1394,
+      "batch_seconds": 44.672947998999916
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e27d0e53fcf26fb485307ab0c021629e3de55daa69239558c96bab80701b4908",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call question on BoCom recapitalization and new strategy",
+    "main_topics": [
+      "BoCom recapitalization",
+      "HSBC strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first question would be just following on from the BoCom issue. As a base case, should we assume that you would subscribe to your fair share if there was a recapitalisation?",
+    "answer_quote": "Firstly on BoCom, I don't think you should assume anything. We are very comfortable with our investment, the way it stands.",
+    "reason": "The response addresses the question about BoCom recapitalization and new strategy, providing a hedged stance with high evidence level, but no numeric evidence or forward guidance is given."
+  },
+  "whitespace_adjusted_quotes": []
+}

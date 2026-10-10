@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss factors that could improve NIM in 2023 and Barclays' unique position\",\n  \"main_topics\": [\"NIM improvement\", \"Barclays' competitive position\", \"Hedge strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And I wonder whether you could talk about what it is that gets better in 2023 that allows the NIM to actually increase?\",\n  \"answer_quote\": \"Yes. You're right in that we are in a very competitive retail environment, and that's what we're talking about here, just our retail book. Mortgages is a commoditised product, so we're not going to face different expectations to everyone else. Savings, as you look around the piece, the rates are not materially different, so those impacts, I would expect to be broadly the same. We are hedging, I would say, probably, proportionally more than our peers, and if you look at our structural hedge contribution, relative to where the others have been and where they've shown on their bridge, I think it's higher, and we would expect that to endure. I think that's the first piece. The second piece is we have called out that there are some quite idiosyncratic treasury items, that whilst we might expect to see them in Q123, but they'll be more stable, they will then go in the opposite direction as the year continues. So, I'm putting all of those pieces together. I think the retail piece, this is a very competitive, commoditised market, so that's not going to be different. I think it's about the hedge strategy. Remember, we have consistently hedged in a very, very mechanistic way. Month after month after month, for years. We have not put it on, taken it off, put it on, taken it off. It's just mechanistically pushing out a number. So, I think it's in the hedge.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss factors that could improve NIM in 2023 and Barclays' unique position.\",\n  \"main_topics\": [\"NIM improvement\", \"Barclays' competitive position\", \"Hedge strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And I wonder whether you could talk about what it is that gets better in 2023 that allows the NIM to actually increase?\",\n  \"answer_quote\": \"Yes. You're right in that we are in a very competitive retail environment, and that's what we're talking about here, just our retail book. Mortgages is a commoditised product, so we're not going to face different expectations to everyone else. Savings, as you look around the piece, the rates are not materially different, so those impacts, I would expect to be broadly the same. We are hedging, I would say, probably, proportionally more than our peers, and if you look at our structural hedge contribution, relative to where the others have been and where they've shown on their bridge, I think it's higher, and we would expect that to endure. I think that's the first piece. The second piece is we have called out that there are some quite idiosyncratic treasury items, that whilst we might expect to see them in Q123, but they'll be more stable, they will then go in the opposite direction as the year continues. So, I'm putting all of those pieces together. I think the retail piece, this is a very competitive, commoditised market, so that's not going to be different. I think it's about the hedge strategy. Remember, we have consistently hedged in a very, very mechanistic way. Month after month after month, for years. We have not put it on, taken it off, put it on, taken it off. It's just mechanistically pushing out a number. So, I think it's in the hedge.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss factors that could improve NIM in 2023 and Barclays' unique position.\",\n  \"main_topics\": [\"NIM improvement\", \"Barclays' competitive position\", \"Hedge strategy\", \"Retail market\", \"Treasury items\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And if you'd be willing to offer a view in what way Barclays is idiosyncratically better positioned than the market, that would be helpful as well.\",\n  \"answer_quote\": \"Yes. You're right in that we are in a very competitive retail environment, and that's what we're talking about here, just our retail book. Mortgages is a commoditised product, so we're not going to face different expectations to everyone else. Savings, as you look around the piece, the rates are not materially different, so those impacts, I would expect to be broadly the same. We are hedging, I would say, probably, proportionally more than our peers, and if you look at our structural hedge contribution, relative to where the others have been and where they've shown on their bridge, I think it's higher, and we would expect that to endure. I think that's the first piece. The second piece is we have called out that there are some quite idiosyncratic treasury items, that whilst we might expect to see them in Q123, but they'll be more stable, they will then go in the opposite direction as the year continues. So, I'm putting all of those pieces together. I think the retail piece, this is a very competitive, commoditised market, so that's not going to be different. I think it's about the hedge strategy. Remember, we have consistently hedged in a very, very mechanistic way. Month after month after month, for years. We have not put it on, taken it off, put it on, taken it off. It's just mechanistically pushing out a number. So, I think it's in the hedge.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss factors that could improve NIM in 2023 and Barclays' unique position\",\n  \"main_topics\": [\"NIM improvement\", \"Barclays' competitive position\", \"Hedge strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And I wonder whether you could talk about what it is that gets better in 2023 that allows the NIM to actually increase?\",\n  \"answer_quote\": \"Yes. You're right in that we are in a very competitive retail environment, and that's what we're talking about here, just our retail book. Mortgages is a commoditised product, so we're not going to face different expectations to everyone else. Savings, as you look around the piece, the rates are not materially different, so those impacts, I would expect to be broadly the same. We are hedging, I would say, probably, proportionally more than our peers, and if you look at our structural hedge contribution, relative to where the others have been and where they've shown on their bridge, I think it's higher, and we would expect that to endure. I think that's the first piece. The second piece is we have called out that there are some quite idiosyncratic treasury items, that whilst we might expect to see them in Q123, but they'll be more stable, they will then go in the opposite direction as the year continues. So, I'm putting all of those pieces together. I think the retail piece, this is a very competitive, commoditised market, so that's not going to be different. I think it's about the hedge strategy. Remember, we have consistently hedged in a very, very mechanistic way. Month after month after month, for years. We have not put it on, taken it off, put it on, taken it off. It's just mechanistically pushing out a number. So, I think it's in the hedge.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 824,
+      "batch_seconds": 24.884960510999917
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 869,
+      "batch_seconds": 25.60815282600015
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 869,
+      "batch_seconds": 24.21767322100095
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "62eedd0a7dc280386f4061a51fe3840b6c56145f1d76dc89739f6dd5f49d06cd",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

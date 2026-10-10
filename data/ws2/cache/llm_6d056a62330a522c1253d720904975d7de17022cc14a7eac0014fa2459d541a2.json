@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on strategic options and deposit beta\",\n  \"main_topics\": [\"Strategic options\", \"Capital efficiency\", \"CET1 impact\", \"Near-term capital management\", \"International connectivity\", \"Dividend potential\", \"Interest rate sensitivity\", \"Deposit migration\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there anything that you've decided to do that is incremental to the strategy because of the process that you've gone through during the past couple of months?\",\n  \"answer_quote\": \"We're very determined to improve the performance of the business. We constantly look at parts of the portfolio that are strategically less important and are underperforming, and we're determined to continue to drive out efficiency into the capital allocation of the business.\",\n  \"reason\": \"The response directly addresses the question about incremental strategic decisions and provides a detailed explanation of the bank's approach to capital efficiency and near-term capital management, aligning with the question's intent.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Strategic options and deposit beta analysis\",\n  \"main_topics\": [\"Capital efficiency\", \"CET1 impact\", \"Strategic growth\", \"Deposit migration\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there anything that you've decided to do that is incremental to the strategy because of the process that you've gone through during the past couple of months?\",\n  \"answer_quote\": \"We're very determined to improve the performance of the business. We constantly look at parts of the portfolio that are strategically less important and are underperforming, and we're determined to continue to drive out efficiency into the capital allocation of the business.\",\n  \"reason\": \"The answer directly addresses the strategic options and provides a clear explanation of the bank's approach to capital efficiency and strategic growth, aligning with the question's intent. It also includes specific references to CET1 impact and deposit migration, with numeric evidence provided.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for strategic options and deposit beta updates\",\n  \"main_topics\": [\"strategic options\", \"incremental strategy\", \"cost efficiencies\", \"capital actions\", \"deposit beta\", \"migration to time deposits\", \"competitive environment\", \"interest rate sensitivity\", \"capital efficiency\", \"CET1 impact\", \"strategic growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So my first question is on the analysis of the strategic options, and I wanted to ask you, is there anything that you've decided to do that is incremental to the strategy because of the process that you've gone through during the past couple of months?\",\n  \"answer_quote\": \"On your first point I'll just answer that, and I'll pass to Ewen for the second point. We're very determined to improve the performance of the business. We take all feedback that says the business hasn't performed well over the past 10 years - we take that to heart - and have done, and are very committed to trying to drive our capital efficiency into the business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on strategic options and deposit beta\",\n  \"main_topics\": [\"Strategic options\", \"Capital efficiency\", \"CET1 impact\", \"Near-term capital management\", \"International connectivity\", \"Dividend potential\", \"Interest rate sensitivity\", \"Deposit migration\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there anything that you've decided to do that is incremental to the strategy because of the process that you've gone through during the past couple of months?\",\n  \"answer_quote\": \"We're very determined to improve the performance of the business. We constantly look at parts of the portfolio that are strategically less important and are underperforming, and we're determined to continue to drive out efficiency into the capital allocation of the business.\",\n  \"reason\": \"The response directly addresses the question about incremental strategic decisions and provides a detailed explanation of the bank's approach to capital efficiency and near-term capital management, aligning with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1042,
+      "batch_seconds": 29.782261903999824
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1090,
+      "batch_seconds": 93.95158396999977
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1087,
+      "batch_seconds": 95.09612621699853
+    }
+  ],
+  "exchange_id": "344542bde5ab-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6d056a62330a522c1253d720904975d7de17022cc14a7eac0014fa2459d541a2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

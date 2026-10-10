@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss wealth performance, competitive landscape, and private markets strategy.\",\n  \"main_topics\": [\"wealth performance\", \"competitive landscape\", \"private markets strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you talk about what you're seeing in terms of flows in the competitive landscape in Hong Kong right now?\",\n  \"answer_quote\": \"We are really pleased with the growing CSM balance, as well as on Investment Distribution. The first quarter is always a very strong quarter for us, but I am pleased to say that, even after some slowdown in the month of March, we again see momentum coming through in April.\",\n  \"reason\": \"The response directly addresses the question about the competitive landscape in Hong Kong, provides a positive outlook on wealth performance, and discusses the private markets strategy, including due diligence processes and concentrations.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss wealth flows, private markets approach, and competition in Hong Kong.\",\n  \"main_topics\": [\"Wealth Flows\", \"Private Markets Approach\", \"Competition in Hong Kong\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you talk about what you're seeing in terms of flows in the competitive landscape in Hong Kong right now?\",\n  \"answer_quote\": \"We are really pleased with the growing CSM balance, as well as on Investment Distribution. The first quarter is always a very strong quarter for us, but I am pleased to say that, even after some slowdown in the month of March, we again see momentum coming through in April.\",\n  \"reason\": \"The answer directly addresses the question about wealth flows and competition, provides a positive outlook on the CSM balance and Investment Distribution, and mentions the competitive landscape in Hong Kong.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss wealth performance, competitive landscape, and private markets strategy.\",\n  \"main_topics\": [\"wealth performance\", \"competitive landscape\", \"private markets strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you talk about what you're seeing in terms of flows in the competitive landscape in Hong Kong right now?\",\n  \"answer_quote\": \"We are really pleased with the growing CSM balance, as well as on Investment Distribution. The first quarter is always a very strong quarter for us, but I am pleased to say that, even after some slowdown in the month of March, we again see momentum coming through in April.\",\n  \"reason\": \"The response directly addresses the question about the competitive landscape in Hong Kong, provides a positive outlook on wealth performance, and discusses the private markets strategy, including due diligence processes and concentrations.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss wealth performance, competitive landscape, and private markets strategy.\",\n  \"main_topics\": [\"wealth performance\", \"competitive landscape\", \"private markets strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you talk about what you're seeing in terms of flows in the competitive landscape in Hong Kong right now?\",\n  \"answer_quote\": \"We are really pleased with the growing CSM balance, as well as on Investment Distribution. The first quarter is always a very strong quarter for us, but I am pleased to say that, even after some slowdown in the month of March, we again see momentum coming through in April.\",\n  \"reason\": \"The response directly addresses the question about the competitive landscape in Hong Kong, provides a positive outlook on wealth performance, and discusses the private markets strategy, including due diligence processes and concentrations.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1008,
+      "batch_seconds": 49.80370327699984
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1056,
+      "batch_seconds": 93.33904600099959
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1056,
+      "batch_seconds": 36.98953617400002
+    }
+  ],
+  "exchange_id": "351debb0a36f-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8b6e723cddfb81870b519fba9a190900c658141932e43c8ae5b8d8e50856c7bc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

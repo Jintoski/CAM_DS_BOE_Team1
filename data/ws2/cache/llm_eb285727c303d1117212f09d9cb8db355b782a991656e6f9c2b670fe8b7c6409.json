@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification and analysis of bank earnings-call guidance\",\n  \"main_topics\": [\"Net Interest Income (NII) guidance\", \"Deposit beta assumptions\", \"Interest-earning assets vs loan growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you just provide a bit more detail on what you are assuming on deposit betas - because I know you have illustrative numbers on 50% but in your commentary, you talked about the deposit beta rising as you go through the rate-hike cycle. It would be good to just clarify what beta is assumed against that $31 and $37 billion.\",\n  \"answer_quote\": \"We've said through the cycle we expect it to be 50 per cent. We've said that deposit betas so far have been in the 20s. You should assume that there's a material ramp up in deposit betas as rates go higher from here.\",\n  \"reason\": \"The answer partially addresses the first question by explaining the expected deposit beta but does not provide the specific assumptions against the $31 and $37 billion NII guidance. The second question is partially addressed with an explanation of the FX-adjusted average interest-earning assets and a mention of lower liquidity balances, but the response does not directly answer the question about reconnection of average interest-earning assets with loan growth next year.\"\n}",
+  "data": {
+    "question_intent": "Clarification and analysis of bank earnings-call guidance",
+    "main_topics": [
+      "Net Interest Income (NII) guidance",
+      "Deposit beta assumptions",
+      "Interest-earning assets vs loan growth"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Could you just provide a bit more detail on what you are assuming on deposit betas - because I know you have illustrative numbers on 50% but in your commentary, you talked about the deposit beta rising as you go through the rate-hike cycle. It would be good to just clarify what beta is assumed against that $31 and $37 billion.",
+    "answer_quote": "We've said through the cycle we expect it to be 50 per cent. We've said that deposit betas so far have been in the 20s. You should assume that there's a material ramp up in deposit betas as rates go higher from here.",
+    "reason": "The answer partially addresses the first question by explaining the expected deposit beta but does not provide the specific assumptions against the $31 and $37 billion NII guidance. The second question is partially addressed with an explanation of the FX-adjusted average interest-earning assets and a mention of lower liquidity balances, but the response does not directly answer the question about reconnection of average interest-earning assets with loan growth next year."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "344542bde5ab-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "eb285727c303d1117212f09d9cb8db355b782a991656e6f9c2b670fe8b7c6409"
+}

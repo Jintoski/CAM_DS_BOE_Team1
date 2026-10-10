@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify percentage of IB costs covered by stable business\",\n  \"main_topics\": [\"IB costs\", \"stable business\", \"revenue\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to clarify that 80% of IB costs are in the stable business?\",\n  \"answer_quote\": \"No, what I'm saying is if you look at the revenue from those stable businesses, it's covering around 80% of the IB costs in totality.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear explanation and a relevant figure.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 456,
+      "batch_seconds": 8.866081524000037
+    }
+  ],
+  "exchange_id": "f3f29bd0739c-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "af7378f0f54270614d288f5aeaa83cc0ba362e6d77061e8bea56076aff01fc01",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify percentage of IB costs covered by stable business",
+    "main_topics": [
+      "IB costs",
+      "stable business",
+      "revenue"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just to clarify that 80% of IB costs are in the stable business?",
+    "answer_quote": "No, what I'm saying is if you look at the revenue from those stable businesses, it's covering around 80% of the IB costs in totality.",
+    "reason": "The answer directly addresses the question, providing a clear explanation and a relevant figure."
+  },
+  "whitespace_adjusted_quotes": []
+}

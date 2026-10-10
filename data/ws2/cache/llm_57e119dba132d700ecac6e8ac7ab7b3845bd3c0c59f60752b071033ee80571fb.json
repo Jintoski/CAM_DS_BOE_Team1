@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explain the pricing strategy for new business compared to five years ago and on two-year products.\",\n  \"main_topics\": [\"UK credit card base rates\", \"mortgage pricing\", \"market volatility\", \"pricing strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I'm struggling to see how your current new business is being made at higher spreads than, say, five years ago, or similarly on the two-year products.\",\n  \"answer_quote\": \"The entire UK credit card book tracks base rates. It's nothing more complex than that. If base rates go up, then the cards rate will follow that directly. Hence, no complexity there at all.\",\n  \"reason\": \"The answer addresses the credit card base rates but does not fully explain the pricing strategy for new business compared to five years ago or on two-year products, nor does it provide numeric evidence or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 575,
+      "batch_seconds": 13.414522689000478
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "57e119dba132d700ecac6e8ac7ab7b3845bd3c0c59f60752b071033ee80571fb",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Explain the pricing strategy for new business compared to five years ago and on two-year products.",
+    "main_topics": [
+      "UK credit card base rates",
+      "mortgage pricing",
+      "market volatility",
+      "pricing strategy"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I'm struggling to see how your current new business is being made at higher spreads than, say, five years ago, or similarly on the two-year products.",
+    "answer_quote": "The entire UK credit card book tracks base rates. It's nothing more complex than that. If base rates go up, then the cards rate will follow that directly. Hence, no complexity there at all.",
+    "reason": "The answer addresses the credit card base rates but does not fully explain the pricing strategy for new business compared to five years ago or on two-year products, nor does it provide numeric evidence or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

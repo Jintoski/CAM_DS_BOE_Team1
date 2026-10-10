@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assess bank's risk perception and AI investment impact\",\n  \"main_topics\": [\"Private Credit risk\", \"AI investment impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Or do you think because of these positions, there's less risk?\",\n  \"answer_quote\": \"So we set out Page 46 in response to an investor request actually for us to just be really clear with the market how this type of Private Credit works.\",\n  \"reason\": \"The answer addresses both Private Credit risk and AI investment impact, with a focus on Private Credit, and hedges on the AI investment impact due to its intangible benefits.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1117,
+      "batch_seconds": 35.83332343799975
+    }
+  ],
+  "exchange_id": "0b87d27c6af4-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9eb50752bc5bd7727cfff64674a8a92fda66a60f07be447ad7233676bef4bcb0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assess bank's risk perception and AI investment impact",
+    "main_topics": [
+      "Private Credit risk",
+      "AI investment impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Or do you think because of these positions, there's less risk?",
+    "answer_quote": "So we set out Page 46 in response to an investor request actually for us to just be really clear with the market how this type of Private Credit works.",
+    "reason": "The answer addresses both Private Credit risk and AI investment impact, with a focus on Private Credit, and hedges on the AI investment impact due to its intangible benefits."
+  },
+  "whitespace_adjusted_quotes": []
+}

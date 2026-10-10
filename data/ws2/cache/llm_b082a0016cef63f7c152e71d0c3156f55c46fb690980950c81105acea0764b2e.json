@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Predicting insurance sales recovery and IFRS 17 impact\",\n  \"main_topics\": [\"insurance sales recovery\", \"IFRS 17 impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you think we can get back to that kind of level quite quickly one the border reopens?\",\n  \"answer_quote\": \"I think on the insurance, it's very hard to predict life after Covid relative to life before Covid because there are so many things that are changing, but we would expect a rebound.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a stance on the insurance sales recovery, and offers forward guidance on IFRS 17 impact, with medium evidence level due to the lack of specific numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of border reopening on insurance sales and IFRS 17 on business\",\n  \"main_topics\": [\"Insurance sales recovery\", \"IFRS 17 impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you think we can get back to that kind of level quite quickly one the border reopens?\",\n  \"answer_quote\": \"I think on the insurance, it's very hard to predict life after Covid relative to life before Covid because there are so many things that are changing, but we would expect a rebound.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 755,
+      "batch_seconds": 19.727787560999786
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 800,
+      "batch_seconds": 20.96559369500028
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b082a0016cef63f7c152e71d0c3156f55c46fb690980950c81105acea0764b2e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Predicting insurance sales recovery and IFRS 17 impact",
+    "main_topics": [
+      "insurance sales recovery",
+      "IFRS 17 impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Do you think we can get back to that kind of level quite quickly one the border reopens?",
+    "answer_quote": "I think on the insurance, it's very hard to predict life after Covid relative to life before Covid because there are so many things that are changing, but we would expect a rebound.",
+    "reason": "The answer directly addresses the question's intent, provides a stance on the insurance sales recovery, and offers forward guidance on IFRS 17 impact, with medium evidence level due to the lack of specific numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

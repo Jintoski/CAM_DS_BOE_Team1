@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call question on structural hedge income allocation and NIM trend\",\n  \"main_topics\": [\"structural hedge income\", \"notional reduction\", \"NIM trend\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One of your peers this week implied they expect the structural hedge notional to be flattish from here. Based on your guidance in February and movements in the notional since year-end, I think you're actually expecting a 13% reduction in the notional from here. Do you really expect to see such a big reduction going forward given you mentioned just previously the stabilisation in deposits or can we assume that, that assumption is now somewhat stale?\",\n  \"answer_quote\": \"So clearly as we look at the moment, there are some positives in there, but we will continue to update you as we go through, but I wouldn't call-out anything more than we should expect it to move-in line with deposits.\",\n  \"reason\": \"The question is fully addressed with direct responses, including specific guidance and expectations for the structural hedge notional and NIM trend, supported by high evidence level and numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1103,
+      "batch_seconds": 35.59591206099958
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a46604352693458f3547d4f35757c3c3a927020ecca0dfac7b3e737ac243818b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call question on structural hedge income allocation and NIM trend",
+    "main_topics": [
+      "structural hedge income",
+      "notional reduction",
+      "NIM trend"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "One of your peers this week implied they expect the structural hedge notional to be flattish from here. Based on your guidance in February and movements in the notional since year-end, I think you're actually expecting a 13% reduction in the notional from here. Do you really expect to see such a big reduction going forward given you mentioned just previously the stabilisation in deposits or can we assume that, that assumption is now somewhat stale?",
+    "answer_quote": "So clearly as we look at the moment, there are some positives in there, but we will continue to update you as we go through, but I wouldn't call-out anything more than we should expect it to move-in line with deposits.",
+    "reason": "The question is fully addressed with direct responses, including specific guidance and expectations for the structural hedge notional and NIM trend, supported by high evidence level and numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

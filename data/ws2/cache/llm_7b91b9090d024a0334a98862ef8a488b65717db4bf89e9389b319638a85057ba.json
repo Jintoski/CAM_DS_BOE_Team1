@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Hiring strategy and outlook for relationship managers in Asia, comparison with past hiring goals, and potential returns on non-ringfenced bank assets.\",\n  \"main_topics\": [\"Hiring strategy\", \"Relationship managers in Asia\", \"Comparison with past hiring goals\", \"Non-ringfenced bank assets\", \"Potential returns\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've got two, please. The first is, how aggressively are you hiring relationship managers in the Asia Wealth space? What's the outlook there? Just on that, I think, a few years ago, HSBC said it would hire 5,000 relationship advisors over the next few years. Has that actually happened?\",\n  \"answer_quote\": \"So firstly, in terms of the RMs, we are continuing to hire RMs, but they're not in thousands - in hundreds. But I think the reason is very simple. We are very mindful that the RMs that we hire in Asia are at the right level of capability and culturally aligned for what we want to do - because, by hiring lots of RMs, if you don't have them well-integrated, you create compliance issues for the future, so we are very mindful of that. And to remind you that our Wealth journey particularly in terms of the new hiring we're doing not just for Wealth but also for our mass affluent, we are trying to also upscale our existing staff. We are creating greater penetration in terms of engagement with our clients. Particularly, you can see that's what we've done in the UK, just to give you a broader context. And the growth which we're seeing in Hong Kong is not so much as RM-enabled; it's technology-enabled, particularly with regard to the new mainland China customers who are being onboarded, because, for them, the most digitally enabled customers prefer that technology-enabled onboarding process, although, of course, before they are onboarded, they have to come in person at the branch, and that requires touchpoints from an individual perspective. So for us, operating leverage is using technology, not just hiring more feet on the ground. In terms of your other question in terms of RWAs and the non-ringfenced bank, over the last few years, what the Global Banking & Markets business, now CIB, has been very focused on is to say two things. Firstly, there are certain hurdle rates at which business is written, so that's become quite clear and that's the discipline that we have had for the last couple of years and will continue. In terms of balance sheet velocity, that journey has started already in terms of the old GBM business. They were on it for a while. Now, with the bringing together of the CMB and the GBM business into CIB, balance sheet velocity will be a focus area for us, and that's going to have an impact on RWAs.\",\n  \"reason\": \"The answer directly addresses the hiring strategy and comparison with past goals, and provides insight into the potential returns on non-ringfenced bank assets, with high evidence level and numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 935,
+      "batch_seconds": 26.02040559299985
+    }
+  ],
+  "exchange_id": "df882adea623-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7b91b9090d024a0334a98862ef8a488b65717db4bf89e9389b319638a85057ba",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Hiring strategy and outlook for relationship managers in Asia, comparison with past hiring goals, and potential returns on non-ringfenced bank assets.",
+    "main_topics": [
+      "Hiring strategy",
+      "Relationship managers in Asia",
+      "Comparison with past hiring goals",
+      "Non-ringfenced bank assets",
+      "Potential returns"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I've got two, please. The first is, how aggressively are you hiring relationship managers in the Asia Wealth space? What's the outlook there? Just on that, I think, a few years ago, HSBC said it would hire 5,000 relationship advisors over the next few years. Has that actually happened?",
+    "answer_quote": "So firstly, in terms of the RMs, we are continuing to hire RMs, but they're not in thousands - in hundreds. But I think the reason is very simple. We are very mindful that the RMs that we hire in Asia are at the right level of capability and culturally aligned for what we want to do - because, by hiring lots of RMs, if you don't have them well-integrated, you create compliance issues for the future, so we are very mindful of that. And to remind you that our Wealth journey particularly in terms of the new hiring we're doing not just for Wealth but also for our mass affluent, we are trying to also upscale our existing staff. We are creating greater penetration in terms of engagement with our clients. Particularly, you can see that's what we've done in the UK, just to give you a broader context. And the growth which we're seeing in Hong Kong is not so much as RM-enabled; it's technology-enabled, particularly with regard to the new mainland China customers who are being onboarded, because, for them, the most digitally enabled customers prefer that technology-enabled onboarding process, although, of course, before they are onboarded, they have to come in person at the branch, and that requires touchpoints from an individual perspective. So for us, operating leverage is using technology, not just hiring more feet on the ground. In terms of your other question in terms of RWAs and the non-ringfenced bank, over the last few years, what the Global Banking & Markets business, now CIB, has been very focused on is to say two things. Firstly, there are certain hurdle rates at which business is written, so that's become quite clear and that's the discipline that we have had for the last couple of years and will continue. In terms of balance sheet velocity, that journey has started already in terms of the old GBM business. They were on it for a while. Now, with the bringing together of the CMB and the GBM business into CIB, balance sheet velocity will be a focus area for us, and that's going to have an impact on RWAs.",
+    "reason": "The answer directly addresses the hiring strategy and comparison with past goals, and provides insight into the potential returns on non-ringfenced bank assets, with high evidence level and numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

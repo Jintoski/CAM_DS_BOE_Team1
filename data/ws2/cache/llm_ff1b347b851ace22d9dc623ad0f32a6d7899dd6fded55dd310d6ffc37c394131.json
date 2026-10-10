@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about changes in CET1 ratio guidance and future cost expectations\",\n  \"main_topics\": [\"CET1 ratio guidance\", \"Medium-term capital strategy\", \"Cost savings and impact on bottom line\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In relation to your CET1 ratio guidance of 14% to 14.5%, before today, this used to have a caveat: you'd aim to manage this down further over time. I just note that that hasn't been mentioned in today's update. What are your latest thoughts on your medium-term ambitions for the CET1 ratio and has there been any change in sentiment?\",\n  \"answer_quote\": \"I am going to ask Pam to address both your questions, Ben, but remember, our capital, our CET1 ratio today is at 14.9%. So we're well above our medium-term operating range and expect to remain so this quarter. So the question is really a medium to long term as opposed to anything now.\",\n  \"reason\": \"The response directly addresses the question about CET1 ratio guidance and provides a clear stance on the medium-term capital strategy, with high evidence level due to the inclusion of specific figures and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Medium-term CET1 ratio ambitions and cost shape from 2025 to 2027\",\n  \"main_topics\": [\"CET1 ratio\", \"Cost savings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In relation to your CET1 ratio guidance of 14% to 14.5%, before today, this used to have a caveat: you'd aim to manage this down further over time. I just note that that hasn't been mentioned in today's update. What are your latest thoughts on your medium-term ambitions for the CET1 ratio and has there been any change in sentiment?\",\n  \"answer_quote\": \"I am going to ask Pam to address both your questions, Ben, but remember, our capital, our CET1 ratio today is at 14.9%. So we're well above our medium-term operating range and expect to remain so this quarter. So the question is really a medium to long term as opposed to anything now. Pam. Thanks, Georges. And Ben, coming to your first question, we are very comfortable operating between the 14% to 14.5% range. The comment on looking at it again was removed some time ago, so no change for now in that respect. I want to just unbundle a little bit more on the cost point. So on the cost point, if you look at the guidance that we have, and this is the $1.5 billion of cost savings that are going straight to the bottom line. So the way we've looked at it is that it's about 4%, if you look at inflation, as well as BAU investment. The benefit of that $1.5 billion this year that we are taking straight to the bottom line is $300 million. So if you compare to on a target basis, and you're starting excluding disposals and hyperinflation, you start from 2024, it's going to be a 3% year-on-year growth. So that's what we are looking at. Now, severance and other one-off costs, they will be treated as notable items. Now, the timing of the $1.5 billion, yes, is $300 million this year. There'll be more to come, clearly, in 2026. We see the full benefit of the $1.5 billion savings coming through for the full-year 2027, and the severance costs, etc, will be more upfront. Thank you, Ben. Thank you. Let's come back to the room. So I think we have Kunpeng and then Jeremy.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 962,
+      "batch_seconds": 28.43113693199939
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1007,
+      "batch_seconds": 94.12811429700014
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ff1b347b851ace22d9dc623ad0f32a6d7899dd6fded55dd310d6ffc37c394131",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about changes in CET1 ratio guidance and future cost expectations",
+    "main_topics": [
+      "CET1 ratio guidance",
+      "Medium-term capital strategy",
+      "Cost savings and impact on bottom line"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "In relation to your CET1 ratio guidance of 14% to 14.5%, before today, this used to have a caveat: you'd aim to manage this down further over time. I just note that that hasn't been mentioned in today's update. What are your latest thoughts on your medium-term ambitions for the CET1 ratio and has there been any change in sentiment?",
+    "answer_quote": "I am going to ask Pam to address both your questions, Ben, but remember, our capital, our CET1 ratio today is at 14.9%. So we're well above our medium-term operating range and expect to remain so this quarter. So the question is really a medium to long term as opposed to anything now.",
+    "reason": "The response directly addresses the question about CET1 ratio guidance and provides a clear stance on the medium-term capital strategy, with high evidence level due to the inclusion of specific figures and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

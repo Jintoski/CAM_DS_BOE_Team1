@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on structural hedge, deposit stability, and regulatory outlook\",\n  \"main_topics\": [\"structural hedge\", \"deposit stability\", \"regulatory outlook\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask you again about the reinvestment of the maturity over the next three years, whether or not you are taking a slightly more upbeat view of that, in terms of that stability of whether perhaps this flags risk to the £2 billion kind of income target there?\",\n  \"answer_quote\": \"So, we're obviously been observing the macro trends, both in terms of deposits and swap rates. But what we try to do in February is set out clear targets, our clear objectives, what's important to us, to allow them to be tracked. Our actual experience is that, swap rates will move around. They moved around significantly. So what we are not going to do is mark to market those targets on a quarterly basis.\",\n  \"reason\": \"The answer addresses the reinvestment of maturity and the bank's approach to setting targets, but does not fully answer the question about the £2 billion income target risk or the regulatory outlook.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about structural hedge, deposit stability, reinvestment of maturity, and regulatory outlook.\",\n  \"main_topics\": [\"Structural Hedge\", \"Deposit Stability\", \"Reinvestment of Maturity\", \"Regulatory Outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask you again about the reinvestment of the maturity over the next three years, whether or not you are taking a slightly more upbeat view of that, in terms of that stability of whether perhaps this flags risk to the £2 billion kind of income target there?\",\n  \"answer_quote\": \"So, we're obviously been observing the macro trends, both in terms of deposits and swap rates. But what we try to do in February is set out clear targets, our clear objectives, what's important to us, to allow them to be tracked. Our actual experience is that, swap rates will move around. They moved around significantly. So what we are not going to do is mark to market those targets on a quarterly basis. So I just reiterate what we previously said. We've got about £170 billion maturing over the next three years, we expect to reinvest about three quarters of that. We gave you an indication that if we were reinvesting that at about 3.5%, then that would get you to around £2 billion compounded. What we are much more focused on, and we will report to you on, is what we showed you on the day on Q1, which is with another quarter gone, how much more have we locked in. And actually in the first quarter, that locked in portion from 24 to 26 had gone from I think £8.6 to £9.3 [billion]. So with every passing quarter we get more certainty. And, that's what we'll be focused on, is trying to interpret it for you and giving you the mechanisms for you to understand those sensitivities. That's why we set out those parameters for you. But actually, locking in on a new target every time the swap rates move would be very difficult for us all I suspect. Dan anything you'd like to add? It's 11 weeks since the investor update. So if I think about this in marathon terms, we're probably at the first mile, so I think we just need to sort of let this flow through over time.\"\n  \"reason\": \"The answer directly addresses the reinvestment of maturity and the bank's focus on locked-in targets, providing a high level of evidence with specific figures, but does not provide forward guidance or a clear stance on the regulatory outlook.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 3 (char 2326)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about structural hedge, deposit stability, reinvestment of maturity, and peak regulation.\",\n  \"main_topics\": [\"structural hedge\", \"deposit stability\", \"reinvestment of maturity\", \"peak regulation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I ask you again about the reinvestment of the maturity over the next three years, whether or not you are taking a slightly more upbeat view of that, in terms of that stability of whether perhaps this flags risk to the £2 billion kind of income target there?\",\n  \"answer_quote\": \"So, we're obviously been observing the macro trends, both in terms of deposits and swap rates. But what we try to do in February is set out clear targets, our clear objectives, what's important to us, to allow them to be tracked. Our actual experience is that, swap rates will move around. They moved around significantly. So what we are not going to do is mark to market those targets on a quarterly basis. So I just reiterate what we previously said. We've got about £170 billion maturing over the next three years, we expect to reinvest about three quarters of that. We gave you an indication that if we were reinvesting that at about 3.5%, then that would get you to around £2 billion compounded. What we are much more focused on, and we will report to you on, is what we showed you on the day on Q1, which is with another quarter gone, how much more have we locked in. And actually in the first quarter, that locked in portion from 24 to 26 had gone from I think £8.6 to £9.3 [billion]. So with every passing quarter we get more certainty. And, that's what we'll be focused on, is trying to interpret it for you and giving you the mechanisms for you to understand those sensitivities. That's why we set out those parameters for you. But actually, locking in on a new target every time the swap rates move would be very difficult for us all I suspect. Dan anything you'd like to add? It's 11 weeks since the investor update. So if I think about this in marathon terms, we're probably at the first mile, so I think we just need to sort of let this flow through over time.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1041,
+      "batch_seconds": 29.782261903999824
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1096,
+      "batch_seconds": 32.946076596999774
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1086,
+      "batch_seconds": 95.06075634599983
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a215b7bb518dd91163f63bad6220e249acb71191c40405ca4f1e80497610efc1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on structural hedge, deposit stability, and regulatory outlook",
+    "main_topics": [
+      "structural hedge",
+      "deposit stability",
+      "regulatory outlook"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I ask you again about the reinvestment of the maturity over the next three years, whether or not you are taking a slightly more upbeat view of that, in terms of that stability of whether perhaps this flags risk to the £2 billion kind of income target there?",
+    "answer_quote": "So, we're obviously been observing the macro trends, both in terms of deposits and swap rates. But what we try to do in February is set out clear targets, our clear objectives, what's important to us, to allow them to be tracked. Our actual experience is that, swap rates will move around. They moved around significantly. So what we are not going to do is mark to market those targets on a quarterly basis.",
+    "reason": "The answer addresses the reinvestment of maturity and the bank's approach to setting targets, but does not fully answer the question about the £2 billion income target risk or the regulatory outlook."
+  },
+  "whitespace_adjusted_quotes": []
+}

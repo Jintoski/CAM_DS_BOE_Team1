@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for scale of FICC financing business\",\n  \"main_topics\": [\"FICC financing\", \"business scale\", \"income line\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The other thing you have mentioned before is FICC financing, can you give us a sense of scale of that business?\",\n  \"answer_quote\": \"We have not disclosed the financing scale, within either FICC or Equities. It is fair to say that it is something that we are thinking about because we do think that it is an important factor. I will not throw a number out here [but] I would say that that business continues to grow nicely. It is a business that we perform in very well, and therefore it provides some stability to that income line.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Scale of FICC financing business\",\n  \"main_topics\": [\"FICC financing\", \"business scale\", \"income stability\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The other thing you have mentioned before is FICC financing, can you give us a sense of scale of that business?\",\n  \"answer_quote\": \"We have not disclosed the financing scale, within either FICC or Equities. It is fair to say that it is something that we are thinking about because we do think that it is an important factor. I will not throw a number out here [but] I would say that that business continues to grow nicely. It is a business that we perform in very well, and therefore it provides some stability to that income line.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for scale of FICC financing business\",\n  \"main_topics\": [\"FICC financing\", \"business scale\", \"income line\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The other thing you have mentioned before is FICC financing, can you give us a sense of scale of that business?\",\n  \"answer_quote\": \"We have not disclosed the financing scale, within either FICC or Equities. It is fair to say that it is something that we are thinking about because we do think that it is an important factor. I will not throw a number out here [but] I would say that that business continues to grow nicely. It is a business that we perform in very well, and therefore it provides some stability to that income line.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for scale of FICC financing business\",\n  \"main_topics\": [\"FICC financing\", \"business scale\", \"income line\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The other thing you have mentioned before is FICC financing, can you give us a sense of scale of that business?\",\n  \"answer_quote\": \"We have not disclosed the financing scale, within either FICC or Equities. It is fair to say that it is something that we are thinking about because we do think that it is an important factor. I will not throw a number out here [but] I would say that that business continues to grow nicely. It is a business that we perform in very well, and therefore it provides some stability to that income line.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 497,
+      "batch_seconds": 10.274504325000635
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 542,
+      "batch_seconds": 10.852135373001147
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 542,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f84f6c26dcf3195f1f34babd9451c1798c962a14785f95270352aa01174c5e6c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

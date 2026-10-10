@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for guidance on RoTE and capital distribution for FY25 and beyond, and the use of gain from Canadian operations.\",\n  \"main_topics\": [\"ROTE guidance for FY25 and beyond\", \"Banking NII sensitivity\", \"Capital distribution from Canadian operations gain\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is on FY25 and beyond. We note that the RoTE guidance for this year, but if there can be any comments regarding the RoTE for '25 and beyond, in particular if the banking NII sensitivity for the next hundred basis points of rate cuts can be guided to us.\",\n  \"answer_quote\": \"So we have not at this stage giving guidance for full year '25. I point you to the guidance we've given for full year '24 of at least $41 billion in banking NII and mid-teens return on tangible equity.\",\n  \"reason\": \"The answer directly addresses the request for RoTE guidance and banking NII sensitivity, providing specific figures and future intentions, thus fully answering the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 857,
+      "batch_seconds": 24.24835875500048
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9c94461b6e3d7d774334eeea6956c4aa692722dcd90a7c7754396ba73f41b3c9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for guidance on RoTE and capital distribution for FY25 and beyond, and the use of gain from Canadian operations.",
+    "main_topics": [
+      "ROTE guidance for FY25 and beyond",
+      "Banking NII sensitivity",
+      "Capital distribution from Canadian operations gain"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is on FY25 and beyond. We note that the RoTE guidance for this year, but if there can be any comments regarding the RoTE for '25 and beyond, in particular if the banking NII sensitivity for the next hundred basis points of rate cuts can be guided to us.",
+    "answer_quote": "So we have not at this stage giving guidance for full year '25. I point you to the guidance we've given for full year '24 of at least $41 billion in banking NII and mid-teens return on tangible equity.",
+    "reason": "The answer directly addresses the request for RoTE guidance and banking NII sensitivity, providing specific figures and future intentions, thus fully answering the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

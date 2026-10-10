@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Requesting detailed breakdown and future outlook on Wealth income and deposit growth in Hong Kong.\",\n  \"main_topics\": [\"Wealth income breakdown\", \"Hong Kong deposit growth\", \"Market share strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do we have a bit more colour on Wealth, on the $25 billion net new money in this quarter or the $39 billion last quarter? What is the structure of it? What percentage is from Private Banking, what percentage is from Premium or Premium Elite, and what is from mass market, so we can roughly get a sense of the different client segments contributing to Wealth income?\",\n  \"answer_quote\": \"The vast amount of Wealth comes from what we consider to be our sweet spot in all our markets, from $100,000 up to about $2 million assets under management. That's a really important pocket for us, because that's where we've got the most volume growth coming through. Private Bank can be lumpy - we are very confident about the growth in the Private Bank going forward, but some of the new mandates came through more in Q1 rather than Q2. For us, it will always be what I would call the Premier or near-Premier customer base, and the lower end of what you would consider Private Bank, rather than just the 'super billionaire' or '$10-million-plus' category. We're not giving specific percentage disclosures, but on a broad base that demographic is where the growth is. and the inherent growth of those pockets of customer base in Asia plays very well to our strengths, and doesn't cause us some of the issues on compliance which can arise in terms of cross-border flows. In terms of Hong Kong deposits, it is really important for us to maintain market share in all markets, but we're not going to do it at any cost. We see from some competitors over periods of time, particularly towards quarter-ends, a lot of margin pressure, and there's a bit of a pricing war going on, but we don't really engage on that, nor do we need to. Katherine, I appreciate we don't make it easy, but if you look at the legal entity disclosure in the data pack, deposit growth over the last 12 months has been very strong in Hong Kong in our business. The market share point I think was well made by Pam, that we are keen to maintain our market share, but not at any cost.\",\n  \"reason\": \"The answer provides some insight into Wealth income and deposit growth but lacks specific percentages and does not fully address the breakdown of Wealth income by client segment.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 871,
+      "batch_seconds": 24.51077147400065
+    }
+  ],
+  "exchange_id": "2d9a21ff1167-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "11fc87a51db11340b480ab42906ae590d8a43f3289c30dcafb0d2ee80f4ad60e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Requesting detailed breakdown and future outlook on Wealth income and deposit growth in Hong Kong.",
+    "main_topics": [
+      "Wealth income breakdown",
+      "Hong Kong deposit growth",
+      "Market share strategy"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Do we have a bit more colour on Wealth, on the $25 billion net new money in this quarter or the $39 billion last quarter? What is the structure of it? What percentage is from Private Banking, what percentage is from Premium or Premium Elite, and what is from mass market, so we can roughly get a sense of the different client segments contributing to Wealth income?",
+    "answer_quote": "The vast amount of Wealth comes from what we consider to be our sweet spot in all our markets, from $100,000 up to about $2 million assets under management. That's a really important pocket for us, because that's where we've got the most volume growth coming through. Private Bank can be lumpy - we are very confident about the growth in the Private Bank going forward, but some of the new mandates came through more in Q1 rather than Q2. For us, it will always be what I would call the Premier or near-Premier customer base, and the lower end of what you would consider Private Bank, rather than just the 'super billionaire' or '$10-million-plus' category. We're not giving specific percentage disclosures, but on a broad base that demographic is where the growth is. and the inherent growth of those pockets of customer base in Asia plays very well to our strengths, and doesn't cause us some of the issues on compliance which can arise in terms of cross-border flows. In terms of Hong Kong deposits, it is really important for us to maintain market share in all markets, but we're not going to do it at any cost. We see from some competitors over periods of time, particularly towards quarter-ends, a lot of margin pressure, and there's a bit of a pricing war going on, but we don't really engage on that, nor do we need to. Katherine, I appreciate we don't make it easy, but if you look at the legal entity disclosure in the data pack, deposit growth over the last 12 months has been very strong in Hong Kong in our business. The market share point I think was well made by Pam, that we are keen to maintain our market share, but not at any cost.",
+    "reason": "The answer provides some insight into Wealth income and deposit growth but lacks specific percentages and does not fully address the breakdown of Wealth income by client segment."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on yield curve impact on Banking NII and revenue growth\",\n  \"main_topics\": [\"Banking NII\", \"yield curve\", \"revenue growth\", \"outer-year revenue growth\", \"current year guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"in terms of the numbers you've given - the guidance upgrade on the Banking NII, is that taking into account effectively marking the market for the current yield curve in the UK?\",\n  \"answer_quote\": \"From a Banking NII perspective, yes, we looked at the yield curves as at the middle of April across the currencies.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references to the yield curve and Banking NII, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the impact of the current UK yield curve on Banking NII guidance and outer-year revenue growth assumptions.\",\n  \"main_topics\": [\"Banking NII guidance\", \"UK yield curve\", \"outer-year revenue growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"in terms of the numbers you've given - the guidance upgrade on the Banking NII, is that taking into account effectively marking the market for the current yield curve in the UK?\",\n  \"answer_quote\": \"From a Banking NII perspective, yes, we looked at the yield curves as at the middle of April across the currencies. That's correct. In terms of the revenue growth projections that we gave for the outer years, they were based upon the yield curves as when we set our targets.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 778,
+      "batch_seconds": 21.483448043999488
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 823,
+      "batch_seconds": 22.38289157899999
+    }
+  ],
+  "exchange_id": "351debb0a36f-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6acfbb0be69340df2864dd9439b2fff47d30f3790bcad3d9b42fb5ef4b7be321",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on yield curve impact on Banking NII and revenue growth",
+    "main_topics": [
+      "Banking NII",
+      "yield curve",
+      "revenue growth",
+      "outer-year revenue growth",
+      "current year guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "in terms of the numbers you've given - the guidance upgrade on the Banking NII, is that taking into account effectively marking the market for the current yield curve in the UK?",
+    "answer_quote": "From a Banking NII perspective, yes, we looked at the yield curves as at the middle of April across the currencies.",
+    "reason": "The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references to the yield curve and Banking NII, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

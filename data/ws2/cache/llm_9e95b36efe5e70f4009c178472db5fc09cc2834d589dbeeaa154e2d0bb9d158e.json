@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about capital ratio, restructuring charges, and future expectations\",\n  \"main_topics\": [\"Capital Ratio\", \"Restructuring Charges\", \"Future Expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was surprised that the capital ratio wasn't stronger, given the earnings beat and risk-weighted assets falling. I just wondered if you could give us some more colour around 'Other' movements - I think it was a minus-40-basis-point hit in the chart - exactly what's driving that and how we might expect that to progress going forward.\",\n  \"answer_quote\": \"On restructuring charges, we're not changing our full-year guidance we gave at full-year results. You're right: Q1 was unusually low, so yes, you should expect those to pick up as the year progresses. On capital, a few things: there were deductions for fair value reserve movements on cash flow and negative FX movements. There was a higher deduction for BoCom as its profits increased and, again, note that we talk about a 10-basis-point deduction for the foreseeable dividend, which is new for us, but represents a change in policy because we've shifted to a payout-ratio policy.\",\n  \"reason\": \"The answer directly addresses the capital ratio and restructuring charges, providing specific reasons for the observed figures and future expectations, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 651,
+      "batch_seconds": 17.227680126999985
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9e95b36efe5e70f4009c178472db5fc09cc2834d589dbeeaa154e2d0bb9d158e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about capital ratio, restructuring charges, and future expectations",
+    "main_topics": [
+      "Capital Ratio",
+      "Restructuring Charges",
+      "Future Expectations"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I was surprised that the capital ratio wasn't stronger, given the earnings beat and risk-weighted assets falling. I just wondered if you could give us some more colour around 'Other' movements - I think it was a minus-40-basis-point hit in the chart - exactly what's driving that and how we might expect that to progress going forward.",
+    "answer_quote": "On restructuring charges, we're not changing our full-year guidance we gave at full-year results. You're right: Q1 was unusually low, so yes, you should expect those to pick up as the year progresses. On capital, a few things: there were deductions for fair value reserve movements on cash flow and negative FX movements. There was a higher deduction for BoCom as its profits increased and, again, note that we talk about a 10-basis-point deduction for the foreseeable dividend, which is new for us, but represents a change in policy because we've shifted to a payout-ratio policy.",
+    "reason": "The answer directly addresses the capital ratio and restructuring charges, providing specific reasons for the observed figures and future expectations, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiry about future bank earnings and credit portfolio strategy\",\n  \"main_topics\": [\"Deposit migration\", \"NIM and impairment\", \"Basel 3.1 impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Can you say anything on deposit migration in 2024 and changes in mix beyond Q423?\",\n  \"answer_quote\": \"So, it's too early to tell, as I noted before. All I would say is that given the strong pickup in the structural hedge, we would expect those two things to be offsetting.\",\n  \"reason\": \"The answer partially addresses the question by discussing the offsetting effects of deposit migration and changes in mix, but it hedges on providing specific predictions for 2024 and beyond Q423. It also touches on NIM and impairment, and Basel 3.1 impact, but these are not directly related to the initial question about deposit migration.\"\n}",
+  "data": {
+    "question_intent": "Inquiry about future bank earnings and credit portfolio strategy",
+    "main_topics": [
+      "Deposit migration",
+      "NIM and impairment",
+      "Basel 3.1 impact"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Can you say anything on deposit migration in 2024 and changes in mix beyond Q423?",
+    "answer_quote": "So, it's too early to tell, as I noted before. All I would say is that given the strong pickup in the structural hedge, we would expect those two things to be offsetting.",
+    "reason": "The answer partially addresses the question by discussing the offsetting effects of deposit migration and changes in mix, but it hedges on providing specific predictions for 2024 and beyond Q423. It also touches on NIM and impairment, and Basel 3.1 impact, but these are not directly related to the initial question about deposit migration."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "4b42e60e1183-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f37830c688c4318ee8ebffbcb4f5fcac956b70a430f21dfe8052b5b942368598"
+}

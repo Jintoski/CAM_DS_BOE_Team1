@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing potential normalization of revenues in different business areas.\",\n  \"main_topics\": [\"Net Interest Income\", \"Asset Quality\", \"Global Banking and Markets\", \"Wealth Management\", \"Trade\", \"World Trade Growth\", \"Supply Chains\", \"Covid Impact\", \"Wealth Distribution Income\", \"Market Impacts\", \"Revenue Normalization\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are you thinking that perhaps there's a risk that revenues elsewhere in the business normalise from high levels?\",\n  \"answer_quote\": \"Possibly trade, but we think world trade growth will be mid-single digits this year.\",\n  \"reason\": \"The answer addresses the question about revenue normalization but does not fully answer the question about all business areas, and it provides some numeric evidence but lacks forward guidance.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing potential revenue normalization across business segments\",\n  \"main_topics\": [\"Net interest income\", \"Asset quality\", \"Global Banking and Markets\", \"Wealth Management\", \"Trade\", \"Supply chains\", \"Covid impact\", \"Wealth distribution income\", \"Market impacts\", \"Revenue normalization\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are you thinking that perhaps there's a risk that revenues elsewhere in the business normalise from high levels?\",\n  \"answer_quote\": \"Possibly trade, but we think world trade growth will be mid-single digits this year. It was high-single digits last year. The current situation is evolving quite fast, I'm afraid to say, in that supply chains will be further disrupted. We still think most revenue line items are quite depressed because of Covid, and at some point there should be a snapback in activity that we're not really yet seeing consistently.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing potential normalization of revenues in different business areas.\",\n  \"main_topics\": [\"revenue normalization\", \"Global Banking and Markets\", \"Wealth Management\", \"World trade growth\", \"Supply chain disruption\", \"Covid impact\", \"Investment distribution income\", \"Market impacts\", \"Volume issue\", \"Short-term issues\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are you thinking that perhaps there's a risk that revenues elsewhere in the business normalise from high levels?\",\n  \"answer_quote\": \"So far this quarter it's probably negative $200 million, so you've got a volume issue and the market impacts issue when you look at Q1, but that's only a very short-term issue.\",\n  \"reason\": \"The answer partially addresses the question by discussing short-term issues and potential normalization of revenues, but it does not fully explore the risk of normalization across the business, and the evidence provided is not highly detailed.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing potential normalization of revenues in different business areas.\",\n  \"main_topics\": [\"Net Interest Income\", \"Asset Quality\", \"Global Banking and Markets\", \"Wealth Management\", \"Trade\", \"World Trade Growth\", \"Supply Chains\", \"Covid Impact\", \"Wealth Distribution Income\", \"Market Impacts\", \"Revenue Normalization\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are you thinking that perhaps there's a risk that revenues elsewhere in the business normalise from high levels?\",\n  \"answer_quote\": \"Possibly trade, but we think world trade growth will be mid-single digits this year.\",\n  \"reason\": \"The answer addresses the question about revenue normalization but does not fully answer the question about all business areas, and it provides some numeric evidence but lacks forward guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 727,
+      "batch_seconds": 19.723983283000052
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 772,
+      "batch_seconds": 19.25648544899923
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 781,
+      "batch_seconds": 19.912649574998795
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bf0554c446ded5022d16a69bca6e38ed46e967ceff884ace0af422fc77c549f1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about future hedge income growth and USCB risk-adjusted margin targets beyond 2026.\",\n  \"main_topics\": [\"maturing hedge yield\", \"USCB risk-adjusted margin\", \"future growth in hedge income\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I want to check again on the maturing hedge yield as you look out beyond 2026.\",\n  \"answer_quote\": \"So we haven't given a target for risk adjusted margin beyond 2026.\",\n  \"reason\": \"The answer partially addresses the question by discussing the maturing hedge yield and USCB risk-adjusted margin, but does not provide a specific target for the latter, and only partially addresses the future growth in hedge income.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about future hedge income growth and risk-adjusted margin targets beyond 2026.\",\n  \"main_topics\": [\"Maturing Hedge Yield\", \"Risk Adjusted Margin\", \"USCB\", \"NIM\", \"Loan Loss Provisions\", \"American Airlines\", \"GM\", \"Organic Growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I want to check again on the maturing hedge yield as you look out beyond 2026.\",\n  \"answer_quote\": \"So we haven't given a target for risk adjusted margin beyond 2026.\",\n  \"reason\": \"The answer directly addresses the question about maturing hedge yield and risk-adjusted margin, providing a clear stance and high evidence level with numeric references.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 943,
+      "batch_seconds": 27.160419657999228
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 997,
+      "batch_seconds": 93.68255866899926
+    }
+  ],
+  "exchange_id": "61b944164df6-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b65e4c4c47b636289c43f158956b6150d68a2c097123bcfde0d299fd73cde3d4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about future hedge income growth and USCB risk-adjusted margin targets beyond 2026.",
+    "main_topics": [
+      "maturing hedge yield",
+      "USCB risk-adjusted margin",
+      "future growth in hedge income"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I want to check again on the maturing hedge yield as you look out beyond 2026.",
+    "answer_quote": "So we haven't given a target for risk adjusted margin beyond 2026.",
+    "reason": "The answer partially addresses the question by discussing the maturing hedge yield and USCB risk-adjusted margin, but does not provide a specific target for the latter, and only partially addresses the future growth in hedge income."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on rate sensitivity table and yield curve impact\",\n  \"main_topics\": [\"Rate Sensitivity Table\", \"Yield Curve Impact\", \"Hedge Reinvestment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just to check though, Anna, I thought the rate sensitivity table ignored any sort of yield pickup on the hedge. I thought it was purely if the yield curve is 25 basis-points lower, this is the impact on us, in which case, if you're reinvesting £40bn of hedge a year at 25 basis points less, that's the entirety of the £50m you're pointing to in year one, which just implies everything else is nothing.\",\n  \"answer_quote\": \"Yeah, it's just very small in year one, Jonathan. Let us take it outside with you. We'll come back to you.\",\n  \"reason\": \"The answer deflects the follow-up question without providing a clear explanation, only indicating that the impact is small and suggesting a meeting to discuss further.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 533,
+      "batch_seconds": 11.99581223000041
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "58052864c4ec30fa66b7eaf6ebf7c2051f9f3dadc49f4fed230ac0db09bd13ef",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on rate sensitivity table and yield curve impact",
+    "main_topics": [
+      "Rate Sensitivity Table",
+      "Yield Curve Impact",
+      "Hedge Reinvestment"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Just to check though, Anna, I thought the rate sensitivity table ignored any sort of yield pickup on the hedge. I thought it was purely if the yield curve is 25 basis-points lower, this is the impact on us, in which case, if you're reinvesting £40bn of hedge a year at 25 basis points less, that's the entirety of the £50m you're pointing to in year one, which just implies everything else is nothing.",
+    "answer_quote": "Yeah, it's just very small in year one, Jonathan. Let us take it outside with you. We'll come back to you.",
+    "reason": "The answer deflects the follow-up question without providing a clear explanation, only indicating that the impact is small and suggesting a meeting to discuss further."
+  },
+  "whitespace_adjusted_quotes": []
+}

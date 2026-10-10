@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about the impact of credit spreads on corporate lending and future run rate adjustments.\",\n  \"main_topics\": [\"Corporate Lending\", \"Credit Spreads\", \"Run Rate\", \"Capital Efficiency\", \"RWAs\", \"Balance Sheet Efficiency\", \"Marks\", \"Hedging\", \"Leverage Financing\", \"Banking Environment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can we go back to your run rate in that line at some point this year, or is there still a lot of wood to chop beyond single names?\",\n  \"answer_quote\": \"Yes, there are a few things in there. Some of the things in there which are a bit of a drag, are going to be enduring. So let me unpack it. The Corporate Lending, you will have seen over time, it's got to a level and then sort of stabilised. That isn't meaningfully different.\",\n  \"reason\": \"The response directly addresses the question about the run rate and the impact of credit spreads on corporate lending, providing a detailed explanation and aligning with the narrative of the question.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss the impact of credit spreads on corporate lending and the bank's run rate.\",\n \"main_topics\": [\"Corporate Lending\", \"Credit Spreads\", \"Run Rate\", \"Capital Efficiency\", \"RWAs\", \"Marks\", \"Hedging\", \"LevFin Market\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Can we go back to your run rate in that line at some point this year, or is there still a lot of wood to chop beyond single names?\",\n \"answer_quote\": \"Yes, there are a few things in there. Some of the things in there which are a bit of a drag, are going to be enduring. So let me unpack it. The Corporate Lending, you will have seen over time, it's got to a level and then sort of stabilised. That isn't meaningfully different.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of credit spreads on corporate lending and the bank's run rate.\",\n  \"main_topics\": [\"Corporate Lending\", \"Credit Spreads\", \"Run Rate\", \"SRT\", \"Capital Efficiency\", \"RWAs\", \"Marks\", \"Hedges\", \"Leverage Financing\", \"Banking Environment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second one was about Corporate Lending, I think we touched on this on the call. Now, a couple of months into the year, it does look like credit spreads have tightened significantly. Can we go back to your run rate in that line at some point this year, or is there still a lot of wood to chop beyond single names?\",\n  \"answer_quote\": \"Yes, there are a few things in there. Some of the things in there which are a bit of a drag, are going to be enduring. So let me unpack it. The Corporate Lending, you will have seen over time, it's got to a level and then sort of stabilised. That isn't meaningfully different. However, what we are doing is we are doing more SRT, so we're doing more first-loss risk transfer. We're doing that in part because of the credit environment, so you've seen that we've stepped that up, we've disclosed that, but it's also about capital efficiency and effectiveness across the group. So, what it does is it allows us to release RWAs from corporate and recycle them into other parts of the balance sheet. So, although you see a hit on that line, it actually creates balance sheet efficiency. I'd expect that to endure. So don't go back completely to where we were, there's going to be a permanent nudge down because of that impact. There are then two other things, I think, that are probably more temporary. The first is obviously marks. Having a year with zero marks is probably unlikely but having £335m that we called out is certainly elevated. So, you might expect a degree of normalisation there. Then, the last piece is the hedges associated with that leverage lending. In the current environment, we have reduced our appetite for stress loss, and therefore we have put on more hedges, and those hedges are more expensive. So that's another particular atmospheric point that would have a somewhat, I would say, less permanent impact on that number. So don't go back completely to where we were, but that drag that you're seeing is directly related to the health of the LevFin market. So, when we see that come back and that banking environment, more holistically, normalise, that's going to tail off. When that happens is quite difficult to call.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the impact of credit spreads on corporate lending and future run rate adjustments.\",\n  \"main_topics\": [\"Corporate Lending\", \"Credit Spreads\", \"Run Rate\", \"Capital Efficiency\", \"RWAs\", \"Balance Sheet Efficiency\", \"Marks\", \"Hedging\", \"Leverage Financing\", \"Banking Environment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can we go back to your run rate in that line at some point this year, or is there still a lot of wood to chop beyond single names?\",\n  \"answer_quote\": \"Yes, there are a few things in there. Some of the things in there which are a bit of a drag, are going to be enduring. So let me unpack it. The Corporate Lending, you will have seen over time, it's got to a level and then sort of stabilised. That isn't meaningfully different.\",\n  \"reason\": \"The response directly addresses the question about the run rate and the impact of credit spreads on corporate lending, providing a detailed explanation and aligning with the narrative of the question.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 846,
+      "batch_seconds": 23.62516695300019
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 891,
+      "batch_seconds": 24.741294486000697
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 891,
+      "batch_seconds": 25.3342818910005
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2ca8f642b0d4452150ae7027eadac66d5ed93989e4d47e3937b154f435f1dc50",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

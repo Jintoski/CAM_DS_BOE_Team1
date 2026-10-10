@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Acknowledgment\",\n  \"main_topics\": [\"Acknowledgment\", \"Transition\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Thank you.\",\n  \"answer_quote\": \"Yes, okay. Thank you. Next question, please.\",\n  \"reason\": \"The response deflects the acknowledgment without addressing the original intent of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 404,
+      "batch_seconds": 6.255509784999958
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a995b305fe30e8a61c4196ea78e5748caa414f8aaa7bf8606b9914acb9c01d5a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Acknowledgment",
+    "main_topics": [
+      "Acknowledgment",
+      "Transition"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Thank you.",
+    "answer_quote": "Yes, okay. Thank you. Next question, please.",
+    "reason": "The response deflects the acknowledgment without addressing the original intent of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

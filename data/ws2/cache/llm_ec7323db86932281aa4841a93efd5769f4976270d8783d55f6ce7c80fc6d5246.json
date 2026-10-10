@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Seeking guidance on non-interest income drivers\",\n  \"main_topics\": [\"non-interest income\", \"Covid restrictions\", \"trade\", \"capital markets\", \"Chinese GDP\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"But seems to be a missing piece of the P&L that we don't have now.\",\n  \"answer_quote\": \"But I'm not going to give you a non-NII forecast, but nice try.\",\n  \"reason\": \"The response deflects the request for non-interest income guidance and does not provide the requested information, instead offering a caution against profit forecasting.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 606,
+      "batch_seconds": 12.97318208300021
+    }
+  ],
+  "exchange_id": "344542bde5ab-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ec7323db86932281aa4841a93efd5769f4976270d8783d55f6ce7c80fc6d5246",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Seeking guidance on non-interest income drivers",
+    "main_topics": [
+      "non-interest income",
+      "Covid restrictions",
+      "trade",
+      "capital markets",
+      "Chinese GDP"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "But seems to be a missing piece of the P&L that we don't have now.",
+    "answer_quote": "But I'm not going to give you a non-NII forecast, but nice try.",
+    "reason": "The response deflects the request for non-interest income guidance and does not provide the requested information, instead offering a caution against profit forecasting."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's liquidity coverage ratio, its active management, and the factors influencing its composition.\",\n  \"main_topics\": [\"Liquidity Coverage Ratio\", \"Active Management\", \"Regulatory Environment\", \"Stress Testing\", \"US vs UK Banking Differences\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was just wondering if it's possible to sort of elaborate on how much of that is an active choice, how much of that could change over time and I guess just your approach to that level and composition of liquidity that you hold.\",\n  \"answer_quote\": \"Yeah, the total liquidity coverage ratio is somewhat an output of the balance sheet that we've got on the client behaviour that we see. And clearly we have some active decisioning in terms of where we deploy it, but that's probably more focused on an RWA returns lens than a liquidity lens per se. So the liquidity ratio is somewhat a function of the balance sheet that we've got. Clearly we've had significant increase in deposits post Covid reflecting the monetary backdrop and our liquidity position and indeed the liquidity position of most UK banks, most major UK banks sort of reflects that broader macro view. Clearly how we deploy the liquidity pool is very much an active risk management commercial choice for us. We probably do run slightly higher cash balances than others.\",\n  \"reason\": \"The answer directly addresses the question, explaining the liquidity coverage ratio as a balance sheet function, the active management of liquidity, and the influence of regulatory environment and stress testing on the bank's liquidity strategy.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 826,
+      "batch_seconds": 22.959991416000776
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "cc7efae5825c0cbf35f53dec325980032c9446feda3c99d220f80a413a91c6f6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the bank's liquidity coverage ratio, its active management, and the factors influencing its composition.",
+    "main_topics": [
+      "Liquidity Coverage Ratio",
+      "Active Management",
+      "Regulatory Environment",
+      "Stress Testing",
+      "US vs UK Banking Differences"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I was just wondering if it's possible to sort of elaborate on how much of that is an active choice, how much of that could change over time and I guess just your approach to that level and composition of liquidity that you hold.",
+    "answer_quote": "Yeah, the total liquidity coverage ratio is somewhat an output of the balance sheet that we've got on the client behaviour that we see. And clearly we have some active decisioning in terms of where we deploy it, but that's probably more focused on an RWA returns lens than a liquidity lens per se. So the liquidity ratio is somewhat a function of the balance sheet that we've got. Clearly we've had significant increase in deposits post Covid reflecting the monetary backdrop and our liquidity position and indeed the liquidity position of most UK banks, most major UK banks sort of reflects that broader macro view. Clearly how we deploy the liquidity pool is very much an active risk management commercial choice for us. We probably do run slightly higher cash balances than others.",
+    "reason": "The answer directly addresses the question, explaining the liquidity coverage ratio as a balance sheet function, the active management of liquidity, and the influence of regulatory environment and stress testing on the bank's liquidity strategy."
+  },
+  "whitespace_adjusted_quotes": []
+}

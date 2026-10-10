@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discussing CET 1 ratio and future capital generation\",\n  \"main_topics\": [\"CET 1 ratio\", \"capital generation\", \"buybacks\", \"distributions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Great. Just following on from that then. So I mean your [CET 1 ratio] is now at [13.9%]. You're obviously right to the top-end of your range, you're going to generate more capital, I guess, in the next quarter. I mean, there's no reason why you shouldn't be doing buybacks bigger than you've done in the past, just to clarify that.\",\n  \"answer_quote\": \"So our capital is at [13.9%], so it's towards the top end of our range. We did indicate at the full-year that we did expect to operate towards the top half, and that was simply because we did expect an increase in the [Maximum Distributable Amount], which has now come through. That said, why are we there? We're there because the strategy is working, and we're seeing very good capital generation from the business. That is the strategy. And if we keep executing the strategy, as we keep executing the strategy, it's not inconceivable that we might go through the top-end of that range. But that's a good thing. We've given you guidance that we would expect distributions to be progressive this year. And we haven't changed our guidance that distributions will be at least £10 billion over the period of the plan.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discussing CET 1 ratio and capital generation strategy\",\n  \"main_topics\": [\"CET 1 ratio\", \"capital generation\", \"buybacks\", \"distributions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So your [CET 1 ratio] is now at [13.9%]. You're obviously right to the top-end of your range, you're going to generate more capital, I guess, in the next quarter. I mean, there's no reason why you shouldn't be doing buybacks bigger than you've done in the past, just to clarify that.\",\n  \"answer_quote\": \"So our capital is at [13.9%], so it's towards the top end of our range. We did indicate at the full-year that we did expect to operate towards the top half, and that was simply because we did expect an increase in the [Maximum Distributable Amount], which has now come through. That said, why are we there? We're there because the strategy is working, and we're seeing very good capital generation from the business. That is the strategy. And if we keep executing the strategy, as we keep executing the strategy, it's not inconceivable that we might go through the top-end of that range. But that's a good thing. We've given you guidance that we would expect distributions to be progressive this year. And we haven't changed our guidance that distributions will be at least £10 billion over the period of the plan.\",\n  \"reason\": \"The answer directly addresses the CET 1 ratio, capital generation, and future buybacks, providing a clear stance and high evidence with numeric details.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discussing CET 1 ratio and future capital generation\",\n  \"main_topics\": [\"CET 1 ratio\", \"capital generation\", \"buybacks\", \"distributions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Great. Just following on from that then. So I mean your [CET 1 ratio] is now at [13.9%]. You're obviously right to the top-end of your range, you're going to generate more capital, I guess, in the next quarter. I mean, there's no reason why you shouldn't be doing buybacks bigger than you've done in the past, just to clarify that.\",\n  \"answer_quote\": \"So our capital is at [13.9%], so it's towards the top end of our range. We did indicate at the full-year that we did expect to operate towards the top half, and that was simply because we did expect an increase in the [Maximum Distributable Amount], which has now come through. That said, why are we there? We're there because the strategy is working, and we're seeing very good capital generation from the business. That is the strategy. And if we keep executing the strategy, as we keep executing the strategy, it's not inconceivable that we might go through the top-end of that range. But that's a good thing. We've given you guidance that we would expect distributions to be progressive this year. And we haven't changed our guidance that distributions will be at least £10 billion over the period of the plan.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discussing CET 1 ratio and future capital generation\",\n  \"main_topics\": [\"CET 1 ratio\", \"capital generation\", \"buybacks\", \"distributions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Great. Just following on from that then. So I mean your [CET 1 ratio] is now at [13.9%]. You're obviously right to the top-end of your range, you're going to generate more capital, I guess, in the next quarter. I mean, there's no reason why you shouldn't be doing buybacks bigger than you've done in the past, just to clarify that.\",\n  \"answer_quote\": \"So our capital is at [13.9%], so it's towards the top end of our range. We did indicate at the full-year that we did expect to operate towards the top half, and that was simply because we did expect an increase in the [Maximum Distributable Amount], which has now come through. That said, why are we there? We're there because the strategy is working, and we're seeing very good capital generation from the business. That is the strategy. And if we keep executing the strategy, as we keep executing the strategy, it's not inconceivable that we might go through the top-end of that range. But that's a good thing. We've given you guidance that we would expect distributions to be progressive this year. And we haven't changed our guidance that distributions will be at least £10 billion over the period of the plan.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 641,
+      "batch_seconds": 16.037525024999923
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 689,
+      "batch_seconds": 17.289219684000273
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 686,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "d970c7e31290-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a0832982ec283d31d06be1c1682e9cf2d11cd255b77529612ee2218c7deb01cc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about balance sheet growth guidance and expectations for material shrinkage or growth, and recovery areas driving growth in 2024.\",\n  \"main_topics\": [\"Balance Sheet Growth Guidance\", \"Material Shrinkage/Growth\", \"Recovery Areas\", \"2024 Growth Expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question about the balance sheet growth guidance - the low-single-digit then reverting to mid-single-digit the following year? So what are the overs and unders there by sub-segment? Are there any areas where you expect to see material shrinkage this year or material growth this year, despite the broader environment? And then in terms of the more normalised growth in 2024, do you just expect everything to rapidly trend up or there any particular recovery areas of acceleration areas that you expect to drive that?\",\n  \"answer_quote\": \"I don't think we have a specific business line split to call out. It's going to be more a geographic split. Areas such as south and southeast Asia today are growing fast. Areas such as Hong Kong and China. The outlook is now one for growth, but areas in some of the western parts of the world, where we still have more subdued economic conditions, may see a slowdown. So it's probably more a geographic evolution than a business line evolution. We remain committed to growth, but we're not changing our risk appetite, so we're not going to chase loans for the sake of growing for growing. We're going to just adapt to client needs with our stable risk appetite. And if client needs are slower because of economic conditions being slower, we will grow less in that area and we will grow somewhere else where client needs are stronger. We will be optimistic. Companies always say it's the second half of the year. Ultimately, when you see what's happened in reopening in Asia, we think the conditions are there for a good bounce-back in the back end of the year. But trade volumes have been slow short term, for example, and it just takes time for some of the machines to gear up to a bounce-back in Asia.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a complete response with a direct stance. The evidence level is medium as it provides some concrete support without explicit figures. Forward guidance is present as the answer discusses growth expectations and recovery areas. The narrative alignment is aligned as the response is relevant to the question asked.\"\n}",
+  "data": {
+    "question_intent": "Inquiring about balance sheet growth guidance and expectations for material shrinkage or growth, and recovery areas driving growth in 2024.",
+    "main_topics": [
+      "Balance Sheet Growth Guidance",
+      "Material Shrinkage/Growth",
+      "Recovery Areas",
+      "2024 Growth Expectations"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I ask a question about the balance sheet growth guidance - the low-single-digit then reverting to mid-single-digit the following year? So what are the overs and unders there by sub-segment? Are there any areas where you expect to see material shrinkage this year or material growth this year, despite the broader environment? And then in terms of the more normalised growth in 2024, do you just expect everything to rapidly trend up or there any particular recovery areas of acceleration areas that you expect to drive that?",
+    "answer_quote": "I don't think we have a specific business line split to call out. It's going to be more a geographic split. Areas such as south and southeast Asia today are growing fast. Areas such as Hong Kong and China. The outlook is now one for growth, but areas in some of the western parts of the world, where we still have more subdued economic conditions, may see a slowdown. So it's probably more a geographic evolution than a business line evolution. We remain committed to growth, but we're not changing our risk appetite, so we're not going to chase loans for the sake of growing for growing. We're going to just adapt to client needs with our stable risk appetite. And if client needs are slower because of economic conditions being slower, we will grow less in that area and we will grow somewhere else where client needs are stronger. We will be optimistic. Companies always say it's the second half of the year. Ultimately, when you see what's happened in reopening in Asia, we think the conditions are there for a good bounce-back in the back end of the year. But trade volumes have been slow short term, for example, and it just takes time for some of the machines to gear up to a bounce-back in Asia.",
+    "reason": "The answer directly addresses the question's intent, providing a complete response with a direct stance. The evidence level is medium as it provides some concrete support without explicit figures. Forward guidance is present as the answer discusses growth expectations and recovery areas. The narrative alignment is aligned as the response is relevant to the question asked."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "4970375d012d-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "af0bc379fda627e3740dc82540581c4bfb4c901744bcc7bc8a3a6126dc80de49"
+}

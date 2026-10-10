@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on CIB RoTE trend, capital allocation, and IWPB growth strategy.\",\n  \"main_topics\": [\"CIB RoTE trend\", \"Capital allocation in CIB\", \"IWPB growth strategy\", \"Technology investment in IWPB\", \"Cross-border wealth hub growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you for the 14% trailing RoTE. So with the cost saves, etc, where do we expect the CIB RoTE to trend over the next couple of years and how would the management think about incremental capital allocation in that business division?\",\n  \"answer_quote\": \"We haven't given specific medium-term returns for CIB. As Pam said, we've given a bank-wide target of mid-teens return on tangible equity for 2025, 2026 and 2027. We haven't been business-specific, but let me give you some indications of how we're looking at the business.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "```json\n{\n  \"question_intent\": \"Bank earnings-call questions on CIB RoTE trends, capital allocation, and IWPB growth strategies.\",\n  \"main_topics\": [\"CIB RoTE trends\", \"Capital allocation in CIB\", \"IWPB growth and technology investment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So with the cost saves, etc, where do we expect the CIB RoTE to trend over the next couple of years and how would the management think about incremental capital allocation in that business division?\",\n  \"answer_quote\": \"We haven't given specific medium-term returns for CIB. As Pam said, we've given a bank-wide target of mid-teens return on tangible equity for 2025, 2026 and 2027. We haven't been business-specific, but let me give you some indications of how we're looking at the business.\"\n}\n```",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on CIB RoTE trend, capital allocation, and IWPB growth strategy.\",\n  \"main_topics\": [\"CIB RoTE trend\", \"Capital allocation in CIB\", \"IWPB growth strategy\", \"Zing technology platform\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you very much, Gurpreet. I will handle the two questions. On CIB, we haven't given specific medium-term returns for CIB.\",\n  \"answer_quote\": \"We haven't been business-specific, but let me give you some indications of how we're looking at the business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on CIB RoTE trend, capital allocation, and IWPB growth strategy.\",\n  \"main_topics\": [\"CIB RoTE trend\", \"Capital allocation in CIB\", \"IWPB growth strategy\", \"Technology investment in IWPB\", \"Cross-border wealth hub growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you for the 14% trailing RoTE. So with the cost saves, etc, where do we expect the CIB RoTE to trend over the next couple of years and how would the management think about incremental capital allocation in that business division?\",\n  \"answer_quote\": \"We haven't given specific medium-term returns for CIB. As Pam said, we've given a bank-wide target of mid-teens return on tangible equity for 2025, 2026 and 2027. We haven't been business-specific, but let me give you some indications of how we're looking at the business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1626,
+      "batch_seconds": 103.67732233900006
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1671,
+      "batch_seconds": 57.86427026899946
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1671,
+      "batch_seconds": 58.222243031999824
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7c4f7c0e922a669343ef999f6c67f3e28c6eec711943d5bbb4889809f3f26bdc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

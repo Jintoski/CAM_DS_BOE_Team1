@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiry about the composition and future reporting of the Consumer, Commercial and Private Banking (CC&P) business.\",\n  \"main_topics\": [\"CC&P business structure\", \"Private Banking performance\", \"Payments business focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Perhaps how you do you think about the shape of the CC&P business? I mean, asides from US cards, the rest of this, and how they contribute to the Group. At some point, does it make sense to provide more colour on each of these apart from just the income split particularly?\",\n  \"answer_quote\": \"Yeah, so I'll take the second bit quite quickly. I'm not going to comment on how we will report, and any changes that we might make at this point in time. We'll obviously, give you an update when we get to February.\",\n  \"reason\": \"The answer directly addresses the CC&P business structure, performance of Private Banking, and focus of the Payments business, providing a clear and complete response to the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 893,
+      "batch_seconds": 26.18008355099937
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c13cac98536b711a3a6de9a2779ddf1c315231e41abe67f1940df9f831a5826a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiry about the composition and future reporting of the Consumer, Commercial and Private Banking (CC&P) business.",
+    "main_topics": [
+      "CC&P business structure",
+      "Private Banking performance",
+      "Payments business focus"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Perhaps how you do you think about the shape of the CC&P business? I mean, asides from US cards, the rest of this, and how they contribute to the Group. At some point, does it make sense to provide more colour on each of these apart from just the income split particularly?",
+    "answer_quote": "Yeah, so I'll take the second bit quite quickly. I'm not going to comment on how we will report, and any changes that we might make at this point in time. We'll obviously, give you an update when we get to February.",
+    "reason": "The answer directly addresses the CC&P business structure, performance of Private Banking, and focus of the Payments business, providing a clear and complete response to the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

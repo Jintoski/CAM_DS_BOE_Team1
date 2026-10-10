@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about discrepancies in Tesco Bank's reported revenues and seek clarification.\",\n  \"main_topics\": [\"Tesco Bank revenues\", \"Revenue reporting discrepancies\", \"Forward guidance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"That number of £279 million is only £61 million more than the divisional disclosure of cards on its own, which implies that Tesco only did £60 million of revenues in the quarter, £250 million annualised.\",\n  \"answer_quote\": \"Yeah, we'll come back to you. But just to reiterate, our expectation for the year is that Tesco will have an NII of c.£500 million, so the £400 million plus funding synergies.\",\n  \"reason\": \"The answer partially addresses the discrepancy in reported revenues and provides forward guidance, but does not directly address the concern raised in the question.\"\n}",
+  "data": {
+    "question_intent": "Inquire about discrepancies in Tesco Bank's reported revenues and seek clarification.",
+    "main_topics": [
+      "Tesco Bank revenues",
+      "Revenue reporting discrepancies",
+      "Forward guidance"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "That number of £279 million is only £61 million more than the divisional disclosure of cards on its own, which implies that Tesco only did £60 million of revenues in the quarter, £250 million annualised.",
+    "answer_quote": "Yeah, we'll come back to you. But just to reiterate, our expectation for the year is that Tesco will have an NII of c.£500 million, so the £400 million plus funding synergies.",
+    "reason": "The answer partially addresses the discrepancy in reported revenues and provides forward guidance, but does not directly address the concern raised in the question."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "08b5e1a731d1-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "37978898d5dd709ac82067de340a3483a234456e4c788575084e36db555cd17e"
+}

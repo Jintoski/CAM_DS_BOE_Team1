@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about factors contributing to loan book growth\",\n  \"main_topics\": [\"CIB loan book growth\", \"FX impact\", \"corporate lending\", \"wholesale lending\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just on the [CIB] loan book, what drove that double-digit [growth] quarter-on-quarter?\",\n  \"answer_quote\": \"Well, there'll be an FX impact in there. So there's some FX inflation. In terms of corporate lending, by the time you strip out the FX, it's not significant, particularly. And the increase in wholesale lending that we've seen has been largely to investment-grade businesses, existing clients. Nothing of concern.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Cause of loan book growth\",\n  \"main_topics\": [\"CIB loan book growth\", \"FX impact\", \"corporate lending\", \"wholesale lending\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just on the [CIB] loan book, what drove that double-digit [growth] quarter-on-quarter?\",\n  \"answer_quote\": \"Well, there'll be an FX impact in there. So there's some FX inflation. In terms of corporate lending, by the time you strip out the FX, it's not significant, particularly. And the increase in wholesale lending that we've seen has been largely to investment-grade businesses, existing clients. Nothing of concern.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about factors contributing to loan book growth\",\n  \"main_topics\": [\"CIB loan book growth\", \"FX impact\", \"corporate lending\", \"wholesale lending\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just on the [CIB] loan book, what drove that double-digit [growth] quarter-on-quarter?\",\n  \"answer_quote\": \"Well, there'll be an FX impact in there. So there's some FX inflation. In terms of corporate lending, by the time you strip out the FX, it's not significant, particularly. And the increase in wholesale lending that we've seen has been largely to investment-grade businesses, existing clients. Nothing of concern.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about factors contributing to loan book growth\",\n  \"main_topics\": [\"CIB loan book growth\", \"FX impact\", \"corporate lending\", \"wholesale lending\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just on the [CIB] loan book, what drove that double-digit [growth] quarter-on-quarter?\",\n  \"answer_quote\": \"Well, there'll be an FX impact in there. So there's some FX inflation. In terms of corporate lending, by the time you strip out the FX, it's not significant, particularly. And the increase in wholesale lending that we've seen has been largely to investment-grade businesses, existing clients. Nothing of concern.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 473,
+      "batch_seconds": 9.408274887000516
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 518,
+      "batch_seconds": 10.038360675000149
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 2,
+      "input_tokens": 518,
+      "batch_seconds": 8.03993407300004
+    }
+  ],
+  "exchange_id": "6d4760f97290-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e794033f3030b6f2b9bd6d1f5ad5792924344d9e0eb442dfaeac77dc47d322c2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

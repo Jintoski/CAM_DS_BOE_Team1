@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for detailed explanation on investment differences and USCB net receivables\",\n  \"main_topics\": [\"Investment Phasing\", \"USCB Net Receivables\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, I appreciate there was a slightly different phasing of investment this quarter versus last year. Do you mind just giving a bit more colour on how different was the investment versus last year, just so we can see the cleaner piece there?\",\n  \"answer_quote\": \"Okay, I will take both of those. So, in BUK, I can see as I look at operating costs, there's a slight miss to consensus. I think that's only timing. And particularly when I look at where that is, it's in BUK. So BUK's got a slightly different profile of investment and actually efficiency delivery this year from previous years.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed explanation of the investment phasing and USCB net receivables without numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 875,
+      "batch_seconds": 23.759455553999942
+    }
+  ],
+  "exchange_id": "a91585caef10-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9422d9b5e5690b49d8d30a6d02683064d0b78d51027f2097b8ed66adccfeaff5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for detailed explanation on investment differences and USCB net receivables",
+    "main_topics": [
+      "Investment Phasing",
+      "USCB Net Receivables"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So, I appreciate there was a slightly different phasing of investment this quarter versus last year. Do you mind just giving a bit more colour on how different was the investment versus last year, just so we can see the cleaner piece there?",
+    "answer_quote": "Okay, I will take both of those. So, in BUK, I can see as I look at operating costs, there's a slight miss to consensus. I think that's only timing. And particularly when I look at where that is, it's in BUK. So BUK's got a slightly different profile of investment and actually efficiency delivery this year from previous years.",
+    "reason": "The answer directly addresses the question's intent, providing a detailed explanation of the investment phasing and USCB net receivables without numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

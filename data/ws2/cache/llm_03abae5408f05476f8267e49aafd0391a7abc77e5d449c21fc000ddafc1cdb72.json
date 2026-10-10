@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing margin differential impact\",\n  \"main_topics\": [\"Mortgage margins\", \"Churn margin\", \"Future outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Did you consider that margin differential, front to back on mortgages, to be worse than it is now, or is it about the same?\",\n  \"answer_quote\": \"We're not in negative churn margin as we stand here today. We were in negative churn margin then. That may change in the future, depending on where mortgage margins end up going, but we're in a positive churn margin at the moment. We cautioned everybody before [at the earnings call] about whether we think that will remain there. That's obviously contingent upon where mortgage front book spreads go next year.\",\n  \"reason\": \"The answer directly addresses the question about the current state of margin differential and provides a future outlook, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 497,
+      "batch_seconds": 10.274504325000635
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "03abae5408f05476f8267e49aafd0391a7abc77e5d449c21fc000ddafc1cdb72",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing margin differential impact",
+    "main_topics": [
+      "Mortgage margins",
+      "Churn margin",
+      "Future outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Did you consider that margin differential, front to back on mortgages, to be worse than it is now, or is it about the same?",
+    "answer_quote": "We're not in negative churn margin as we stand here today. We were in negative churn margin then. That may change in the future, depending on where mortgage margins end up going, but we're in a positive churn margin at the moment. We cautioned everybody before [at the earnings call] about whether we think that will remain there. That's obviously contingent upon where mortgage front book spreads go next year.",
+    "reason": "The answer directly addresses the question about the current state of margin differential and provides a future outlook, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

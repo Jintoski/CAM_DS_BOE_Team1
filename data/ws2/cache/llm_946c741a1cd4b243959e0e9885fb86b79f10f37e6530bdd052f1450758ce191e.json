@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Should HSBC buy earnings instead of selling them?\",\n  \"main_topics\": [\"earnings buyback\", \"HSBC growth\", \"balance sheet strength\", \"market reward for opex investment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that what we should expect from the firm going forward?\",\n  \"answer_quote\": \"So yes, we're not ruling out opportunities where we acquire.\",\n  \"reason\": \"The answer directly addresses the question about buying earnings, mentions the firm's growth strategy, and aligns with the narrative of the question, providing a clear stance without forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Should HSBC prioritize buying earnings over selling them?\",\n  \"main_topics\": [\"HSBC earnings\", \"buybacks vs. acquisitions\", \"growth strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that what we should expect from the firm going forward?\",\n  \"answer_quote\": \"So yes, we're not ruling out opportunities where we acquire.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 777,
+      "batch_seconds": 22.53639922399998
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 822,
+      "batch_seconds": 22.38289157899999
+    }
+  ],
+  "exchange_id": "287d803c2083-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "946c741a1cd4b243959e0e9885fb86b79f10f37e6530bdd052f1450758ce191e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Should HSBC buy earnings instead of selling them?",
+    "main_topics": [
+      "earnings buyback",
+      "HSBC growth",
+      "balance sheet strength",
+      "market reward for opex investment"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Is that what we should expect from the firm going forward?",
+    "answer_quote": "So yes, we're not ruling out opportunities where we acquire.",
+    "reason": "The answer directly addresses the question about buying earnings, mentions the firm's growth strategy, and aligns with the narrative of the question, providing a clear stance without forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

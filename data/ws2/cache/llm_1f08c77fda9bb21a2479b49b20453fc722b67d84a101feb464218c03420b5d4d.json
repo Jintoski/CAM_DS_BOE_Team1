@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on business growth, capital, and investment strategy\",\n  \"main_topics\": [\"Advisory and ECM fees growth\", \"Capital adequacy and CET1 ratio\", \"Investment strategy and organic investments\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, in terms of the primary business, Advisory and ECM, fees have grown pretty strongly. I'm just wondering is that pent up deal flow from prior years or is that more on structural share gains both in the M&A and ECM franchise, and which sector or geography is driving the most momentum?\",\n  \"answer_quote\": \"Okay, so let me start with ECM and M&A. So I would say more deal flow than market share gain.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about the growth drivers of Advisory and ECM fees, the impact of capital on CET1 ratio, and the approach to competing with digital players.\",\n \"main_topics\": [\"Advisory and ECM growth\", \"CET1 ratio and capital\", \"Competing with digital players\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"one on the IB first. So, in terms of the primary business, Advisory and ECM, fees have grown pretty strongly. I'm just wondering is that pent up deal flow from prior years or is that more on structural share gains both in the M&A and ECM franchise, and which sector or geography is driving the most momentum?\",\n \"answer_quote\": \"Okay, so let me start with ECM and M&A. So I would say more deal flow than market share gain. We are clearly benefiting from the market, which is bigger than we anticipated, but again able to do that because we made some investments in talent. So for example, we participated in nine out of 10 of the larger IPOs in the US and there has been some, I guess, structural skew overall. That's probably not to the areas that we are strongest in. So if you take the very large technology IPOs, that's probably not where we have our greatest strength, although we are building it. Much more for us, I would call out is industrials, and is certainly a strong area for us, but our objective here is to be able to access the larger markets. So healthcare, technology, certainly the transition economy, industrials remain large sectors. Just to remind you that the balance of our business is exactly that of our US peers. So about 70% of our fees come from the US market, where the margins are wider than in the UK. So that certainly helps us. So we are making good strategic progress in this business, but I just remind you of the relative scale within our IB. It is a relatively small business for us. Banking fees are 19% of our overall IB revenue and that includes DCM where we are clearly stronger. Just moving to capital, but we're at 14.3% [CET1 ratio] and as you say, 14% proforma after the buyback. That's testament to the ongoing capital generative nature of the businesses and the discipline through which we're allocating capital. We did say that you should expect us to operate at the top of the range, and when we get regulatory clarity, we will reassess where we will operate. That's going to come in two chunks. The first is, if you like, the Pillar 2 part of Basel, which I would expect to get in the second half of this year. Clearly our plan has us sitting at 14%. We know what the Pillar 1 element of Basel is, we have a good idea, now narrowing the range. What we don't know is the Pillar 2 impact, so we're waiting for that. And then the second thing which is elevating our Pillar 2 is obviously, we have not yet put down the AIRB model for US cards, so the advanced model. So we are carrying Pillar 2 equivalents for that in advance. Again, our plan assumes that we put down the Pillar 1 equivalent, we do not yet have what the Pillar 2 offset will be and we'll get that from the PRA nearer the time, we expect that to be in the second half of FY27. So you're going to see this come through two chunks. In terms of how we invest, you're seeing some really tangible examples of investment, not just for revenue but also for costs. So we talked a lot about SCAs today, but that is just one deployment of investment to the business, whether it be new partnerships in USCB or I would say capabilities that we've tucked into BUK and elsewhere. There are a few things that these capabilities have in common. If we've got external first, think of them as somewhat future proof. So they've either been digital in nature or something that we feel is a capability that we don't have and that was Kensington for example. We're very mindful of what the relative, and this is true for every investment, what the relative payback is to the balance of distributions to our shareholders. So we are looking at it relative to a buyback, and that links strongly to Jason's question from before and making sure that we've got that discipline. Notably where we're doing organic investments, we put that through a similar rigor. So we are deploying additional tech spend, for example, in the business. How do we expect that to [translate into] RoTE or growth of that business, and notably do we expect a cost or an income upside of the result. So if you took something like the wealth proposition, I I would expect that to be largely revenue, because it's new. If you took the build out of, for example, iPortal that's going to have revenue and cost implications. If you took our SCAs, only cost, [we are quite disciplined in the way we approach that]. Next question please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1464,
+      "batch_seconds": 46.656300270999964
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1509,
+      "batch_seconds": 101.49192669600052
+    }
+  ],
+  "exchange_id": "f3f29bd0739c-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1f08c77fda9bb21a2479b49b20453fc722b67d84a101feb464218c03420b5d4d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on business growth, capital, and investment strategy",
+    "main_topics": [
+      "Advisory and ECM fees growth",
+      "Capital adequacy and CET1 ratio",
+      "Investment strategy and organic investments"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So, in terms of the primary business, Advisory and ECM, fees have grown pretty strongly. I'm just wondering is that pent up deal flow from prior years or is that more on structural share gains both in the M&A and ECM franchise, and which sector or geography is driving the most momentum?",
+    "answer_quote": "Okay, so let me start with ECM and M&A. So I would say more deal flow than market share gain.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

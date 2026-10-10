@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for information on UK card coverage and CIB balance sheet financing costs in a higher rate environment\",\n  \"main_topics\": [\"UK card coverage\", \"CIB balance sheet financing costs\", \"rate gearing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I wonder whether there was any colour you could provide around the increasing coverage taken in UK cards in the quarter?\",\n  \"answer_quote\": \"I wouldn't read too much into it. It's not a deliberate increase in coverage.\",\n  \"reason\": \"The answer partially addresses the card coverage question but deflects the rate gearing question, providing some but not complete information.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Request for information on UK card coverage and CIB balance sheet financing costs in a higher rate environment\",\n \"main_topics\": [\"UK card coverage\", \"CIB balance sheet financing costs\", \"Higher rate environment\"],\n \"answer_completeness\": \"Partial\",\n \"response_stance\": \"Mixed\",\n \"evidence_level\": \"Medium\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"I wonder whether you could help us understand a little bit better how the cost of running the CIB balance sheet might change in the event that short-end rates were to go up?\",\n \"answer_quote\": \"So in terms of cards coverage, I wouldn't read too much into it. It's not a deliberate increase in coverage. What I'll just remind you of is that our impairment is driven not just by the balances that we have, but [also by] exposure at default, so it's informed by limits. Customers have been paying down, so you're getting balances being relatively sluggish, being paid off very frequently, but the overall limits haven't changed. Thus, you can get some quirks in the arithmetic, but nothing deliberate in there. We've remained cautious, as Tushar pointed out, in terms of our provided position on uncertainty.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for information on UK card coverage and CIB balance sheet financing costs in a higher rate environment\",\n  \"main_topics\": [\"UK card coverage\", \"CIB balance sheet financing costs\", \"rate gearing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I wonder whether there was any colour you could provide around the increasing coverage taken in UK cards in the quarter?\",\n  \"answer_quote\": \"In terms of cards coverage, I wouldn't read too much into it. It's not a deliberate increase in coverage.\",\n  \"reason\": \"The answer partially addresses the card coverage question but hedges on the CIB rate gearing, providing some evidence but not a full explanation.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1356,
+      "batch_seconds": 44.31235364999975
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1401,
+      "batch_seconds": 44.672947998999916
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1404,
+      "batch_seconds": 100.45916295499956
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "115ee5396a26e879e72bf10744ba6dc52e78292b69f190ff6a78d07dbefd4256",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for information on UK card coverage and CIB balance sheet financing costs in a higher rate environment",
+    "main_topics": [
+      "UK card coverage",
+      "CIB balance sheet financing costs",
+      "rate gearing"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I wonder whether there was any colour you could provide around the increasing coverage taken in UK cards in the quarter?",
+    "answer_quote": "I wouldn't read too much into it. It's not a deliberate increase in coverage.",
+    "reason": "The answer partially addresses the card coverage question but deflects the rate gearing question, providing some but not complete information."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Investment Bank income growth and Basel end game impact on growth aspirations, structural hedge notional attrition\",\n  \"main_topics\": [\"Investment Bank growth\", \"Basel end game\", \"Structural hedge notional\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Question on the Investment Bank income growth profile. We were speaking to our US analyst yesterday and for the first time, he's now of the view that in terms of the Basel end game there won't be much softening in the rules as they currently stand. In relation to your guidance for the Investment Bank, how much of that would be baked into your growth aspirations?\",\n  \"answer_quote\": \"Okay, thank you. So we are not making any Basel-related market share [gain] assumptions. Specifically over time we would expect all of the large banks to be able to react and adapt to the regulatory environment around them, and refocus and reprice and whatever they need to do. So, we may have a short term advantage in terms of clarity. Having had the clarity from the PRA around most of the larger markets pieces last year, I think we are now in a position where we understand what it is we need to do at a more granular level. So maybe that helps us a little bit, but we're not assuming anything material. And in terms of our US business, some of it is booked in the IHC, which is Basel end game rules, and some of it's booked in the BBPLC New York branch, which is obviously PRA rules. So, less than 10% of our capital, if you like, is in the IHC and therefore nose to nose with those competitors domestically. On your second question. So on structural hedge, it's an assumption nothing more than that. I mean, we said on the day we do feel that there's a macro pressure downwards on deposits in the UK that comes from QT and normalisation post pandemic. It's nothing really beyond that, we wouldn't expect ourselves to be particularly more exposed than others.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on Basel-related market share assumptions and structural hedge notional, with high evidence level and numeric evidence present.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 884,
+      "batch_seconds": 26.647234068000216
+    }
+  ],
+  "exchange_id": "dfbf37092448-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "53bf2f4ac317afd35925970997a5f53583b39cb636cbadaabe91a7d3ce61b529",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investment Bank income growth and Basel end game impact on growth aspirations, structural hedge notional attrition",
+    "main_topics": [
+      "Investment Bank growth",
+      "Basel end game",
+      "Structural hedge notional"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Question on the Investment Bank income growth profile. We were speaking to our US analyst yesterday and for the first time, he's now of the view that in terms of the Basel end game there won't be much softening in the rules as they currently stand. In relation to your guidance for the Investment Bank, how much of that would be baked into your growth aspirations?",
+    "answer_quote": "Okay, thank you. So we are not making any Basel-related market share [gain] assumptions. Specifically over time we would expect all of the large banks to be able to react and adapt to the regulatory environment around them, and refocus and reprice and whatever they need to do. So, we may have a short term advantage in terms of clarity. Having had the clarity from the PRA around most of the larger markets pieces last year, I think we are now in a position where we understand what it is we need to do at a more granular level. So maybe that helps us a little bit, but we're not assuming anything material. And in terms of our US business, some of it is booked in the IHC, which is Basel end game rules, and some of it's booked in the BBPLC New York branch, which is obviously PRA rules. So, less than 10% of our capital, if you like, is in the IHC and therefore nose to nose with those competitors domestically. On your second question. So on structural hedge, it's an assumption nothing more than that. I mean, we said on the day we do feel that there's a macro pressure downwards on deposits in the UK that comes from QT and normalisation post pandemic. It's nothing really beyond that, we wouldn't expect ourselves to be particularly more exposed than others.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on Basel-related market share assumptions and structural hedge notional, with high evidence level and numeric evidence present."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Future rate environment and hedging strategy\",\n  \"main_topics\": [\"rate environment\", \"structural hedging\", \"savings rates\", \"NII sensitivity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Should we just assume flattish from here is our best assumption, or are there more things you can do?\",\n  \"answer_quote\": \"In terms of the sensitivity, it will move around with the rate environment. As rates drop, you could see a slight uptick in that. That's just natural in the way it behaves, but we are looking to increase our structural hedging this year, albeit at a much slower pace than we've done over the past two years. So not a significant shift, is what I'd say, from where we are today. Building on Fas's point related to Hong Kong and deposits, the way to think about it is the Hong Kong savings rates that we're paying on US dollar and Hong Kong dollar now are getting to a point where you can only cut them so much before you get to zero, so there is convexity in that calculation. We're broadly paying about 25 basis points now on savings accounts, so, if you think about further rate cuts, you'll get to a point, as we pass through, where it hits zero, and then that naturally means your NII sensitivity past that point will increase.\",\n  \"reason\": \"The answer directly addresses the question about future rate environment and hedging strategy, provides a high level of evidence with specific figures (25 basis points), and includes forward guidance about the bank's intentions to increase structural hedging.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future interest rate assumptions and hedging strategy\",\n  \"main_topics\": [\"Interest Rate Environment\", \"Structural Hedging\", \"NII Sensitivity\", \"Savings Rates\", \"Hong Kong Dollar\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Should we just assume flattish from here is our best assumption, or are there more things you can do?\",\n  \"answer_quote\": \"In terms of the sensitivity, it will move around with the rate environment. As rates drop, you could see a slight uptick in that. That's just natural in the way it behaves, but we are looking to increase our structural hedging this year, albeit at a much slower pace than we've done over the past two years. So not a significant shift, is what I'd say, from where we are today. Building on Fas's point related to Hong Kong and deposits, the way to think about it is the Hong Kong savings rates that we're paying on US dollar and Hong Kong dollar now are getting to a point where you can only cut them so much before you get to zero, so there is convexity in that calculation. We're broadly paying about 25 basis points now on savings accounts, so, if you think about further rate cuts, you'll get to a point, as we pass through, where it hits zero, and then that naturally means your NII sensitivity past that point will increase.\",\n  \"reason\": \"The answer directly addresses the question about future interest rate assumptions and hedging strategy, providing a hedged stance with high evidence level, including numeric evidence and forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future interest rate assumptions and hedging strategy\",\n  \"main_topics\": [\"interest rate environment\", \"structural hedging\", \"savings rates\", \"NII sensitivity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Should we just assume flattish from here is our best assumption, or are there more things you can do?\",\n  \"answer_quote\": \"In terms of the sensitivity, it will move around with the rate environment. As rates drop, you could see a slight uptick in that. That's just natural in the way it behaves, but we are looking to increase our structural hedging this year, albeit at a much slower pace than we've done over the past two years. So not a significant shift, is what I'd say, from where we are today. Building on Fas's point related to Hong Kong and deposits, the way to think about it is the Hong Kong savings rates that we're paying on US dollar and Hong Kong dollar now are getting to a point where you can only cut them so much before you get to zero, so there is convexity in that calculation. We're broadly paying about 25 basis points now on savings accounts, so, if you think about further rate cuts, you'll get to a point, as we pass through, where it hits zero, and then that naturally means your NII sensitivity past that point will increase.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future rate environment and hedging strategy\",\n  \"main_topics\": [\"rate environment\", \"structural hedging\", \"savings rates\", \"NII sensitivity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Should we just assume flattish from here is our best assumption, or are there more things you can do?\",\n  \"answer_quote\": \"In terms of the sensitivity, it will move around with the rate environment. As rates drop, you could see a slight uptick in that. That's just natural in the way it behaves, but we are looking to increase our structural hedging this year, albeit at a much slower pace than we've done over the past two years. So not a significant shift, is what I'd say, from where we are today. Building on Fas's point related to Hong Kong and deposits, the way to think about it is the Hong Kong savings rates that we're paying on US dollar and Hong Kong dollar now are getting to a point where you can only cut them so much before you get to zero, so there is convexity in that calculation. We're broadly paying about 25 basis points now on savings accounts, so, if you think about further rate cuts, you'll get to a point, as we pass through, where it hits zero, and then that naturally means your NII sensitivity past that point will increase.\",\n  \"reason\": \"The answer directly addresses the question about future rate environment and hedging strategy, provides a high level of evidence with specific figures (25 basis points), and includes forward guidance about the bank's intentions to increase structural hedging.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 626,
+      "batch_seconds": 15.20493993800028
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 674,
+      "batch_seconds": 16.749183160998655
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 671,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a969f9b3962c6979ed3c4841b6f496dc7651331b7fb0be993f10a784c4e12161",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

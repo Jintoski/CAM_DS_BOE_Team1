@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss NIM sustainability and SVB revenue ambitions\",\n  \"main_topics\": [\"NIM sustainability\", \"SVB revenue ambitions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second question on SVB. In addition to the acquired cost base, you flagged the incremental investment spend and plans to build the business outside the UK, so could you talk about associated revenue ambitions and what timeframe you expect to see any notable uplift there? How big a shift in that $80 to $90 million PBT reference could we see of SVB inside HSBC with that incremental investment?\",\n  \"answer_quote\": \"So on NIM, I guess the UK ring-fenced bank did quite a lot of the heavy lifting this quarter, allowing for one basis point of sequential NIM growth. As we look ahead, perhaps that tailwind fades, at least in quantum. So is that going to make it a tricky thing from here to deliver NIM sustainability, or is the drop in HBAP and the headwind from deposit mix in particular, likely to fade in your view to allow for some stable NIM backdrop?\",\n  \"reason\": \"The response directly addresses both the NIM sustainability and SVB revenue ambitions, providing a complete answer with high evidence level, including numeric evidence and forward guidance.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss NIM sustainability and SVB revenue ambitions within HSBC\",\n  \"main_topics\": [\"Net Interest Margin (NIM)\", \"SVB (Silicon Valley Bank) revenue ambitions\", \"Investment in US capabilities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second question on SVB. In addition to the acquired cost base, you flagged the incremental investment spend and plans to build the business outside the UK, so could you talk about associated revenue ambitions and what timeframe you expect to see any notable uplift there? How big a shift in that $80 to $90 million PBT reference could we see of SVB inside HSBC with that incremental investment?\",\n  \"answer_quote\": \"We recruited over 40 people in the US, to build out our SVB capability in the US. We did not bring a book with them - purchase a book - so they will be in build-out mode, so there will be a payback period on that investment. We think that it is a relatively short payback period based on the quality of people we've hired. We're looking at other geographies around the world. We think it's a sensible and modest investment to do that organically, and we're pretty confident on the payback will be relatively short. We'll provide more details once we complete our buildout. Hopefully by the half-year, we'll be able to give you more information. So there will be a profit drag to a degree, probably in the first year or 18 months, but then I think it will be back into proper territory, even on those organic buildout strategies, but we'll give more of an update at the half-year. I think strategically, it's absolutely the right thing to do for the medium term. This is a sector of the economy that is critical for all geographies and has huge growth potential on revenue.\"\n  \"reason\": \"The answer directly addresses the NIM sustainability and SVB revenue ambitions, providing a high level of evidence with specific figures and a clear forward guidance on the expected outcomes.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 3 (char 1946)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss NIM sustainability and SVB revenue ambitions\",\n  \"main_topics\": [\"NIM sustainability\", \"SVB revenue ambitions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second question on SVB. In addition to the acquired cost base, you flagged the incremental investment spend and plans to build the business outside the UK, so could you talk about associated revenue ambitions and what timeframe you expect to see any notable uplift there? How big a shift in that $80 to $90 million PBT reference could we see of SVB inside HSBC with that incremental investment?\",\n  \"answer_quote\": \"So indeed, you did call out the possibility of headwinds in the UK. Obviously, there may be still one or two rate hikes for which we will be passing most of that to customers through pass-through rates. And we do see continued headwinds in Hong Kong, with around 1% per month migration into term deposits, with the mix now at 25% term deposits across both our entities in Hong Kong. This being said, we also have tailwinds. The first one is we still have a strong momentum from Q1, which we are carrying over. The second tailwind is HIBOR normalisation. Just for reference, in Hong Kong, HIBOR and Exchange Fund Bills in Q1 were 65 and 35 basis points lower on average than where they were in Q4, and that was a major headwind for us in Q1. We are seeing now - over the last few weeks, we have been seeing normalisation in those rates. If we continue to see normalisation - and just for a reminder, we are about 200 basis points off the equivalent rate in dollars - if we continue to see normalisation, this will provide us material tailwinds in the Hong Kong base. And the other tailwind is our resilient deposit and loan base. We continue having stable deposits and loans despite some of the competitive pressures, and we continue to aim for mid-single-digit growth in both in the medium term, which should give us some supportive tailwinds. So just to reinforce what we said as the full-year results in February, we noted the consensus that was in existence in February, and we said we were not uncomfortable with where consensus was. We still have that view. The only adjustment you need to make to NII is for the IFRS 17 adjustment. Everything else remains, as we said in February, that the guidance that existed at that point in time, we were not uncomfortable with it. The same is true today. Just adjust for IFRS 17, which is around about a $2 billion adjustment from IFRS 4 to IFRS 17. That's the only change that needs to be made based on what we've given you as an update today. And then on SVB, we recruited over 40 people in the US, to build out our SVB capability in the US. We did not bring a book with them - purchase a book - so they will be in build-out mode, so there will be a payback period on that investment. We think that it is a relatively short payback period based on the quality of people we've hired. We're looking at other geographies around the world. We think it's a sensible and modest investment to do that organically, and we're pretty confident on the payback will be relatively short. We'll provide more details once we complete our buildout. Hopefully by the half-year, we'll be able to give you more information. So there will be a profit drag to a degree, probably in the first year or 18 months, but then I think it will be back into proper territory, even on those organic buildout strategies, but we'll give more of an update at the half-year. I think strategically, it's absolutely the right thing to do for the medium term. This is a sector of the economy that is critical for all geographies and has huge growth potential on revenue.\" \n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss NIM sustainability and SVB revenue ambitions\",\n  \"main_topics\": [\"NIM sustainability\", \"SVB revenue ambitions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second question on SVB. In addition to the acquired cost base, you flagged the incremental investment spend and plans to build the business outside the UK, so could you talk about associated revenue ambitions and what timeframe you expect to see any notable uplift there? How big a shift in that $80 to $90 million PBT reference could we see of SVB inside HSBC with that incremental investment?\",\n  \"answer_quote\": \"So on NIM, I guess the UK ring-fenced bank did quite a lot of the heavy lifting this quarter, allowing for one basis point of sequential NIM growth. As we look ahead, perhaps that tailwind fades, at least in quantum. So is that going to make it a tricky thing from here to deliver NIM sustainability, or is the drop in HBAP and the headwind from deposit mix in particular, likely to fade in your view to allow for some stable NIM backdrop?\",\n  \"reason\": \"The response directly addresses both the NIM sustainability and SVB revenue ambitions, providing a complete answer with high evidence level, including numeric evidence and forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1307,
+      "batch_seconds": 40.12383423900019
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1362,
+      "batch_seconds": 98.33181210699877
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1352,
+      "batch_seconds": 94.00161404900064
+    }
+  ],
+  "exchange_id": "f2c2f493cdb9-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7270dc1336fc797ed08bd887796fe15eaea3d52895909484443d86342f0af28b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

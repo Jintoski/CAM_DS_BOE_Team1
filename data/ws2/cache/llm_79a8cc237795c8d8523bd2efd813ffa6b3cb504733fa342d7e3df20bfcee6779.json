@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Comparing sensitivity of Private Bank to corporate bank\",\n  \"main_topics\": [\"Bank Sensitivity\", \"Private Bank\", \"Corporate Bank\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"And is the Private Bank a bit more sensitive than the corporate stuff?\",\n  \"answer_quote\": \"I would say it is similar. Pass-throughs there have been pretty high.\",\n  \"reason\": \"The answer partially addresses the question by comparing sensitivity but does not provide specific evidence or figures, and the stance is hedged.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 419,
+      "batch_seconds": 6.752684400999897
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "79a8cc237795c8d8523bd2efd813ffa6b3cb504733fa342d7e3df20bfcee6779",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Comparing sensitivity of Private Bank to corporate bank",
+    "main_topics": [
+      "Bank Sensitivity",
+      "Private Bank",
+      "Corporate Bank"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "And is the Private Bank a bit more sensitive than the corporate stuff?",
+    "answer_quote": "I would say it is similar. Pass-throughs there have been pretty high.",
+    "reason": "The answer partially addresses the question by comparing sensitivity but does not provide specific evidence or figures, and the stance is hedged."
+  },
+  "whitespace_adjusted_quotes": []
+}

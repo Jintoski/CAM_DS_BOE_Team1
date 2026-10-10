@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing growth targets and operating assumptions\",\n  \"main_topics\": [\"guidance\", \"growth targets\", \"operating assumptions\", \"interest-rate curve\", \"deposits\", \"banking NII\", \"transaction banking\", \"wealth management\", \"loan growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How does the management currently assess the operating assumptions that support these growth targets? Are you still full of confidence in the current environment?\",\n  \"answer_quote\": \"We have not changed our guidance based upon the current environment. Our guidance is not based upon a single driver for growth. In terms of banking NII - giving guidance just for this year - based upon the trajectory, we look at it as a low single digit, 1%, sort of growth level. Our transaction banking business stays pretty strong in terms of both volumes and market environment, but still that's at the lower end of the revenue growth, so mid-to-low single digits - that's the trajectory we've seen and we are looking at. Wealth is a very important driver, and we are confident in terms of the growth of wealth and what we've seen so far. However, it is on a small base, so it is not the only or the biggest contributor to the overall picture. This year we have not included any revenue growth from loans and advances because the market environment was still settling after some of the issues we have seen in the last two years, whether it's tariffs or Hong Kong commercial real estate early repayments, but our growth overall relies on some loan growth going into 2027, and there's nothing that's happened in the last few days that makes us think otherwise.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing operating assumptions for growth targets\",\n  \"main_topics\": [\"guidance\", \"growth targets\", \"operating assumptions\", \"interest-rate curve\", \"deposits\", \"banking NII\", \"transaction banking\", \"wealth management\", \"loan growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How does the management currently assess the operating assumptions that support these growth targets? Are you still full of confidence in the current environment?\",\n  \"answer_quote\": \"We have not changed our guidance based upon the current environment. Our guidance is not based upon a single driver for growth. This year we have not included any revenue growth from loans and advances because the market environment was still settling after some of the issues we have seen in the last two years, whether it's tariffs or Hong Kong commercial real estate early repayments, but our growth overall relies on some loan growth going into 2027, and there's nothing that's happened in the last few days that makes us think otherwise.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on the current environment and the factors influencing growth targets, with high evidence level due to the inclusion of specific figures and forward guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing growth targets and operating assumptions in light of current economic pressures\",\n  \"main_topics\": [\"Banking NII growth\", \"Wealth Management growth\", \"Interest-rate curve impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How does the management currently assess the operating assumptions that support these growth targets? Are you still full of confidence in the current environment?\",\n  \"answer_quote\": \"We have not changed our guidance based upon the current environment. Our guidance is not based upon a single driver for growth.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific growth rates, and aligns with the narrative of assessing operating assumptions and confidence in the current environment.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing growth targets and operating assumptions\",\n  \"main_topics\": [\"guidance\", \"growth targets\", \"operating assumptions\", \"interest-rate curve\", \"deposits\", \"banking NII\", \"transaction banking\", \"wealth management\", \"loan growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How does the management currently assess the operating assumptions that support these growth targets? Are you still full of confidence in the current environment?\",\n  \"answer_quote\": \"We have not changed our guidance based upon the current environment. Our guidance is not based upon a single driver for growth. In terms of banking NII - giving guidance just for this year - based upon the trajectory, we look at it as a low single digit, 1%, sort of growth level. Our transaction banking business stays pretty strong in terms of both volumes and market environment, but still that's at the lower end of the revenue growth, so mid-to-low single digits - that's the trajectory we've seen and we are looking at. Wealth is a very important driver, and we are confident in terms of the growth of wealth and what we've seen so far. However, it is on a small base, so it is not the only or the biggest contributor to the overall picture. This year we have not included any revenue growth from loans and advances because the market environment was still settling after some of the issues we have seen in the last two years, whether it's tariffs or Hong Kong commercial real estate early repayments, but our growth overall relies on some loan growth going into 2027, and there's nothing that's happened in the last few days that makes us think otherwise.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 794,
+      "batch_seconds": 20.713170187000287
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 848,
+      "batch_seconds": 21.946229556999242
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 842,
+      "batch_seconds": 21.521728711000833
+    }
+  ],
+  "exchange_id": "4c46c28cb2e2-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "abd61b8b6e17d9a4cd641b28577c9e78b0d3d880c6286831231dfdd43bc7cfbb",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

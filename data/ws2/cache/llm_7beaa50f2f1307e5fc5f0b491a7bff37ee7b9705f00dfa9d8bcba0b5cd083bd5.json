@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Estimate cost reduction and revenue increase from Tesco investment\",\n  \"main_topics\": [\"Tesco cost reduction\", \"Tesco revenue increase\", \"Banking investment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"A couple of questions on Tesco please. So first, on the net reduction in cost to expect from the £360 million annualised once the investment phase is done.\",\n  \"answer_quote\": \"I'm not going to give you a specific number in absolute terms, but I just urge you to think about really what we would expect from an unsecured portfolio generally.\",\n  \"reason\": \"The answer provides a general expectation of cost reduction but does not give a specific number, and discusses revenue increase but does not quantify it.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 886,
+      "batch_seconds": 26.647234068000216
+    }
+  ],
+  "exchange_id": "ce1602510e69-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7beaa50f2f1307e5fc5f0b491a7bff37ee7b9705f00dfa9d8bcba0b5cd083bd5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Estimate cost reduction and revenue increase from Tesco investment",
+    "main_topics": [
+      "Tesco cost reduction",
+      "Tesco revenue increase",
+      "Banking investment"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "A couple of questions on Tesco please. So first, on the net reduction in cost to expect from the £360 million annualised once the investment phase is done.",
+    "answer_quote": "I'm not going to give you a specific number in absolute terms, but I just urge you to think about really what we would expect from an unsecured portfolio generally.",
+    "reason": "The answer provides a general expectation of cost reduction but does not give a specific number, and discusses revenue increase but does not quantify it."
+  },
+  "whitespace_adjusted_quotes": []
+}

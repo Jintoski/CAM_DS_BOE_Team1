@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Clarification on bank's hedge strategy, TNAV growth, and LTIP targets\",\n \"main_topics\": [\"Bank's hedge strategy\", \"TNAV growth\", \"LTIP targets\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"On the hedge, I think you probably put on about 1/4 of this hedge now since medium-term rates moved above 3%, yet the yield on it is still only 1.8%. And it sort of implies that the rest of the hedge, the slightly older hedges are earning closer to 1%. So I'm just trying to square that with a 1.5% maturity yield guidance that you've given in the next few years. Is that just a prudent number you've thrown out there and actually the maturity yield on the hedges over the next few years is closer to 1% rather than 1.5%? Or is there actually a fairly decent tailwind expected into 2027 and '28 as well?\",\n \"answer_quote\": \"So we do expect the average maturing yield to be 1.5%. We do expect GBP 170 billion to roll '24 to '26, inclusive. We haven't talked about the tailwinds, for '27 and '28. We talked about the tailwind for '26 which we said, given the assumption that we gave you or the indicative number rather that we gave you of 3.5% swap rate, that would add GBP 2 billion or around GBP 2 billion of income by 2026 relative to '23. And you can see the progress that we've made in the quarter. So for 2024 alone, when we were at the year-end, we locked in GBP 3.8 billion. Now we've locked in GBP 4 billion. And that compares to a total gross hedge income of GBP 3.6 billion last year. So there is a very powerful tailwind that comes from this hedge.\",\n \"reason\": \"The answer directly addresses the hedge strategy, TNAV growth, and LTIP targets, providing specific numbers and forward guidance, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1384,
+      "batch_seconds": 44.762130507000165
+    }
+  ],
+  "exchange_id": "b70241a32d2d-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "439f4a57bb5923f3af3a58a56f72f5fa804eff2436f602b2e290f74de6cdd289",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on bank's hedge strategy, TNAV growth, and LTIP targets",
+    "main_topics": [
+      "Bank's hedge strategy",
+      "TNAV growth",
+      "LTIP targets"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On the hedge, I think you probably put on about 1/4 of this hedge now since medium-term rates moved above 3%, yet the yield on it is still only 1.8%. And it sort of implies that the rest of the hedge, the slightly older hedges are earning closer to 1%. So I'm just trying to square that with a 1.5% maturity yield guidance that you've given in the next few years. Is that just a prudent number you've thrown out there and actually the maturity yield on the hedges over the next few years is closer to 1% rather than 1.5%? Or is there actually a fairly decent tailwind expected into 2027 and '28 as well?",
+    "answer_quote": "So we do expect the average maturing yield to be 1.5%. We do expect GBP 170 billion to roll '24 to '26, inclusive. We haven't talked about the tailwinds, for '27 and '28. We talked about the tailwind for '26 which we said, given the assumption that we gave you or the indicative number rather that we gave you of 3.5% swap rate, that would add GBP 2 billion or around GBP 2 billion of income by 2026 relative to '23. And you can see the progress that we've made in the quarter. So for 2024 alone, when we were at the year-end, we locked in GBP 3.8 billion. Now we've locked in GBP 4 billion. And that compares to a total gross hedge income of GBP 3.6 billion last year. So there is a very powerful tailwind that comes from this hedge.",
+    "reason": "The answer directly addresses the hedge strategy, TNAV growth, and LTIP targets, providing specific numbers and forward guidance, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

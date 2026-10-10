@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing the materiality of capital diversification effect of US cards business on CCAR and its impact on the bank's view of the business.\",\n  \"main_topics\": [\"US cards business\", \"capital diversification\", \"CCAR\", \"business diversification\", \"market share\", \"US stress testing\", \"business resilience\", \"COVID impact\", \"strategic capital diversification\", \"US market stress\", \"US stress testing transparency\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My question is around the US cards business and you've discussed in the past the diversification effect of the US cards business, on the CCAR process and capital requirement in the US.\",\n  \"answer_quote\": \"The fundamental value of this business is we believe that it delivers business diversification, I will come to capital diversification in a minute. But it delivers us the opportunity to participate in one of the largest consumer markets in the world, where we have, we believe, sufficient scale. But we still have room to grow in terms of market share, and the opportunities that we have around us.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the materiality of the US cards business's capital diversification effect on the CCAR process and capital requirement.\",\n  \"main_topics\": [\"US cards business\", \"capital diversification\", \"CCAR process\", \"capital requirement\", \"business diversification\", \"market share\", \"US stress testing\", \"transparency\", \"strategic value\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Kian Abouhossein from JP Morgan. My question is around the US cards business and you've discussed in the past the diversification effect of the US cards business, on the CCAR process and capital requirement in the US. We will get transparency most likely in the summer around CCAR, and you will see at least, maybe we will see as well, what capital diversification effect you will get. I don't know how much detail you get today, but is there any thinking around, if the effect is actually not that material, [how] that changes your mind around the US card business? How do you think about this optimisation element, considering we will get that detail, and hopefully on the on the public side, we'll get it as well?\",\n  \"answer_quote\": \"The fundamental value of this business is we believe that it delivers business diversification, I will come to capital diversification in a minute. But it delivers us the opportunity to participate in one of the largest consumer markets in the world, where we have, we believe, sufficient scale. But we still have room to grow in terms of market share, and the opportunities that we have around us. So I've talked to Perlie before about the balance between, the non-retail and the retail parts of the book. Retail is a much bigger partner market in the US, that gives us real room to grow. But a key part of that is getting this business back to a position where it delivers, first, in line with the Group and second, to a point where we believe it can deliver a mid-teens result as it has done in the past, even after IRB. That is our objective. We're confident we can get it to that place, and on that basis it provides a business diversification to the Group. Beyond that, it also provides a degree of capital diversification. You're right, if there's a change in US stress testing, of course we need to refresh our understanding of that. But it seems unlikely that the stress test will change significantly in nature, as in the diversification benefits that we get are the same as those as we enjoy in the UK, which is first, you tend to get a market stress, then you get an unsecured stress and then you get secured stress. And to the extent that you have a diversified business, you have your businesses being stressed and then recovering at different rates, and that provides you with a more robust revenue position all the way through any stress environment. Barclays was the only UK bank that did not make a loss in COVID. So we believe that diversification works. The current discussion around US stress testing is more about transparency than changing the nature of it, and the transparency of the process. So we need to wait and see, but I would really distinguish those two things strongly. Business diversification, reaching mid-teens, of course, if we're unable to do that, then we should look at it very, very critically. But if we can, then we think there's value to the group. And then beyond that, just being clear about the additional strategic capital diversification this gives us within the US.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the materiality of capital diversification effect of US cards business on CCAR and its impact on the bank's view of the business.\",\n  \"main_topics\": [\"US cards business\", \"capital diversification\", \"CCAR\", \"business diversification\", \"market share\", \"US stress testing\", \"business resilience\", \"COVID impact\", \"strategic capital diversification\", \"US market stress\", \"US stress testing transparency\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My question is around the US cards business and you've discussed in the past the diversification effect of the US cards business, on the CCAR process and capital requirement in the US.\",\n  \"answer_quote\": \"The fundamental value of this business is we believe that it delivers business diversification, I will come to capital diversification in a minute. But it delivers us the opportunity to participate in one of the largest consumer markets in the world, where we have, we believe, sufficient scale. But we still have room to grow in terms of market share, and the opportunities that we have around us.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the materiality of capital diversification effect of US cards business on CCAR and its impact on the bank's view of the business.\",\n  \"main_topics\": [\"US cards business\", \"capital diversification\", \"CCAR\", \"business diversification\", \"market share\", \"US stress testing\", \"business resilience\", \"COVID impact\", \"strategic capital diversification\", \"US market stress\", \"US stress testing transparency\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My question is around the US cards business and you've discussed in the past the diversification effect of the US cards business, on the CCAR process and capital requirement in the US.\",\n  \"answer_quote\": \"The fundamental value of this business is we believe that it delivers business diversification, I will come to capital diversification in a minute. But it delivers us the opportunity to participate in one of the largest consumer markets in the world, where we have, we believe, sufficient scale. But we still have room to grow in terms of market share, and the opportunities that we have around us.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1006,
+      "batch_seconds": 49.80370327699984
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1051,
+      "batch_seconds": 93.33904600099959
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1051,
+      "batch_seconds": 36.98953617400002
+    }
+  ],
+  "exchange_id": "61b944164df6-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "82f74d6ea1642616b37712e03e92e888a53d7161391b40858ec3232632326b3e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

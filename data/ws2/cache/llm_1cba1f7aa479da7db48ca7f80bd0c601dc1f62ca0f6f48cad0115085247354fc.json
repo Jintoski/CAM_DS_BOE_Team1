@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on Markets, Equities, and Barclays UK NIM/structural hedge\",\n  \"main_topics\": [\"Markets\", \"Equities\", \"Barclays UK NIM\", \"structural hedge\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I am trying to understand the likelihood of those businesses performing together, as they did in the first quarter.\",\n  \"answer_quote\": \"On the Markets side, you have asked about both FICC and Equities. Let me say two things. First, on FICC, there is higher volatility on the trading side. On the Equities side, as well, I think there has been a period since last year, it has been slightly different things, but it has been increased volatility in the equity market since last year.\",\n  \"reason\": \"The response directly addresses the question about the likelihood of Markets and Equities businesses performing together, providing a clear and direct answer with high evidence level, including specific figures and forward guidance.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Understanding the performance of Barclays Equities and UK NIM/structural hedge\",\n \"main_topics\": [\"Barclays Equities performance\", \"UK NIM guidance\", \"structural hedge management\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I am just trying to understand the likelihood of those businesses performing together, as they did in the first quarter.\",\n \"answer_quote\": \"I think that combination of financing revenue across Equities and Fixed Income, is something we have been strong in and we continue to invest in.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on Markets, Equities, and Barclays UK NIM/structural hedge\",\n  \"main_topics\": [\"Markets\", \"Equities\", \"Barclays UK NIM\", \"structural hedge\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I am trying to understand the likelihood of those businesses performing together, as they did in the first quarter.\",\n  \"answer_quote\": \"On the Markets side, you have asked about both FICC and Equities. Let me say two things. First, on FICC, there is higher volatility on the trading side. On the Equities side, as well, I think there has been a period since last year, it has been slightly different things, but it has been increased volatility in the equity market since last year.\",\n  \"reason\": \"The response directly addresses the question about the performance of Markets and Equities, provides a high level of evidence with specific figures, and includes forward guidance on Barclays UK NIM and structural hedge strategy.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on Markets, Equities, and Barclays UK NIM/structural hedge\",\n  \"main_topics\": [\"Markets\", \"Equities\", \"Barclays UK NIM\", \"structural hedge\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I am trying to understand the likelihood of those businesses performing together, as they did in the first quarter.\",\n  \"answer_quote\": \"On the Markets side, you have asked about both FICC and Equities. Let me say two things. First, on FICC, there is higher volatility on the trading side. On the Equities side, as well, I think there has been a period since last year, it has been slightly different things, but it has been increased volatility in the equity market since last year.\",\n  \"reason\": \"The response directly addresses the question about the likelihood of Markets and Equities businesses performing together, providing a clear and direct answer with high evidence level, including specific figures and forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1683,
+      "batch_seconds": 106.53887218299997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1728,
+      "batch_seconds": 107.16828208400057
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1731,
+      "batch_seconds": 106.59646868799973
+    }
+  ],
+  "exchange_id": "224db408a071-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1cba1f7aa479da7db48ca7f80bd0c601dc1f62ca0f6f48cad0115085247354fc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

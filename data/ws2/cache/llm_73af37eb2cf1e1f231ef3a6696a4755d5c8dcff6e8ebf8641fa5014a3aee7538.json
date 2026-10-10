@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer for BoE research\",\n  \"main_topics\": [\"RoTE\", \"USCB business\", \"NIM\", \"volume\", \"capital efficiency\", \"costs\", \"digital transformation\", \"BBK fees\", \"securitisation\", \"risk transfer\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, just curious how you're seeing that step up.\",\n  \"answer_quote\": \"So, if I look at the digital interactions in that business, they're at 93%. Now that's improved, we expect that to improve by a further 10% this year.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Assess bank earnings-call Q&A on RoTE targets, RWA impact, and BUK fee projections\",\n \"main_topics\": [\"RoTE targets\", \"RWA regulatory impact\", \"BUK fee projections\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"So, just curious how you're seeing that step up.\",\n \"answer_quote\": \"So the best estimate I can give you is greater than 250, which is what we said in in the past.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer\",\n  \"main_topics\": [\"RoTE\", \"USCB business\", \"NIM\", \"volume\", \"capital efficiency\", \"costs\", \"digital interactions\", \"BAA\", \"securitisation\", \"BUK fees\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, just curious how you're seeing that step up.\",\n  \"answer_quote\": \"So, if I look at the digital interactions in that business, they're at 93%. Now that's improved, we expect that to improve by a further 10% this year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer for BoE research\",\n  \"main_topics\": [\"RoTE\", \"USCB business\", \"NIM\", \"volume\", \"capital efficiency\", \"costs\", \"digital transformation\", \"BBK fees\", \"securitisation\", \"risk transfer\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, just curious how you're seeing that step up.\",\n  \"answer_quote\": \"So, if I look at the digital interactions in that business, they're at 93%. Now that's improved, we expect that to improve by a further 10% this year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1554,
+      "batch_seconds": 54.74402957300026
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1599,
+      "batch_seconds": 103.5719654279992
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1599,
+      "batch_seconds": 104.51589792399864
+    }
+  ],
+  "exchange_id": "ce1602510e69-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "73af37eb2cf1e1f231ef3a6696a4755d5c8dcff6e8ebf8641fa5014a3aee7538",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

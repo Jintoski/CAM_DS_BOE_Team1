@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call question about SCAs and deposit mix\",\n  \"main_topics\": [\"SCAs\", \"Deposit Mix\", \"Bank Earnings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So it sounds like you want a balance between distribution, growth, various different things. Well, I think at this point, it looks like in the guidance, income is now £500 million higher and incremental cost is £450 million higher. So if there is another quarter of very strong IB income, et cetera, would a lot of this incremental income be spent on SCAs?\",\n  \"answer_quote\": \"Okay, thank you, let me take those. So what we're saying on SCAs is that we normally do £300 million. We've actually undertaken about £100 million in the first half. That means that in an ordinary course of business, we'd be telling you we expect to spend about £200 million in the second half. Actually, we've added up to £300 million to that. So we're talking about undertaking around £0.5 billion worth of structural cost actions in the second half.\",\n  \"reason\": \"The answer directly addresses the question about SCAs and deposit mix, providing specific figures and future expectations, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Bank's future investment plans and deposit mix strategy\",\n  \"main_topics\": [\"Structural Cost Actions (SCAs)\", \"Deposit Mix\", \"Interest Rate Sensitivity\", \"Long-Term Expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that the right way to think about it? Obviously, distributions is probably not in a bad place, and you are already on track to meet all of that. And then the other question is just quickly on deposit mix in the UK. It does look like there's a bit more of a shift towards time deposit. Is it just a function of the ISA seasonality or is the fact that the market is a bit more competitive and therefore rates a bit higher? And I suppose if you look at the swap rates, looks to be probably staying higher for a period of time. Should we expect a little bit more of a mix shift towards time deposits from here?\",\n  \"answer_quote\": \"Okay, thank you, let me take those. So what we're saying on SCAs is that we normally do £300 million. We've actually undertaken about £100 million in the first half. That means that in an ordinary course of business, we'd be telling you we expect to spend about £200 million in the second half. Actually, we've added up to £300 million to that. So we're talking about undertaking around £0.5 billion worth of structural cost actions in the second half. In terms of an operational list and the level of investments that we can deploy wisely on behalf of the shareholder, we think that's the right sort of level. So clearly, as we look forward from here, Venkat and I have at least as much confidence in the RoTE of the firm as when we started the year for 2026. And you can see that in the fact that we have upgraded our income twice, first to £31 billion and then to circa £31.5 billion. So we think there is momentum in the business, but this will be a big operational lift for us in the second half. And we are very focused on ensuring that we deploy that absolutely wisely. So yeah, that's our primary objective here. And then in terms of your second question, well, our current accounts are broadly stable. We are, if anything, slightly better than the market. What we're really looking at here is some churn within the time deposit market and customers seeking yield. We say we feel like we've progressed through the ISA market well. I think what's really important, because we've had some comments this morning about the structural hedge in relation to this. So what's really important to the structural hedge is to realise, number one, the structural hedge in no way relates to time deposits. They are, by definition, interest rate sensitive and are excluded from the hedge. So all of this churn has no impact on that for us or, indeed, for others. It's really the stability of the relationships overall and the current accounts. So, everything that we see in the deposit market is very rational from customers and doesn't undermine our long-term expectations in terms of NII. Okay, thanks Perlie. Perhaps we could take the next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1100,
+      "batch_seconds": 33.84535162700013
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1145,
+      "batch_seconds": 34.52651048000007
+    }
+  ],
+  "exchange_id": "59043c81adbf-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0d5dac1c59ed0ea2b37f7f9faa00f7f79b8551372d8447524cbe49eab181a398",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call question about SCAs and deposit mix",
+    "main_topics": [
+      "SCAs",
+      "Deposit Mix",
+      "Bank Earnings"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So it sounds like you want a balance between distribution, growth, various different things. Well, I think at this point, it looks like in the guidance, income is now £500 million higher and incremental cost is £450 million higher. So if there is another quarter of very strong IB income, et cetera, would a lot of this incremental income be spent on SCAs?",
+    "answer_quote": "Okay, thank you, let me take those. So what we're saying on SCAs is that we normally do £300 million. We've actually undertaken about £100 million in the first half. That means that in an ordinary course of business, we'd be telling you we expect to spend about £200 million in the second half. Actually, we've added up to £300 million to that. So we're talking about undertaking around £0.5 billion worth of structural cost actions in the second half.",
+    "reason": "The answer directly addresses the question about SCAs and deposit mix, providing specific figures and future expectations, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

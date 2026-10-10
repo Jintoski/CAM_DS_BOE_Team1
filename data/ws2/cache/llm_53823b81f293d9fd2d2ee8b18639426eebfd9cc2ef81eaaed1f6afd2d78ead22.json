@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's decision-making process regarding capital return and buybacks in Q4.\",\n  \"main_topics\": [\"Capital Return\", \"Buybacks\", \"Capital Buffer\", \"Regulatory Considerations\", \"Management Prudence\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I guess, what held you back at Q3, given you've got clearly a reasonable capital buffer?\",\n  \"answer_quote\": \"It's a decision which we will take in Q4. Basically, that's it. We did it at the year-end and the half-year this year, and so we will talk about that in our annual earnings.\",\n  \"reason\": \"The answer deflects the question about Q3 by stating the decision will be made in Q4, without addressing the reasons behind the timing or the balance between prudence and regulatory considerations.\"\n}",
+  "data": {
+    "question_intent": "Inquire about the bank's decision-making process regarding capital return and buybacks in Q4.",
+    "main_topics": [
+      "Capital Return",
+      "Buybacks",
+      "Capital Buffer",
+      "Regulatory Considerations",
+      "Management Prudence"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Divergent",
+    "question_quote": "I guess, what held you back at Q3, given you've got clearly a reasonable capital buffer?",
+    "answer_quote": "It's a decision which we will take in Q4. Basically, that's it. We did it at the year-end and the half-year this year, and so we will talk about that in our annual earnings.",
+    "reason": "The answer deflects the question about Q3 by stating the decision will be made in Q4, without addressing the reasons behind the timing or the balance between prudence and regulatory considerations."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "6d4760f97290-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "53823b81f293d9fd2d2ee8b18639426eebfd9cc2ef81eaaed1f6afd2d78ead22"
+}

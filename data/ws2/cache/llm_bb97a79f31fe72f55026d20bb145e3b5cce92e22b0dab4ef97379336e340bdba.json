@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Estimate 2019 Payments figure\",\n  \"main_topics\": [\"Payments\", \"2019\", \"Revenue growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The 2019 number on Payments, which you haven't given, can you give us an idea of how much it was? I presume it was down, but correct me if I'm wrong?\",\n  \"answer_quote\": \"Yes, it's down. I would think that the [majority of the] £900m growth is new sources of revenue, not just a snap back on the basis of reverting back to 2019 levels. Think of the £900m as mainly additive revenues, not just a snap back. There is a component that is definitely recovery, but the majority is non-recovery, it's new stuff.\",\n  \"reason\": \"The answer partially addresses the question by confirming a decrease and discussing revenue growth, but does not provide the specific 2019 figure requested.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 508,
+      "batch_seconds": 10.323243250000814
+    }
+  ],
+  "exchange_id": "d46e8685e978-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bb97a79f31fe72f55026d20bb145e3b5cce92e22b0dab4ef97379336e340bdba",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Estimate 2019 Payments figure",
+    "main_topics": [
+      "Payments",
+      "2019",
+      "Revenue growth"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The 2019 number on Payments, which you haven't given, can you give us an idea of how much it was? I presume it was down, but correct me if I'm wrong?",
+    "answer_quote": "Yes, it's down. I would think that the [majority of the] £900m growth is new sources of revenue, not just a snap back on the basis of reverting back to 2019 levels. Think of the £900m as mainly additive revenues, not just a snap back. There is a component that is definitely recovery, but the majority is non-recovery, it's new stuff.",
+    "reason": "The answer partially addresses the question by confirming a decrease and discussing revenue growth, but does not provide the specific 2019 figure requested."
+  },
+  "whitespace_adjusted_quotes": []
+}

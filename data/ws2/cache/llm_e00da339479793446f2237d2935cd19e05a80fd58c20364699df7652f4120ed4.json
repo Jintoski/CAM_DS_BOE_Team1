@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for additional information on UK corporate book coverage\",\n  \"main_topics\": [\"UK corporate book\", \"Hedge coverage\", \"SRT transactions\", \"Risk pressure\", \"Corporate lending line\", \"Syndicate hedging cost\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I thought the hedge, when we sat here in the past with Tushar, covered quite a broad range of your UK corporate book. So any kind of additional colour?\",\n  \"answer_quote\": \"So there's two different things going on here. There's the SRT transactions that I talked about before, where we are trying to cover areas where we expect there to be more risk pressure for specific areas of the book that we've been concerned about. We've called them out in the past. I wouldn't say that we are massively increasing that coverage, not significantly versus where we've been in the past. It's broadly spread, but then there are areas of concentration against specific sectors that you might expect. And we've morphed those sectors over time as the specific concerns around the macro economy have changed. So I wouldn't expect a massive change in the carry of that. What you are seeing is specifically in corporate and the corporate lending line, and that is where the cost of the syndicate hedging is, I would say that is elevated. And that's elevated for two reasons. The first is around the fact that the pipeline is bigger. So for all of the reasons that we talked about before, we're running a long pipeline. You would expect us, particularly in the current environment, to take appropriate hedging action around that pipeline, which we did. And in the current environment, the cost of putting those hedges down is higher than it previously has been. So I think that's probably more of the impact that you're seeing on that corporate lending line and why you've seen it step back.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for additional information on hedging strategies\",\n  \"main_topics\": [\"Hedge strategies\", \"Risk pressure\", \"Corporate lending line\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I thought the hedge, when we sat here in the past with Tushar, covered quite a broad range of your UK corporate book. So any kind of additional colour?\",\n  \"answer_quote\": \"So there's two different things going on here. There's the SRT transactions that I talked about before, where we are trying to cover areas where we expect there to be more risk pressure for specific areas of the book that we've been concerned about. We've called them out in the past. I wouldn't say that we are massively increasing that coverage, not significantly versus where we've been in the past. It's broadly spread, but then there are areas of concentration against specific sectors that you might expect. And we've morphed those sectors over time as the specific concerns around the macro economy have changed. So I wouldn't expect a massive change in the carry of that. What you are seeing is specifically in corporate and the corporate lending line, and that is where the cost of the syndicate hedging is, I would say that is elevated. And that's elevated for two reasons. The first is around the fact that the pipeline is bigger. So for all of the reasons that we talked about before, we're running a long pipeline. You would expect us, particularly in the current environment, to take appropriate hedging action around that pipeline, which we did. And in the current environment, the cost of putting those hedges down is higher than it previously has been. So I think that's probably more of the impact that you're seeing on that corporate lending line and why you've seen it step back.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for additional information on the range of UK corporate book coverage\",\n  \"main_topics\": [\"UK corporate book coverage\", \"SRT transactions\", \"risk pressure\", \"corporate lending line\", \"syndicate hedging cost\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I thought the hedge, when we sat here in the past with Tushar, covered quite a broad range of your UK corporate book. So any kind of additional colour?\",\n  \"answer_quote\": \"So there's two different things going on here. There's the SRT transactions that I talked about before, where we are trying to cover areas where we expect there to be more risk pressure for specific areas of the book that we've been concerned about. We've called them out in the past. I wouldn't say that we are massively increasing that coverage, not significantly versus where we've been in the past. It's broadly spread, but then there are areas of concentration against specific sectors that you might expect. And we've morphed those sectors over time as the specific concerns around the macro economy have changed. So I wouldn't expect a massive change in the carry of that. What you are seeing is specifically in corporate and the corporate lending line, and that is where the cost of the syndicate hedging is, I would say that is elevated. And that's elevated for two reasons. The first is around the fact that the pipeline is bigger. So for all of the reasons that we talked about before, we're running a long pipeline. You would expect us, particularly in the current environment, to take appropriate hedging action around that pipeline, which we did. And in the current environment, the cost of putting those hedges down is higher than it previously has been. So I think that's probably more of the impact that you're seeing on that corporate lending line and why you've seen it step back.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for additional information on UK corporate book coverage\",\n  \"main_topics\": [\"UK corporate book\", \"Hedge coverage\", \"SRT transactions\", \"Risk pressure\", \"Corporate lending line\", \"Syndicate hedging cost\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I thought the hedge, when we sat here in the past with Tushar, covered quite a broad range of your UK corporate book. So any kind of additional colour?\",\n  \"answer_quote\": \"So there's two different things going on here. There's the SRT transactions that I talked about before, where we are trying to cover areas where we expect there to be more risk pressure for specific areas of the book that we've been concerned about. We've called them out in the past. I wouldn't say that we are massively increasing that coverage, not significantly versus where we've been in the past. It's broadly spread, but then there are areas of concentration against specific sectors that you might expect. And we've morphed those sectors over time as the specific concerns around the macro economy have changed. So I wouldn't expect a massive change in the carry of that. What you are seeing is specifically in corporate and the corporate lending line, and that is where the cost of the syndicate hedging is, I would say that is elevated. And that's elevated for two reasons. The first is around the fact that the pipeline is bigger. So for all of the reasons that we talked about before, we're running a long pipeline. You would expect us, particularly in the current environment, to take appropriate hedging action around that pipeline, which we did. And in the current environment, the cost of putting those hedges down is higher than it previously has been. So I think that's probably more of the impact that you're seeing on that corporate lending line and why you've seen it step back.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 697,
+      "batch_seconds": 16.607167997000033
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 18.49001912699896
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 17.25838861400007
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e00da339479793446f2237d2935cd19e05a80fd58c20364699df7652f4120ed4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

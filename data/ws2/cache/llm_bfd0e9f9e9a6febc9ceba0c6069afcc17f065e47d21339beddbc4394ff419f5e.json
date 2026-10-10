@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for currency breakdown on structural hedge\",\n  \"main_topics\": [\"structural hedge\", \"currency breakdown\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"I had two questions. One was on hedging. Could you give us a currency breakdown on the structural hedge, if all possible?\",\n  \"answer_quote\": \"No.\",\n  \"reason\": \"The answer directly deflects the question without providing a currency breakdown, thus it is unanswered and the evidence level is none.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for currency breakdown on structural hedge\",\n  \"main_topics\": [\"structural hedge\", \"currency breakdown\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"I had two questions. One was on hedging. Could you give us a currency breakdown on the structural hedge, if all possible?\",\n  \"answer_quote\": \"No.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 418,
+      "batch_seconds": 6.752684400999897
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 463,
+      "batch_seconds": 6.791888847999871
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bfd0e9f9e9a6febc9ceba0c6069afcc17f065e47d21339beddbc4394ff419f5e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for currency breakdown on structural hedge",
+    "main_topics": [
+      "structural hedge",
+      "currency breakdown"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "I had two questions. One was on hedging. Could you give us a currency breakdown on the structural hedge, if all possible?",
+    "answer_quote": "No.",
+    "reason": "The answer directly deflects the question without providing a currency breakdown, thus it is unanswered and the evidence level is none."
+  },
+  "whitespace_adjusted_quotes": []
+}

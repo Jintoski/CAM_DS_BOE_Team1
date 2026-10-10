@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on valuation sources and impact of credit deterioration on capital\",\n  \"main_topics\": [\"LTV valuation\", \"credit deterioration impact\", \"capital position\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is it the capital position for HBAP got hit just like Hang Seng from this IRB and then regulatory reserve, and how does that tie up with the HSBC Group reporting, which is under the PRA capital rules here?\",\n  \"answer_quote\": \"The LTV values are refreshed, minimum, on an annual basis. There are seven external valuation firms that we use that provide the valuations. On the stage 3 and Sub-standard portfolio particularly, these are managed by our special credit unit, which is carefully managing every single loan and client that is in that bucket, so the LTV and the valuation of those assets are refreshed much more frequently relative to the rest of the portfolio.\",\n  \"reason\": \"The response directly addresses the question's intent, provides high evidence with numeric details, and aligns with the narrative of the question.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on valuation sources and impact of credit deterioration on capital\",\n  \"main_topics\": [\"LTV valuation\", \"Capital impact\", \"Credit deterioration\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is it the capital position for HBAP got hit just like Hang Seng from this IRB and then regulatory reserve, and how does that tie up with the HSBC Group reporting, which is under the PRA capital rules here?\",\n  \"answer_quote\": \"The LTV values are refreshed, minimum, on an annual basis. There are seven external valuation firms that we use that provide the valuations. On the stage 3 and Sub-standard portfolio particularly, these are managed by our special credit unit, which is carefully managing every single loan and client that is in that bucket, so the LTV and the valuation of those assets are refreshed much more frequently relative to the rest of the portfolio.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing specific details on LTV valuation sources and the impact of credit deterioration on capital, with high evidence level due to the inclusion of numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on valuation sources and impact of credit deterioration on capital\",\n  \"main_topics\": [\"LTV valuation\", \"credit deterioration impact\", \"capital position\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is it the capital position for HBAP got hit just like Hang Seng from this IRB and then regulatory reserve, and how does that tie up with the HSBC Group reporting, which is under the PRA capital rules here?\",\n  \"answer_quote\": \"The LTV values are refreshed, minimum, on an annual basis. There are seven external valuation firms that we use that provide the valuations. On the stage 3 and Sub-standard portfolio particularly, these are managed by our special credit unit, which is carefully managing every single loan and client that is in that bucket, so the LTV and the valuation of those assets are refreshed much more frequently relative to the rest of the portfolio.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on valuation sources and impact of credit deterioration on capital\",\n  \"main_topics\": [\"LTV valuation\", \"credit deterioration impact\", \"capital position\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is it the capital position for HBAP got hit just like Hang Seng from this IRB and then regulatory reserve, and how does that tie up with the HSBC Group reporting, which is under the PRA capital rules here?\",\n  \"answer_quote\": \"The LTV values are refreshed, minimum, on an annual basis. There are seven external valuation firms that we use that provide the valuations. On the stage 3 and Sub-standard portfolio particularly, these are managed by our special credit unit, which is carefully managing every single loan and client that is in that bucket, so the LTV and the valuation of those assets are refreshed much more frequently relative to the rest of the portfolio.\",\n  \"reason\": \"The response directly addresses the question's intent, provides high evidence with numeric details, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 824,
+      "batch_seconds": 24.884960510999917
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 872,
+      "batch_seconds": 25.60815282600015
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 869,
+      "batch_seconds": 24.21767322100095
+    }
+  ],
+  "exchange_id": "7f553358cc34-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c120d0a34a2e01ac14cae42c50ff5ad74ddae6c7e1726ddba90e5917e24ff9ed",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

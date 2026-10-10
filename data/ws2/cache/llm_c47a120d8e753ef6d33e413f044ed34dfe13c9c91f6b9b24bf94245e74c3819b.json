@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Seeking politically acceptable government actions to aid banks\",\n  \"main_topics\": [\"Bank Aid\", \"Government Policy\", \"Political Acceptability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"James from Soc Gen again. Anna, we saw in the press a few weeks ago the government was looking to do things to help the banks. I guess the obvious thing from you would be the bank levy and the corporation tax surcharge, but beyond those, is there anything in particular that you think the government could do that would be politically acceptable but would make a difference to your life?\",\n  \"answer_quote\": \"I think that is important because it's ahead of some other jurisdictions, so that would be good to get in place.\",\n  \"reason\": \"The answer directly addresses the question, providing a complete response with a medium level of evidence. It aligns with the narrative by discussing the importance of regulatory stability and being ahead of other jurisdictions, which is a politically acceptable action that could make a difference to banks.\"\n}",
+  "data": {
+    "question_intent": "Seeking politically acceptable government actions to aid banks",
+    "main_topics": [
+      "Bank Aid",
+      "Government Policy",
+      "Political Acceptability"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "James from Soc Gen again. Anna, we saw in the press a few weeks ago the government was looking to do things to help the banks. I guess the obvious thing from you would be the bank levy and the corporation tax surcharge, but beyond those, is there anything in particular that you think the government could do that would be politically acceptable but would make a difference to your life?",
+    "answer_quote": "I think that is important because it's ahead of some other jurisdictions, so that would be good to get in place.",
+    "reason": "The answer directly addresses the question, providing a complete response with a medium level of evidence. It aligns with the narrative by discussing the importance of regulatory stability and being ahead of other jurisdictions, which is a politically acceptable action that could make a difference to banks."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "dfbf37092448-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c47a120d8e753ef6d33e413f044ed34dfe13c9c91f6b9b24bf94245e74c3819b"
+}

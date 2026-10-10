@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about ROE on mortgages and GBM revenue expectations, including the impact of market normalisation and restructuring.\",\n  \"main_topics\": [\"ROE on mortgages\", \"GBM revenue expectations\", \"market normalisation\", \"restructuring impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there any chance that you could give us an indication of what kind of ROE you're booking on mortgages as you currently observe it now?\",\n  \"answer_quote\": \"On mortgages, we're not going to go into the detail, but we're earning returns on capital materially above our cost of capital, partly because, as you know, the UK mortgage risk weights are very low and we've got plenty of excess funding.\",\n  \"reason\": \"The answer directly addresses the ROE on mortgages and GBM revenue expectations, providing a clear stance on the impact of market normalisation and restructuring, with medium evidence level due to the lack of specific numeric data.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 798,
+      "batch_seconds": 22.248980599999413
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a10f8d661b003d35261a2482e78333f9d1692daac4ae6b1874428f379507e0ec",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about ROE on mortgages and GBM revenue expectations, including the impact of market normalisation and restructuring.",
+    "main_topics": [
+      "ROE on mortgages",
+      "GBM revenue expectations",
+      "market normalisation",
+      "restructuring impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Is there any chance that you could give us an indication of what kind of ROE you're booking on mortgages as you currently observe it now?",
+    "answer_quote": "On mortgages, we're not going to go into the detail, but we're earning returns on capital materially above our cost of capital, partly because, as you know, the UK mortgage risk weights are very low and we've got plenty of excess funding.",
+    "reason": "The answer directly addresses the ROE on mortgages and GBM revenue expectations, providing a clear stance on the impact of market normalisation and restructuring, with medium evidence level due to the lack of specific numeric data."
+  },
+  "whitespace_adjusted_quotes": []
+}

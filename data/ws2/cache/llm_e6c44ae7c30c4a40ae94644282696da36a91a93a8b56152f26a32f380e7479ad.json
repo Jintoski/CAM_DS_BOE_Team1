@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about additional factors influencing the consolidation decision\",\n  \"main_topics\": [\"consolidation\", \"ringfence\", \"customer continuum\", \"legal entities\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"So, on the decision to consolidate outside the ringfence bank, [is any other factor driving that?].\",\n  \"answer_quote\": \"No, no, It's purely a customer and strategic decision.\",\n  \"reason\": \"The answer deflects by stating the decision is 'purely' customer and strategic, without addressing other potential factors.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 487,
+      "batch_seconds": 10.181106705000275
+    }
+  ],
+  "exchange_id": "c91814891a58-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e6c44ae7c30c4a40ae94644282696da36a91a93a8b56152f26a32f380e7479ad",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about additional factors influencing the consolidation decision",
+    "main_topics": [
+      "consolidation",
+      "ringfence",
+      "customer continuum",
+      "legal entities"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "So, on the decision to consolidate outside the ringfence bank, [is any other factor driving that?].",
+    "answer_quote": "No, no, It's purely a customer and strategic decision.",
+    "reason": "The answer deflects by stating the decision is 'purely' customer and strategic, without addressing other potential factors."
+  },
+  "whitespace_adjusted_quotes": []
+}

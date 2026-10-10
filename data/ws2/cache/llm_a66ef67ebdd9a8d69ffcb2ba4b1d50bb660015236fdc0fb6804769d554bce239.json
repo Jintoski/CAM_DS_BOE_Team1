@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify the percentage of capital in holding companies and RWAs\",\n  \"main_topics\": [\"Capital\", \"Holding Companies\", \"RWAs\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So for that, because according to my data that less than 10% of the capital in the holding companies, that's the investment banking piece, because I think you've got $111 billion RWAs in the IHC dollars from memory.\",\n  \"answer_quote\": \"Capital wise? So I'm talking about the capital of the firm. Rather than this [inaudible] RWAs. We'll come back to you.\",\n  \"reason\": \"The answer deflects the question without providing the requested clarification or numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 466,
+      "batch_seconds": 9.408274887000516
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x017",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a66ef67ebdd9a8d69ffcb2ba4b1d50bb660015236fdc0fb6804769d554bce239",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify the percentage of capital in holding companies and RWAs",
+    "main_topics": [
+      "Capital",
+      "Holding Companies",
+      "RWAs"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So for that, because according to my data that less than 10% of the capital in the holding companies, that's the investment banking piece, because I think you've got $111 billion RWAs in the IHC dollars from memory.",
+    "answer_quote": "Capital wise? So I'm talking about the capital of the firm. Rather than this [inaudible] RWAs. We'll come back to you.",
+    "reason": "The answer deflects the question without providing the requested clarification or numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about wealth distribution and UK business performance\",\n  \"main_topics\": [\"wealth distribution\", \"UK business performance\", \"investment distribution\", \"UK commercial banking growth\", \"risk appetite\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you give us a little bit of a sense of how much of the wealth is transactional churn versus more annuity income? Has that changed at all in the last year or two?\",\n  \"answer_quote\": \"We are overweight Hong Kong - this quarter was not that great for Hong Kong equities, but the business held quite well.\",\n  \"reason\": \"The response directly addresses the wealth distribution question and provides a clear answer, including a reference to the bank's investment in Hong Kong, which is related to the annuity-driven aspect of wealth. It also touches on the UK business performance, mentioning the growth in commercial banking and the risk appetite, which aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Wealth distribution and UK business performance\",\n  \"main_topics\": [\"wealth distribution\", \"UK business performance\", \"investment distribution\", \"UK commercial banking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you give us a little bit of a sense of how much of the wealth is transactional churn versus more annuity income? Has that changed at all in the last year or two?\",\n  \"answer_quote\": \"We've given you disclosures on the bank distribution margin we are getting from insurance which is a much more annuity-driven, and will be coming through in the next eight to ten years.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 829,
+      "batch_seconds": 22.959991416000776
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 874,
+      "batch_seconds": 25.60815282600015
+    }
+  ],
+  "exchange_id": "2d9a21ff1167-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "004f7da91afecf814cb0cdf94ed609bcb6ad86d5b9f3d32929cc5e317fbd8b73",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about wealth distribution and UK business performance",
+    "main_topics": [
+      "wealth distribution",
+      "UK business performance",
+      "investment distribution",
+      "UK commercial banking growth",
+      "risk appetite"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could you give us a little bit of a sense of how much of the wealth is transactional churn versus more annuity income? Has that changed at all in the last year or two?",
+    "answer_quote": "We are overweight Hong Kong - this quarter was not that great for Hong Kong equities, but the business held quite well.",
+    "reason": "The response directly addresses the wealth distribution question and provides a clear answer, including a reference to the bank's investment in Hong Kong, which is related to the annuity-driven aspect of wealth. It also touches on the UK business performance, mentioning the growth in commercial banking and the risk appetite, which aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

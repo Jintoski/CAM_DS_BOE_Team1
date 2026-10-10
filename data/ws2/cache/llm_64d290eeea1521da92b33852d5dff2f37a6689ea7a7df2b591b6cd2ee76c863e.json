@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on bank's buyback programme and capital generation\",\n  \"main_topics\": [\"buyback programme\", \"capital generation\", \"Canada's role\", \"operating range\", \"excess capital distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I understand.\",\n  \"answer_quote\": \"So we will give more indication, but maybe I'll answer your second point, which clarifies it. We are in a buyback programme. First, we're not pre-funding. The consideration to bring forward the buyback programme is based on our capital generation and our capital position today. We are not pre-empting an outcome of Canada to do that. So therefore, any outcome from Canada is just an additional buyback capacity. Now, the reality is there is only so much capacity you can hit the market with for buybacks, so the likelihood of Canada, if we are in a buyback at that stage, is not that we will increase the volume, because we will probably be at the right capacity. It will, effectively, extend in time. And if it's extending in time - capital is fungible, right - then we can co-mingle our own capital generation as well as the Canada proceeds and the contribution to that. The guiding principle for a buyback is excess capital. We indicated our target operating range to be 14-14.5%, at least for the short-to-medium term. We're looking, beyond the medium term, to bring it lower. Any excess capital beyond what we're comfortable with within this range is for distribution. So if we can't do it in the same timeframe because of the volume, it will extend the programme longer in time.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the bank's buyback program and its relation to capital generation and Canada.\",\n  \"main_topics\": [\"buyback program\", \"capital generation\", \"Canada's role\", \"operating range\", \"excess capital distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I understand.\",\n  \"answer_quote\": \"So we will give more indication, but maybe I'll answer your second point, which clarifies it. We are in a buyback programme. First, we're not pre-funding. The consideration to bring forward the buyback programme is based on our capital generation and our capital position today. We are not pre-empting an outcome of Canada to do that. So therefore, any outcome from Canada is just an additional buyback capacity. Now, the reality is there is only so much capacity you can hit the market with for buybacks, so the likelihood of Canada, if we are in a buyback at that stage, is not that we will increase the volume, because we will probably be at the right capacity. It will, effectively, extend in time. And if it's extending in time - capital is fungible, right - then we can co-mingle our own capital generation as well as the Canada proceeds and the contribution to that. The guiding principle for a buyback is excess capital. We indicated our target operating range to be 14-14.5%, at least for the short-to-medium term. We're looking, beyond the medium term, to bring it lower. Any excess capital beyond what we're comfortable with within this range is for distribution. So if we can't do it in the same timeframe because of the volume, it will extend the programme longer in time.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on bank's buyback programme and capital generation\",\n  \"main_topics\": [\"buyback programme\", \"capital generation\", \"Canada's role\", \"operating range\", \"excess capital distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I understand.\",\n  \"answer_quote\": \"So we will give more indication, but maybe I'll answer your second point, which clarifies it. We are in a buyback programme. First, we're not pre-funding. The consideration to bring forward the buyback programme is based on our capital generation and our capital position today. We are not pre-empting an outcome of Canada to do that. So therefore, any outcome from Canada is just an additional buyback capacity. Now, the reality is there is only so much capacity you can hit the market with for buybacks, so the likelihood of Canada, if we are in a buyback at that stage, is not that we will increase the volume, because we will probably be at the right capacity. It will, effectively, extend in time. And if it's extending in time - capital is fungible, right - then we can co-mingle our own capital generation as well as the Canada proceeds and the contribution to that. The guiding principle for a buyback is excess capital. We indicated our target operating range to be 14-14.5%, at least for the short-to-medium term. We're looking, beyond the medium term, to bring it lower. Any excess capital beyond what we're comfortable with within this range is for distribution. So if we can't do it in the same timeframe because of the volume, it will extend the programme longer in time.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on bank's buyback programme and capital generation\",\n  \"main_topics\": [\"buyback programme\", \"capital generation\", \"Canada's role\", \"operating range\", \"excess capital distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I understand.\",\n  \"answer_quote\": \"So we will give more indication, but maybe I'll answer your second point, which clarifies it. We are in a buyback programme. First, we're not pre-funding. The consideration to bring forward the buyback programme is based on our capital generation and our capital position today. We are not pre-empting an outcome of Canada to do that. So therefore, any outcome from Canada is just an additional buyback capacity. Now, the reality is there is only so much capacity you can hit the market with for buybacks, so the likelihood of Canada, if we are in a buyback at that stage, is not that we will increase the volume, because we will probably be at the right capacity. It will, effectively, extend in time. And if it's extending in time - capital is fungible, right - then we can co-mingle our own capital generation as well as the Canada proceeds and the contribution to that. The guiding principle for a buyback is excess capital. We indicated our target operating range to be 14-14.5%, at least for the short-to-medium term. We're looking, beyond the medium term, to bring it lower. Any excess capital beyond what we're comfortable with within this range is for distribution. So if we can't do it in the same timeframe because of the volume, it will extend the programme longer in time.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 668,
+      "batch_seconds": 15.884756681999534
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 713,
+      "batch_seconds": 18.00490129800164
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 713,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "4970375d012d-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "64d290eeea1521da92b33852d5dff2f37a6689ea7a7df2b591b6cd2ee76c863e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

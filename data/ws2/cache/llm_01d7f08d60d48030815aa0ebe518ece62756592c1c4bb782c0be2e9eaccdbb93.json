@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for specific financial data and future outlook\",\n  \"main_topics\": [\"Mortgage book composition\", \"Credit card book\", \"Non-interest income\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you give us some idea of the composition of your mortgage book, split by loan-to-income multiples, rather than by loan-to-value? And what proportion of both your mortgages and your credit card book in the UK is to lower household income deciles?\",\n  \"answer_quote\": \"We don't give a loan to income split. However, like all banks in the UK, we have some regulatory limits on higher loan-to-income, so loan-to-income above 4.5 times is significantly reduced.\",\n  \"reason\": \"The answer partially addresses the question by discussing regulatory limits and repayment rates but does not provide the specific loan-to-income split or the proportion of mortgages and credit card book to lower household income deciles as requested.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 744,
+      "batch_seconds": 21.440061830999184
+    }
+  ],
+  "exchange_id": "6d4760f97290-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "01d7f08d60d48030815aa0ebe518ece62756592c1c4bb782c0be2e9eaccdbb93",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for specific financial data and future outlook",
+    "main_topics": [
+      "Mortgage book composition",
+      "Credit card book",
+      "Non-interest income"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can you give us some idea of the composition of your mortgage book, split by loan-to-income multiples, rather than by loan-to-value? And what proportion of both your mortgages and your credit card book in the UK is to lower household income deciles?",
+    "answer_quote": "We don't give a loan to income split. However, like all banks in the UK, we have some regulatory limits on higher loan-to-income, so loan-to-income above 4.5 times is significantly reduced.",
+    "reason": "The answer partially addresses the question by discussing regulatory limits and repayment rates but does not provide the specific loan-to-income split or the proportion of mortgages and credit card book to lower household income deciles as requested."
+  },
+  "whitespace_adjusted_quotes": []
+}

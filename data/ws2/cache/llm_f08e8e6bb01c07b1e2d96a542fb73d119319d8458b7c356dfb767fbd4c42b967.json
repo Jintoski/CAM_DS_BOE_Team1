@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on projected costs and RoTE for 2025 and 2027\",\n  \"main_topics\": [\"Projected Costs\", \"Return on Tangible Equity (RoTE)\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"£16.7 billion of costs in 2024. If we're thinking about this in absolute cost terms rather than cost income, given that you've got the U.K. Tesco double run, investment in Corporate and PBWM, you've got FX translation. Presumably what you're essentially saying is you're expecting the cost base to grow to in excess of £17 billion in 2025, before then fading back to around £17 billion in 2026. But just wanted to make sure that understanding was correct. And then the second question on the US Consumer Bank, you've specifically drawn out on Slide 39, that there is going to be a gain on the sale of the AA portfolio, and that seems to be included within the target. So, does that mean that come 2027, the RoTE fades again before it then recovers thereafter within that division?\",\n  \"answer_quote\": \"Go ahead.\",\n  \"reason\": \"The response does not address the question's request for clarification on projected costs and RoTE, instead deflecting the question without providing any information.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 596,
+      "batch_seconds": 12.97318208300021
+    }
+  ],
+  "exchange_id": "939b0ea59a08-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f08e8e6bb01c07b1e2d96a542fb73d119319d8458b7c356dfb767fbd4c42b967",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on projected costs and RoTE for 2025 and 2027",
+    "main_topics": [
+      "Projected Costs",
+      "Return on Tangible Equity (RoTE)"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "£16.7 billion of costs in 2024. If we're thinking about this in absolute cost terms rather than cost income, given that you've got the U.K. Tesco double run, investment in Corporate and PBWM, you've got FX translation. Presumably what you're essentially saying is you're expecting the cost base to grow to in excess of £17 billion in 2025, before then fading back to around £17 billion in 2026. But just wanted to make sure that understanding was correct. And then the second question on the US Consumer Bank, you've specifically drawn out on Slide 39, that there is going to be a gain on the sale of the AA portfolio, and that seems to be included within the target. So, does that mean that come 2027, the RoTE fades again before it then recovers thereafter within that division?",
+    "answer_quote": "Go ahead.",
+    "reason": "The response does not address the question's request for clarification on projected costs and RoTE, instead deflecting the question without providing any information."
+  },
+  "whitespace_adjusted_quotes": []
+}

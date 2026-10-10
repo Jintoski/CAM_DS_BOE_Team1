@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on investor update content\",\n  \"main_topics\": [\"investor update\", \"financial targets\", \"distribution policy\", \"structural cost actions\", \"business focus\", \"business organization\", \"investor return\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I ask you for a bit more clarity around really what we should expect from the investor update in February?\",\n  \"answer_quote\": \"I don't want to be too specific at this point in time.\",\n  \"reason\": \"The answer provides a general direction but lacks specific details requested in the question.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on investor update content\",\n  \"main_topics\": [\"Investor update\", \"Financial targets\", \"Distribution policy\", \"Structural cost actions\", \"Business focus\", \"Business organization\", \"Investor returns\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I ask you for a bit more clarity around really what we should expect from the investor update in February?\",\n  \"answer_quote\": \"I don't want to be too specific at this point in time. I think you've done a very good summary all on your own.\",\n  \"reason\": \"The answer provides a general direction but lacks specific details or numeric evidence about the investor update content.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on investor update content\",\n  \"main_topics\": [\"investor update\", \"financial targets\", \"distribution policy\", \"structural cost actions\", \"business focus\", \"business organization\", \"investor return\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I ask you for a bit more clarity around really what we should expect from the investor update in February?\",\n  \"answer_quote\": \"I don't want to be too specific at this point in time.\",\n  \"reason\": \"The answer provides a general direction but lacks specific details requested by the question, hence partial completeness and a hedged stance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on investor update content\",\n  \"main_topics\": [\"investor update\", \"financial targets\", \"distribution policy\", \"structural cost actions\", \"business focus\", \"business organization\", \"investor return\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I ask you for a bit more clarity around really what we should expect from the investor update in February?\",\n  \"answer_quote\": \"I don't want to be too specific at this point in time.\",\n  \"reason\": \"The answer provides a general direction but lacks specific details requested in the question.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 641,
+      "batch_seconds": 16.037525024999923
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 695,
+      "batch_seconds": 17.289219684000273
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 695,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bf3da3ea8bea76967e2b31b6d02152e0cd2300ab98b3885e15338c3982ee2177",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

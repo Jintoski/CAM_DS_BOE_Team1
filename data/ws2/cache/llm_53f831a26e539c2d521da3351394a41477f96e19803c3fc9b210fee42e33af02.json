@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Impact of rising mortgage rates on UK business, affordability, and growth outlook\",\n  \"main_topics\": [\"Mortgage Rates\", \"Affordability\", \"Growth Outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Mortgage rates in the UK have risen from around 2% at the turn of the year to around 6% most recently, and I was just wondering how do you see this impacting your business?\",\n  \"answer_quote\": \"First of all, on mortgages, we've got a very large mature book. Our average LTV is around 50%. Where the UK market is, with a combination of two-year and five-year fixed, about 30% of our mortgage book will refinance over the next year, let's say by the end of 2023.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a complete answer with high evidence level, including numeric evidence, and is aligned with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of rising mortgage rates on business\",\n  \"main_topics\": [\"mortgage rates\", \"affordability\", \"loan growth\", \"deposit balances\", \"remortgage market\", \"credit quality\", \"LTV\", \"house price inflation\", \"credit cycle\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Mortgage rates in the UK have risen from around 2% at the turn of the year to around 6% most recently, and I was just wondering how do you see this impacting your business?\",\n  \"answer_quote\": \"First of all, on mortgages, we've got a very large mature book. Our average LTV is around 50%. Where the UK market is, with a combination of two-year and five-year fixed, about 30% of our mortgage book will refinance over the next year, let's say by the end of 2023. And so a little bit of that in 2022, and about a quarter of the book in 2023. And so what that does, and to part of your other question, is obviously when we do issue mortgages, we do stress them with a fairly big shock in interest rates in terms of affordability. So the combination of that and the fact that it's about 25% to 30% I think mutes its impact on this portfolio. And I think also what we are seeing in the UK is a little bit of monthly overpayment. It represents 20bps of our total balances, it's a very small faction, but you are seeing it. Which is good from a credit quality point of view, but it's also prudent financial management, as you might expect. So I think broadly the behaviour is as you would expect in an environment like this. The other thing I'd say is that, given the house price inflation we've seen over the last few years, the LTV of the customers coming to refinance now will be lower than it was when they took out their mortgages. And that might be part of the incentive that's behind the overpayment trends that we see right now, the opportunity to move yourself down an LTV bracket. In terms of loan growth, I would say this feels like a remortgage market rather than a house price market. That will necessarily lead to lower net growth, I would think. So I would expect to see strong remortgage demand but a large part of that will be churn in the market. In terms of the rest of loan growth, you can see from repayment rates that we've talked about in cards, IEL growth, interest-earning lending growth, in cards will probably be a bit sluggish as well. But given where we are in the credit cycle, I think we're okay with that. So probably a little bit more muted on loans growth, and similar in deposits in comparison to what we saw during the COVID period, we've already seen that slow down a bit, seeing a bit of migration but within our expectations, and customers putting that money to work, whether that be in savings or indeed through mortgages.\",\n  \"reason\": \"The answer directly addresses the impact of rising mortgage rates on the bank's business, covering affordability, loan growth, deposit balances, and other related topics, with high evidence level and numeric evidence provided.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1069,
+      "batch_seconds": 33.59942327399949
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1123,
+      "batch_seconds": 35.23555413299982
+    }
+  ],
+  "exchange_id": "6d4760f97290-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "53f831a26e539c2d521da3351394a41477f96e19803c3fc9b210fee42e33af02",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Impact of rising mortgage rates on UK business, affordability, and growth outlook",
+    "main_topics": [
+      "Mortgage Rates",
+      "Affordability",
+      "Growth Outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Mortgage rates in the UK have risen from around 2% at the turn of the year to around 6% most recently, and I was just wondering how do you see this impacting your business?",
+    "answer_quote": "First of all, on mortgages, we've got a very large mature book. Our average LTV is around 50%. Where the UK market is, with a combination of two-year and five-year fixed, about 30% of our mortgage book will refinance over the next year, let's say by the end of 2023.",
+    "reason": "The response directly addresses the question's intent, provides a complete answer with high evidence level, including numeric evidence, and is aligned with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

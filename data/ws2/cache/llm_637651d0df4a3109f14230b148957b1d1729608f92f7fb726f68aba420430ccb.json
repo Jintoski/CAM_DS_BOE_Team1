@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on capital savings from card business and Tesco Bank acquisition profitability\",\n  \"main_topics\": [\n    \"Capital savings from card business\",\n    \"Tesco Bank acquisition profitability\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you give us some concrete sense as to how much of a saving that is?\",\n  \"answer_quote\": \"I'll take the first one and let Anna take the second one. So, I think the easiest way for you to see it, obviously, is to look at the CCAR results of the top banks in the US. And look both at our initial level of capital, which we keep, and look at the drawdown, and compare it to banks who don't have that kind of a credit card or a retail consumer portfolio in the mix. Now, scenarios vary from year to year and so on, so you have to look at it for a few years, but you will get a sense of the benefit. And I think it is an important regulatory benefit for us to have it in the stress test. It's under current rules, right.\",\n  \"reason\": \"The answer provides a direct response to the question about capital savings from the card business, referencing the CCAR results and the regulatory benefit, which is a high level of evidence.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on capital savings from credit card business and Tesco Bank acquisition profitability.\",\n  \"main_topics\": [\"Capital Savings\", \"Tesco Bank Acquisition\", \"Profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you give us some concrete sense as to how much of a saving that is?\",\n  \"answer_quote\": \"So, I think the easiest way for you to see it, obviously, is to look at the CCAR results of the top banks in the US. And look both at our initial level of capital, which we keep, and look at the drawdown, and compare it to banks who don't have that kind of a credit card or a retail consumer portfolio in the mix.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on capital savings from card business and Tesco Bank acquisition profitability\",\n  \"main_topics\": [\"capital savings\", \"Tesco Bank acquisition\", \"profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you give us some concrete sense as to how much of a saving that is?\",\n  \"answer_quote\": \"I think the easiest way for you to see it, obviously, is to look at the CCAR results of the top banks in the US.\",\n  \"reason\": \"The answer directly addresses the question about capital savings with a high level of evidence, including a reference to the CCAR results, and provides a clear stance on the Tesco Bank acquisition profitability.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on capital savings from card business and Tesco Bank acquisition profitability\",\n  \"main_topics\": [\n    \"Capital savings from card business\",\n    \"Tesco Bank acquisition profitability\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you give us some concrete sense as to how much of a saving that is?\",\n  \"answer_quote\": \"I'll take the first one and let Anna take the second one. So, I think the easiest way for you to see it, obviously, is to look at the CCAR results of the top banks in the US. And look both at our initial level of capital, which we keep, and look at the drawdown, and compare it to banks who don't have that kind of a credit card or a retail consumer portfolio in the mix. Now, scenarios vary from year to year and so on, so you have to look at it for a few years, but you will get a sense of the benefit. And I think it is an important regulatory benefit for us to have it in the stress test. It's under current rules, right.\",\n  \"reason\": \"The answer provides a direct response to the question about capital savings from the card business, referencing the CCAR results and the regulatory benefit, which is a high level of evidence.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1146,
+      "batch_seconds": 34.982933763999426
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1191,
+      "batch_seconds": 36.9039603350011
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1194,
+      "batch_seconds": 36.75294905999908
+    }
+  ],
+  "exchange_id": "939b0ea59a08-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "637651d0df4a3109f14230b148957b1d1729608f92f7fb726f68aba420430ccb",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

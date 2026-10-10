@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on Stage 3 balances calculation\",\n  \"main_topics\": [\"Stage 3 balances\", \"Year-end calculation\", \"Quarter-on-quarter comparison\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"And, sorry just in terms of the Stage 3 balances, is that just something to do with how you add them up at the year-end or something, or why would that be?\",\n  \"answer_quote\": \"Yes. We could probably maybe have a discussion after this call, rather than go through it here.\",\n  \"reason\": \"The response deflects the question and suggests a follow-up call without directly addressing the calculation method.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 499,
+      "batch_seconds": 10.323243250000814
+    }
+  ],
+  "exchange_id": "a055cc76c938-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f93724546c09399de02ed0c14b968b7a8d49e7a22adee75577d2b919e07b1cfb",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on Stage 3 balances calculation",
+    "main_topics": [
+      "Stage 3 balances",
+      "Year-end calculation",
+      "Quarter-on-quarter comparison"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "And, sorry just in terms of the Stage 3 balances, is that just something to do with how you add them up at the year-end or something, or why would that be?",
+    "answer_quote": "Yes. We could probably maybe have a discussion after this call, rather than go through it here.",
+    "reason": "The response deflects the question and suggests a follow-up call without directly addressing the calculation method."
+  },
+  "whitespace_adjusted_quotes": []
+}

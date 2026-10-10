@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Long-term strategy in US consumer banking and PRA's stance on Basel rules\",\n  \"main_topics\": [\"US consumer banking strategy\", \"PRA and Basel rules\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"First on the US consumer, do you see longer run strategic expansion into adjacent areas of lending and expansion into more physical touch points for deposit gathering? So what's the, not the next 18 months or so, but what's the longer run strategy in the US? Is that really viable as a business totally focused on cards or would you be able to extend into adjacent channels?\",\n  \"answer_quote\": \"Just on the first one, it's called the US Consumer Bank, but don't assume that its product footprint changes markedly from where it is and the US Consumer Bank reflects the fact that it's both cards and deposit gathering. It doesn't indicate a significant ambition to sort of enter retail banking more widely in the US. And specifically on your point on physical touchpoints, you're right, it's quite different in the US. In the US people are opening branches, in the UK it's quite different. The economics are different. But the way we feel about it is we want to continue to improve the digital platform that we have for deposit gathering. We don't have any plans to open physical institutions to gather deposits in the US. We do it very effectively. We have, I guess, a group of consumers who really use us as an ability to diversify their deposits across a number of US institutions. And we see that because well over 95% of them I think are actually insured deposits. So, we're seeing that kind of behaviour. Obviously we can do more, that's part of our strategic objectives in US cards to have a higher proportion of direct to customer funding. But we will do that digitally. And really we do think that we can compete with that kind of footprint because what we've really got in mind here is a very specialist, very focused, business. Focused on partners, and our relationships with those partners. So, we believe that's what we're good at, what we've got experience in and therefore that's what we'll stick to. On your second question on Basel [3.1] and FRTB. There's clearly a lot of commentary there and we hear it as well, but until we have a different regulatory pronouncement one way or another, it's really difficult for us to say what we believe will happen. We think it's important to have strong regulation. We think some geographical alignment around that regulation is really important, but until we see final rules, it's really difficult to comment further.\",\n  \"reason\": \"The answer directly addresses the long-term strategy in US consumer banking and the stance on Basel rules, providing a clear and complete response with high evidence level, including a specific percentage to support the claim.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 958,
+      "batch_seconds": 25.86036075099946
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "dd603b880779e2e44f2e35cd6dd9a058d212569b22d5bd37b2ffe1ac81474e6e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Long-term strategy in US consumer banking and PRA's stance on Basel rules",
+    "main_topics": [
+      "US consumer banking strategy",
+      "PRA and Basel rules"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "First on the US consumer, do you see longer run strategic expansion into adjacent areas of lending and expansion into more physical touch points for deposit gathering? So what's the, not the next 18 months or so, but what's the longer run strategy in the US? Is that really viable as a business totally focused on cards or would you be able to extend into adjacent channels?",
+    "answer_quote": "Just on the first one, it's called the US Consumer Bank, but don't assume that its product footprint changes markedly from where it is and the US Consumer Bank reflects the fact that it's both cards and deposit gathering. It doesn't indicate a significant ambition to sort of enter retail banking more widely in the US. And specifically on your point on physical touchpoints, you're right, it's quite different in the US. In the US people are opening branches, in the UK it's quite different. The economics are different. But the way we feel about it is we want to continue to improve the digital platform that we have for deposit gathering. We don't have any plans to open physical institutions to gather deposits in the US. We do it very effectively. We have, I guess, a group of consumers who really use us as an ability to diversify their deposits across a number of US institutions. And we see that because well over 95% of them I think are actually insured deposits. So, we're seeing that kind of behaviour. Obviously we can do more, that's part of our strategic objectives in US cards to have a higher proportion of direct to customer funding. But we will do that digitally. And really we do think that we can compete with that kind of footprint because what we've really got in mind here is a very specialist, very focused, business. Focused on partners, and our relationships with those partners. So, we believe that's what we're good at, what we've got experience in and therefore that's what we'll stick to. On your second question on Basel [3.1] and FRTB. There's clearly a lot of commentary there and we hear it as well, but until we have a different regulatory pronouncement one way or another, it's really difficult for us to say what we believe will happen. We think it's important to have strong regulation. We think some geographical alignment around that regulation is really important, but until we see final rules, it's really difficult to comment further.",
+    "reason": "The answer directly addresses the long-term strategy in US consumer banking and the stance on Basel rules, providing a clear and complete response with high evidence level, including a specific percentage to support the claim."
+  },
+  "whitespace_adjusted_quotes": []
+}

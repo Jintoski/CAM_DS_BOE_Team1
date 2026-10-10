@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Transition to next question\",\n  \"main_topics\": [\"Bank earnings-call\", \"Question transition\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Okay. Thanks very much.\",\n  \"answer_quote\": \"Thanks, Chris. Perhaps we could go to the next question, please.\",\n  \"reason\": \"The response deflects the original question without providing an answer, and there is no evidence or forward guidance provided.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Transition to next question\",\n  \"main_topics\": [\"Bank earnings-call\", \"Question transition\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. Thanks very much.\",\n  \"answer_quote\": \"Thanks, Chris. Perhaps we could go to the next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 410,
+      "batch_seconds": 6.006447677000324
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 455,
+      "batch_seconds": 6.791888847999871
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ba3aaebf6b5b08e2054d59114a39616b364f1041dedba49d820814fe274bb5a5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Transition to next question",
+    "main_topics": [
+      "Bank earnings-call",
+      "Question transition"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Okay. Thanks very much.",
+    "answer_quote": "Thanks, Chris. Perhaps we could go to the next question, please.",
+    "reason": "The response deflects the original question without providing an answer, and there is no evidence or forward guidance provided."
+  },
+  "whitespace_adjusted_quotes": []
+}

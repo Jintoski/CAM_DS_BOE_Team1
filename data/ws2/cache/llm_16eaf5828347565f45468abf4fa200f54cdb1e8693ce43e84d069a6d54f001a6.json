@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the relationship between market volatility, asset prices, and trading volumes.\",\n  \"main_topics\": [\"Market Volatility\", \"Asset Prices\", \"Trading Volumes\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It would be Investment Banking and Markets, I think.\",\n  \"answer_quote\": \"Volume is as much a function of volatility of asset prices. We tend to see, as markets move, that volumes tend to increase. You could have in theory, a high rate environment with no real movement in asset prices though, you'd have potentially low volumes. Even though the bid-offer spreads may be a bit wider, you may still be in a low volume environment. But I don't think that's necessarily correlated to the level of asset prices. It's more just the volatility of asset prices and volumes really.\",\n  \"reason\": \"The answer directly addresses the relationship between market volatility, asset prices, and trading volumes, providing a clear explanation without numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 501,
+      "batch_seconds": 10.323243250000814
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "16eaf5828347565f45468abf4fa200f54cdb1e8693ce43e84d069a6d54f001a6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the relationship between market volatility, asset prices, and trading volumes.",
+    "main_topics": [
+      "Market Volatility",
+      "Asset Prices",
+      "Trading Volumes"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "It would be Investment Banking and Markets, I think.",
+    "answer_quote": "Volume is as much a function of volatility of asset prices. We tend to see, as markets move, that volumes tend to increase. You could have in theory, a high rate environment with no real movement in asset prices though, you'd have potentially low volumes. Even though the bid-offer spreads may be a bit wider, you may still be in a low volume environment. But I don't think that's necessarily correlated to the level of asset prices. It's more just the volatility of asset prices and volumes really.",
+    "reason": "The answer directly addresses the relationship between market volatility, asset prices, and trading volumes, providing a clear explanation without numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

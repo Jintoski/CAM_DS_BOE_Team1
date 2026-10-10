@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Exploring factors influencing deposit remuneration and market dynamics\",\n  \"main_topics\": [\"Deposit remuneration\", \"Market dynamics\", \"Liquidity conditions\", \"Competitive insurance segment\", \"Term deposits\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just when you think about the next few quarters, at what point do you start remunerating deposits or the system starts remunerating deposits? Is it purely a liquidity decision? Are you looking at the competitive insurance segment? And when you look at the amount of liquidity in the system, a lot of current accounts are probably lazy money in low-rate environments that have just left the money there. What proportion do you think could transfer into term deposits or are more sensitive to remuneration?\",\n  \"answer_quote\": \"I don't think our deposit beta is purely a liquidity issue. Liquidity is not an issue for us generally. In the UK you can see what we've done on deposits. It's a matter of public record what we're doing with deposit products on 1 March, so you can back-solve if you want for estimates of deposit beta in the UK for the first couple of rate rises. In Hong Kong, the other market that we're most exposed to, for the first hundred basis points or so, there is typically a low deposit beta and then at some point, because of the way the mortgage market works, you get deposit betas close to 100%, I guess. Three steps, right? It goes very little at the beginning, then it's about 50% and then it becomes close to 100%, so it's three steps. Do you want to talk about liquidity generally? I guess the deposit betas are a consequence of, firstly, objectives that we have in each of the markets with clients, second, the competitive dynamics and third is the liquidity conditions. The liquidity conditions, which is ample in most markets, gives you a little bit of flexibility to hold back if you don't want to, but the reality is the competitive dynamics in the market are what drives most of it, and each of the markets is quite specific. As mentioned, in the Hong Kong market, if you look at the last cycle, it gives you a good sense of what happens with the different steps, but I would focus on those three pillars. Just to add, in Hong Kong, you can see it on the HKMA website, last time in 2018, the amount which went into term deposits was close to 50% of the system, but that wasn't HSBC. That was the system, but you did see a shift and HIBOR went up to over 200 basis points into term deposits. So you can have a look at that, but that's generally what happened over, say, 1.5%. The other thing in Hong Kong at the moment is there is a degree of uncertainty about the coupling of Hong Kong rates with US dollar rates and whether the current situation with Omicron there slows down a recovery in HIBOR relative to US dollar rates.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed explanation of factors influencing deposit remuneration, including liquidity, market dynamics, and competitive insurance, with high evidence level and numeric evidence from Hong Kong's market.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 951,
+      "batch_seconds": 27.377247978000014
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6512861aecffa2dd1b076ca64b2b4f82093bbd084604be45968cc434ddfda251",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Exploring factors influencing deposit remuneration and market dynamics",
+    "main_topics": [
+      "Deposit remuneration",
+      "Market dynamics",
+      "Liquidity conditions",
+      "Competitive insurance segment",
+      "Term deposits"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just when you think about the next few quarters, at what point do you start remunerating deposits or the system starts remunerating deposits? Is it purely a liquidity decision? Are you looking at the competitive insurance segment? And when you look at the amount of liquidity in the system, a lot of current accounts are probably lazy money in low-rate environments that have just left the money there. What proportion do you think could transfer into term deposits or are more sensitive to remuneration?",
+    "answer_quote": "I don't think our deposit beta is purely a liquidity issue. Liquidity is not an issue for us generally. In the UK you can see what we've done on deposits. It's a matter of public record what we're doing with deposit products on 1 March, so you can back-solve if you want for estimates of deposit beta in the UK for the first couple of rate rises. In Hong Kong, the other market that we're most exposed to, for the first hundred basis points or so, there is typically a low deposit beta and then at some point, because of the way the mortgage market works, you get deposit betas close to 100%, I guess. Three steps, right? It goes very little at the beginning, then it's about 50% and then it becomes close to 100%, so it's three steps. Do you want to talk about liquidity generally? I guess the deposit betas are a consequence of, firstly, objectives that we have in each of the markets with clients, second, the competitive dynamics and third is the liquidity conditions. The liquidity conditions, which is ample in most markets, gives you a little bit of flexibility to hold back if you don't want to, but the reality is the competitive dynamics in the market are what drives most of it, and each of the markets is quite specific. As mentioned, in the Hong Kong market, if you look at the last cycle, it gives you a good sense of what happens with the different steps, but I would focus on those three pillars. Just to add, in Hong Kong, you can see it on the HKMA website, last time in 2018, the amount which went into term deposits was close to 50% of the system, but that wasn't HSBC. That was the system, but you did see a shift and HIBOR went up to over 200 basis points into term deposits. So you can have a look at that, but that's generally what happened over, say, 1.5%. The other thing in Hong Kong at the moment is there is a degree of uncertainty about the coupling of Hong Kong rates with US dollar rates and whether the current situation with Omicron there slows down a recovery in HIBOR relative to US dollar rates.",
+    "reason": "The answer directly addresses the question's intent, providing a detailed explanation of factors influencing deposit remuneration, including liquidity, market dynamics, and competitive insurance, with high evidence level and numeric evidence from Hong Kong's market."
+  },
+  "whitespace_adjusted_quotes": []
+}

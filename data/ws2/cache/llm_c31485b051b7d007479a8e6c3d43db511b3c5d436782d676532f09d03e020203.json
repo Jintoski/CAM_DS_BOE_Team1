@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on capital ratio intentions and capital deployment, and discussion on model robustness for ECL under macroeconomic scenarios.\",\n  \"main_topics\": [\"capital ratio intentions\", \"capital deployment\", \"model robustness\", \"ECL under macroeconomic scenarios\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first is a follow-up on Ed's question on capital. You came into this year at 13.6% [CET1] ratio, 13.3% adjusting for the buyback. It does sound increasingly like you want to operate closer to 14% moving forward. Can I just confirm that is how we should be thinking about it?\",\n  \"answer_quote\": \"You're right, we're generating a lot of capital. But as I said previously, that is an outcome of the plan and it is intentional, it is deliberate, and it's what you should expect going forward. We did indicate at the full-year that you should expect us to operate towards the top half.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence with numeric references, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on capital ratio intentions and discussion on model robustness in economic scenarios\",\n \"main_topics\": [\"Capital Ratio\", \"Model Robustness\", \"Economic Scenarios\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first is a follow-up on Ed's question on capital. You came into this year at 13.6% [CET1] ratio, 13.3% adjusting for the buyback. It does sound increasingly like you want to operate closer to 14% moving forward. Can I just confirm that is how we should be thinking about it?\",\n \"answer_quote\": \"Okay. Thanks, Jonathan. Okay. So let me start with capital. Venkat may want to comment on this also. You're right, we're generating a lot of capital. But as I said previously, that is an outcome of the plan and it is intentional, it is deliberate, and it's what you should expect going forward. We did indicate at the full-year that you should expect us to operate towards the top half. And I'll just reiterate that as our formal guidance, but just reflecting on the fact that we are generating a lot of capital. And just on the utilisation of that capital, we're very focused on deploying £30 billion in the UK. That plan is intact. As I look at where we are now, we've deployed £14 billion of that, recognizing, of course, that a large part of that has come from Tesco, but you can see good loan growth in the quarter, both from BUK and from the UK Corporate Bank. If I look at the specifics of lending, the consumer preference at the moment is for secured versus unsecured lending. That's very clear. That's okay. And then as I look at the lending as it's developing in the Corporate Bank and Private Banking and Wealth Management, actually it's very high quality and that's reflective of our portfolios. So, Q1, if I look at that in isolation, the lending is happening, maybe the RWA weighting is a little light. But over the period of the plan, that plan is intact. And I'd particularly point you to the momentum that we've got, both around mortgages and cards on the leading indicators on Slide 15. We're going through that J-curve in cards, you're going to see interest-earning lending and RWAs growing from the back-end of '25, with all of that maturing through. Venkat, do you want to comment more on RWAs? No, look, I think Anna has covered it all. I'd also remind you the environment in which we are. You would expect us to be on the general side of prudent in our capital [deployment]. Yeah, absolutely. And then on the second point, I would take the disclosures on IFRS9 as a sensitivity. They're not predictive. They essentially say, what happens if I take my current static balance sheet and I push through a different set of macroeconomic variables? What it doesn't take into account is clearly the kind of stage migration that you would see into Stage 3. It doesn't take into account any increases of exposure at default. So the fact that customers may draw down, as they become more financially pressed. But also the other thing that it doesn't take into account is credit actions that we might take in order to manage that position. So I wouldn't think of it as a scenario. I would think of it as a sensitivity and it's quite a straightforward sensitivity. I don't think it's intended to be predictive. The same is true of the PMA that we've taken. That's really just a downside bias at this stage.\"\n \"reason\": \"The answer directly addresses the capital ratio intentions and the robustness of the models, providing specific figures and plans, aligning with the question's topics.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 2 (char 3540)"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1312,
+      "batch_seconds": 40.12383423900019
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1367,
+      "batch_seconds": 98.61168351199922
+    }
+  ],
+  "exchange_id": "d970c7e31290-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c31485b051b7d007479a8e6c3d43db511b3c5d436782d676532f09d03e020203",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on capital ratio intentions and capital deployment, and discussion on model robustness for ECL under macroeconomic scenarios.",
+    "main_topics": [
+      "capital ratio intentions",
+      "capital deployment",
+      "model robustness",
+      "ECL under macroeconomic scenarios"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first is a follow-up on Ed's question on capital. You came into this year at 13.6% [CET1] ratio, 13.3% adjusting for the buyback. It does sound increasingly like you want to operate closer to 14% moving forward. Can I just confirm that is how we should be thinking about it?",
+    "answer_quote": "You're right, we're generating a lot of capital. But as I said previously, that is an outcome of the plan and it is intentional, it is deliberate, and it's what you should expect going forward. We did indicate at the full-year that you should expect us to operate towards the top half.",
+    "reason": "The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence with numeric references, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

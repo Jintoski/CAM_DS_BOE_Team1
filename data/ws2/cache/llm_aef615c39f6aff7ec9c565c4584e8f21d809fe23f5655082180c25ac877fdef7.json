@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Outlook for UK business, cost of living, asset quality, loan book focus\",\n  \"main_topics\": [\"UK business outlook\", \"cost of living\", \"asset quality\", \"loan book focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just ask on the outlook for the UK? Obviously very strong print in terms of revenue and NI progression. I was just wondering, in terms of cost of living squeeze, asset quality, how worried are you in terms of your UK business from here? Any particular pockets in the loan book where you would be focusing on?\",\n  \"answer_quote\": \"Firstly, for our own staff, a couple of weeks ago we announced a £1,500 one-off payment to any of our staff who were getting paid less than about £30,000. The cost of that is about £20 million-odd, so it's not a material number and not a permanent feature of the cost base.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high level of evidence with specific figures and a clear stance on the UK business outlook, cost of living, asset quality, and loan book focus.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 932,
+      "batch_seconds": 25.919842233000054
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "aef615c39f6aff7ec9c565c4584e8f21d809fe23f5655082180c25ac877fdef7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Outlook for UK business, cost of living, asset quality, loan book focus",
+    "main_topics": [
+      "UK business outlook",
+      "cost of living",
+      "asset quality",
+      "loan book focus"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I just ask on the outlook for the UK? Obviously very strong print in terms of revenue and NI progression. I was just wondering, in terms of cost of living squeeze, asset quality, how worried are you in terms of your UK business from here? Any particular pockets in the loan book where you would be focusing on?",
+    "answer_quote": "Firstly, for our own staff, a couple of weeks ago we announced a £1,500 one-off payment to any of our staff who were getting paid less than about £30,000. The cost of that is about £20 million-odd, so it's not a material number and not a permanent feature of the cost base.",
+    "reason": "The answer directly addresses the question's intent, providing a high level of evidence with specific figures and a clear stance on the UK business outlook, cost of living, asset quality, and loan book focus."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explain interest rate hedging and its impact on mortgage margins in the UK, Hong Kong, and US.\",\n  \"main_topics\": [\"Interest Rate Hedging\", \"Mortgage Margins\", \"Market Rates Impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk us through how interest rates are actually hedged in the various markets, maybe just the UK, Hong Kong and US? And then - so will they actually see what sort of rates - do you actually need the short rates to go up in all of those countries, or will you benefit from higher rates in the market in some and not others? Secondly, just on the UK, where do you see your front book mortgage margins are at the moment in comparison to where they are on the back book? What do you think recent swaps - the increase in swaps, are they pushing rates up in the market in the UK now?\",\n  \"answer_quote\": \"On the hedging program, Hong Kong is very short dated. Everything reprices typically in one to three months. In the UK there is a five-year rolling hedge that we have in place, consistent with most UK peers, I think, with an average duration then of about two and a half years. The US is slightly longer than the five years, albeit I think that will change once we divest ourselves out of the retail banking business. It's not as material, obviously, as Hong Kong and UK. If you look at the structure of our assets and liabilities they do tend to be much more short-dated than the average peer, which is a combination of the impact of the short-dated nature of Hong Kong, but also in the commercial space our trade business is relatively short-dated. The second question was...\",\n  \"reason\": \"The answer provides details on interest rate hedging in Hong Kong, UK, and US, and touches on mortgage margins in the UK, but does not fully address the impact of market rates in all countries or the effect of swaps on UK rates.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Hedging interest rates and impact of swaps on market rates\",\n  \"main_topics\": [\"Interest Rate Hedging\", \"Market Rates Impact\", \"UK Mortgage Margins\", \"Swaps Impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk us through how interest rates are actually hedged in the various markets, maybe just the UK, Hong Kong and US? And then - so will they actually see what sort of rates - do you actually need the short rates to go up in all of those countries, or will you benefit from higher rates in the market in some and not others? Secondly, just on the UK, where do you see your front book mortgage margins are at the moment in comparison to where they are on the back book? What do you think recent swaps - the increase in swaps, are they pushing rates up in the market in the UK now?\",\n  \"answer_quote\": \"On the hedging program, Hong Kong is very short dated. Everything reprices typically in one to three months. In the UK there is a five-year rolling hedge that we have in place, consistent with most UK peers, I think, with an average duration then of about two and a half years. The US is slightly longer than the five years, albeit I think that will change once we divest ourselves out of the retail banking business. It's not as material, obviously, as Hong Kong and UK. If you look at the structure of our assets and liabilities they do tend to be much more short-dated than the average peer, which is a combination of the impact of the short-dated nature of Hong Kong, but also in the commercial space our trade business is relatively short-dated. The second question was...\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 687,
+      "batch_seconds": 17.331225140999777
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 732,
+      "batch_seconds": 18.66627761699965
+    }
+  ],
+  "exchange_id": "2895638cae6c-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2e36572e63eb19d067038cbffeefd9c6b10eb6d6b956d42741a9cd05286ba0f0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Explain interest rate hedging and its impact on mortgage margins in the UK, Hong Kong, and US.",
+    "main_topics": [
+      "Interest Rate Hedging",
+      "Mortgage Margins",
+      "Market Rates Impact"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could you talk us through how interest rates are actually hedged in the various markets, maybe just the UK, Hong Kong and US? And then - so will they actually see what sort of rates - do you actually need the short rates to go up in all of those countries, or will you benefit from higher rates in the market in some and not others? Secondly, just on the UK, where do you see your front book mortgage margins are at the moment in comparison to where they are on the back book? What do you think recent swaps - the increase in swaps, are they pushing rates up in the market in the UK now?",
+    "answer_quote": "On the hedging program, Hong Kong is very short dated. Everything reprices typically in one to three months. In the UK there is a five-year rolling hedge that we have in place, consistent with most UK peers, I think, with an average duration then of about two and a half years. The US is slightly longer than the five years, albeit I think that will change once we divest ourselves out of the retail banking business. It's not as material, obviously, as Hong Kong and UK. If you look at the structure of our assets and liabilities they do tend to be much more short-dated than the average peer, which is a combination of the impact of the short-dated nature of Hong Kong, but also in the commercial space our trade business is relatively short-dated. The second question was...",
+    "reason": "The answer provides details on interest rate hedging in Hong Kong, UK, and US, and touches on mortgage margins in the UK, but does not fully address the impact of market rates in all countries or the effect of swaps on UK rates."
+  },
+  "whitespace_adjusted_quotes": []
+}

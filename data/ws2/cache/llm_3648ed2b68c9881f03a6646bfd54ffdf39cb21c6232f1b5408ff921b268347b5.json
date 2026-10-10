@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about the future of stablecoins for Barclays and its clients, including costs, timeline, and regulatory challenges.\",\n  \"main_topics\": [\"stablecoins\", \"Barclays\", \"regulatory challenges\", \"costs\", \"timeline\", \"retail use case\", \"wholesale market\", \"international payments\", \"corporate payments\", \"retail payments\", \"testing technologies\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"In terms of maybe costs or timeline or any regulatory challenges? Ultimately do you think it's going to make a material difference for Barclays and your clients?\",\n  \"answer_quote\": \"I think the use case for retail is much less clear. So we'll watch this space really closely.\",\n  \"reason\": \"The answer partially addresses the question by discussing the potential of stablecoins in various markets and the company's approach to testing technologies, but it does not provide specific information on costs, timeline, or regulatory challenges, nor does it definitively state whether stablecoins will make a material difference for Barclays and its clients.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future of stablecoins in Barclays' business and potential impact\",\n  \"main_topics\": [\"stablecoins\", \"retail use case\", \"regulatory challenges\", \"costs\", \"timeline\", \"material difference\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"In terms of maybe costs or timeline or any regulatory challenges? Ultimately do you think it's going to make a material difference for Barclays and your clients?\",\n  \"answer_quote\": \"I think the use case for retail is much less clear. So we'll watch this space really closely.\",\n  \"reason\": \"The answer addresses the future of stablecoins and Barclays' interest in them but does not provide specific details on costs, timeline, or regulatory challenges, nor does it definitively state the material impact on Barclays and clients.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the future of stablecoins for Barclays and its clients, including costs, timeline, and regulatory challenges.\",\n  \"main_topics\": [\"stablecoins\", \"Barclays\", \"regulatory challenges\", \"costs\", \"timeline\", \"retail use case\", \"wholesale market\", \"international payments\", \"corporate payments\", \"retail payments\", \"testing technologies\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"In terms of maybe costs or timeline or any regulatory challenges? Ultimately do you think it's going to make a material difference for Barclays and your clients?\",\n  \"answer_quote\": \"I think the use case for retail is much less clear. So we'll watch this space really closely.\",\n  \"reason\": \"The answer partially addresses the question by discussing the potential of stablecoins in various markets and the company's approach to testing technologies, but it does not provide specific information on costs, timeline, or regulatory challenges, nor does it definitively state whether stablecoins will make a material difference for Barclays and its clients.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the future of stablecoins for Barclays and its clients, including costs, timeline, and regulatory challenges.\",\n  \"main_topics\": [\"stablecoins\", \"Barclays\", \"regulatory challenges\", \"costs\", \"timeline\", \"retail use case\", \"wholesale market\", \"international payments\", \"corporate payments\", \"retail payments\", \"testing technologies\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"In terms of maybe costs or timeline or any regulatory challenges? Ultimately do you think it's going to make a material difference for Barclays and your clients?\",\n  \"answer_quote\": \"I think the use case for retail is much less clear. So we'll watch this space really closely.\",\n  \"reason\": \"The answer partially addresses the question by discussing the potential of stablecoins in various markets and the company's approach to testing technologies, but it does not provide specific information on costs, timeline, or regulatory challenges, nor does it definitively state whether stablecoins will make a material difference for Barclays and its clients.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 777,
+      "batch_seconds": 22.53639922399998
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 831,
+      "batch_seconds": 21.183683261000624
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 831,
+      "batch_seconds": 21.285828822999974
+    }
+  ],
+  "exchange_id": "b1b01ee860a4-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3648ed2b68c9881f03a6646bfd54ffdf39cb21c6232f1b5408ff921b268347b5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

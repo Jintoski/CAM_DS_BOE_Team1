@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Anticipated challenges in reintegrating CMB and GBM divisions\",\n  \"main_topics\": [\"reintegration challenges\", \"business approaches\", \"customer support\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You are reintegrating the CMB and GBM divisions which have been separated many years ago, so I suppose now they may have very different approaches to do business, so do you anticipate any, maybe, challenges or conflicts when you are reintegrating these two segments?\",\n  \"answer_quote\": \"A really good question, Jeremy. So, yes, we are integrating the businesses overall, but in terms of the people on the ground, the RMs who are providing support to the customers, that pretty much stays and is in line with what the customer need is, so I don't expect that to be in any shape or form detrimental. There are areas where the two businesses can learn from each other. GBM had a good history, track record in terms of some of the balance sheet velocity approach they took, and that will be something that the CMB portfolio can also leverage at the right time, so that we can even go further in terms of supporting our customers. On the other hand, there was some good technology work done, particularly in the trade space, in CMB, in terms of customer journeys, that GBM can leverage. There are a lot of what I would call activities and strengths they can leverage, but we're very mindful that the customer support, the customer engagement model, stays pretty much the same, because that has served us very well.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Anticipated challenges or conflicts in reintegrating CMB and GBM divisions\",\n  \"main_topics\": [\"Reintegration challenges\", \"Business approaches\", \"Customer support\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You are reintegrating the CMB and GBM divisions which have been separated many years ago, so I suppose now they may have very different approaches to do business, so do you anticipate any, maybe, challenges or conflicts when you are reintegrating these two segments?\",\n  \"answer_quote\": \"A really good question, Jeremy. So, yes, we are integrating the businesses overall, but in terms of the people on the ground, the RMs who are providing support to the customers, that pretty much stays and is in line with what the customer need is, so I don't expect that to be in any shape or form detrimental. There are areas where the two businesses can learn from each other. GBM had a good history, track record in terms of some of the balance sheet velocity approach they took, and that will be something that the CMB portfolio can also leverage at the right time, so that we can even go further in terms of supporting our customers. On the other hand, there was some good technology work done, particularly in the trade space, in CMB, in terms of customer journeys, that GBM can leverage. There are a lot of what I would call activities and strengths they can leverage, but we're very mindful that the customer support, the customer engagement model, stays pretty much the same, because that has served us very well.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Anticipated challenges in reintegrating CMB and GBM divisions\",\n  \"main_topics\": [\"reintegration challenges\", \"business approaches\", \"customer support\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You are reintegrating the CMB and GBM divisions which have been separated many years ago, so I suppose now they may have very different approaches to do business, so do you anticipate any, maybe, challenges or conflicts when you are reintegrating these two segments?\",\n  \"answer_quote\": \"A really good question, Jeremy. So, yes, we are integrating the businesses overall, but in terms of the people on the ground, the RMs who are providing support to the customers, that pretty much stays and is in line with what the customer need is, so I don't expect that to be in any shape or form detrimental. There are areas where the two businesses can learn from each other. GBM had a good history, track record in terms of some of the balance sheet velocity approach they took, and that will be something that the CMB portfolio can also leverage at the right time, so that we can even go further in terms of supporting our customers. On the other hand, there was some good technology work done, particularly in the trade space, in CMB, in terms of customer journeys, that GBM can leverage. There are a lot of what I would call activities and strengths they can leverage, but we're very mindful that the customer support, the customer engagement model, stays pretty much the same, because that has served us very well.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Anticipated challenges in reintegrating CMB and GBM divisions\",\n  \"main_topics\": [\"reintegration challenges\", \"business approaches\", \"customer support\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You are reintegrating the CMB and GBM divisions which have been separated many years ago, so I suppose now they may have very different approaches to do business, so do you anticipate any, maybe, challenges or conflicts when you are reintegrating these two segments?\",\n  \"answer_quote\": \"A really good question, Jeremy. So, yes, we are integrating the businesses overall, but in terms of the people on the ground, the RMs who are providing support to the customers, that pretty much stays and is in line with what the customer need is, so I don't expect that to be in any shape or form detrimental. There are areas where the two businesses can learn from each other. GBM had a good history, track record in terms of some of the balance sheet velocity approach they took, and that will be something that the CMB portfolio can also leverage at the right time, so that we can even go further in terms of supporting our customers. On the other hand, there was some good technology work done, particularly in the trade space, in CMB, in terms of customer journeys, that GBM can leverage. There are a lot of what I would call activities and strengths they can leverage, but we're very mindful that the customer support, the customer engagement model, stays pretty much the same, because that has served us very well.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 658,
+      "batch_seconds": 15.948184826000215
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 703,
+      "batch_seconds": 16.73286601899963
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 703,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x017",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8e4179a484591f7273fd0acc51c1a83a34d6d2fbbfc62c58c1c005be75612889",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

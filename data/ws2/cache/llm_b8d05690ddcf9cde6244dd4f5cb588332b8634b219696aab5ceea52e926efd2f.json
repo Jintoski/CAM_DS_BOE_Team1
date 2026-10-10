@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss the impact of the Avios card on the bank's customer base and operations.\",\n  \"main_topics\": [\"Avios card\", \"customer base growth\", \"GAP and AARP\", \"organic growth\", \"post-COVID recovery\", \"operational learning\", \"technology deployment\", \"GAP performance\", \"customer sentiment\", \"repayment rates\", \"future outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The Avios card?\",\n  \"answer_quote\": \"That's the Avios card. The US is completely different. The customer sentiment is completely different. They are much, much more confident. And so, whilst repayment rates remain very high, they are starting to borrow, so we're seeing organic growth there, and obviously we added GAP and AARP before that.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of the Avios card on the bank's customer base and operations.\",\n  \"main_topics\": [\"Avios card\", \"customer base growth\", \"GAP and AARP\", \"organic growth\", \"post-COVID recovery\", \"operation learning\", \"technology deployment\", \"partnership evaluation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The Avios card?\",\n  \"answer_quote\": \"That's the Avios card. The US is completely different. The customer sentiment is completely different. They are much, much more confident. And so, whilst repayment rates remain very high, they are starting to borrow, so we're seeing organic growth there, and obviously we added GAP and AARP before that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of the Avios card on the bank's customer base and operations.\",\n  \"main_topics\": [\"Avios card\", \"customer base growth\", \"GAP and AARP\", \"organic growth\", \"post-COVID recovery\", \"operational learning\", \"technology deployment\", \"GAP performance\", \"customer sentiment\", \"repayment rates\", \"future outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The Avios card?\",\n  \"answer_quote\": \"That's the Avios card. The US is completely different. The customer sentiment is completely different. They are much, much more confident. And so, whilst repayment rates remain very high, they are starting to borrow, so we're seeing organic growth there, and obviously we added GAP and AARP before that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of the Avios card on the bank's customer base and operations.\",\n  \"main_topics\": [\"Avios card\", \"customer base growth\", \"GAP and AARP\", \"organic growth\", \"post-COVID recovery\", \"operational learning\", \"technology deployment\", \"GAP performance\", \"customer sentiment\", \"repayment rates\", \"future outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The Avios card?\",\n  \"answer_quote\": \"That's the Avios card. The US is completely different. The customer sentiment is completely different. They are much, much more confident. And so, whilst repayment rates remain very high, they are starting to borrow, so we're seeing organic growth there, and obviously we added GAP and AARP before that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 668,
+      "batch_seconds": 15.884756681999534
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 713,
+      "batch_seconds": 18.00490129800164
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 713,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b8d05690ddcf9cde6244dd4f5cb588332b8634b219696aab5ceea52e926efd2f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

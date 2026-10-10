@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on Basel 3.1 RWA inflation impact\",\n  \"main_topics\": [\"Basel 3.1\", \"RWA inflation\", \"US consumer bank\", \"IRB cards\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My understanding of your existing guidance on Basel 3.1 is the low end of 5 to 10% [RWA inflation], but I think that includes the US consumer bank, or am I wrong in that?\",\n  \"answer_quote\": \"£16bn from the impact of US IRB cards. So you can do the maths from December 2023, it's a bit less than 5%.\",\n  \"reason\": \"The answer provides a partial response to the question, with a specific numeric example but does not fully address the query about the impact of Basel 3.1 on RWA inflation for the US consumer bank.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on Basel 3.1 RWA inflation impact\",\n  \"main_topics\": [\"Basel 3.1\", \"RWA inflation\", \"US consumer bank\", \"IRB cards\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My understanding of your existing guidance on Basel 3.1 is the low end of 5 to 10% [RWA inflation], but I think that includes the US consumer bank, or am I wrong in that?\",\n  \"answer_quote\": \"£16bn from the impact of US IRB cards. So you can do the maths from December 2023, it's a bit less than 5%. Okay, let's keep going, thank you.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 511,
+      "batch_seconds": 11.167466369000067
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 556,
+      "batch_seconds": 10.71841162399869
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a55e5af03f2f4ba7adffdea4bb6cde11f1470924ef3d16ac733d30b5288c8a0f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on Basel 3.1 RWA inflation impact",
+    "main_topics": [
+      "Basel 3.1",
+      "RWA inflation",
+      "US consumer bank",
+      "IRB cards"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "My understanding of your existing guidance on Basel 3.1 is the low end of 5 to 10% [RWA inflation], but I think that includes the US consumer bank, or am I wrong in that?",
+    "answer_quote": "£16bn from the impact of US IRB cards. So you can do the maths from December 2023, it's a bit less than 5%.",
+    "reason": "The answer provides a partial response to the question, with a specific numeric example but does not fully address the query about the impact of Basel 3.1 on RWA inflation for the US consumer bank."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify capital target range and mortgage book headwind\",\n  \"main_topics\": [\"capital target range\", \"mortgage book headwind\", \"regulatory changes\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first question was on capital in terms of targets. You got the 13% to 14% target.\",\n  \"answer_quote\": \"On the first one, if you go back to the beginning of 2025, what we said was that because we were carrying more Pillar 2 in advance of IRB implementation, you should expect us to operate at the top of the range or towards the top of the range.\",\n  \"reason\": \"The answer directly addresses the question about the capital target range and the mortgage book headwind, providing a clear stance and high evidence level with numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarify capital target range and the impact of Pillar 2A changes, and define the 'headwind' in the mortgage book.\",\n \"main_topics\": [\"Capital Target Range\", \"Pillar 2A Changes\", \"Mortgage Book Headwind\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first question was on capital in terms of targets. You got the 13% to 14% target.\",\n \"answer_quote\": \"On the first one, if you go back to the beginning of 2025, what we said was that because we were carrying more Pillar 2 in advance of IRB implementation, you should expect us to operate at the top of the range or towards the top of the range.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1228,
+      "batch_seconds": 33.825311269999474
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1273,
+      "batch_seconds": 96.81079734500054
+    }
+  ],
+  "exchange_id": "f7f72b2656e8-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e829a32a23557c1b39a3a9d2bb3f35b06d577717bed8337840c2d2358d52cea7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify capital target range and mortgage book headwind",
+    "main_topics": [
+      "capital target range",
+      "mortgage book headwind",
+      "regulatory changes"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first question was on capital in terms of targets. You got the 13% to 14% target.",
+    "answer_quote": "On the first one, if you go back to the beginning of 2025, what we said was that because we were carrying more Pillar 2 in advance of IRB implementation, you should expect us to operate at the top of the range or towards the top of the range.",
+    "reason": "The answer directly addresses the question about the capital target range and the mortgage book headwind, providing a clear stance and high evidence level with numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

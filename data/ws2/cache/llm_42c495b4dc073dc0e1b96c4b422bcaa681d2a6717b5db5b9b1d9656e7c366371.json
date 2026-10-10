@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Proportion of Hang Seng deal momentum and future synergy effects, and importance of Indonesian market in HSBC's global footprint.\",\n  \"main_topics\": [\"Hang Seng deal momentum\", \"Future synergy effects\", \"HSBC's global footprint\", \"Indonesian market importance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What proportion of such momentum could be attributed to the synergies out of the Hang Seng deal? Also, some colour on the future synergy effects of the Hang Seng deal would be helpful for us.\",\n  \"answer_quote\": \"We have already started investing in Hong Kong, both in the red brand and the green brand, in terms of technology, in terms of simplifying customer journeys and training and scaling of our colleagues, so we do expect progressively the growth from the synergies to come through starting from the second half of this year, but mainly through 2027/28.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on the proportion of momentum and future synergy effects, and the importance of the Indonesian market, with high evidence level and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 878,
+      "batch_seconds": 23.759455553999942
+    }
+  ],
+  "exchange_id": "351debb0a36f-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "42c495b4dc073dc0e1b96c4b422bcaa681d2a6717b5db5b9b1d9656e7c366371",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Proportion of Hang Seng deal momentum and future synergy effects, and importance of Indonesian market in HSBC's global footprint.",
+    "main_topics": [
+      "Hang Seng deal momentum",
+      "Future synergy effects",
+      "HSBC's global footprint",
+      "Indonesian market importance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "What proportion of such momentum could be attributed to the synergies out of the Hang Seng deal? Also, some colour on the future synergy effects of the Hang Seng deal would be helpful for us.",
+    "answer_quote": "We have already started investing in Hong Kong, both in the red brand and the green brand, in terms of technology, in terms of simplifying customer journeys and training and scaling of our colleagues, so we do expect progressively the growth from the synergies to come through starting from the second half of this year, but mainly through 2027/28.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on the proportion of momentum and future synergy effects, and the importance of the Indonesian market, with high evidence level and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

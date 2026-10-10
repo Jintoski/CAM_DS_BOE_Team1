@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the need for banks to articulate a deposit strategy.\",\n  \"main_topics\": [\"Bank deposit strategy\", \"Bank value\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Unclear\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I guess the observation is that I think banks need to probably articulate a deposit strategy in a way that they didn't for the last decade, because they're now worth something in a way that they weren't beforehand.\",\n  \"answer_quote\": \"Well, transaction accounts, consumer, wholesale, every single day of the week. That's for us.\",\n  \"reason\": \"The answer does not directly address the need for a deposit strategy and instead provides a list of account types, showing a lack of alignment with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 449,
+      "batch_seconds": 9.044579651000276
+    }
+  ],
+  "exchange_id": "4970375d012d-x024",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9f51f0ed7e0354606e100bc37e7db232e8a20ab56af6c9f1b881537b2901bdf4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the need for banks to articulate a deposit strategy.",
+    "main_topics": [
+      "Bank deposit strategy",
+      "Bank value"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Unclear",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "I guess the observation is that I think banks need to probably articulate a deposit strategy in a way that they didn't for the last decade, because they're now worth something in a way that they weren't beforehand.",
+    "answer_quote": "Well, transaction accounts, consumer, wholesale, every single day of the week. That's for us.",
+    "reason": "The answer does not directly address the need for a deposit strategy and instead provides a list of account types, showing a lack of alignment with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Impact of regulatory RWA inflation on mortgage pricing\",\n  \"main_topics\": [\"mortgages\", \"regulatory RWA inflation\", \"pricing adjustment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"There is set to be quite a lot of regulatory RWA inflation coming down the pipes in the next 12 to 18 months. Do you have any sense as to whether that might provide a floor to any of the pricing at a system level or do you think the system is already pricing basically adjusting for this RWA inflation?\",\n  \"answer_quote\": \"Well, we are certainly thinking about that RWA uplift. I think in aggregate I think the 10% floor at the portfolio level adds about $3 billion of RWA uplift for us, which is not material in the overall context of our UK mortgage business, but inevitably if RWA floors bite or output floors bite way down the track, then pricing will adjust accordingly I think.\",\n  \"reason\": \"The answer directly addresses the question, providing a sense of the impact of RWA inflation on pricing and mentioning a specific numeric example of RWA uplift.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of regulatory RWA inflation on mortgage pricing\",\n  \"main_topics\": [\"Regulatory RWA inflation\", \"Mortgage pricing\", \"RWA uplift\", \"Pricing adjustment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"There is set to be quite a lot of regulatory RWA inflation coming down the pipes in the next 12 to 18 months. Do you have any sense as to whether that might provide a floor to any of the pricing at a system level or do you think the system is already pricing basically adjusting for this RWA inflation?\",\n  \"answer_quote\": \"Well, we are certainly thinking about that RWA uplift. I think in aggregate I think the 10% floor at the portfolio level adds about $3 billion of RWA uplift for us, which is not material in the overall context of our UK mortgage business, but inevitably if RWA floors bite or output floors bite way down the track, then pricing will adjust accordingly I think.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 546,
+      "batch_seconds": 12.863929854000162
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 591,
+      "batch_seconds": 14.185100319999037
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "287941bea8d39d50a95468382bacb04cd04a73737cb9c3c72d94cc0f3f7bd315",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Impact of regulatory RWA inflation on mortgage pricing",
+    "main_topics": [
+      "mortgages",
+      "regulatory RWA inflation",
+      "pricing adjustment"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "There is set to be quite a lot of regulatory RWA inflation coming down the pipes in the next 12 to 18 months. Do you have any sense as to whether that might provide a floor to any of the pricing at a system level or do you think the system is already pricing basically adjusting for this RWA inflation?",
+    "answer_quote": "Well, we are certainly thinking about that RWA uplift. I think in aggregate I think the 10% floor at the portfolio level adds about $3 billion of RWA uplift for us, which is not material in the overall context of our UK mortgage business, but inevitably if RWA floors bite or output floors bite way down the track, then pricing will adjust accordingly I think.",
+    "reason": "The answer directly addresses the question, providing a sense of the impact of RWA inflation on pricing and mentioning a specific numeric example of RWA uplift."
+  },
+  "whitespace_adjusted_quotes": []
+}

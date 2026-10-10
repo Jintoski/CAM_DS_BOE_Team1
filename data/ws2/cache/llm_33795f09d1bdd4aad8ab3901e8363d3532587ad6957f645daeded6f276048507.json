@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's conservative stance on deposit trends and seek clarification on the differences in guidance compared to competitors.\",\n  \"main_topics\": [\"Bank's conservative stance\", \"Deposit trends\", \"Guidance differences\", \"Competitor comparison\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Got one quick one, hopefully the last one on deposits and then one on capital. On deposits to hopefully nail this: your range of the guidance, you did say that at the top end was continuing trends. After having listened to all your competitors during the result season, they kind of pointing to a slower trend and more stability in October. So I guess, are you being more conservative or is it more about that timing that you've spoken to around that mailing? What would be your guess around the differences in guidance? And then I'll ask you about the capital.\",\n  \"answer_quote\": \"I mean it may be more conservative, but my view is the factors that were present in Q323, absent one particular rate, are still there in Q423. Pricing remains competitive, affordability remains pretty stretched for customers. Rates remain pretty high and customers continue to look for yield. The broad macro trends will still be there, there may be a question of degree, which is depending on particular price points in the industry. But as I answered before, Q124 and Q224, you're still going to see that degree of competition be there in my view. We'll see, it's really difficult to call. So, there will be an individual perspective here, I'm sure.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the bank's conservative stance in deposit guidance compared to competitors.\",\n  \"main_topics\": [\"Deposit Guidance\", \"Competitor Comparison\", \"Bank's Conservative Stance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"your range of the guidance, you did say that at the top end was continuing trends. After having listened to all your competitors during the result season, they kind of pointing to a slower trend and more stability in October. So I guess, are you being more conservative or is it more about that timing that you've spoken to around that mailing? What would be your guess around the differences in guidance?\",\n  \"answer_quote\": \"I mean it may be more conservative, but my view is the factors that were present in Q323, absent one particular rate, are still there in Q423. Pricing remains competitive, affordability remains pretty stretched for customers. Rates remain pretty high and customers continue to look for yield. The broad macro trends will still be there, there may be a question of degree, which is depending on particular price points in the industry. But as I answered before, Q124 and Q224, you're still going to see that degree of competition be there in my view. We'll see, it's really difficult to call. So, there will be an individual perspective here, I'm sure.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the bank's conservative stance on deposit trends and compare it with competitors' guidance.\",\n  \"main_topics\": [\"Bank's conservative stance\", \"Deposit trends\", \"Competitors' guidance\", \"Capital\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Got one quick one, hopefully the last one on deposits and then one on capital. On deposits to hopefully nail this: your range of the guidance, you did say that at the top end was continuing trends. After having listened to all your competitors during the result season, they kind of pointing to a slower trend and more stability in October. So I guess, are you being more conservative or is it more about that timing that you've spoken to around that mailing? What would be your guess around the differences in guidance? And then I'll ask you about the capital.\",\n  \"answer_quote\": \"I mean it may be more conservative, but my view is the factors that were present in Q323, absent one particular rate, are still there in Q423. Pricing remains competitive, affordability remains pretty stretched for customers. Rates remain pretty high and customers continue to look for yield. The broad macro trends will still be there, there may be a question of degree, which is depending on particular price points in the industry. But as I answered before, Q124 and Q224, you're still going to see that degree of competition be there in my view. We'll see, it's really difficult to call. So, there will be an individual perspective here, I'm sure.\",\n  \"reason\": \"The answer partially addresses the question by discussing the bank's view on deposit trends and competition but does not provide a clear stance on whether the bank is more conservative or not, nor does it directly compare the bank's guidance with competitors'.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the bank's conservative stance on deposit trends and seek clarification on the differences in guidance compared to competitors.\",\n  \"main_topics\": [\"Bank's conservative stance\", \"Deposit trends\", \"Guidance differences\", \"Competitor comparison\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Got one quick one, hopefully the last one on deposits and then one on capital. On deposits to hopefully nail this: your range of the guidance, you did say that at the top end was continuing trends. After having listened to all your competitors during the result season, they kind of pointing to a slower trend and more stability in October. So I guess, are you being more conservative or is it more about that timing that you've spoken to around that mailing? What would be your guess around the differences in guidance? And then I'll ask you about the capital.\",\n  \"answer_quote\": \"I mean it may be more conservative, but my view is the factors that were present in Q323, absent one particular rate, are still there in Q423. Pricing remains competitive, affordability remains pretty stretched for customers. Rates remain pretty high and customers continue to look for yield. The broad macro trends will still be there, there may be a question of degree, which is depending on particular price points in the industry. But as I answered before, Q124 and Q224, you're still going to see that degree of competition be there in my view. We'll see, it's really difficult to call. So, there will be an individual perspective here, I'm sure.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 636,
+      "batch_seconds": 15.20493993800028
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 681,
+      "batch_seconds": 16.749183160998655
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 684,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "33795f09d1bdd4aad8ab3901e8363d3532587ad6957f645daeded6f276048507",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

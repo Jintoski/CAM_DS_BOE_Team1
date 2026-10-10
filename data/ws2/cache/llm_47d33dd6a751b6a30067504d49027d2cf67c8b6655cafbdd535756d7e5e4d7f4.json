@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Investments in UK business and Madoff litigation outcomes\",\n  \"main_topics\": [\"UK business investments\", \"Madoff litigation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you. Two questions from me, the first just on the UK business. It looked like there was a bit more investment and there was also a little bit of a tick up in the impairment rate versus prior quarters. I just wanted to check what kind of investments you're making there for what kind of opportunity and then, on the impairment, what's driving that?\",\n  \"answer_quote\": \"First, on the UK business, we have continued to invest for wealth, both in terms of hiring of RMs to grow our Premier customer numbers and to sell more wealth products for the customers with who we already have very strong deposit bases. We are also investing, as we've opened the new wealth centre in the UK in this space, and then Business Banking has been important for us for investing in, in terms of customer service, customer journeys and that's primarily a liability-driven business. Having said that, we are very pleased that our corporate lending book in the UK has shown sustainable growth in the sectors that we have lent into, so more into the new economy sectors, into infrastructure, into social housing, into innovation and so on. That has been really positive for us. From an impairment perspective, just to give you context, a $300 million charge in a quarter for the UK is not abnormal. In prior quarters, where we had a release, the charge can fluctuate between $200 million to $300 million. In terms of the specifics, there were a few single-name defaults, but they were all of very small amounts, so nothing notable, and no specific concentration in any sector. I feel quite comfortable in that space.\",\n  \"reason\": \"The answer directly addresses both questions, providing specific details and figures for UK business investments and Madoff litigation outcomes.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 904,
+      "batch_seconds": 22.692067773000417
+    }
+  ],
+  "exchange_id": "499cc685b9a4-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "47d33dd6a751b6a30067504d49027d2cf67c8b6655cafbdd535756d7e5e4d7f4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investments in UK business and Madoff litigation outcomes",
+    "main_topics": [
+      "UK business investments",
+      "Madoff litigation"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Thank you. Two questions from me, the first just on the UK business. It looked like there was a bit more investment and there was also a little bit of a tick up in the impairment rate versus prior quarters. I just wanted to check what kind of investments you're making there for what kind of opportunity and then, on the impairment, what's driving that?",
+    "answer_quote": "First, on the UK business, we have continued to invest for wealth, both in terms of hiring of RMs to grow our Premier customer numbers and to sell more wealth products for the customers with who we already have very strong deposit bases. We are also investing, as we've opened the new wealth centre in the UK in this space, and then Business Banking has been important for us for investing in, in terms of customer service, customer journeys and that's primarily a liability-driven business. Having said that, we are very pleased that our corporate lending book in the UK has shown sustainable growth in the sectors that we have lent into, so more into the new economy sectors, into infrastructure, into social housing, into innovation and so on. That has been really positive for us. From an impairment perspective, just to give you context, a $300 million charge in a quarter for the UK is not abnormal. In prior quarters, where we had a release, the charge can fluctuate between $200 million to $300 million. In terms of the specifics, there were a few single-name defaults, but they were all of very small amounts, so nothing notable, and no specific concentration in any sector. I feel quite comfortable in that space.",
+    "reason": "The answer directly addresses both questions, providing specific details and figures for UK business investments and Madoff litigation outcomes."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Ask about IB's strategy on RWAs and revenue-to-RWA target.\",\n  \"main_topics\": [\"IB strategy\", \"RWAs\", \"Revenue-to-RWA target\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one you talked about potentially monetising market opportunities in the IB and could that lead you to potentially increase the proportion of RWAs of the total group, at least momentarily.\",\n  \"answer_quote\": \"So our expectation for the proportion of RWAs in the IB remains intact. You know, we want to get to the position where that is circa 50% by 2026 and I just want to highlight that's not a magic number, that's not expected to be the optimum balance for the group. It's the point in time that we think we can reach.\",\n  \"reason\": \"The answer directly addresses the first question about increasing RWAs and provides a clear target for RWAs proportion by 2026, with high-level numeric evidence and forward guidance.\"\n}",
+  "data": {
+    "question_intent": "Ask about IB's strategy on RWAs and revenue-to-RWA target.",
+    "main_topics": [
+      "IB strategy",
+      "RWAs",
+      "Revenue-to-RWA target"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one you talked about potentially monetising market opportunities in the IB and could that lead you to potentially increase the proportion of RWAs of the total group, at least momentarily.",
+    "answer_quote": "So our expectation for the proportion of RWAs in the IB remains intact. You know, we want to get to the position where that is circa 50% by 2026 and I just want to highlight that's not a magic number, that's not expected to be the optimum balance for the group. It's the point in time that we think we can reach.",
+    "reason": "The answer directly addresses the first question about increasing RWAs and provides a clear target for RWAs proportion by 2026, with high-level numeric evidence and forward guidance."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "ce1602510e69-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "13605c582b106680c680182be34876c6f64e0667ff97a7d0e6724dd9285800a5"
+}

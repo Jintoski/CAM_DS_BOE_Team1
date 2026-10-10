@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for further details on instant access demand accounts, current accounts, regional deposit split, and potential for expanding the hedge.\",\n  \"main_topics\": [\"Instant access demand accounts\", \"Current accounts\", \"Regional deposit split\", \"Hedge expansion\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I wanted to get a bit more understanding on the $1.2 trillion of instant access demand accounts. If you could give further split, if possible, a little bit more into current accounts, and how should we think about the deposit split by region if possible?\",\n  \"answer_quote\": \"We have disclosed instant access deposits by legal entity - you can see the large numbers for HBAP come through from Hong Kong, and because Hong Kong has shorter-term deposits, the instant access number is slightly smaller in Hong Kong compared to some of the other markets where term deposits only start at one year plus. In terms of whether these disclosures just relate to wholesale operating accounts or current accounts - this is everything - anything which is not term deposits. In terms of the countries, the best disclosure is on page 19. Deposits have been a very strong driver of Banking NII; this disclosure makes that even clearer, just because of the percentage held in the instant access deposits versus term deposits, which is a strength of the franchise and continues to grow. Now, from a hedge perspective, we've always said that we will continue to grow the hedge, but the biggest increases are behind us. Our structural hedge is around $604 billion as at the end of Q1. That's across a range of currencies. We have, in some of our markets and some of our currencies, taken us to the point where we're comfortable with the hedge. We're not seeking to increase. One of the exceptions to that is Hong Kong dollar. There's still scope for us to increase the hedge there. You can see, in our pack, the sensitivity by currency. You can see through that disclosure some of the currencies we would target and where we are at the moment. The short answer to your direct question in terms of, 'Deposits growing. Could that lead to an increase in the structural hedge?' is yes, potentially it could. It wouldn't be, to Pam's point, at the same pace that we've seen over the past two years, but, where there's opportunity, we would look towards increasing. We think that instant access is the most useful breakdown rather than checking accounts per se, but we'll pick that up afterwards.\",\n  \"reason\": \"The answer provides a direct response to the question, with high evidence level, including numeric evidence and a clear narrative alignment.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 872,
+      "batch_seconds": 23.58140372499929
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "84ad15e5ce7ceadc21df349dbaac0a7d72c4dfe5f57dd7dfa9b8cc5f5344e158",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for further details on instant access demand accounts, current accounts, regional deposit split, and potential for expanding the hedge.",
+    "main_topics": [
+      "Instant access demand accounts",
+      "Current accounts",
+      "Regional deposit split",
+      "Hedge expansion"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I wanted to get a bit more understanding on the $1.2 trillion of instant access demand accounts. If you could give further split, if possible, a little bit more into current accounts, and how should we think about the deposit split by region if possible?",
+    "answer_quote": "We have disclosed instant access deposits by legal entity - you can see the large numbers for HBAP come through from Hong Kong, and because Hong Kong has shorter-term deposits, the instant access number is slightly smaller in Hong Kong compared to some of the other markets where term deposits only start at one year plus. In terms of whether these disclosures just relate to wholesale operating accounts or current accounts - this is everything - anything which is not term deposits. In terms of the countries, the best disclosure is on page 19. Deposits have been a very strong driver of Banking NII; this disclosure makes that even clearer, just because of the percentage held in the instant access deposits versus term deposits, which is a strength of the franchise and continues to grow. Now, from a hedge perspective, we've always said that we will continue to grow the hedge, but the biggest increases are behind us. Our structural hedge is around $604 billion as at the end of Q1. That's across a range of currencies. We have, in some of our markets and some of our currencies, taken us to the point where we're comfortable with the hedge. We're not seeking to increase. One of the exceptions to that is Hong Kong dollar. There's still scope for us to increase the hedge there. You can see, in our pack, the sensitivity by currency. You can see through that disclosure some of the currencies we would target and where we are at the moment. The short answer to your direct question in terms of, 'Deposits growing. Could that lead to an increase in the structural hedge?' is yes, potentially it could. It wouldn't be, to Pam's point, at the same pace that we've seen over the past two years, but, where there's opportunity, we would look towards increasing. We think that instant access is the most useful breakdown rather than checking accounts per se, but we'll pick that up afterwards.",
+    "reason": "The answer provides a direct response to the question, with high evidence level, including numeric evidence and a clear narrative alignment."
+  },
+  "whitespace_adjusted_quotes": []
+}

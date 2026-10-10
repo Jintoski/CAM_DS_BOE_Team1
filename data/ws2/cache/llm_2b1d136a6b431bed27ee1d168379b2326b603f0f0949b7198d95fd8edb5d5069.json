@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for explanation on cautious view of Chinese commercial real estate\",\n  \"main_topics\": [\"Chinese commercial real estate\", \"market shift\", \"liquidity\", \"financing markets\", \"portfolio review\", \"provisions\", \"bond pricing\", \"default rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk us through a bit more of the data points that led you to take a more cautious view on Chinese commercial real estate in the fourth quarter? Is it that there were particular metrics that you monitor that were showing a deterioration there or was it a more qualitative view taken on policy news that led you to push up provisions there?\",\n  \"answer_quote\": \"Well, there was clearly a big structural market shift that happened around late Q3 last year, which led to much tighter liquidity and effectively a closing of the international financing markets for Chinese real estate developers.\",\n  \"reason\": \"The response directly addresses the question with high evidence, including specific data points and a clear narrative alignment with the question's intent.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for explanation on cautious view of Chinese commercial real estate\",\n  \"main_topics\": [\"Chinese commercial real estate\", \"market shift\", \"liquidity\", \"financing markets\", \"portfolio review\", \"provisions\", \"bond pricing\", \"default rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk us through a bit more of the data points that led you to take a more cautious view on Chinese commercial real estate in the fourth quarter? Is it that there were particular metrics that you monitor that were showing a deterioration there or was it a more qualitative view taken on policy news that led you to push up provisions there?\",\n  \"answer_quote\": \"Well, there was clearly a big structural market shift that happened around late Q3 last year, which led to much tighter liquidity and effectively a closing of the international financing markets for Chinese real estate developers. So that's both name by name and a general overview of the portfolio. But you should assume that we spent a lot of time reviewing that $20 billion portfolio. And you can see in the disclosures and report and accounts the shift from stage 1 to stage 2 in that portfolio and indeed the CRE portfolio more generally, and associated provisions with that; that gets you to the number which Ewen mentioned before, which was the c.$600 million in total, which we made. But if you just look at the bond pricing of Chinese real estate developers from about late October, you see this complete bifurcation of bond pricing, and you just look at the implied default rates on some of those bonds.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for explanation on cautious view regarding Chinese commercial real estate\",\n  \"main_topics\": [\"Chinese commercial real estate\", \"market shift\", \"liquidity\", \"financing markets\", \"portfolio review\", \"provisions\", \"bond pricing\", \"default rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk us through a bit more of the data points that led you to take a more cautious view on Chinese commercial real estate in the fourth quarter? Is it that there were particular metrics that you monitor that were showing a deterioration there or was it a more qualitative view taken on policy news that led you to push up provisions there?\",\n  \"answer_quote\": \"Well, there was clearly a big structural market shift that happened around late Q3 last year, which led to much tighter liquidity and effectively a closing of the international financing markets for Chinese real estate developers. So that's both name by name and a general overview of the portfolio. But you should assume that we spent a lot of time reviewing that $20 billion portfolio. And you can see in the disclosures and report and accounts the shift from stage 1 to stage 2 in that portfolio and indeed the CRE portfolio more generally, and associated provisions with that; that gets you to the number which Ewen mentioned before, which was the c.$600 million in total, which we made. But if you just look at the bond pricing of Chinese real estate developers from about late October, you see this complete bifurcation of bond pricing, and you just look at the implied default rates on some of those bonds.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for explanation on cautious view of Chinese commercial real estate\",\n  \"main_topics\": [\"Chinese commercial real estate\", \"market shift\", \"liquidity\", \"financing markets\", \"portfolio review\", \"provisions\", \"bond pricing\", \"default rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk us through a bit more of the data points that led you to take a more cautious view on Chinese commercial real estate in the fourth quarter? Is it that there were particular metrics that you monitor that were showing a deterioration there or was it a more qualitative view taken on policy news that led you to push up provisions there?\",\n  \"answer_quote\": \"Well, there was clearly a big structural market shift that happened around late Q3 last year, which led to much tighter liquidity and effectively a closing of the international financing markets for Chinese real estate developers.\",\n  \"reason\": \"The response directly addresses the question with high evidence, including specific data points and a clear narrative alignment with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 637,
+      "batch_seconds": 16.037525024999923
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 682,
+      "batch_seconds": 16.749183160998655
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 682,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2b1d136a6b431bed27ee1d168379b2326b603f0f0949b7198d95fd8edb5d5069",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing capital allocation and regulatory impact on US banking operations\",\n  \"main_topics\": [\"capital allocation\", \"Basel endgame\", \"US banking operations\", \"regulatory impact\", \"intermediate holding company\", \"client location\", \"product type\", \"PRA rules\", \"capital position\", \"BBPLC\", \"IHC\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the question's really, do those numbers roughly make sense to you? Related to that, what are you required to book locally and what kind of flexibility you would have to book some businesses maybe in the branch or here in the UK?\",\n  \"answer_quote\": \"Not all of the US IB business is booked through the IHC, some of it is booked depending on the client location, and indeed the specific product, it might be booked in the branch. To give you an idea, much of the IB banking activity you might expect to see coming through BBPLC, simply because it's a banking entity. Whereas, if you were to look at some of the Prime activity, it's going to be booked in the broker dealer within the IHC. So I think you are comparing the revenue with a capital position that isn't quite complete because actually some of it sits within BBPLC. If I step back, that's really how we think about booking the business, it's very much dependent on the client. It's very much dependent on the type of business. So there is a degree of flexibility about it, but it's pretty much product and client driven. Only about 10%, maybe slightly less, of our capital is actually in the IHC. So the Basel endgame does have an impact, but it's not enormous. Therefore, what we are really focused on, as I said before, is the PRA rules, finalisation of those, they will be the binding constraints for the Group, and we will see that finally emerge through Q423 and Q124.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing capital allocation and regulatory impact on US business operations\",\n  \"main_topics\": [\"Capital Allocation\", \"Basel Endgame\", \"Regulatory Requirements\", \"Business Booking Flexibility\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the question's really, do those numbers roughly make sense to you? Related to that, what are you required to book locally and what kind of flexibility you would have to book some businesses maybe in the branch or here in the UK?\",\n  \"answer_quote\": \"Not all of the US IB business is booked through the IHC, some of it is booked depending on the client location, and indeed the specific product, it might be booked in the branch. To give you an idea, much of the IB banking activity you might expect to see coming through BBPLC, simply because it's a banking entity. Whereas, if you were to look at some of the Prime activity, it's going to be booked in the broker dealer within the IHC. So I think you are comparing the revenue with a capital position that isn't quite complete because actually some of it sits within BBPLC. If I step back, that's really how we think about booking the business, it's very much dependent on the client. It's very much dependent on the type of business. So there is a degree of flexibility about it, but it's pretty much product and client driven. Only about 10%, maybe slightly less, of our capital is actually in the IHC. So the Basel endgame does have an impact, but it's not enormous. Therefore, what we are really focused on, as I said before, is the PRA rules, finalisation of those, they will be the binding constraints for the Group, and we will see that finally emerge through Q423 and Q124.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing capital allocation and regulatory impact on US banking operations\",\n  \"main_topics\": [\"capital allocation\", \"Basel endgame\", \"US banking operations\", \"regulatory impact\", \"intermediate holding company\", \"client location\", \"product type\", \"PRA rules\", \"capital position\", \"BBPLC\", \"IHC\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the question's really, do those numbers roughly make sense to you? Related to that, what are you required to book locally and what kind of flexibility you would have to book some businesses maybe in the branch or here in the UK?\",\n  \"answer_quote\": \"Not all of the US IB business is booked through the IHC, some of it is booked depending on the client location, and indeed the specific product, it might be booked in the branch. To give you an idea, much of the IB banking activity you might expect to see coming through BBPLC, simply because it's a banking entity. Whereas, if you were to look at some of the Prime activity, it's going to be booked in the broker dealer within the IHC. So I think you are comparing the revenue with a capital position that isn't quite complete because actually some of it sits within BBPLC. If I step back, that's really how we think about booking the business, it's very much dependent on the client. It's very much dependent on the type of business. So there is a degree of flexibility about it, but it's pretty much product and client driven. Only about 10%, maybe slightly less, of our capital is actually in the IHC. So the Basel endgame does have an impact, but it's not enormous. Therefore, what we are really focused on, as I said before, is the PRA rules, finalisation of those, they will be the binding constraints for the Group, and we will see that finally emerge through Q423 and Q124.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing capital allocation and regulatory impact on US banking operations\",\n  \"main_topics\": [\"capital allocation\", \"Basel endgame\", \"US banking operations\", \"regulatory impact\", \"intermediate holding company\", \"client location\", \"product type\", \"PRA rules\", \"capital position\", \"BBPLC\", \"IHC\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the question's really, do those numbers roughly make sense to you? Related to that, what are you required to book locally and what kind of flexibility you would have to book some businesses maybe in the branch or here in the UK?\",\n  \"answer_quote\": \"Not all of the US IB business is booked through the IHC, some of it is booked depending on the client location, and indeed the specific product, it might be booked in the branch. To give you an idea, much of the IB banking activity you might expect to see coming through BBPLC, simply because it's a banking entity. Whereas, if you were to look at some of the Prime activity, it's going to be booked in the broker dealer within the IHC. So I think you are comparing the revenue with a capital position that isn't quite complete because actually some of it sits within BBPLC. If I step back, that's really how we think about booking the business, it's very much dependent on the client. It's very much dependent on the type of business. So there is a degree of flexibility about it, but it's pretty much product and client driven. Only about 10%, maybe slightly less, of our capital is actually in the IHC. So the Basel endgame does have an impact, but it's not enormous. Therefore, what we are really focused on, as I said before, is the PRA rules, finalisation of those, they will be the binding constraints for the Group, and we will see that finally emerge through Q423 and Q124.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 824,
+      "batch_seconds": 24.884960510999917
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 869,
+      "batch_seconds": 25.60815282600015
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 869,
+      "batch_seconds": 24.21767322100095
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8098b2717b03df1a6188c6153106ac10126692b77551eaf36b3b420da12c4dbf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

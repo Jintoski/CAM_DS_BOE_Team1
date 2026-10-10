@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on Asia Wealth Management strategy and UK mortgage growth.\",\n  \"main_topics\": [\"Asia Wealth Management strategy\", \"UK mortgage growth\", \"Acquisitions and organic growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So I just have a question on the Asia Wealth Management strategy. Just bearing in mind that you're looking at a couple of bolt-on opportunities, when you look at the HSBC Wealth Management offering in Asia, where do you think might be particular geographic or product gaps that you might be looking to fill in?\",\n  \"answer_quote\": \"On Wealth bolt-ons, we're clearly looking at pan-Asia. We believe we have good organic growth opportunities with the platform we have in Hong Kong and, therefore, Hong Kong would be primarily organic growth.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Geographic and product gaps in Asia Wealth Management, and inorganic strategies in UK mortgage growth\",\n  \"main_topics\": [\"Asia Wealth Management strategy\", \"UK mortgage growth\", \"bolt-on opportunities\", \"organic growth\", \"acquisitions\", \"product capabilities\", \"distribution capabilities\", \"market share\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So I just have a question on the Asia Wealth Management strategy. Just bearing in mind that you're looking at a couple of bolt-on opportunities, when you look at the HSBC Wealth Management offering in Asia, where do you think might be particular geographic or product gaps that you might be looking to fill in?\",\n  \"answer_quote\": \"On Wealth bolt-ons, we're clearly looking at pan-Asia. We believe we have good organic growth opportunities with the platform we have in Hong Kong and, therefore, Hong Kong would be primarily organic growth. We're organically investing in China to grow our Wealth business there and we've given you the plans for that - recruiting an additional 3,000 people over the medium term with already 600 done in the first - up until the first half this year. If you're looking at, therefore, where the bolt-ons are likely to be, they're likely to be rest of Asia. In terms of capabilities, we're looking at both product and distribution capabilities to accelerate our organic growth plans there. We're willing to invest organically in the rest of Asia, but if we can find some bolt-on acquisitions that can accelerate those organic investment plans, that would be helpful. We are looking at three to four as we speak and they are a combination of product and distribution capabilities being acquired in areas such as insurance, high net worth wealth management and asset management, so those would be the primary areas of focus.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on Asia Wealth Management strategy and UK mortgage growth.\",\n  \"main_topics\": [\"Asia Wealth Management strategy\", \"UK mortgage growth\", \"bolt-on opportunities\", \"organic growth\", \"acquisitions\", \"product capabilities\", \"distribution capabilities\", \"market share\", \"current account market share\", \"mortgage stock share\", \"broker distribution\", \"excess liquidity\", \"growth targets\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So I just have a question on the Asia Wealth Management strategy. Just bearing in mind that you're looking at a couple of bolt-on opportunities, when you look at the HSBC Wealth Management offering in Asia, where do you think might be particular geographic or product gaps that you might be looking to fill in?\",\n  \"answer_quote\": \"On Wealth bolt-ons, we're clearly looking at pan-Asia. We believe we have good organic growth opportunities with the platform we have in Hong Kong and, therefore, Hong Kong would be primarily organic growth. We're organically investing in China to grow our Wealth business there and we've given you the plans for that - recruiting an additional 3,000 people over the medium term with already 600 done in the first - up until the first half this year. If you're looking at, therefore, where the bolt-ons are likely to be, they're likely to be rest of Asia. In terms of capabilities, we're looking at both product and distribution capabilities to accelerate our organic growth plans there. We're willing to invest organically in the rest of Asia, but if we can find some bolt-on acquisitions that can accelerate those organic investment plans, that would be helpful. We are looking at three to four as we speak and they are a combination of product and distribution capabilities being acquired in areas such as insurance, high net worth wealth management and asset management, so those would be the primary areas of focus.\",\n  \"reason\": \"The response directly addresses the question about Asia Wealth Management strategy and UK mortgage growth, providing a complete answer with high evidence level, including numeric evidence and a clear stance on the bank's strategy and future plans.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1064,
+      "batch_seconds": 29.75517344200034
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1109,
+      "batch_seconds": 32.91855284799931
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1118,
+      "batch_seconds": 95.98136610499932
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9edb177fcdd586b57d29c1786a778b1eb238c33e3a87031682387aab8dcdc2e5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on Asia Wealth Management strategy and UK mortgage growth.",
+    "main_topics": [
+      "Asia Wealth Management strategy",
+      "UK mortgage growth",
+      "Acquisitions and organic growth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So I just have a question on the Asia Wealth Management strategy. Just bearing in mind that you're looking at a couple of bolt-on opportunities, when you look at the HSBC Wealth Management offering in Asia, where do you think might be particular geographic or product gaps that you might be looking to fill in?",
+    "answer_quote": "On Wealth bolt-ons, we're clearly looking at pan-Asia. We believe we have good organic growth opportunities with the platform we have in Hong Kong and, therefore, Hong Kong would be primarily organic growth.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

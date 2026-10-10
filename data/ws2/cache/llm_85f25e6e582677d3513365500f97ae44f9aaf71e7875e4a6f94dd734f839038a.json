@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Identify the main topic of the question and the stance of the answer.\",\n  \"main_topics\": [\"private equity\", \"problem areas\", \"bank earnings-call\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I had two questions. One, if we're covering off problem areas, I guess private equity - it seems to be every single day...\",\n  \"answer_quote\": \"We don't have to. We can talk about nice things. You're talking about problem areas.\",\n  \"reason\": \"The answer deflects from the question's focus on problem areas in private equity, without addressing the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discussing private equity as a problem area\",\n  \"main_topics\": [\"private equity\", \"problem areas\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I had two questions. One, if we're covering off problem areas, I guess private equity - it seems to be every single day...\",\n  \"answer_quote\": \"We don't have to. We can talk about nice things. You're talking about problem areas.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 434,
+      "batch_seconds": 8.018176011999458
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 479,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "4c46c28cb2e2-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "85f25e6e582677d3513365500f97ae44f9aaf71e7875e4a6f94dd734f839038a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Identify the main topic of the question and the stance of the answer.",
+    "main_topics": [
+      "private equity",
+      "problem areas",
+      "bank earnings-call"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "I had two questions. One, if we're covering off problem areas, I guess private equity - it seems to be every single day...",
+    "answer_quote": "We don't have to. We can talk about nice things. You're talking about problem areas.",
+    "reason": "The answer deflects from the question's focus on problem areas in private equity, without addressing the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

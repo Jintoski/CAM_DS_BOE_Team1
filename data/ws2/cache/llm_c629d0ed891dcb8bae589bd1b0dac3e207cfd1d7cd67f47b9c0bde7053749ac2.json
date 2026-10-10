@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Requesting specific financial data for a future date\",\n  \"main_topics\": [\"Financial Data\", \"Future Maturity Yield\", \"2027\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Understood. I don't suppose any chance you could tell us what the maturity yield on the hedges is in 2027?\",\n  \"answer_quote\": \"Not off the top of my head. The average is about three, but we'll come back to you if there's anything that we can help you [with] on the detail. That was three years average [duration], rather than the specific maturing yield, but we'll come back to you. Next question, please.\",\n  \"reason\": \"The answer does not provide the specific maturity yield for 2027, instead deflecting to a general average and promising to return with details.\"\n}",
+  "data": {
+    "question_intent": "Requesting specific financial data for a future date",
+    "main_topics": [
+      "Financial Data",
+      "Future Maturity Yield",
+      "2027"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Understood. I don't suppose any chance you could tell us what the maturity yield on the hedges is in 2027?",
+    "answer_quote": "Not off the top of my head. The average is about three, but we'll come back to you if there's anything that we can help you [with] on the detail. That was three years average [duration], rather than the specific maturing yield, but we'll come back to you. Next question, please.",
+    "reason": "The answer does not provide the specific maturity yield for 2027, instead deflecting to a general average and promising to return with details."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "700cb9deb01d-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c629d0ed891dcb8bae589bd1b0dac3e207cfd1d7cd67f47b9c0bde7053749ac2"
+}

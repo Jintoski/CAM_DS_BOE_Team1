@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Asks about the sensitivity of CET1 ratio to rating migration and the nature of CC&P income.\",\n  \"main_topics\": [\"CET1 ratio sensitivity\", \"CC&P income nature\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If we have a weaker economic environment next year, perhaps with lower house prices or corporates that have some rating migration, then if you could give us an idea of the sensitivity of the ratio to that, that would be really helpful.\",\n  \"answer_quote\": \"Just picking up on your CC&P comment, what we're seeing in CC&P is not only balance build, but we're also seeing increased purchase activity in the US.\",\n  \"reason\": \"The answer directly addresses the CET1 ratio sensitivity to economic conditions and rating migration, and clarifies the nature of CC&P income, aligning with the question's intent.\"\n}",
+  "data": {
+    "question_intent": "Asks about the sensitivity of CET1 ratio to rating migration and the nature of CC&P income.",
+    "main_topics": [
+      "CET1 ratio sensitivity",
+      "CC&P income nature"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "If we have a weaker economic environment next year, perhaps with lower house prices or corporates that have some rating migration, then if you could give us an idea of the sensitivity of the ratio to that, that would be really helpful.",
+    "answer_quote": "Just picking up on your CC&P comment, what we're seeing in CC&P is not only balance build, but we're also seeing increased purchase activity in the US.",
+    "reason": "The answer directly addresses the CET1 ratio sensitivity to economic conditions and rating migration, and clarifies the nature of CC&P income, aligning with the question's intent."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "335469fccfd8-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "54dd36bec49c66aa8c911ed4c7665a7c0e4450efe4e514337fc12947a05ff4e5"
+}

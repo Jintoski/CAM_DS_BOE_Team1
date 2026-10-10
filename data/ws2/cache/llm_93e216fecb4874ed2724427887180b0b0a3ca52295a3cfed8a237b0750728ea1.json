@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing the likelihood of significant changes to the bank's balance sheet in the next five years.\",\n  \"main_topics\": [\"Bank Balance Sheet\", \"Organic Growth\", \"Acquisitions\", \"Divestitures\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I guess a follow-up to that. I mean, I get what you say about the sort of balance of the business, but growing organically, changing organically is not really going to change that materially in the next five years, I don't imagine. So unless you're going to do something really material in terms of buying some retail banking or buying a big stable banking part to rebalance it and/or sell or close down a significant part of CIB. So the balance is not going to change materially, I mean it's been pretty much 60-40 for 7/8 years I would imagine.\",\n  \"answer_quote\": \"Look, I think you've got to approach it in a very careful and deliberate way. That's what we are doing.\",\n  \"reason\": \"The answer hedges the bank's approach to potential changes, indicating careful consideration without committing to specific actions, but does not directly address the likelihood of significant changes to the balance sheet.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 531,
+      "batch_seconds": 11.99581223000041
+    }
+  ],
+  "exchange_id": "4b42e60e1183-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "93e216fecb4874ed2724427887180b0b0a3ca52295a3cfed8a237b0750728ea1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing the likelihood of significant changes to the bank's balance sheet in the next five years.",
+    "main_topics": [
+      "Bank Balance Sheet",
+      "Organic Growth",
+      "Acquisitions",
+      "Divestitures"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I guess a follow-up to that. I mean, I get what you say about the sort of balance of the business, but growing organically, changing organically is not really going to change that materially in the next five years, I don't imagine. So unless you're going to do something really material in terms of buying some retail banking or buying a big stable banking part to rebalance it and/or sell or close down a significant part of CIB. So the balance is not going to change materially, I mean it's been pretty much 60-40 for 7/8 years I would imagine.",
+    "answer_quote": "Look, I think you've got to approach it in a very careful and deliberate way. That's what we are doing.",
+    "reason": "The answer hedges the bank's approach to potential changes, indicating careful consideration without committing to specific actions, but does not directly address the likelihood of significant changes to the balance sheet."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Follow-up on e-commerce shift, instalment financing, and reluctance to share 2019 revenue/profitability numbers\",\n \"main_topics\": [\"e-commerce shift\", \"instalment financing\", \"2019 revenue/profitability disclosure\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Hedged\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"On the [results] call, I asked questions about incremental margins and why you're going from large corporates towards SMEs. The answer you'd given was the e-commerce shift.\",\n \"answer_quote\": \"On Payments and margins, we're actually very well represented in the large corporates space, so large grocery stores, HMRC, etc. Volumes-wise, I think we may have the largest volumes in the UK by some distance already.\",\n \"reason\": \"The answer addresses all follow-up questions, provides a hedged stance, includes high evidence with numeric references, and partially aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1499,
+      "batch_seconds": 102.42691843500006
+    }
+  ],
+  "exchange_id": "d46e8685e978-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1feb116e43dde035262bbf86157ef1e396e5ca26f5c42087e75aa1a9148eb9b7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Follow-up on e-commerce shift, instalment financing, and reluctance to share 2019 revenue/profitability numbers",
+    "main_topics": [
+      "e-commerce shift",
+      "instalment financing",
+      "2019 revenue/profitability disclosure"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "On the [results] call, I asked questions about incremental margins and why you're going from large corporates towards SMEs. The answer you'd given was the e-commerce shift.",
+    "answer_quote": "On Payments and margins, we're actually very well represented in the large corporates space, so large grocery stores, HMRC, etc. Volumes-wise, I think we may have the largest volumes in the UK by some distance already.",
+    "reason": "The answer addresses all follow-up questions, provides a hedged stance, includes high evidence with numeric references, and partially aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

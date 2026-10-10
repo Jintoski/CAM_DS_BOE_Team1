@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explaining unexpected bank earnings-call figures\",\n  \"main_topics\": [\"Bank earnings\", \"Regulatory changes\", \"Default definitions\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a quick one stage-three balances. It looks like in the home loans bit, it's increased by about £400m, and then in credit cards it's gone down. Which is a little bit surprising, because normally you would expect credit cards stage-three to be ahead of home loans. So why is that?\",\n  \"answer_quote\": \"I think it's a regulatory quirk. I'm going to get one of the guys to come back to you, but I think it's a change in the definition of default.\",\n  \"reason\": \"The answer partially addresses the question by suggesting a regulatory quirk and a change in default definitions, but lacks concrete evidence or a complete explanation.\"\n}",
+  "data": {
+    "question_intent": "Explaining unexpected bank earnings-call figures",
+    "main_topics": [
+      "Bank earnings",
+      "Regulatory changes",
+      "Default definitions"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Just a quick one stage-three balances. It looks like in the home loans bit, it's increased by about £400m, and then in credit cards it's gone down. Which is a little bit surprising, because normally you would expect credit cards stage-three to be ahead of home loans. So why is that?",
+    "answer_quote": "I think it's a regulatory quirk. I'm going to get one of the guys to come back to you, but I think it's a change in the definition of default.",
+    "reason": "The answer partially addresses the question by suggesting a regulatory quirk and a change in default definitions, but lacks concrete evidence or a complete explanation."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "9fe4e338715a-x020",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "18f61c73855111e0213ee7a77a3fa30fcbd6b40ca8cd1ce824a706b02b605e9b"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on Barclaycard Consumer UK revenue growth and structural hedge stability\",\n  \"main_topics\": [\"Barclaycard Consumer UK revenue\", \"Structural hedge stability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that just a kind of lead-lag effect? Does it kind of take 12 months for the revenues to come through or was there some other kind of trend in there when you might expect to see kind of proper revenue growth in that line?\",\n  \"answer_quote\": \"So all you are seeing here really is a production line of those card acquisitions then maturing into interest-earning lending. Actually, if you think about the structure of the market, it tends to be slightly longer-dated than 12 months. So you're going to see some pickup in interest earning lending towards the back-end of 2025, but the bulk of this is actually going to be in 2026. So it is a lead lag effect as you suggest.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear answer with a high level of evidence, including a specific time frame for revenue growth, and aligns with the narrative of the question.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on Barclaycard Consumer UK revenue growth and structural hedge stability\",\n  \"main_topics\": [\"Barclaycard Consumer UK revenue\", \"Structural hedge stability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that just a kind of lead-lag effect? Does it kind of take 12 months for the revenues to come through or was there some other kind of trend in there when you might expect to see kind of proper revenue growth in that line?\",\n  \"answer_quote\": \"So it is a lead lag effect as you suggest. And then on the second question, we've given you a planning assumption of circa 90%, but you can see, given where deposits have been in the first quarter that the notional has been stable, and we would expect it to be broadly stable. But just for your planning maths and that's why we've said circa 90%. Nothing more to read into it than that.\",\n  \"reason\": \"The answer directly addresses the questions about Barclaycard revenue growth and structural hedge stability, providing a clear explanation and numerical evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on Barclaycard Consumer UK revenue growth and structural hedge stability\",\n  \"main_topics\": [\"Barclaycard Consumer UK revenue\", \"Structural hedge stability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that just a kind of lead-lag effect? Does it kind of take 12 months for the revenues to come through or was there some other kind of trend in there when you might expect to see kind of proper revenue growth in that line?\",\n  \"answer_quote\": \"So all you are seeing here really is a production line of those card acquisitions then maturing into interest-earning lending. Actually, if you think about the structure of the market, it tends to be slightly longer-dated than 12 months. So you're going to see some pickup in interest earning lending towards the back-end of 2025, but the bulk of this is actually going to be in 2026. So it is a lead lag effect as you suggest.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear answer with a high level of evidence, including a specific time frame for revenue growth, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on Barclaycard Consumer UK revenue growth and structural hedge stability\",\n  \"main_topics\": [\"Barclaycard Consumer UK revenue\", \"Structural hedge stability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that just a kind of lead-lag effect? Does it kind of take 12 months for the revenues to come through or was there some other kind of trend in there when you might expect to see kind of proper revenue growth in that line?\",\n  \"answer_quote\": \"So all you are seeing here really is a production line of those card acquisitions then maturing into interest-earning lending. Actually, if you think about the structure of the market, it tends to be slightly longer-dated than 12 months. So you're going to see some pickup in interest earning lending towards the back-end of 2025, but the bulk of this is actually going to be in 2026. So it is a lead lag effect as you suggest.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear answer with a high level of evidence, including a specific time frame for revenue growth, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 886,
+      "batch_seconds": 26.647234068000216
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 934,
+      "batch_seconds": 25.316221690998645
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 934,
+      "batch_seconds": 25.31954854899959
+    }
+  ],
+  "exchange_id": "d970c7e31290-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "66cc974f3bf152aa7e86eae0ba1e199de4716d6cbb56db543dc0041455836c83",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

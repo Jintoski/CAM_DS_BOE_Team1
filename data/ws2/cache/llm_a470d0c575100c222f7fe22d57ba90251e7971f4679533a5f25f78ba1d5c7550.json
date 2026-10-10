@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on specific threshold\",\n  \"main_topics\": [\"Threshold\", \"Average\", \"Further Actions\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Does the greater than 250 reflect some of those further actions?\",\n  \"answer_quote\": \"That's probably a bit too specific and I'd just go with greater than 250 on average and you'll be there or thereabouts.\",\n  \"reason\": \"The response hedges the specific threshold and provides a general average, but does not fully address the question's request for a specific threshold.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 446,
+      "batch_seconds": 7.9235276970002815
+    }
+  ],
+  "exchange_id": "ce1602510e69-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a470d0c575100c222f7fe22d57ba90251e7971f4679533a5f25f78ba1d5c7550",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on specific threshold",
+    "main_topics": [
+      "Threshold",
+      "Average",
+      "Further Actions"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Does the greater than 250 reflect some of those further actions?",
+    "answer_quote": "That's probably a bit too specific and I'd just go with greater than 250 on average and you'll be there or thereabouts.",
+    "reason": "The response hedges the specific threshold and provides a general average, but does not fully address the question's request for a specific threshold."
+  },
+  "whitespace_adjusted_quotes": []
+}

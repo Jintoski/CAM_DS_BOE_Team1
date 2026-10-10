@@ -1,0 +1,8 @@
+The two reports: 
+
+1. "20261009_2346_Barclays_Combined_Supervisory_Report.pdf"
+2. "20261009_2320_Barclays_Supervisory_Signal_Report_2026_Q2.pdf"
+
+represent different approaches for quarterly earnings Q&A transcript analysis. If you treat the reports as two distinct reports, could you review and analyse both reports. Can generate me a report which highlights similar claims, different claims, missed claims from both. In essence can you also summarise if these reports are complementary or adversarial and therefore any conflicting points are the actual area of interest. 
+Please create a mini report analysis.
+

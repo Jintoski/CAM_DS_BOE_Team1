@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Rate sensitivity of corporate deposits and Equities performance\",\n  \"main_topics\": [\"rate sensitivity\", \"corporate deposits\", \"Equities performance\", \"SONIA\", \"LIBOR\", \"Prime balances\", \"Equity Prime business\", \"financing business\", \"Prime services\", \"quant and algo fund-type business\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was hoping you could give us a little bit more colour on the corporate deposits in Sterling that are essentially floating rate?\",\n  \"answer_quote\": \"On rate sensitivity on corporate deposits, rather than giving you the split, as we have all sorts of different types of accounts, both in our consumer and our corporate book, from floaters to term deposits to various other products, what we've tried to do is take our best view as to what we think may happen.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Rate sensitivity of corporate deposits and Equities performance\",\n \"main_topics\": [\"Rate sensitivity\", \"Corporate deposits\", \"Equities performance\", \"Prime balances\", \"Equity Prime business\", \"Financing business\", \"Prime services business\", \"Quant and algo fund-type business\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"Medium\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I was hoping you could give us a little bit more colour on the corporate deposits in Sterling that are essentially floating rate?\",\n \"answer_quote\": \"On rate sensitivity on corporate deposits, rather than giving you the split, as we have all sorts of different types of accounts, both in our consumer and our corporate book, from floaters to term deposits to various other products, what we've tried to do is take our best view as to what we think may happen.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Rate sensitivity and Equities performance questions\",\n  \"main_topics\": [\"rate sensitivity\", \"corporate deposits\", \"SONIA\", \"LIBOR\", \"Equities performance\", \"Prime balances\", \"Equity Prime business\", \"financing business\", \"Prime services business\", \"quant and algo fund-type business\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I have two questions please, one on rate sensitivity: I was hoping you could give us a little bit more colour on the corporate deposits in Sterling that are essentially floating rate? Presumably, all the Sterling corporate deposits that are floating rate are linked to SONIA now, or are some of them on LIBOR? If you could perhaps tell us how much they are, then we could think about what is up to management action in terms of managing the level of corporate deposits?\",\n  \"answer_quote\": \"On rate sensitivity on corporate deposits, rather than giving you the split, as we have all sorts of different types of accounts, both in our consumer and our corporate book, from floaters to term deposits to various other products, what we've tried to do is take our best view as to what we think may happen. It's obviously still hypothetical because we haven't seen any rate rises yet, [and along with them all the societal issues that may arise]. [What we've done is to] let you know of the 60-40 split across the UK and International businesses. In the International businesses, the bulk of the sensitivity is in Sterling, so most of it comes from the Corporate bank. You can then see our sensitivity is c.40% of that and you know that's pretty much what's in the Corporate bank. So hopefully, that's helpful.\",\n  \"reason\": \"The answer provides a partial response to the rate sensitivity question, explaining the 60-40 split but not giving specific amounts. It also touches on Equities performance but does not provide specific Prime balances or revenue figures.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Rate sensitivity of corporate deposits and Equities performance\",\n  \"main_topics\": [\"rate sensitivity\", \"corporate deposits\", \"Equities performance\", \"SONIA\", \"LIBOR\", \"Prime balances\", \"Equity Prime business\", \"financing business\", \"Prime services\", \"quant and algo fund-type business\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was hoping you could give us a little bit more colour on the corporate deposits in Sterling that are essentially floating rate?\",\n  \"answer_quote\": \"On rate sensitivity on corporate deposits, rather than giving you the split, as we have all sorts of different types of accounts, both in our consumer and our corporate book, from floaters to term deposits to various other products, what we've tried to do is take our best view as to what we think may happen.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1262,
+      "batch_seconds": 42.59948227399991
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1307,
+      "batch_seconds": 87.26523494199864
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1316,
+      "batch_seconds": 98.87632269200003
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "749e9245391d8f2bcf64b7231afa39e536bb40f8bdc7a2d2d13ab76078a6950a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

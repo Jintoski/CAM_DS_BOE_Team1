@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarify RWA growth and FRTB impact\",\n  \"main_topics\": [\"RWA growth\", \"FRTB impact\", \"Head Office income and costs\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Why hasn't that RWA headwind come down relative to where you were last year?\",\n  \"answer_quote\": \"Our expectation is no di erent really around the RWAs. There's a timing point clearly in terms of the timing of Basel. But this chart is based on our plans to deploy £30 billion of RWAs in the UK and hold the Investment Bank flat.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RWA growth, FRTB impact, and Head Office income and costs\",\n  \"main_topics\": [\"RWA growth\", \"FRTB impact\", \"Head Office income and costs\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Why hasn't that RWA headwind come down relative to where you were last year?\",\n  \"answer_quote\": \"So, I think if there are more technical questions, we can come back to you on it, and I'll ask Marina to pick up after the event.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify RWA growth and FRTB impact\",\n  \"main_topics\": [\"RWA growth\", \"FRTB impact\", \"Head Office income and costs\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Why hasn't that RWA headwind come down relative to where you were last year?\",\n  \"answer_quote\": \"Our expectation is no di erent really around the RWAs. There's a timing point clearly in terms of the timing of Basel. But this chart is based on our plans to deploy £30 billion of RWAs in the UK and hold the Investment Bank flat.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify RWA growth and FRTB impact\",\n  \"main_topics\": [\"RWA growth\", \"FRTB impact\", \"Head Office income and costs\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Why hasn't that RWA headwind come down relative to where you were last year?\",\n  \"answer_quote\": \"Our expectation is no di erent really around the RWAs. There's a timing point clearly in terms of the timing of Basel. But this chart is based on our plans to deploy £30 billion of RWAs in the UK and hold the Investment Bank flat.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1122,
+      "batch_seconds": 35.32207129899962
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1167,
+      "batch_seconds": 95.43166388499958
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1167,
+      "batch_seconds": 96.27417817800051
+    }
+  ],
+  "exchange_id": "939b0ea59a08-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "df228a88fd5e9f1a24be1ed938d174f462e3acbd9f4fc9b0aab8af9e7568576d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

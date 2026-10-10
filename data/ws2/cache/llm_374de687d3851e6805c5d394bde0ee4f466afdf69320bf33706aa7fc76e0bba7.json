@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Divisional RoTE profile and encouragement to analyze it\",\n  \"main_topics\": [\"Divisional RoTE\", \"CIB division performance\", \"Wealth business potential\", \"CIB business strengths\", \"Regulatory requirements\", \"Capital deployment\", \"Loan growth\", \"Opportunity cost\", \"Return on businesses\", \"Divisional analysis encouragement\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had a question about your divisional returns, and how much you would, or would not, encourage us to look at divisional RoTE profile of your business. I'm interested in whether you think you can lift each of the individual divisional RoTEs higher from here and, if so, which division would you call out? I'm looking at your CIB division. It consumes the most capital in the group context. It delivers the lowest RoTE. Would you encourage us to think about that as a - because the guidance and the commentary so far is very top-down - but, presumably, there's a bottom-up focus too?\",\n  \"answer_quote\": \"Firstly, yes, of course, we encourage you to look at RoTE for the division. Sometimes it changes back and forth a bit because of allocations and how the Corporate Centre works, but the starting point is pretty strong, so I wouldn't be moving away from it. In terms of the upside for improvements on the RoTE numbers, clearly is in the Wealth business, because, as it grows and gets more into scale, if you'd compare it with larger-scale competitors, there's more room there. On CIB, I'm quite pleased because CIB - I know it's difficult to compare with other banks because we have commercial banking as part of CIB - whether I look from a cost-income ratio or I look at from a returns perspective, it is a strong business. One of the things we will be looking at, within what's allowed by regulatory requirements, is Significant Risk Transfer. That helps in that space. But overall, I'm pleased with our CIB business and where it's progressing. When it comes to deployment of capital and looking at other competing areas, whether it's from a UK or a Hong Kong home market, we bear that in mind. But as long as loan growth is where it is, there isn't really that much more that we are, as an opportunity cost, considering, given the differential on the return on these four businesses.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Divisional RoTE profile and potential for improvement\",\n  \"main_topics\": [\"Divisional RoTE\", \"CIB division performance\", \"Wealth business potential\", \"CIB business strengths\", \"Regulatory requirements\", \"Capital deployment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had a question about your divisional returns, and how much you would, or would not, encourage us to look at divisional RoTE profile of your business. I'm interested in whether you think you can lift each of the individual divisional RoTEs higher from here and, if so, which division would you call out? I'm looking at your CIB division.\",\n  \"answer_quote\": \"Firstly, yes, of course, we encourage you to look at RoTE for the division. Sometimes it changes back and forth a bit because of allocations and how the Corporate Centre works, but the starting point is pretty strong, so I wouldn't be moving away from it. In terms of the upside for improvements on the RoTE numbers, clearly is in the Wealth business, because, as it grows and gets more into scale, there's more room there. On CIB, I'm quite pleased because CIB - I know it's difficult to compare with other banks because we have commercial banking as part of CIB - whether I look from a cost-income ratio or I look at from a returns perspective, it is a strong business. One of the things we will be looking at, within what's allowed by regulatory requirements, is Significant Risk Transfer. That helps in that space. But overall, I'm pleased with our CIB business and where it's progressing. When it comes to deployment of capital and looking at other competing areas, whether it's from a UK or a Hong Kong home market, we bear that in mind. But as long as loan growth is where it is, there isn't really that much more that we are, as an opportunity cost, considering, given the differential on the return on these four businesses.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Divisional RoTE profile and encouragement to analyze it\",\n  \"main_topics\": [\"Divisional RoTE\", \"Wealth business\", \"CIB business\", \"Capital deployment\", \"Regulatory requirements\", \"Significant Risk Transfer\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had a question about your divisional returns, and how much you would, or would not, encourage us to look at divisional RoTE profile of your business.\",\n  \"answer_quote\": \"Firstly, yes, of course, we encourage you to look at RoTE for the division.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence without specific numeric data or forward guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Divisional RoTE profile and encouragement to analyze it\",\n  \"main_topics\": [\"Divisional RoTE\", \"CIB division performance\", \"Wealth business potential\", \"CIB business strengths\", \"Regulatory requirements\", \"Capital deployment\", \"Loan growth\", \"Opportunity cost\", \"Return on businesses\", \"Divisional analysis encouragement\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had a question about your divisional returns, and how much you would, or would not, encourage us to look at divisional RoTE profile of your business. I'm interested in whether you think you can lift each of the individual divisional RoTEs higher from here and, if so, which division would you call out? I'm looking at your CIB division. It consumes the most capital in the group context. It delivers the lowest RoTE. Would you encourage us to think about that as a - because the guidance and the commentary so far is very top-down - but, presumably, there's a bottom-up focus too?\",\n  \"answer_quote\": \"Firstly, yes, of course, we encourage you to look at RoTE for the division. Sometimes it changes back and forth a bit because of allocations and how the Corporate Centre works, but the starting point is pretty strong, so I wouldn't be moving away from it. In terms of the upside for improvements on the RoTE numbers, clearly is in the Wealth business, because, as it grows and gets more into scale, if you'd compare it with larger-scale competitors, there's more room there. On CIB, I'm quite pleased because CIB - I know it's difficult to compare with other banks because we have commercial banking as part of CIB - whether I look from a cost-income ratio or I look at from a returns perspective, it is a strong business. One of the things we will be looking at, within what's allowed by regulatory requirements, is Significant Risk Transfer. That helps in that space. But overall, I'm pleased with our CIB business and where it's progressing. When it comes to deployment of capital and looking at other competing areas, whether it's from a UK or a Hong Kong home market, we bear that in mind. But as long as loan growth is where it is, there isn't really that much more that we are, as an opportunity cost, considering, given the differential on the return on these four businesses.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 783,
+      "batch_seconds": 21.483448043999488
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 828,
+      "batch_seconds": 21.183683261000624
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 837,
+      "batch_seconds": 21.521728711000833
+    }
+  ],
+  "exchange_id": "4c46c28cb2e2-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "374de687d3851e6805c5d394bde0ee4f466afdf69320bf33706aa7fc76e0bba7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

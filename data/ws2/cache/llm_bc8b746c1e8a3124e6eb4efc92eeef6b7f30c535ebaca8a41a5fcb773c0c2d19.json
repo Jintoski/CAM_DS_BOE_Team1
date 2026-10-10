@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for published sensitivity percentage\",\n  \"main_topics\": [\"sensitivity\", \"published percentage\", \"product variation\", \"market variation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could I just check the published sensitivity? Is that based on 50%?\",\n  \"answer_quote\": \"Yeah. It differs by product, by market, but roughly, yes.\",\n  \"reason\": \"The answer partially addresses the question by confirming the sensitivity varies by product and market, but does not provide the specific percentage requested.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for published sensitivity figures\",\n  \"main_topics\": [\"sensitivity\", \"published figures\", \"product variation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could I just check the published sensitivity? Is that based on 50%?\",\n  \"answer_quote\": \"Yeah. It differs by product, by market, but roughly, yes.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 425,
+      "batch_seconds": 6.752684400999897
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 470,
+      "batch_seconds": 6.791888847999871
+    }
+  ],
+  "exchange_id": "2895638cae6c-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bc8b746c1e8a3124e6eb4efc92eeef6b7f30c535ebaca8a41a5fcb773c0c2d19",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for published sensitivity percentage",
+    "main_topics": [
+      "sensitivity",
+      "published percentage",
+      "product variation",
+      "market variation"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Could I just check the published sensitivity? Is that based on 50%?",
+    "answer_quote": "Yeah. It differs by product, by market, but roughly, yes.",
+    "reason": "The answer partially addresses the question by confirming the sensitivity varies by product and market, but does not provide the specific percentage requested."
+  },
+  "whitespace_adjusted_quotes": []
+}

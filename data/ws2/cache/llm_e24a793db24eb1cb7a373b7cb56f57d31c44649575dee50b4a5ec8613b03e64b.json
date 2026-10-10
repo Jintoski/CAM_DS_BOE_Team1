@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Understanding capital adequacy and growth strategy in CIB\",\n  \"main_topics\": [\"capital adequacy\", \"CIB growth\", \"RWA efficiency\", \"capital generation\", \"financing revenues\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I have a couple as well, please. The first one was just coming back to how you [decide] on the balance between investing for growth with capital distributions, particularly looking at RWA progression. CIB RWAs were down £15 bn in the fourth quarter on a smaller, nominal balance sheet. If that were to reverse in Q1, then the pro forma CET1 ratio would fall from the 13.5% that you flagged to below 13%. There would obviously be some capital generation too, but just trying to understand what gives you the confidence that you have enough capital to support CIB market shares and revenues, and also to generate capital for distribution. That was the first question.\",\n  \"answer_quote\": \"We are very focussed on the RWA efficiency across the bank as a whole. You can see that we are trying to grow the CIB very thoughtfully in terms of where we place our risk. You can see in the fourth quarter, there is an FX impact in terms of the RWA movement, so I'd be thoughtful about that. And obviously, as we said, we have managed our leverage finance pipeline and commitment, given the environment, as well, so there are things that have specifically happened in the fourth quarter. From here, we are confident that we've got the right level of capital to support the growth in the CIB. We've done that pretty successfully in the last year. That will be different quarter by quarter and it's one of the reasons that we've settled ourselves at that midpoint [proforma], because we want to be able to lean in, in the ways that you describe. But the quantum of what you're describing is somewhat too high, just because of some of the effects that I've just mentioned. Hopefully that's helpful.\",\n  \"reason\": \"The answer addresses some aspects of capital adequacy and growth strategy but does not fully answer the question about the balance between investing for growth and capital distributions, nor does it provide a clear stance on the confidence in capital to support CIB market shares and revenues.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding capital adequacy and growth strategy in CIB\",\n  \"main_topics\": [\"Capital Adequacy\", \"CIB Growth Strategy\", \"RWA Efficiency\", \"Leverage Finance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I have a couple as well, please. The first one was just coming back to how you [decide] on the balance between investing for growth with capital distributions, particularly looking at RWA progression. CIB RWAs were down £15 bn in the fourth quarter on a smaller, nominal balance sheet. If that were to reverse in Q1, then the pro forma CET1 ratio would fall from the 13.5% that you flagged to below 13%. There would obviously be some capital generation too, but just trying to understand what gives you the confidence that you have enough capital to support CIB market shares and revenues, and also to generate capital for distribution. That was the first question.\",\n  \"answer_quote\": \"We are very focussed on the RWA efficiency across the bank as a whole. You can see that we are trying to grow the CIB very thoughtfully in terms of where we place our risk. You can see in the fourth quarter, there is an FX impact in terms of the RWA movement, so I'd be thoughtful about that. And obviously, as we said, we have managed our leverage finance pipeline and commitment, given the environment, as well, so there are things that have specifically happened in the fourth quarter. From here, we are confident that we've got the right level of capital to support the growth in the CIB. We've done that pretty successfully in the last year. That will be different quarter by quarter and it's one of the reasons that we've settled ourselves at that midpoint [proforma], because we want to be able to lean in, in the ways that you describe. But the quantum of what you're describing is somewhat too high, just because of some of the effects that I've just mentioned. Hopefully that's helpful.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 816,
+      "batch_seconds": 18.459268222999526
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 861,
+      "batch_seconds": 23.644425376000072
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e24a793db24eb1cb7a373b7cb56f57d31c44649575dee50b4a5ec8613b03e64b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Understanding capital adequacy and growth strategy in CIB",
+    "main_topics": [
+      "capital adequacy",
+      "CIB growth",
+      "RWA efficiency",
+      "capital generation",
+      "financing revenues"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I have a couple as well, please. The first one was just coming back to how you [decide] on the balance between investing for growth with capital distributions, particularly looking at RWA progression. CIB RWAs were down £15 bn in the fourth quarter on a smaller, nominal balance sheet. If that were to reverse in Q1, then the pro forma CET1 ratio would fall from the 13.5% that you flagged to below 13%. There would obviously be some capital generation too, but just trying to understand what gives you the confidence that you have enough capital to support CIB market shares and revenues, and also to generate capital for distribution. That was the first question.",
+    "answer_quote": "We are very focussed on the RWA efficiency across the bank as a whole. You can see that we are trying to grow the CIB very thoughtfully in terms of where we place our risk. You can see in the fourth quarter, there is an FX impact in terms of the RWA movement, so I'd be thoughtful about that. And obviously, as we said, we have managed our leverage finance pipeline and commitment, given the environment, as well, so there are things that have specifically happened in the fourth quarter. From here, we are confident that we've got the right level of capital to support the growth in the CIB. We've done that pretty successfully in the last year. That will be different quarter by quarter and it's one of the reasons that we've settled ourselves at that midpoint [proforma], because we want to be able to lean in, in the ways that you describe. But the quantum of what you're describing is somewhat too high, just because of some of the effects that I've just mentioned. Hopefully that's helpful.",
+    "reason": "The answer addresses some aspects of capital adequacy and growth strategy but does not fully answer the question about the balance between investing for growth and capital distributions, nor does it provide a clear stance on the confidence in capital to support CIB market shares and revenues."
+  },
+  "whitespace_adjusted_quotes": []
+}

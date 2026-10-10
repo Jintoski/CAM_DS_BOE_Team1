@@ -1,0 +1,4 @@
+
+Execute instructions as supplied in "BARCLAYS_ONLY_Detailed GenAI Promt - Lahiru.txt".
+Combine the "executive scorecard" and "detailed supervisory analysis" reports into a single pdf, maintaining the order of reports being combined.
+

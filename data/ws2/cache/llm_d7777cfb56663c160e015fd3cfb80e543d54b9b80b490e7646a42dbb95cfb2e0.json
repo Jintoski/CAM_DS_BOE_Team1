@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about multi-brand strategy aspirations post-Consumer Duty\",\n  \"main_topics\": [\"multi-brand strategy\", \"Consumer Duty\", \"pricing flexibility\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Do you have any aspirations to seek the opportunity to be able to flex across multiple brands, particularly post-Consumer Duty, to avoid a situation where you can't really adjust pricing on a marginal basis because it impacts your whole back book?\",\n  \"answer_quote\": \"Our objective has been through the Barclays brand, which is clearly the core of our franchise to ensure that customers have access to the right range of products. As I said before, we feel like we've got some work to do with hindsight, but that work will be complete in Q423.\",\n  \"reason\": \"The answer deflects the question about multi-brand strategy aspirations and instead focuses on the Barclays brand, without directly addressing the Consumer Duty or pricing flexibility concerns.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 620,
+      "batch_seconds": 15.590586241999517
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d7777cfb56663c160e015fd3cfb80e543d54b9b80b490e7646a42dbb95cfb2e0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about multi-brand strategy aspirations post-Consumer Duty",
+    "main_topics": [
+      "multi-brand strategy",
+      "Consumer Duty",
+      "pricing flexibility"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Do you have any aspirations to seek the opportunity to be able to flex across multiple brands, particularly post-Consumer Duty, to avoid a situation where you can't really adjust pricing on a marginal basis because it impacts your whole back book?",
+    "answer_quote": "Our objective has been through the Barclays brand, which is clearly the core of our franchise to ensure that customers have access to the right range of products. As I said before, we feel like we've got some work to do with hindsight, but that work will be complete in Q423.",
+    "reason": "The answer deflects the question about multi-brand strategy aspirations and instead focuses on the Barclays brand, without directly addressing the Consumer Duty or pricing flexibility concerns."
+  },
+  "whitespace_adjusted_quotes": []
+}

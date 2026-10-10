@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing deposit funding strategy and fee pool progress\",\n  \"main_topics\": [\"USCB\", \"deposit funding strategy\", \"fee pools\", \"2025 outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Does the change from American Airlines change at all how you think about the deposit funding strategy going forward and how would you assess your current deposit funding rate versus peers in the United States?\",\n  \"answer_quote\": \"Okay, thank you Chris for those two. So in terms of AA, it hasn't changed any of our plan around the US cards business and to be specific, we knew that at a point in time that AA would want to pursue a single issuer model. We also took the decision that we would not bid for that, that's on the basis of concentration risk and the risk it would have put into our portfolio. We do believe that there is sufficient opportunity for us in the market, both organically and inorganically. One of the facts that Venkat used last week was, in any particular year, there's about 15 [partner] programmes [worth] $40 billion that really enter the market and we are confident in our ability to attract new partners and indeed extend and secure the ones we've already got, and we showed that in 2024. So bearing in mind our asset pathway, we believe can be broadly the same, we still feel the same about deposits. What we did last year was, we went from a very simple architecture of deposits to a tiered savings proposition. And that launch in Q3 was actually very successful in Q4. And really, that's the kind of thing that we expect to extend. We raised wholesale deposits in Q4 as we would ordinarily do and actually probably ended up with a bit too much funding in that business, for good reasons, and we're happy with the early success of that product and we think we can continue to drive it. So no real change really in our desire to reach out directly to customers and use the brands that we have to do so. With something like AARP, the difference there is, it's not just the AARP customers who have a card with us that we can reach out to in terms of these additional products. That's really the entirety of that customer base, so it really helps us broaden out what we're doing in the US. In terms of the IB, you know I'm not going to give you any kind of trading update. We can all read how those fee pools are going. I'd make two comments. The first is we made some comments last week about entering the year with good momentum and a good pipeline, we still feel the same about that. And then secondly, this is one of the reasons why we want to plan on realistic assumptions, to really have as much of this plan in our control as possible. So planning on an $80 billion banking fee wallet, that's down from last year at $87 billion and completely in line with the assumptions that we have from the prior year, so that's where I'd guide you to. Thank you.\",\n  \"reason\": \"The answer directly addresses the change in American Airlines' strategy and its impact on the deposit funding strategy, provides a high level of evidence with specific figures, and offers forward guidance on fee pools and the 2025 outlook.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1054,
+      "batch_seconds": 30.479592789999515
+    }
+  ],
+  "exchange_id": "ce1602510e69-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "19dcae712236a40da5f1a59d5911c1059f2ab3961a515bd1865f849626ba3fe9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing deposit funding strategy and fee pool progress",
+    "main_topics": [
+      "USCB",
+      "deposit funding strategy",
+      "fee pools",
+      "2025 outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Does the change from American Airlines change at all how you think about the deposit funding strategy going forward and how would you assess your current deposit funding rate versus peers in the United States?",
+    "answer_quote": "Okay, thank you Chris for those two. So in terms of AA, it hasn't changed any of our plan around the US cards business and to be specific, we knew that at a point in time that AA would want to pursue a single issuer model. We also took the decision that we would not bid for that, that's on the basis of concentration risk and the risk it would have put into our portfolio. We do believe that there is sufficient opportunity for us in the market, both organically and inorganically. One of the facts that Venkat used last week was, in any particular year, there's about 15 [partner] programmes [worth] $40 billion that really enter the market and we are confident in our ability to attract new partners and indeed extend and secure the ones we've already got, and we showed that in 2024. So bearing in mind our asset pathway, we believe can be broadly the same, we still feel the same about deposits. What we did last year was, we went from a very simple architecture of deposits to a tiered savings proposition. And that launch in Q3 was actually very successful in Q4. And really, that's the kind of thing that we expect to extend. We raised wholesale deposits in Q4 as we would ordinarily do and actually probably ended up with a bit too much funding in that business, for good reasons, and we're happy with the early success of that product and we think we can continue to drive it. So no real change really in our desire to reach out directly to customers and use the brands that we have to do so. With something like AARP, the difference there is, it's not just the AARP customers who have a card with us that we can reach out to in terms of these additional products. That's really the entirety of that customer base, so it really helps us broaden out what we're doing in the US. In terms of the IB, you know I'm not going to give you any kind of trading update. We can all read how those fee pools are going. I'd make two comments. The first is we made some comments last week about entering the year with good momentum and a good pipeline, we still feel the same about that. And then secondly, this is one of the reasons why we want to plan on realistic assumptions, to really have as much of this plan in our control as possible. So planning on an $80 billion banking fee wallet, that's down from last year at $87 billion and completely in line with the assumptions that we have from the prior year, so that's where I'd guide you to. Thank you.",
+    "reason": "The answer directly addresses the change in American Airlines' strategy and its impact on the deposit funding strategy, provides a high level of evidence with specific figures, and offers forward guidance on fee pools and the 2025 outlook."
+  },
+  "whitespace_adjusted_quotes": []
+}

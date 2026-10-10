@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request details on deposit split, migration potential, and UK consumer behavior changes.\",\n  \"main_topics\": [\"Barclays UK deposit split\", \"Potential deposit migration\", \"UK consumer behavior changes\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just two questions on the UK, please. The first one, just to follow up on the potential for deposit migration attrition from here. I was wondering, firstly, if you're able to share a bit of detail in terms of how the deposit stack is split within Barclays UK? It seems like from the annual report of Barclays UK that there was a very small portion within time [deposits] if any. I was just wondering what the share of deposits is in current accounts and non-interest bearing at present? Just to get a sense on the potential scope for migration.\",\n  \"answer_quote\": \"We don't disclose the split. However, the level of time deposits is actually pretty small for us, certainly smaller than [for] the market as a whole. We have never been a hot money bank through all of our history. Our deposits are very strong, franchise ones. As we're looking at our potential deposit migration, we're actually looking largely at migration from one type of franchise deposit to another, and that's very much our strategy, as we said before. In terms of time deposits, we have strong rates out there, but they're very much in our control. If we saw balances move too high, given that our loan: deposit ratio is as firm as it is, that's something that we can certainly manage. More broadly than that, as I've said before, it's the absolute movement in rates that we typically see prompting changes. There are some key differences from the past. Firstly, we and most of the rest of our UK peers are in a different liquidity position and, therefore, you might expect pricing to be different. Having said that, it's very easy for customers to move their money around. Of the people that have opened our Rainy Day Saver account, the vast majority of those have done that online, which is clearly different. Hence why we are being thoughtful about the impact of migration, because it is still uncertain. In terms of UK consumer behaviour, really no change. We are not seeing changes in our arrears levels, they are low and stable. The same is true when we go into Business Banking and Corporate. That probably should be less of a surprise, given two things. Firstly, our customers have been and are being defensive in the way they're behaving. They're skewing their spending towards essential spend. They are repaying strongly on their cards. Cards repayment rates are above COVID level. They're spending, they're engaging with the card, but then they're repaying, so they're behaving very defensively. Then, if you put on top of that the fact that unemployment remains very low, it shouldn't surprise us that we are not yet seeing anything untoward from a credit perspective. We feel like we're well-prepared, should that occur, and you can see our coverage ratios are pretty robust. But that's really why we're guiding to something that's very much in the historical norm of 50 to 60bps for 2023.\",\n  \"reason\": \"The answer partially addresses the question by discussing deposit migration and consumer behavior but does not provide the specific split of deposits within Barclays UK as requested.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1104,
+      "batch_seconds": 35.59591206099958
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "81b942588b53a65543b8322b356257042172502977a6c2f42ecdbbb653690801",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request details on deposit split, migration potential, and UK consumer behavior changes.",
+    "main_topics": [
+      "Barclays UK deposit split",
+      "Potential deposit migration",
+      "UK consumer behavior changes"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Just two questions on the UK, please. The first one, just to follow up on the potential for deposit migration attrition from here. I was wondering, firstly, if you're able to share a bit of detail in terms of how the deposit stack is split within Barclays UK? It seems like from the annual report of Barclays UK that there was a very small portion within time [deposits] if any. I was just wondering what the share of deposits is in current accounts and non-interest bearing at present? Just to get a sense on the potential scope for migration.",
+    "answer_quote": "We don't disclose the split. However, the level of time deposits is actually pretty small for us, certainly smaller than [for] the market as a whole. We have never been a hot money bank through all of our history. Our deposits are very strong, franchise ones. As we're looking at our potential deposit migration, we're actually looking largely at migration from one type of franchise deposit to another, and that's very much our strategy, as we said before. In terms of time deposits, we have strong rates out there, but they're very much in our control. If we saw balances move too high, given that our loan: deposit ratio is as firm as it is, that's something that we can certainly manage. More broadly than that, as I've said before, it's the absolute movement in rates that we typically see prompting changes. There are some key differences from the past. Firstly, we and most of the rest of our UK peers are in a different liquidity position and, therefore, you might expect pricing to be different. Having said that, it's very easy for customers to move their money around. Of the people that have opened our Rainy Day Saver account, the vast majority of those have done that online, which is clearly different. Hence why we are being thoughtful about the impact of migration, because it is still uncertain. In terms of UK consumer behaviour, really no change. We are not seeing changes in our arrears levels, they are low and stable. The same is true when we go into Business Banking and Corporate. That probably should be less of a surprise, given two things. Firstly, our customers have been and are being defensive in the way they're behaving. They're skewing their spending towards essential spend. They are repaying strongly on their cards. Cards repayment rates are above COVID level. They're spending, they're engaging with the card, but then they're repaying, so they're behaving very defensively. Then, if you put on top of that the fact that unemployment remains very low, it shouldn't surprise us that we are not yet seeing anything untoward from a credit perspective. We feel like we're well-prepared, should that occur, and you can see our coverage ratios are pretty robust. But that's really why we're guiding to something that's very much in the historical norm of 50 to 60bps for 2023.",
+    "reason": "The answer partially addresses the question by discussing deposit migration and consumer behavior but does not provide the specific split of deposits within Barclays UK as requested."
+  },
+  "whitespace_adjusted_quotes": []
+}

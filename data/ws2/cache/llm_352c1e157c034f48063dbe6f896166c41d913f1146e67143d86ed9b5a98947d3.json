@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Investment strategy and impact on profitability and returns\",\n  \"main_topics\": [\"Investment strategy\", \"Profitability\", \"Return on Equity (RoTE)\", \"Sustainability\", \"Long-term growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, beyond 2028, you're set up even better.\",\n  \"answer_quote\": \"The first thing I would say is that our targets that we've given you have very deliberately got a greater than sign in front of them. We're balancing a few things here. The first is that, as I've said a few times, we want to put this within our control, the delivery of the plan. And that's really, important to us and particularly the delivery of the distributions of the plan. So that's number one. Number two, we are balancing here the longer-term growth of the firm. So talked a lot about the additional investments that we have and will continue to make. I mean, between Venkat and I, it would be relatively easy for us to optimise the returns of the firm across a short-term horizon. That is not what this is about. We are really balancing here, investing more in the business and that means that the RoTEs in the shorter term are probably a bit lower than they would otherwise be. But we think it's really important to create a Barclays for two years' time when we're standing up maybe. During the next phase of the plan, the third phase of the trilogy where we're talking about 2028 and beyond, we want that momentum to continue. Not so much on the income forecasts, but when I was talking before about the capital capacity of the plan, that's exactly what I was driving, our ability to flex our investment pathway if we feel that's the right thing to do. But every time, we are doing that, we are considering what is the return on that investment relative to either the business as it stands now. So, is it going to enhance those returns further or how does it look like versus the returns of a buyback? So, we are thinking about all of those things as we deploy that. We presented a plan to you that is based on prudent financial planning in the way Anna has said, but we want to create a deep infrastructure for this bank, make it, as we said returns in different environments, pretty strong returns through different environments and sustainably higher returns in the long run, which is a combination of investment and shareholder return.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed explanation of the bank's investment strategy and its expected impact on profitability and returns, with high evidence level and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 946,
+      "batch_seconds": 25.474934328000018
+    }
+  ],
+  "exchange_id": "f7f72b2656e8-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "352c1e157c034f48063dbe6f896166c41d913f1146e67143d86ed9b5a98947d3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investment strategy and impact on profitability and returns",
+    "main_topics": [
+      "Investment strategy",
+      "Profitability",
+      "Return on Equity (RoTE)",
+      "Sustainability",
+      "Long-term growth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So, beyond 2028, you're set up even better.",
+    "answer_quote": "The first thing I would say is that our targets that we've given you have very deliberately got a greater than sign in front of them. We're balancing a few things here. The first is that, as I've said a few times, we want to put this within our control, the delivery of the plan. And that's really, important to us and particularly the delivery of the distributions of the plan. So that's number one. Number two, we are balancing here the longer-term growth of the firm. So talked a lot about the additional investments that we have and will continue to make. I mean, between Venkat and I, it would be relatively easy for us to optimise the returns of the firm across a short-term horizon. That is not what this is about. We are really balancing here, investing more in the business and that means that the RoTEs in the shorter term are probably a bit lower than they would otherwise be. But we think it's really important to create a Barclays for two years' time when we're standing up maybe. During the next phase of the plan, the third phase of the trilogy where we're talking about 2028 and beyond, we want that momentum to continue. Not so much on the income forecasts, but when I was talking before about the capital capacity of the plan, that's exactly what I was driving, our ability to flex our investment pathway if we feel that's the right thing to do. But every time, we are doing that, we are considering what is the return on that investment relative to either the business as it stands now. So, is it going to enhance those returns further or how does it look like versus the returns of a buyback? So, we are thinking about all of those things as we deploy that. We presented a plan to you that is based on prudent financial planning in the way Anna has said, but we want to create a deep infrastructure for this bank, make it, as we said returns in different environments, pretty strong returns through different environments and sustainably higher returns in the long run, which is a combination of investment and shareholder return.",
+    "reason": "The answer directly addresses the question's intent, providing a detailed explanation of the bank's investment strategy and its expected impact on profitability and returns, with high evidence level and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

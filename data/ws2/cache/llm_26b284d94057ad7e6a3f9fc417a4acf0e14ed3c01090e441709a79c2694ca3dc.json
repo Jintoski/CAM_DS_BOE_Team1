@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on deposit revenue and its composition\",\n  \"main_topics\": [\"Deposit revenue\", \"Hedge\", \"UK base rate\", \"Sterling exposure\", \"UK corporate business\", \"International bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, that's helpful, but just to clarify, it looks like £50m of the £275m is the hedge, so let's call it low-£200m in terms of deposit revenue specifically. Nearly all of that is UK base rate-driven?\",\n  \"answer_quote\": \"Yes, that's right. It's predominantly sterling. Don't forget that that is obviously split across our UK bank as well as our international bank. You've got a large UK corporate business in there. It is almost entirely a sterling exposure, but 60-40 across the UK and international.\"\n}\n",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the proportion of deposit revenue hedged and its nature\",\n  \"main_topics\": [\"Hedging\", \"Deposit Revenue\", \"UK Base Rate\", \"Sterling Exposure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, that's helpful, but just to clarify, it looks like £50m of the £275m is the hedge, so let's call it low-£200m in terms of deposit revenue specifically. Nearly all of that is UK base rate-driven?\",\n  \"answer_quote\": \"Yes, that's right. It's predominantly sterling. Don't forget that that is obviously split across our UK bank as well as our international bank. You've got a large UK corporate business in there. It is almost entirely a sterling exposure, but 60-40 across the UK and international.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on deposit revenue and its composition\",\n  \"main_topics\": [\"Deposit revenue\", \"Hedge\", \"UK base rate\", \"Sterling exposure\", \"UK corporate business\", \"International bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, that's helpful, but just to clarify, it looks like £50m of the £275m is the hedge, so let's call it low-£200m in terms of deposit revenue specifically. Nearly all of that is UK base rate-driven?\",\n  \"answer_quote\": \"Yes, that's right. It's predominantly sterling. Don't forget that that is obviously split across our UK bank as well as our international bank. You've got a large UK corporate business in there. It is almost entirely a sterling exposure, but 60-40 across the UK and international.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on deposit revenue and its composition\",\n  \"main_topics\": [\"Deposit revenue\", \"Hedge\", \"UK base rate\", \"Sterling exposure\", \"UK corporate business\", \"International bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, that's helpful, but just to clarify, it looks like £50m of the £275m is the hedge, so let's call it low-£200m in terms of deposit revenue specifically. Nearly all of that is UK base rate-driven?\",\n  \"answer_quote\": \"Yes, that's right. It's predominantly sterling. Don't forget that that is obviously split across our UK bank as well as our international bank. You've got a large UK corporate business in there. It is almost entirely a sterling exposure, but 60-40 across the UK and international.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 496,
+      "batch_seconds": 10.274504325000635
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 541,
+      "batch_seconds": 10.852135373001147
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 541,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "b201a3107d88-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "26b284d94057ad7e6a3f9fc417a4acf0e14ed3c01090e441709a79c2694ca3dc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

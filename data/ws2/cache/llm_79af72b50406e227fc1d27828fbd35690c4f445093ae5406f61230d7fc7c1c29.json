@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Nature of deposit beta difference between Barclays and NatWest\",\n  \"main_topics\": [\"Deposit beta\", \"Market practices\", \"Corporate exposure\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Can you give us just a little bit more colour on what you think the nature of the difference is between the corporates that Barclays might have and the corporates that NatWest might have, and why there is such a big difference in terms of market practices on deposit rates?\",\n  \"answer_quote\": \"Well, without knowing their book, that would be an almost impossible question to answer, unfortunately. I am really sorry, I do not think I can draw that distinction. All I can tell you is that typically we would expect a higher pass-through with corporate customers, and that is what we have sought to do.\",\n  \"reason\": \"The response deflects the question without providing the requested information, and there is no substantive evidence provided to address the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 600,
+      "batch_seconds": 12.97318208300021
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "79af72b50406e227fc1d27828fbd35690c4f445093ae5406f61230d7fc7c1c29",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Nature of deposit beta difference between Barclays and NatWest",
+    "main_topics": [
+      "Deposit beta",
+      "Market practices",
+      "Corporate exposure"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Can you give us just a little bit more colour on what you think the nature of the difference is between the corporates that Barclays might have and the corporates that NatWest might have, and why there is such a big difference in terms of market practices on deposit rates?",
+    "answer_quote": "Well, without knowing their book, that would be an almost impossible question to answer, unfortunately. I am really sorry, I do not think I can draw that distinction. All I can tell you is that typically we would expect a higher pass-through with corporate customers, and that is what we have sought to do.",
+    "reason": "The response deflects the question without providing the requested information, and there is no substantive evidence provided to address the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

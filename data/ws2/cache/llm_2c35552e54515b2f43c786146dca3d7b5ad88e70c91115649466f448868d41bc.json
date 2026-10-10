@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the future outlook for Net New Money in the Wealth business in Hong Kong and the impact of RM force.\",\n  \"main_topics\": [\"Net New Money\", \"Wealth business growth\", \"Hong Kong\", \"RM force\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to come back on the Net New Money in the Wealth business in Hong Kong, which was a very strong number in 1Q.\",\n  \"answer_quote\": \"Overall there are enough levers of investment, particularly in customer journeys, in technology applications, as well as RM hiring and RM productivity using AI that gives us confidence in a strong trajectory for Wealth, which is core to our growth story, albeit it starts at a smaller number compared to the other businesses, IWPB in particular.\",\n  \"reason\": \"The answer directly addresses the future outlook for Net New Money in the Wealth business in Hong Kong and discusses RM force, providing a medium level of evidence with some concrete support and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 826,
+      "batch_seconds": 22.959991416000776
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2c35552e54515b2f43c786146dca3d7b5ad88e70c91115649466f448868d41bc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the future outlook for Net New Money in the Wealth business in Hong Kong and the impact of RM force.",
+    "main_topics": [
+      "Net New Money",
+      "Wealth business growth",
+      "Hong Kong",
+      "RM force"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I just want to come back on the Net New Money in the Wealth business in Hong Kong, which was a very strong number in 1Q.",
+    "answer_quote": "Overall there are enough levers of investment, particularly in customer journeys, in technology applications, as well as RM hiring and RM productivity using AI that gives us confidence in a strong trajectory for Wealth, which is core to our growth story, albeit it starts at a smaller number compared to the other businesses, IWPB in particular.",
+    "reason": "The answer directly addresses the future outlook for Net New Money in the Wealth business in Hong Kong and discusses RM force, providing a medium level of evidence with some concrete support and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

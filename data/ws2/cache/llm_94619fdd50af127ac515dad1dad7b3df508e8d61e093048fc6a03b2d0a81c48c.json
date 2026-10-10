@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on the timing of a buyback in relation to SEC actions and 20-F filings.\",\n  \"main_topics\": [\"Buyback Timing\", \"SEC Actions\", \"20-F Filings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, that is really helpful. So just to be clear then, once these 20-Fs, one or two, have been refiled, the buyback will start? We are not waiting to see what the SEC is going to do in regards to potential fines or remedial action on the control function. It is literally just the 20-Fs?\",\n  \"answer_quote\": \"Correct.\",\n  \"reason\": \"The answer directly confirms the timing of the buyback, aligning with the question's focus on 20-F filings and not SEC actions.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 465,
+      "batch_seconds": 8.866081524000037
+    }
+  ],
+  "exchange_id": "224db408a071-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "94619fdd50af127ac515dad1dad7b3df508e8d61e093048fc6a03b2d0a81c48c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on the timing of a buyback in relation to SEC actions and 20-F filings.",
+    "main_topics": [
+      "Buyback Timing",
+      "SEC Actions",
+      "20-F Filings"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Okay, that is really helpful. So just to be clear then, once these 20-Fs, one or two, have been refiled, the buyback will start? We are not waiting to see what the SEC is going to do in regards to potential fines or remedial action on the control function. It is literally just the 20-Fs?",
+    "answer_quote": "Correct.",
+    "reason": "The answer directly confirms the timing of the buyback, aligning with the question's focus on 20-F filings and not SEC actions."
+  },
+  "whitespace_adjusted_quotes": []
+}

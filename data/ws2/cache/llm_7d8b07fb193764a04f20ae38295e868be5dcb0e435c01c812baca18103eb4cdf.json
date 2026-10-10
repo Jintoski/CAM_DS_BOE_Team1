@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Understanding customer response to rate changes and deposit management\",\n  \"main_topics\": [\"customer base understanding\", \"deposit rate changes\", \"deposit volume implications\", \"liquidity position\", \"rate sensitivity\", \"market context\", \"competing rates\", \"pricing strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, how well do you think you understand your customer base? If you increase deposit rates by 20 basis points, do you feel you know what the volume implication is going to be?\",\n  \"answer_quote\": \"I think the start point is that BUK is in a very, very strong liquid position with a really strong franchise, and one of the things that we called out on the day was the extent to which our deposit base has really grown over the last few years.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding customer response to rate changes and deposit management\",\n  \"main_topics\": [\"Customer response to rate changes\", \"Deposit management\", \"Market context\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, how well do you think you understand your customer base? If you increase deposit rates by 20 basis points, do you feel you know what the volume implication is going to be?\",\n  \"answer_quote\": \"I think the start point is that BUK is in a very, very strong liquid position with a really strong franchise, and one of the things that we called out on the day was the extent to which our deposit base has really grown over the last few years. The point about deposits is we've never really been in a situation where we've had such rapidly rising rates, in an internet enabled environment, and that clearly has changed customer behaviour.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high level of evidence with specific figures and context, and is aligned with the narrative of understanding customer response to rate changes and deposit management.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding customer response to rate changes and deposit volume implications\",\n  \"main_topics\": [\"customer base understanding\", \"deposit rate changes\", \"deposit volume implications\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You talked a little bit about it, Anna, in your comments, that the response to your mailing was a lot higher than expected. So I was just wondering if you could say a bit more on that. So, how well do you think you understand your customer base? So if you increase deposit rates by 20 basis points, do you feel you know what the volume implication is going to be? If you are less comfortable with how they're going to perform, does that mean you have to slightly change the way you manage your deposits, run with more deposits than perhaps you otherwise would?\",\n  \"answer_quote\": \"I think the start point is that BUK is in a very, very strong liquid position with a really strong franchise, and one of the things that we called out on the day was the extent to which our deposit base has really grown over the last few years. The point about deposits is we've never really been in a situation where we've had such rapidly rising rates, in an internet enabled environment, and that clearly has changed customer behaviour. We did expect customers to become more rate sensitive as rates continued to rise, and that's exactly what's happened. I think what I was calling out specifically was, we did expect a response from the mailing that we sent out. The speed of that response was just a bit faster than we anticipated. I think we expected it to happen through Q323 and Q423. It was very [swift], the response was much earlier in the quarter. In terms of elasticity, you can't look at your elasticity in isolation of the market. Clearly what happened in the quarter was, there were some extremely strong rates, up to 6.2%, out there. As I said, we will not price uncommercially, we cannot price at 6.2% and benefit the P&L, that is an uncommercial rate for us to price at. We're very conscious of that. We do understand how customers respond to pricing changes that we make. However, you also have to put that in the context of the wider market, and what your competitors are doing, and they may have different motivations.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding customer response to rate changes and deposit management\",\n  \"main_topics\": [\"customer base understanding\", \"deposit rate changes\", \"deposit volume implications\", \"liquidity position\", \"rate sensitivity\", \"market context\", \"competing rates\", \"pricing strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, how well do you think you understand your customer base? If you increase deposit rates by 20 basis points, do you feel you know what the volume implication is going to be?\",\n  \"answer_quote\": \"I think the start point is that BUK is in a very, very strong liquid position with a really strong franchise, and one of the things that we called out on the day was the extent to which our deposit base has really grown over the last few years.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 812,
+      "batch_seconds": 18.459268222999526
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 860,
+      "batch_seconds": 23.644425376000072
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 857,
+      "batch_seconds": 92.25122187300076
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7d8b07fb193764a04f20ae38295e868be5dcb0e435c01c812baca18103eb4cdf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarify cost changes and assess Wealth's normalised base level\",\n  \"main_topics\": [\"Bank costs\", \"Wealth performance\", \"Variable pay\", \"Cost guidance\", \"Life insurance manufacturing\", \"Investment distribution\", \"Market movements\", \"Offshore sales\", \"Cost normalisation\", \"Domestic vs international business\", \"Border closure impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One on costs and then one on Wealth please. Just firstly on costs, you flagged the step up in variable pay this quarter, but your full-year cost guidance is unchanged, so I'm just trying to understand if that's just a timing issue in the variable pay or whether the mix of the costs in your full-year guidance is perhaps slightly different to what you first thought.\",\n  \"answer_quote\": \"On costs for this year, I think there is a mix change going on of a few hundred million. Not all of that increase in variable pay is a timing issue. Some of it is an increase in the variable pay accrual relative to what we thought, but yeah, the mix shift I think, Andy, is because we had anticipated in the second half that there were various line items that we would begin to see a return to normalisation from Covid that we think is going to be much slower than what we previously anticipated. So, generally costs associated with running the bank, like travel, printing, office premises and the like I think are going to run a few hundred million lower than what we previously anticipated for this year, which offsets a slightly higher accrual into the variable pay pool, so that's why we're still confident and committing to the flat cost target.\",\n  \"reason\": \"The response directly addresses the cost changes and provides a clear stance on Wealth's performance, with high evidence level due to the mention of specific figures and a direct narrative alignment with the question's intent.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Cost structure and Wealth performance analysis\",\n  \"main_topics\": [\"Variable pay costs\", \"Full-year cost guidance\", \"Wealth performance\", \"Life insurance manufacturing\", \"Investment distribution\", \"Market movements\", \"Normalisation of costs\", \"Domestic vs international business impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One on costs and then one on Wealth please. Just firstly on costs, you flagged the step up in variable pay this quarter, but your full-year cost guidance is unchanged, so I'm just trying to understand if that's just a timing issue in the variable pay or whether the mix of the costs in your full-year guidance is perhaps slightly different to what you first thought.\",\n  \"answer_quote\": \"On costs for this year, I think there is a mix change going on of a few hundred million. Not all of that increase in variable pay is a timing issue. Some of it is an increase in the variable pay accrual relative to what we thought, but yeah, the mix shift I think, Andy, is because we had anticipated in the second half that there were various line items that we would begin to see a return to normalisation from Covid that we think is going to be much slower than what we previously anticipated.\",\n  \"reason\": \"The answer directly addresses the cost structure question, explaining the mix change and the reasons behind it, and provides a clear stance on the Wealth performance, differentiating between domestic and international business impacts.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify cost changes and assess Wealth's normalised base level\",\n  \"main_topics\": [\"Bank costs\", \"Wealth performance\", \"Variable pay\", \"Cost guidance\", \"Life insurance manufacturing\", \"Investment distribution\", \"Market movements\", \"Offshore sales\", \"Cost normalisation\", \"Domestic vs international business\", \"Border closure impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One on costs and then one on Wealth please. Just firstly on costs, you flagged the step up in variable pay this quarter, but your full-year cost guidance is unchanged, so I'm just trying to understand if that's just a timing issue in the variable pay or whether the mix of the costs in your full-year guidance is perhaps slightly different to what you first thought.\",\n  \"answer_quote\": \"On costs for this year, I think there is a mix change going on of a few hundred million. Not all of that increase in variable pay is a timing issue. Some of it is an increase in the variable pay accrual relative to what we thought, but yeah, the mix shift I think, Andy, is because we had anticipated in the second half that there were various line items that we would begin to see a return to normalisation from Covid that we think is going to be much slower than what we previously anticipated.\",\n  \"reason\": \"The response directly addresses the cost changes and Wealth's normalised base level, providing a clear explanation and aligning with the question's intent. It includes high evidence with specific figures and a direct stance on the topics raised.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify cost changes and assess Wealth's normalised base level\",\n  \"main_topics\": [\"Bank costs\", \"Wealth performance\", \"Variable pay\", \"Cost guidance\", \"Life insurance manufacturing\", \"Investment distribution\", \"Market movements\", \"Offshore sales\", \"Cost normalisation\", \"Domestic vs international business\", \"Border closure impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One on costs and then one on Wealth please. Just firstly on costs, you flagged the step up in variable pay this quarter, but your full-year cost guidance is unchanged, so I'm just trying to understand if that's just a timing issue in the variable pay or whether the mix of the costs in your full-year guidance is perhaps slightly different to what you first thought.\",\n  \"answer_quote\": \"On costs for this year, I think there is a mix change going on of a few hundred million. Not all of that increase in variable pay is a timing issue. Some of it is an increase in the variable pay accrual relative to what we thought, but yeah, the mix shift I think, Andy, is because we had anticipated in the second half that there were various line items that we would begin to see a return to normalisation from Covid that we think is going to be much slower than what we previously anticipated. So, generally costs associated with running the bank, like travel, printing, office premises and the like I think are going to run a few hundred million lower than what we previously anticipated for this year, which offsets a slightly higher accrual into the variable pay pool, so that's why we're still confident and committing to the flat cost target.\",\n  \"reason\": \"The response directly addresses the cost changes and provides a clear stance on Wealth's performance, with high evidence level due to the mention of specific figures and a direct narrative alignment with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 874,
+      "batch_seconds": 23.58140372499929
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 928,
+      "batch_seconds": 24.511419823000324
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 928,
+      "batch_seconds": 25.31954854899959
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "081b9782c040abe615c82e83f210be0b998a4cb01e080c54a06edcb164751cd0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

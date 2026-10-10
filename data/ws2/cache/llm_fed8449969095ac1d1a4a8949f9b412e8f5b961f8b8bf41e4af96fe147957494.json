@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for FICC financing contribution scale\",\n  \"main_topics\": [\"FICC financing\", \"US card activity\", \"economic indicators\", \"Downside 1 scenario\", \"PMAs\", \"IFRS 9\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you help us scale the contribution from FICC financing?\",\n  \"answer_quote\": \"We wouldn't give that out on a call like this, Rohith. We'll continue to consider our disclosure around FICC, and indeed the other parts of Markets, and we'll come back to you on that.\",\n  \"reason\": \"The answer partially addresses the request for scaling FICC financing contribution but deflects the specific question, instead discussing other topics and providing forward guidance without direct numerical evidence.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for FICC financing contribution scaling\",\n  \"main_topics\": [\"FICC financing\", \"US card stock\", \"economic activity\", \"delinquencies\", \"US economy\", \"Downside 1 scenario\", \"PMAs\", \"IFRS 9\", \"economic volatility\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you help us scale the contribution from FICC financing?\",\n  \"answer_quote\": \"We wouldn't give that out on a call like this, Rohith. We'll continue to consider our disclosure around FICC, and indeed the other parts of Markets, and we'll come back to you on that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for FICC financing contribution scaling\",\n  \"main_topics\": [\"FICC financing\", \"US card stock\", \"economic activity\", \"delinquencies\", \"Downside 1 scenario\", \"PMAs\", \"IFRS 9\", \"economic volatility\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Sorry, just before you move onto the cards, I appreciate you don't want to give a proportion, but can you help us scale the contribution from FICC financing?\",\n  \"answer_quote\": \"We wouldn't give that out on a call like this, Rohith. We'll continue to consider our disclosure around FICC, and indeed the other parts of Markets, and we'll come back to you on that. On US cards, arrears have ticked up a little. Balances are growing, we're seeing increased economic activity in the US, manifesting itself in our card stock, people are spending more, we're seeing organic growth. Given that movement, from a very, very low base, we would expect to see some movement in staging and some movement up in delinquencies. We're not concerned by what we're seeing; it looks broadly in line with the industry. It looks what we would have expected. It remains quite a long way below pre-pandemic. And the fundamentals of the US economy are pretty strong. Unemployment at 3.5% and we're still seeing strong levels of repayment across that book. So no concerns now. We've shown you what would happen if we weighted 100% the Downside 1 scenario. And we've called out for you the main macroeconomic variables that Downside 1 represents, so 6.5% unemployment in the UK for example. So you're right, that's the comparison we're drawing. So in other words, if we saw Downside 1 pan out exactly as we show it in that model, then we would expect to cover it with PMAs. Sometimes the macroeconomic variables don't flow exactly the way we model them to, so that's a specific scenario that we're calling there. But we feel like we're well covered On the pace of normalisation. I guess we would expect to trend towards that 50-60bps as we grow and economic activity recovers. The thing I'd just call out for you is, given the nature of IFRS 9, that pathway won't necessarily be linear. We can see some lumpiness. So that's more a go-to position, once we see economic volatility settle down a bit.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for FICC financing contribution scale\",\n  \"main_topics\": [\"FICC financing\", \"US card activity\", \"economic indicators\", \"Downside 1 scenario\", \"PMAs\", \"IFRS 9\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you help us scale the contribution from FICC financing?\",\n  \"answer_quote\": \"We wouldn't give that out on a call like this, Rohith. We'll continue to consider our disclosure around FICC, and indeed the other parts of Markets, and we'll come back to you on that.\",\n  \"reason\": \"The answer partially addresses the request for scaling FICC financing contribution but deflects the specific question, instead discussing other topics and providing forward guidance without direct numerical evidence.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 816,
+      "batch_seconds": 18.459268222999526
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 861,
+      "batch_seconds": 23.644425376000072
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 861,
+      "batch_seconds": 92.25122187300076
+    }
+  ],
+  "exchange_id": "6d4760f97290-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fed8449969095ac1d1a4a8949f9b412e8f5b961f8b8bf41e4af96fe147957494",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

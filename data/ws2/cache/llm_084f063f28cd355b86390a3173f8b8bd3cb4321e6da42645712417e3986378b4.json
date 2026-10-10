@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about growth potential in Wholesale Transaction Banking and other non-banking NII components\",\n  \"main_topics\": [\"Wholesale Transaction Banking growth\", \"Non-banking NII growth\", \"Credit card and fee growth\", \"FX market growth\", \"Trade and payments growth\", \"Guidance on NII growth\", \"Material drivers of NII growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My question is regarding non-banking NII and the potential for growth in that. I know we flagged a double-digit Fee and other income growth in Wealth, but then Wholesale Transaction Banking growth, we didn't say anything. It seems like the global FX market is growing by mid-single digit, which is half of this Wholesale Transaction Banking. Trade and payments, is the other half, and trade flows are growing at, let's say, at the very least, 4%. So if you assume mid-single digit here, and then double-digit, even 10%, in Wealth, why can't we have 7% or high-single digit growth? I know we don't have guidance. I'm not looking for that, just for colour in the wholesale transaction banking, so we will reach 6, 7, 8% on the non-banking NII. That's not what the market is expecting, and implicit is not what the guidance is also on the RoTE. So why is this Wholesale Transaction Banking slower growth for us compared to industry data? And the related question is, am I missing something else like credit card and other account fees, which is not in these two things, but accounts for non-banking NII, and that can be flattish, or no growth. Is that the one?\",\n  \"answer_quote\": \"In terms of the material drivers, you're right. It's really FX. It's trade. It's payments. From a credit card and fee piece, that's not a material item for us. I would say, overall, as we look at when we give guidance, we look at a range of scenarios. We look at the upside, the downside. We come through a mid-single digit and we don't necessarily define mid-single digit, but, by all accounts, mid-single digit can include 4 to 6%, or low single digits on the lending side. On the retail, the non-Wealth retail Fee and other income, that was about $1.3 billion last year, and it did grow a bit versus the prior year. But I think, if you were to look back over the last four or five years, it's been relatively stable.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the slower growth in Wholesale Transaction Banking compared to industry data and the impact of credit card and other account fees on non-banking NII growth.\",\n  \"main_topics\": [\"Wholesale Transaction Banking growth\", \"Credit card and other account fees\", \"Non-banking NII growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Why is this Wholesale Transaction Banking slower growth for us compared to industry data?\",\n  \"answer_quote\": \"In terms of the material drivers, you're right. It's really FX. It's trade. It's payments. From a credit card and fee piece, that's not a material item for us.\",\n  \"reason\": \"The answer partially addresses the slower growth in Wholesale Transaction Banking by mentioning material drivers but does not provide a direct comparison to industry data or discuss the impact of credit card and other account fees on non-banking NII growth.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the slower growth of Wholesale Transaction Banking compared to industry data and the impact of non-banking NII components on overall growth.\",\n  \"main_topics\": [\"Wholesale Transaction Banking growth\", \"Non-banking NII\", \"FX market\", \"Trade and payments growth\", \"Credit card and fee growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My question is regarding non-banking NII and the potential for growth in that. I know we flagged a double-digit Fee and other income growth in Wealth, but then Wholesale Transaction Banking growth, we didn't say anything. It seems like the global FX market is growing by mid-single digit, which is half of this Wholesale Transaction Banking. Trade and payments, is the other half, and trade flows are growing at, let's say, at the very least, 4%. So if you assume mid-single digit here, and then double-digit, even 10%, in Wealth, why can't we have 7% or high-single digit growth? I know we don't have guidance. I'm not looking for that, just for colour in the wholesale transaction banking, so we will reach 6, 7, 8% on the non-banking NII. That's not what the market is expecting, and implicit is not what the guidance is also on the RoTE. So why is this Wholesale Transaction Banking slower growth for us compared to industry data? And the related question is, am I missing something else like credit card and other account fees, which is not in these two things, but accounts for non-banking NII, and that can be flattish, or no growth. Is that the one?\",\n  \"answer_quote\": \"In terms of the material drivers, you're right. It's really FX. It's trade. It's payments. From a credit card and fee piece, that's not a material item for us. I would say, overall, as we look at when we give guidance, we look at a range of scenarios. We look at the upside, the downside. We come through a mid-single digit and we don't necessarily define mid-single digit, but, by all accounts, mid-single digit can include 4 to 6%, or low single digits on the lending side. On the retail, the non-Wealth retail Fee and other income, that was about $1.3 billion last year, and it did grow a bit versus the prior year. But I think, if you were to look back over the last four or five years, it's been relatively stable.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about growth potential in Wholesale Transaction Banking and other non-banking NII components\",\n  \"main_topics\": [\"Wholesale Transaction Banking growth\", \"Non-banking NII growth\", \"Credit card and fee growth\", \"FX market growth\", \"Trade and payments growth\", \"Guidance on NII growth\", \"Material drivers of NII growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My question is regarding non-banking NII and the potential for growth in that. I know we flagged a double-digit Fee and other income growth in Wealth, but then Wholesale Transaction Banking growth, we didn't say anything. It seems like the global FX market is growing by mid-single digit, which is half of this Wholesale Transaction Banking. Trade and payments, is the other half, and trade flows are growing at, let's say, at the very least, 4%. So if you assume mid-single digit here, and then double-digit, even 10%, in Wealth, why can't we have 7% or high-single digit growth? I know we don't have guidance. I'm not looking for that, just for colour in the wholesale transaction banking, so we will reach 6, 7, 8% on the non-banking NII. That's not what the market is expecting, and implicit is not what the guidance is also on the RoTE. So why is this Wholesale Transaction Banking slower growth for us compared to industry data? And the related question is, am I missing something else like credit card and other account fees, which is not in these two things, but accounts for non-banking NII, and that can be flattish, or no growth. Is that the one?\",\n  \"answer_quote\": \"In terms of the material drivers, you're right. It's really FX. It's trade. It's payments. From a credit card and fee piece, that's not a material item for us. I would say, overall, as we look at when we give guidance, we look at a range of scenarios. We look at the upside, the downside. We come through a mid-single digit and we don't necessarily define mid-single digit, but, by all accounts, mid-single digit can include 4 to 6%, or low single digits on the lending side. On the retail, the non-Wealth retail Fee and other income, that was about $1.3 billion last year, and it did grow a bit versus the prior year. But I think, if you were to look back over the last four or five years, it's been relatively stable.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 820,
+      "batch_seconds": 24.884960510999917
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 868,
+      "batch_seconds": 23.644425376000072
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 865,
+      "batch_seconds": 92.25122187300076
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "084f063f28cd355b86390a3173f8b8bd3cb4321e6da42645712417e3986378b4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

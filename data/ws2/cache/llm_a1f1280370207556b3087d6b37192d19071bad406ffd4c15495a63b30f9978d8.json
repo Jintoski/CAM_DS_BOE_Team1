@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on interest rate sensitivity and bond tailwind impact\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"Bond tailwind\", \"Net interest income\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've never quite been able to square the $5 billion number, even if you are using a 50% deposit beta, and today I find myself even less capable of doing that, and I'll tell you why. The unwind of FVOCI is a sort of a $5 billion tailwind, but of course that only relates to $350 billion in bonds, and you've got $1 trillion in loans and deposits that match one another. I just wonder why the rate gearing isn't substantially more than that of the bond tailwind on its own, given what's happened to rates is about $5 billion.\",\n  \"answer_quote\": \"I'm not sure your bond tail is a bond tail. The way I think about it is we have a gross and net interest rate exposure. We hedge about 20% of our overall net interest income exposure through that bond portfolio that you're referring to, which we've just taken the fair market value losses on. That doesn't provide us with that incremental $4-5 billion of unwind over the next five quarters. We see that benefit in the other 80% of the portfolio, and the interest rate sensitivity that we show you is the net interest rate sensitivity, not the gross interest rate sensitivity. If we didn't have that portfolio and hedging in place, that $5.4 billion is probably closer to $7 billion. The benefit of higher rates that we've seen coming through that has created the fair market value losses, the benefit of that higher net interest income we won't see in that portfolio; we'll see in the unhedged 80% of the portfolio that we've give you interest rate sensitivity for.\",\n  \"reason\": \"The answer directly addresses the question's concern about the $5 billion figure, explaining the difference between gross and net interest rate exposure and the impact of hedging, providing a high level of evidence with specific numbers.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 769,
+      "batch_seconds": 19.062921921999987
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a1f1280370207556b3087d6b37192d19071bad406ffd4c15495a63b30f9978d8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on interest rate sensitivity and bond tailwind impact",
+    "main_topics": [
+      "Interest rate sensitivity",
+      "Bond tailwind",
+      "Net interest income"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I've never quite been able to square the $5 billion number, even if you are using a 50% deposit beta, and today I find myself even less capable of doing that, and I'll tell you why. The unwind of FVOCI is a sort of a $5 billion tailwind, but of course that only relates to $350 billion in bonds, and you've got $1 trillion in loans and deposits that match one another. I just wonder why the rate gearing isn't substantially more than that of the bond tailwind on its own, given what's happened to rates is about $5 billion.",
+    "answer_quote": "I'm not sure your bond tail is a bond tail. The way I think about it is we have a gross and net interest rate exposure. We hedge about 20% of our overall net interest income exposure through that bond portfolio that you're referring to, which we've just taken the fair market value losses on. That doesn't provide us with that incremental $4-5 billion of unwind over the next five quarters. We see that benefit in the other 80% of the portfolio, and the interest rate sensitivity that we show you is the net interest rate sensitivity, not the gross interest rate sensitivity. If we didn't have that portfolio and hedging in place, that $5.4 billion is probably closer to $7 billion. The benefit of higher rates that we've seen coming through that has created the fair market value losses, the benefit of that higher net interest income we won't see in that portfolio; we'll see in the unhedged 80% of the portfolio that we've give you interest rate sensitivity for.",
+    "reason": "The answer directly addresses the question's concern about the $5 billion figure, explaining the difference between gross and net interest rate exposure and the impact of hedging, providing a high level of evidence with specific numbers."
+  },
+  "whitespace_adjusted_quotes": []
+}

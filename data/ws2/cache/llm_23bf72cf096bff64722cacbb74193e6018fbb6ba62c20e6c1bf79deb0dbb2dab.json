@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing sustainability of revenue growth in Asia wealth management\",\n  \"main_topics\": [\"Asia wealth management revenue growth\", \"Sustainability of growth\", \"Medium-term targets\", \"Market influences\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just ask one follow-up on the Asia wealth piece? So that circa 25% growth rate in revenues - what should we be doing with that in terms of what's a more sustainable revenue CAGR for Asia wealth management from here?\",\n  \"answer_quote\": \"The high-single-digit target we set last year is a medium-term target. I wouldn't take the 25%, which we saw in the second quarter, and run-rate that or assume we can maintain that. It's been positive this year thus far.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a stance on the sustainability of the growth, and includes high evidence with numeric references to the growth rate and the medium-term target.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Sustainable revenue CAGR for Asia wealth management\",\n  \"main_topics\": [\"Asia wealth management growth\", \"Sustainable revenue CAGR\", \"Medium-term targets\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So is this just a temporary phenomenon that will normalise from here?\",\n  \"answer_quote\": \"I wouldn't take the 25%, which we saw in the second quarter, and run-rate that or assume we can maintain that. It's been positive this year thus far.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 660,
+      "batch_seconds": 15.948184826000215
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 705,
+      "batch_seconds": 16.73286601899963
+    }
+  ],
+  "exchange_id": "7f553358cc34-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "23bf72cf096bff64722cacbb74193e6018fbb6ba62c20e6c1bf79deb0dbb2dab",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing sustainability of revenue growth in Asia wealth management",
+    "main_topics": [
+      "Asia wealth management revenue growth",
+      "Sustainability of growth",
+      "Medium-term targets",
+      "Market influences"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I just ask one follow-up on the Asia wealth piece? So that circa 25% growth rate in revenues - what should we be doing with that in terms of what's a more sustainable revenue CAGR for Asia wealth management from here?",
+    "answer_quote": "The high-single-digit target we set last year is a medium-term target. I wouldn't take the 25%, which we saw in the second quarter, and run-rate that or assume we can maintain that. It's been positive this year thus far.",
+    "reason": "The answer directly addresses the question's intent, provides a stance on the sustainability of the growth, and includes high evidence with numeric references to the growth rate and the medium-term target."
+  },
+  "whitespace_adjusted_quotes": []
+}

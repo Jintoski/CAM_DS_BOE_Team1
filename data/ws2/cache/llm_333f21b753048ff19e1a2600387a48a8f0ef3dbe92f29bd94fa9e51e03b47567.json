@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on market share assumptions, NIM improvement, and APR cap\",\n  \"main_topics\": [\"Market Share Assumptions\", \"NIM Improvement\", \"APR Cap\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So in the Investment Bank, you're only assuming a flat market share. I'm just wondering what assumptions are underlying this across FICC and Equities? And how do you see the competition playing out versus US peers?\",\n  \"answer_quote\": \"So, we have a planning assumption of flat share. And for us, the number that we give you is basically the top 9 Investment Banks and our share of that combined revenue. It's a pretty rough indication because it includes things and territories that we do not operate in. So, there are times when we would expect to outperform and times that we wouldn't. So, we're not in commodities. We're largely not in Asian equities. So, it's a bit of a broad brush and it's a planning assumption. Basically, what we're saying on markets in particular, is that we've made really good progress. We expect to continue to make progress in our focused businesses and Financing in particular. So I won't give you a split between FICC and Equities, but think of us leaning on European rates, Securitised Products, Equity Derivatives and also continuing in Financing. So, they are the businesses that we're going to continue with there. So more of the same really. The market share is an output, and it tends to just move around because it's such a rough measure. You do get coalition data, which is much, much more specific, but it tends to come out with a huge lag, which is why we rarely report it out to you. On USCB, the simple answer is before we take AA out in Q1, we expect our NIM to be 12.5%. Then it goes to sort of 13% in the second quarter because we're taking AA out relatively late, and then it goes to 14% when it's fully out. So, I would say roughly 12.5% beforehand, roughly 1.5% impact of taking AA out. And if you remember back to our original Investor Day [in February 2024], we did say that we expected to be at a NIM of greater than 12% [in 2026]. So, we're broadly where we expect it to be and this extra pop, if you like, in the NIM is because of the portfolio change that we didn't plan for. I do expect it to continue to grow just because our strategy around more retail deposits doesn't change. Our strategy around continuing to rebalance the portfolio between retail and travel doesn't change. You're not going to see the same kind of step changes, but I would expect it to continue to sort of move on. And then finally, on the APR cap.\",\n  \"reason\": \"The answer directly addresses the questions about market share assumptions, NIM improvement, and APR cap, providing specific figures and future expectations.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1232,
+      "batch_seconds": 33.825311269999474
+    }
+  ],
+  "exchange_id": "f2e71aa79765-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "333f21b753048ff19e1a2600387a48a8f0ef3dbe92f29bd94fa9e51e03b47567",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on market share assumptions, NIM improvement, and APR cap",
+    "main_topics": [
+      "Market Share Assumptions",
+      "NIM Improvement",
+      "APR Cap"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So in the Investment Bank, you're only assuming a flat market share. I'm just wondering what assumptions are underlying this across FICC and Equities? And how do you see the competition playing out versus US peers?",
+    "answer_quote": "So, we have a planning assumption of flat share. And for us, the number that we give you is basically the top 9 Investment Banks and our share of that combined revenue. It's a pretty rough indication because it includes things and territories that we do not operate in. So, there are times when we would expect to outperform and times that we wouldn't. So, we're not in commodities. We're largely not in Asian equities. So, it's a bit of a broad brush and it's a planning assumption. Basically, what we're saying on markets in particular, is that we've made really good progress. We expect to continue to make progress in our focused businesses and Financing in particular. So I won't give you a split between FICC and Equities, but think of us leaning on European rates, Securitised Products, Equity Derivatives and also continuing in Financing. So, they are the businesses that we're going to continue with there. So more of the same really. The market share is an output, and it tends to just move around because it's such a rough measure. You do get coalition data, which is much, much more specific, but it tends to come out with a huge lag, which is why we rarely report it out to you. On USCB, the simple answer is before we take AA out in Q1, we expect our NIM to be 12.5%. Then it goes to sort of 13% in the second quarter because we're taking AA out relatively late, and then it goes to 14% when it's fully out. So, I would say roughly 12.5% beforehand, roughly 1.5% impact of taking AA out. And if you remember back to our original Investor Day [in February 2024], we did say that we expected to be at a NIM of greater than 12% [in 2026]. So, we're broadly where we expect it to be and this extra pop, if you like, in the NIM is because of the portfolio change that we didn't plan for. I do expect it to continue to grow just because our strategy around more retail deposits doesn't change. Our strategy around continuing to rebalance the portfolio between retail and travel doesn't change. You're not going to see the same kind of step changes, but I would expect it to continue to sort of move on. And then finally, on the APR cap.",
+    "reason": "The answer directly addresses the questions about market share assumptions, NIM improvement, and APR cap, providing specific figures and future expectations."
+  },
+  "whitespace_adjusted_quotes": []
+}

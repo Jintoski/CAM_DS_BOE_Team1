@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request clarification on hedging strategies and impairment rates\",\n  \"main_topics\": [\"Hedging strategies\", \"Impairment rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just wondered if you could give any more colour specifically on other currencies you're likely to build the hedge - I guess asking in part to understand if these are currencies where the curve is more inverted and there's a cost in the near term.\",\n  \"answer_quote\": \"As you rightly say, from a sterling perspective we are well positioned. We've hedged probably to where we want to be at this point in time.\",\n  \"reason\": \"The answer directly addresses the hedging strategies and provides specific details on the hedging approach for major currencies, including the US dollar and Hong Kong dollar, as well as the current position on the euro. It also touches on the impairment rates and the company's confidence in meeting its full-year guidance.\"\n}",
+  "data": {
+    "question_intent": "Request clarification on hedging strategies and impairment rates",
+    "main_topics": [
+      "Hedging strategies",
+      "Impairment rates"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I just wondered if you could give any more colour specifically on other currencies you're likely to build the hedge - I guess asking in part to understand if these are currencies where the curve is more inverted and there's a cost in the near term.",
+    "answer_quote": "As you rightly say, from a sterling perspective we are well positioned. We've hedged probably to where we want to be at this point in time.",
+    "reason": "The answer directly addresses the hedging strategies and provides specific details on the hedging approach for major currencies, including the US dollar and Hong Kong dollar, as well as the current position on the euro. It also touches on the impairment rates and the company's confidence in meeting its full-year guidance."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "7f553358cc34-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9215d8e08bffea53ad425f65cc021feefc54a8302a1c211fc2b6826c48d1f42c"
+}

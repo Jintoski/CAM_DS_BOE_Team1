@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Impact of Basel changes on mortgage risk sensitivity and pro-cyclicality\",\n  \"main_topics\": [\"Basel changes\", \"Mortgage risk weights\", \"Pro-cyclicality\", \"House price sensitivity\", \"Capital burden\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"To follow up on that, you mentioned the industry has changed the mortgage models, obviously there's been some front loading of Basel, in terms of how the banks work out mortgage risk weights. How do you think that has changed the sensitivity to house prices going down? Do you think we get more pro-cyclicality relative to what you're expecting, or do you think that effectively should be negligible given how you've got a floor in place?\",\n  \"answer_quote\": \"Essentially what they're trying to move us towards is a hybrid model, which inherently should have a bit more pro-cyclicality to it than a through the cycle model. We'll have to see what happens. Is it impacting how people are behaving now? Not really. I think most large lenders probably have been factoring this in for some time. I would think as we've gone through that transition period; HPI does impact mortgage capital and it does so instantaneously, it's one of the few macro factors that does translate to capital instantaneously. That and commercial real estate pricing, I would say would be the immediate ones. To date, I think what we've seen in HPI, whilst it's moderated, is it's moderating from a high. We've not seen anything yet that's concerned us and actually the outlook for HPI does not suggest that there's going to be a massive change anytime soon. If you think about the UK market, there's still quite strong demand for houses. We're probably going through a moderate correction, post quite a steep rise in house prices through the pandemic period, but we're not concerned about the capital burden.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of Basel changes on mortgage risk sensitivity and pro-cyclicality\",\n  \"main_topics\": [\"Basel Accord\", \"Mortgage risk weights\", \"Pro-cyclicality\", \"House price index (HPI)\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you think that has changed the sensitivity to house prices going down? Do you think we get more pro-cyclicality relative to what you're expecting, or do you think that effectively should be negligible given how you've got a floor in place?\",\n  \"answer_quote\": \"Essentially what they're trying to move us towards is a hybrid model, which inherently should have a bit more pro-cyclicality to it than a through the cycle model. We'll have to see what happens. Is it impacting how people are behaving now? Not really. I think most large lenders probably have been factoring this in for some time. I would think as we've gone through that transition period; HPI does impact mortgage capital and it does so instantaneously, it's one of the few macro factors that does translate to capital instantaneously. That and commercial real estate pricing, I would say would be the immediate ones. To date, I think what we've seen in HPI, whilst it's moderated, is it's moderating from a high. We've not seen anything yet that's concerned us and actually the outlook for HPI does not suggest that there's going to be a massive change anytime soon. If you think about the UK market, there's still quite strong demand for houses. We're probably going through a moderate correction, post quite a steep rise in house prices through the pandemic period, but we're not concerned about the capital burden.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of Basel changes on mortgage risk sensitivity and pro-cyclicality\",\n  \"main_topics\": [\"Basel changes\", \"mortgage risk weights\", \"pro-cyclicality\", \"house prices\", \"HPI impact\", \"capital burden\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"To follow up on that, you mentioned the industry has changed the mortgage models, obviously there's been some front loading of Basel, in terms of how the banks work out mortgage risk weights. How do you think that has changed the sensitivity to house prices going down? Do you think we get more pro-cyclicality relative to what you're expecting, or do you think that effectively should be negligible given how you've got a floor in place?\",\n  \"answer_quote\": \"Essentially what they're trying to move us towards is a hybrid model, which inherently should have a bit more pro-cyclicality to it than a through the cycle model. We'll have to see what happens. Is it impacting how people are behaving now? Not really. I think most large lenders probably have been factoring this in for some time. I would think as we've gone through that transition period; HPI does impact mortgage capital and it does so instantaneously, it's one of the few macro factors that does translate to capital instantaneously. That and commercial real estate pricing, I would say would be the immediate ones. To date, I think what we've seen in HPI, whilst it's moderated, is it's moderating from a high. We've not seen anything yet that's concerned us and actually the outlook for HPI does not suggest that there's going to be a massive change anytime soon. If you think about the UK market, there's still quite strong demand for houses. We're probably going through a moderate correction, post quite a steep rise in house prices through the pandemic period, but we're not concerned about the capital burden.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of Basel changes on mortgage risk sensitivity and pro-cyclicality\",\n  \"main_topics\": [\"Basel changes\", \"Mortgage risk weights\", \"Pro-cyclicality\", \"House price sensitivity\", \"Capital burden\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"To follow up on that, you mentioned the industry has changed the mortgage models, obviously there's been some front loading of Basel, in terms of how the banks work out mortgage risk weights. How do you think that has changed the sensitivity to house prices going down? Do you think we get more pro-cyclicality relative to what you're expecting, or do you think that effectively should be negligible given how you've got a floor in place?\",\n  \"answer_quote\": \"Essentially what they're trying to move us towards is a hybrid model, which inherently should have a bit more pro-cyclicality to it than a through the cycle model. We'll have to see what happens. Is it impacting how people are behaving now? Not really. I think most large lenders probably have been factoring this in for some time. I would think as we've gone through that transition period; HPI does impact mortgage capital and it does so instantaneously, it's one of the few macro factors that does translate to capital instantaneously. That and commercial real estate pricing, I would say would be the immediate ones. To date, I think what we've seen in HPI, whilst it's moderated, is it's moderating from a high. We've not seen anything yet that's concerned us and actually the outlook for HPI does not suggest that there's going to be a massive change anytime soon. If you think about the UK market, there's still quite strong demand for houses. We're probably going through a moderate correction, post quite a steep rise in house prices through the pandemic period, but we're not concerned about the capital burden.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 697,
+      "batch_seconds": 16.607167997000033
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 18.49001912699896
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 17.25838861400007
+    }
+  ],
+  "exchange_id": "7c783b078a7c-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6b9e74b3a6d990bb0485b2b1a7d021f9cc52d7ecff107b9725b1768fc69c114a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

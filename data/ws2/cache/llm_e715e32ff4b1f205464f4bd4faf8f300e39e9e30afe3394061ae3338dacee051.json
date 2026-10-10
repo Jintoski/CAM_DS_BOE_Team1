@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Questions on capital strategy and market outlook\",\n  \"main_topics\": [\"capital generation\", \"investment opportunities\", \"market share gains\", \"rate volatility\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had two questions. My first question, please, is on capital. You called out the 40bps that the market already knew about that takes the ratio down to 13.5%. Going forwards, through the year, can you talk about the priorities for the capital generation?\",\n  \"answer_quote\": \"Okay, so let me start with capital. What you should expect is that we operate across our range. Because as we make decisions around investment and around capital returns to shareholders, we're considering not just where we are at that point in time but what we subsequently expect to happen.\",\n  \"reason\": \"The response directly addresses the capital strategy and market outlook, providing a complete answer with high evidence level, including numeric evidence and forward guidance, and is aligned with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about capital allocation, business growth, M&A, and market volatility outlook.\",\n \"main_topics\": [\"Capital Allocation\", \"Business Growth\", \"M&A\", \"Market Volatility\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I had two questions. My first question, please, is on capital. You called out the 40bps that the market already knew about that takes the ratio down to 13.5%. Going forwards, through the year, can you talk about the priorities for the capital generation?\",\n \"answer_quote\": \"Okay, so let me start with capital. What you should expect is that we operate across our range. Because as we make decisions around investment and around capital returns to shareholders, we're considering not just where we are at that point in time but what we subsequently expect to happen.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1281,
+      "batch_seconds": 39.33959417799997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1326,
+      "batch_seconds": 97.78809524999997
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e715e32ff4b1f205464f4bd4faf8f300e39e9e30afe3394061ae3338dacee051",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Questions on capital strategy and market outlook",
+    "main_topics": [
+      "capital generation",
+      "investment opportunities",
+      "market share gains",
+      "rate volatility"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I had two questions. My first question, please, is on capital. You called out the 40bps that the market already knew about that takes the ratio down to 13.5%. Going forwards, through the year, can you talk about the priorities for the capital generation?",
+    "answer_quote": "Okay, so let me start with capital. What you should expect is that we operate across our range. Because as we make decisions around investment and around capital returns to shareholders, we're considering not just where we are at that point in time but what we subsequently expect to happen.",
+    "reason": "The response directly addresses the capital strategy and market outlook, providing a complete answer with high evidence level, including numeric evidence and forward guidance, and is aligned with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

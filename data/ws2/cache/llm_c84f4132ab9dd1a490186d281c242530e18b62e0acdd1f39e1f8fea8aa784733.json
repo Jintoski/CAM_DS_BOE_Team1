@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss FX impact and underlying drivers of bank earnings.\",\n  \"main_topics\": [\"FX\", \"Underlying drivers\", \"Bank earnings\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Yes, exactly.\",\n  \"answer_quote\": \"The only thing I would call out, is FX. So just be mindful of that. I would say the underlying driver is purchase activity, which is obviously driven by the increased number of customers that we have. You should annualise that, but the FX will be what it will be.\",\n  \"reason\": \"The answer partially addresses the FX impact and underlying drivers but lacks specific figures or detailed explanation.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 451,
+      "batch_seconds": 9.044579651000276
+    }
+  ],
+  "exchange_id": "335469fccfd8-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c84f4132ab9dd1a490186d281c242530e18b62e0acdd1f39e1f8fea8aa784733",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss FX impact and underlying drivers of bank earnings.",
+    "main_topics": [
+      "FX",
+      "Underlying drivers",
+      "Bank earnings"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Yes, exactly.",
+    "answer_quote": "The only thing I would call out, is FX. So just be mindful of that. I would say the underlying driver is purchase activity, which is obviously driven by the increased number of customers that we have. You should annualise that, but the FX will be what it will be.",
+    "reason": "The answer partially addresses the FX impact and underlying drivers but lacks specific figures or detailed explanation."
+  },
+  "whitespace_adjusted_quotes": []
+}

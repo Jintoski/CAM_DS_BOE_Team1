@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank capital management and US partnerships\",\n  \"main_topics\": [\"Bank capital\", \"Countercyclical buffers\", \"US partnerships\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, I'm just interested in your comments about staying above the range while the pandemic remains.\",\n  \"answer_quote\": \"On capital, we'll probably keep on giving you, if you like, a real-time sense of whereabout our capital level will be targeting.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about bank's capital management strategy and US partnership impact on RoTE.\",\n  \"main_topics\": [\"Bank Capital Management\", \"US Partnerships\", \"Regulatory Guidance\", \"Economic Activity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, I'm just interested in your comments about staying above the range while the pandemic remains.\",\n  \"answer_quote\": \"On capital, we'll probably keep on giving you, if you like, a real-time sense of whereabout our capital level will be targeting. I think, for now, we'll probably stay above our 14% range.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1154,
+      "batch_seconds": 37.31215783100015
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1199,
+      "batch_seconds": 96.16280181799993
+    }
+  ],
+  "exchange_id": "0bcb8152dc08-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a8f8032ecd03afd381b587d4fb254f9e17d2e104160712b403a3144c6b1d1622",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank capital management and US partnerships",
+    "main_topics": [
+      "Bank capital",
+      "Countercyclical buffers",
+      "US partnerships"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On capital, I'm just interested in your comments about staying above the range while the pandemic remains.",
+    "answer_quote": "On capital, we'll probably keep on giving you, if you like, a real-time sense of whereabout our capital level will be targeting.",
+    "reason": "The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

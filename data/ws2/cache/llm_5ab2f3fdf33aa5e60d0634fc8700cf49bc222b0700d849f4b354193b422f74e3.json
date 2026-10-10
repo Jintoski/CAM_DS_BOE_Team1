@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for elaboration on Gap portfolio dynamics, coverage ratio, revenue assumptions, and clarification on European Single Resolution Fund\",\n  \"main_topics\": [\"Gap portfolio dynamics\", \"Coverage ratio\", \"Revenue assumptions\", \"European Single Resolution Fund\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you perhaps elaborate on the dynamics on that book? I would presume the quality of that book is not quite as strong as the rest of your very good quality card portfolio. Could you give us a glimpse of the coverage ratio on that portfolio and how it compares to the rest of the book to help us gauge what stage migration or normalisation these sales might need for impairments in the coming quarter?\",\n  \"answer_quote\": \"When you purchase a portfolio, you purchase it at stage one. So when we acquired Gap, it was all stage one. As Gap has started to season and started to mature and grow, we see some natural migration into stage two. That means that customers are starting to borrow more, we've got new customers coming onto the book, so it's exactly as we expected. If you use your credit card more than you did previously, you might progress to stage two, even though you're showing no signs of delinquency. That's just the way IFRS 9 works. It's within our expectations. And in terms of coverage of NIM, we don't disclose individual partner ratios, whether that be delinquency or NIM. But what I will tell you is that we manage each partner individually. We manage them on a risk-adjusted return. The Gap is a very good quality portfolio, but it is a retail portfolio, and we typically expect the cost of risk to be higher in that type of portfolio than we would in an airline one, but we would also expect the NIM to be higher. Overall, think of this as us managing a risk-adjusted return. So even though impairment might be higher, we'd also expect NIM to be higher.\",\n  \"reason\": \"The response directly addresses the question's request for elaboration on the Gap portfolio dynamics, coverage ratio, and revenue assumptions, and provides a clear explanation of the European Single Resolution Fund, with high evidence level and numeric evidence present.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for elaboration on Gap portfolio dynamics, coverage ratio, cost guidance, and clarification on European Single Resolution Fund\",\n  \"main_topics\": [\"Gap portfolio dynamics\", \"Coverage ratio\", \"Cost guidance\", \"European Single Resolution Fund\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you perhaps elaborate on the dynamics on that book? Could you give us a glimpse of the coverage ratio on that portfolio and how it compares to the rest of the book to help us gauge what stage migration or normalisation these sales might need for impairments in the coming quarter?\",\n  \"answer_quote\": \"When you purchase a portfolio, you purchase it at stage one. So when we acquired Gap, it was all stage one. As Gap has started to season and started to mature and grow, we see some natural migration into stage two. That means that customers are starting to borrow more, we've got new customers coming onto the book, so it's exactly as we expected. On the second one, the easy bit is yes, around £90m in absolute terms on the [European Single Resolution Fund].\",\n  \"reason\": \"The answer directly addresses the question's request for details on Gap portfolio dynamics, coverage ratio, cost guidance, and the European Single Resolution Fund, providing both qualitative and quantitative information.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1077,
+      "batch_seconds": 33.79182608800056
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1125,
+      "batch_seconds": 34.05024706800032
+    }
+  ],
+  "exchange_id": "0459b7abee3e-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5ab2f3fdf33aa5e60d0634fc8700cf49bc222b0700d849f4b354193b422f74e3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for elaboration on Gap portfolio dynamics, coverage ratio, revenue assumptions, and clarification on European Single Resolution Fund",
+    "main_topics": [
+      "Gap portfolio dynamics",
+      "Coverage ratio",
+      "Revenue assumptions",
+      "European Single Resolution Fund"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could you perhaps elaborate on the dynamics on that book? I would presume the quality of that book is not quite as strong as the rest of your very good quality card portfolio. Could you give us a glimpse of the coverage ratio on that portfolio and how it compares to the rest of the book to help us gauge what stage migration or normalisation these sales might need for impairments in the coming quarter?",
+    "answer_quote": "When you purchase a portfolio, you purchase it at stage one. So when we acquired Gap, it was all stage one. As Gap has started to season and started to mature and grow, we see some natural migration into stage two. That means that customers are starting to borrow more, we've got new customers coming onto the book, so it's exactly as we expected. If you use your credit card more than you did previously, you might progress to stage two, even though you're showing no signs of delinquency. That's just the way IFRS 9 works. It's within our expectations. And in terms of coverage of NIM, we don't disclose individual partner ratios, whether that be delinquency or NIM. But what I will tell you is that we manage each partner individually. We manage them on a risk-adjusted return. The Gap is a very good quality portfolio, but it is a retail portfolio, and we typically expect the cost of risk to be higher in that type of portfolio than we would in an airline one, but we would also expect the NIM to be higher. Overall, think of this as us managing a risk-adjusted return. So even though impairment might be higher, we'd also expect NIM to be higher.",
+    "reason": "The response directly addresses the question's request for elaboration on the Gap portfolio dynamics, coverage ratio, and revenue assumptions, and provides a clear explanation of the European Single Resolution Fund, with high evidence level and numeric evidence present."
+  },
+  "whitespace_adjusted_quotes": []
+}

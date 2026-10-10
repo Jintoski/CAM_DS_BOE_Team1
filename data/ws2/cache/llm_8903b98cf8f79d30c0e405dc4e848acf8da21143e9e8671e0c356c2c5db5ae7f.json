@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on IFRS 17 impact on NII\",\n  \"main_topics\": [\"IFRS 17\", \"NII\", \"Earnings impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is just to follow up on what was said on the call around NII and the fact that consensus shouldn't move. You weren't looking to move consensus. Can I just clarify that that comment was pre-IFRS 17 impact? Because it looks to me like, based on slide 40, that there's going to be a negative impact from IFRS 17 on NII.\",\n  \"answer_quote\": \"That's absolutely correct, Raul. So this is guidance on an IFRS 4 basis. We will give you a restatement of this guidance under IFRS 17 with the Q1 results. We're first waiting on 9 March for the key changes from IFRS 17, so you have all the dynamics. Broadly speaking and just paraphrasing what Richard mentioned earlier, about $2.2 billion of the current IFRS 4 NII will flip like-for-like into non-NII, due to IFRS 17, and then there will be a number of additions and variations on the earnings statement that, net/net, will take out about two-thirds of the insurance PBT of broadly speaking, $1 billion. About two-thirds of it will disappear from the year's earnings and then will start accruing over the following years, and that's through additional changes in the cost line and the non-NII element. But pure NII, at this stage, is c.$2.2 billion, which will drop from that.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high-level numeric evidence and forward guidance, aligning with the question's narrative.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 676,
+      "batch_seconds": 17.66034953899998
+    }
+  ],
+  "exchange_id": "4970375d012d-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8903b98cf8f79d30c0e405dc4e848acf8da21143e9e8671e0c356c2c5db5ae7f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on IFRS 17 impact on NII",
+    "main_topics": [
+      "IFRS 17",
+      "NII",
+      "Earnings impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is just to follow up on what was said on the call around NII and the fact that consensus shouldn't move. You weren't looking to move consensus. Can I just clarify that that comment was pre-IFRS 17 impact? Because it looks to me like, based on slide 40, that there's going to be a negative impact from IFRS 17 on NII.",
+    "answer_quote": "That's absolutely correct, Raul. So this is guidance on an IFRS 4 basis. We will give you a restatement of this guidance under IFRS 17 with the Q1 results. We're first waiting on 9 March for the key changes from IFRS 17, so you have all the dynamics. Broadly speaking and just paraphrasing what Richard mentioned earlier, about $2.2 billion of the current IFRS 4 NII will flip like-for-like into non-NII, due to IFRS 17, and then there will be a number of additions and variations on the earnings statement that, net/net, will take out about two-thirds of the insurance PBT of broadly speaking, $1 billion. About two-thirds of it will disappear from the year's earnings and then will start accruing over the following years, and that's through additional changes in the cost line and the non-NII element. But pure NII, at this stage, is c.$2.2 billion, which will drop from that.",
+    "reason": "The answer directly addresses the question's intent, provides a clear stance, and includes high-level numeric evidence and forward guidance, aligning with the question's narrative."
+  },
+  "whitespace_adjusted_quotes": []
+}

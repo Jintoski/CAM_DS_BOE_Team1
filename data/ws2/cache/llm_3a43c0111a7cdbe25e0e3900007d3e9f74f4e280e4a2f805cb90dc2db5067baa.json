@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss Barclays' value generation from UK merchant acquiring business and Basel 3.1 regulatory impact\",\n  \"main_topics\": [\"Barclays' UK merchant acquiring business\", \"Basel 3.1 regulatory impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, it's around just some recent press speculation that you're looking to sell a stake in your UK merchant acquiring business.\",\n  \"answer_quote\": \"First of all, in the UK, merchant acquiring business, I think, we are fortunate that we've got a business that has both issuances and acceptance. And it is very much a business which is targeted at corporates and SMEs. And what it does is that it adds another quiver to our arrow, a very positive quiver to our arrow, when we deal with them. We provide them transaction services, we provide them, obviously, with banking or in exchange services, and then payments for merchant acquiring. The business itself overall is very good.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific details about the business, and includes forward guidance on the capital regime.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1113,
+      "batch_seconds": 35.83332343799975
+    }
+  ],
+  "exchange_id": "4e98e4abfb11-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3a43c0111a7cdbe25e0e3900007d3e9f74f4e280e4a2f805cb90dc2db5067baa",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss Barclays' value generation from UK merchant acquiring business and Basel 3.1 regulatory impact",
+    "main_topics": [
+      "Barclays' UK merchant acquiring business",
+      "Basel 3.1 regulatory impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Firstly, it's around just some recent press speculation that you're looking to sell a stake in your UK merchant acquiring business.",
+    "answer_quote": "First of all, in the UK, merchant acquiring business, I think, we are fortunate that we've got a business that has both issuances and acceptance. And it is very much a business which is targeted at corporates and SMEs. And what it does is that it adds another quiver to our arrow, a very positive quiver to our arrow, when we deal with them. We provide them transaction services, we provide them, obviously, with banking or in exchange services, and then payments for merchant acquiring. The business itself overall is very good.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific details about the business, and includes forward guidance on the capital regime."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Future proportion of CIB revenues in Group\",\n  \"main_topics\": [\"CIB revenue growth\", \"UK structural hedge tailwinds\", \"Investment Bank stability\", \"Corporate business growth\", \"CIB business opportunities\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"over time, the proportion that the CIB revenues make-up of the Group has grown. Can you give just an indication directionally into the future? Do you think that that will reverse on the basis that the structural hedge tailwinds, which the majority go into the UK, probably outweigh the growth that we're going to see in the Investment Bank, which you now said, on the whole, is more stable a revenue base?\",\n  \"answer_quote\": \"The UK definitely has some tailwinds in the structural hedge, and there's some tailwind in Transaction Banking as well, as you know. So about a third of our hedging goes into the CIB, both in terms of product and equity structural hedge, so it has its own tailwind. I don't think this is as simple as CIB versus non CIB. I think we need to think about it more granularly than that. We do have a desire to grow our Corporate business. That is part of Barclays, at 330 years old. It's a key franchise business that has its roots in the UK, but also, it has some growth opportunities in Europe and indeed in the US. The CIB is a very, very broad business with opportunities for growth within it, including corporate, including M&A. I would think about this as capital-light or capital-lighter versus capital-heavier rather than an explicit desire to grow consumer faster than the CIB.\",\n  \"reason\": \"The answer partially addresses the question by discussing the factors affecting CIB revenue growth and the stability of the Investment Bank, but it does not provide a clear direction for the future proportion of CIB revenues in the Group.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future proportion of CIB revenues in Group\",\n  \"main_topics\": [\"CIB revenue growth\", \"UK structural hedge tailwinds\", \"Investment Bank stability\", \"Corporate business growth\", \"CIB business opportunities\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"over time, the proportion that the CIB revenues make-up of the Group has grown. Can you give just an indication directionally into the future? Do you think that that will reverse on the basis that the structural hedge tailwinds, which the majority go into the UK, probably outweigh the growth that we're going to see in the Investment Bank, which you now said, on the whole, is more stable a revenue base?\",\n  \"answer_quote\": \"The UK definitely has some tailwinds in the structural hedge, and there's some tailwind in Transaction Banking as well, as you know. So about a third of our hedging goes into the CIB, both in terms of product and equity structural hedge, so it has its own tailwind. I don't think this is as simple as CIB versus non CIB. I think we need to think about it more granularly than that. We do have a desire to grow our Corporate business. That is part of Barclays, at 330 years old. It's a key franchise business that has its roots in the UK, but also, it has some growth opportunities in Europe and indeed in the US. The CIB is a very, very broad business with opportunities for growth within it, including corporate, including M&A. I would think about this as capital-light or capital-lighter versus capital-heavier rather than an explicit desire to grow consumer faster than the CIB.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 684,
+      "batch_seconds": 16.33152911400066
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 729,
+      "batch_seconds": 18.66627761699965
+    }
+  ],
+  "exchange_id": "c91814891a58-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d61c92e2784f07b5856e420a7cad620d14186c6c27de78363c66fe6ee2392fbe",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Future proportion of CIB revenues in Group",
+    "main_topics": [
+      "CIB revenue growth",
+      "UK structural hedge tailwinds",
+      "Investment Bank stability",
+      "Corporate business growth",
+      "CIB business opportunities"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "over time, the proportion that the CIB revenues make-up of the Group has grown. Can you give just an indication directionally into the future? Do you think that that will reverse on the basis that the structural hedge tailwinds, which the majority go into the UK, probably outweigh the growth that we're going to see in the Investment Bank, which you now said, on the whole, is more stable a revenue base?",
+    "answer_quote": "The UK definitely has some tailwinds in the structural hedge, and there's some tailwind in Transaction Banking as well, as you know. So about a third of our hedging goes into the CIB, both in terms of product and equity structural hedge, so it has its own tailwind. I don't think this is as simple as CIB versus non CIB. I think we need to think about it more granularly than that. We do have a desire to grow our Corporate business. That is part of Barclays, at 330 years old. It's a key franchise business that has its roots in the UK, but also, it has some growth opportunities in Europe and indeed in the US. The CIB is a very, very broad business with opportunities for growth within it, including corporate, including M&A. I would think about this as capital-light or capital-lighter versus capital-heavier rather than an explicit desire to grow consumer faster than the CIB.",
+    "reason": "The answer partially addresses the question by discussing the factors affecting CIB revenue growth and the stability of the Investment Bank, but it does not provide a clear direction for the future proportion of CIB revenues in the Group."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for detailed information on loan to deposit ratio, cost growth in AI, and all-weather RoTE range.\",\n  \"main_topics\": [\"UK corporate loan growth\", \"loan to deposit ratio\", \"AI spend\", \"all-weather RoTE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One on UK Corporate, can give us a bit more color on the loan to deposit ratio evolution in loan [growth] but also in terms of deposits? Is it growing, or is penetration slowing? Is it mainly seasonal? Just some additional color, that would be helpful.\",\n  \"answer_quote\": \"So our objective here is to rebalance that business and obviously it contributes significantly to our growth expectations in the UK. In fact, you'll see that our corporate loan growth is actually exceeding the overall growth, which is around 5%.\",\n  \"reason\": \"The answer directly addresses the question's request for information on loan to deposit ratio, AI spend, and all-weather RoTE, providing specific figures and future expectations.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1048,
+      "batch_seconds": 30.375494398999763
+    }
+  ],
+  "exchange_id": "f3f29bd0739c-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e48f1f6adf6261a4d7210d0b990a6e6ef1259f70ee6386bea2e489ac1b1b432f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for detailed information on loan to deposit ratio, cost growth in AI, and all-weather RoTE range.",
+    "main_topics": [
+      "UK corporate loan growth",
+      "loan to deposit ratio",
+      "AI spend",
+      "all-weather RoTE"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "One on UK Corporate, can give us a bit more color on the loan to deposit ratio evolution in loan [growth] but also in terms of deposits? Is it growing, or is penetration slowing? Is it mainly seasonal? Just some additional color, that would be helpful.",
+    "answer_quote": "So our objective here is to rebalance that business and obviously it contributes significantly to our growth expectations in the UK. In fact, you'll see that our corporate loan growth is actually exceeding the overall growth, which is around 5%.",
+    "reason": "The answer directly addresses the question's request for information on loan to deposit ratio, AI spend, and all-weather RoTE, providing specific figures and future expectations."
+  },
+  "whitespace_adjusted_quotes": []
+}

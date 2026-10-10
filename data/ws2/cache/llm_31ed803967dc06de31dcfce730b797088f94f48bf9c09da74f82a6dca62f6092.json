@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for specific financial details and comparison with peers\",\n  \"main_topics\": [\"Private credit exposures\", \"Revenue growth\", \"Peer comparison\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you just give us an idea, please, of how much of the exposure that you've taken a charge on today accounts for of that $3 billion total, please?\",\n  \"answer_quote\": \"In terms of the exposure, we have substantially provided for that exposure, and that exposure - and you can see mathematically - is not an insignificant part of the $3 billion.\",\n  \"reason\": \"The answer provides a direct response to the first question with a qualitative assessment of the exposure's significance. It also addresses the second question by explaining the revenue growth and its impact on P&L, aligning with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 719,
+      "batch_seconds": 18.794323938999696
+    }
+  ],
+  "exchange_id": "351debb0a36f-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "31ed803967dc06de31dcfce730b797088f94f48bf9c09da74f82a6dca62f6092",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for specific financial details and comparison with peers",
+    "main_topics": [
+      "Private credit exposures",
+      "Revenue growth",
+      "Peer comparison"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can you just give us an idea, please, of how much of the exposure that you've taken a charge on today accounts for of that $3 billion total, please?",
+    "answer_quote": "In terms of the exposure, we have substantially provided for that exposure, and that exposure - and you can see mathematically - is not an insignificant part of the $3 billion.",
+    "reason": "The answer provides a direct response to the first question with a qualitative assessment of the exposure's significance. It also addresses the second question by explaining the revenue growth and its impact on P&L, aligning with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

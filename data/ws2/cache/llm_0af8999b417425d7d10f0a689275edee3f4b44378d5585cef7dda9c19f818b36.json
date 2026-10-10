@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Forecasting Q1 earnings percentage\",\n  \"main_topics\": [\"Q1 earnings forecast\", \"target range\", \"business opportunity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on that, you'd expect Q1 to be below 13.5%, but not below 13%?\",\n  \"answer_quote\": \"It might nudge below 13.5%, but we are fully expecting to remain within our target range, we're very clear on that. And even if it does, it will be because of the business opportunity and we will accrete thereafter.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a forecast within the specified range, and offers a rationale for the expected outcome, aligning with the question's narrative.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Forecasting Q1 earnings percentage\",\n  \"main_topics\": [\"Q1 earnings forecast\", \"target range\", \"business opportunity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on that, you'd expect Q1 to be below 13.5%, but not below 13%?\",\n  \"answer_quote\": \"It might nudge below 13.5%, but we are fully expecting to remain within our target range, we're very clear on that. And even if it does, it will be because of the business opportunity and we will accrete thereafter.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 461,
+      "batch_seconds": 8.866081524000037
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 506,
+      "batch_seconds": 10.038360675000149
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0af8999b417425d7d10f0a689275edee3f4b44378d5585cef7dda9c19f818b36",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Forecasting Q1 earnings percentage",
+    "main_topics": [
+      "Q1 earnings forecast",
+      "target range",
+      "business opportunity"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just on that, you'd expect Q1 to be below 13.5%, but not below 13%?",
+    "answer_quote": "It might nudge below 13.5%, but we are fully expecting to remain within our target range, we're very clear on that. And even if it does, it will be because of the business opportunity and we will accrete thereafter.",
+    "reason": "The answer directly addresses the question's intent, provides a forecast within the specified range, and offers a rationale for the expected outcome, aligning with the question's narrative."
+  },
+  "whitespace_adjusted_quotes": []
+}

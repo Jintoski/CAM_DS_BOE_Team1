@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the unhedged balance and future notional increase potential\",\n  \"main_topics\": [\"structural hedge\", \"unhedged balance\", \"notional size increase\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How much of the balance is left unhedged? Is there any ability to increase that notional size further going forward?\",\n  \"answer_quote\": \"We do not disclose the unhedged amount. However, if you looked at how much our deposits have grown and how much we have grown the hedge by, that would give you a good indicator of, broadly, how we think about it. That is probably the best guidance I can give you. We monitor that behaviour across our deposit base very carefully. We are looking at signs of rate insensitivity essentially, and we have been cautious about how we have built the hedge, and we have built it in different businesses at different speeds. We are essentially trading off the security of income now with the ability to widen margin. We think it was the right thing to do to increase the nominal on that hedge but we do so very carefully with a lot of thought behind it.\",\n  \"reason\": \"The answer partially addresses the question by explaining the approach to hedging and notional size increase but does not provide specific information about the unhedged balance or the ability to increase notional size further.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 591,
+      "batch_seconds": 14.784660463999899
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c2e8bb0a10121eb4e8814e8d64444eceadceffb595f5870ec29d41675dca181b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the unhedged balance and future notional increase potential",
+    "main_topics": [
+      "structural hedge",
+      "unhedged balance",
+      "notional size increase"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "How much of the balance is left unhedged? Is there any ability to increase that notional size further going forward?",
+    "answer_quote": "We do not disclose the unhedged amount. However, if you looked at how much our deposits have grown and how much we have grown the hedge by, that would give you a good indicator of, broadly, how we think about it. That is probably the best guidance I can give you. We monitor that behaviour across our deposit base very carefully. We are looking at signs of rate insensitivity essentially, and we have been cautious about how we have built the hedge, and we have built it in different businesses at different speeds. We are essentially trading off the security of income now with the ability to widen margin. We think it was the right thing to do to increase the nominal on that hedge but we do so very carefully with a lot of thought behind it.",
+    "reason": "The answer partially addresses the question by explaining the approach to hedging and notional size increase but does not provide specific information about the unhedged balance or the ability to increase notional size further."
+  },
+  "whitespace_adjusted_quotes": []
+}

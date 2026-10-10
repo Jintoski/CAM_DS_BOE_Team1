@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about bank's cost expectations, investment plans, and USCB guidance\",\n  \"main_topics\": [\"Bank costs\", \"Investment plans\", \"USCB guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I think probably back end of last year, you were still expecting 2026 costs to be flat to maybe down a little. I think that is no longer the expectation. Is it just front-loading some investments? And if so, sort of what?\",\n  \"answer_quote\": \"So if you look at our cost flight path, you will determine that I think most of the increase in costs this year comes from Best Egg.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a complete answer with high evidence, including numeric evidence and forward guidance, and is aligned with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about bank's cost expectations, investment plans, and USCB guidance\",\n \"main_topics\": [\"Bank costs\", \"Investment plans\", \"USCB guidance\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I think probably back end of last year, you were still expecting 2026 costs to be flat to maybe down a little. I think that is no longer the expectation. Is it just front-loading some investments? And if so, sort of what?\",\n \"answer_quote\": \"So if you look at our cost flight path, you will determine that I think most of the increase in costs this year comes from Best Egg.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1277,
+      "batch_seconds": 39.33959417799997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1322,
+      "batch_seconds": 42.72194012299951
+    }
+  ],
+  "exchange_id": "f2e71aa79765-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "265cdae9f7f77e20fde2c73f59be912dbc05de23bb42736f52535552dfb7ace1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about bank's cost expectations, investment plans, and USCB guidance",
+    "main_topics": [
+      "Bank costs",
+      "Investment plans",
+      "USCB guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I think probably back end of last year, you were still expecting 2026 costs to be flat to maybe down a little. I think that is no longer the expectation. Is it just front-loading some investments? And if so, sort of what?",
+    "answer_quote": "So if you look at our cost flight path, you will determine that I think most of the increase in costs this year comes from Best Egg.",
+    "reason": "The response directly addresses the question's intent, provides a complete answer with high evidence, including numeric evidence and forward guidance, and is aligned with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

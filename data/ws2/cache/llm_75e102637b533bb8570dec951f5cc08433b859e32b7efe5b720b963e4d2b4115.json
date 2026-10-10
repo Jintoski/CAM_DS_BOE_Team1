@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on rates sensitivity, wealth management expectations post-IFRS 17, and ring-fencing impact\",\n  \"main_topics\": [\"rates sensitivity\", \"wealth management\", \"ring-fencing\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are there any offsets to your rates sensitivity that you'd call out in terms of the asset side of the business?\",\n  \"answer_quote\": \"So we disagree with that conclusion, and I think most of the banks in the UK would disagree with that conclusion. I think ring-fencing has had a heavily distorting impact both in retail banking and wholesale banking.\",\n  \"reason\": \"The response directly addresses the question about offsets to rates sensitivity and provides a clear stance on the impact of ring-fencing, with high evidence level due to the explicit mention of a $3 billion impact and a 50% branch network closure in Hong Kong.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Bank earnings-call questions on rates sensitivity, wealth management expectations post-IFRS 17, and the impact of ring-fencing on UK banking\",\n \"main_topics\": [\"rates sensitivity\", \"wealth management and IFRS 17\", \"ring-fencing impact\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Are there any offsets to your rates sensitivity that you'd call out in terms of the asset side of the business?\",\n \"answer_quote\": \"So we disagree with that conclusion, and I think most of the banks in the UK would disagree with that conclusion. I think ring-fencing has had a heavily distorting impact both in retail banking and wholesale banking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1756,
+      "batch_seconds": 71.30604900900016
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1801,
+      "batch_seconds": 111.91430351500003
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "75e102637b533bb8570dec951f5cc08433b859e32b7efe5b720b963e4d2b4115",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on rates sensitivity, wealth management expectations post-IFRS 17, and ring-fencing impact",
+    "main_topics": [
+      "rates sensitivity",
+      "wealth management",
+      "ring-fencing"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Are there any offsets to your rates sensitivity that you'd call out in terms of the asset side of the business?",
+    "answer_quote": "So we disagree with that conclusion, and I think most of the banks in the UK would disagree with that conclusion. I think ring-fencing has had a heavily distorting impact both in retail banking and wholesale banking.",
+    "reason": "The response directly addresses the question about offsets to rates sensitivity and provides a clear stance on the impact of ring-fencing, with high evidence level due to the explicit mention of a $3 billion impact and a 50% branch network closure in Hong Kong."
+  },
+  "whitespace_adjusted_quotes": []
+}

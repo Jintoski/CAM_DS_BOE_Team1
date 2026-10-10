@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Future buyback frequency\",\n  \"main_topics\": [\"Buybacks\", \"Frequency\", \"Board Decision\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I just follow up on on that? Do you anticipate in terms of buybacks to look at this on a more frequent basis? Perhaps quarterly?\",\n  \"answer_quote\": \"That is a matter for the Board, so I wouldn't change the guidance here.\",\n  \"reason\": \"The response deflects the question about future buyback frequency, indicating it's a Board matter, without providing a clear stance on the frequency or any numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 459,
+      "batch_seconds": 8.866081524000037
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7a932691147838234497f9532db0d023273be4e6f2c4bc2488ff9a0508275180",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Future buyback frequency",
+    "main_topics": [
+      "Buybacks",
+      "Frequency",
+      "Board Decision"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can I just follow up on on that? Do you anticipate in terms of buybacks to look at this on a more frequent basis? Perhaps quarterly?",
+    "answer_quote": "That is a matter for the Board, so I wouldn't change the guidance here.",
+    "reason": "The response deflects the question about future buyback frequency, indicating it's a Board matter, without providing a clear stance on the frequency or any numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

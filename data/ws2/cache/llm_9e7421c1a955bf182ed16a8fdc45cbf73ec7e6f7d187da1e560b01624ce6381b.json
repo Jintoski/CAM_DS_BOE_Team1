@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Sustainability of IB performance and corporate lending distress\",\n  \"main_topics\": [\"IB performance sustainability\", \"corporate lending distress\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How sustainable do you think that would be going forward, particularly in the trading, FICC and Equities, because I know some of your peers have commented on that. And then secondly, on lending, have you seen any sort of uncertain distress from corporates based on the macro environment, particularly after tariff regime in US or is it, mostly a wait and see moment or is it just business normal?\",\n  \"answer_quote\": \"Well clearly beating consensus, is a tale of two halves. So, I can't really comment on that. What I can comment on is the fact that we are confident in our ability to grow the IB, generally speaking. And that's really coming from our objectives to grow and stabilise. So, you can see the momentum we've got in those stable sources of revenue. We talk about Financing a lot, we talk about the International Corporate Bank less so, and remember they perform similar roles in those different parts of the Investment Bank. So, expect that to remain our focus. Expect us also to want to continue to mature out those focus businesses that I talked about within Markets. And we do feel like we are taking share. And expect us to continue to want to take share in Investment Banking fees. So, that ambition remains there. We still want to get this business to be in alignment with the group RoTE in 2026 and to make some progress in 2025. So, you should expect us to want to keep pushing that income momentum. Now, clearly what we saw in Q2 was a degree of volatility particularly in April and so we saw our daily run rates in April pretty elevated. But actually in May and June they were higher than they were in the previous year and that's really coming from the stability of that Financing business. What we are not assuming in our sort of c.11% is that there is market volatility in the year to go. Clearly if that occurs then you should expect us to monetise it, but that's not something that we are relying upon. On your second question, lending, as I said in in my question before, we don't see any sort of significant points of distress in either the UK or the US relating to tariffs or national insurance changes or minimum wage changes in the UK. They're very idiosyncratic where we see those points of pressure. Of course, we do use SRT as a credit relief mechanism and we focus that on specific sectors where we have concerns at times, but really nothing to call out. There's a little bit of wait and see, and it's very industry sector specific as you're probably picking up. But at the same time I think the general economic pressure and the desire to grow productivity is also leading some corporates to want to invest. So you see both extremes really and it is very corporate specific.\",\n  \"reason\": \"The answer directly addresses the sustainability of IB performance and corporate lending distress, providing a high level of evidence with specific references to growth objectives, revenue stability, and a lack of significant distress in the lending sector.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 972,
+      "batch_seconds": 29.61618395200003
+    }
+  ],
+  "exchange_id": "08b5e1a731d1-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9e7421c1a955bf182ed16a8fdc45cbf73ec7e6f7d187da1e560b01624ce6381b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Sustainability of IB performance and corporate lending distress",
+    "main_topics": [
+      "IB performance sustainability",
+      "corporate lending distress"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How sustainable do you think that would be going forward, particularly in the trading, FICC and Equities, because I know some of your peers have commented on that. And then secondly, on lending, have you seen any sort of uncertain distress from corporates based on the macro environment, particularly after tariff regime in US or is it, mostly a wait and see moment or is it just business normal?",
+    "answer_quote": "Well clearly beating consensus, is a tale of two halves. So, I can't really comment on that. What I can comment on is the fact that we are confident in our ability to grow the IB, generally speaking. And that's really coming from our objectives to grow and stabilise. So, you can see the momentum we've got in those stable sources of revenue. We talk about Financing a lot, we talk about the International Corporate Bank less so, and remember they perform similar roles in those different parts of the Investment Bank. So, expect that to remain our focus. Expect us also to want to continue to mature out those focus businesses that I talked about within Markets. And we do feel like we are taking share. And expect us to continue to want to take share in Investment Banking fees. So, that ambition remains there. We still want to get this business to be in alignment with the group RoTE in 2026 and to make some progress in 2025. So, you should expect us to want to keep pushing that income momentum. Now, clearly what we saw in Q2 was a degree of volatility particularly in April and so we saw our daily run rates in April pretty elevated. But actually in May and June they were higher than they were in the previous year and that's really coming from the stability of that Financing business. What we are not assuming in our sort of c.11% is that there is market volatility in the year to go. Clearly if that occurs then you should expect us to monetise it, but that's not something that we are relying upon. On your second question, lending, as I said in in my question before, we don't see any sort of significant points of distress in either the UK or the US relating to tariffs or national insurance changes or minimum wage changes in the UK. They're very idiosyncratic where we see those points of pressure. Of course, we do use SRT as a credit relief mechanism and we focus that on specific sectors where we have concerns at times, but really nothing to call out. There's a little bit of wait and see, and it's very industry sector specific as you're probably picking up. But at the same time I think the general economic pressure and the desire to grow productivity is also leading some corporates to want to invest. So you see both extremes really and it is very corporate specific.",
+    "reason": "The answer directly addresses the sustainability of IB performance and corporate lending distress, providing a high level of evidence with specific references to growth objectives, revenue stability, and a lack of significant distress in the lending sector."
+  },
+  "whitespace_adjusted_quotes": []
+}

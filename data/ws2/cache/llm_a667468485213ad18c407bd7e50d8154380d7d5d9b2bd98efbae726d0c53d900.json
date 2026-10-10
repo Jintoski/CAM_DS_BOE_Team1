@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Impact of competitive environment on deposit margins\",\n  \"main_topics\": [\"Deposit margins\", \"Competitive environment\", \"Hedging strategies\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Does that mean that if the competitive environment for deposits becomes much more demanding, which I guess you would imagine with liquidity coming out of the system, could you actually be making a negative margin on those?\",\n  \"answer_quote\": \"I wouldn't see it going that far. Remember, the majority of what we're hedging is a NIBCA (non-interest-bearing current account) anyway. That's a big part of it. But when we put a hedge together, we're mindful of [deposit] migration and we're actively encouraging it in the right way. I think we'll draw it to a halt there.\",\n  \"reason\": \"The answer addresses the concern about negative margins due to a competitive environment but does not provide specific figures or a detailed explanation of how the hedging strategy will counteract the potential negative margins.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 546,
+      "batch_seconds": 12.863929854000162
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x023",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a667468485213ad18c407bd7e50d8154380d7d5d9b2bd98efbae726d0c53d900",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Impact of competitive environment on deposit margins",
+    "main_topics": [
+      "Deposit margins",
+      "Competitive environment",
+      "Hedging strategies"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Does that mean that if the competitive environment for deposits becomes much more demanding, which I guess you would imagine with liquidity coming out of the system, could you actually be making a negative margin on those?",
+    "answer_quote": "I wouldn't see it going that far. Remember, the majority of what we're hedging is a NIBCA (non-interest-bearing current account) anyway. That's a big part of it. But when we put a hedge together, we're mindful of [deposit] migration and we're actively encouraging it in the right way. I think we'll draw it to a halt there.",
+    "reason": "The answer addresses the concern about negative margins due to a competitive environment but does not provide specific figures or a detailed explanation of how the hedging strategy will counteract the potential negative margins."
+  },
+  "whitespace_adjusted_quotes": []
+}

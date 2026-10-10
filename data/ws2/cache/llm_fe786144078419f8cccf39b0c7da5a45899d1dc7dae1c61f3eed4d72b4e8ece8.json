@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about Barclays' exposure to Tricolor and market trends in the Investment Bank.\",\n  \"main_topics\": [\"Barclays' exposure to Tricolor\", \"Trends in the Investment Bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On Tricolor, could you elaborate on the nature of Barclays' exposure to Tricolor? Was it primarily warehouse lending, securitisation, or another form of structured finance?\",\n  \"answer_quote\": \"In Tricolor, clearly, we were lenders into that warehouse. We said on the call that it was a client for many years for the bank. It had been a client for 9 or 10 years.\",\n  \"reason\": \"The answer directly addresses the nature of Barclays' exposure to Tricolor, providing a specific duration of the relationship, and discusses market trends in the Investment Bank with a focus on the US Banking market and ECM pipeline, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 961,
+      "batch_seconds": 28.43113693199939
+    }
+  ],
+  "exchange_id": "b1b01ee860a4-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fe786144078419f8cccf39b0c7da5a45899d1dc7dae1c61f3eed4d72b4e8ece8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about Barclays' exposure to Tricolor and market trends in the Investment Bank.",
+    "main_topics": [
+      "Barclays' exposure to Tricolor",
+      "Trends in the Investment Bank"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On Tricolor, could you elaborate on the nature of Barclays' exposure to Tricolor? Was it primarily warehouse lending, securitisation, or another form of structured finance?",
+    "answer_quote": "In Tricolor, clearly, we were lenders into that warehouse. We said on the call that it was a client for many years for the bank. It had been a client for 9 or 10 years.",
+    "reason": "The answer directly addresses the nature of Barclays' exposure to Tricolor, providing a specific duration of the relationship, and discusses market trends in the Investment Bank with a focus on the US Banking market and ECM pipeline, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

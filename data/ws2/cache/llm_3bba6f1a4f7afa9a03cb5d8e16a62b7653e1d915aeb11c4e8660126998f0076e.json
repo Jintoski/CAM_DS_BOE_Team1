@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Comparing risk appetite and market share before and after COVID and Brexit\",\n  \"main_topics\": [\"Risk Appetite\", \"Market Share\", \"Credit Card Market\", \"Pandemic Impact\", \"Brexit Impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How does that compare with the risk appetite level that you had prior to the Brexit referendum? You had a much bigger credit card book back then, and is that 29/30% market share of balances that you had just ancient history, or does it give you some advantage today through warm customer relationships or something like that?\",\n  \"answer_quote\": \"I would say it's less about risk appetite, more about the way we previously participated in the 0% balance transfer market. And actually, going through that 2016/17 period of time, we stepped back from the more aggressive end of that pricing. And we did that on the basis of economics. So, I think it's less about risk appetite, more about how we see the creation of value in that kind of product. So, that's the big distinction. In terms of the 29/30% market share, as we've gone through the pandemic, that has been also consistent with everybody across the UK implementing the rules around persistent debt, and we're largely through that now. But that is a structural change in the market, and we'll have to see how the market evolves now those changes are completely implemented. But it is behind us.\",\n  \"reason\": \"The answer directly addresses the comparison of risk appetite and market share before and after COVID and Brexit, providing a clear distinction and acknowledging the impact of the pandemic on market share.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 650,
+      "batch_seconds": 17.227680126999985
+    }
+  ],
+  "exchange_id": "40fbb063266a-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3bba6f1a4f7afa9a03cb5d8e16a62b7653e1d915aeb11c4e8660126998f0076e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Comparing risk appetite and market share before and after COVID and Brexit",
+    "main_topics": [
+      "Risk Appetite",
+      "Market Share",
+      "Credit Card Market",
+      "Pandemic Impact",
+      "Brexit Impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How does that compare with the risk appetite level that you had prior to the Brexit referendum? You had a much bigger credit card book back then, and is that 29/30% market share of balances that you had just ancient history, or does it give you some advantage today through warm customer relationships or something like that?",
+    "answer_quote": "I would say it's less about risk appetite, more about the way we previously participated in the 0% balance transfer market. And actually, going through that 2016/17 period of time, we stepped back from the more aggressive end of that pricing. And we did that on the basis of economics. So, I think it's less about risk appetite, more about how we see the creation of value in that kind of product. So, that's the big distinction. In terms of the 29/30% market share, as we've gone through the pandemic, that has been also consistent with everybody across the UK implementing the rules around persistent debt, and we're largely through that now. But that is a structural change in the market, and we'll have to see how the market evolves now those changes are completely implemented. But it is behind us.",
+    "reason": "The answer directly addresses the comparison of risk appetite and market share before and after COVID and Brexit, providing a clear distinction and acknowledging the impact of the pandemic on market share."
+  },
+  "whitespace_adjusted_quotes": []
+}

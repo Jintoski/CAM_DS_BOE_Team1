@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on Asia balances disclosure\",\n  \"main_topics\": [\"Asia balances disclosure\", \"Invested assets\", \"New-to-bank accounts\", \"Private banking balances\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You don't provide the Asia balances for Wealth, or do you?\",\n  \"answer_quote\": \"We only disclose invested assets. But you also have the deposit numbers. We just don't say these for Asia whether these are Premier, Private Bank deposits.\",\n  \"reason\": \"The answer directly addresses the question about Asia balances, provides numeric evidence of invested assets, and aligns with the narrative by discussing the growth in new-to-bank accounts and the timing of account funding.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on Asia balances disclosure\",\n  \"main_topics\": [\"Asia balances disclosure\", \"Invested assets\", \"New accounts growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You don't provide the Asia balances for Wealth, or do you?\",\n  \"answer_quote\": \"We only disclose invested assets. But you also have the deposit numbers.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 721,
+      "batch_seconds": 19.723983283000052
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 766,
+      "batch_seconds": 19.25648544899923
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "41ffa22dd691dac6d8041778af7a6f5f10b520e9e6df57263b88d29b119b5959",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on Asia balances disclosure",
+    "main_topics": [
+      "Asia balances disclosure",
+      "Invested assets",
+      "New-to-bank accounts",
+      "Private banking balances"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "You don't provide the Asia balances for Wealth, or do you?",
+    "answer_quote": "We only disclose invested assets. But you also have the deposit numbers. We just don't say these for Asia whether these are Premier, Private Bank deposits.",
+    "reason": "The answer directly addresses the question about Asia balances, provides numeric evidence of invested assets, and aligns with the narrative by discussing the growth in new-to-bank accounts and the timing of account funding."
+  },
+  "whitespace_adjusted_quotes": []
+}

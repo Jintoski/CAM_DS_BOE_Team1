@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Expressing expectation about a bank's customer base\",\n  \"main_topics\": [\"Bank Customer Base\", \"Unhelpful Information\", \"Lack of Specifics\"],\n  \"answer_completeness\": \"Unclear\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"That is what I would have expected as well.\",\n  \"answer_quote\": \"Sorry, that is probably deeply unhelpful, but without knowing the nature of their customer base, it is quite difficult to answer.\",\n  \"reason\": \"The answer deflects the question without providing the expected information, and there is no evidence to support the response.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 426,
+      "batch_seconds": 7.036173496000629
+    }
+  ],
+  "exchange_id": "e6eb1ed8cfe7-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8099729800a1bdde0b38a822a4426b9ee80ac458a576e6090131bef9e1cd883f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Expressing expectation about a bank's customer base",
+    "main_topics": [
+      "Bank Customer Base",
+      "Unhelpful Information",
+      "Lack of Specifics"
+    ],
+    "answer_completeness": "Unclear",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "That is what I would have expected as well.",
+    "answer_quote": "Sorry, that is probably deeply unhelpful, but without knowing the nature of their customer base, it is quite difficult to answer.",
+    "reason": "The answer deflects the question without providing the expected information, and there is no evidence to support the response."
+  },
+  "whitespace_adjusted_quotes": []
+}

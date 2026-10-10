@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's NIM guidance and the structural differences in consumer and corporate savings.\",\n  \"main_topics\": [\"NIM guidance\", \"Interest rates\", \"Consumer savings\", \"Corporate savings\", \"Bank liquidity\", \"Term deposits\", \"Bank structure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just a couple, one on the hedge and one on your UK NIM guidance. Maybe I'll start with the NIM guidance.\",\n  \"answer_quote\": \"Okay, on the NIM guidance, we have guided to the top end of the range that we gave you, of 280-290bps.\",\n  \"reason\": \"The response directly addresses the NIM guidance and the structural differences in savings, providing a high level of evidence with specific figures and a clear stance.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"NIM guidance and structural differences in savings\",\n  \"main_topics\": [\"NIM guidance\", \"structural differences in savings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just a couple, one on the hedge and one on your UK NIM guidance. Maybe I'll start with the NIM guidance. The swap curve's gone up about 200bps since you gave your 280-290bps NIM guidance, I'm just wondering why you haven't upgraded that guidance, given the size of your hedge?\",\n  \"answer_quote\": \"Okay, on the NIM guidance, we have guided to the top end of the range that we gave you, of 280-290bps. That reflects two things. Firstly, the NIM year-to-date, but obviously that hedge pick up. The reason that we have split out the two impacts that we've shown you there, so the hedge movement and then the product impact, is we've said for some time that we expect that the product dynamics, as rates started to rise, would become less beneficial for NIM. And we see that coming in two ways. It's not just about pass-through of any rate rises from here. It's actually about the dynamic that your second question points to, which is customers moving their savings, and secondly the compression and the competitiveness that we see in the mortgage market. So we feel, at the moment, like those product dynamics are going to bear more heavily than perhaps they have done to date. That's the reason for our caution. And that's the reason that we've split out the structural hedge impact, so that you can think about those two things separately.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on NIM guidance and structural differences in savings\",\n  \"main_topics\": [\"NIM guidance\", \"swap curve\", \"hedge impact\", \"product dynamics\", \"savings behavior\", \"liquidity in the system\", \"bank structure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just a couple, one on the hedge and one on your UK NIM guidance. Maybe I'll start with the NIM guidance. The swap curve's gone up about 200bps since you gave your 280-290bps NIM guidance, I'm just wondering why you haven't upgraded that guidance, given the size of your hedge?\",\n  \"answer_quote\": \"Okay, on the NIM guidance, we have guided to the top end of the range that we gave you, of 280-290bps. That reflects two things. Firstly, the NIM year-to-date, but obviously that hedge pick up. The reason that we have split out the two impacts that we've shown you there, so the hedge movement and then the product impact, is we've said for some time that we expect that the product dynamics, as rates started to rise, would become less beneficial for NIM. And we see that coming in two ways. It's not just about pass-through of any rate rises from here. It's actually about the dynamic that your second question points to, which is customers moving their savings, and secondly the compression and the competitiveness that we see in the mortgage market. So we feel, at the moment, like those product dynamics are going to bear more heavily than perhaps they have done to date. That's the reason for our caution. And that's the reason that we've split out the structural hedge impact, so that you can think about those two things separately.\",\n  \"reason\": \"The response directly addresses the NIM guidance and the structural differences in savings, providing a high level of evidence with numeric references to the NIM range and the swap curve change.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the bank's NIM guidance and the structural differences in consumer and corporate savings.\",\n  \"main_topics\": [\"NIM guidance\", \"Interest rates\", \"Consumer savings\", \"Corporate savings\", \"Bank liquidity\", \"Term deposits\", \"Bank structure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just a couple, one on the hedge and one on your UK NIM guidance. Maybe I'll start with the NIM guidance.\",\n  \"answer_quote\": \"Okay, on the NIM guidance, we have guided to the top end of the range that we gave you, of 280-290bps.\",\n  \"reason\": \"The response directly addresses the NIM guidance and the structural differences in savings, providing a high level of evidence with specific figures and a clear stance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 981,
+      "batch_seconds": 28.591533906999757
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1026,
+      "batch_seconds": 93.30540008299977
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1035,
+      "batch_seconds": 41.46973215899925
+    }
+  ],
+  "exchange_id": "6d4760f97290-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b4b921a32c03090bb4238960c6c28c279713a653d329f9970de95c1b84875efa",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

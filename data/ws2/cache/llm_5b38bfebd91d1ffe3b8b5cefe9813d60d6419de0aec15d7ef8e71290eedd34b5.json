@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on capital return, costs, and future cost guidance\",\n  \"main_topics\": [\"capital return\", \"costs\", \"future cost guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I can have two follow-ups, please, firstly on the capital return and secondly on the costs.\",\n  \"answer_quote\": \"Thank you, Andy. Let me deal with your capital question, and I'll ask Pam to talk you through cost.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric evidence, although it lacks forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on capital return, costs, and future cost guidance\",\n  \"main_topics\": [\"Capital Return\", \"Cost Guidance\", \"Future Cost Projections\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I can have two follow-ups, please, firstly on the capital return and secondly on the costs.\",\n  \"answer_quote\": \"Thank you, Andy. Let me deal with your capital question, and I'll ask Pam to talk you through cost.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1148,
+      "batch_seconds": 34.982933763999426
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1193,
+      "batch_seconds": 36.9039603350011
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5b38bfebd91d1ffe3b8b5cefe9813d60d6419de0aec15d7ef8e71290eedd34b5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on capital return, costs, and future cost guidance",
+    "main_topics": [
+      "capital return",
+      "costs",
+      "future cost guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "If I can have two follow-ups, please, firstly on the capital return and secondly on the costs.",
+    "answer_quote": "Thank you, Andy. Let me deal with your capital question, and I'll ask Pam to talk you through cost.",
+    "reason": "The response directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric evidence, although it lacks forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

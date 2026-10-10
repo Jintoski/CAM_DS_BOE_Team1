@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss NIM trajectory, HIBOR and LIBOR gap, and RWA movements.\",\n  \"main_topics\": [\n    \"NIM trajectory in the UK\",\n    \"HIBOR and LIBOR gap\",\n    \"Risk-weighted assets (RWA) movements\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"is there anything specific in terms of repricing you're seeing in the UK to explain that movement?\",\n  \"answer_quote\": \"On the NIM trajectory in the UK, I think there's nothing really to call out on the assets side. Continuing pressure, as you all know, in the UK mortgage market, but the main thing you're seeing is the benefit of the two rate rises that had already come through in the quarter and, as we've talked about, deposit betas being below 50% for the first few rate rises. So yes, we continue to think that we will see very material net interest income growth in the UK as policy rates continue to rise over the remainder of the year, as we expect.\",\n  \"reason\": \"The answer directly addresses the question about the NIM trajectory in the UK, provides a clear stance on the HIBOR and LIBOR gap, and discusses RWA movements with specific references to regulatory changes and future expectations.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1159,
+      "batch_seconds": 36.2811490590002
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "64490aa820eead47e8a07ff1e89cf2efc0fe5478792e2ab942a58e808604949b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss NIM trajectory, HIBOR and LIBOR gap, and RWA movements.",
+    "main_topics": [
+      "NIM trajectory in the UK",
+      "HIBOR and LIBOR gap",
+      "Risk-weighted assets (RWA) movements"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "is there anything specific in terms of repricing you're seeing in the UK to explain that movement?",
+    "answer_quote": "On the NIM trajectory in the UK, I think there's nothing really to call out on the assets side. Continuing pressure, as you all know, in the UK mortgage market, but the main thing you're seeing is the benefit of the two rate rises that had already come through in the quarter and, as we've talked about, deposit betas being below 50% for the first few rate rises. So yes, we continue to think that we will see very material net interest income growth in the UK as policy rates continue to rise over the remainder of the year, as we expect.",
+    "reason": "The answer directly addresses the question about the NIM trajectory in the UK, provides a clear stance on the HIBOR and LIBOR gap, and discusses RWA movements with specific references to regulatory changes and future expectations."
+  },
+  "whitespace_adjusted_quotes": []
+}

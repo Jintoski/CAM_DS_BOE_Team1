@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Sustainability of ROTE guidance and explanation of Hang Seng synergies\",\n  \"main_topics\": [\"ROTE guidance sustainability\", \"Hang Seng synergies\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, on your ROTE guidance of greater than 17%, I'm just looking for some commentary about how sustainable you feel that guidance is beyond the announced planning horizon. How much do you feel this guidance isn't all-weather guidance post all the investments that you've been making into the business?\",\n  \"answer_quote\": \"On the Hang Seng guidance, what I will share is we do have the management ambition, and we do have comprehensive sets of plans to achieve the full $0.9 billion upside with the restructuring costs that we've called out. I'll let Pam give you the details. Under ROTE guidance, we are not guiding beyond our horizon, but you should always assume that we are ambitious. Just to say, on our ROTE guidance, we continue to see positive momentum in our businesses. As we said earlier, we are investing for growth, but, of course, the targets are only for three years.\",\n  \"reason\": \"The answer directly addresses the sustainability of ROTE guidance and provides a detailed explanation of the Hang Seng synergies, including numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 887,
+      "batch_seconds": 26.647234068000216
+    }
+  ],
+  "exchange_id": "13220c46f1a6-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e8762f7941558609e41e1af03bd0d03f21336300fbbe326efe2d87cca3108c9b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Sustainability of ROTE guidance and explanation of Hang Seng synergies",
+    "main_topics": [
+      "ROTE guidance sustainability",
+      "Hang Seng synergies"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Firstly, on your ROTE guidance of greater than 17%, I'm just looking for some commentary about how sustainable you feel that guidance is beyond the announced planning horizon. How much do you feel this guidance isn't all-weather guidance post all the investments that you've been making into the business?",
+    "answer_quote": "On the Hang Seng guidance, what I will share is we do have the management ambition, and we do have comprehensive sets of plans to achieve the full $0.9 billion upside with the restructuring costs that we've called out. I'll let Pam give you the details. Under ROTE guidance, we are not guiding beyond our horizon, but you should always assume that we are ambitious. Just to say, on our ROTE guidance, we continue to see positive momentum in our businesses. As we said earlier, we are investing for growth, but, of course, the targets are only for three years.",
+    "reason": "The answer directly addresses the sustainability of ROTE guidance and provides a detailed explanation of the Hang Seng synergies, including numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

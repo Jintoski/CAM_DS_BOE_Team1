@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assess the acceptability of a financial practice\",\n  \"main_topics\": [\"Financial practice\", \"Banking\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The alternative is you could periodically just write it off, but I guess that's a slightly questionable way of approaching it, but I know a number of other banks do it that way.\",\n  \"answer_quote\": \"As you say, it is slightly questionable.\",\n  \"reason\": \"The answer partially addresses the acceptability of the financial practice but lacks detail and does not provide evidence or a clear stance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 434,
+      "batch_seconds": 8.018176011999458
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x021",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0aa56bd63632f675fb629f80015dc38af7c2a4ba9fab6cde0da045e63d35bdc5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assess the acceptability of a financial practice",
+    "main_topics": [
+      "Financial practice",
+      "Banking"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The alternative is you could periodically just write it off, but I guess that's a slightly questionable way of approaching it, but I know a number of other banks do it that way.",
+    "answer_quote": "As you say, it is slightly questionable.",
+    "reason": "The answer partially addresses the acceptability of the financial practice but lacks detail and does not provide evidence or a clear stance."
+  },
+  "whitespace_adjusted_quotes": []
+}

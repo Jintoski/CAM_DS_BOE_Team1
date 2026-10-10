@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on organisational simplification and wealth\",\n  \"main_topics\": [\"Organisational simplification\", \"Wealth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning. If I could have a couple on the organisational simplification and then also just one clarification on wealth.\",\n  \"answer_quote\": \"Okay, thank you, Andrew. Andrew, I'm going to ask Pam to address the first two questions with regard to the organisation simplification. Just saying that, we will give, as I said earlier, a more thorough update at the interim results, and on your final question, let us take it forward and see what we can communicate.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence with numeric references, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on organisational simplification and wealth\",\n  \"main_topics\": [\"Organisational simplification\", \"Restructuring costs\", \"Annualised savings\", \"Wealth and asset allocation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning. If I could have a couple on the organisational simplification and then also just one clarification on wealth. On the organisational simplification, you previously guided to $1.8 billion of restructuring costs, and you said the majority of that is expected to be booked in 2025. I think you only took $141 million in Q1, so presumably, we should expect a big step-up in the restructuring charges from Q2 onwards for the rest of this year. And then the second question attached to this is you said that the actions you've taken to date would already translate into $300 million of annualised savings. I appreciate in Q1, you've had very little of that, but nonetheless, you're still guiding to $300 million for the full year 2025 when you've already achieved $300 million annualised and there's presumably more to come over the remaining year with the additional restructuring. So can you just clarify a bit there on why more of the savings are not flowing into full-year 2025 compared to 2026? And then on wealth, given the new segmental split, is it possible to get the split of the Asian invested assets and the $16 billion Asian net new invested assets this quarter that's attributable to Hong Kong? Thank you.\",\n  \"answer_quote\": \"Okay, thank you, Andrew. Andrew, I'm going to ask Pam to address the first two questions with regard to the organisation simplification. Just saying that, we will give, as I said earlier, a more thorough update at the interim results, and on your final question, let us take it forward and see what we can communicate. $16 billion of net new invested assets in Asia with the majority in Hong Kong, but we will take it forward to see what additional granularity we're likely to share. Pam. Thanks, Andy. So firstly, in terms of the actions taken and the P&L coming through for the year, the actions taken typically is when you have colleagues put through at risk and decisions made, communicated. There is always a time lag typically between that and colleagues leaving the platform. Typically, in tends to be about a quarter - 90 days. So when you see an action has been taken, you know a saving is going to come through but there is going to be a time lag between that decision and the savings feeding into the P&L. So when we said the majority of the actions have already been taken, the annualised savings that we calculated, it's for the full year. So it's not as though these actions are already banked and there's going to be further, so that's the main piece. Now, on restructuring costs, you're absolutely right that there is going to be the majority of the restructuring cost taken in 2025 rather than 2026, and I would expect most of that to come through Q2, Q3 and then some Q4 and tapering down as we go into 2026. Very good. Thank you, Andy.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 983,
+      "batch_seconds": 28.591533906999757
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1028,
+      "batch_seconds": 93.30540008299977
+    }
+  ],
+  "exchange_id": "c6e92c439106-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d2986e8579777bdc2c4bf63a89e474e5270887d163e484630c64a098877f9ef1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on organisational simplification and wealth",
+    "main_topics": [
+      "Organisational simplification",
+      "Wealth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Morning. If I could have a couple on the organisational simplification and then also just one clarification on wealth.",
+    "answer_quote": "Okay, thank you, Andrew. Andrew, I'm going to ask Pam to address the first two questions with regard to the organisation simplification. Just saying that, we will give, as I said earlier, a more thorough update at the interim results, and on your final question, let us take it forward and see what we can communicate.",
+    "reason": "The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence with numeric references, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

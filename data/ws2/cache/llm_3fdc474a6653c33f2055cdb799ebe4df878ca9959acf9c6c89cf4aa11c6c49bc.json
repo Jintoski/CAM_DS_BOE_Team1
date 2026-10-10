@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about RoTE, capital distribution, and structural hedge notional\",\n  \"main_topics\": [\"RoTE\", \"capital distribution\", \"structural hedge notional\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is on the RoTE. It's tracking ahead of guidance for this year. [To the extent to which your RoTE is ahead of your plan, is there any possibility that you would reconsider your capital distribution plan of at least £10bn over the next few years, or should we think of that as being locked in whatever the P&L is]? And then secondly, [where do you expect the structural hedge notional to be by the end of this year? You've been quite conservative on this metric since your February Investor Update plan was announced. Is a £3bn to £4bn reduction in the amount you've seen so far this year a good run rate for modelling?] Thank you.\",\n  \"answer_quote\": \"In RoTE terms and in terms of delivery of our plan, we are on track versus where we would expect to be at this stage after two quarters. So we're firmly in line with our plan, and therefore it wouldn't cause us to change either our RoTE guidance for this year or the longer-term, or indeed our capital distribution plans, and that's why we've reiterated them today. In terms of deposit trends, you're right, we've seen greater stability, or that stability come a little faster than we expected. Perhaps that's how to think about it. We do, however, expect the structural hedge notional to continue to fall broadly in line with broader deposit trends. Customers continue to seek yield, even though they're doing so at a much slower level of migration than before. But we reassess that structural hedge very carefully with each passing month. We regard it as a key way in which we manage the interest rate risk in our income line, so we'll continue to monitor it and update as we go. But at this point, I wouldn't change the sort of overall pathway.\",\n  \"reason\": \"The response directly addresses the question's intent, provides high-level evidence with specific figures, and aligns with the narrative of the question without forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about RoTE, capital distribution, and structural hedge notional\",\n  \"main_topics\": [\"ROTE\", \"Capital Distribution\", \"Structural Hedge Notional\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there any possibility that you would reconsider your capital distribution plan of at least £10bn over the next few years, or should we think of that as being locked in whatever the P&L is? Where do you expect the structural hedge notional to be by the end of this year?\",\n  \"answer_quote\": \"In RoTE terms and in terms of delivery of our plan, we are on track versus where we would expect to be at this stage after two quarters. So we're firmly in line with our plan, and therefore it wouldn't cause us to change either our RoTE guidance for this year or the longer-term, or indeed our capital distribution plans, and that's why we've reiterated them today. In terms of deposit trends, you're right, we've seen greater stability, or that stability come a little faster than we expected. Perhaps that's how to think about it. We do, however, expect the structural hedge notional to continue to fall broadly in line with broader deposit trends.\",\n  \"reason\": \"The answer directly addresses the questions about RoTE, capital distribution, and structural hedge notional, providing a clear stance and aligning with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 762,
+      "batch_seconds": 19.727787560999786
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 810,
+      "batch_seconds": 22.38289157899999
+    }
+  ],
+  "exchange_id": "9939bc5e1544-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3fdc474a6653c33f2055cdb799ebe4df878ca9959acf9c6c89cf4aa11c6c49bc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about RoTE, capital distribution, and structural hedge notional",
+    "main_topics": [
+      "RoTE",
+      "capital distribution",
+      "structural hedge notional"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is on the RoTE. It's tracking ahead of guidance for this year. [To the extent to which your RoTE is ahead of your plan, is there any possibility that you would reconsider your capital distribution plan of at least £10bn over the next few years, or should we think of that as being locked in whatever the P&L is]? And then secondly, [where do you expect the structural hedge notional to be by the end of this year? You've been quite conservative on this metric since your February Investor Update plan was announced. Is a £3bn to £4bn reduction in the amount you've seen so far this year a good run rate for modelling?] Thank you.",
+    "answer_quote": "In RoTE terms and in terms of delivery of our plan, we are on track versus where we would expect to be at this stage after two quarters. So we're firmly in line with our plan, and therefore it wouldn't cause us to change either our RoTE guidance for this year or the longer-term, or indeed our capital distribution plans, and that's why we've reiterated them today. In terms of deposit trends, you're right, we've seen greater stability, or that stability come a little faster than we expected. Perhaps that's how to think about it. We do, however, expect the structural hedge notional to continue to fall broadly in line with broader deposit trends. Customers continue to seek yield, even though they're doing so at a much slower level of migration than before. But we reassess that structural hedge very carefully with each passing month. We regard it as a key way in which we manage the interest rate risk in our income line, so we'll continue to monitor it and update as we go. But at this point, I wouldn't change the sort of overall pathway.",
+    "reason": "The response directly addresses the question's intent, provides high-level evidence with specific figures, and aligns with the narrative of the question without forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

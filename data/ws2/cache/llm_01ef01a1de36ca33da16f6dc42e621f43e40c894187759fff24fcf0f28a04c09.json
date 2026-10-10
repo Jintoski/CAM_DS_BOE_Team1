@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Margin and revenue outlook based on stable hedge notional\",\n  \"main_topics\": [\"margin outlook\", \"revenue outlook\", \"hedge notional\", \"forward-looking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, based on what you're seeing today, your margin outlook and your revenue outlook is based on a stable hedge notional, is that because it's forward-looking?\",\n  \"answer_quote\": \"It's forward-looking but remember if you go back to what I've said on the call, I said we had more than £50bn maturing, and we might expect to roll the majority of that. So, in my assumptions, we are considering what will happen in the future and whether or not we will be required to pause some of that roll. That's already in my NIM outlook.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Margin and revenue outlook based on stable hedge notional\",\n  \"main_topics\": [\"margin outlook\", \"revenue outlook\", \"hedge notional\", \"forward-looking\", \"NIM outlook\", \"maturing assets\", \"rolling assets\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, based on what you're seeing today, your margin outlook and your revenue outlook is based on a stable hedge notional, is that because it's forward-looking?\",\n  \"answer_quote\": \"It's forward-looking but remember if you go back to what I've said on the call, I said we had more than £50bn maturing, and we might expect to roll the majority of that. So, in my assumptions, we are considering what will happen in the future and whether or not we will be required to pause some of that roll. That's already in my NIM outlook.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Margin and revenue outlook based on stable hedge notional\",\n  \"main_topics\": [\"margin outlook\", \"revenue outlook\", \"hedge notional\", \"forward-looking\", \"maturing liabilities\", \"NIM outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, based on what you're seeing today, your margin outlook and your revenue outlook is based on a stable hedge notional, is that because it's forward-looking?\",\n  \"answer_quote\": \"It's forward-looking but remember if you go back to what I've said on the call, I said we had more than £50bn maturing, and we might expect to roll the majority of that. So, in my assumptions, we are considering what will happen in the future and whether or not we will be required to pause some of that roll. That's already in my NIM outlook.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with a specific numeric figure, and aligns with the narrative by discussing forward-looking aspects and future considerations.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Margin and revenue outlook based on stable hedge notional\",\n  \"main_topics\": [\"margin outlook\", \"revenue outlook\", \"hedge notional\", \"forward-looking\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, based on what you're seeing today, your margin outlook and your revenue outlook is based on a stable hedge notional, is that because it's forward-looking?\",\n  \"answer_quote\": \"It's forward-looking but remember if you go back to what I've said on the call, I said we had more than £50bn maturing, and we might expect to roll the majority of that. So, in my assumptions, we are considering what will happen in the future and whether or not we will be required to pause some of that roll. That's already in my NIM outlook.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 499,
+      "batch_seconds": 10.274504325000635
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 544,
+      "batch_seconds": 10.852135373001147
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 553,
+      "batch_seconds": 12.46537487400019
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "01ef01a1de36ca33da16f6dc42e621f43e40c894187759fff24fcf0f28a04c09",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

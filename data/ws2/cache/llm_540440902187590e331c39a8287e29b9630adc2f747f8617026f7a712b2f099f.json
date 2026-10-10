@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Requesting details on the bank's hedging strategy and its effectiveness.\",\n  \"main_topics\": [\"Hedging strategy\", \"NII sensitivity\", \"Hedge duration\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I probe you a bit more on the hedging that you've got in place? You've talked about increased hedging for the last couple of quarters and you have this quarter, as you've discussed previously, taken some losses through the held-for-sale portfolio to improve that now and next year, but we lack an overall understanding of what you've got in terms of the hedge, and so my question specifically is: how big is your hedge and what's the duration of your hedge, so that we can do some modelling to understand how much protection you've got into 2024 and beyond?\",\n  \"answer_quote\": \"We are intending to have much more disclosure around our structural hedge at the full year. We're planning to give you additional disclosures from the one we already gave today, which is the usual NII table with multiple rate shifts over the five years. That includes duration; that includes yields on the structural hedge, etc, which hopefully can allow you to model all of this. We're not ready to do it at Q3. It will be more appropriate to do it at the full year. I think what you should take into account is some of the information we shared at the half year, which is the hedge itself has allowed us to reduce our NII sensitivity at the back end of last year from $6 billion for 100 basis points down to now $2.6 billion, over which you should add the funding of the trading book sensitivity of $1.3 billion. So that's giving you an idea of how much the overall hedge, among other contributors, have supported the reduction of our NII volatility and our NII sensitivity to the downward pressure on rates, and I think you should definitely assume that it remains our intention, at this phase of the cycle in rates, to continue doing hedges as appropriate across all our balance sheets where we can find them. So more on that at the full year.\",\n  \"reason\": \"The answer provides some details on the hedging strategy and its impact on NII sensitivity, but lacks specific information on the size and duration of the hedge, which was requested in the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 775,
+      "batch_seconds": 22.53639922399998
+    }
+  ],
+  "exchange_id": "d02980fb1573-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "540440902187590e331c39a8287e29b9630adc2f747f8617026f7a712b2f099f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Requesting details on the bank's hedging strategy and its effectiveness.",
+    "main_topics": [
+      "Hedging strategy",
+      "NII sensitivity",
+      "Hedge duration"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can I probe you a bit more on the hedging that you've got in place? You've talked about increased hedging for the last couple of quarters and you have this quarter, as you've discussed previously, taken some losses through the held-for-sale portfolio to improve that now and next year, but we lack an overall understanding of what you've got in terms of the hedge, and so my question specifically is: how big is your hedge and what's the duration of your hedge, so that we can do some modelling to understand how much protection you've got into 2024 and beyond?",
+    "answer_quote": "We are intending to have much more disclosure around our structural hedge at the full year. We're planning to give you additional disclosures from the one we already gave today, which is the usual NII table with multiple rate shifts over the five years. That includes duration; that includes yields on the structural hedge, etc, which hopefully can allow you to model all of this. We're not ready to do it at Q3. It will be more appropriate to do it at the full year. I think what you should take into account is some of the information we shared at the half year, which is the hedge itself has allowed us to reduce our NII sensitivity at the back end of last year from $6 billion for 100 basis points down to now $2.6 billion, over which you should add the funding of the trading book sensitivity of $1.3 billion. So that's giving you an idea of how much the overall hedge, among other contributors, have supported the reduction of our NII volatility and our NII sensitivity to the downward pressure on rates, and I think you should definitely assume that it remains our intention, at this phase of the cycle in rates, to continue doing hedges as appropriate across all our balance sheets where we can find them. So more on that at the full year.",
+    "reason": "The answer provides some details on the hedging strategy and its impact on NII sensitivity, but lacks specific information on the size and duration of the hedge, which was requested in the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank's comfort with moving into a target CET1 ratio and structural cost actions\",\n  \"main_topics\": [\"CET1 ratio\", \"structural cost actions\", \"economic recovery\", \"capital distributions\", \"cost efficiency\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"how comfortable would you be moving into the 13-14% target range as we hopefully get more clarity on the economic recovery I guess late this year, early next year?\",\n  \"answer_quote\": \"The target range is 13% to 14% so you would expect at some point for us to be comfortable operating into that target range.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific numeric targets, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Bank's comfort with moving into a target CET1 ratio range and structural cost actions for 2021-2022.\",\n  \"main_topics\": [\"CET1 ratio target range\", \"Structural cost actions\", \"Capital distributions\", \"Economic recovery outlook\", \"Software amortisation reversals\", \"IFRS9 transitional relief\", \"Post-pandemic economy adjustment\", \"UK bank transformation\", \"Base costs\", \"Buyback programme\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"how comfortable would you be moving into the 13-14% target range as we hopefully get more clarity on the economic recovery I guess late this year, early next year?\",\n  \"answer_quote\": \"The target range is 13% to 14% so you would expect at some point for us to be comfortable operating into that target range.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1072,
+      "batch_seconds": 33.59942327399949
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1117,
+      "batch_seconds": 35.23555413299982
+    }
+  ],
+  "exchange_id": "418cffd1dc8d-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "babd7d8cfaa7917d424a5c9894edfe5f5380c5744b7a4af518fafb599224a876",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank's comfort with moving into a target CET1 ratio and structural cost actions",
+    "main_topics": [
+      "CET1 ratio",
+      "structural cost actions",
+      "economic recovery",
+      "capital distributions",
+      "cost efficiency"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "how comfortable would you be moving into the 13-14% target range as we hopefully get more clarity on the economic recovery I guess late this year, early next year?",
+    "answer_quote": "The target range is 13% to 14% so you would expect at some point for us to be comfortable operating into that target range.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific numeric targets, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

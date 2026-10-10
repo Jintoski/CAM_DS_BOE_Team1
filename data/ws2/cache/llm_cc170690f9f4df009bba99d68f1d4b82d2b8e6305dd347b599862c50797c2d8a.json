@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request updates on capital planning, RWA measures, and asset quality guidance for 2023.\",\n  \"main_topics\": [\"capital planning\", \"RWA measures\", \"asset quality\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I please ask a question on capital planning and on the provision scenarios? So just on capital planning, could you give an update on where HSBC is on the tactical RWA measures that are meant to get the common equity tier 1 ratio up to above 14%?\",\n  \"answer_quote\": \"On capital planning, I guess, various parts to that. Firstly, I touched on, when I spoke about the technical nature of how we accrue dividends during the year. We've accrued 28 cents so far this year, so there will be very limited drag in Q4 from dividend accrual.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about HSBC's capital planning, RWA measures, and asset quality guidance for 2023.\",\n \"main_topics\": [\"HSBC capital planning\", \"RWA measures\", \"asset quality guidance\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Can I please ask a question on capital planning and on the provision scenarios?\",\n \"answer_quote\": \"On capital planning, I guess, various parts to that. Firstly, I touched on, when I spoke about the technical nature of how we accrue dividends during the year. We've accrued 28 cents so far this year, so there will be very limited drag in Q4 from dividend accrual.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1347,
+      "batch_seconds": 42.4809242780002
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1392,
+      "batch_seconds": 98.95444901700102
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "cc170690f9f4df009bba99d68f1d4b82d2b8e6305dd347b599862c50797c2d8a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request updates on capital planning, RWA measures, and asset quality guidance for 2023.",
+    "main_topics": [
+      "capital planning",
+      "RWA measures",
+      "asset quality"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I please ask a question on capital planning and on the provision scenarios? So just on capital planning, could you give an update on where HSBC is on the tactical RWA measures that are meant to get the common equity tier 1 ratio up to above 14%?",
+    "answer_quote": "On capital planning, I guess, various parts to that. Firstly, I touched on, when I spoke about the technical nature of how we accrue dividends during the year. We've accrued 28 cents so far this year, so there will be very limited drag in Q4 from dividend accrual.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

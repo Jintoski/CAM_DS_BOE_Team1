@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on growth expectations in fee income and GB&M\",\n  \"main_topics\": [\"growth expectations\", \"fee income\", \"GB&M\", \"strategic areas\", \"foreign exchange\", \"payments\", \"capital markets\", \"downsizing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is it reasonable, then, to expect - is it reasonable to target year-on-year growth in the fee income business and GB&M?\",\n  \"answer_quote\": \"In the strategic areas, certainly - the areas we called out, such as foreign exchange, such as payments, such as supporting trade. We do expect also growth in, as Noel mentioned earlier, capital markets activity if and when rates come down. We see progress in this area of the fee income space. Clearly, GB&M has focused itself and the message is that, in the areas where they're focusing strategically - yes. In the areas where they have exited or are downsizing, then this would be non-strategic areas that they would continue doing downsizing.\",\n  \"reason\": \"The answer partially addresses the question by discussing growth expectations in strategic areas and GB&M, but does not provide a clear stance on year-on-year growth targets.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Expecting growth in fee income and GB&M\",\n  \"main_topics\": [\"fee income growth\", \"GB&M growth\", \"strategic focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is it reasonable, then, to expect - is it reasonable to target year-on-year growth in the fee income business and GB&M?\",\n  \"answer_quote\": \"In the strategic areas, certainly - the areas we called out, such as foreign exchange, such as payments, such as supporting trade. We do expect also growth in, as Noel mentioned earlier, capital markets activity if and when rates come down. We see progress in this area of the fee income space. Clearly, GB&M has focused itself and the message is that, in the areas where they're focusing strategically - yes. In the areas where they have exited or are downsizing, then this would be non-strategic areas that they would continue doing downsizing.\",\n  \"reason\": \"The answer directly addresses the question's intent, indicating a strategic focus on areas expected to grow, aligning with the question's narrative.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on growth expectations in fee income and GB&M\",\n  \"main_topics\": [\"growth expectations\", \"fee income\", \"GB&M\", \"strategic areas\", \"foreign exchange\", \"payments\", \"capital markets\", \"downsizing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I just clarify - is it reasonable, then, to expect - is it reasonable to target year-on-year growth in the fee income business and GB&M? Given those various moving parts, should we think about growth?\",\n  \"answer_quote\": \"In the strategic areas, certainly - the areas we called out, such as foreign exchange, such as payments, such as supporting trade. We do expect also growth in, as Noel mentioned earlier, capital markets activity if and when rates come down. We see progress in this area of the fee income space. Clearly, GB&M has focused itself and the message is that, in the areas where they're focusing strategically - yes. In the areas where they have exited or are downsizing, then this would be non-strategic areas that they would continue doing downsizing.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on growth expectations in fee income and GB&M\",\n  \"main_topics\": [\"growth expectations\", \"fee income\", \"GB&M\", \"strategic areas\", \"foreign exchange\", \"payments\", \"capital markets\", \"downsizing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is it reasonable, then, to expect - is it reasonable to target year-on-year growth in the fee income business and GB&M?\",\n  \"answer_quote\": \"In the strategic areas, certainly - the areas we called out, such as foreign exchange, such as payments, such as supporting trade. We do expect also growth in, as Noel mentioned earlier, capital markets activity if and when rates come down. We see progress in this area of the fee income space. Clearly, GB&M has focused itself and the message is that, in the areas where they're focusing strategically - yes. In the areas where they have exited or are downsizing, then this would be non-strategic areas that they would continue doing downsizing.\",\n  \"reason\": \"The answer partially addresses the question by discussing growth expectations in strategic areas and GB&M, but does not provide a clear stance on year-on-year growth targets.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 551,
+      "batch_seconds": 12.863929854000162
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 599,
+      "batch_seconds": 14.185100319999037
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 596,
+      "batch_seconds": 13.606166855000993
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a9fbd1a4d5e29e057997ba4e23fb65566f6dd2b8ed875067e7b5040706e5d7ad",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

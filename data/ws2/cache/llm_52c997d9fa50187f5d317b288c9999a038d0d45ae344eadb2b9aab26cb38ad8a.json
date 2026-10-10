@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on RWAs and cost drivers\",\n  \"main_topics\": [\"RWAs\", \"Cost drivers\", \"Variable pay\", \"Profit performance\", \"Basel III reform\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning, afternoon, everyone. Thanks for taking the questions. I have two. Firstly, on RWAs, and then just briefly to come back on costs. I just want to check on the RWAS and your commentary that you see RWAs being higher than consensus. Is that a reference beyond 2021?\",\n  \"answer_quote\": \"And on the question on RWAs, just in terms of 2022, again I think we would be confident of achieving mid-single-digit loan growth. We've probably got another $20 billion or so to go in our RWA reduction programme next year, but then you will have Basel III reform coming through, which will probably lead to a 4-5% uplift in RWAs next year.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RWAs and cost drivers\",\n  \"main_topics\": [\"RWAs\", \"Cost drivers\", \"Variable pay\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that a reference beyond 2021?\",\n  \"answer_quote\": \"I don't know how that compares with consensus, but broadly that's what's in our head at the moment.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RWAs and cost drivers\",\n  \"main_topics\": [\"RWAs\", \"Cost drivers\", \"Variable pay\", \"Profit performance\", \"Basel III reform\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning, afternoon, everyone. Thanks for taking the questions. I have two. Firstly, on RWAs, and then just briefly to come back on costs. I just want to check on the RWAS and your commentary that you see RWAs being higher than consensus. Is that a reference beyond 2021?\",\n  \"answer_quote\": \"Variable pay is set largely on bottom-line profitability, for example, last year, I think profits fell by around a third and we took the variable pay pool down by 20%. If we saw the reverse go this year and it was largely driven by ECL outperformance, I don't think we would take all of that outperformance into a change in variable pay.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RWAs and cost drivers\",\n  \"main_topics\": [\"RWAs\", \"Cost drivers\", \"Variable pay\", \"Profit performance\", \"Basel III reform\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning, afternoon, everyone. Thanks for taking the questions. I have two. Firstly, on RWAs, and then just briefly to come back on costs. I just want to check on the RWAS and your commentary that you see RWAs being higher than consensus. Is that a reference beyond 2021?\",\n  \"answer_quote\": \"And on the question on RWAs, just in terms of 2022, again I think we would be confident of achieving mid-single-digit loan growth. We've probably got another $20 billion or so to go in our RWA reduction programme next year, but then you will have Basel III reform coming through, which will probably lead to a 4-5% uplift in RWAs next year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 910,
+      "batch_seconds": 25.496445402000063
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 955,
+      "batch_seconds": 26.911594532999516
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 955,
+      "batch_seconds": 27.953487042999768
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "52c997d9fa50187f5d317b288c9999a038d0d45ae344eadb2b9aab26cb38ad8a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

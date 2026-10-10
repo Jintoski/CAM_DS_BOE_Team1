@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing bank earnings-call question and answer for BoE research\",\n  \"main_topics\": [\"2022 costs\", \"J curve investment\", \"debt capital structure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've got a couple. Firstly, I was just hoping to come back to costs again. Just to contextualise the guidance today and what it means as we look beyond 2021.\",\n  \"answer_quote\": \"I think you're trying to get to, what does 2022 costs look like versus 2021.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific references to costs, J curve, and debt capital structure, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Assess bank earnings-call question and answer for BoE research\",\n \"main_topics\": [\"2022 costs\", \"J curve investment\", \"debt capital structure\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I've got a couple. Firstly, I was just hoping to come back to costs again. Just to contextualise the guidance today and what it means as we look beyond 2021.\",\n \"answer_quote\": \"I think you're trying to get to, what does 2022 costs look like versus 2021. I think the real estate charge, we wouldn't expect that to be a recurring charge.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1284,
+      "batch_seconds": 40.036461369000335
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1329,
+      "batch_seconds": 97.78809524999997
+    }
+  ],
+  "exchange_id": "5c9f6bef592a-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f398a6931d2b789a2bd180cca2d8333e1189278d99ee5c1405f8450948817d7d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing bank earnings-call question and answer for BoE research",
+    "main_topics": [
+      "2022 costs",
+      "J curve investment",
+      "debt capital structure"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I've got a couple. Firstly, I was just hoping to come back to costs again. Just to contextualise the guidance today and what it means as we look beyond 2021.",
+    "answer_quote": "I think you're trying to get to, what does 2022 costs look like versus 2021.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific references to costs, J curve, and debt capital structure, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

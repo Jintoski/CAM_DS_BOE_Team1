@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discussing cost allocation and business returns\",\n  \"main_topics\": [\"cost allocation\", \"business returns\", \"digitisation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So should we be thinking about the lowest returning businesses being the ones where the highest proportion of those structural costs are allocated?\",\n  \"answer_quote\": \"Frankly no; we've done a few things. The first is, we have an ambition to continue to improve the returns of all of our businesses. So we've been focused business wide.\",\n  \"reason\": \"The answer deflects from the specific question about cost allocation to lowest returning businesses, instead discussing a broader focus on improving returns across all businesses and digitisation efforts.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 645,
+      "batch_seconds": 15.891535941999791
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e7adcc21513f087b3d1fa92a7d718982f78b3e51f6373aca2728122e39800de0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discussing cost allocation and business returns",
+    "main_topics": [
+      "cost allocation",
+      "business returns",
+      "digitisation"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So should we be thinking about the lowest returning businesses being the ones where the highest proportion of those structural costs are allocated?",
+    "answer_quote": "Frankly no; we've done a few things. The first is, we have an ambition to continue to improve the returns of all of our businesses. So we've been focused business wide.",
+    "reason": "The answer deflects from the specific question about cost allocation to lowest returning businesses, instead discussing a broader focus on improving returns across all businesses and digitisation efforts."
+  },
+  "whitespace_adjusted_quotes": []
+}

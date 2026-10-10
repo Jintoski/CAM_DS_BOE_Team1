@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on capital subscription decision\",\n  \"main_topics\": [\"capital subscription\", \"equity accounting\", \"CET1 ratio\", \"strategic relationship with Bocom\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just come back on that? I don't understand the logic on why you didn't subscribe for more capital, in the sense that if it is worth that much more, it would seem to me that it was an opportunity to put more capital in and to get the upside in due course.\",\n  \"answer_quote\": \"So Ed, the share issuance was subscribed by government or government-related entities in China. We were happy with our holding as it is, and therefore we're happy with the outcome.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a rationale for the capital subscription decision and discussing related topics such as equity accounting and the CET1 ratio, but lacks specific numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on capital subscription decision\",\n  \"main_topics\": [\"Capital Subscription\", \"Strategic Relationship\", \"Equity Accounting\", \"NAV Valuation\", \"CET1 Ratio\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just come back on that? I don't understand the logic on why you didn't subscribe for more capital, in the sense that if it is worth that much more, it would seem to me that it was an opportunity to put more capital in and to get the upside in due course.\",\n  \"answer_quote\": \"So Ed, the share issuance was subscribed by government or government-related entities in China. We were happy with our holding as it is, and therefore we're happy with the outcome. With regards to the actual accounting value, I would probably point you to the investor relations team which can take you through some of the specificities of the equity accounting principles which are quite unique in the way we treat the associate accounting of Bocom. I just want to re-emphasise we're happy with our holding in Bocom. We're happy with our strategic relationship with Bocom and the fact that they give us exposure to the domestic economy in China, be it retail, SME, outlook, which is not something our organic business is involved in, and very importantly, what Pam said - the valuation in our NAV is Page 11 of 13 deducted from CET1, which means these impairments have a very minimal second order impact on our CET1 ratio, and therefore also do not impact our distribution capability. And Ed, very happy to, offline, go through with you on the equity accounting treatment and the rest in detail. Thank you very much, Ed.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 675,
+      "batch_seconds": 17.66034953899998
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 720,
+      "batch_seconds": 18.00490129800164
+    }
+  ],
+  "exchange_id": "c6e92c439106-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9f6ee4a65dcbbdba1fd9bb27472c24cdcf34a790d84c132c8d67c983e5954f1c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on capital subscription decision",
+    "main_topics": [
+      "capital subscription",
+      "equity accounting",
+      "CET1 ratio",
+      "strategic relationship with Bocom"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I just come back on that? I don't understand the logic on why you didn't subscribe for more capital, in the sense that if it is worth that much more, it would seem to me that it was an opportunity to put more capital in and to get the upside in due course.",
+    "answer_quote": "So Ed, the share issuance was subscribed by government or government-related entities in China. We were happy with our holding as it is, and therefore we're happy with the outcome.",
+    "reason": "The answer directly addresses the question's intent, providing a rationale for the capital subscription decision and discussing related topics such as equity accounting and the CET1 ratio, but lacks specific numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

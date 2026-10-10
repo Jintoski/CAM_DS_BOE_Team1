@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify bank's $30 billion figure and inquire about commercial real estate impairment in China, specifically Hong Kong exposures.\",\n  \"main_topics\": [\"Bank Earnings-Call\", \"Commercial Real Estate Impairment\", \"Hong Kong Exposures\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It just wasn't entirely clear from the release this morning, given the way you've given the $30 billion number, that the $29 billion is the current starting point.\",\n  \"answer_quote\": \"It's booked in Hong Kong; it's the offshore component of the China commercial real estate portfolio, Manus. We've got just under $20 billion of exposure.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing clarity on the $30 billion figure and discussing the commercial real estate impairment in China, with a focus on Hong Kong exposures. The response contains high-level numeric evidence and is aligned with the narrative of the question.\"\n}",
+  "error": "",
+  "data": {
+    "question_intent": "Clarify bank's $30 billion figure and inquire about commercial real estate impairment in China, specifically Hong Kong exposures.",
+    "main_topics": [
+      "Bank Earnings-Call",
+      "Commercial Real Estate Impairment",
+      "Hong Kong Exposures"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "It just wasn't entirely clear from the release this morning, given the way you've given the $30 billion number, that the $29 billion is the current starting point.",
+    "answer_quote": "It's booked in Hong Kong; it's the offshore component of the China commercial real estate portfolio, Manus. We've got just under $20 billion of exposure.",
+    "reason": "The answer directly addresses the question's intent, providing clarity on the $30 billion figure and discussing the commercial real estate impairment in China, with a focus on Hong Kong exposures. The response contains high-level numeric evidence and is aligned with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify bank's exposure and impairment in Hong Kong and mainland China commercial real estate.\",\n  \"main_topics\": [\"Bank's exposure\", \"Impairment\", \"Commercial real estate outlook in China\", \"Hong Kong vs mainland China\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My second question is about the commercial real estate outlook in China. Are the additional $400 million of impairment you've taken this quarter mostly related to Hong Kong-booked?\",\n  \"answer_quote\": \"It's booked in Hong Kong; it's the offshore component of the China commercial real estate portfolio, Manus. We've got just under $20 billion of exposure. Over $7 billion of that is onshore and just over $12 billion of it is offshore.\",\n  \"reason\": \"The answer directly addresses the question about the $400 million impairment, providing specific figures for Hong Kong and mainland China exposures, and explaining the different risk profiles and policy support considerations.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question\": \"Is the additional $400 million of impairment you've taken this quarter mostly related to Hong Kong-booked?\",\n  \"answer\": \"The offshore book has a different risk profile to the onshore.\",\n  \"main_topics\": [\"Hong Kong-booked exposures\", \"Commercial real estate impairment\", \"Policy support in China\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is the additional $400 million of impairment you've taken this quarter mostly related to Hong Kong-booked?\",\n  \"answer_quote\": \"The offshore book has a different risk profile to the onshore.\",\n  \"reason\": \"The answer partially addresses the question about the $400 million impairment, but does not directly confirm if it's mostly related to Hong Kong-booked exposures.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d1317791f181b3b7ede223073a53a2b23a56ac154b8dbd92c109ecec70cbb42d"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on reporting basis change\",\n  \"main_topics\": [\"Reporting Basis\", \"Interconnectivity\", \"Regional Reporting\", \"IFRS 17\", \"Group Management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask about the decision to present the numbers on a legal entity basis going forwards? Because it seems somewhat curious, given that you spent much of the last year trying to convince shareholders about the interconnectivity of the group, that you're now presenting numbers on a subsidiarised basis.\",\n  \"answer_quote\": \"By all means, you should not read at all the fact that - we remain absolutely committed to our DNA, which is connecting East and West and working on global interconnectivity.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear explanation, and aligns with the narrative of maintaining interconnectivity while changing the reporting basis.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on the rationale for reporting on a legal entity basis\",\n  \"main_topics\": [\"Reporting Basis\", \"Interconnectivity\", \"Regional Reporting\", \"IFRS 17 Implementation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask about the decision to present the numbers on a legal entity basis going forwards?\",\n  \"answer_quote\": \"By doing it on a legal entity basis - it's how the Executive Committee manages; it's how the Group manages.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 883,
+      "batch_seconds": 23.759455553999942
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 928,
+      "batch_seconds": 24.511419823000324
+    }
+  ],
+  "exchange_id": "4970375d012d-x021",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "836d0aa7bf61533e2818b042e6885ec0da7360df6fe85b24f6d0cc9fa065ff7d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on reporting basis change",
+    "main_topics": [
+      "Reporting Basis",
+      "Interconnectivity",
+      "Regional Reporting",
+      "IFRS 17",
+      "Group Management"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I ask about the decision to present the numbers on a legal entity basis going forwards? Because it seems somewhat curious, given that you spent much of the last year trying to convince shareholders about the interconnectivity of the group, that you're now presenting numbers on a subsidiarised basis.",
+    "answer_quote": "By all means, you should not read at all the fact that - we remain absolutely committed to our DNA, which is connecting East and West and working on global interconnectivity.",
+    "reason": "The response directly addresses the question's intent, provides a clear explanation, and aligns with the narrative of maintaining interconnectivity while changing the reporting basis."
+  },
+  "whitespace_adjusted_quotes": []
+}

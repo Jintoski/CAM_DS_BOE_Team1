@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on bank's cost structure and future cost trends\",\n  \"main_topics\": [\"bank costs\", \"structural cost actions\", \"future cost trends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just come back on the costs? Because there was a lot of discussion in Q121 and there's still a lot of discussion if I look at the range of consensus about whether costs would go down going forward and that this structural cost action was a one off. From what you're saying it doesn't sound like that's obvious, let's put it that way.\",\n  \"answer_quote\": \"The best guidance I can give you is that the base costs, a good planning assumption for next year is roughly flat YoY. The structural cost actions, the way we think about them is we don't think of them as run rate. This isn't something we're going to be doing quite literally for the next umpteen years otherwise they'd be base costs. These are episodic, specific in nature, with a very specific objective just like we've had in the real estate charge off. And so we'll call them out and explain what's going on there. But our base costs, which is really what the bank is running at, as I say, planning assumption is £12bn into next year.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high-level evidence with a specific numeric figure for future planning.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discussing bank's cost structure and future cost projections\",\n  \"main_topics\": [\"Bank's cost structure\", \"Future cost projections\", \"Structural cost actions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just come back on the costs? Because there was a lot of discussion in Q121 and there's still a lot of discussion if I look at the range of consensus about whether costs would go down going forward and that this structural cost action was a one off. From what you're saying it doesn't sound like that's obvious, let's put it that way.\",\n  \"answer_quote\": \"The best guidance I can give you is that the base costs, a good planning assumption for next year is roughly flat YoY. The structural cost actions, the way we think about them is we don't think of them as run rate.\",\n  \"reason\": \"The answer directly addresses the question about the bank's cost structure and future cost projections, providing a clear stance and high evidence level with numeric evidence and forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on cost trends and structural cost actions\",\n  \"main_topics\": [\"cost trends\", \"structural cost actions\", \"base costs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just come back on the costs? Because there was a lot of discussion in Q121 and there's still a lot of discussion if I look at the range of consensus about whether costs would go down going forward and that this structural cost action was a one off. From what you're saying it doesn't sound like that's obvious, let's put it that way.\",\n  \"answer_quote\": \"The best guidance I can give you is that the base costs, a good planning assumption for next year is roughly flat YoY. The structural cost actions, the way we think about them is we don't think of them as run rate. This isn't something we're going to be doing quite literally for the next umpteen years otherwise they'd be base costs. These are episodic, specific in nature, with a very specific objective just like we've had in the real estate charge off. And so we'll call them out and explain what's going on there. But our base costs, which is really what the bank is running at, as I say, planning assumption is £12bn into next year.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high-level evidence with a specific numeric figure for base costs.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on bank's cost structure and future cost trends\",\n  \"main_topics\": [\"bank costs\", \"structural cost actions\", \"future cost trends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just come back on the costs? Because there was a lot of discussion in Q121 and there's still a lot of discussion if I look at the range of consensus about whether costs would go down going forward and that this structural cost action was a one off. From what you're saying it doesn't sound like that's obvious, let's put it that way.\",\n  \"answer_quote\": \"The best guidance I can give you is that the base costs, a good planning assumption for next year is roughly flat YoY. The structural cost actions, the way we think about them is we don't think of them as run rate. This isn't something we're going to be doing quite literally for the next umpteen years otherwise they'd be base costs. These are episodic, specific in nature, with a very specific objective just like we've had in the real estate charge off. And so we'll call them out and explain what's going on there. But our base costs, which is really what the bank is running at, as I say, planning assumption is £12bn into next year.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high-level evidence with a specific numeric figure for future planning.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 603,
+      "batch_seconds": 12.97318208300021
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 651,
+      "batch_seconds": 14.078725104000114
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 651,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "418cffd1dc8d-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8757281f1c035c5dafa74b8c8f0e9f7470da6f9c06b2234cd6ea027be9dda4dc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Risk weighting reduction and capital impact in US card business\",\n  \"main_topics\": [\"Risk Weighting\", \"US Card Business\", \"Capital Impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A couple of questions please. And the first one I think, we already touched upon a bit, but what's the realistic reduction in risk weighting that can be achieved in the US card business from 160% and how?\",\n  \"answer_quote\": \"On the first one, we talked a bit about this on the 20th of February. We expect to get to a position of around 145% risk weighting.\",\n  \"reason\": \"The answer directly addresses the question about risk weighting reduction, provides a specific target, and explains the factors influencing the reduction, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 788,
+      "batch_seconds": 21.786424566999813
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5cefe228308d67d93c5eb117000b41aa54dfbe51c9c8247000f06addf0a1fab0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Risk weighting reduction and capital impact in US card business",
+    "main_topics": [
+      "Risk Weighting",
+      "US Card Business",
+      "Capital Impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "A couple of questions please. And the first one I think, we already touched upon a bit, but what's the realistic reduction in risk weighting that can be achieved in the US card business from 160% and how?",
+    "answer_quote": "On the first one, we talked a bit about this on the 20th of February. We expect to get to a position of around 145% risk weighting.",
+    "reason": "The answer directly addresses the question about risk weighting reduction, provides a specific target, and explains the factors influencing the reduction, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

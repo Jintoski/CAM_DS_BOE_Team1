@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on short-dated reserves\",\n  \"main_topics\": [\"Short-dated reserves\", \"NIM guidance\", \"Interest rate changes\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But when you say short-dated, is it a case of that 16bps potentially reserving entirely by the end of 2023?\",\n  \"answer_quote\": \"Not entirely, but mainly. But it's not all relating to that particular point. That is the largest part, and it's not a single instrument. We have, as you imagine, a strip of different instruments. They are all short dated, they will all run out at different points in time. That's what I'm looking at when I give you my overall NIM guidance.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on short-dated reserves\",\n  \"main_topics\": [\"Short-dated reserves\", \"NIM guidance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But when you say short-dated, is it a case of that 16bps potentially reserving entirely by the end of 2023?\",\n  \"answer_quote\": \"Not entirely, but mainly. But it's not all relating to that particular point. That is the largest part, and it's not a single instrument. We have, as you imagine, a strip of different instruments. They are all short dated, they will all run out at different points in time. That's what I'm looking at when I give you my overall NIM guidance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on short-dated reserves\",\n  \"main_topics\": [\"Short-dated reserves\", \"NIM guidance\", \"Interest rate changes\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But when you say short-dated, is it a case of that 16bps potentially reserving entirely by the end of 2023?\",\n  \"answer_quote\": \"Not entirely, but mainly. But it's not all relating to that particular point. That is the largest part, and it's not a single instrument. We have, as you imagine, a strip of different instruments. They are all short dated, they will all run out at different points in time. That's what I'm looking at when I give you my overall NIM guidance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on short-dated reserves\",\n  \"main_topics\": [\"Short-dated reserves\", \"NIM guidance\", \"Interest rate changes\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But when you say short-dated, is it a case of that 16bps potentially reserving entirely by the end of 2023?\",\n  \"answer_quote\": \"Not entirely, but mainly. But it's not all relating to that particular point. That is the largest part, and it's not a single instrument. We have, as you imagine, a strip of different instruments. They are all short dated, they will all run out at different points in time. That's what I'm looking at when I give you my overall NIM guidance.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 492,
+      "batch_seconds": 10.181106705000275
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 537,
+      "batch_seconds": 10.852135373001147
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 537,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f4df4953eaaa513192d9b6fb7710a42ecc37d7e7d09da314a090459c56c96b63",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

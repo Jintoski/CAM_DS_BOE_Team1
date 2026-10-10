@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explaining interest rate sensitivity differences\",\n  \"main_topics\": [\"Interest Rate Sensitivity\", \"Currency Sensitivity\", \"Hedging\", \"Deposit Balances\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Morning, everybody. I'm sorry to go on about this interest rate sensitivity, but I guess it is quite crucial in terms of the outlook. The bit I don't really understand is when I look at the currencies, if I look at your year one sensitivity, your sterling sensitivity is materially higher than your Hong Kong sensitivity, yet your sterling is the bit that's hedged, the Hong Kong isn't, and yet the total balances in Hong Kong are - well, orders of magnitude similar, but I guess if anything it's slightly higher in Hong Kong than they are in sterling. So I don't - is it possible to help us a little bit on why you have this huge sensitivity in sterling and perhaps not so much in places like Hong Kong, which is short-dated?\",\n  \"answer_quote\": \"Firstly in Hong Kong, remember that only around 50% of our deposit balances are Hong Kong dollars, so there is an impact of the - particularly US dollar book in Hong Kong, I think, in that interest rate sensitivity, with US dollars about 80% of the 50% that's not Hong Kong dollars. Look, I'll need to get you a detailed answer out of our IR team, if you give them a call, but I assume our interest rate sensitivity analysis is correct.\",\n  \"reason\": \"The answer partially addresses the question by explaining the impact of US dollar deposits in Hong Kong on interest rate sensitivity but deflects by suggesting a call to the IR team for a detailed answer.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 638,
+      "batch_seconds": 16.037525024999923
+    }
+  ],
+  "exchange_id": "2895638cae6c-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d1b76004ed1eca7c1eb83752873f1d312ec0a52d78d35c40c5a9de4b37b9cd63",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Explaining interest rate sensitivity differences",
+    "main_topics": [
+      "Interest Rate Sensitivity",
+      "Currency Sensitivity",
+      "Hedging",
+      "Deposit Balances"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Morning, everybody. I'm sorry to go on about this interest rate sensitivity, but I guess it is quite crucial in terms of the outlook. The bit I don't really understand is when I look at the currencies, if I look at your year one sensitivity, your sterling sensitivity is materially higher than your Hong Kong sensitivity, yet your sterling is the bit that's hedged, the Hong Kong isn't, and yet the total balances in Hong Kong are - well, orders of magnitude similar, but I guess if anything it's slightly higher in Hong Kong than they are in sterling. So I don't - is it possible to help us a little bit on why you have this huge sensitivity in sterling and perhaps not so much in places like Hong Kong, which is short-dated?",
+    "answer_quote": "Firstly in Hong Kong, remember that only around 50% of our deposit balances are Hong Kong dollars, so there is an impact of the - particularly US dollar book in Hong Kong, I think, in that interest rate sensitivity, with US dollars about 80% of the 50% that's not Hong Kong dollars. Look, I'll need to get you a detailed answer out of our IR team, if you give them a call, but I assume our interest rate sensitivity analysis is correct.",
+    "reason": "The answer partially addresses the question by explaining the impact of US dollar deposits in Hong Kong on interest rate sensitivity but deflects by suggesting a call to the IR team for a detailed answer."
+  },
+  "whitespace_adjusted_quotes": []
+}

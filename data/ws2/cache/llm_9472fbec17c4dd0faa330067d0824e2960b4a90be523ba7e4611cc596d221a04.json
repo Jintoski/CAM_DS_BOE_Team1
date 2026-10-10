@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Follow-up on NBFI review completion and regulatory uncertainty impact on Investment Bank business plan.\",\n  \"main_topics\": [\"NBFI review\", \"Regulatory uncertainty\", \"Investment Bank business plan\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Venkat, back on NBFI, sorry, Venkat, you mentioned the importance of initial qualification and continuous monitoring. And I guess in light of recent events that review that you're running through in that book and just triple checking everything. How far through that review are you or have you fully completed that review? Maybe I missed that in your earlier comments. Sorry if I did.\",\n  \"answer_quote\": \"Yes, thanks Chris, I'll let Anna take the second question. On the first one, the review is completed. As I said, I'm satisfied with what we saw, but we're going to have to continue to be vigilant and that's always been the case. And Chris, just on your second question, I mean you're right, there is a degree of regulatory uncertainty out there and clearly what we would want to have is consistency of regulation both in its approach and its implementation date across all three jurisdictions, so Europe, UK and US. So that is difficult from a timing perspective in terms of planning. But more holistically than that, the plans and the strategy that we have for the Investment Bank, Venkat's referred to it before as running our own race and we remain extremely focused on doing that, obviously mindful of the competitive environment also. But our objective here is and will remain to drive higher returns in the Investment Bank, more consistent returns and that's really about focusing on the stability of income, both stable sources of income like the International Corporate Bank, like Financing, but also stabilising the Intermediation and Fees parts of the business. There's a really important piece here around costs and efficiency and technology-led efficiency. So what you've seen over the last few quarters, we've had six quarters of consecutive positive jaws in this business. And then the third piece is just this continued driving capital efficiency. We think we've got ways to go, you've seen again six consecutive quarters of year-over-year improvement, but there's more there for us to do. So, I think it's really important that we focus on the things that we can control and then navigate the regulatory environment as it emerges, and we are well used to doing that. We've seen divergences before, we continue to see them and we'll deal with it when we have the facts in front of us. Thank you for the questions. Next question please.\",\n  \"reason\": \"The response directly addresses the follow-up questions, provides a complete answer, and includes high evidence with numeric evidence of six consecutive quarters of positive results and year-over-year improvement.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Regulatory review completion and impact on Investment Bank business plan\",\n  \"main_topics\": [\"Regulatory review\", \"Investment Bank business plan\", \"Regulatory uncertainty\", \"Capital efficiency\", \"Strategic focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Venkat, back on NBFI, sorry, Venkat, you mentioned the importance of initial qualification and continuous monitoring. And I guess in light of recent events that review that you're running through in that book and just triple checking everything. How far through that review are you or have you fully completed that review?\",\n  \"answer_quote\": \"Yes, thanks Chris, I'll let Anna take the second question. On the first one, the review is completed. As I said, I'm satisfied with what we saw, but we're going to have to continue to be vigilant and that's always been the case.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 992,
+      "batch_seconds": 30.456091934999677
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1037,
+      "batch_seconds": 33.19210055500116
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9472fbec17c4dd0faa330067d0824e2960b4a90be523ba7e4611cc596d221a04",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Follow-up on NBFI review completion and regulatory uncertainty impact on Investment Bank business plan.",
+    "main_topics": [
+      "NBFI review",
+      "Regulatory uncertainty",
+      "Investment Bank business plan"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Venkat, back on NBFI, sorry, Venkat, you mentioned the importance of initial qualification and continuous monitoring. And I guess in light of recent events that review that you're running through in that book and just triple checking everything. How far through that review are you or have you fully completed that review? Maybe I missed that in your earlier comments. Sorry if I did.",
+    "answer_quote": "Yes, thanks Chris, I'll let Anna take the second question. On the first one, the review is completed. As I said, I'm satisfied with what we saw, but we're going to have to continue to be vigilant and that's always been the case. And Chris, just on your second question, I mean you're right, there is a degree of regulatory uncertainty out there and clearly what we would want to have is consistency of regulation both in its approach and its implementation date across all three jurisdictions, so Europe, UK and US. So that is difficult from a timing perspective in terms of planning. But more holistically than that, the plans and the strategy that we have for the Investment Bank, Venkat's referred to it before as running our own race and we remain extremely focused on doing that, obviously mindful of the competitive environment also. But our objective here is and will remain to drive higher returns in the Investment Bank, more consistent returns and that's really about focusing on the stability of income, both stable sources of income like the International Corporate Bank, like Financing, but also stabilising the Intermediation and Fees parts of the business. There's a really important piece here around costs and efficiency and technology-led efficiency. So what you've seen over the last few quarters, we've had six quarters of consecutive positive jaws in this business. And then the third piece is just this continued driving capital efficiency. We think we've got ways to go, you've seen again six consecutive quarters of year-over-year improvement, but there's more there for us to do. So, I think it's really important that we focus on the things that we can control and then navigate the regulatory environment as it emerges, and we are well used to doing that. We've seen divergences before, we continue to see them and we'll deal with it when we have the facts in front of us. Thank you for the questions. Next question please.",
+    "reason": "The response directly addresses the follow-up questions, provides a complete answer, and includes high evidence with numeric evidence of six consecutive quarters of positive results and year-over-year improvement."
+  },
+  "whitespace_adjusted_quotes": []
+}

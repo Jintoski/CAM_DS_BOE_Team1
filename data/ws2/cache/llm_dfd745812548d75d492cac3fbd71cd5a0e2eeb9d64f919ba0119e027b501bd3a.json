@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Two questions about Hang Seng's role in HSBC's geographic coverage and the rollout of tokenised deposits.\",\n  \"main_topics\": [\"Hang Seng\", \"HSBC's geographic coverage\", \"Tokenised deposits\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've got two, please. The first is on Hang Seng. I appreciate you've given us the numbers you can at this stage, so I'm just wondering, on a high level, how does Hang Seng fit into HSBC's geographic coverage?\",\n  \"answer_quote\": \"So Hang Seng - firstly, you're right. We're not giving more numbers, because we are in the offer period.\",\n  \"reason\": \"The response directly addresses both questions, provides a high level of detail, and includes forward guidance, with a high evidence level due to the detailed explanation of HSBC's strategy and plans.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Two questions about Hang Seng's role in HSBC's geographic coverage and the potential for wider rollout of tokenised deposits.\",\n \"main_topics\": [\"Hang Seng's role in HSBC\", \"Tokenised deposits rollout\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first is on Hang Seng. I appreciate you've given us the numbers you can at this stage, so I'm just wondering, on a high level, how does Hang Seng fit into HSBC's geographic coverage?\",\n \"answer_quote\": \"So Hang Seng - firstly, you're right. We're not giving more numbers, because we are in the offer period. What we are looking at from Hang Seng - I just want to remind you again on the four criteria we had when we said what would be the high hurdle rate for an acquisition.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Two questions about Hang Seng's role in HSBC's geographic coverage and the rollout of tokenised deposits.\",\n  \"main_topics\": [\"Hang Seng\", \"HSBC's geographic coverage\", \"tokenised deposits\", \"digitalisation\", \"regulatory environment\", \"operational leverage\", \"acquisition\", \"HKM market\", \"stablecoin\", \"customer needs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've got two, please. The first is on Hang Seng. I appreciate you've given us the numbers you can at this stage, so I'm just wondering, on a high level, how does Hang Seng fit into HSBC's geographic coverage?\",\n  \"answer_quote\": \"So Hang Seng - firstly, you're right. We're not giving more numbers, because we are in the offer period. What we are looking at from Hang Seng - I just want to remind you again on the four criteria we had when we said what would be the high hurdle rate for an acquisition.\",\n  \"reason\": \"The response directly addresses both questions, provides a high level of evidence with a detailed explanation, and includes forward guidance on the rollout of tokenised deposits.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1362,
+      "batch_seconds": 44.31235364999975
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1407,
+      "batch_seconds": 44.672947998999916
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1416,
+      "batch_seconds": 101.12452393000058
+    }
+  ],
+  "exchange_id": "df882adea623-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "dfd745812548d75d492cac3fbd71cd5a0e2eeb9d64f919ba0119e027b501bd3a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Two questions about Hang Seng's role in HSBC's geographic coverage and the rollout of tokenised deposits.",
+    "main_topics": [
+      "Hang Seng",
+      "HSBC's geographic coverage",
+      "Tokenised deposits"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I've got two, please. The first is on Hang Seng. I appreciate you've given us the numbers you can at this stage, so I'm just wondering, on a high level, how does Hang Seng fit into HSBC's geographic coverage?",
+    "answer_quote": "So Hang Seng - firstly, you're right. We're not giving more numbers, because we are in the offer period.",
+    "reason": "The response directly addresses both questions, provides a high level of detail, and includes forward guidance, with a high evidence level due to the detailed explanation of HSBC's strategy and plans."
+  },
+  "whitespace_adjusted_quotes": []
+}

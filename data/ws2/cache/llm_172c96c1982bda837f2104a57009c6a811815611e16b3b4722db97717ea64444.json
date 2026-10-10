@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Impact of falling interest rates on Wealth income and deposit growth\",\n  \"main_topics\": [\"Wealth income\", \"Deposit growth\", \"Interest rates\", \"AUM growth\", \"Lending growth\", \"Balance sheet growth\", \"Banking NII\", \"Deposit franchise\", \"Wealth proposition\", \"Financial performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM.\",\n  \"answer_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Impact of falling interest rates on Wealth income and deposit growth\",\n \"main_topics\": [\"Wealth income\", \"Deposit growth\", \"Interest rates\", \"Banking NII\", \"Balance sheet growth\", \"Lending growth\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM. So the impact, if you want, on rates is more about the transition of customers from deposits into AUMs. So this has been happening. We're seeing some of our deposits move into net new invested assets and transferring, if you want, to AUMs in our Wealth proposition. It is likely, on a trend basis, that when rates come down and the earnings you can make on deposits reduces, that customers may shift some of it into AUMs - it will be visible now in our net new invested assets proposition, and then we will be able to service them in the fee space. So, there is a component where we do expect more Wealth activity to take place as we see deposits being less remunerative, but this is more on a broad trend basis, not a direct linkage. We are also benefiting from the structural growth of Wealth, in particular in Asia, where we believe the underlying market is growing at very-high-single digit if not double-digit percentages over the next five years, and on top of that underlying growth, which we're benefiting from. We are taking market share because of our additional investment in this space.\",\n \"answer_quote\": \"On your second point, it's a very good point because we talk about balance sheet growth and loan growth, but we have also a strong dependence for our banking NII to deposit growth, which constitutes the underlying for our average interest-earning assets. So we've seen this quarter deposits growing 2%. I caution you not to annualise the 2% because some of it is seasonal; some of it is one-off. But we have a fantastic deposit franchise. You know us. Everywhere we operate, we have a very strong balance sheet that's very appealing, and we have a very strong proposition in deposits and transaction banking for both wholesale and retail, which means that we will continuously look to capture deposits. We continue winning Global Payments Solutions mandates in the wholesale space; we continue being attractive for retail customers; and we just shared - Noel shared 345,000 new customers joining our Hong Kong business alone. In the UK in 2023 we added 1 million new customers. So therefore, we do continue seeing a good underlying momentum to grow our deposits with this very attractive deposit franchise of ours. And I think I'd reinforce that and add another comment. The trick for us in the past - we were very good as a retail bank; we were very good as a corporate bank; but, when customers, whether they were retail customers or corporate customers, wanted to invest in alternative asset classes other than cash, they tended to go to other banks because our product range and our distribution wasn't strong enough. We deliberately set out to invest in our products and distribution capability for Wealth so that that cash - if it did move, it moved within the bank not outside the bank, and one of the byproduct benefits is, if you've got a good Wealth proposition, you also attract the cash. You keep the cash in the bank as well. They go hand in hand. And so I think - look, I think we're in a very different position today in offering Wealth propositions to clients, and what we've done is deliberately try to diversify the revenue stream so it's less dependent on purely corporate banking and retail banking and there is a continuum from retail and corporate banking into banking the individuals and the entrepreneurs in their personal capacity and doing their wealth management in their personal capacity, and that's, I think, the exciting trend for the future, and I think that's why we believe that we're well positioned to deliver mid-teens ROTE next year: because we have that diversity and that continuum of offering. So I just want to say that's not a by-chance strategy. That was a very deliberate strategy to keep both the cash in the bank and the invested assets in the bank. Thank you, everyone, for joining us today. Before we close, I'd like to thank you for your questions and for all the discussions we've had over the last five years. I've always enjoyed representing my colleagues when we announce our results, and I'm really pleased that the strong first-half numbers announced today demonstrate the improved financial performance that our strategy and execution has driven. It's been over 15 years since the group has generated returns at the current levels, and our new guidance underlines that we expect to be able to sustain it through this year and in 2025. I wish Georges, the team and all of you the very best, and enjoy the rest of the day.\",\n \"reason\": \"The answer directly addresses the impact of falling interest rates on Wealth income and deposit growth, providing a detailed explanation and supporting evidence, including specific growth rates and strategic initiatives.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of falling interest rates on Wealth income and deposit growth\",\n  \"main_topics\": [\"Wealth income\", \"Deposit growth\", \"Interest rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM.\",\n  \"answer_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of falling interest rates on Wealth income and deposit growth\",\n  \"main_topics\": [\"Wealth income\", \"Deposit growth\", \"Interest rates\", \"AUM growth\", \"Lending growth\", \"Balance sheet growth\", \"Banking NII\", \"Deposit franchise\", \"Wealth proposition\", \"Financial performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM.\",\n  \"answer_quote\": \"So, first, Wealth income - the way we report it essentially is Fees and other income. So the slide I have there for Wealth - that's particularly the fees part, which is fees earned on asset under management or for insurance in particular related to new business CSM.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1641,
+      "batch_seconds": 46.22701585100003
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1695,
+      "batch_seconds": 105.7286256440002
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1686,
+      "batch_seconds": 106.59646868799973
+    }
+  ],
+  "exchange_id": "fbf6b5dfe7b5-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "172c96c1982bda837f2104a57009c6a811815611e16b3b4722db97717ea64444",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

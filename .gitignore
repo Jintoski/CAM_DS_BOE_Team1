@@ -1,0 +1,6 @@
+#page text notebook 1 caches while extracting the PDFs, rebuilt on demand
+data/corpus/_checkpoint/
+.ipynb_checkpoints/
+__pycache__/
+*:Zone.Identifier
+.DS_Store

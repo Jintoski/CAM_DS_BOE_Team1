@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request updates on divestments and details on resident vs non-resident customer base split and revenue margins.\",\n  \"main_topics\": [\"divestments\", \"resident vs non-resident customer base\", \"revenue margins\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you just provide us with an update there, particularly Australia, because that is a potentially more sizeable divestment?\",\n  \"answer_quote\": \"Firstly, your questions on the divestments that we had called out in terms of strategic reviews - there is no further news. They are continuing through that strategic review process. That's why we haven't called out anything specific here. It's work in progress, no turning back, as such.\",\n  \"reason\": \"The answer partially addresses the divestment question but does not provide the specific update on Australia. It also provides some information on the resident vs non-resident customer base but does not fully address the revenue margins question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 976,
+      "batch_seconds": 28.591533906999757
+    }
+  ],
+  "exchange_id": "499cc685b9a4-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "182905585b7a28dfc33dd215c6aab5df6c23d2c7060fd1f98b612ae4f8b1c518",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request updates on divestments and details on resident vs non-resident customer base split and revenue margins.",
+    "main_topics": [
+      "divestments",
+      "resident vs non-resident customer base",
+      "revenue margins"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can you just provide us with an update there, particularly Australia, because that is a potentially more sizeable divestment?",
+    "answer_quote": "Firstly, your questions on the divestments that we had called out in terms of strategic reviews - there is no further news. They are continuing through that strategic review process. That's why we haven't called out anything specific here. It's work in progress, no turning back, as such.",
+    "reason": "The answer partially addresses the divestment question but does not provide the specific update on Australia. It also provides some information on the resident vs non-resident customer base but does not fully address the revenue margins question."
+  },
+  "whitespace_adjusted_quotes": []
+}

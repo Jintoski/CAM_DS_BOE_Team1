@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer\",\n  \"main_topics\": [\n    \"CIB performance costs\",\n    \"CIB revenue decline\",\n    \"CIB cost-to-income ratio\",\n    \"Payments business growth\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How should we be thinking about this into 2022? It doesn't feel like there's a huge amount of wiggle room relative to historical levels of performance costs, if revenues do decline in the CIB.\",\n  \"answer_quote\": \"Yes. Thanks, Chris, and thanks for your comments at the beginning of your question, much appreciated. Yes, performance costs and I guess your real question is, in a downside revenue environment, how much could we bring performance costs down?\",\n  \"reason\": \"The answer addresses the question partially, discussing the difficulty of reducing performance costs in a revenue decline scenario and the factors influencing it, but does not provide a specific cost-to-income ratio or a detailed breakdown of the payments business growth.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Cost-to-income ratio and payments business revenue opportunity\",\n  \"main_topics\": [\"CIB cost management\", \"payments business growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How should we be thinking about this into 2022? It doesn't feel like there's a huge amount of wiggle room relative to historical levels of performance costs, if revenues do decline in the CIB.\",\n  \"answer_quote\": \"Payments is up about 17% year on year and you should be able to back into there.\",\n  \"reason\": \"The answer provides some guidance on cost management and growth in payments but does not fully address the specific cost-to-income ratio or the exact breakdown of the £900m revenue opportunity.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer\",\n  \"main_topics\": [\n    \"CIB performance costs\",\n    \"CIB revenue decline\",\n    \"CIB cost-to-income ratio\",\n    \"Payments business growth\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How should we be thinking about this into 2022? It doesn't feel like there's a huge amount of wiggle room relative to historical levels of performance costs, if revenues do decline in the CIB.\",\n  \"answer_quote\": \"Yes. Thanks, Chris, and thanks for your comments at the beginning of your question, much appreciated. Yes, performance costs and I guess your real question is, in a downside revenue environment, how much could we bring performance costs down?\",\n  \"reason\": \"The answer partially addresses the question about CIB performance costs and revenue decline, but does not provide a specific cost-to-income ratio or a clear answer to the question posed. It also hedges on the ability to reduce costs in a revenue decline scenario.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer\",\n  \"main_topics\": [\n    \"CIB performance costs\",\n    \"CIB revenue decline\",\n    \"CIB cost-to-income ratio\",\n    \"Payments business growth\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How should we be thinking about this into 2022? It doesn't feel like there's a huge amount of wiggle room relative to historical levels of performance costs, if revenues do decline in the CIB.\",\n  \"answer_quote\": \"Yes. Thanks, Chris, and thanks for your comments at the beginning of your question, much appreciated. Yes, performance costs and I guess your real question is, in a downside revenue environment, how much could we bring performance costs down?\",\n  \"reason\": \"The answer addresses the question partially, discussing the difficulty of reducing performance costs in a revenue decline scenario and the factors influencing it, but does not provide a specific cost-to-income ratio or a detailed breakdown of the payments business growth.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1233,
+      "batch_seconds": 33.825311269999474
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1281,
+      "batch_seconds": 96.81079734500054
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1281,
+      "batch_seconds": 98.4690095269998
+    }
+  ],
+  "exchange_id": "a055cc76c938-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3a5646a76f6daeb95f5600d3465bfe636319f6c7561391a18572c5033e1cb663",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

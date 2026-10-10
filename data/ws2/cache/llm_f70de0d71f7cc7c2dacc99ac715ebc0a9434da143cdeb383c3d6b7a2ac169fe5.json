@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarify revenue guidance discrepancy\",\n  \"main_topics\": [\"revenue guidance\", \"non-interest income\", \"non-NII\", \"fee income\", \"transformation\", \"dividends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"the revenue consensus is at least a couple of billion too low\",\n  \"answer_quote\": \"the first one is there's indeed a couple of billion that you need to factor in in the non-NII due to the funding of the trading book, assuming roughly flat balances and flat rates throughout 2023 to the Q4 number\",\n  \"reason\": \"The answer directly addresses the question's concern about revenue guidance, provides a specific numeric correction, and aligns with the narrative of the question.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify revenue guidance discrepancy and address potential revenue downgrade\",\n  \"main_topics\": [\"Revenue guidance\", \"Non-interest income\", \"Trading book impact\", \"Fee income\", \"Transformation phase\", \"International connectivity\", \"Cost control\", \"Dividend distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"the revenue consensus is at least a couple of billion too low\",\n  \"answer_quote\": \"the first one is there's indeed a couple of billion that you need to factor in in the non-NII due to the funding of the trading book, assuming roughly flat balances and flat rates throughout 2023 to the Q4 number. So, yes, that one's correct.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify revenue guidance discrepancy\",\n  \"main_topics\": [\"revenue guidance\", \"non-interest income\", \"fee income\", \"transformation phase\", \"dividend distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"the revenue consensus is at least a couple of billion too low\",\n  \"answer_quote\": \"the first one is there's indeed a couple of billion that you need to factor in in the non-NII due to the funding of the trading book\",\n  \"reason\": \"The response directly addresses the question's intent, provides numeric evidence, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify revenue guidance discrepancy\",\n  \"main_topics\": [\"revenue guidance\", \"non-interest income\", \"non-NII\", \"fee income\", \"transformation\", \"dividends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"the revenue consensus is at least a couple of billion too low\",\n  \"answer_quote\": \"the first one is there's indeed a couple of billion that you need to factor in in the non-NII due to the funding of the trading book, assuming roughly flat balances and flat rates throughout 2023 to the Q4 number\",\n  \"reason\": \"The answer directly addresses the question's concern about revenue guidance, provides a specific numeric correction, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 924,
+      "batch_seconds": 22.86124256599942
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 969,
+      "batch_seconds": 26.911594532999516
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 972,
+      "batch_seconds": 93.46858639200036
+    }
+  ],
+  "exchange_id": "90eabcdcf010-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f70de0d71f7cc7c2dacc99ac715ebc0a9434da143cdeb383c3d6b7a2ac169fe5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

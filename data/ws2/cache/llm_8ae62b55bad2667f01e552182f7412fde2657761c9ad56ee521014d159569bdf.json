@@ -1,0 +1,68 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for financial details on potential disposals\",\n  \"main_topics\": [\"revenue\", \"cost\", \"PBT\", \"disposals\", \"financial impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The second question, the nearly a dozen potential disposals - can you give us a sense as to what revenues, costs and PBT attend to those as a group, just so we've got an idea of what you're potentially looking at shedding?\",\n  \"answer_quote\": \"In terms of the individual disposals you've seen, they're all pretty small. In terms of PBT, either from a critical mass perspective or if you think in terms of the actual return on some of them, it's limited - so from a revenue perspective, from what we've seen - it's hundreds of millions of dollars rather than larger numbers. It's not significant. And similarly, the cost redeployment, which we are very focused on, is not something that's happening just as yet, because these deals haven't closed, but as soon as they're closing, we are redeploying the cost, as we have done, even if it's in $10-20 millions. I'd highlight we've got Jon Bingham, who's in charge of whether we say anything or not ever on things we've sold, not forward-looking statements. We've got Claire, who's our UK CFO as well. No doubt some of you will try and get more disclosure from us, like Jason's just tried, on things we don't disclose, but just so we can address those. We do disclose things after they've gone to held-for-sale. It's just we haven't given a forward-looking P&L collectively. They are quite complex, because there's an insurance piece in there. There's some custody pieces in there. There's some pieces with big revenues. There's the investment banking restructuring which was not a disposal. So it's quite a fiddly thing, but noted. Nothing individual which is very big and material that we could call out, so it's a range of smaller things.\",\n  \"reason\": \"The answer provides some financial details on disposals but does not give a collective sense of revenues, costs, and PBT, and it lacks forward-looking guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Requesting financial details on potential disposals\",\n  \"main_topics\": [\"Potential disposals\", \"PBT\", \"Revenue\", \"Cost redeployment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The second question, the nearly a dozen potential disposals - can you give us a sense as to what revenues, costs and PBT attend to those as a group, just so we've got an idea of what you're potentially looking at shedding?\",\n  \"answer_quote\": \"In terms of the individual disposals you've seen, they're all pretty small. In terms of PBT, either from a critical mass perspective or if you think in terms of the actual return on some of them, it's limited - so from a revenue perspective, from what we've seen - it's hundreds of millions of dollars rather than larger numbers. It's not significant. And similarly, the cost redeployment, which we are very focused on, is not something that's happening just as yet, because these deals haven't closed, but as soon as they're closing, we are redeploying the cost, as we have done, even if it's in $10-20 millions. I'd highlight we've got Jon Bingham, who's in charge of whether we say anything or not ever on things we've sold, not forward-looking statements. We've got Claire, who's our UK CFO as well. No doubt some of you will try and get more disclosure from us, like Jason's just tried, on things we don't disclose, but just so we can address those. We do disclose things after they've gone to held-for-sale. It's just we haven't given a forward-looking P&L collectively. They are quite complex, because there's an insurance piece in there. There's some custody pieces in there. There's some pieces with big revenues. There's the investment banking restructuring which was not a disposal. So it's quite a fiddly thing, but noted. Nothing individual which is very big and material that we could call out, so it's a range of smaller things.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for financial details on potential disposals\",\n  \"main_topics\": [\"disposals\", \"revenue\", \"costs\", \"PBT\", \"financial impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The second question, the nearly a dozen potential disposals - can you give us a sense as to what revenues, costs and PBT attend to those as a group, just so we've got an idea of what you're potentially looking at shedding?\",\n  \"answer_quote\": \"In terms of the individual disposals you've seen, they're all pretty small. In terms of PBT, either from a critical mass perspective or if you think in terms of the actual return on some of them, it's limited - so from a revenue perspective, from what we've seen - it's hundreds of millions of dollars rather than larger numbers. It's not significant. And similarly, the cost redeployment, which we are very focused on, is not something that's happening just as yet, because these deals haven't closed, but as soon as they're closing, we are redeploying the cost, as we have done, even if it's in $10-20 millions. I'd highlight we've got Jon Bingham, who's in charge of whether we say anything or not ever on things we've sold, not forward-looking statements. We've got Claire, who's our UK CFO as well. No doubt some of you will try and get more disclosure from us, like Jason's just tried, on things we don't disclose, but just so we can address those. We do disclose things after they've gone to held-for-sale. It's just we haven't given a forward-looking P&L collectively. They are quite complex, because there's an insurance piece in there. There's some custody pieces in there. There's some pieces with big revenues. There's the investment banking restructuring which was not a disposal. So it's quite a fiddly thing, but noted. Nothing individual which is very big and material that we could call out, so it's a range of smaller things.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 738,
+      "batch_seconds": 20.983468356999765
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 783,
+      "batch_seconds": 19.25648544899923
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 783,
+      "batch_seconds": 19.912649574998795
+    }
+  ],
+  "exchange_id": "df882adea623-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8ae62b55bad2667f01e552182f7412fde2657761c9ad56ee521014d159569bdf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for financial details on potential disposals",
+    "main_topics": [
+      "revenue",
+      "cost",
+      "PBT",
+      "disposals",
+      "financial impact"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The second question, the nearly a dozen potential disposals - can you give us a sense as to what revenues, costs and PBT attend to those as a group, just so we've got an idea of what you're potentially looking at shedding?",
+    "answer_quote": "In terms of the individual disposals you've seen, they're all pretty small. In terms of PBT, either from a critical mass perspective or if you think in terms of the actual return on some of them, it's limited - so from a revenue perspective, from what we've seen - it's hundreds of millions of dollars rather than larger numbers. It's not significant. And similarly, the cost redeployment, which we are very focused on, is not something that's happening just as yet, because these deals haven't closed, but as soon as they're closing, we are redeploying the cost, as we have done, even if it's in $10-20 millions. I'd highlight we've got Jon Bingham, who's in charge of whether we say anything or not ever on things we've sold, not forward-looking statements. We've got Claire, who's our UK CFO as well. No doubt some of you will try and get more disclosure from us, like Jason's just tried, on things we don't disclose, but just so we can address those. We do disclose things after they've gone to held-for-sale. It's just we haven't given a forward-looking P&L collectively. They are quite complex, because there's an insurance piece in there. There's some custody pieces in there. There's some pieces with big revenues. There's the investment banking restructuring which was not a disposal. So it's quite a fiddly thing, but noted. Nothing individual which is very big and material that we could call out, so it's a range of smaller things.",
+    "reason": "The answer provides some financial details on disposals but does not give a collective sense of revenues, costs, and PBT, and it lacks forward-looking guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Interest in growing mainstream mortgage business\",\n  \"main_topics\": [\"mortgage business growth\", \"high loan to value\", \"inorganic opportunities\", \"market focus\", \"risk management\", \"shareholder distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the mortgage side, you prioritised the higher loan to value mortgage space. Would you still be interested in growing the mainstream type mortgage business, maybe through inorganics or other opportunities that present themself in the market?\",\n  \"answer_quote\": \"I think that the point to note on high loan to value is that it's a relative increase. You would still expect a vast majority of what we do to be in the more general space. We would always do that. That's where the majority of the market is. It's also really important for us to be mindful of the risk mix that we take through time. So we've increased our appetite for that high value lending because we have the capability to do so, but it will still be a smaller part of our lending. In terms of inorganic opportunities, well clearly they come along over time. The way we think about them is that we would perhaps look to do them in our higher returning areas, but only if they were sufficiently small not to distract us either operationally or distract us from our distribution plans. They remain our priorities, as I said, very committed to our targets in terms of shareholders distribution. This plan requires very disciplined execution, so we don't want to distract ourselves operationally.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Interest in growing mainstream mortgage business\",\n  \"main_topics\": [\"Mortgage business growth\", \"Loan to value mortgages\", \"Inorganic opportunities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would you still be interested in growing the mainstream type mortgage business, maybe through inorganics or other opportunities that present themself in the market?\",\n  \"answer_quote\": \"I think that the point to note on high loan to value is that it's a relative increase. You would still expect a vast majority of what we do to be in the more general space. It's also really important for us to be mindful of the risk mix that we take through time. So we've increased our appetite for that high value lending because we have the capability to do so, but it will still be a smaller part of our lending.\",\n  \"reason\": \"The answer directly addresses the question about interest in growing the mainstream mortgage business and discusses the bank's strategy and priorities, providing a clear and complete response.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Interest in growing mainstream mortgage business\",\n  \"main_topics\": [\"mortgage business growth\", \"loan to value\", \"inorganic opportunities\", \"risk mix\", \"shareholder distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the mortgage side, you prioritised the higher loan to value mortgage space. Would you still be interested in growing the mainstream type mortgage business, maybe through inorganics or other opportunities that present themself in the market?\",\n  \"answer_quote\": \"I think that the point to note on high loan to value is that it's a relative increase. You would still expect a vast majority of what we do to be in the more general space. We would always do that. That's where the majority of the market is. It's also really important for us to be mindful of the risk mix that we take through time. So we've increased our appetite for that high value lending because we have the capability to do so, but it will still be a smaller part of our lending. In terms of inorganic opportunities, well clearly they come along over time. The way we think about them is that we would perhaps look to do them in our higher returning areas, but only if they were sufficiently small not to distract us either operationally or distract us from our distribution plans. They remain our priorities, as I said, very committed to our targets in terms of shareholders distribution. This plan requires very disciplined execution, so we don't want to distract ourselves operationally.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Interest in growing mainstream mortgage business\",\n  \"main_topics\": [\"mortgage business growth\", \"high loan to value\", \"inorganic opportunities\", \"market focus\", \"risk management\", \"shareholder distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the mortgage side, you prioritised the higher loan to value mortgage space. Would you still be interested in growing the mainstream type mortgage business, maybe through inorganics or other opportunities that present themself in the market?\",\n  \"answer_quote\": \"I think that the point to note on high loan to value is that it's a relative increase. You would still expect a vast majority of what we do to be in the more general space. We would always do that. That's where the majority of the market is. It's also really important for us to be mindful of the risk mix that we take through time. So we've increased our appetite for that high value lending because we have the capability to do so, but it will still be a smaller part of our lending. In terms of inorganic opportunities, well clearly they come along over time. The way we think about them is that we would perhaps look to do them in our higher returning areas, but only if they were sufficiently small not to distract us either operationally or distract us from our distribution plans. They remain our priorities, as I said, very committed to our targets in terms of shareholders distribution. This plan requires very disciplined execution, so we don't want to distract ourselves operationally.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 631,
+      "batch_seconds": 15.20493993800028
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 679,
+      "batch_seconds": 16.749183160998655
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 676,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f06a4b5bf3ef45e69cda181242d6f1d36bd39feaa9eae0cbc5950774908317f0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

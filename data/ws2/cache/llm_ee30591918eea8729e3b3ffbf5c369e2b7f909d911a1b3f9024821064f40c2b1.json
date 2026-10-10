@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request information on deposit betas, rate sensitivity, and currency sensitivities.\",\n  \"main_topics\": [\"Deposit Betas\", \"Rate Sensitivity\", \"Currency Sensitivities\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I was hoping you could give some colour around deposit betas in your rate sensitivity disclosure, especially for the UK and Hong Kong, given one of your peers reassessed their UK rate sensitivity based on a more realistic assumption of what deposit betas are likely to be, and any colour that you can give on the proportion of deposits that are contractually linked to market rates in both those markets would be very helpful.\",\n  \"answer_quote\": \"On rate sensitivity, I think you should assume for the first one or two interest rate rises that we're a relatively low deposit beta on that and that we will try to capture a higher-than-average beta out of those rate rises. I think over the longer term typically we work on the basis of about a 40% to 50% deposit beta, but in the very, very short term with the first rate rise, I think it'll be much lower than that. In terms of other currencies, Indian rupee, renminbi, various emerging market currencies, of which Mexico is important, I'm sure if you follow up with the IR team they can give you a fuller breakdown of that.\",\n  \"reason\": \"The answer provides some information on deposit betas and rate sensitivity but does not fully address the specific request for UK and Hong Kong deposit betas or the proportion of deposits linked to market rates. It also does not provide a detailed breakdown of currency sensitivities.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 687,
+      "batch_seconds": 16.33152911400066
+    }
+  ],
+  "exchange_id": "2895638cae6c-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ee30591918eea8729e3b3ffbf5c369e2b7f909d911a1b3f9024821064f40c2b1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request information on deposit betas, rate sensitivity, and currency sensitivities.",
+    "main_topics": [
+      "Deposit Betas",
+      "Rate Sensitivity",
+      "Currency Sensitivities"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I was hoping you could give some colour around deposit betas in your rate sensitivity disclosure, especially for the UK and Hong Kong, given one of your peers reassessed their UK rate sensitivity based on a more realistic assumption of what deposit betas are likely to be, and any colour that you can give on the proportion of deposits that are contractually linked to market rates in both those markets would be very helpful.",
+    "answer_quote": "On rate sensitivity, I think you should assume for the first one or two interest rate rises that we're a relatively low deposit beta on that and that we will try to capture a higher-than-average beta out of those rate rises. I think over the longer term typically we work on the basis of about a 40% to 50% deposit beta, but in the very, very short term with the first rate rise, I think it'll be much lower than that. In terms of other currencies, Indian rupee, renminbi, various emerging market currencies, of which Mexico is important, I'm sure if you follow up with the IR team they can give you a fuller breakdown of that.",
+    "reason": "The answer provides some information on deposit betas and rate sensitivity but does not fully address the specific request for UK and Hong Kong deposit betas or the proportion of deposits linked to market rates. It also does not provide a detailed breakdown of currency sensitivities."
+  },
+  "whitespace_adjusted_quotes": []
+}

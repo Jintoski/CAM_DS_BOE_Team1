@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Seeking perspective on the J curve's impact on CC&P revenues for 2022\",\n  \"main_topics\": [\"J curve\", \"CC&P revenues\", \"2022 outlook\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I get a sense of scale of how you see that J curve progressing when we think about CC&P revenues in 2022?\",\n  \"answer_quote\": \"I wouldn't, of course, annualise what you've currently got. We would expect income to be up next year.\",\n  \"reason\": \"The answer provides a general outlook on the J curve and CC&P revenues for 2022 but does not offer a specific scale or number, thus only partially addressing the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 758,
+      "batch_seconds": 19.727787560999786
+    }
+  ],
+  "exchange_id": "b201a3107d88-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b190b5ab8ef11b047ef972a61d26f7021e53d2effc01fe93b4728826d3bff336",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Seeking perspective on the J curve's impact on CC&P revenues for 2022",
+    "main_topics": [
+      "J curve",
+      "CC&P revenues",
+      "2022 outlook"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can I get a sense of scale of how you see that J curve progressing when we think about CC&P revenues in 2022?",
+    "answer_quote": "I wouldn't, of course, annualise what you've currently got. We would expect income to be up next year.",
+    "reason": "The answer provides a general outlook on the J curve and CC&P revenues for 2022 but does not offer a specific scale or number, thus only partially addressing the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

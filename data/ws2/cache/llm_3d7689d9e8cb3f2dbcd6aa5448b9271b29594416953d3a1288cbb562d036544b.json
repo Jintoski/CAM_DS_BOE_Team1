@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on cost allocation, RoTE guidance, and CRE outlook in China and Hong Kong\",\n  \"main_topics\": [\"RoTE guidance\", \"CRE outlook\", \"Cost allocation\", \"China CRE\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to clarify on the cost questions. I would like to ask about the second $1.5 billion. Have we factored that in in the mid-teens RoTE guidance?\",\n  \"answer_quote\": \"Thank you, Katherine. I'm going to ask Pam to address both your questions but let me share with you just briefly my outlook on the CRE situation.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on cost reallocation, RoTE guidance, and CRE outlook in China and Hong Kong\",\n \"main_topics\": [\"RoTE guidance\", \"CRE outlook\", \"Cost reallocation\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I just want to clarify on the cost questions. I would like to ask about the second $1.5 billion. Have we factored that in in the mid-teens RoTE guidance?\",\n \"answer_quote\": \"Thank you, Katherine. I'm going to ask Pam to address both your questions but let me share with you just briefly my outlook on the CRE situation.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on cost allocation, RoTE guidance, and CRE outlook in China and Hong Kong\",\n  \"main_topics\": [\"RoTE guidance\", \"CRE outlook\", \"Cost allocation\", \"China CRE\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to clarify on the cost questions. I would like to ask about the second $1.5 billion. Have we factored that in in the mid-teens RoTE guidance?\",\n  \"answer_quote\": \"Thank you, Katherine. I'm going to ask Pam to address both your questions but let me share with you just briefly my outlook on the CRE situation.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on cost allocation, RoTE guidance, and CRE outlook in China and Hong Kong\",\n  \"main_topics\": [\"RoTE guidance\", \"CRE outlook\", \"Cost allocation\", \"China CRE\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to clarify on the cost questions. I would like to ask about the second $1.5 billion. Have we factored that in in the mid-teens RoTE guidance?\",\n  \"answer_quote\": \"Thank you, Katherine. I'm going to ask Pam to address both your questions but let me share with you just briefly my outlook on the CRE situation.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1576,
+      "batch_seconds": 54.74402957300026
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1621,
+      "batch_seconds": 103.5719654279992
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1621,
+      "batch_seconds": 104.51589792399864
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3d7689d9e8cb3f2dbcd6aa5448b9271b29594416953d3a1288cbb562d036544b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

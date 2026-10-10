@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about bank's buyback decision, quarterly distributions, forward guidance, and cost efficiency plans.\",\n  \"main_topics\": [\n    \"Bank buyback decision\",\n    \"Quarterly distributions\",\n    \"Forward guidance\",\n    \"Cost efficiency plans\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, in terms of going forward, is there a sort of monthly rolling number that you are thinking about?\",\n  \"answer_quote\": \"In terms of balance, cadence, et cetera, we will cover that with you in February when we give you those target updates.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Bank's buyback decision, quarterly distribution cadence, forward guidance on distributions, and cost efficiency targets.\",\n  \"main_topics\": [\"Buyback decision\", \"Quarterly distribution cadence\", \"Forward guidance on distributions\", \"Cost efficiency targets\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, in terms of going forward, is there a sort of monthly rolling number that you are thinking about?\",\n  \"answer_quote\": \"In terms of balance, cadence, et cetera, we will cover that with you in February when we give you those target updates.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about bank's buyback decision, quarterly distributions, forward guidance, and cost efficiency plans.\",\n  \"main_topics\": [\"buyback decision\", \"quarterly distributions\", \"forward guidance\", \"cost efficiency\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, in terms of going forward, is there a sort of monthly rolling number that you are thinking about?\",\n  \"answer_quote\": \"In terms of balance, cadence, et cetera, we will cover that with you in February when we give you those target updates.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about bank's buyback decision, quarterly distributions, forward guidance, and cost efficiency plans.\",\n  \"main_topics\": [\n    \"Bank buyback decision\",\n    \"Quarterly distributions\",\n    \"Forward guidance\",\n    \"Cost efficiency plans\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, in terms of going forward, is there a sort of monthly rolling number that you are thinking about?\",\n  \"answer_quote\": \"In terms of balance, cadence, et cetera, we will cover that with you in February when we give you those target updates.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1072,
+      "batch_seconds": 33.59942327399949
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1117,
+      "batch_seconds": 35.23555413299982
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1120,
+      "batch_seconds": 95.98136610499932
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e0e7bb038ceae9b2849d2ef5b0a4d0fd434cde873cbbd76b20fc266aa565e246",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

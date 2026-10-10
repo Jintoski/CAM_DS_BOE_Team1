@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Bank's 2026 targets, US Cards business direction, and impact on RoTE\",\n \"main_topics\": [\"2026 targets\", \"US Cards business\", \"RoTE impact\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"why did you not upgrade 2026 targets a bit more? I mean, I know it's greater than 12%, but would you, for example, invite us to put more focus on the greater than, for example, and any colour you could give on that would be really helpful. Just, if you were to come up with a plan today, wouldn't you be more optimistic than you were a year ago?\",\n \"answer_quote\": \"I just call out that di erence that I highlighted before. We are planning on realistic assumptions because we want as much of this plan within our control as is possible. However, if the market environment allows, whether that be interest rates, swap rates, or the banking wallet, you should expect us to monetise that opportunity.\",\n \"reason\": \"The answer directly addresses the question about 2026 targets, provides a clear stance on the US Cards business, and explains the impact on RoTE with specific details and numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1588,
+      "batch_seconds": 55.044280224999966
+    }
+  ],
+  "exchange_id": "939b0ea59a08-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2d3a702b3e7a1ac0dfb38b8ade9cae29b8e7dbc5100b1969028622959c3f3375",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank's 2026 targets, US Cards business direction, and impact on RoTE",
+    "main_topics": [
+      "2026 targets",
+      "US Cards business",
+      "RoTE impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "why did you not upgrade 2026 targets a bit more? I mean, I know it's greater than 12%, but would you, for example, invite us to put more focus on the greater than, for example, and any colour you could give on that would be really helpful. Just, if you were to come up with a plan today, wouldn't you be more optimistic than you were a year ago?",
+    "answer_quote": "I just call out that di erence that I highlighted before. We are planning on realistic assumptions because we want as much of this plan within our control as is possible. However, if the market environment allows, whether that be interest rates, swap rates, or the banking wallet, you should expect us to monetise that opportunity.",
+    "reason": "The answer directly addresses the question about 2026 targets, provides a clear stance on the US Cards business, and explains the impact on RoTE with specific details and numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

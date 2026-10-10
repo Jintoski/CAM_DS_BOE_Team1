@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Impact of swap rate increase on HSBC's mortgage pricing\",\n  \"main_topics\": [\"HSBC's mortgage pricing\", \"swap rates\", \"UK mortgage market\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What we've seen in the last few weeks has been a rapid increase in the swap rates. I think two and five-year average swap rates are up around 100 basis points in the last month or so, so I was wondering how you're thinking about HSBC's ability to increase pricing to keep in line with the swap rates from here and how this translates to mortgage spreads?\",\n  \"answer_quote\": \"Many of you will have seen that we've put both some - I stress 'some' - of our deposit rates up and our mortgage rates up over the last few weeks, so, as you saw in Q2, rates are moving up quite fast and that remains the case. So we're taking action on both sides of the book to make sure that our pricing is appropriate and is return-enhancing. It's probably fair to say that, a couple of months ago, we were a little bit behind the curve when you look at the returns on the mortgage business we were writing and we're trying to get to at or above that curve, and that's what you've seen in our pricing in the last couple of months. We're still very happy doing business in the UK mortgage market. It's a profitable business. We're expanding in it, but clearly we need to do it with the right level of return and that's what you've seen with our pricing in the last couple of months.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a narrative aligned with the question's topics, and includes medium evidence with a reference to a 100 basis point increase in swap rates.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of swap rate changes on HSBC's mortgage pricing and spreads\",\n  \"main_topics\": [\"HSBC's mortgage pricing\", \"Swap rates\", \"UK mortgage market\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What we've seen in the last few weeks has been a rapid increase in the swap rates. I think two and five-year average swap rates are up around 100 basis points in the last month or so, so I was wondering how you're thinking about HSBC's ability to increase pricing to keep in line with the swap rates from here and how this translates to mortgage spreads?\",\n  \"answer_quote\": \"Many of you will have seen that we've put both - I stress 'some' - of our deposit rates up and our mortgage rates up over the last few weeks, so, as you saw in Q2, rates are moving up quite fast and that remains the case. So we're taking action on both sides of the book to make sure that our pricing is appropriate and is return-enhancing. It's probably fair to say that, a couple of months ago, we were a little bit behind the curve when you look at the returns on the mortgage business we were writing and we're trying to get to at or above that curve, and that's what you've seen in our pricing in the last couple of months. We're still very happy doing business in the UK mortgage market. It's a profitable business. We're expanding in it, but clearly we need to do it with the right level of return and that's what you've seen with our pricing in the last couple of months.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 664,
+      "batch_seconds": 15.948184826000215
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 709,
+      "batch_seconds": 16.73286601899963
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x025",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3813919ed2102d4a080003a2842ba1dd19fdbbd40e7c36701344aa7fd9b621be",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Impact of swap rate increase on HSBC's mortgage pricing",
+    "main_topics": [
+      "HSBC's mortgage pricing",
+      "swap rates",
+      "UK mortgage market"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "What we've seen in the last few weeks has been a rapid increase in the swap rates. I think two and five-year average swap rates are up around 100 basis points in the last month or so, so I was wondering how you're thinking about HSBC's ability to increase pricing to keep in line with the swap rates from here and how this translates to mortgage spreads?",
+    "answer_quote": "Many of you will have seen that we've put both some - I stress 'some' - of our deposit rates up and our mortgage rates up over the last few weeks, so, as you saw in Q2, rates are moving up quite fast and that remains the case. So we're taking action on both sides of the book to make sure that our pricing is appropriate and is return-enhancing. It's probably fair to say that, a couple of months ago, we were a little bit behind the curve when you look at the returns on the mortgage business we were writing and we're trying to get to at or above that curve, and that's what you've seen in our pricing in the last couple of months. We're still very happy doing business in the UK mortgage market. It's a profitable business. We're expanding in it, but clearly we need to do it with the right level of return and that's what you've seen with our pricing in the last couple of months.",
+    "reason": "The answer directly addresses the question's intent, provides a narrative aligned with the question's topics, and includes medium evidence with a reference to a 100 basis point increase in swap rates."
+  },
+  "whitespace_adjusted_quotes": []
+}

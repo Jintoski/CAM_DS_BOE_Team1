@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Potential government actions beneficial to banks\",\n  \"main_topics\": [\"government support\", \"bank stability\", \"regulatory clarity\", \"consumer protection\", \"financial services importance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"is there anything in particular that you think the government could do that would be politically acceptable but would make a difference to your life?\",\n  \"answer_quote\": \"I think that is important because it's ahead of some other jurisdictions, so that would be good to get in place.\",\n  \"reason\": \"The answer directly addresses the question, providing a complete response with medium evidence level, aligning with the narrative without numeric evidence or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Potential government actions beneficial to banks\",\n  \"main_topics\": [\"Bank levy\", \"Regulatory stability\", \"Consumer and conduct regime\", \"Financial services importance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"is there anything in particular that you think the government could do that would be politically acceptable but would make a difference to your life?\",\n  \"answer_quote\": \"I think that would be aa good position.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 707,
+      "batch_seconds": 16.997578093999437
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 752,
+      "batch_seconds": 18.60642850000113
+    }
+  ],
+  "exchange_id": "dfbf37092448-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "725173da40c3479a442258cd282f16131d9fe1d9998d9da2ad597b77172f69c2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Potential government actions beneficial to banks",
+    "main_topics": [
+      "government support",
+      "bank stability",
+      "regulatory clarity",
+      "consumer protection",
+      "financial services importance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "is there anything in particular that you think the government could do that would be politically acceptable but would make a difference to your life?",
+    "answer_quote": "I think that is important because it's ahead of some other jurisdictions, so that would be good to get in place.",
+    "reason": "The answer directly addresses the question, providing a complete response with medium evidence level, aligning with the narrative without numeric evidence or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

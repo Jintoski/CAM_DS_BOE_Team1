@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on strategic change vs investor update\",\n  \"main_topics\": [\n    \"Strategic change\",\n    \"Investor update\",\n    \"Capital balance\",\n    \"Payout ratio\",\n    \"Cost control\",\n    \"Capital discipline\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Does changing the balance of capital going back to investors versus going back into the business count as a strategic change or is that something that you look at as part of an investor update.\",\n  \"answer_quote\": \"I wouldn't describe it as strategic because I would argue we're already on that journey. So, when you look at our results over the last two years, you should see a couple of things pretty strongly. The first is, firm cost control. So our costs are flat, quarter-on-quarter, flat year on year, so driving efficiency, and that's really then very strongly connected to the structural cost actions that we're taking.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on strategic change vs investor update\",\n  \"main_topics\": [\"Strategic change\", \"Investor update\", \"Capital allocation\", \"Payout ratio\", \"Cost control\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Does changing the balance of capital going back to investors versus going back into the business count as a strategic change or is that something that you look at as part of an investor update.\",\n  \"answer_quote\": \"I wouldn't describe it as strategic because I would argue we're already on that journey. So, when you look at our results over the last two years, you should see a couple of things pretty strongly. The first is, firm cost control. So our costs are flat, quarter-on-quarter, flat year on year, so driving efficiency, and that's really then very strongly connected to the structural cost actions that we're taking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on strategic changes and investor updates\",\n  \"main_topics\": [\"Strategic change\", \"Investor update\", \"Capital balance\", \"Payout ratio\", \"Cost control\", \"Capital discipline\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Does changing the balance of capital going back to investors versus going back into the business count as a strategic change or is that something that you look at as part of an investor update.\",\n  \"answer_quote\": \"I wouldn't describe it as strategic because I would argue we're already on that journey. So, when you look at our results over the last two years, you should see a couple of things pretty strongly. The first is, firm cost control. So our costs are flat, quarter-on-quarter, flat year on year, so driving efficiency, and that's really then very strongly connected to the structural cost actions that we're taking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on strategic change vs investor update\",\n  \"main_topics\": [\n    \"Strategic change\",\n    \"Investor update\",\n    \"Capital balance\",\n    \"Payout ratio\",\n    \"Cost control\",\n    \"Capital discipline\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Does changing the balance of capital going back to investors versus going back into the business count as a strategic change or is that something that you look at as part of an investor update.\",\n  \"answer_quote\": \"I wouldn't describe it as strategic because I would argue we're already on that journey. So, when you look at our results over the last two years, you should see a couple of things pretty strongly. The first is, firm cost control. So our costs are flat, quarter-on-quarter, flat year on year, so driving efficiency, and that's really then very strongly connected to the structural cost actions that we're taking.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 748,
+      "batch_seconds": 19.6119751870001
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 793,
+      "batch_seconds": 20.96559369500028
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 793,
+      "batch_seconds": 20.02667680200102
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x023",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "67826bfbb26670765708f18dccfd7423dbcb6fa20e2fd8a2b2d7ccf51964fc80",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Interpretation of DCM in light of ECM and M&A activities\",\n  \"main_topics\": [\"DCM\", \"ECM\", \"M&A\", \"industry impact\", \"volatility\", \"RWA efficiency\", \"Leverage Finance book\", \"capital deployment\", \"inventory levels\", \"uncertainty\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But you've called out ECM and M&A, should I interpret that as DCM is more or less business as usual?\",\n  \"answer_quote\": \"No, I don't think it is either, but I think there's sort of event driven pieces and when you get into investment grade, you see the knock on impact there as well, for those event driven pieces. So it's just our concern, if you like, because of the uncertainty, people are just stepping back. But we're not seeing things cancelled, they're just getting pushed out, but it feels like that's an industry impact. In this environment, you tend to see offsetting impact between Banking and Markets. That's certainly what we saw in Q1. So to the extent that volatility suppresses Banking activity, you would expect to see some offset to that in Markets. In terms of RWA efficiency, I'm not going to talk about specific clients. You can see that in Q1, we have less in credit in the IB, and that's being deployed into counterparty credit risk and market risk. So that's what I meant about being nimble with our capital, within the overall framework of the IB. I would say our overall Leverage Finance book is well positioned. We've gone into the current environment probably with low levels of inventory. What we've had has cleared, as we would have expected to, so nothing to call out [in] Markets.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Interpretation of DCM in light of ECM and M&A activities\",\n  \"main_topics\": [\"DCM\", \"ECM\", \"M&A\", \"industry impact\", \"volatility\", \"RWA efficiency\", \"Leverage Finance book\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But you've called out ECM and M&A, should I interpret that as DCM is more or less business as usual?\",\n  \"answer_quote\": \"No, I don't think it is either, but I think there's sort of event driven pieces and when you get into investment grade, you see the knock on impact there as well, for those event driven pieces. So it's just our concern, if you like, because of the uncertainty, people are just stepping back. But we're not seeing things cancelled, they're just getting pushed out, but it feels like that's an industry impact. In this environment, you tend to see offsetting impact between Banking and Markets. That's certainly what we saw in Q1. So to the extent that volatility suppresses Banking activity, you would expect to see some offset to that in Markets. In terms of RWA efficiency, I'm not going to talk about specific clients. You can see that in Q1, we have less in credit in the IB, and that's being deployed into counterparty credit risk and market risk. So that's what I meant about being nimble with our capital, within the overall framework of the IB. I would say our overall Leverage Finance book is well positioned. We've gone into the current environment probably with low levels of inventory. What we've had has cleared, as we would have expected to, so nothing to call out [in] Markets.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Interpretation of DCM in light of ECM and M&A activities\",\n  \"main_topics\": [\"DCM\", \"ECM\", \"M&A\", \"industry impact\", \"volatility\", \"RWA efficiency\", \"Leverage Finance book\", \"capital deployment\", \"inventory levels\", \"uncertainty\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But you've called out ECM and M&A, should I interpret that as DCM is more or less business as usual?\",\n  \"answer_quote\": \"No, I don't think it is either, but I think there's sort of event driven pieces and when you get into investment grade, you see the knock on impact there as well, for those event driven pieces. So it's just our concern, if you like, because of the uncertainty, people are just stepping back. But we're not seeing things cancelled, they're just getting pushed out, but it feels like that's an industry impact. In this environment, you tend to see offsetting impact between Banking and Markets. That's certainly what we saw in Q1. So to the extent that volatility suppresses Banking activity, you would expect to see some offset to that in Markets. In terms of RWA efficiency, I'm not going to talk about specific clients. You can see that in Q1, we have less in credit in the IB, and that's being deployed into counterparty credit risk and market risk. So that's what I meant about being nimble with our capital, within the overall framework of the IB. I would say our overall Leverage Finance book is well positioned. We've gone into the current environment probably with low levels of inventory. What we've had has cleared, as we would have expected to, so nothing to call out [in] Markets.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Interpretation of DCM in light of ECM and M&A activities\",\n  \"main_topics\": [\"DCM\", \"ECM\", \"M&A\", \"industry impact\", \"volatility\", \"RWA efficiency\", \"Leverage Finance book\", \"capital deployment\", \"inventory levels\", \"uncertainty\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"But you've called out ECM and M&A, should I interpret that as DCM is more or less business as usual?\",\n  \"answer_quote\": \"No, I don't think it is either, but I think there's sort of event driven pieces and when you get into investment grade, you see the knock on impact there as well, for those event driven pieces. So it's just our concern, if you like, because of the uncertainty, people are just stepping back. But we're not seeing things cancelled, they're just getting pushed out, but it feels like that's an industry impact. In this environment, you tend to see offsetting impact between Banking and Markets. That's certainly what we saw in Q1. So to the extent that volatility suppresses Banking activity, you would expect to see some offset to that in Markets. In terms of RWA efficiency, I'm not going to talk about specific clients. You can see that in Q1, we have less in credit in the IB, and that's being deployed into counterparty credit risk and market risk. So that's what I meant about being nimble with our capital, within the overall framework of the IB. I would say our overall Leverage Finance book is well positioned. We've gone into the current environment probably with low levels of inventory. What we've had has cleared, as we would have expected to, so nothing to call out [in] Markets.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 662,
+      "batch_seconds": 15.948184826000215
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 707,
+      "batch_seconds": 16.73286601899963
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 707,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "61b944164df6-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "51c9337d0050719116fb4c896349cdf65ef01709c3fa6ca0e3cdfeef2a8b473f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

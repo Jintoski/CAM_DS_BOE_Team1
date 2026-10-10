@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on reinvestment rate and deposit churn\",\n  \"main_topics\": [\"reinvestment rate\", \"deposit churn\", \"regulatory speculation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Which is it that gets the reinvestment rate down to sort of three quarters. You do need to see an ongoing churn within the deposit base.\",\n  \"answer_quote\": \"No, we're just reflective of what we think the deposit trends would be, but also the sort of broader macro piece of the money supply is falling.\",\n  \"reason\": \"The answer partially addresses the question but does not provide a direct answer to the specific rate mentioned, and the response hedges on regulatory speculation without providing a clear stance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on reinvestment rate and deposit churn, speculation on regulation impact\",\n  \"main_topics\": [\"Reinvestment rate\", \"Deposit churn\", \"Regulation impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Which is it that gets the reinvestment rate down to sort of three quarters. You're not signalling to us that maybe you feel you might be a bit over hedged and that even without that deposit churn, you would expect to see the hedge falling over the next three years.\",\n  \"answer_quote\": \"No, we're just reflective of what we think the deposit trends would be, but also the sort of broader macro piece of the money supply is falling. And, on your second question again, I'm not going to speculate on regulation. I think what we're looking forward to is a position where we have Basel 3.1 behind us. We have certainty, we can implement that. I think that's important for banks, for investors and actually for our clients as well. So, we want to get to a position where there's stability of regulation and that's very clear. There have always been some international differences and what we've seen over time is that international banks operate across jurisdictions very effectively with different regulations. So I wouldn't expect it to be any different, same is true of consumer regulation. Actually getting to the point of the consumer duty being implemented in the UK is a good place for us to be at and hopefully we'll now see some stability from here.\",\n  \"reason\": \"The answer partially addresses the question by discussing deposit trends and regulation but does not directly answer the specific reinvestment rate or the impact of deposit churn.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 654,
+      "batch_seconds": 17.227680126999985
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 702,
+      "batch_seconds": 17.289219684000273
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2bc73e64c621ccfd433516d2bf48bc527d02ecf8d1a639089cce358afbc02167",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on reinvestment rate and deposit churn",
+    "main_topics": [
+      "reinvestment rate",
+      "deposit churn",
+      "regulatory speculation"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Which is it that gets the reinvestment rate down to sort of three quarters. You do need to see an ongoing churn within the deposit base.",
+    "answer_quote": "No, we're just reflective of what we think the deposit trends would be, but also the sort of broader macro piece of the money supply is falling.",
+    "reason": "The answer partially addresses the question but does not provide a direct answer to the specific rate mentioned, and the response hedges on regulatory speculation without providing a clear stance."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on IFRS 17 impact and annualized charge discrepancy\",\n  \"main_topics\": [\"IFRS 17\", \"annualized charge\", \"insurance income\", \"market impacts\", \"non-NII\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On IFRS 17, I appreciate you're going to talk about this in a lot more detail in your upcoming - it's just coming back to your comment about a third of the insurance income, so about $1 billion. The reason I query it is because on page 99 of the annual report you give the first half numbers. You talk about a $300 million cost impact, a $400 million profit impact for the first half. So, if I just scale that up, you're looking at an annualised $1.4 billion charge, not a $1 billion charge on the top line. So was there anything particular in the first half 2022 numbers that mean that we shouldn't necessarily be reading from those?\",\n  \"answer_quote\": \"You should check the market impacts, which were very substantial in the first half and strip that out. But the number we gave you when we did the first IFRS 17 impact, which was offset against non-NII, was the right thing to do. We will tell you the line items and get the line items right going forward in March, and then May. There's no change on magnitude. We'll just give you more guidance as to how to better model this. You'll get the model really better at Q1 onwards, but we'll transition at the seminar on 9 March.\",\n  \"reason\": \"The answer partially addresses the discrepancy in the annualized charge by mentioning market impacts and the need for better modeling, but does not provide a direct explanation for the difference between the $1 billion and $1.4 billion charges.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on IFRS 17 impact and annualized charge\",\n  \"main_topics\": [\"IFRS 17\", \"annualized charge\", \"market impacts\", \"non-NII\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On IFRS 17, I appreciate you're going to talk about this in a lot more detail in your upcoming - it's just coming back to your comment about a third of the insurance income, so about $1 billion. The reason I query it is because on page 99 of the annual report you give the first half numbers. You talk about a $300 million cost impact, a $400 million profit impact for the first half. So, if I just scale that up, you're looking at an annualised $1.4 billion charge, not a $1 billion charge on the top line. So was there anything particular in the first half 2022 numbers that mean that we shouldn't necessarily be reading from those?\",\n  \"answer_quote\": \"You should check the market impacts, which were very substantial in the first half and strip that out. But the number we gave you when we did the first IFRS 17 impact, which was offset against non-NII, was the right thing to do. We will tell you the line items and get the line items right going forward in March, and then May. There's no change on magnitude. We'll just give you more guidance as to how to better model this. You'll get the model really better at Q1 onwards, but we'll transition at the seminar on 9 March.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 652,
+      "batch_seconds": 17.227680126999985
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 697,
+      "batch_seconds": 17.289219684000273
+    }
+  ],
+  "exchange_id": "4970375d012d-x018",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2c6908ebae10af00a5c985e593a2c359a00d1695a1d5b7a388fb69110ad24c09",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on IFRS 17 impact and annualized charge discrepancy",
+    "main_topics": [
+      "IFRS 17",
+      "annualized charge",
+      "insurance income",
+      "market impacts",
+      "non-NII"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "On IFRS 17, I appreciate you're going to talk about this in a lot more detail in your upcoming - it's just coming back to your comment about a third of the insurance income, so about $1 billion. The reason I query it is because on page 99 of the annual report you give the first half numbers. You talk about a $300 million cost impact, a $400 million profit impact for the first half. So, if I just scale that up, you're looking at an annualised $1.4 billion charge, not a $1 billion charge on the top line. So was there anything particular in the first half 2022 numbers that mean that we shouldn't necessarily be reading from those?",
+    "answer_quote": "You should check the market impacts, which were very substantial in the first half and strip that out. But the number we gave you when we did the first IFRS 17 impact, which was offset against non-NII, was the right thing to do. We will tell you the line items and get the line items right going forward in March, and then May. There's no change on magnitude. We'll just give you more guidance as to how to better model this. You'll get the model really better at Q1 onwards, but we'll transition at the seminar on 9 March.",
+    "reason": "The answer partially addresses the discrepancy in the annualized charge by mentioning market impacts and the need for better modeling, but does not provide a direct explanation for the difference between the $1 billion and $1.4 billion charges."
+  },
+  "whitespace_adjusted_quotes": []
+}

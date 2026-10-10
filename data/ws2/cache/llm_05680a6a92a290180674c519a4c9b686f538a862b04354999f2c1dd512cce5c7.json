@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Litigation risk and growth forecast\",\n  \"main_topics\": [\"Litigation risk\", \"Private Banking and Wealth Management growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you provide any comfort for us why we shouldn't add this to a potential litigation risk for Barclays in the future?\",\n  \"answer_quote\": \"In terms of the first point, there's nothing of which I would call out, Ben. We can follow up with you with a bit more detail about the historic cases, but nothing I would call out.\",\n  \"reason\": \"The answer partially addresses the litigation risk by stating there's nothing to call out, but it doesn't provide specific comfort or details. The growth forecast is mentioned with some numeric evidence, but no specific forward guidance is given.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 707,
+      "batch_seconds": 16.997578093999437
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "05680a6a92a290180674c519a4c9b686f538a862b04354999f2c1dd512cce5c7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Litigation risk and growth forecast",
+    "main_topics": [
+      "Litigation risk",
+      "Private Banking and Wealth Management growth"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can you provide any comfort for us why we shouldn't add this to a potential litigation risk for Barclays in the future?",
+    "answer_quote": "In terms of the first point, there's nothing of which I would call out, Ben. We can follow up with you with a bit more detail about the historic cases, but nothing I would call out.",
+    "reason": "The answer partially addresses the litigation risk by stating there's nothing to call out, but it doesn't provide specific comfort or details. The growth forecast is mentioned with some numeric evidence, but no specific forward guidance is given."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Acknowledgment and transition to next question\",\n  \"main_topics\": [\"Acknowledgment\", \"Transition\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Great. Thanks so much.\",\n  \"answer_quote\": \"Okay. Thanks, Ed. Next question, please.\",\n  \"reason\": \"The response is a simple acknowledgment and deflects the question without providing an answer.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Acknowledgment and transition to next question\",\n  \"main_topics\": [\"Acknowledgment\", \"Transition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Great. Thanks so much.\",\n  \"answer_quote\": \"Okay. Thanks, Ed. Next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 406,
+      "batch_seconds": 6.006447677000324
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 451,
+      "batch_seconds": 6.791888847999871
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9a08165edc660565becd98666e6c258e8fe01e4b685363e3de82ae3f4bc268d9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Acknowledgment and transition to next question",
+    "main_topics": [
+      "Acknowledgment",
+      "Transition"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Great. Thanks so much.",
+    "answer_quote": "Okay. Thanks, Ed. Next question, please.",
+    "reason": "The response is a simple acknowledgment and deflects the question without providing an answer."
+  },
+  "whitespace_adjusted_quotes": []
+}

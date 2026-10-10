@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank's performance and future plans\",\n  \"main_topics\": [\"TD migration in Hong Kong\", \"Buybacks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that a little bit better than where your expectations were a few months ago?\",\n  \"answer_quote\": \"As regards any future amount of buyback or whether we're doing a buyback, one, it remains our intention to return excess capital to our shareholders through a rolling series of share buyback, and second, we will decide on a quarter-by-quarter basis based on our capital outlook, the loan growth outlook and other parameters as and when every quarter.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's performance and future buyback plans\",\n  \"main_topics\": [\"Time Deposit Reclassification\", \"Buyback Plans\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that a little bit better than where your expectations were a few months ago?\",\n  \"answer_quote\": \"As regards your buyback question, so the short answer is yes, this is indeed due to calendar effects.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's performance and future plans\",\n  \"main_topics\": [\"TD migration in Hong Kong\", \"buybacks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that a little bit better than where your expectations were a few months ago?\",\n  \"answer_quote\": \"As regards any future amount of buyback or whether we're doing a buyback, one, it remains our intention to return excess capital to our shareholders through a rolling series of share buyback, and second, we will decide on a quarter-by-quarter basis based on our capital outlook, the loan growth outlook and other parameters as and when every quarter.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's performance and future plans\",\n  \"main_topics\": [\"TD migration in Hong Kong\", \"Buybacks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is that a little bit better than where your expectations were a few months ago?\",\n  \"answer_quote\": \"As regards any future amount of buyback or whether we're doing a buyback, one, it remains our intention to return excess capital to our shareholders through a rolling series of share buyback, and second, we will decide on a quarter-by-quarter basis based on our capital outlook, the loan growth outlook and other parameters as and when every quarter.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 872,
+      "batch_seconds": 24.51077147400065
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 917,
+      "batch_seconds": 25.085518096999294
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 917,
+      "batch_seconds": 93.05205829999977
+    }
+  ],
+  "exchange_id": "19af689d7a65-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2300c46c09497557121082a157a5ff157a84e3590b4a93231f5950e0239f9c5d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

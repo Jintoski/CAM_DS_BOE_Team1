@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Regulatory implications of Best Egg acquisition and SRT book disclosure\",\n  \"main_topics\": [\"Best Egg acquisition\", \"SRT book disclosure\", \"Regulatory requirements\", \"Capital efficiency\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Two questions please. First, coming back to Best Egg, because it's not a bank and it's clearly being acquired by a bank. Would the rules have to change with regards to holding an equity slice, or a tranche of the securitisations? Could you speak to maybe how that works, for Barclays?\",\n  \"answer_quote\": \"In terms of Best Egg, you're right, it's not a bank, it does become part of one as this transaction completes. There are implications of that in terms of its funding. Obviously creates some efficiencies. In terms of the regulatory requirements around the slice that it holds, I don't believe that they are significantly different, but we can revert. But I don't believe so, Dan may want to add to that. So, from our perspective, given its business model and given the way we are already embedded in that business model in the Investment Bank, actually we see efficiencies here, because we have the pre-securitisation funding opportunity. We clearly have reduced securitisation costs because there are things that we will be doing in house. We have an ability also to have a flow of consumer credit into that ABS business. So, from our perspective, it's a net benefit in that particular part. Dan, SRT? There's a very consistent level of activity in SRT, so there's nothing I would call out. Maybe we can follow up with you afterwards on whether there's FX or amortisation. There are numbers, but the footprint has been very, very consistent. Again, that's sort of consistent with what we've said before. We do see that Colonnade program in particular as being a mature program and we manage it carefully in terms of its reinvestment cadence. So, I think it's probably in the detail rather than anything deliberate.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Regulatory implications of Best Egg acquisition and SRT book disclosure\",\n  \"main_topics\": [\"Best Egg acquisition\", \"SRT book disclosure\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions please. First, coming back to Best Egg, because it isn't a bank and it's clearly being acquired by a bank. Would the rules have to change with regards to holding an equity slice, or a tranche of the securitisations? Could you speak to maybe how that works, for Barclays?\",\n  \"answer_quote\": \"In terms of Best Egg, you're right, it's not a bank, it does become part of one as this transaction completes. There are implications of that in terms of its funding. Obviously creates some efficiencies. In terms of the regulatory requirements around the slice that it holds, I don't believe that they are significantly different, but we can revert. But I don't believe so, Dan may want to add to that. So, from our perspective, given its business model and given the way we are already embedded in that business model in the Investment Bank, actually we see efficiencies here, because we have the pre-securitisation funding opportunity. We clearly have reduced securitisation costs because there are things that we will be doing in house. We have an ability also to have a flow of consumer credit into that ABS business. So, from our perspective, it's a net benefit in that particular part. Dan, SRT? There's a very consistent level of activity in SRT, so there's nothing I would call out. Maybe we can follow up with you afterwards on whether there's FX or amortisation. There are numbers, but the footprint has been very, very consistent. Again, that's sort of consistent with what we've said before. We do see that Colonnade program in particular as being a mature program and we manage it carefully in terms of its reinvestment cadence. So, I think it's probably in the detail rather than anything deliberate.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Two questions about regulatory implications of a non-bank acquisition and SRT book disclosure.\",\n  \"main_topics\": [\"Best Egg acquisition\", \"SRT book disclosure\", \"Regulatory requirements\", \"Capital efficiency\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Two questions please. First, coming back to Best Egg, because it's not a bank and it's clearly being acquired by a bank. Would the rules have to change with regards to holding an equity slice, or a tranche of the securitisations? Could you speak to maybe how that works, for Barclays?\",\n  \"answer_quote\": \"In terms of Best Egg, you're right, it's not a bank, it does become part of one as this transaction completes. There are implications of that in terms of its funding. Obviously creates some efficiencies. In terms of the regulatory requirements around the slice that it holds, I don't believe that they are significantly different, but we can revert. But I don't believe so, Dan may want to add to that. So, from our perspective, given its business model and given the way we are already embedded in that business model in the Investment Bank, actually we see efficiencies here, because we have the pre-securitisation funding opportunity. We clearly have reduced securitisation costs because there are things that we will be doing in house. We have an ability also to have a flow of consumer credit into that ABS business. So, from our perspective, it's a net benefit in that particular part. Dan, SRT? There's a very consistent level of activity in SRT, so there's nothing I would call out. Maybe we can follow up with you afterwards on whether there's FX or amortisation. There are numbers, but the footprint has been very, very consistent. Again, that's sort of consistent with what we've said before. We do see that Colonnade program in particular as being a mature program and we manage it carefully in terms of its reinvestment cadence. So, I think it's probably in the detail rather than anything deliberate.\",\n  \"reason\": \"The response addresses the Best Egg acquisition and SRT book disclosure but does not fully answer the second question about the £7 billion decline, and lacks numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Regulatory implications of Best Egg acquisition and SRT book disclosure\",\n  \"main_topics\": [\"Best Egg acquisition\", \"SRT book disclosure\", \"Regulatory requirements\", \"Capital efficiency\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Two questions please. First, coming back to Best Egg, because it's not a bank and it's clearly being acquired by a bank. Would the rules have to change with regards to holding an equity slice, or a tranche of the securitisations? Could you speak to maybe how that works, for Barclays?\",\n  \"answer_quote\": \"In terms of Best Egg, you're right, it's not a bank, it does become part of one as this transaction completes. There are implications of that in terms of its funding. Obviously creates some efficiencies. In terms of the regulatory requirements around the slice that it holds, I don't believe that they are significantly different, but we can revert. But I don't believe so, Dan may want to add to that. So, from our perspective, given its business model and given the way we are already embedded in that business model in the Investment Bank, actually we see efficiencies here, because we have the pre-securitisation funding opportunity. We clearly have reduced securitisation costs because there are things that we will be doing in house. We have an ability also to have a flow of consumer credit into that ABS business. So, from our perspective, it's a net benefit in that particular part. Dan, SRT? There's a very consistent level of activity in SRT, so there's nothing I would call out. Maybe we can follow up with you afterwards on whether there's FX or amortisation. There are numbers, but the footprint has been very, very consistent. Again, that's sort of consistent with what we've said before. We do see that Colonnade program in particular as being a mature program and we manage it carefully in terms of its reinvestment cadence. So, I think it's probably in the detail rather than anything deliberate.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 805,
+      "batch_seconds": 22.406666687000325
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 850,
+      "batch_seconds": 21.946229556999242
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 853,
+      "batch_seconds": 92.25122187300076
+    }
+  ],
+  "exchange_id": "b1b01ee860a4-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "88b822da025757e3e4fa7686ea6e8ac978bc79699049c8ad9701cae87dd18f78",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

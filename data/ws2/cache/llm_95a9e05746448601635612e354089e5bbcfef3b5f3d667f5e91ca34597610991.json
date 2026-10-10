@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on restructuring charge\",\n  \"main_topics\": [\"Bank restructuring\", \"Cost action\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I've only got three left, maybe the first one, just going back to what you said in your opening remarks on the restructuring charge, you said most people seem to have got...\",\n  \"answer_quote\": \"Structural cost action, not restructuring charge.\",\n  \"reason\": \"The answer deflects from the question by correcting a term, but does not address the question's request for clarification on the restructuring charge.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 433,
+      "batch_seconds": 8.018176011999458
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x020",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "95a9e05746448601635612e354089e5bbcfef3b5f3d667f5e91ca34597610991",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on restructuring charge",
+    "main_topics": [
+      "Bank restructuring",
+      "Cost action"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "I've only got three left, maybe the first one, just going back to what you said in your opening remarks on the restructuring charge, you said most people seem to have got...",
+    "answer_quote": "Structural cost action, not restructuring charge.",
+    "reason": "The answer deflects from the question by correcting a term, but does not address the question's request for clarification on the restructuring charge."
+  },
+  "whitespace_adjusted_quotes": []
+}

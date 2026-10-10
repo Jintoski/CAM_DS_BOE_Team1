@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Annualizing Q4 earnings and adding forecast for Tesco\",\n  \"main_topics\": [\n    \"BUK earnings forecast\",\n    \"Interest income\",\n    \"Annualization of Q4\",\n    \"Tesco's impact on forecast\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there any reason why I can't annualize Q4 at kind of £6.9bn and add £400m for Tesco's?\",\n  \"answer_quote\": \"So Robin, you're right, we have upgraded our BUK guidance. So we did start at £6.1bn and we're now around £6.5bn and really what's happening here is clearly there is a change in our expectation of rates for the current year.\",\n  \"reason\": \"The answer provides a direct response to the question but does not address the specific request to annualize Q4 and add Tesco's forecast, hence partial completeness.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Annualizing Q4 and adding Tesco's to interest income forecast\",\n  \"main_topics\": [\"Interest Income Forecast\", \"Annualization\", \"Tesco's Impact\", \"2025 Numbers\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there any reason why I can't annualize Q4 at kind of £6.9bn and add £400m for Tesco's?\",\n  \"answer_quote\": \"So Robin, you're right, we have upgraded our BUK guidance. So we did start at £6.1bn and we're now around £6.5bn and really what's happening here is clearly there is a change in our expectation of rates for the current year.\",\n  \"reason\": \"The answer partially addresses the question by discussing the updated interest income forecast and the reasons behind it, but it does not directly answer the annualization of Q4 or the addition of Tesco's impact.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Forecasting interest income and annualizing Q4 with additional income\",\n  \"main_topics\": [\n    \"Interest income forecast\",\n    \"Annualization of Q4\",\n    \"Additional income from Tesco\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there any reason why I can't annualize Q4 at kind of £6.9bn and add £400m for Tesco's?\",\n  \"answer_quote\": \"So Robin, you're right, we have upgraded our BUK guidance. So we did start at £6.1bn and we're now around £6.5bn and really what's happening here is clearly there is a change in our expectation of rates for the current year.\",\n  \"reason\": \"The answer partially addresses the question by discussing the change in interest income forecast but does not directly answer the annualization of Q4 or the addition of Tesco's income.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Annualizing Q4 earnings and adding forecast for Tesco\",\n  \"main_topics\": [\n    \"BUK earnings forecast\",\n    \"Interest income\",\n    \"Annualization of Q4\",\n    \"Tesco's impact on forecast\"\n  ],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is there any reason why I can't annualize Q4 at kind of £6.9bn and add £400m for Tesco's?\",\n  \"answer_quote\": \"So Robin, you're right, we have upgraded our BUK guidance. So we did start at £6.1bn and we're now around £6.5bn and really what's happening here is clearly there is a change in our expectation of rates for the current year.\",\n  \"reason\": \"The answer provides a direct response to the question but does not address the specific request to annualize Q4 and add Tesco's forecast, hence partial completeness.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 708,
+      "batch_seconds": 18.794323938999696
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 756,
+      "batch_seconds": 18.60642850000113
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 756,
+      "batch_seconds": 19.912649574998795
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x018",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ff66abc2254f53dc68ed2b7f36fdfe9e4027312b018bdcdf3eb8128b7af3557d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

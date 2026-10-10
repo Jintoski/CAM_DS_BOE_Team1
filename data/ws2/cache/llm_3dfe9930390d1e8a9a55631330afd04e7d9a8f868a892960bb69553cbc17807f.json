@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on risk assessment, cost guidance, and wealth growth composition\",\n  \"main_topics\": [\"risk assessment\", \"cost guidance\", \"wealth growth composition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On costs - you reiterated that your cost guidance for the full year is unchanged, but in the first quarter the cost increase, is about 8%, but the full year guidance is unchanged. Does it mean you are confident that for the remaining of the year it's likely that, on a worldwide basis, costs are flattish?\",\n  \"answer_quote\": \"On costs, we said to you gross costs growth is 3%, but there will be savings from simplification of 2%, therefore the net is 1%. We plan on a quarterly basis. We are confident because of the timing of those savings - the full impact is by definition more back-ended because most of the actions for simplification-driven savings come through by the middle of the year, that is our level of confidence.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric evidence. The narrative is aligned with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on risk assessment, cost guidance, and wealth growth composition\",\n \"main_topics\": [\"Risk assessment\", \"Cost guidance\", \"Wealth growth composition\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Are you reviewing the risk, not fraud risk, but overall risk relating to this identified high-risk industry?\",\n \"answer_quote\": \"Firstly on private credit, of course we look at sector risk. There were a lot of these names where we didn't have exposures, but we still do a full 'drains up' to say, 'is there something analogous to that that we have, that we could be also exposed to?' That's normal practice.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1333,
+      "batch_seconds": 55.57041523099997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1378,
+      "batch_seconds": 98.61168351199922
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3dfe9930390d1e8a9a55631330afd04e7d9a8f868a892960bb69553cbc17807f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on risk assessment, cost guidance, and wealth growth composition",
+    "main_topics": [
+      "risk assessment",
+      "cost guidance",
+      "wealth growth composition"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On costs - you reiterated that your cost guidance for the full year is unchanged, but in the first quarter the cost increase, is about 8%, but the full year guidance is unchanged. Does it mean you are confident that for the remaining of the year it's likely that, on a worldwide basis, costs are flattish?",
+    "answer_quote": "On costs, we said to you gross costs growth is 3%, but there will be savings from simplification of 2%, therefore the net is 1%. We plan on a quarterly basis. We are confident because of the timing of those savings - the full impact is by definition more back-ended because most of the actions for simplification-driven savings come through by the middle of the year, that is our level of confidence.",
+    "reason": "The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric evidence. The narrative is aligned with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

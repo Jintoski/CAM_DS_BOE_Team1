@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on margin improvement, corporate loan growth, and capital ratio rationale\",\n  \"main_topics\": [\"Margin Improvement\", \"Corporate Loan Growth\", \"Capital Ratio Rationale\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've just got two please. So, first is on margin for US consumer, which has been improving Q2 to 10.8%. But it just feels like still a long way to your more than 12% target.\",\n  \"answer_quote\": \"You know, our views on margins very similar to Jordan's question really. I mean, we've got a good line of sight to the targets, which is greater than 12% and that's really coming from the three things that I talked about before, which are pricing, deposit growth, and then mix.\",\n  \"reason\": \"The answer directly addresses the questions about margin improvement, corporate loan growth, and capital ratio, providing specific figures and strategies.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1206,
+      "batch_seconds": 38.87187994800024
+    }
+  ],
+  "exchange_id": "08b5e1a731d1-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ade0d8750dc6cd745c2c1d6a8c4719fe185103e2cc19a9048efb68847238684e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on margin improvement, corporate loan growth, and capital ratio rationale",
+    "main_topics": [
+      "Margin Improvement",
+      "Corporate Loan Growth",
+      "Capital Ratio Rationale"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I've just got two please. So, first is on margin for US consumer, which has been improving Q2 to 10.8%. But it just feels like still a long way to your more than 12% target.",
+    "answer_quote": "You know, our views on margins very similar to Jordan's question really. I mean, we've got a good line of sight to the targets, which is greater than 12% and that's really coming from the three things that I talked about before, which are pricing, deposit growth, and then mix.",
+    "reason": "The answer directly addresses the questions about margin improvement, corporate loan growth, and capital ratio, providing specific figures and strategies."
+  },
+  "whitespace_adjusted_quotes": []
+}

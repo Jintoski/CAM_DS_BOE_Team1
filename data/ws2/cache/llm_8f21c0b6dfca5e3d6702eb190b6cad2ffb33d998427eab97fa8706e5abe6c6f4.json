@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about bank's leverage exposure, relevance of RWAs in growth sectors, market share assumptions, and AI technology adoption costs and speed.\",\n  \"main_topics\": [\"Bank leverage exposure\", \"Relevance of RWAs\", \"Market share assumptions\", \"AI technology adoption costs and speed\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are you able to give any colour on perhaps how much leverage exposure is tied up in the Investment Bank?\",\n  \"answer_quote\": \"We don't talk about return on leverage balance sheet a lot with this community, but you can imagine we are very focused on it in the background.\",\n  \"reason\": \"The answer directly addresses the question about leverage exposure, providing a high-level view of the bank's focus on leverage balance sheet, and includes numeric evidence of growth in balances.\"\n}",
+  "data": {
+    "question_intent": "Inquiring about bank's leverage exposure, relevance of RWAs in growth sectors, market share assumptions, and AI technology adoption costs and speed.",
+    "main_topics": [
+      "Bank leverage exposure",
+      "Relevance of RWAs",
+      "Market share assumptions",
+      "AI technology adoption costs and speed"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Are you able to give any colour on perhaps how much leverage exposure is tied up in the Investment Bank?",
+    "answer_quote": "We don't talk about return on leverage balance sheet a lot with this community, but you can imagine we are very focused on it in the background.",
+    "reason": "The answer directly addresses the question about leverage exposure, providing a high-level view of the bank's focus on leverage balance sheet, and includes numeric evidence of growth in balances."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "f7f72b2656e8-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8f21c0b6dfca5e3d6702eb190b6cad2ffb33d998427eab97fa8706e5abe6c6f4"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on ESHLA portfolio assumptions and NIM range\",\n  \"main_topics\": [\"ESHLA portfolio assumptions\", \"NIM range\", \"mortgage growth\", \"unsecured balances\", \"hedge size\", \"yield curve dynamics\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, are you assuming anything in there on the ESHLA portfolio?\",\n  \"answer_quote\": \"In direct response to the question about ESHLA, no we're not making any real assumptions around that.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on ESHLA portfolio assumptions and NIM range\",\n  \"main_topics\": [\"ESHLA portfolio\", \"NIM range\", \"mortgage growth\", \"unsecured balances\", \"hedge dynamics\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, are you assuming anything in there on the ESHLA portfolio?\",\n  \"answer_quote\": \"In direct response to the question about ESHLA, no we're not making any real assumptions around that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on ESHLA portfolio assumptions and NIM range\",\n  \"main_topics\": [\"ESHLA portfolio assumptions\", \"NIM range\", \"mortgage growth\", \"unsecured balances\", \"hedge size\", \"yield curve dynamics\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, are you assuming anything in there on the ESHLA portfolio?\",\n  \"answer_quote\": \"In direct response to the question about ESHLA, no we're not making any real assumptions around that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on ESHLA portfolio assumptions and NIM range\",\n  \"main_topics\": [\"ESHLA portfolio assumptions\", \"NIM range\", \"mortgage growth\", \"unsecured balances\", \"hedge size\", \"yield curve dynamics\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, are you assuming anything in there on the ESHLA portfolio?\",\n  \"answer_quote\": \"In direct response to the question about ESHLA, no we're not making any real assumptions around that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1012,
+      "batch_seconds": 31.431468079000297
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1057,
+      "batch_seconds": 93.49079408299986
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1057,
+      "batch_seconds": 36.98953617400002
+    }
+  ],
+  "exchange_id": "418cffd1dc8d-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ce67bab73bb49cd3497db74e800d2597bad2abb70f6a22a9c72f3ecb22ae86ab",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

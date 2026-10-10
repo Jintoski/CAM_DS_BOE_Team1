@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on bank reallocation strategy costs and phasing\",\n  \"main_topics\": [\"Bank reallocation strategy\", \"Cost savings\", \"Restructuring charges\", \"Phasing of reallocation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just wanted to ask a little bit more on the $1.5 billion of reallocation in the strategy. How much line of sight do you have on it at this point?\",\n  \"answer_quote\": \"So first, yes, we have identified the rest of the costs. We can't give a precise cost at this point of time. We'll keep you updated over the next quarters.\",\n  \"reason\": \"The answer provides a direct response to the question, with high evidence level due to the inclusion of specific figures and a commitment to future updates, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1089,
+      "batch_seconds": 32.25073803899977
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bd6807b10806c80eb8759a4251b483a2a378115a3c558fa92d05f7a1d83c8625",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on bank reallocation strategy costs and phasing",
+    "main_topics": [
+      "Bank reallocation strategy",
+      "Cost savings",
+      "Restructuring charges",
+      "Phasing of reallocation"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I just wanted to ask a little bit more on the $1.5 billion of reallocation in the strategy. How much line of sight do you have on it at this point?",
+    "answer_quote": "So first, yes, we have identified the rest of the costs. We can't give a precise cost at this point of time. We'll keep you updated over the next quarters.",
+    "reason": "The answer provides a direct response to the question, with high evidence level due to the inclusion of specific figures and a commitment to future updates, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

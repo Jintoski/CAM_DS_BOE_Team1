@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Ask about promotional card interest rates, UK deposit book growth, Kensington book size and growth, and share acquisition in Kensington business.\",\n  \"main_topics\": [\"Promotional Card Interest Rates\", \"UK Deposit Book Growth\", \"Kensington Book Size and Growth\", \"Share Acquisition in Kensington Business\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just ask on the promotional cards, aren't they booked at effective interest rates, so why would you get a pickup in H2 from them? And if you could just elaborate on the size of the balances on promotional, how much is rolling and what the [Effective Interest Rate] is?\",\n  \"answer_quote\": \"Actually, what we're seeing is the 2024 cohort maturing nicely and that's really what we're calling out here.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a complete response with medium-level evidence, including forward guidance and numeric evidence, and is aligned with the narrative of the question.\"\n}",
+  "data": {
+    "question_intent": "Ask about promotional card interest rates, UK deposit book growth, Kensington book size and growth, and share acquisition in Kensington business.",
+    "main_topics": [
+      "Promotional Card Interest Rates",
+      "UK Deposit Book Growth",
+      "Kensington Book Size and Growth",
+      "Share Acquisition in Kensington Business"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I just ask on the promotional cards, aren't they booked at effective interest rates, so why would you get a pickup in H2 from them? And if you could just elaborate on the size of the balances on promotional, how much is rolling and what the [Effective Interest Rate] is?",
+    "answer_quote": "Actually, what we're seeing is the 2024 cohort maturing nicely and that's really what we're calling out here.",
+    "reason": "The answer directly addresses the question's intent, providing a complete response with medium-level evidence, including forward guidance and numeric evidence, and is aligned with the narrative of the question."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "700cb9deb01d-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2d454232777ce34a8a03f19fd5f4b36088d56cbf201e2543e3d14dbb9ff33ac0"
+}

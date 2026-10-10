@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on NBFI exposure and tariff impact scenarios\",\n  \"main_topics\": [\"NBFI exposure\", \"tariff impact scenarios\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you confirm that? Secondly, on tariff scenarios, you gave an impact scenario or sensitivity scenario of low single digit on group revenues before. Clearly, things have changed, but also that was on a very specific part of your business. I'm just trying to understand how you're thinking about impact scenarios going forward in the current situation and expectation of a trade deal and, secondly, also what the impact has been so far.\",\n  \"answer_quote\": \"Let me come to the NBFI exposures. As you can appreciate, NBFI is a very broad industry. My comment on our discipline and conservative approach to weaker NBFIs holds. From an exposure perspective, both in terms of quantum that I've called out and beyond, I am very comfortable in terms of our approach to date, as well as going forward. For the tariffs exposure and the impact, as you've seen, the trade segment has continued to perform well. We have the advantage that, as much as there is impact on US dollar-related corridors, there are other corridors which are growing, which we have a strong presence in, whether it's India, UK, Middle East, Asia, intra-Asia. That's been quite good for us. Overall, guidance that we've given on the direct impact of tariffs has not changed and, of course, we look at that as part of our downside risk scenarios even for the ECLs. From an overall view on the macro environment, with all the trade deals being done, I'll just give one reflection: that the probabilities we give to our upside, downside and base case scenarios have now normalised and that's resulted in some modest releases of ECLs, because we think the situation is improving compared to where they were more weighted towards the downside scenarios in the previous quarters.\",\n  \"reason\": \"The answer directly addresses the NBFI exposure and tariff impact scenarios, providing a high level of evidence with specific references to the company's approach and the current macro environment, including the normalization of scenarios and the impact on ECLs.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 810,
+      "batch_seconds": 22.406666687000325
+    }
+  ],
+  "exchange_id": "499cc685b9a4-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1d31533f03976002734e5961ac94458465db1422da50a2764212e26bd009283f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on NBFI exposure and tariff impact scenarios",
+    "main_topics": [
+      "NBFI exposure",
+      "tariff impact scenarios"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can you confirm that? Secondly, on tariff scenarios, you gave an impact scenario or sensitivity scenario of low single digit on group revenues before. Clearly, things have changed, but also that was on a very specific part of your business. I'm just trying to understand how you're thinking about impact scenarios going forward in the current situation and expectation of a trade deal and, secondly, also what the impact has been so far.",
+    "answer_quote": "Let me come to the NBFI exposures. As you can appreciate, NBFI is a very broad industry. My comment on our discipline and conservative approach to weaker NBFIs holds. From an exposure perspective, both in terms of quantum that I've called out and beyond, I am very comfortable in terms of our approach to date, as well as going forward. For the tariffs exposure and the impact, as you've seen, the trade segment has continued to perform well. We have the advantage that, as much as there is impact on US dollar-related corridors, there are other corridors which are growing, which we have a strong presence in, whether it's India, UK, Middle East, Asia, intra-Asia. That's been quite good for us. Overall, guidance that we've given on the direct impact of tariffs has not changed and, of course, we look at that as part of our downside risk scenarios even for the ECLs. From an overall view on the macro environment, with all the trade deals being done, I'll just give one reflection: that the probabilities we give to our upside, downside and base case scenarios have now normalised and that's resulted in some modest releases of ECLs, because we think the situation is improving compared to where they were more weighted towards the downside scenarios in the previous quarters.",
+    "reason": "The answer directly addresses the NBFI exposure and tariff impact scenarios, providing a high level of evidence with specific references to the company's approach and the current macro environment, including the normalization of scenarios and the impact on ECLs."
+  },
+  "whitespace_adjusted_quotes": []
+}

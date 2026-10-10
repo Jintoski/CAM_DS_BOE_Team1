@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request insights on global trade and wealth management trends, and future revenue structure changes.\",\n  \"main_topics\": [\"global trade trends\", \"wealth management growth\", \"revenue structure changes\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first question is a little bit out of the bank itself. And Georges, could you please share some colour on the global trade business and also the wealth management business?\",\n  \"answer_quote\": \"So, look, trade and wealth. First, it's very difficult to predict what will happen to global trade in an uncertain environment, but what we can say is, for the last eight years, that trade has started to become more disrupted.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific growth rates and trends, and includes forward guidance on future business areas.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Request insights on global trade and wealth management trends and future revenue structure changes\",\n \"main_topics\": [\"Global Trade Business\", \"Wealth Management Business\", \"Revenue Structure Change\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first question is a little bit out of the bank itself. And Georges, could you please share some colour on the global trade business and also the wealth management business?\",\n \"answer_quote\": \"So, look, trade and wealth. First, it's very difficult to predict what will happen to global trade in an uncertain environment, but what we can say is, for the last eight years, that trade has started to become more disrupted.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1247,
+      "batch_seconds": 40.77262181199967
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1292,
+      "batch_seconds": 97.11701863300004
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8d843c501900e2d608675cbf19b0ebffb61db741a98562d40e441763a410c6ad",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request insights on global trade and wealth management trends, and future revenue structure changes.",
+    "main_topics": [
+      "global trade trends",
+      "wealth management growth",
+      "revenue structure changes"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first question is a little bit out of the bank itself. And Georges, could you please share some colour on the global trade business and also the wealth management business?",
+    "answer_quote": "So, look, trade and wealth. First, it's very difficult to predict what will happen to global trade in an uncertain environment, but what we can say is, for the last eight years, that trade has started to become more disrupted.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific growth rates and trends, and includes forward guidance on future business areas."
+  },
+  "whitespace_adjusted_quotes": []
+}

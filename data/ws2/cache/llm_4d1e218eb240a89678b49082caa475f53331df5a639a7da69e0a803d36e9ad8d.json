@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on deposit funding loss in Asia\",\n  \"main_topics\": [\"Asia network countries\", \"deposits\", \"GLCM balances\", \"ring-fencing\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just a point of clarification - on your slide rebutting the breakup argument, you talk about a loss of deposit funding across Asia network countries as one of your - from branches. I wonder if you could elaborate on what you're referring to there and why you think that might be a problem in the -\",\n  \"answer_quote\": \"If we break the synergies between east and west, there are significant cash balances that are held across Asia on behalf of western corporates and if, effectively, we lose a meaningful part of those western corporates' eastern business, then one of the side effects of that will be the GLCM balances that sit across Asia with us.\",\n  \"reason\": \"The answer directly addresses the concern about deposit funding loss in Asia, explaining the relationship between western corporates' cash balances and the potential impact of breaking synergies.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 572,
+      "batch_seconds": 13.414522689000478
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x022",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "4d1e218eb240a89678b49082caa475f53331df5a639a7da69e0a803d36e9ad8d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on deposit funding loss in Asia",
+    "main_topics": [
+      "Asia network countries",
+      "deposits",
+      "GLCM balances",
+      "ring-fencing"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just a point of clarification - on your slide rebutting the breakup argument, you talk about a loss of deposit funding across Asia network countries as one of your - from branches. I wonder if you could elaborate on what you're referring to there and why you think that might be a problem in the -",
+    "answer_quote": "If we break the synergies between east and west, there are significant cash balances that are held across Asia on behalf of western corporates and if, effectively, we lose a meaningful part of those western corporates' eastern business, then one of the side effects of that will be the GLCM balances that sit across Asia with us.",
+    "reason": "The answer directly addresses the concern about deposit funding loss in Asia, explaining the relationship between western corporates' cash balances and the potential impact of breaking synergies."
+  },
+  "whitespace_adjusted_quotes": []
+}

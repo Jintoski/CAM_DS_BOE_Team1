@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about rate insensitive balances in savings accounts\",\n  \"main_topics\": [\"rate insensitive balances\", \"savings accounts\", \"operational deposits\", \"rate insensitivity\", \"rainy day funds\", \"instant access accounts\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to follow-up then, does that imply you see rate insensitive balances within your savings accounts disclosure today?\",\n  \"answer_quote\": \"There are some balances within our deposits overall that are rate insensitive. Much of our current accounts would be rate insensitive simply because they relate to operational deposits. That will be true in BUK as it is in the corporate bank, as it is in the private bank, although you'd expect those constituents to behave differently. That is certainly true. There is also some rate insensitivity in savings because customers, and indeed corporates, do use some of their savings balances as sort of rainy day funds, simplistically, and particularly in instant access accounts, we see customers turning over their savings within the period of about a year, for example.\",\n  \"reason\": \"The answer directly addresses the question about rate insensitive balances in savings accounts, provides evidence of such balances, and includes a specific time frame for customer behavior, aligning with the question's intent.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Rate insensitivity in savings accounts\",\n  \"main_topics\": [\"Rate Insensitivity\", \"Savings Accounts\", \"Operational Deposits\", \"Customer Behavior\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to follow-up then, does that imply you see rate insensitive balances within your savings accounts disclosure today?\",\n  \"answer_quote\": \"There are some balances within our deposits overall that are rate insensitive. Much of our current accounts would be rate insensitive simply because they relate to operational deposits. That will be true in BUK as it is in the corporate bank, as it is in the private bank, although you'd expect those constituents to behave differently. That is certainly true. There is also some rate insensitivity in savings because customers, and indeed corporates, do use some of their savings balances as sort of rainy day funds, simplistically, and particularly in instant access accounts, we see customers turning over their savings within the period of about a year, for example. So, we have demonstrable evidence of that insensitivity, Adam.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about rate insensitive balances in savings accounts\",\n  \"main_topics\": [\"rate insensitive balances\", \"savings accounts\", \"operational deposits\", \"rate insensitivity\", \"rainy day funds\", \"instant access accounts\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to follow-up then, does that imply you see rate insensitive balances within your savings accounts disclosure today?\",\n  \"answer_quote\": \"There are some balances within our deposits overall that are rate insensitive. Much of our current accounts would be rate insensitive simply because they relate to operational deposits. That will be true in BUK as it is in the corporate bank, as it is in the private bank, although you'd expect those constituents to behave differently. That is certainly true. There is also some rate insensitivity in savings because customers, and indeed corporates, do use some of their savings balances as sort of rainy day funds, simplistically, and particularly in instant access accounts, we see customers turning over their savings within the period of about a year, for example. So, we have demonstrable evidence of that insensitivity, Adam.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about rate insensitive balances in savings accounts\",\n  \"main_topics\": [\"rate insensitive balances\", \"savings accounts\", \"operational deposits\", \"rate insensitivity\", \"rainy day funds\", \"instant access accounts\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to follow-up then, does that imply you see rate insensitive balances within your savings accounts disclosure today?\",\n  \"answer_quote\": \"There are some balances within our deposits overall that are rate insensitive. Much of our current accounts would be rate insensitive simply because they relate to operational deposits. That will be true in BUK as it is in the corporate bank, as it is in the private bank, although you'd expect those constituents to behave differently. That is certainly true. There is also some rate insensitivity in savings because customers, and indeed corporates, do use some of their savings balances as sort of rainy day funds, simplistically, and particularly in instant access accounts, we see customers turning over their savings within the period of about a year, for example.\",\n  \"reason\": \"The answer directly addresses the question about rate insensitive balances in savings accounts, provides evidence of such balances, and includes a specific time frame for customer behavior, aligning with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 550,
+      "batch_seconds": 12.863929854000162
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 595,
+      "batch_seconds": 14.185100319999037
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 595,
+      "batch_seconds": 13.606166855000993
+    }
+  ],
+  "exchange_id": "4e98e4abfb11-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "664b13edbd7b38b21768225cf642f7bec74a9a5f5c2848a9b0f3e2aa6737c237",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

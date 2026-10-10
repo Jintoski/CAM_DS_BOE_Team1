@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on ROTE framework and Hong Kong CRE\",\n  \"main_topics\": [\"ROTE framework\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is about any preliminary thoughts or views on the long-term ROTE framework.\",\n  \"answer_quote\": \"On the first question, we're not guiding yet for a three-to-five-year ROTE.\",\n  \"reason\": \"The response directly addresses the question about the ROTE framework and provides a clear stance, with high evidence level due to the mention of specific details like the 9% figure and $3.2 billion, and the narrative is aligned with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquiry about ROTE framework and Hong Kong CRE downgrade\",\n \"main_topics\": [\"ROTE framework\", \"Hong Kong CRE downgrade\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first question is about any preliminary thoughts or views on the long-term ROTE framework.\",\n \"answer_quote\": \"On the first question, we're not guiding yet for a three-to-five-year ROTE.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1717,
+      "batch_seconds": 106.53887218299997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1762,
+      "batch_seconds": 107.16828208400057
+    }
+  ],
+  "exchange_id": "7f553358cc34-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "661b809220e175262fe882c02e80a79c08e2a6fdf6101c916ae232e71f35788c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on ROTE framework and Hong Kong CRE",
+    "main_topics": [
+      "ROTE framework",
+      "Hong Kong CRE"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is about any preliminary thoughts or views on the long-term ROTE framework.",
+    "answer_quote": "On the first question, we're not guiding yet for a three-to-five-year ROTE.",
+    "reason": "The response directly addresses the question about the ROTE framework and provides a clear stance, with high evidence level due to the mention of specific details like the 9% figure and $3.2 billion, and the narrative is aligned with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

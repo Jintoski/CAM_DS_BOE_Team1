@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about the reasons behind the decrease in total coverage since pre-pandemic levels despite an increase in Stage 2 coverage.\",\n  \"main_topics\": [\"Bank earnings-call\", \"Bank coverage\", \"Stage 2 coverage\", \"Stage 3 coverage\", \"Customer behavior\", \"Stage migration\", \"LTVs\", \"Repayment patterns\", \"Pandemic impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just two questions, one on coverage. I know you talked about Stage 2 coverage broadly, the two card books have gone up, but if I look at total coverage, almost all of the books have been down since pre-pandemic levels. I know some of it's just that there's less Stage 3. Are there any underlying changes in the books that might explain that?\",\n  \"answer_quote\": \"Customer behaviour. You can see in terms of proportion of Stages 1, 2 and 3, it's quite different from where it was and that is driving a difference in the overall [coverage]. Customers are repaying more, their balances are lower, their LTVs are lower. All of that is essentially leading to a [stage] migration [to the] left, if you like, towards Stage 2 and Stage 1.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about changes in bank coverage levels\",\n  \"main_topics\": [\"Bank coverage\", \"Stage 2 coverage\", \"Customer behavior\", \"Stage migration\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just two questions, one on coverage. I know you talked about Stage 2 coverage broadly, the two card books have gone up, but if I look at total coverage, almost all of the books have been down since pre-pandemic levels. I know some of it's just that there's less Stage 3. Are there any underlying changes in the books that might explain that?\",\n  \"answer_quote\": \"Customer behaviour. You can see in terms of proportion of Stages 1, 2 and 3, it's quite different from where it was and that is driving a difference in the overall [coverage]. Customers are repaying more, their balances are lower, their LTVs are lower. All of that is essentially leading to a [stage] migration [to the] left, if you like, towards Stage 2 and Stage 1.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about changes in bank coverage levels\",\n  \"main_topics\": [\"bank coverage\", \"Stage 2 coverage\", \"Stage 3 coverage\", \"customer behaviour\", \"balance repayment\", \"LTV (Loan-to-Value ratio)\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just two questions, one on coverage. I know you talked about Stage 2 coverage broadly, the two card books have gone up, but if I look at total coverage, almost all of the books have been down since pre-pandemic levels. I know some of it's just that there's less Stage 3. Are there any underlying changes in the books that might explain that?\",\n  \"answer_quote\": \"Customer behaviour. You can see in terms of proportion of Stages 1, 2 and 3, it's quite different from where it was and that is driving a difference in the overall [coverage]. Customers are repaying more, their balances are lower, their LTVs are lower. All of that is essentially leading to a [stage] migration [to the] left, if you like, towards Stage 2 and Stage 1.\",\n  \"reason\": \"The answer directly addresses the question about changes in bank coverage levels, providing a high-level explanation with evidence of customer behaviour affecting the stages of coverage.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the reasons behind the decrease in total coverage since pre-pandemic levels despite an increase in Stage 2 coverage.\",\n  \"main_topics\": [\"Bank earnings-call\", \"Bank coverage\", \"Stage 2 coverage\", \"Stage 3 coverage\", \"Customer behavior\", \"Stage migration\", \"LTVs\", \"Repayment patterns\", \"Pandemic impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just two questions, one on coverage. I know you talked about Stage 2 coverage broadly, the two card books have gone up, but if I look at total coverage, almost all of the books have been down since pre-pandemic levels. I know some of it's just that there's less Stage 3. Are there any underlying changes in the books that might explain that?\",\n  \"answer_quote\": \"Customer behaviour. You can see in terms of proportion of Stages 1, 2 and 3, it's quite different from where it was and that is driving a difference in the overall [coverage]. Customers are repaying more, their balances are lower, their LTVs are lower. All of that is essentially leading to a [stage] migration [to the] left, if you like, towards Stage 2 and Stage 1.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 554,
+      "batch_seconds": 12.271816891000526
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 599,
+      "batch_seconds": 14.185100319999037
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 608,
+      "batch_seconds": 13.606166855000993
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x017",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "347544dec2dcda50e1d691c5f1a7ba694df2e1ebf49581da04b20499c4780328",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

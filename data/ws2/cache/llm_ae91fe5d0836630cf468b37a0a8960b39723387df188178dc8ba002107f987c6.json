@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on Equities forecast\",\n  \"main_topics\": [\"Equities forecast\", \"Sales and Trading diversification\", \"Market conditions\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Did I hear correctly that you expect the full year Equities number to be below 2020?\",\n  \"answer_quote\": \"No, I wouldn't take that as a forecast. It's so hard to forecast these things with a high degree of certainty.\",\n  \"reason\": \"The answer partially addresses the question by denying the forecast and explaining the difficulty in making such predictions, but it does not provide a specific forecast for the Equities number.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 571,
+      "batch_seconds": 13.414522689000478
+    }
+  ],
+  "exchange_id": "d46e8685e978-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ae91fe5d0836630cf468b37a0a8960b39723387df188178dc8ba002107f987c6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on Equities forecast",
+    "main_topics": [
+      "Equities forecast",
+      "Sales and Trading diversification",
+      "Market conditions"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Did I hear correctly that you expect the full year Equities number to be below 2020?",
+    "answer_quote": "No, I wouldn't take that as a forecast. It's so hard to forecast these things with a high degree of certainty.",
+    "reason": "The answer partially addresses the question by denying the forecast and explaining the difficulty in making such predictions, but it does not provide a specific forecast for the Equities number."
+  },
+  "whitespace_adjusted_quotes": []
+}

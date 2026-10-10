@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Estimate bank's CET1 ratio in 2019 and 2020-2021\",\n  \"main_topics\": [\"CET1 ratio\", \"PMAs\", \"regulatory impact\", \"impairment coverage\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I think it was previously about 40% in 2019. And I think it was, either late 2020 or early 2021, close to 50%.\",\n  \"answer_quote\": \"Yes, it could be different now, so let's come back to you on that. On PMAs and excess EL, at the moment, it's not a big feature of the calculation that we do. In the past, we've seen that being considerable, but not at this point in time. It's difficult to call it out because of that uncertainty around the impairment pathway going forward, or the regulatory impact of that going forward. So it's really difficult to answer that question, sorry. What I would say about the PMAs though is we feel like we are very well covered in UK cards in particular, and US cards. So I think there would be some distance in cards in particular before we got to that position. And just reminding you that as regards to wholesale, we also have impairment coverage that you don't see as a balance sheet matter through the SRT programmes, which are fairly considerable. So they will also have an impact.\",\n  \"reason\": \"The answer deflects the question and does not provide the requested CET1 ratio estimates, only discussing PMAs and impairment coverage.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 611,
+      "batch_seconds": 14.887864954000179
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9c4873d246c44cd8ba77a3a5f8a4759a1ab98ce5a8f1fd30f69d6d02f2729540",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Estimate bank's CET1 ratio in 2019 and 2020-2021",
+    "main_topics": [
+      "CET1 ratio",
+      "PMAs",
+      "regulatory impact",
+      "impairment coverage"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I think it was previously about 40% in 2019. And I think it was, either late 2020 or early 2021, close to 50%.",
+    "answer_quote": "Yes, it could be different now, so let's come back to you on that. On PMAs and excess EL, at the moment, it's not a big feature of the calculation that we do. In the past, we've seen that being considerable, but not at this point in time. It's difficult to call it out because of that uncertainty around the impairment pathway going forward, or the regulatory impact of that going forward. So it's really difficult to answer that question, sorry. What I would say about the PMAs though is we feel like we are very well covered in UK cards in particular, and US cards. So I think there would be some distance in cards in particular before we got to that position. And just reminding you that as regards to wholesale, we also have impairment coverage that you don't see as a balance sheet matter through the SRT programmes, which are fairly considerable. So they will also have an impact.",
+    "reason": "The answer deflects the question and does not provide the requested CET1 ratio estimates, only discussing PMAs and impairment coverage."
+  },
+  "whitespace_adjusted_quotes": []
+}

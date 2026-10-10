@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discussing share awards, net interest income, yield curve, and hedging strategy.\",\n  \"main_topics\": [\"share awards\", \"net interest income\", \"yield curve\", \"hedging strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, I was going to ask you about share awards, but I nearly fell of my chair when you made the comment on 2028 net interest income.\",\n  \"answer_quote\": \"Okay, Jonathan, I will take both of those. So, I made the same comments at the full year. It doesn't relate to the movement in the yield curve and the guidance that we are giving you is still based on a 3.5% reinvestment rate.\",\n  \"reason\": \"The question and answer are directly related, with the answer providing a complete response to the question, including a direct stance and high evidence level with numeric evidence present.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discussing share awards, net interest income, yield curve, and hedging strategy\",\n \"main_topics\": [\"Share Awards\", \"Net Interest Income\", \"Yield Curve\", \"Hedging Strategy\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"So, I was going to ask you about share awards, but I nearly fell of my chair when you made the comment on 2028 net interest income. So, I'll actually go with that if it's okay. Just to clarify, 2028, you're talking about consensus being very light at the Group level. Just checking I caught that properly. And is that comment made in the context of where the yield curve is today? Or are you saying that consensus was very light, even ahead of the move in the yield curve? And I don't know whether you can give us a bit of colour as to where you think we're wrong at a divisional level. Tying into that, just a quick question on the hedge. Are you taking advantage of the fact that the yield curve is markedly higher today? I mean a one-year forward starting seven-year is offering you 4.4% today. I'm just wondering if you're pre-hedging maybe a bit more of your future maturities than you might have done in the past?\",\n \"answer_quote\": \"Okay, Jonathan, I will take both of those. So, I made the same comments at the full year. It doesn't relate to the movement in the yield curve and the guidance that we are giving you is still based on a 3.5% reinvestment rate. We have not changed that number. And it's the Group number [excluding IB and Head Office] that I'm referring to as I look at that. So, this is no change from what we've said before. If I can point you to where I think the difference is, I think it arises in two areas. The first is UK Corporate Bank. And you know, we see considerable momentum in UK Corporate Bank. We've seen it for consistent quarters now. It has grown its lending in the first quarter by 15%. And it continues to make great progress, even before we land the capabilities that we are due to land through this year in iPortal. So that's the first thing I would call out, I think we don't discuss it a great deal on these calls. The second thing would be US Consumer Bank, where you've really got three things starting to come together here. You've got cards balances, which are up [9%] year-on-year in the first quarter. We will, in the next few days, complete the purchase of a top five unsecured direct-to-consumer loans business in the US. And that gives us the opportunity to take that capability directly to our customers and to our corporate clients. And then the third piece is our deposits, which, as I said, are now at 76%. And a meaningful part of that growth has come from our partnership with AARP. So, we are really learning in this business about how we can take the full suite of products to our partner base. And that's what gives us the confidence in that business' ability to grow. Venkat, anything you would add on the USCB in particular? Yes. So, I mean, you asked about NII, Jonathan, and Anna's given you the various dimensions of it. But in the USCB, in addition, what you see is continued improvement in digitisation, continued improvement in cost, leading to the higher RoTE that we've shown this quarter, 18% plus. And what I would say is it broadened the statement that Anna has made across every part of the business. You're seeing performance in the way we said we would demonstrate it 2.5 years ago and reiterated three months ago. In terms of top line, in terms of operating efficiency, in terms of jaws, in terms of deposit growth, in terms of lending growth in the [UK] Corporate Bank, in terms of the returns improvement in the US Consumer Bank, returns improvement in the Investment Bank, et cetera. And I think that's the picture we would like to emphasise. Okay, Jonathan, let me come back to your second question, which was on hedge yield. So, the simple answer is no. We roll the hedge systematically, we roll it mechanistically, and it is not our opportunity to speculate or determine what rates might be. We roll it irrespective of that environment. The thing that we are very focused on, however, is deposit behaviour. So, the increase in notional reflects observed deposit behaviour over a number of quarters. It doesn't relate to just the quarter past or expectations forward. We actually observe what's going on in the hedge and then we will choose to extend it or indeed contract it. So that's all that's going on there, we're not responding to a change in the yield curve. Thank you. Can I go to the next question please?\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"question_quote\": \"So, I was going to ask you about share awards, but I nearly fell of my chair when you made the comment on 2028 net interest income. So, I'll actually go with that if it's okay. Just to clarify, 2028, you're talking about consensus being very light at the Group level. Just checking I caught that properly. And is that comment made in the context of where the yield curve is today? Or are you saying that consensus was very light, even ahead of the move in the yield curve? And I don't know whether you can give us a bit of colour as to where you think we're wrong at a divisional level. Tying into that, just a quick question on the hedge. Are you taking advantage of the fact that the yield curve is markedly higher today? I mean a one-year forward starting seven-year is offering you 4.4% today. I'm just wondering if you're pre-hedging maybe a bit more of your future maturities than you might have done in the past?\",\n \"answer_completeness\": \"Complete\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\"\n}",
+      "error": "ValueError: Duplicate JSON field: contains_numeric_evidence"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1334,
+      "batch_seconds": 55.57041523099997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1380,
+      "batch_seconds": 98.61168351199922
+    }
+  ],
+  "exchange_id": "a91585caef10-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "eaf3a15afd3aa6d1370a3d78fcad436df78395e465fc5d6d3069349353c45cb1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discussing share awards, net interest income, yield curve, and hedging strategy.",
+    "main_topics": [
+      "share awards",
+      "net interest income",
+      "yield curve",
+      "hedging strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So, I was going to ask you about share awards, but I nearly fell of my chair when you made the comment on 2028 net interest income.",
+    "answer_quote": "Okay, Jonathan, I will take both of those. So, I made the same comments at the full year. It doesn't relate to the movement in the yield curve and the guidance that we are giving you is still based on a 3.5% reinvestment rate.",
+    "reason": "The question and answer are directly related, with the answer providing a complete response to the question, including a direct stance and high evidence level with numeric evidence present."
+  },
+  "whitespace_adjusted_quotes": []
+}

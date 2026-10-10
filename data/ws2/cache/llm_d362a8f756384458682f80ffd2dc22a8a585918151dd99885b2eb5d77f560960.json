@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Cost of risk and loan growth expectations\",\n  \"main_topics\": [\"Cost of risk\", \"Loan growth\", \"Balance sheet growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, on cost of risk, in relation to your guidance of 40 basis points is there still a plausible downside to this guidance, or does the 40 basis points encapsulate that plausible downside?\",\n  \"answer_quote\": \"The cost of risk of 40 basis points encapsulates everything we currently foresee in our balance sheet.\",\n  \"reason\": \"The answer directly addresses the cost of risk question, providing a clear stance that the 40 basis points guidance encapsulates the current cost of risk, and it includes high evidence with numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 892,
+      "batch_seconds": 26.18008355099937
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d362a8f756384458682f80ffd2dc22a8a585918151dd99885b2eb5d77f560960",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Cost of risk and loan growth expectations",
+    "main_topics": [
+      "Cost of risk",
+      "Loan growth",
+      "Balance sheet growth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Firstly, on cost of risk, in relation to your guidance of 40 basis points is there still a plausible downside to this guidance, or does the 40 basis points encapsulate that plausible downside?",
+    "answer_quote": "The cost of risk of 40 basis points encapsulates everything we currently foresee in our balance sheet.",
+    "reason": "The answer directly addresses the cost of risk question, providing a clear stance that the 40 basis points guidance encapsulates the current cost of risk, and it includes high evidence with numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

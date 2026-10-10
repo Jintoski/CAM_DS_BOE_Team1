@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for future disclosure of PBT percentage at Group level\",\n  \"main_topics\": [\"PBT disclosure\", \"Profitability measures\", \"E-commerce growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"would you be willing, not on this call obviously, but in the future, give maybe at least the percentage of the PBT which you disclose at the Group level?\",\n  \"answer_quote\": \"Yes, I think that's right. I think that's the next thing. We've given you the top line. We'll report that frequently. I think the next thing is a measure of profitability. Whether that's EBITDA or whether it's PBT, it's something we need to do thoughtfully, something that's helpful to you guys, rather than creating a whole bunch of disclosure gymnastics that can be very complicated. The next stage will be some measure of profitability at the right time.\",\n  \"reason\": \"The answer partially addresses the request for future PBT disclosure but hedges on the specifics and does not provide a numeric value or a clear commitment to a timeline.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Request for future disclosure of PBT percentage at Group level\",\n \"main_topics\": [\"Future Disclosure\", \"PBT Percentage\", \"Group Level Reporting\"],\n \"answer_completeness\": \"Partial\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"would you be willing, not on this call obviously, but in the future, give maybe at least the percentage of the PBT which you disclose at the Group level?\",\n \"answer_quote\": \"Yes, I think that's right. I think that's the next thing. We've given you the top line. We'll report that frequently.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 786,
+      "batch_seconds": 21.786424566999813
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 831,
+      "batch_seconds": 21.183683261000624
+    }
+  ],
+  "exchange_id": "d46e8685e978-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "49fb0fba2b921bc77ca76c1bf915b4df4e1366bf9117bca48bc974df6adc1904",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for future disclosure of PBT percentage at Group level",
+    "main_topics": [
+      "PBT disclosure",
+      "Profitability measures",
+      "E-commerce growth"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "would you be willing, not on this call obviously, but in the future, give maybe at least the percentage of the PBT which you disclose at the Group level?",
+    "answer_quote": "Yes, I think that's right. I think that's the next thing. We've given you the top line. We'll report that frequently. I think the next thing is a measure of profitability. Whether that's EBITDA or whether it's PBT, it's something we need to do thoughtfully, something that's helpful to you guys, rather than creating a whole bunch of disclosure gymnastics that can be very complicated. The next stage will be some measure of profitability at the right time.",
+    "reason": "The answer partially addresses the request for future PBT disclosure but hedges on the specifics and does not provide a numeric value or a clear commitment to a timeline."
+  },
+  "whitespace_adjusted_quotes": []
+}

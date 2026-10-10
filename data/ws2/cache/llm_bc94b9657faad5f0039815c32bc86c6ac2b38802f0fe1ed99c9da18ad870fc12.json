@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Expectations of alignment with the broader banking system\",\n  \"main_topics\": [\"Banking System Alignment\", \"Market Competition\", \"Interest Rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I can read from that that you expect to be more in line with the broader system in Q423?\",\n  \"answer_quote\": \"Well, we've only had one month in. For all of us, I think the actions of competitors in the market, it won't necessarily be the big six, or the bigger peers, it's more sort of, you can get some quite interesting rates coming out from challengers that may impact us all.\",\n  \"reason\": \"The answer partially addresses the question by discussing market competition and interest rates but does not directly answer the expectation of alignment with the broader banking system.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 470,
+      "batch_seconds": 9.408274887000516
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bc94b9657faad5f0039815c32bc86c6ac2b38802f0fe1ed99c9da18ad870fc12",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Expectations of alignment with the broader banking system",
+    "main_topics": [
+      "Banking System Alignment",
+      "Market Competition",
+      "Interest Rates"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I can read from that that you expect to be more in line with the broader system in Q423?",
+    "answer_quote": "Well, we've only had one month in. For all of us, I think the actions of competitors in the market, it won't necessarily be the big six, or the bigger peers, it's more sort of, you can get some quite interesting rates coming out from challengers that may impact us all.",
+    "reason": "The answer partially addresses the question by discussing market competition and interest rates but does not directly answer the expectation of alignment with the broader banking system."
+  },
+  "whitespace_adjusted_quotes": []
+}

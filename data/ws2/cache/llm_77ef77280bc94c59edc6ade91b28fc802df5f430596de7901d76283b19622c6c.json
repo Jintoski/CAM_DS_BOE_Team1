@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the impact of Pillar 2 offset on CET1 ratio target and future customer activity in response to the budget.\",\n  \"main_topics\": [\"Pillar 2 offset\", \"CET1 ratio target\", \"Future customer activity\", \"Budget impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On the precise question, [this is about the]Pillar 2 offset. You talked about the Pillar 2 modest increase followed by a part offset of the later RWA inflation. It's probably too early, but anything you can provide in terms of quantum and does that potentially even change your 13% to 14% [CET1] ratio target?\",\n  \"answer_quote\": \"Okay. Thank you, Andy. So really too early to say. And what we called out here is that as you can imagine, in advance of implementing this model, and we actually have been holding some Pillar 2A already. There may be some modest increase in that before we implement the model in full. That's all we're calling out. It's difficult to give any specific guidance around quantum or exact timing, but you'll note that we said modest. And I'm just reiterating, we are already holding Pillar 2A for this. And then the other point I'd make is that obviously we still await some guidance from the PRA. And so there is some expectation that we get some guidance around Pillar 2 offsets where they're really trying to avoid double counting between Pillar 1 in Basel and Pillar 2A that exist currently. And really, we need to see all this put together holistically before we give you firmer guidance.\",\n  \"reason\": \"The answer partially addresses the question about the Pillar 2 offset and its potential impact on the CET1 ratio target, but does not provide specific numeric evidence or forward guidance. The response also touches on future customer activity in relation to the budget, but again, without specific details.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 904,
+      "batch_seconds": 22.692067773000417
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x021",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "77ef77280bc94c59edc6ade91b28fc802df5f430596de7901d76283b19622c6c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the impact of Pillar 2 offset on CET1 ratio target and future customer activity in response to the budget.",
+    "main_topics": [
+      "Pillar 2 offset",
+      "CET1 ratio target",
+      "Future customer activity",
+      "Budget impact"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "On the precise question, [this is about the]Pillar 2 offset. You talked about the Pillar 2 modest increase followed by a part offset of the later RWA inflation. It's probably too early, but anything you can provide in terms of quantum and does that potentially even change your 13% to 14% [CET1] ratio target?",
+    "answer_quote": "Okay. Thank you, Andy. So really too early to say. And what we called out here is that as you can imagine, in advance of implementing this model, and we actually have been holding some Pillar 2A already. There may be some modest increase in that before we implement the model in full. That's all we're calling out. It's difficult to give any specific guidance around quantum or exact timing, but you'll note that we said modest. And I'm just reiterating, we are already holding Pillar 2A for this. And then the other point I'd make is that obviously we still await some guidance from the PRA. And so there is some expectation that we get some guidance around Pillar 2 offsets where they're really trying to avoid double counting between Pillar 1 in Basel and Pillar 2A that exist currently. And really, we need to see all this put together holistically before we give you firmer guidance.",
+    "reason": "The answer partially addresses the question about the Pillar 2 offset and its potential impact on the CET1 ratio target, but does not provide specific numeric evidence or forward guidance. The response also touches on future customer activity in relation to the budget, but again, without specific details."
+  },
+  "whitespace_adjusted_quotes": []
+}

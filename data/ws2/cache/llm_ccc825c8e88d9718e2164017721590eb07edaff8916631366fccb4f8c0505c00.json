@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for specific investment numbers in technology\",\n  \"main_topics\": [\"Investment in technology\", \"Auditability of investment\", \"Strategic investment approach\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do you have any numbers around that in terms of the investment for the future?\",\n  \"answer_quote\": \"We are not giving any specific numbers that can't be audited, but the approach I can share with you.\",\n  \"reason\": \"The answer partially addresses the question by discussing the strategic approach to investment without providing specific numbers, which are requested.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 819,
+      "batch_seconds": 18.459268222999526
+    }
+  ],
+  "exchange_id": "4c46c28cb2e2-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ccc825c8e88d9718e2164017721590eb07edaff8916631366fccb4f8c0505c00",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for specific investment numbers in technology",
+    "main_topics": [
+      "Investment in technology",
+      "Auditability of investment",
+      "Strategic investment approach"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Do you have any numbers around that in terms of the investment for the future?",
+    "answer_quote": "We are not giving any specific numbers that can't be audited, but the approach I can share with you.",
+    "reason": "The answer partially addresses the question by discussing the strategic approach to investment without providing specific numbers, which are requested."
+  },
+  "whitespace_adjusted_quotes": []
+}

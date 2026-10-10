@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Future plans and restructuring\",\n  \"main_topics\": [\"Headcount reduction\", \"Corporate real estate\", \"Hybrid working\", \"IT infrastructure\", \"Legacy applications\", \"US restructuring\", \"Europe restructuring\", \"Cost initiatives\", \"COO cadre reduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Where is that going?\",\n  \"answer_quote\": \"Across the board. If you look at broadly what we're doing, you can see headcount continuing to come down. We've committed to get out of a significant amount of our corporate real estate book. A large part of that is driven by hybrid working. So we've committed to get out of 40% of our commercial real estate globally over about three or four years. I think by the back end of the next year we'll be broadly there on that, and then a lot of work is going on in the IT space to refine and rationalise legacy IT infrastructure, legacy applications. I would say in the US the restructuring there will be largely completed at the end of this year, but there's still a lot of infrastructure that's going on in Europe, which will continue into next year as well. So I would say US will be done by the end of this year. Europe will be largely done by the end of next year, but there's no single big programme of work. Every part of the bank has got various cost initiatives underway. And back and middle offices in wholesale, in trade as well. So it's generally across the board. We can't say there's two things which are 50% of it. It's a very balanced programme. We've just, for example, recently been through our entire chief operating officer cadre and have taken out about 40% or 50% of the chief operating officers in the bank, and that's as much and more driven by a desire to drive simplicity and efficiency rather than with the significant cost benefit that comes on the back of it.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future bank restructuring and cost initiatives\",\n  \"main_topics\": [\"Bank restructuring\", \"Cost initiatives\", \"Hybrid working\", \"IT infrastructure\", \"COO reduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Where is that going?\",\n  \"answer_quote\": \"Across the board. If you look at broadly what we're doing, you can see headcount continuing to come down. We've committed to get out of a significant amount of our corporate real estate book. A large part of that is driven by hybrid working. So we've committed to get out of 40% of our commercial real estate globally over about three or four years. I think by the back end of the next year we'll be broadly there on that, and then a lot of work is going on in the IT space to refine and rationalise legacy IT infrastructure, legacy applications. I would say in the US the restructuring there will be largely completed at the end of this year, but there's still a lot of infrastructure that's going on in Europe, which will continue into next year as well. So I would say US will be done by the end of this year. Europe will be largely done by the end of next year, but there's no single big programme of work. Every part of the bank has got various cost initiatives underway. And back and middle offices in wholesale, in trade as well. So it's generally across the board. We can't say there's two things which are 50% of it. It's a very balanced programme. We've just, for example, recently been through our entire chief operating officer cadre and have taken out about 40% or 50% of the chief operating officers in the bank, and that's as much and more driven by a desire to drive simplicity and efficiency rather than with the significant cost benefit that comes on the back of it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future plans and restructuring\",\n  \"main_topics\": [\"Headcount reduction\", \"Corporate real estate\", \"Hybrid working\", \"IT infrastructure\", \"Legacy applications\", \"US restructuring\", \"Europe restructuring\", \"Cost initiatives\", \"COO cadre reduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Where is that going?\",\n  \"answer_quote\": \"Across the board. If you look at broadly what we're doing, you can see headcount continuing to come down. We've committed to get out of a significant amount of our corporate real estate book. A large part of that is driven by hybrid working. So we've committed to get out of 40% of our commercial real estate globally over about three or four years. I think by the back end of the next year we'll be broadly there on that, and then a lot of work is going on in the IT space to refine and rationalise legacy IT infrastructure, legacy applications. I would say in the US the restructuring there will be largely completed at the end of this year, but there's still a lot of infrastructure that's going on in Europe, which will continue into next year as well. So I would say US will be done by the end of this year. Europe will be largely done by the end of next year, but there's no single big programme of work. Every part of the bank has got various cost initiatives underway. And back and middle offices in wholesale, in trade as well. So it's generally across the board. We can't say there's two things which are 50% of it. It's a very balanced programme. We've just, for example, recently been through our entire chief operating officer cadre and have taken out about 40% or 50% of the chief operating officers in the bank, and that's as much and more driven by a desire to drive simplicity and efficiency rather than with the significant cost benefit that comes on the back of it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future plans and restructuring\",\n  \"main_topics\": [\"Headcount reduction\", \"Corporate real estate\", \"Hybrid working\", \"IT infrastructure\", \"Legacy applications\", \"US restructuring\", \"Europe restructuring\", \"Cost initiatives\", \"COO cadre reduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Where is that going?\",\n  \"answer_quote\": \"Across the board. If you look at broadly what we're doing, you can see headcount continuing to come down. We've committed to get out of a significant amount of our corporate real estate book. A large part of that is driven by hybrid working. So we've committed to get out of 40% of our commercial real estate globally over about three or four years. I think by the back end of the next year we'll be broadly there on that, and then a lot of work is going on in the IT space to refine and rationalise legacy IT infrastructure, legacy applications. I would say in the US the restructuring there will be largely completed at the end of this year, but there's still a lot of infrastructure that's going on in Europe, which will continue into next year as well. So I would say US will be done by the end of this year. Europe will be largely done by the end of next year, but there's no single big programme of work. Every part of the bank has got various cost initiatives underway. And back and middle offices in wholesale, in trade as well. So it's generally across the board. We can't say there's two things which are 50% of it. It's a very balanced programme. We've just, for example, recently been through our entire chief operating officer cadre and have taken out about 40% or 50% of the chief operating officers in the bank, and that's as much and more driven by a desire to drive simplicity and efficiency rather than with the significant cost benefit that comes on the back of it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 705,
+      "batch_seconds": 16.997578093999437
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 750,
+      "batch_seconds": 18.60642850000113
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 750,
+      "batch_seconds": 19.912649574998795
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6b8ce5c0d6e53e85f9fa81905006210b632cabd8ed2f98a887da2a61e97e0323",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

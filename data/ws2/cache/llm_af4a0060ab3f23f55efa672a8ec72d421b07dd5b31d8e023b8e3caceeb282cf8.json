@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Cost management and investment opportunities in light of increased revenues\",\n  \"main_topics\": [\"cost management\", \"investment opportunities\", \"revenue growth\", \"cost control\", \"productivity improvements\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On costs, as rates go up and revenues go up, do you feel any more freedom to loosen the purse strings on costs? And are there any areas of investment that you've been waiting to make which next year you'll be able to execute now that you've got a higher revenue base?\",\n  \"answer_quote\": \"Actually one of the reasons for being very clear externally on costs - flat this year and 2% next year - is as much an internal message as it is an external message. We don't want to go back to what, when I joined at the back end of 2018 - we had 5.5% cost growth in 2018 because we did exactly what you said, which is we planned to spend the benefit of rate rises. So we're firmly not trying to do that. That does mean, with underlying wage growth across the organisation, we'll be higher than 2% next year inevitably, which means we are having to drive through significant productivity improvements, and if you asked the organisation how much would they like to spend on investment, it adds up to far more than what we're spending, but that's just part of a normal budget and constraint process. And bluntly, I don't think we're getting paid for growth at the moment from the equity markets, so if there's a trade-off between cost control and growth, I think we're getting paid for cost control; we're not getting paid for growth.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discussing cost management and investment opportunities in light of increased revenues.\",\n  \"main_topics\": [\"cost management\", \"investment opportunities\", \"revenue growth\", \"productivity improvements\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On costs, as rates go up and revenues go up, do you feel any more freedom to loosen the purse strings on costs? And are there any areas of investment that you've been waiting to make which next year you'll be able to execute now that you've got a higher revenue base?\",\n  \"answer_quote\": \"Actually one of the reasons for being very clear externally on costs - flat this year and 2% next year - is as much an internal message as it is an external message. We don't want to go back to what, when I joined at the back end of 2018 - we had 5.5% cost growth in 2018 because we did exactly what you said, which is we planned to spend the benefit of rate rises. So we're firmly not trying to do that. That does mean, with underlying wage growth across the organisation, we'll be higher than 2% next year inevitably, which means we are having to drive through significant productivity improvements, and if you asked the organisation how much would they like to spend on investment, it adds up to far more than what we're spending, but that's just part of a normal budget and constraint process. And bluntly, I don't think we're getting paid for growth at the moment from the equity markets, so if there's a trade-off between cost control and growth, I think we're getting paid for cost control; we're not getting paid for growth.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Cost management and investment opportunities in light of increased revenues\",\n  \"main_topics\": [\"cost management\", \"investment opportunities\", \"revenue growth\", \"cost control\", \"productivity improvements\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On costs, as rates go up and revenues go up, do you feel any more freedom to loosen the purse strings on costs? And are there any areas of investment that you've been waiting to make which next year you'll be able to execute now that you've got a higher revenue base?\",\n  \"answer_quote\": \"Actually one of the reasons for being very clear externally on costs - flat this year and 2% next year - is as much an internal message as it is an external message. We don't want to go back to what, when I joined at the back end of 2018 - we had 5.5% cost growth in 2018 because we did exactly what you said, which is we planned to spend the benefit of rate rises. So we're firmly not trying to do that. That does mean, with underlying wage growth across the organisation, we'll be higher than 2% next year inevitably, which means we are having to drive through significant productivity improvements, and if you asked the organisation how much would they like to spend on investment, it adds up to far more than what we're spending, but that's just part of a normal budget and constraint process. And bluntly, I don't think we're getting paid for growth at the moment from the equity markets, so if there's a trade-off between cost control and growth, I think we're getting paid for cost control; we're not getting paid for growth.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Cost management and investment opportunities in light of increased revenues\",\n  \"main_topics\": [\"cost management\", \"investment opportunities\", \"revenue growth\", \"cost control\", \"productivity improvements\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On costs, as rates go up and revenues go up, do you feel any more freedom to loosen the purse strings on costs? And are there any areas of investment that you've been waiting to make which next year you'll be able to execute now that you've got a higher revenue base?\",\n  \"answer_quote\": \"Actually one of the reasons for being very clear externally on costs - flat this year and 2% next year - is as much an internal message as it is an external message. We don't want to go back to what, when I joined at the back end of 2018 - we had 5.5% cost growth in 2018 because we did exactly what you said, which is we planned to spend the benefit of rate rises. So we're firmly not trying to do that. That does mean, with underlying wage growth across the organisation, we'll be higher than 2% next year inevitably, which means we are having to drive through significant productivity improvements, and if you asked the organisation how much would they like to spend on investment, it adds up to far more than what we're spending, but that's just part of a normal budget and constraint process. And bluntly, I don't think we're getting paid for growth at the moment from the equity markets, so if there's a trade-off between cost control and growth, I think we're getting paid for cost control; we're not getting paid for growth.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 666,
+      "batch_seconds": 15.884756681999534
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 711,
+      "batch_seconds": 18.00490129800164
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 711,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "af4a0060ab3f23f55efa672a8ec72d421b07dd5b31d8e023b8e3caceeb282cf8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

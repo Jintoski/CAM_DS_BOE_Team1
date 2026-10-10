@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Two questions about bank earnings-call: structural hedge and US cards business platform approach.\",\n  \"main_topics\": [\"structural hedge\", \"US cards business platform approach\", \"iPortal\", \"connectivity between businesses\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions, please. First, on the structural hedge. It looks like there was a jump in the first quarter. Have you reassessed any of the assumptions you used to determine deposit stability and resilience in the business? And is there any way from the outside that we could try and think about how this could grow going forward?\",\n  \"answer_quote\": \"Okay. I will take the second one, and I might invite Dan to make some comments on the first. Yes. So there was about a £6 billion increase in the structural hedge balance, as you note. A little bit of that was equity, which is reasonably straightforward. The rest of it, about £5 billion of it was due to us looking at the stability of the deposits that we've got. So some of that is very granular and reactive to the data that we see coming through over time. But also, we do continue to look at the models that we use at a granular level across the book. So as we make model improvements, sometimes that changes the structural hedge balance. So it's a combination of refinements in the modelling and increased confidence in the stability that we're seeing.\",\n  \"reason\": \"The answer directly addresses both questions, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1103,
+      "batch_seconds": 33.84535162700013
+    }
+  ],
+  "exchange_id": "0b87d27c6af4-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7a035f56b5a3422a05355fc136c064dbabb7f859f26ce181329bb10b2c91ba25",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Two questions about bank earnings-call: structural hedge and US cards business platform approach.",
+    "main_topics": [
+      "structural hedge",
+      "US cards business platform approach",
+      "iPortal",
+      "connectivity between businesses"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Two questions, please. First, on the structural hedge. It looks like there was a jump in the first quarter. Have you reassessed any of the assumptions you used to determine deposit stability and resilience in the business? And is there any way from the outside that we could try and think about how this could grow going forward?",
+    "answer_quote": "Okay. I will take the second one, and I might invite Dan to make some comments on the first. Yes. So there was about a £6 billion increase in the structural hedge balance, as you note. A little bit of that was equity, which is reasonably straightforward. The rest of it, about £5 billion of it was due to us looking at the stability of the deposits that we've got. So some of that is very granular and reactive to the data that we see coming through over time. But also, we do continue to look at the models that we use at a granular level across the book. So as we make model improvements, sometimes that changes the structural hedge balance. So it's a combination of refinements in the modelling and increased confidence in the stability that we're seeing.",
+    "reason": "The answer directly addresses both questions, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

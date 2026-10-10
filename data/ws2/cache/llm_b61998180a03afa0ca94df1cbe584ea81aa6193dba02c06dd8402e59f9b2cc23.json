@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Clarification on Argentina's NII assumption and its adjustment due to hyperinflation\",\n \"main_topics\": [\"Argentina NII\", \"Hyperinflation impact\", \"Financial planning\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I've got a few detailed follow-ups and one broader question. Just on banking NII, coming back to the moving parts, did I hear right, Georges, that you're assuming $1 billion within the $43 billion for Argentina?\",\n \"answer_quote\": \"Banking NII in Argentina - I think you've heard us say we've got a planning assumption of $1 billion, which was based on last year's numbers for Argentina.\",\n \"reason\": \"The answer directly addresses the question about the $1 billion assumption for Argentina's NII and explains the rationale behind it, including the impact of hyperinflation.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 851,
+      "batch_seconds": 23.558009484999275
+    }
+  ],
+  "exchange_id": "7f553358cc34-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b61998180a03afa0ca94df1cbe584ea81aa6193dba02c06dd8402e59f9b2cc23",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on Argentina's NII assumption and its adjustment due to hyperinflation",
+    "main_topics": [
+      "Argentina NII",
+      "Hyperinflation impact",
+      "Financial planning"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I've got a few detailed follow-ups and one broader question. Just on banking NII, coming back to the moving parts, did I hear right, Georges, that you're assuming $1 billion within the $43 billion for Argentina?",
+    "answer_quote": "Banking NII in Argentina - I think you've heard us say we've got a planning assumption of $1 billion, which was based on last year's numbers for Argentina.",
+    "reason": "The answer directly addresses the question about the $1 billion assumption for Argentina's NII and explains the rationale behind it, including the impact of hyperinflation."
+  },
+  "whitespace_adjusted_quotes": []
+}

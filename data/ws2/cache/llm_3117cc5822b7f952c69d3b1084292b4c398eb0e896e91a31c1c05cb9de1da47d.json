@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Outlook on Hong Kong deposit growth and market share, and growth of centrally funded net trading assets\",\n  \"main_topics\": [\"Hong Kong deposit growth\", \"Market share in Hong Kong\", \"Centrally funded net trading assets growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you see the outlook for the Hong Kong deposit growth?\",\n  \"answer_quote\": \"On the Hong Kong growth, the simple answer - it's what you've said - is the surplus for liquidity impact.\",\n  \"reason\": \"The answer directly addresses the outlook for Hong Kong deposit growth, mentions the growth from existing and new customers, and discusses market share and net trading assets growth, with high evidence level due to the inclusion of specific figures and a clear stance.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Outlook on Hong Kong deposit growth and centrally funded net trading assets\",\n  \"main_topics\": [\"Hong Kong deposit growth\", \"Centrally funded net trading assets\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the net trading assets, the simple answer - it's what you've said - is the surplus for liquidity impact.\",\n  \"answer_quote\": \"On the Hong Kong growth is coming both from our existing customers in Hong Kong as well as the new customers coming from mainland China, because they contribute to deposits longer-term.\",\n  \"reason\": \"The answer directly addresses both questions, providing specific insights into Hong Kong deposit growth and net trading assets, with high evidence level due to the mention of specific figures and growth drivers.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Outlook for Hong Kong deposit growth and market share, growth of net trading assets\",\n  \"main_topics\": [\"Hong Kong deposit growth\", \"market share\", \"net trading assets growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I've got two, please. The first is, Pam, how do you see the outlook for the Hong Kong deposit growth? I noticed that the system deposit growth has been really good, but it is slowing and now down to about 9%. On the other hand, your deposit growth is accelerating and has come up to about 9%. We'll see what happens for the industry overall, but do you think HSBC could take market share in deposits in Hong Kong for a sustained number of quarters?\",\n  \"answer_quote\": \"On the net trading assets, the simple answer - it's what you've said - is the surplus for liquidity impact. In terms of deposits, the Hong Kong growth is coming both from our existing customers in Hong Kong as well as the new customers coming from mainland China, because they contribute to deposits longer-term. We've seen deposit growth from our wholesale business as well as retail. There's some seasonal fluctuations between 4Q and 1Q. We are committed to continue to maintain and grow market share in Hong Kong, particularly as we start looking at some of the synergies that come with the privatisation of Hang Seng. Having said that, we don't really want to overpay for deposits - we are mindful of that - but the growth rates in Hong Kong are promising and Hong Kong truly is getting to a space where it used to be in 2017 before the protests and Covid and so on, and the connectivity with mainland China is an important growth engine there.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Outlook on Hong Kong deposit growth and market share, and growth of centrally funded net trading assets\",\n  \"main_topics\": [\"Hong Kong deposit growth\", \"Market share in Hong Kong\", \"Centrally funded net trading assets growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How do you see the outlook for the Hong Kong deposit growth?\",\n  \"answer_quote\": \"On the Hong Kong growth, the simple answer - it's what you've said - is the surplus for liquidity impact.\",\n  \"reason\": \"The answer directly addresses the outlook for Hong Kong deposit growth, mentions the growth from existing and new customers, and discusses market share and net trading assets growth, with high evidence level due to the inclusion of specific figures and a clear stance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 750,
+      "batch_seconds": 19.6119751870001
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 798,
+      "batch_seconds": 20.96559369500028
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 795,
+      "batch_seconds": 20.02667680200102
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3117cc5822b7f952c69d3b1084292b4c398eb0e896e91a31c1c05cb9de1da47d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

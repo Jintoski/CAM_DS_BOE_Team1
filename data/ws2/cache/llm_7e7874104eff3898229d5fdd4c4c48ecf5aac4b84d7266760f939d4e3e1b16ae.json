@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Comparison of assumptions in trade and ECL tests, impact on revenue, Hong Kong CRE trends\",\n  \"main_topics\": [\"ECL assumptions\", \"trade scenario\", \"revenue impact\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are the assumptions for the trade test better or worse than the - I mean the downside scenario - better or worse than those set of assumptions used in the ECL test?\",\n  \"answer_quote\": \"So we're not going to get into the detail, but the underpinning of the scenarios, whether it's ECLs or, indeed, on revenue, has the same starting point.\",\n  \"reason\": \"The answer partially addresses the comparison of assumptions but does not provide a direct comparison or a clear stance on whether the trade test assumptions are better or worse than the ECL test assumptions. It also does not directly answer the second question about the revenue impact.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Comparison of assumptions in trade and ECL tests, and impact on revenue\",\n  \"main_topics\": [\"ECL assumptions\", \"trade test assumptions\", \"revenue impact\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are the assumptions for the trade test better or worse than the - I mean the downside scenario - better or worse than those set of assumptions used in the ECL test?\",\n  \"answer_quote\": \"So in terms of Hong Kong CRE, this was a relatively quiet quarter.\",\n  \"reason\": \"The answer partially addresses the comparison of assumptions but does not provide a direct comparison. It also provides a general update on Hong Kong CRE without specific details.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Comparison of assumptions in trade and ECL tests, and impact on revenue\",\n  \"main_topics\": [\"ECL assumptions\", \"trade scenario\", \"revenue impact\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"If we compare those two tests, are the assumptions for the trade test better or worse than the - I mean the downside scenario - better or worse than those set of assumptions used in the ECL test?\",\n  \"answer_quote\": \"So we're not going to get into the detail, but the underpinning of the scenarios, whether it's ECLs or, indeed, on revenue, has the same starting point.\",\n  \"reason\": \"The answer partially addresses the comparison of assumptions but does not provide a direct comparison or a clear stance on whether the trade test assumptions are better or worse than the ECL test assumptions. It also does not directly answer the second question about the revenue impact.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Comparison of assumptions in trade and ECL tests, impact on revenue, Hong Kong CRE trends\",\n  \"main_topics\": [\"ECL assumptions\", \"trade scenario\", \"revenue impact\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are the assumptions for the trade test better or worse than the - I mean the downside scenario - better or worse than those set of assumptions used in the ECL test?\",\n  \"answer_quote\": \"So we're not going to get into the detail, but the underpinning of the scenarios, whether it's ECLs or, indeed, on revenue, has the same starting point.\",\n  \"reason\": \"The answer partially addresses the comparison of assumptions but does not provide a direct comparison or a clear stance on whether the trade test assumptions are better or worse than the ECL test assumptions. It also does not directly answer the second question about the revenue impact.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 800,
+      "batch_seconds": 22.248980599999413
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 848,
+      "batch_seconds": 21.946229556999242
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 848,
+      "batch_seconds": 21.521728711000833
+    }
+  ],
+  "exchange_id": "c6e92c439106-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7e7874104eff3898229d5fdd4c4c48ecf5aac4b84d7266760f939d4e3e1b16ae",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

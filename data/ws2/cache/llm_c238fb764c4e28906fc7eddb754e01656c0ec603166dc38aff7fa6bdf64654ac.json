@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Timing of a financial action\",\n  \"main_topics\": [\"payment schedule\", \"financial process\", \"timing confirmation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Right, so pay in Q3?\",\n  \"answer_quote\": \"It's our intent to do it as soon as we can. I can take you through the process, but there is a process we have to go through and the timelines will need to just flow through. But we'll confirm the timing at the Q1 results.\",\n  \"reason\": \"The answer partially addresses the question by discussing the intent and process but does not provide a specific timeline, hence 'Partial'. The stance is 'Hedged' as the speaker avoids a definitive answer. Low evidence level due to lack of explicit figures. Forward guidance is present as the Q1 results will confirm the timing. Narrative alignment is 'Partially aligned' as the response touches on the process and intent but lacks a clear commitment to a Q3 payment.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Timing of a payment\",\n  \"main_topics\": [\"Payment timing\", \"Process\", \"Q1 results\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Right, so pay in Q3?\",\n  \"answer_quote\": \"It's our intent to do it as soon as we can. I can take you through the process, but there is a process we have to go through and the timelines will need to just flow through. But we'll confirm the timing at the Q1 results.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 448,
+      "batch_seconds": 9.044579651000276
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 493,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c238fb764c4e28906fc7eddb754e01656c0ec603166dc38aff7fa6bdf64654ac",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Timing of a financial action",
+    "main_topics": [
+      "payment schedule",
+      "financial process",
+      "timing confirmation"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Right, so pay in Q3?",
+    "answer_quote": "It's our intent to do it as soon as we can. I can take you through the process, but there is a process we have to go through and the timelines will need to just flow through. But we'll confirm the timing at the Q1 results.",
+    "reason": "The answer partially addresses the question by discussing the intent and process but does not provide a specific timeline, hence 'Partial'. The stance is 'Hedged' as the speaker avoids a definitive answer. Low evidence level due to lack of explicit figures. Forward guidance is present as the Q1 results will confirm the timing. Narrative alignment is 'Partially aligned' as the response touches on the process and intent but lacks a clear commitment to a Q3 payment."
+  },
+  "whitespace_adjusted_quotes": []
+}

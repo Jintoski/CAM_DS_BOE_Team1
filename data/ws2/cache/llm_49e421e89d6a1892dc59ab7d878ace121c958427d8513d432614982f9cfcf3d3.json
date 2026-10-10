@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Clarification on rate sensitivity and hedge income impact, and updates on methodology, policy changes, and operational risk (OR1) figures.\",\n \"main_topics\": [\"Rate Sensitivity\", \"Hedge Income Impact\", \"Methodology and Policy Changes\", \"Operational Risk (OR1) Figures\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"the piece that I'm still struggling with a bit is the rate sensitivity, the £50m in year-one, I hear what you're saying about a lot of that being relating to deposit lag, but if there's £40bn of hedge maturities a year as per guidance, you'd have thought a 25 basis point shift in the curve would be knocking £50m out of the hedge income in year one.\",\n \"answer_quote\": \"So we said £170bn over three years. So I think you're probably closer to around £60bn of hedge maturing.\",\n \"reason\": \"The answer directly addresses the rate sensitivity question with a high level of evidence, providing a specific figure for hedge maturities and explaining the impact of rate changes on hedge income. It also responds to the second question with a direct answer, although it defers the operational risk (OR1) figures to a follow-up discussion.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1167,
+      "batch_seconds": 35.997767290999946
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "49e421e89d6a1892dc59ab7d878ace121c958427d8513d432614982f9cfcf3d3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on rate sensitivity and hedge income impact, and updates on methodology, policy changes, and operational risk (OR1) figures.",
+    "main_topics": [
+      "Rate Sensitivity",
+      "Hedge Income Impact",
+      "Methodology and Policy Changes",
+      "Operational Risk (OR1) Figures"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "the piece that I'm still struggling with a bit is the rate sensitivity, the £50m in year-one, I hear what you're saying about a lot of that being relating to deposit lag, but if there's £40bn of hedge maturities a year as per guidance, you'd have thought a 25 basis point shift in the curve would be knocking £50m out of the hedge income in year one.",
+    "answer_quote": "So we said £170bn over three years. So I think you're probably closer to around £60bn of hedge maturing.",
+    "reason": "The answer directly addresses the rate sensitivity question with a high level of evidence, providing a specific figure for hedge maturities and explaining the impact of rate changes on hedge income. It also responds to the second question with a direct answer, although it defers the operational risk (OR1) figures to a follow-up discussion."
+  },
+  "whitespace_adjusted_quotes": []
+}

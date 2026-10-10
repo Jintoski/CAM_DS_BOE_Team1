@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about NII performance and hedging activities\",\n  \"main_topics\": [\"NII performance\", \"Hedging activities\", \"Banking NII\", \"Trading book funding\", \"Structural hedging\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I wanted to ask about NII, please - a couple of questions. Firstly, I noted that the NIM was flat in Asia, in HBAP, quarter on quarter. Could you give us a bit more colour around that and what you would expect in Q3?\",\n  \"answer_quote\": \"Thanks, Manus. So on NIM/NII, NIM in Asia was flat because most of the uplift from rates has translated into an uplift into the non-NII component of the trading book funding, about $0.3 billion uplift in that space.\",\n  \"reason\": \"The response directly addresses the question about NII performance and hedging activities, providing a clear explanation and numerical evidence for the NII uplift and the impact of structural hedging.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about NII performance and hedging activities\",\n  \"main_topics\": [\"NII performance\", \"Hedging activities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I wanted to ask about NII, please - a couple of questions. Firstly, I noted that the NIM was flat in Asia, in HBAP, quarter on quarter. Could you give us a bit more colour around that and what you would expect in Q3?\",\n  \"answer_quote\": \"Thanks, Manus. So on NIM/NII, NIM in Asia was flat because most of the uplift from rates has translated into an uplift into the non-NII component of the trading book funding, about $0.3 billion uplift in that space.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 947,
+      "batch_seconds": 27.377247978000014
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 992,
+      "batch_seconds": 93.68255866899926
+    }
+  ],
+  "exchange_id": "d4d76c03f26c-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "cebc087434ac1c40aedfe0c45fe92c73cc308071188fa3b4aba5495274857fa2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about NII performance and hedging activities",
+    "main_topics": [
+      "NII performance",
+      "Hedging activities",
+      "Banking NII",
+      "Trading book funding",
+      "Structural hedging"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I wanted to ask about NII, please - a couple of questions. Firstly, I noted that the NIM was flat in Asia, in HBAP, quarter on quarter. Could you give us a bit more colour around that and what you would expect in Q3?",
+    "answer_quote": "Thanks, Manus. So on NIM/NII, NIM in Asia was flat because most of the uplift from rates has translated into an uplift into the non-NII component of the trading book funding, about $0.3 billion uplift in that space.",
+    "reason": "The response directly addresses the question about NII performance and hedging activities, providing a clear explanation and numerical evidence for the NII uplift and the impact of structural hedging."
+  },
+  "whitespace_adjusted_quotes": []
+}

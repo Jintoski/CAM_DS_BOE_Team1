@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Impact of rate hikes on NII and mortgage caps in Hong Kong\",\n  \"main_topics\": [\"NII\", \"Rate Hikes\", \"Mortgage Caps\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"At what point do the mortgage caps in Hong Kong kick in, and how material might that be? If the rate hikes were coming sooner and larger, does that mean that we hit the cap sooner and therefore NII benefits flatten out quicker?\",\n  \"answer_quote\": \"Yeah, I'll get our Investor Relations team to follow up, Manus, but I think it's around 160 basis points is where it starts to have an impact on NII growth.\",\n  \"reason\": \"The answer provides a specific figure (160 basis points) where NII growth is impacted, but does not fully address the mortgage caps question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 524,
+      "batch_seconds": 11.349980590999621
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "de116c0511293a38e7d171bf91dfb7f2a9b638bfa431a4cf9f14ced663ff5422",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Impact of rate hikes on NII and mortgage caps in Hong Kong",
+    "main_topics": [
+      "NII",
+      "Rate Hikes",
+      "Mortgage Caps"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "At what point do the mortgage caps in Hong Kong kick in, and how material might that be? If the rate hikes were coming sooner and larger, does that mean that we hit the cap sooner and therefore NII benefits flatten out quicker?",
+    "answer_quote": "Yeah, I'll get our Investor Relations team to follow up, Manus, but I think it's around 160 basis points is where it starts to have an impact on NII growth.",
+    "reason": "The answer provides a specific figure (160 basis points) where NII growth is impacted, but does not fully address the mortgage caps question."
+  },
+  "whitespace_adjusted_quotes": []
+}

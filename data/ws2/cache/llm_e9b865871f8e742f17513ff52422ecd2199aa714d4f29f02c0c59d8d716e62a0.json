@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on bank's business activities\",\n  \"main_topics\": [\"Bank's footprint\", \"Sanctions\", \"Business activities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Maybe what you are looking through at the moment?\",\n  \"answer_quote\": \"We wouldn't call out something specific. But, as Anna mentioned, Russia, I think we exited Russia in the 2014 non-core run down. That gives you a sense that our footprint is limited, as you'd expect, given we're not onshore Russia, we don't have commodities business, so you wouldn't be dealing with some of the corporations that have those kinds of businesses and they have exposure to. Obviously, applying sanctions, central bank restrictions, that's a way of life for us. We've been doing that for years. So nothing specifically I'd call out. But it's a very modest part of what we do. So that's why it's not something I think we should say much more than we already have.\"\n}\n",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the bank's business activities and exposure\",\n  \"main_topics\": [\"Bank's business activities\", \"Sanctions and restrictions\", \"Bank's footprint\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Maybe what you are looking through at the moment?\",\n  \"answer_quote\": \"We wouldn't call out something specific. But, as Anna mentioned, Russia, I think we exited Russia in the 2014 non-core run down. That gives you a sense that our footprint is limited, as you'd expect, given we're not onshore Russia, we don't have commodities business, so you wouldn't be dealing with some of the corporations that have those kinds of businesses and they have exposure to. Obviously, applying sanctions, central bank restrictions, that's a way of life for us. We've been doing that for years. So nothing specifically I'd call out. But it's a very modest part of what we do. So that's why it's not something I think we should say much more than we already have.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on bank's business activities\",\n  \"main_topics\": [\"Bank's footprint\", \"Sanctions\", \"Business activities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Maybe what you are looking through at the moment?\",\n  \"answer_quote\": \"We wouldn't call out something specific. But, as Anna mentioned, Russia, I think we exited Russia in the 2014 non-core run down. That gives you a sense that our footprint is limited, as you'd expect, given we're not onshore Russia, we don't have commodities business, so you wouldn't be dealing with some of the corporations that have those kinds of businesses and they have exposure to. Obviously, applying sanctions, central bank restrictions, that's a way of life for us. We've been doing that for years. So nothing specifically I'd call out. But it's a very modest part of what we do. So that's why it's not something I think we should say much more than we already have.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on bank's business activities\",\n  \"main_topics\": [\"Bank's footprint\", \"Sanctions\", \"Business activities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Maybe what you are looking through at the moment?\",\n  \"answer_quote\": \"We wouldn't call out something specific. But, as Anna mentioned, Russia, I think we exited Russia in the 2014 non-core run down. That gives you a sense that our footprint is limited, as you'd expect, given we're not onshore Russia, we don't have commodities business, so you wouldn't be dealing with some of the corporations that have those kinds of businesses and they have exposure to. Obviously, applying sanctions, central bank restrictions, that's a way of life for us. We've been doing that for years. So nothing specifically I'd call out. But it's a very modest part of what we do. So that's why it's not something I think we should say much more than we already have.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 539,
+      "batch_seconds": 11.927918320000572
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 584,
+      "batch_seconds": 12.623332375000246
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 584,
+      "batch_seconds": 12.46537487400019
+    }
+  ],
+  "exchange_id": "40fbb063266a-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e9b865871f8e742f17513ff52422ecd2199aa714d4f29f02c0c59d8d716e62a0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

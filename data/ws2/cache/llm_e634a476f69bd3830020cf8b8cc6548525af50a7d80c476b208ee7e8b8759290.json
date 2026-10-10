@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about the bank's strategy on capital allocation and SRTs in Asia\",\n  \"main_topics\": [\"capital allocation\", \"SRTs\", \"Asia\", \"regulatory factors\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, you mentioned that you're not very active in SRTs, or you're conservative in RWA mitigation, but considering you've got a 14-14.5% capital target, and loan growth is picking up - even if you look beyond Q1, it's picking up - and in CIB across all the banks probably we cover, what's holding you back from being more active in that? Is it the type of lending in Asia that's not suitable maybe for these instruments, or why not more aggressive on that?\",\n  \"answer_quote\": \"To be honest with you, we were slow to start because we didn't really have an issue in terms of capital. Many banks started this journey 10, 15 years ago because they were capital constrained. We were not, so we didn't. So we are now absolutely focusing our investment prioritisation to build this. We've done some - very little balance sheet velocity work in the last year and a half - but we have started doing some, in the UK, in Asia, and we are continuing to focus on that. That's an area for us within the right risk parameters. We have a lot of room to do more, compared to some other banks who may have done too much and have to scale back because of some regulatory factors. We absolutely have scope to do more, but this is not something which we have traditionally done. That's the honest answer.\",\n  \"reason\": \"The answer directly addresses the question about the bank's strategy on capital allocation and SRTs in Asia, providing a clear stance and alignment with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the bank's strategy on capital allocation and SRTs in Asia.\",\n  \"main_topics\": [\"Capital Allocation\", \"SRTs\", \"Asia\", \"Capital Target\", \"Loan Growth\", \"CIB\", \"Risk Parameters\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, you mentioned that you're not very active in SRTs, or you're conservative in RWA mitigation, but considering you've got a 14-14.5% capital target, and loan growth is picking up - even if you look beyond Q1, it's picking up - and in CIB across all the banks probably we cover, what's holding you back from being more active in that? Is it the type of lending in Asia that's not suitable maybe for these instruments, or why not more aggressive on that?\",\n  \"answer_quote\": \"To be honest with you, we were slow to start because we didn't really have an issue in terms of capital. Many banks started this journey 10, 15 years ago because they were capital constrained. We were not, so we didn't. So we are now absolutely focusing our investment prioritisation to build this. We've done some - very little balance sheet velocity work in the last year and a half - but we have started doing some, in the UK, in Asia, and we are continuing to focus on that. That's an area for us within the right risk parameters. We have a lot of room to do more, compared to some other banks who may have done too much and have to scale back because of some regulatory factors. We absolutely have scope to do more, but this is not something which we have traditionally done. That's the honest answer.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 664,
+      "batch_seconds": 15.884756681999534
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 709,
+      "batch_seconds": 18.00490129800164
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x024",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e634a476f69bd3830020cf8b8cc6548525af50a7d80c476b208ee7e8b8759290",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about the bank's strategy on capital allocation and SRTs in Asia",
+    "main_topics": [
+      "capital allocation",
+      "SRTs",
+      "Asia",
+      "regulatory factors"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On capital, you mentioned that you're not very active in SRTs, or you're conservative in RWA mitigation, but considering you've got a 14-14.5% capital target, and loan growth is picking up - even if you look beyond Q1, it's picking up - and in CIB across all the banks probably we cover, what's holding you back from being more active in that? Is it the type of lending in Asia that's not suitable maybe for these instruments, or why not more aggressive on that?",
+    "answer_quote": "To be honest with you, we were slow to start because we didn't really have an issue in terms of capital. Many banks started this journey 10, 15 years ago because they were capital constrained. We were not, so we didn't. So we are now absolutely focusing our investment prioritisation to build this. We've done some - very little balance sheet velocity work in the last year and a half - but we have started doing some, in the UK, in Asia, and we are continuing to focus on that. That's an area for us within the right risk parameters. We have a lot of room to do more, compared to some other banks who may have done too much and have to scale back because of some regulatory factors. We absolutely have scope to do more, but this is not something which we have traditionally done. That's the honest answer.",
+    "reason": "The answer directly addresses the question about the bank's strategy on capital allocation and SRTs in Asia, providing a clear stance and alignment with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

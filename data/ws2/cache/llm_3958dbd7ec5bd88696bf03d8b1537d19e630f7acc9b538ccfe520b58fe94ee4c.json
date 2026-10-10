@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about non-interest income growth in Asia, specifically in Hong Kong, and deposit migration in Hong Kong.\",\n  \"main_topics\": [\"non-interest income growth in Asia\", \"deposit migration in Hong Kong\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is perhaps on non-interest income, especially in wealth in Asia. If I look at your Asian entity reporting and look at revenues, it's pretty flat quarter on quarter, but NII has gone up a little bit, so that suggests to me that non-interest income has come down a little. I'm just wondering what you see in the frontline, especially with regards to wealth and obviously Hong Kong's GDP print yesterday was quite a bit weaker than expected, so just what you see in context and your expectation about your Chinese business and to what extent do you think that that might help you.\",\n  \"answer_quote\": \"On the non-NII wealth in Asia, you will observe actually the biggest pick-up is in insurance - sorry, first taking the impact of funding the trading book, which is showing under non-NII and is material, it's $1.2 billion. If you take this one out, the growth is essentially from insurance and insurance in Hong Kong. It does appear under non-NII, but not fee income. That growth is a reflection of the growth we've seen in Q1. It's in the 40% to 50% growth year on year. It is reflective of the opening of the border between China and Hong Kong and the additional inflow of mainland Chinese new policies in our Hong Kong business. About 30% of new policies are from mainland Chinese. As you would expect, insurance is a core component of wealth, in particular here in Hong Kong, and that's the main driver of the growth. We still see some softness in wealth with regards equities trading, and that's more reflective of the equity markets in general, and I want to say while the Hong Kong GDP is the main driver of our loan portfolios in terms of growth in our balance sheet, wealth activity is not necessarily directly linked to the GDP. It is linked to investor behaviours and it is linked to sentiment in the market. With regards your second question on migration, in HSBC we continue to see a migration of around 1% per month, although it did slow a little bit in April, but that continued a trend that we have been forecasting, whereas in Hang Seng, where the term deposit share is in the mid-30s percent. Our colleagues in Hang Seng have taken a proactive approach to manage some of the highly rate-sensitive deposits, and allowed them, if you want, to accept some attrition against these highly rate-sensitive or rate-chasing deposits, and this is what allowed them to maintain or slightly reduce their term deposit mix. They're benefiting from a very strong liquidity position and a strong deposit franchise, and they do not need, necessarily, highly rate-sensitive deposits at that margin.\",\n  \"reason\": \"The answer directly addresses the questions about non-interest income growth in Asia and deposit migration in Hong Kong, providing specific figures and insights, thus fulfilling the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 999,
+      "batch_seconds": 30.56151243899967
+    }
+  ],
+  "exchange_id": "d4d76c03f26c-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3958dbd7ec5bd88696bf03d8b1537d19e630f7acc9b538ccfe520b58fe94ee4c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about non-interest income growth in Asia, specifically in Hong Kong, and deposit migration in Hong Kong.",
+    "main_topics": [
+      "non-interest income growth in Asia",
+      "deposit migration in Hong Kong"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is perhaps on non-interest income, especially in wealth in Asia. If I look at your Asian entity reporting and look at revenues, it's pretty flat quarter on quarter, but NII has gone up a little bit, so that suggests to me that non-interest income has come down a little. I'm just wondering what you see in the frontline, especially with regards to wealth and obviously Hong Kong's GDP print yesterday was quite a bit weaker than expected, so just what you see in context and your expectation about your Chinese business and to what extent do you think that that might help you.",
+    "answer_quote": "On the non-NII wealth in Asia, you will observe actually the biggest pick-up is in insurance - sorry, first taking the impact of funding the trading book, which is showing under non-NII and is material, it's $1.2 billion. If you take this one out, the growth is essentially from insurance and insurance in Hong Kong. It does appear under non-NII, but not fee income. That growth is a reflection of the growth we've seen in Q1. It's in the 40% to 50% growth year on year. It is reflective of the opening of the border between China and Hong Kong and the additional inflow of mainland Chinese new policies in our Hong Kong business. About 30% of new policies are from mainland Chinese. As you would expect, insurance is a core component of wealth, in particular here in Hong Kong, and that's the main driver of the growth. We still see some softness in wealth with regards equities trading, and that's more reflective of the equity markets in general, and I want to say while the Hong Kong GDP is the main driver of our loan portfolios in terms of growth in our balance sheet, wealth activity is not necessarily directly linked to the GDP. It is linked to investor behaviours and it is linked to sentiment in the market. With regards your second question on migration, in HSBC we continue to see a migration of around 1% per month, although it did slow a little bit in April, but that continued a trend that we have been forecasting, whereas in Hang Seng, where the term deposit share is in the mid-30s percent. Our colleagues in Hang Seng have taken a proactive approach to manage some of the highly rate-sensitive deposits, and allowed them, if you want, to accept some attrition against these highly rate-sensitive or rate-chasing deposits, and this is what allowed them to maintain or slightly reduce their term deposit mix. They're benefiting from a very strong liquidity position and a strong deposit franchise, and they do not need, necessarily, highly rate-sensitive deposits at that margin.",
+    "reason": "The answer directly addresses the questions about non-interest income growth in Asia and deposit migration in Hong Kong, providing specific figures and insights, thus fulfilling the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

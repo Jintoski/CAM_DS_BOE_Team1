@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's exposure to fraud cases and the impact on impairment charges, and ask for more details on the ECL scenario risk weighting.\",\n  \"main_topics\": [\"Fraud case exposure\", \"Impairment charges\", \"ECL scenario risk weighting\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can we have more colour about the fraud case - what is your total exposure? The key concern is whether this $0.4 billion is a one-off, or are we going to see more of a step-up in impairment charges because of these cases?\",\n  \"answer_quote\": \"Of course, we continue to review our risk appetite, tighten due diligence and so on, so therefore we feel quite comfortable that this is a one-off fraud, indeed, and it comes to us through a secondary exposure that we have through a financial sponsor and where there was reliance on the financial sponsor's due diligence.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance on the fraud case and impairment charges, and includes high-level evidence with numeric references, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 945,
+      "batch_seconds": 25.474934328000018
+    }
+  ],
+  "exchange_id": "351debb0a36f-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "40300b7b2eab0bac883ca7a0ce92b68e00af2f39673f322d4bc512f5ab6a1e0f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the bank's exposure to fraud cases and the impact on impairment charges, and ask for more details on the ECL scenario risk weighting.",
+    "main_topics": [
+      "Fraud case exposure",
+      "Impairment charges",
+      "ECL scenario risk weighting"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can we have more colour about the fraud case - what is your total exposure? The key concern is whether this $0.4 billion is a one-off, or are we going to see more of a step-up in impairment charges because of these cases?",
+    "answer_quote": "Of course, we continue to review our risk appetite, tighten due diligence and so on, so therefore we feel quite comfortable that this is a one-off fraud, indeed, and it comes to us through a secondary exposure that we have through a financial sponsor and where there was reliance on the financial sponsor's due diligence.",
+    "reason": "The answer directly addresses the question's intent, provides a clear stance on the fraud case and impairment charges, and includes high-level evidence with numeric references, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

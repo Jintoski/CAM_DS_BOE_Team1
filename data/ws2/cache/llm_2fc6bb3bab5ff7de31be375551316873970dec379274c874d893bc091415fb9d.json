@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Growth potential and differences in Private Banking and Wealth\",\n  \"main_topics\": [\"Private Banking Growth\", \"Private Banking Strategy\", \"Private Bank Performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Again, on Private Banking and Wealth. I guess it's just about the opportunities because it sounds like in BUK, I think you're pretty happy with the capabilities you have. So I guess in the non-CIB, part of the business. What do you think of this Private Banking Wealth entity as a growth engine. And I guess if so, what's different this time because many of the UK banks have tried to push wealth, and when I was here at Barclays, that was one of the things you talked about at the time, and obviously more recently Lloyds as well. So I guess what is different this time?\",\n  \"answer_quote\": \"Okay. So we do have some ambition to grow it, [..] that's why we are bringing it back together. What's different this time? I guess, if you look at the momentum in our Private Bank, I know it's small, but just go back along the quarterly earnings for the last few quarters, we've given it quarter on quarter and you will just see it quietly growing. We have confidence in the capabilities that we've got within that business and it feels like a good time to bring them together. So, I think greater clarity of strategy, and the fact that actually we're basing this on the business that's already performing, I think this is a different view. Our Private Bank had revenues of more than a £1bn last year. But it's not a business that we talk about. I've had more questions on that today that than we've ever had.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high evidence with numeric data, and aligns with the narrative of growth and strategy in Private Banking and Wealth.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Growth potential and differences in Private Banking Wealth strategy\",\n  \"main_topics\": [\"Private Banking Growth\", \"Strategy Clarity\", \"Performance Metrics\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And I guess what is different this time?\",\n  \"answer_quote\": \"So, I think greater clarity of strategy, and the fact that actually we're basing this on the business that's already performing, I think this is a different view.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 687,
+      "batch_seconds": 17.331225140999777
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 732,
+      "batch_seconds": 18.66627761699965
+    }
+  ],
+  "exchange_id": "c91814891a58-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2fc6bb3bab5ff7de31be375551316873970dec379274c874d893bc091415fb9d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Growth potential and differences in Private Banking and Wealth",
+    "main_topics": [
+      "Private Banking Growth",
+      "Private Banking Strategy",
+      "Private Bank Performance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Again, on Private Banking and Wealth. I guess it's just about the opportunities because it sounds like in BUK, I think you're pretty happy with the capabilities you have. So I guess in the non-CIB, part of the business. What do you think of this Private Banking Wealth entity as a growth engine. And I guess if so, what's different this time because many of the UK banks have tried to push wealth, and when I was here at Barclays, that was one of the things you talked about at the time, and obviously more recently Lloyds as well. So I guess what is different this time?",
+    "answer_quote": "Okay. So we do have some ambition to grow it, [..] that's why we are bringing it back together. What's different this time? I guess, if you look at the momentum in our Private Bank, I know it's small, but just go back along the quarterly earnings for the last few quarters, we've given it quarter on quarter and you will just see it quietly growing. We have confidence in the capabilities that we've got within that business and it feels like a good time to bring them together. So, I think greater clarity of strategy, and the fact that actually we're basing this on the business that's already performing, I think this is a different view. Our Private Bank had revenues of more than a £1bn last year. But it's not a business that we talk about. I've had more questions on that today that than we've ever had.",
+    "reason": "The answer directly addresses the question's intent, provides high evidence with numeric data, and aligns with the narrative of growth and strategy in Private Banking and Wealth."
+  },
+  "whitespace_adjusted_quotes": []
+}

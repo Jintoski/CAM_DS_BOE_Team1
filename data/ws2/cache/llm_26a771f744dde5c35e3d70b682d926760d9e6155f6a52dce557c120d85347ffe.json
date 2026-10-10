@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explain Wealth business revenue and net new invested asset discrepancy in Asia, and discuss Asia loan growth outlook.\",\n  \"main_topics\": [\"Wealth business performance\", \"Net new invested assets in Asia\", \"Asia loan growth outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was just wondering if you could explain the slight disconnect with the net new invested asset number in Asia, which certainly was positive, but probably not quite as positive as I might have expected given how good the revenue line was.\",\n  \"answer_quote\": \"First, our Wealth business, as you've seen in this quarter, has exhibited double-digit returns. This is the third quarter in a row with similar-type returns. The Wealth business, as you know, is generated from four segments, one of which has performed quite well, which is the trading activities of our customers, and that manifests both in the private bank as well as in our invested assets. They have been very strong, and they've been even stronger following the measures we've seen in China.\",\n  \"reason\": \"The answer directly addresses the revenue and net new invested asset discrepancy in Asia and provides a positive outlook on Asia loan growth, with high evidence level due to the inclusion of specific figures and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 907,
+      "batch_seconds": 25.496445402000063
+    }
+  ],
+  "exchange_id": "343c6d0cce9b-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "26a771f744dde5c35e3d70b682d926760d9e6155f6a52dce557c120d85347ffe",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Explain Wealth business revenue and net new invested asset discrepancy in Asia, and discuss Asia loan growth outlook.",
+    "main_topics": [
+      "Wealth business performance",
+      "Net new invested assets in Asia",
+      "Asia loan growth outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I was just wondering if you could explain the slight disconnect with the net new invested asset number in Asia, which certainly was positive, but probably not quite as positive as I might have expected given how good the revenue line was.",
+    "answer_quote": "First, our Wealth business, as you've seen in this quarter, has exhibited double-digit returns. This is the third quarter in a row with similar-type returns. The Wealth business, as you know, is generated from four segments, one of which has performed quite well, which is the trading activities of our customers, and that manifests both in the private bank as well as in our invested assets. They have been very strong, and they've been even stronger following the measures we've seen in China.",
+    "reason": "The answer directly addresses the revenue and net new invested asset discrepancy in Asia and provides a positive outlook on Asia loan growth, with high evidence level due to the inclusion of specific figures and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

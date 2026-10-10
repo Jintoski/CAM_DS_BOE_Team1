@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Predict future earnings change\",\n  \"main_topics\": [\"Bank earnings\", \"Non-NII\", \"Future earnings projection\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Non-NII will go up by $2.2 billion, but then down again based on...\",\n  \"answer_quote\": \"That's correct, exactly. We have to thank you and apologise for a fiddly first half, but we'll get there.\",\n  \"reason\": \"The answer acknowledges the question but does not provide the missing numerical evidence or forward guidance, and the stance is hedged with an apology for a previous part of the discussion.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Predict future earnings change\",\n  \"main_topics\": [\"Earnings\", \"Non-NII\", \"Forecast\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Non-NII will go up by $2.2 billion, but then down again based on...\",\n  \"answer_quote\": \"That's correct, exactly. We have to thank you and apologise for a fiddly first half, but we'll get there.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 433,
+      "batch_seconds": 7.036173496000629
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 478,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "4970375d012d-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "505d85dab058f7b509f74d8c8afa3fe6124ff194e19c059b6ee516968c4eb63b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Predict future earnings change",
+    "main_topics": [
+      "Bank earnings",
+      "Non-NII",
+      "Future earnings projection"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Non-NII will go up by $2.2 billion, but then down again based on...",
+    "answer_quote": "That's correct, exactly. We have to thank you and apologise for a fiddly first half, but we'll get there.",
+    "reason": "The answer acknowledges the question but does not provide the missing numerical evidence or forward guidance, and the stance is hedged with an apology for a previous part of the discussion."
+  },
+  "whitespace_adjusted_quotes": []
+}

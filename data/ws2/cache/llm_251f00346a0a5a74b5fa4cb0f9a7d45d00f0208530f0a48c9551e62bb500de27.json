@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss the impact of delayed £16bn on capital mitigation plans and portfolio costs.\",\n  \"main_topics\": [\n    \"Capital mitigation plans\",\n    \"Portfolio costs\",\n    \"Delayed £16bn impact\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"No, it was more that I think there was going to be an ongoing process of trying to mitigate that £16bn, and therefore with the £16bn not coming in until six months later, whether you\\\\\\\\\\\\\"d do some of that mitigation beforehand.\",\n  \"answer_quote\": \"No. So, all we updated you on was a change in timing. Certainly we would not change our expectation on that number at this point in time. So I'd still continue to assume that what we're saying is a couple of things really, Firstly, we have these capital mitigation plans in place both around SRT, but also the line management that will take some time to work its way through, Robin. So I wouldn't assume that six months would make too much difference to portfolio costs.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a complete response, and includes high evidence with numeric evidence, aligning with the question's narrative.\"\n}",
+  "error": "JSONDecodeError: Expecting ',' delimiter: line 14 column 211 (char 634)",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of delayed £16bn on capital mitigation plans and portfolio costs.\",\n  \"main_topics\": [\"Capital Mitigation Plans\", \"Portfolio Costs\", \"Delayed £16bn Impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"No, it was more that I think there was going to be an ongoing process of trying to mitigate that £16bn, and therefore with the £16bn not coming in until six months later, whether you\\\\\\\\\\\\\"d do some of that mitigation beforehand.\",\n  \"answer_quote\": \"No. So, all we updated you on was a change in timing. Certainly we would not change our expectation on that number at this point in time. So I'd still continue to assume that what we're saying is a couple of things really, Firstly, we have these capital mitigation plans in place both around SRT, but also the line management that will take some time to work its way through, Robin. So I wouldn't assume that six months would make too much difference to portfolio costs. You've got portfolio growth going in the opposite direction. The other thing I would say is that because of the time when we called out the implementation, clearly we're at a slightly higher level of delinquencies and these models are much more risk sensitive than the previous standardised level. So that's another thing that was causing us to indicate that a more normal run rate when you see delinquencies normalised would be a slightly lower risk density. In terms of savings, I'm not going to comment on our savings pricing strategy other than to say, I think the regulatory time period is 60 days. So ordinarily we would expect a two month lag, but I'm not going to comment on our pricing strategy more generally.\",\n  \"reason\": \"The answer directly addresses the impact of the delayed £16bn on capital mitigation and portfolio costs, providing a clear stance and high evidence level with numeric references.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 10 column 211 (char 618)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of delayed £16bn on capital mitigation plans and portfolio costs.\",\n  \"main_topics\": [\"Capital Mitigation Plans\", \"Portfolio Costs\", \"Delayed £16bn Impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"No, it was more that I think there was going to be an ongoing process of trying to mitigate that £16bn, and therefore with the £16bn not coming in until six months later, whether you\\\\\\\\\\\\\"d do some of that mitigation beforehand.\",\n  \"answer_quote\": \"No. So, all we updated you on was a change in timing. Certainly we would not change our expectation on that number at this point in time. So I'd still continue to assume that what we're saying is a couple of things really, Firstly, we have these capital mitigation plans in place both around SRT, but also the line management that will take some time to work its way through, Robin. So I wouldn't assume that six months would make too much difference to portfolio costs. You've got portfolio growth going in the opposite direction. The other thing I would say is that because of the time when we called out the implementation, clearly we're at a slightly higher level of delinquencies and these models are much more risk sensitive than the previous standardised level. So that's another thing that was causing us to indicate that a more normal run rate when you see delinquencies normalised would be a slightly lower risk density. In terms of savings, I'm not going to comment on our savings pricing strategy other than to say, I think the regulatory time period is 60 days. So ordinarily we would expect a two month lag, but I'm not going to comment on our pricing strategy more generally.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a complete response with high evidence level, including numeric evidence, and is aligned with the narrative of the question.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 10 column 211 (char 618)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of delayed £16bn on capital mitigation plans and portfolio costs.\",\n  \"main_topics\": [\n    \"Capital mitigation plans\",\n    \"Portfolio costs\",\n    \"Delayed £16bn impact\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"No, it was more that I think there was going to be an ongoing process of trying to mitigate that £16bn, and therefore with the £16bn not coming in until six months later, whether you\\\\\\\\\\\\\"d do some of that mitigation beforehand.\",\n  \"answer_quote\": \"No. So, all we updated you on was a change in timing. Certainly we would not change our expectation on that number at this point in time. So I'd still continue to assume that what we're saying is a couple of things really, Firstly, we have these capital mitigation plans in place both around SRT, but also the line management that will take some time to work its way through, Robin. So I wouldn't assume that six months would make too much difference to portfolio costs.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a complete response, and includes high evidence with numeric evidence, aligning with the question's narrative.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 14 column 211 (char 634)"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 677,
+      "batch_seconds": 17.234387012000298
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 731,
+      "batch_seconds": 18.66627761699965
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 731,
+      "batch_seconds": 17.25838861400007
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "251f00346a0a5a74b5fa4cb0f9a7d45d00f0208530f0a48c9551e62bb500de27",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

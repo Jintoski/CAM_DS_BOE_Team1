@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request to proceed with the next question\",\n  \"main_topics\": [\"Proceeding to next question\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay. Thank you.\",\n  \"answer_quote\": \"Thank you. Next question, please.\",\n  \"reason\": \"The response directly addresses the request to proceed with the next question, with no additional information or evidence provided.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request to proceed with the next question\",\n  \"main_topics\": [\"Proceeding with questions\", \"Bank earnings-call\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Okay. Thank you.\",\n  \"answer_quote\": \"Thank you. Next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 402,
+      "batch_seconds": 6.255509784999958
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 3,
+      "input_tokens": 447,
+      "batch_seconds": 6.076693746999808
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ec028cda871e9c150f11ef054b591fb17f6c058e87ba0dd8b7d37916535f3d85",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request to proceed with the next question",
+    "main_topics": [
+      "Proceeding to next question"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Okay. Thank you.",
+    "answer_quote": "Thank you. Next question, please.",
+    "reason": "The response directly addresses the request to proceed with the next question, with no additional information or evidence provided."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Predicting UK NIM movement without Treasury tailwinds\",\n  \"main_topics\": [\"UK NIM\", \"Treasury tailwinds\", \"Product compression\", \"Asset margins\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do you think, without the Treasury movements turning into tailwinds, the UK NIM would still manage to creep up?\",\n  \"answer_quote\": \"I would say yes, because they are modest Treasury tailwinds. We did talk before about expecting more product compression earlier in the year than later, and that part of the seasonal movement that we see in deposits around Q1.\",\n  \"reason\": \"The answer partially addresses the question by affirming the UK NIM could still increase without Treasury tailwinds, but it lacks specific numeric evidence and does not provide a clear comparison to the 'structural hedge tailwind'.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 532,
+      "batch_seconds": 11.99581223000041
+    }
+  ],
+  "exchange_id": "0459b7abee3e-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3c2bfa3655e74fe92453320d20660571342ac28d36fa74bbe5f0232f762911d3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Predicting UK NIM movement without Treasury tailwinds",
+    "main_topics": [
+      "UK NIM",
+      "Treasury tailwinds",
+      "Product compression",
+      "Asset margins"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Do you think, without the Treasury movements turning into tailwinds, the UK NIM would still manage to creep up?",
+    "answer_quote": "I would say yes, because they are modest Treasury tailwinds. We did talk before about expecting more product compression earlier in the year than later, and that part of the seasonal movement that we see in deposits around Q1.",
+    "reason": "The answer partially addresses the question by affirming the UK NIM could still increase without Treasury tailwinds, but it lacks specific numeric evidence and does not provide a clear comparison to the 'structural hedge tailwind'."
+  },
+  "whitespace_adjusted_quotes": []
+}

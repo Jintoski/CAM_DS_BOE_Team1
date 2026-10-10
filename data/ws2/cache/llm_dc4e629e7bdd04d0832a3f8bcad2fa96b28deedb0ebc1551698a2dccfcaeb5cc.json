@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss Best Egg's strategy, consequences for post-Basel IRB RWA density, and Prime balances growth.\",\n  \"main_topics\": [\n    \"Best Egg strategy\",\n    \"post-Basel IRB RWA density\",\n    \"Prime balances growth\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you could just talk a little bit about what that might mean and if there are consequences for post Basel IRB RWA density, perhaps where you think that might land once all that's done.\",\n  \"answer_quote\": \"Best Egg comes from two things really. The first is our desire to be this more sort of rounded consumer disruptor, if you like, in the US. So really looking for a capability around unsecured loans.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high-level overview of Best Egg's strategy, its implications for RWA density, and the growth of Prime balances, with clear narrative alignment to the question.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the implications of Best Egg's strategy on post-Basel IRB RWA density and the evolution of Prime balances and revenues in the Investment Bank.\",\n  \"main_topics\": [\"Best Egg strategy\", \"post-Basel IRB RWA density\", \"Prime balances and revenues\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you could just talk a little bit about what that might mean and if there are consequences for post Basel IRB RWA density, perhaps where you think that might land once all that's done.\",\n  \"answer_quote\": \"Best Egg comes from two things really. The first is our desire to be this more sort of rounded consumer disruptor, if you like, in the US. So really looking for a capability around unsecured loans. We were doing some unsecured lending with some of our partners, but it was really quite limited. So, really, if you like, purchasing a capability that we really lacked. So it's partly about the products there, but equally about the capital-light model.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high-level overview of Best Egg's strategy and its implications for RWA density, with a clear narrative alignment to the question's topics.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss Best Egg's strategy, consequences for post-Basel IRB RWA density, and Prime balances growth.\",\n  \"main_topics\": [\n    \"Best Egg strategy\",\n    \"post-Basel IRB RWA density\",\n    \"Prime balances growth\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you could just talk a little bit about what that might mean and if there are consequences for post Basel IRB RWA density, perhaps where you think that might land once all that's done.\",\n  \"answer_quote\": \"Best Egg comes from two things really. The first is our desire to be this more sort of rounded consumer disruptor, if you like, in the US. So really looking for a capability around unsecured loans.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high-level overview of Best Egg's strategy, its implications for RWA density, and the growth of Prime balances, with clear narrative alignment to the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss Best Egg's strategy, consequences for post-Basel IRB RWA density, and Prime balances growth.\",\n  \"main_topics\": [\n    \"Best Egg strategy\",\n    \"post-Basel IRB RWA density\",\n    \"Prime balances growth\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you could just talk a little bit about what that might mean and if there are consequences for post Basel IRB RWA density, perhaps where you think that might land once all that's done.\",\n  \"answer_quote\": \"Best Egg comes from two things really. The first is our desire to be this more sort of rounded consumer disruptor, if you like, in the US. So really looking for a capability around unsecured loans.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high-level overview of Best Egg's strategy, its implications for RWA density, and the growth of Prime balances, with clear narrative alignment to the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 891,
+      "batch_seconds": 25.700167768999563
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 939,
+      "batch_seconds": 25.316221690998645
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 939,
+      "batch_seconds": 25.31954854899959
+    }
+  ],
+  "exchange_id": "f2e71aa79765-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "dc4e629e7bdd04d0832a3f8bcad2fa96b28deedb0ebc1551698a2dccfcaeb5cc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

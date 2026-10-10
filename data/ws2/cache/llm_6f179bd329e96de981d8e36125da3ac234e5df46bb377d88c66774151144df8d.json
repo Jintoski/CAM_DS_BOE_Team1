@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about RWA growth outlook and future actions for HSBC\",\n  \"main_topics\": [\"RWA growth outlook\", \"HSBC future actions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could give us a little bit more colour on the growth in RWAs, the $7 billion of increase driven by asset quality trends. What should we think about the outlook for RWA growth from here, even if loan growth is muted, just to get a sense of the amount of capital that you will have in quantum terms for distributions?\",\n  \"answer_quote\": \"I'll start with your first question, Raul. First, on RWA outlook, of the RWA growth we called on a quarter-on-quarter basis $24 billion. First, about 40% of it relate to lending and other asset growth, and as you can see from our lending book, we've grown our lending book by $5 billion. There are a number of areas of growth that contributed to around 40% of it, $9 billion. Then we've had a $5 billion market risk RWA growth; this is due to a pickup in MSS activity against a subdued Q4, and it's more in line with their activity levels in the first three quarters of the year, if you want. This is the normalisation of Markets activity. And then there is $7 billion which we classified broadly as asset quality.\",\n  \"reason\": \"The response directly addresses the question about RWA growth and future actions, providing specific figures and a clear outlook.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss RWA growth and future outlook, and reflect on HSBC's strategic progress and future plans.\",\n \"main_topics\": [\"RWA growth\", \"HSBC strategic progress\", \"Future plans\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I was wondering if you could give us a little bit more colour on the growth in RWAs, the $7 billion of increase driven by asset quality trends. What should we think about the outlook for RWA growth from here, even if loan growth is muted, just to get a sense of the amount of capital that you will have in quantum terms for distributions?\",\n \"answer_quote\": \"I'll start with your first question, Raul. First, on RWA outlook, of the RWA growth we called on a quarter-on-quarter basis $24 billion. First, about 40% of it relate to lending and other asset growth, and as you can see from our lending book, we've grown our lending book by $5 billion. There are a number of areas of growth that contributed to around 40% of it, $9 billion. Then we've had a $5 billion market risk RWA growth; this is due to a pickup in MSS activity against a subdued Q4, and it's more in line with their activity levels in the first three quarters of the year, if you want. This is the normalisation of Markets activity. And then there is $7 billion which we classified broadly as asset quality.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call question about RWA growth and outlook, and a broader question about HSBC's future strategy post-pandemic.\",\n  \"main_topics\": [\"RWA growth\", \"Outlook for RWA growth\", \"HSBC's future strategy\", \"Pandemic impact\", \"Business exits\", \"International core focus\", \"Sustainable growth\", \"Transaction banking\", \"Global wholesale banking\", \"Corporate loan demand\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could give us a little bit more colour on the growth in RWAs, the $7 billion of increase driven by asset quality trends. What should we think about the outlook for RWA growth from here, even if loan growth is muted, just to get a sense of the amount of capital that you will have in quantum terms for distributions?\",\n  \"answer_quote\": \"I'll start with your first question, Raul. First, on RWA outlook, of the RWA growth we called on a quarter-on-quarter basis $24 billion. First, about 40% of it relate to lending and other asset growth, and as you can see from our lending book, we've grown our lending book by $5 billion. There are a number of areas of growth that contributed to around 40% of it, $9 billion. Then we've had a $5 billion market risk RWA growth; this is due to a pickup in MSS activity against a subdued Q4, and it's more in line with their activity levels in the first three quarters of the year, if you want. This is the normalisation of Markets activity. And then there is $7 billion which we classified broadly as asset quality.\",\n  \"reason\": \"The response directly addresses the question about RWA growth and outlook, provides numeric evidence, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about RWA growth outlook and future actions for HSBC\",\n  \"main_topics\": [\"RWA growth outlook\", \"HSBC future actions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could give us a little bit more colour on the growth in RWAs, the $7 billion of increase driven by asset quality trends. What should we think about the outlook for RWA growth from here, even if loan growth is muted, just to get a sense of the amount of capital that you will have in quantum terms for distributions?\",\n  \"answer_quote\": \"I'll start with your first question, Raul. First, on RWA outlook, of the RWA growth we called on a quarter-on-quarter basis $24 billion. First, about 40% of it relate to lending and other asset growth, and as you can see from our lending book, we've grown our lending book by $5 billion. There are a number of areas of growth that contributed to around 40% of it, $9 billion. Then we've had a $5 billion market risk RWA growth; this is due to a pickup in MSS activity against a subdued Q4, and it's more in line with their activity levels in the first three quarters of the year, if you want. This is the normalisation of Markets activity. And then there is $7 billion which we classified broadly as asset quality.\",\n  \"reason\": \"The response directly addresses the question about RWA growth and future actions, providing specific figures and a clear outlook.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1636,
+      "batch_seconds": 46.22701585100003
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1681,
+      "batch_seconds": 105.7286256440002
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1690,
+      "batch_seconds": 106.59646868799973
+    }
+  ],
+  "exchange_id": "19af689d7a65-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6f179bd329e96de981d8e36125da3ac234e5df46bb377d88c66774151144df8d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

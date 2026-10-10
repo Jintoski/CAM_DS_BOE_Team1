@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the proportion of Q1 non-interest income that is backward-looking and the potential for revenue recovery in Hong Kong.\",\n  \"main_topics\": [\"Q1 non-interest income\", \"backward-looking revenue\", \"revenue recovery in Hong Kong\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on the Q1 non-interest income, how much of this is backward-looking?\",\n  \"answer_quote\": \"I think it's a mix. So there'll be insurance market impacts. That will depend on the performance of markets in the second quarter, but we're not anticipating the same extent of negative market adjustment that we saw in Q1.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a stance on the proportion of backward-looking income, and includes numeric evidence regarding the expected recovery in Hong Kong's revenue.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the proportion of Q1 non-interest income that is backward-looking and the potential for revenue recovery in the coming quarters.\",\n  \"main_topics\": [\"Q1 non-interest income\", \"backward-looking revenue\", \"revenue recovery\", \"market impacts\", \"Hong Kong market performance\", \"equity brokerage\", \"mutual-fund sales\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on the Q1 non-interest income, how much of this is backward-looking? Given you've got a lot of market impacts, etc, and it sounds like, from your commentary, things are starting to pick up in Hong Kong, are you able to recoup some of the 'lost' revenue from things like Wealth sales? Markets will do what they will, but it seems like, if most of this is backward-looking, you're set for quite a rebound in non-interest income over the coming quarters. I just would like your commentary on that, please.\",\n  \"answer_quote\": \"Joseph, thanks. I think it's a mix. So there'll be insurance market impacts. That will depend on the performance of markets in the second quarter, but we're not anticipating the same extent of negative market adjustment that we saw in Q1. There are some line items like equity brokerage, the flow business - equity brokerage volumes for us in Hong Kong were down almost 50% in the quarter. We do expect that to normalise back. Q1 is normally our strongest quarter but we don't think we'll recoup the flow business that we lost in Q1. If you look at something like mutual-fund sales, which, in Hong Kong, were down around 30%, I think it'll be a mix. I do think part of that we should recoup in the coming quarters. So overall, I think you'll see a decent recovery in Q2, Q3, Q4. Some of what happened in Q1, I think, is lost. And just remember that Q1 is our strongest quarter normally, so you have to seasonalise my comments that I've just made.\",\n  \"reason\": \"The answer directly addresses the question, providing a mix of backward-looking and forward-looking elements, with specific numeric evidence and a clear stance on expected recovery.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 732,
+      "batch_seconds": 20.983468356999765
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 786,
+      "batch_seconds": 20.96559369500028
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "87ef253530d25cf96fd497257796ee6fd963fead32194596c906d651eb0d7440",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the proportion of Q1 non-interest income that is backward-looking and the potential for revenue recovery in Hong Kong.",
+    "main_topics": [
+      "Q1 non-interest income",
+      "backward-looking revenue",
+      "revenue recovery in Hong Kong"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just on the Q1 non-interest income, how much of this is backward-looking?",
+    "answer_quote": "I think it's a mix. So there'll be insurance market impacts. That will depend on the performance of markets in the second quarter, but we're not anticipating the same extent of negative market adjustment that we saw in Q1.",
+    "reason": "The answer directly addresses the question's intent, provides a stance on the proportion of backward-looking income, and includes numeric evidence regarding the expected recovery in Hong Kong's revenue."
+  },
+  "whitespace_adjusted_quotes": []
+}

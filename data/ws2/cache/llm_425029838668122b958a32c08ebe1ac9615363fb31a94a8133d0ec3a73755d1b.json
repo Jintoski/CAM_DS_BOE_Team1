@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on forward guidance and ECLs\",\n  \"main_topics\": [\"forward guidance\", \"ECLs\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Did you factor in the fact that the long end of the curve in the UK is flattening on that guidance?\",\n  \"answer_quote\": \"Those comments were made about ECLs, not interest income.\",\n  \"reason\": \"The response deflects from the question's focus on forward guidance and the long end of the curve, instead redirecting to a different topic, ECLs.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 478,
+      "batch_seconds": 9.364408016999732
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "425029838668122b958a32c08ebe1ac9615363fb31a94a8133d0ec3a73755d1b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on forward guidance and ECLs",
+    "main_topics": [
+      "forward guidance",
+      "ECLs"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Did you factor in the fact that the long end of the curve in the UK is flattening on that guidance?",
+    "answer_quote": "Those comments were made about ECLs, not interest income.",
+    "reason": "The response deflects from the question's focus on forward guidance and the long end of the curve, instead redirecting to a different topic, ECLs."
+  },
+  "whitespace_adjusted_quotes": []
+}

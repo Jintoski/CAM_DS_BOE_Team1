@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss the outlook for Net Interest Income (NII) in transaction banking and Private Bank top line.\",\n  \"main_topics\": [\"Net Interest Income (NII)\", \"Transaction Banking\", \"Private Bank\", \"Growth\", \"LDR\", \"Balance Growth Relationships\", \"Client Growth\", \"Client Balances\", \"Corporate Health\", \"Private Banking and Wealth Management\", \"Client Assets and Liability Growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk a little bit about the outlook for NII within transaction banking and the Private Bank top line please?\",\n  \"answer_quote\": \"So, it's as simple as balance growth relationships. I mean, there's nothing else going on within Transaction banking or indeed International Corporate Banking. We're just seeing strong growth generally.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a narrative aligned with the topics, and includes numeric evidence of growth rates.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Outlook for NII within transaction banking and Private Bank top line\",\n  \"main_topics\": [\"Transaction Banking\", \"Private Banking\", \"Net Interest Income (NII)\", \"LDR\", \"Client Growth\", \"Balance Growth\", \"Client Assets and Liability Growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk a little bit about the outlook for NII within transaction banking and the Private Bank top line please?\",\n  \"answer_quote\": \"So, it's as simple as balance growth relationships. I mean, there's nothing else going on within Transaction banking or indeed International Corporate Banking. We're just seeing strong growth generally.\",\n  \"reason\": \"The answer directly addresses the question's request for the outlook on NII and top line growth in transaction banking and private banking, providing a clear and complete response with high evidence level, including a specific numeric growth rate for client assets and liabilities.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the outlook for Net Interest Income (NII) in transaction banking and Private Bank top line.\",\n  \"main_topics\": [\"Net Interest Income (NII)\", \"Transaction Banking\", \"Private Bank\", \"Growth\", \"LDR\", \"Balance Growth Relationships\", \"Client Growth\", \"Client Balances\", \"Corporate Health\", \"Private Banking and Wealth Management\", \"Client Assets and Liability Growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk a little bit about the outlook for NII within transaction banking and the Private Bank top line please?\",\n  \"answer_quote\": \"So, it's as simple as balance growth relationships. I mean, there's nothing else going on within Transaction banking or indeed International Corporate Banking. We're just seeing strong growth generally.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a direct stance, and includes medium-level evidence with a numeric growth rate. The narrative is aligned with the question's focus on NII and growth in transaction banking and Private Bank.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the outlook for Net Interest Income (NII) in transaction banking and Private Bank top line.\",\n  \"main_topics\": [\"Net Interest Income (NII)\", \"Transaction Banking\", \"Private Bank\", \"Growth\", \"LDR\", \"Balance Growth Relationships\", \"Client Growth\", \"Client Balances\", \"Corporate Health\", \"Private Banking and Wealth Management\", \"Client Assets and Liability Growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you talk a little bit about the outlook for NII within transaction banking and the Private Bank top line please?\",\n  \"answer_quote\": \"So, it's as simple as balance growth relationships. I mean, there's nothing else going on within Transaction banking or indeed International Corporate Banking. We're just seeing strong growth generally.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a narrative aligned with the topics, and includes numeric evidence of growth rates.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 700,
+      "batch_seconds": 16.997578093999437
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 754,
+      "batch_seconds": 18.60642850000113
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 754,
+      "batch_seconds": 19.912649574998795
+    }
+  ],
+  "exchange_id": "08b5e1a731d1-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1617a208a8c956c28e40471a292be07e09f4d10ddb5ab400c99f8f222b1413c1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

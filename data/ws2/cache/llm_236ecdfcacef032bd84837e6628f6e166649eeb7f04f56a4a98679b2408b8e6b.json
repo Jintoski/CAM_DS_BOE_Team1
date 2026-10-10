@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about cost growth, investment in AI, and HIBOR rate assumptions for 2026.\",\n  \"main_topics\": [\"Cost Growth\", \"Investment in AI\", \"HIBOR Rate Assumptions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you look at the 2026 number that you've given, the 1% growth, I know you've got your recycling. How do you think about, when you peel that back - and what's the metabolic rate of growth in costs, particularly coming from investments, because you clearly have some global peers who have accelerated their investments around AI? So I was just curious how you think about that. And then, secondly, a nit-picky question, but what rate of HIBOR have you assumed in the banking NII guide of greater than $45 billion? Thanks.\",\n  \"answer_quote\": \"Thank you very much, Joe, for your questions. Let me share some high-level considerations of how we're looking at costs, and I'll ask Pam to comment then on costs and on HIBOR rates. I shared a bit earlier, but I want to emphasise, first, within our cost base, there's a proportion set aside for investments, for change-the-bank, investments, digital capabilities, additional people hires, relationship managers, wealth advisors, etc, of course, generative AI efficiency generation. That's within our cost base. Second, the fact that we're adding cost adjusted for these savings, half of that additional cost will go towards payroll inflation, but the other half will go towards additional investments. Then, third, the recycling of the $1.8 billion, which is commensurate to about 5-6% of our cost base, will go back into those areas of investment for growth. We believe we have ample capacity to invest and deliver the growth that we are setting targets to deliver against. Then the next thing I would say about cost is that it's important, Joe, we are committed to cost discipline. We are confident in our ability to deliver to cost discipline. As you've seen for our 2025 results, we have met our cost targets. I think that's an important guide also as you look at our cost guidance for 2026. I would note that we are ahead on our simplification saves because our plan and the actions we have taken have come through sooner than what we had originally outlined. This gives us incremental saves of $700 million in full-year 2026. That has been a consideration in the overall 1% cost growth envelope. As Georges said, as we have divestments happening, we are continuously reallocating those costs to our priority growth areas. What's really important for us is that our investment rigour is focused on our strategic priorities. That's what we've done in 2026. That's what we will do going forward. These are committed plans, which are multi-year plans. They don't go back and forth every year. That's all part of the overall cost envelope guidance we have given for this year. Again, we're giving guidance for this year only, but we expect to maintain our cost rigour on a continuous basis. In terms of rate assumptions, we have used the end-January forward rate curve for our banking NII guidance for all major currencies. In terms of HIBOR, just to note a couple of points, our HIBOR volatility that we saw in Q2 and Q3, when HIBOR was at 1%, it has an impact of about $100 million on banking NII. The moment HIBOR stabilises, as it did in Q4, and indeed this year, although it has fluctuated a little bit around the 2.5% mark, that is captured in our guidance. We look at a few plausible downside scenarios as well before we give full guidance.\",\n  \"reason\": \"The answer directly addresses the cost growth, investment in AI, and HIBOR rate assumptions, providing high-level considerations, numeric evidence, and forward guidance, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1116,
+      "batch_seconds": 35.83332343799975
+    }
+  ],
+  "exchange_id": "13220c46f1a6-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "236ecdfcacef032bd84837e6628f6e166649eeb7f04f56a4a98679b2408b8e6b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about cost growth, investment in AI, and HIBOR rate assumptions for 2026.",
+    "main_topics": [
+      "Cost Growth",
+      "Investment in AI",
+      "HIBOR Rate Assumptions"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "If you look at the 2026 number that you've given, the 1% growth, I know you've got your recycling. How do you think about, when you peel that back - and what's the metabolic rate of growth in costs, particularly coming from investments, because you clearly have some global peers who have accelerated their investments around AI? So I was just curious how you think about that. And then, secondly, a nit-picky question, but what rate of HIBOR have you assumed in the banking NII guide of greater than $45 billion? Thanks.",
+    "answer_quote": "Thank you very much, Joe, for your questions. Let me share some high-level considerations of how we're looking at costs, and I'll ask Pam to comment then on costs and on HIBOR rates. I shared a bit earlier, but I want to emphasise, first, within our cost base, there's a proportion set aside for investments, for change-the-bank, investments, digital capabilities, additional people hires, relationship managers, wealth advisors, etc, of course, generative AI efficiency generation. That's within our cost base. Second, the fact that we're adding cost adjusted for these savings, half of that additional cost will go towards payroll inflation, but the other half will go towards additional investments. Then, third, the recycling of the $1.8 billion, which is commensurate to about 5-6% of our cost base, will go back into those areas of investment for growth. We believe we have ample capacity to invest and deliver the growth that we are setting targets to deliver against. Then the next thing I would say about cost is that it's important, Joe, we are committed to cost discipline. We are confident in our ability to deliver to cost discipline. As you've seen for our 2025 results, we have met our cost targets. I think that's an important guide also as you look at our cost guidance for 2026. I would note that we are ahead on our simplification saves because our plan and the actions we have taken have come through sooner than what we had originally outlined. This gives us incremental saves of $700 million in full-year 2026. That has been a consideration in the overall 1% cost growth envelope. As Georges said, as we have divestments happening, we are continuously reallocating those costs to our priority growth areas. What's really important for us is that our investment rigour is focused on our strategic priorities. That's what we've done in 2026. That's what we will do going forward. These are committed plans, which are multi-year plans. They don't go back and forth every year. That's all part of the overall cost envelope guidance we have given for this year. Again, we're giving guidance for this year only, but we expect to maintain our cost rigour on a continuous basis. In terms of rate assumptions, we have used the end-January forward rate curve for our banking NII guidance for all major currencies. In terms of HIBOR, just to note a couple of points, our HIBOR volatility that we saw in Q2 and Q3, when HIBOR was at 1%, it has an impact of about $100 million on banking NII. The moment HIBOR stabilises, as it did in Q4, and indeed this year, although it has fluctuated a little bit around the 2.5% mark, that is captured in our guidance. We look at a few plausible downside scenarios as well before we give full guidance.",
+    "reason": "The answer directly addresses the cost growth, investment in AI, and HIBOR rate assumptions, providing high-level considerations, numeric evidence, and forward guidance, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

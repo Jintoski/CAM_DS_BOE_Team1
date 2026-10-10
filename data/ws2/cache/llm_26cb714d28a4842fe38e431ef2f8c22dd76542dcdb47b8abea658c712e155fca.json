@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Maximum capacity or limit\",\n  \"main_topics\": [\"banking sector\", \"banking operations\", \"banking strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"What's the maximum that you can do?\",\n  \"answer_quote\": \"We wouldn't give that number, but if you think about 10% of volume across all exchanges, that will give you a good indicator.\",\n  \"reason\": \"The answer partially addresses the question by providing an example of a potential limit but does not give a definitive maximum capacity. The stance is hedged as the bank does not commit to a specific number. The evidence level is low as there are no explicit figures or forward guidance provided.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Maximum capacity or limit\",\n  \"main_topics\": [\"Banking sector\", \"International banking\", \"Australia\", \"Asia\", \"Middle East\", \"Banking franchise\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"What's the maximum that you can do?\",\n  \"answer_quote\": \"We wouldn't give that number, but if you think about 10% of volume across all exchanges, that will give you a good indicator. It's a nice problem to have. We would probably max out at 10%.\",\n  \"reason\": \"The answer provides a speculative maximum capacity but does not give a definitive number, aligning partially with the question's intent but not fully answering it.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 634,
+      "batch_seconds": 15.20493993800028
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 688,
+      "batch_seconds": 17.289219684000273
+    }
+  ],
+  "exchange_id": "4970375d012d-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "26cb714d28a4842fe38e431ef2f8c22dd76542dcdb47b8abea658c712e155fca",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Maximum capacity or limit",
+    "main_topics": [
+      "banking sector",
+      "banking operations",
+      "banking strategy"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "What's the maximum that you can do?",
+    "answer_quote": "We wouldn't give that number, but if you think about 10% of volume across all exchanges, that will give you a good indicator.",
+    "reason": "The answer partially addresses the question by providing an example of a potential limit but does not give a definitive maximum capacity. The stance is hedged as the bank does not commit to a specific number. The evidence level is low as there are no explicit figures or forward guidance provided."
+  },
+  "whitespace_adjusted_quotes": []
+}

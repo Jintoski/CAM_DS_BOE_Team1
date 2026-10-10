@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about optimism for Hong Kong loan growth, NII guidance, and potential RWA savings from capital-intensive businesses.\",\n  \"main_topics\": [\"Hong Kong loan growth\", \"NII guidance\", \"RWA savings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"At the results presentation, you said that you were, I think - I don't remember the word, but optimistic or had the view that, with low interest rates, the Hong Kong loan growth would stabilise. We're seeing some clearing in commercial real estate, which, for me, suggests that maybe it's going to take a while longer. Is there anything you're seeing on the ground that gives you that optimism?\",\n  \"answer_quote\": \"Thank you. So, firstly, the NII - our current best estimate for the year, we are holding that at $42 billion. There is a lot of benefit from deposits, not just from loan growth. In terms of Hong Kong loan growth, you're right. There's no specific signs to call out. The only thing I'd said was that, in January, there had been a bit of pick-up of volume and price stabilisation, but we have to see it in the context of coming from a very low base, so I wouldn't run too fast with it for now, which doesn't say that, from our own book's perspective, an ECL perspective, we consider there to be any material headwinds. So that's the picture, but I would wait a little longer to see how the loan growth comes through. And also, from loan growth, there are broader factors to consider: global, macro, uncertainties and a bit more predictability and confidence needed in the market to go for capex rather than opex spend. So I would keep to the $42 billion, as we've said. In terms of the reallocation, just to remind, the reallocation really comes from those businesses which are either sub-scale or not strategic, so there's nothing specific, from an RWA perspective, which is highly concentrated, that's being considered as part of that picture. So I wouldn't consider an RWA shift in that space to be material.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify optimism on Hong Kong loan growth and NII guidance, inquire about RWA savings from capital-intensive businesses\",\n  \"main_topics\": [\"Hong Kong loan growth\", \"NII guidance\", \"RWA savings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"At the results presentation, you said that you were, I think - I don't remember the word, but optimistic or had the view that, with low interest rates, the Hong Kong loan growth would stabilise. We're seeing some clearing in commercial real estate, which, for me, suggests that maybe it's going to take a while longer. Is there anything you're seeing on the ground that gives you that optimism?\",\n  \"answer_quote\": \"So, firstly, the NII - our current best estimate for the year, we are holding that at $42 billion. There is a lot of benefit from deposits, not just from loan growth. In terms of Hong Kong loan growth, you're right. There's no specific signs to call out. The only thing I'd said was that, in January, there had been a bit of pick-up of volume and price stabilisation, but we have to see it in the context of coming from a very low base, so I wouldn't run too fast with it for now, which doesn't say that, from our own book's perspective, an ECL perspective, we consider there to be any material headwinds. So that's the picture, but I would wait a little longer to see how the loan growth comes through. And also, from loan growth, there are broader factors to consider: global, macro, uncertainties and a bit more predictability and confidence needed in the market to go for capex rather than opex spend. So I would keep to the $42 billion, as we've said. In terms of the reallocation, just to remind, the reallocation really comes from those businesses which are either sub-scale or not strategic, so there's nothing specific, from an RWA perspective, which is highly concentrated, that's being considered as part of that picture. So I wouldn't consider an RWA shift in that space to be material.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on NII guidance, loan growth optimism, and RWA reallocation\",\n  \"main_topics\": [\"NII guidance\", \"loan growth\", \"RWA reallocation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"At the results presentation, you said that you were, I think - I don't remember the word, but optimistic or had the view that, with low interest rates, the Hong Kong loan growth would stabilise. We're seeing some clearing in commercial real estate, which, for me, suggests that maybe it's going to take a while longer. Is there anything you're seeing on the ground that gives you that optimism?\",\n  \"answer_quote\": \"Thank you. So, firstly, the NII - our current best estimate for the year, we are holding that at $42 billion. There is a lot of benefit from deposits, not just from loan growth. In terms of Hong Kong loan growth, you're right. There's no specific signs to call out. The only thing I'd said was that, in January, there had been a bit of pick-up of volume and price stabilisation, but we have to see it in the context of coming from a very low base, so I wouldn't run too fast with it for now, which doesn't say that, from our own book's perspective, an ECL perspective, we consider there to be any material headwinds. So that's the picture, but I would wait a little longer to see how the loan growth comes through. And also, from loan growth, there are broader factors to consider: global, macro, uncertainties and a bit more predictability and confidence needed in the market to go for capex rather than opex spend. So I would keep to the $42 billion, as we've said. In terms of the reallocation, just to remind, the reallocation really comes from those businesses which are either sub-scale or not strategic, so there's nothing specific, from an RWA perspective, which is highly concentrated, that's being considered as part of that picture. So I wouldn't consider an RWA shift in that space to be material.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about optimism for Hong Kong loan growth, NII guidance, and potential RWA savings from capital-intensive businesses.\",\n  \"main_topics\": [\"Hong Kong loan growth\", \"NII guidance\", \"RWA savings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"At the results presentation, you said that you were, I think - I don't remember the word, but optimistic or had the view that, with low interest rates, the Hong Kong loan growth would stabilise. We're seeing some clearing in commercial real estate, which, for me, suggests that maybe it's going to take a while longer. Is there anything you're seeing on the ground that gives you that optimism?\",\n  \"answer_quote\": \"Thank you. So, firstly, the NII - our current best estimate for the year, we are holding that at $42 billion. There is a lot of benefit from deposits, not just from loan growth. In terms of Hong Kong loan growth, you're right. There's no specific signs to call out. The only thing I'd said was that, in January, there had been a bit of pick-up of volume and price stabilisation, but we have to see it in the context of coming from a very low base, so I wouldn't run too fast with it for now, which doesn't say that, from our own book's perspective, an ECL perspective, we consider there to be any material headwinds. So that's the picture, but I would wait a little longer to see how the loan growth comes through. And also, from loan growth, there are broader factors to consider: global, macro, uncertainties and a bit more predictability and confidence needed in the market to go for capex rather than opex spend. So I would keep to the $42 billion, as we've said. In terms of the reallocation, just to remind, the reallocation really comes from those businesses which are either sub-scale or not strategic, so there's nothing specific, from an RWA perspective, which is highly concentrated, that's being considered as part of that picture. So I wouldn't consider an RWA shift in that space to be material.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 900,
+      "batch_seconds": 22.692067773000417
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 945,
+      "batch_seconds": 27.990703425000902
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 945,
+      "batch_seconds": 25.31954854899959
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a4be97eba64eb309f4ffcc370f4fb153e0c0fc94004fa6c97cf06f7631a6138b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

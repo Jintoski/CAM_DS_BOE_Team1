@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Comparison and economic difference between securitisation and synthetic risk transfer\",\n  \"main_topics\": [\"Securitisation\", \"Synthetic risk transfer\", \"Economic comparison\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And how does it compare and contrast to securitisation? What is sort of economically different for you?\",\n  \"answer_quote\": \"So, synthetic risk transfer is like a securitisation structure. But if you like, you are buying protection on the very bottom bit of the risk. So it uses securitisation techniques, but it's really buying protection on the riskiest piece. And the economics for us per unit of RWA is quite compelling versus the opportunities in the business.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Compare and contrast securitisation with synthetic risk transfer and discuss economic differences.\",\n  \"main_topics\": [\"Securitisation\", \"Synthetic Risk Transfer\", \"Economic Differences\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And how does it compare and contrast to securitisation? What is sort of economically different for you?\",\n  \"answer_quote\": \"So, synthetic risk transfer is like a securitisation structure. But if you like, you are buying protection on the very bottom bit of the risk. So it uses securitisation techniques, but it's really buying protection on the riskiest piece. And the economics for us per unit of RWA is quite compelling versus the opportunities in the business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Comparison and economic difference between securitisation and synthetic risk transfer\",\n  \"main_topics\": [\"Securitisation\", \"Synthetic risk transfer\", \"Economic comparison\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And how does it compare and contrast to securitisation? What is sort of economically different for you?\",\n  \"answer_quote\": \"So, synthetic risk transfer is like a securitisation structure. But if you like, you are buying protection on the very bottom bit of the risk. So it uses securitisation techniques, but it's really buying protection on the riskiest piece. And the economics for us per unit of RWA is quite compelling versus the opportunities in the business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Comparison and economic difference between securitisation and synthetic risk transfer\",\n  \"main_topics\": [\"Securitisation\", \"Synthetic risk transfer\", \"Economic comparison\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And how does it compare and contrast to securitisation? What is sort of economically different for you?\",\n  \"answer_quote\": \"So, synthetic risk transfer is like a securitisation structure. But if you like, you are buying protection on the very bottom bit of the risk. So it uses securitisation techniques, but it's really buying protection on the riskiest piece. And the economics for us per unit of RWA is quite compelling versus the opportunities in the business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 481,
+      "batch_seconds": 9.364408016999732
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 526,
+      "batch_seconds": 10.038360675000149
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 526,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3ea1af0efea89cccfc065e5021ec37c2d6012234f71127fe63916f3552bfc6d1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

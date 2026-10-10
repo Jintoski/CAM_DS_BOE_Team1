@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Confidence in achieving top performance pay\",\n  \"main_topics\": [\"performance pay\", \"risk parameters\", \"remuneration structure\", \"RoTE\", \"business growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"And are you confident you can get to the top end of your performance pay?\",\n  \"answer_quote\": \"I'm never going to say I'm confident to get the top of my pay. Will I work hard enough to deliver the best we can for the organisation? Absolutely - but it's not going to be at the cost of going beyond our risk parameters. We're not just going to grow and be reckless about it. That's not in our culture, and we want to very much preserve the good that we have while we're trying to grow. I think you understand this anyway, but just to make sure that you've factored this in as you think about our targets - we changed the remuneration structure, there is more upside stretch in the targets this year, so we shouldn't signal the top end of the RoTE last year's remuneration to this year's remuneration is signalling a change in performance - that is also changing the structure of our remuneration. But, as Pam articulates, we do feel there's a lot of upside potential in our business, but it depends on a lot of other factors.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Confidence in achieving top performance pay\",\n  \"main_topics\": [\"Performance pay\", \"Risk parameters\", \"Remuneration structure\", \"RoTE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And are you confident you can get to the top end of your performance pay?\",\n  \"answer_quote\": \"I'm never going to say I'm confident to get the top of my pay. Will I work hard enough to deliver the best we can for the organisation? Absolutely - but it's not going to be at the cost of going beyond our risk parameters. We're not just going to grow and be reckless about it. That's not in our culture, and we want to very much preserve the good that we have while we're trying to grow. I think you understand this anyway, but just to make sure that you've factored this in as you think about our targets - we changed the remuneration structure, there is more upside stretch in the targets this year, so we shouldn't signal the top end of the RoTE last year's remuneration to this year's remuneration is signalling a change in performance - that is also changing the structure of our remuneration. But, as Pam articulates, we do feel there's a lot of upside potential in our business, but it depends on a lot of other factors.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Confidence in achieving top performance pay\",\n  \"main_topics\": [\"performance pay\", \"risk parameters\", \"remuneration structure\", \"RoTE\", \"business growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"And are you confident you can get to the top end of your performance pay?\",\n  \"answer_quote\": \"I'm never going to say I'm confident to get the top of my pay. Will I work hard enough to deliver the best we can for the organisation? Absolutely - but it's not going to be at the cost of going beyond our risk parameters. We're not just going to grow and be reckless about it. That's not in our culture, and we want to very much preserve the good that we have while we're trying to grow. I think you understand this anyway, but just to make sure that you've factored this in as you think about our targets - we changed the remuneration structure, there is more upside stretch in the targets this year, so we shouldn't signal the top end of the RoTE last year's remuneration to this year's remuneration is signalling a change in performance - that is also changing the structure of our remuneration. But, as Pam articulates, we do feel there's a lot of upside potential in our business, but it depends on a lot of other factors.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Confidence in achieving top performance pay\",\n  \"main_topics\": [\"performance pay\", \"risk parameters\", \"remuneration structure\", \"RoTE\", \"business growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"And are you confident you can get to the top end of your performance pay?\",\n  \"answer_quote\": \"I'm never going to say I'm confident to get the top of my pay. Will I work hard enough to deliver the best we can for the organisation? Absolutely - but it's not going to be at the cost of going beyond our risk parameters. We're not just going to grow and be reckless about it. That's not in our culture, and we want to very much preserve the good that we have while we're trying to grow. I think you understand this anyway, but just to make sure that you've factored this in as you think about our targets - we changed the remuneration structure, there is more upside stretch in the targets this year, so we shouldn't signal the top end of the RoTE last year's remuneration to this year's remuneration is signalling a change in performance - that is also changing the structure of our remuneration. But, as Pam articulates, we do feel there's a lot of upside potential in our business, but it depends on a lot of other factors.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 596,
+      "batch_seconds": 12.97318208300021
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 641,
+      "batch_seconds": 14.894256813000538
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 641,
+      "batch_seconds": 14.608119999000337
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9a00b019c887e1cc95bbf5e0b0d5dbc1c65a95895b4cd37c010795a2aff4711e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

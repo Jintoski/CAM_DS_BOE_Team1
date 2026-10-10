@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Market perception of earnings gap\",\n  \"main_topics\": [\"Earnings gap\", \"Market perception\", \"Outer years\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"It's just very impressive when you look at, I think it's page 21 of the release, where you look at the net number being £1.7bn. It's a rather extraordinary gap. It just seems to me like the market is missing something on the outer years, normal caveats notwithstanding.\",\n  \"answer_quote\": \"Okay, thank you.\",\n  \"reason\": \"The answer does not address the question's request for an opinion on the market's perception of the earnings gap or the outer years.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 454,
+      "batch_seconds": 8.866081524000037
+    }
+  ],
+  "exchange_id": "0459b7abee3e-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d579d12dd98ce51128096479ec922ef901a1de1363d018b4089db5e94f2d07bf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Market perception of earnings gap",
+    "main_topics": [
+      "Earnings gap",
+      "Market perception",
+      "Outer years"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "It's just very impressive when you look at, I think it's page 21 of the release, where you look at the net number being £1.7bn. It's a rather extraordinary gap. It just seems to me like the market is missing something on the outer years, normal caveats notwithstanding.",
+    "answer_quote": "Okay, thank you.",
+    "reason": "The answer does not address the question's request for an opinion on the market's perception of the earnings gap or the outer years."
+  },
+  "whitespace_adjusted_quotes": []
+}

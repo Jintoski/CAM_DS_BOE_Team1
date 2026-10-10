@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Discuss SRT governance, capital outlook, and business impact due to regulatory changes\",\n \"main_topics\": [\"SRT governance\", \"Capital outlook\", \"Business impact due to regulatory changes\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"one-ofs and those sorts of matters. So, if I could ask two [questions]. One, quite a lot of coverage in the media around potential SRT governance inquiries. If you could talk potentially about that, or confirm that there's no change to the capital outlook for the Group as a consequence of what may or may not emerge from that.\",\n \"answer_quote\": \"So, on SRT, I'm not going to comment on regulatory reviews, but only to say that the regulator in the UK regularly conducts reviews both individually and thematically across the industry. We have been very transparent around our Colonnade programme, and you can see that in the appendix. We've given you the same slides for several quarters now. That is primarily our focus on credit management, as Venkat talked about before. And indeed, it's been in place since 2016, for those of you following along, it's slide 47. So, it's a well-managed, well-embedded, well-regarded investor program that's been around for a long time. Of course, we have to notify the PRA every single time that we do an SRT transaction, so that's something that we've done. And from our perspective, the most important things that we are focused on, and I would expect the regulator to be focused on, are the risks associated with running that kind of process. And we believe they are, number one, the financing of SRTs. So, we do not finance our own SRTs. Secondly, the counterparty credit risks. So, remember, ours is cash collateralised, so that counterparty credit risk is minimised. And then thirdly, the risk of the market being shut at any point in time. Now, clearly, you mitigate that by having a very long-running, long-standing, high-quality program like ours, but we also restrict the maturities in any particular quarter, so they are less than £2 billion. So that means that we would be able to mitigate that easily, even if the market were closed to us. So, from our perspective, Jason, we're very comfortable with the program that we have. We believe it's very successful and provides the credit mitigation that we seek to do, and we don't envisage any changes in it.\",\n \"reason\": \"The answer directly addresses the questions about SRT governance, capital outlook, and the impact of regulatory changes on the business, providing detailed information and evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1532,
+      "batch_seconds": 53.384961922
+    }
+  ],
+  "exchange_id": "a91585caef10-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f7a60a32d86e7b32389e33a25d8a07825d7ed11af7ee793b7ec219c9dc564cab",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss SRT governance, capital outlook, and business impact due to regulatory changes",
+    "main_topics": [
+      "SRT governance",
+      "Capital outlook",
+      "Business impact due to regulatory changes"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "one-ofs and those sorts of matters. So, if I could ask two [questions]. One, quite a lot of coverage in the media around potential SRT governance inquiries. If you could talk potentially about that, or confirm that there's no change to the capital outlook for the Group as a consequence of what may or may not emerge from that.",
+    "answer_quote": "So, on SRT, I'm not going to comment on regulatory reviews, but only to say that the regulator in the UK regularly conducts reviews both individually and thematically across the industry. We have been very transparent around our Colonnade programme, and you can see that in the appendix. We've given you the same slides for several quarters now. That is primarily our focus on credit management, as Venkat talked about before. And indeed, it's been in place since 2016, for those of you following along, it's slide 47. So, it's a well-managed, well-embedded, well-regarded investor program that's been around for a long time. Of course, we have to notify the PRA every single time that we do an SRT transaction, so that's something that we've done. And from our perspective, the most important things that we are focused on, and I would expect the regulator to be focused on, are the risks associated with running that kind of process. And we believe they are, number one, the financing of SRTs. So, we do not finance our own SRTs. Secondly, the counterparty credit risks. So, remember, ours is cash collateralised, so that counterparty credit risk is minimised. And then thirdly, the risk of the market being shut at any point in time. Now, clearly, you mitigate that by having a very long-running, long-standing, high-quality program like ours, but we also restrict the maturities in any particular quarter, so they are less than £2 billion. So that means that we would be able to mitigate that easily, even if the market were closed to us. So, from our perspective, Jason, we're very comfortable with the program that we have. We believe it's very successful and provides the credit mitigation that we seek to do, and we don't envisage any changes in it.",
+    "reason": "The answer directly addresses the questions about SRT governance, capital outlook, and the impact of regulatory changes on the business, providing detailed information and evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

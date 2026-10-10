@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Predicting convergence of amortisation costs\",\n  \"main_topics\": [\"amortisation costs\", \"software investment\", \"cost guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"By the sound of it, then, it's nothing extraordinary, so over time, assuming your software is not going to last forever, those two numbers should converge. Is that right? So $1 billion a year of amortisation should steadily creep up to the $2 billion a year you're spending?\",\n  \"answer_quote\": \"Over time they will. We're still seeking to increase some of our digital investments, so it is a few years away. But Ed, overall, yes, amortisation costs will go up. That is factored into all the cost guidance that we've given. It will take several years, I think, to get to that normalisation that you talk about.\",\n  \"reason\": \"The answer directly addresses the question, confirming the convergence of amortisation costs and providing a timeframe, with some numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Convergence of amortisation costs\",\n  \"main_topics\": [\"Amortisation costs\", \"Digital investments\", \"Cost guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"By the sound of it, then, it's nothing extraordinary, so over time, assuming your software is not going to last forever, those two numbers should converge. Is that right? So $1 billion a year of amortisation should steadily creep up to the $2 billion a year you're spending?\",\n  \"answer_quote\": \"Over time they will. We're still seeking to increase some of our digital investments, so it is a few years away. But Ed, overall, yes, amortisation costs will go up. That is factored into all the cost guidance that we've given. It will take several years, I think, to get to that normalisation that you talk about.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 519,
+      "batch_seconds": 11.167466369000067
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 564,
+      "batch_seconds": 10.71841162399869
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x020",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c0e7406be676ba28274cd6f8d3f1abfa8c2d162461827e6204c0a19e0079c77d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Predicting convergence of amortisation costs",
+    "main_topics": [
+      "amortisation costs",
+      "software investment",
+      "cost guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "By the sound of it, then, it's nothing extraordinary, so over time, assuming your software is not going to last forever, those two numbers should converge. Is that right? So $1 billion a year of amortisation should steadily creep up to the $2 billion a year you're spending?",
+    "answer_quote": "Over time they will. We're still seeking to increase some of our digital investments, so it is a few years away. But Ed, overall, yes, amortisation costs will go up. That is factored into all the cost guidance that we've given. It will take several years, I think, to get to that normalisation that you talk about.",
+    "reason": "The answer directly addresses the question, confirming the convergence of amortisation costs and providing a timeframe, with some numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

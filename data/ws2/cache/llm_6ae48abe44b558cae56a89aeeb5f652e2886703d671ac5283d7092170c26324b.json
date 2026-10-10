@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on expected loss assumptions and impact of consensus growth expectations\",\n  \"main_topics\": [\"expected loss computation\", \"macroeconomic variables\", \"consensus growth expectations\", \"credit business performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you look on page 18, you have got your variables that you use for your Expected Loss computation. In that, you have got UK GDP in your base case growing at 5.7% this year and 2.5% next year. If you look at the probability table below that, you have actually got a probability weighting to do better than that. And yet, consensus is almost 2% below that for this year and even lower again for next.\",\n  \"answer_quote\": \"On your question around our macroeconomic variables, we did not update those in the quarter. We rolled them forward from Q4, which is what you are seeing. They clearly changed towards the back end of the quarter, or rather to be specific, consensus changed towards the back end of the quarter, and we did not update for that, but we do not think that is significant. The reason I say that is GDP is not a big driver of ECL in our models. The one that really matters is the unemployment rates. And actually, if anything, if you look at our unemployment metrics that we are feeding into the models, they are on the conservative side.\",\n  \"reason\": \"The answer directly addresses the question about expected loss assumptions and the impact of consensus growth expectations, providing a clear stance and high evidence level with numeric evidence.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Sensitivity of expected loss assumptions to macroeconomic variables and impact of consensus growth expectations\",\n  \"main_topics\": [\"Expected Loss computation\", \"Macroeconomic variables\", \"Consensus growth expectations\", \"Sensitivity analysis\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you were to put more of a consensus view of growth expectations (in your model), how might that affect your expected loss computation?\",\n  \"answer_quote\": \"We did not update those in the quarter. We rolled them forward from Q4, which is what you are seeing. They clearly changed towards the back end of the quarter, or rather to be specific, consensus changed towards the back end of the quarter, and we did not update for that, but we do not think that is significant.\",\n  \"reason\": \"The answer directly addresses the question about the sensitivity of expected loss assumptions to macroeconomic variables and the impact of consensus growth expectations, providing a clear stance and high evidence level with numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on expected loss assumptions and impact of consensus growth expectations\",\n  \"main_topics\": [\"expected loss computation\", \"macroeconomic variables\", \"consensus growth expectations\", \"credit business performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you look on page 18, you have got your variables that you use for your Expected Loss computation. In that, you have got UK GDP in your base case growing at 5.7% this year and 2.5% next year. If you look at the probability table below that, you have actually got a probability weighting to do better than that. And yet, consensus is almost 2% below that for this year and even lower again for next. So, it seems to me you have been quite aggressive in your expected loss assumptions. So, my first question would be am I reading that right and what is the sensitivity around it? If you were to put more of a consensus view of growth expectations (in your model), how might that affect your expected loss computation?\",\n  \"answer_quote\": \"On your question around our macroeconomic variables, we did not update those in the quarter. We rolled them forward from Q4, which is what you are seeing. They clearly changed towards the back end of the quarter, or rather to be specific, consensus changed towards the back end of the quarter, and we did not update for that, but we do not think that is significant. The reason I say that is GDP is not a big driver of ECL in our models. The one that really matters is the unemployment rates. And actually, if anything, if you look at our unemployment metrics that we are feeding into the models, they are on the conservative side. And really, much of the conservatism that we are posing here relates to our post-model adjustments, and you can see that in the disclosure, and actually you can see that in the way that the coverage ratios are. That is why the stage two coverage ratios are elevated, because that is where the PMA sits. So, yes the macroeconomic variables are important. Some of them are more important than others, and I would say that unemployment is the one you should really watch. But our PMAs are a significant part of our non-defaulted stock coverage levels, so, we are pretty comfortable with it.\",\n  \"reason\": \"The answer directly addresses the question about expected loss assumptions and the impact of consensus growth expectations, providing a clear stance and high evidence level with numeric references to GDP growth rates and the importance of unemployment rates in the models.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on expected loss assumptions and impact of consensus growth expectations\",\n  \"main_topics\": [\"expected loss computation\", \"macroeconomic variables\", \"consensus growth expectations\", \"credit business performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If you look on page 18, you have got your variables that you use for your Expected Loss computation. In that, you have got UK GDP in your base case growing at 5.7% this year and 2.5% next year. If you look at the probability table below that, you have actually got a probability weighting to do better than that. And yet, consensus is almost 2% below that for this year and even lower again for next.\",\n  \"answer_quote\": \"On your question around our macroeconomic variables, we did not update those in the quarter. We rolled them forward from Q4, which is what you are seeing. They clearly changed towards the back end of the quarter, or rather to be specific, consensus changed towards the back end of the quarter, and we did not update for that, but we do not think that is significant. The reason I say that is GDP is not a big driver of ECL in our models. The one that really matters is the unemployment rates. And actually, if anything, if you look at our unemployment metrics that we are feeding into the models, they are on the conservative side.\",\n  \"reason\": \"The answer directly addresses the question about expected loss assumptions and the impact of consensus growth expectations, providing a clear stance and high evidence level with numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1062,
+      "batch_seconds": 29.75517344200034
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1110,
+      "batch_seconds": 32.91855284799931
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1110,
+      "batch_seconds": 95.57316027400157
+    }
+  ],
+  "exchange_id": "224db408a071-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6ae48abe44b558cae56a89aeeb5f652e2886703d671ac5283d7092170c26324b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

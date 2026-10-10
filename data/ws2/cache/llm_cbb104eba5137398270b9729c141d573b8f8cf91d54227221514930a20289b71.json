@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on promotional card interest rates, UK deposit growth, and Kensington book size and growth\",\n  \"main_topics\": [\"Promotional Card Interest Rates\", \"UK Deposit Growth\", \"Kensington Book Size and Growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I just ask on the promotional cards, aren't they booked at effective interest rates, so why would you get a pickup in H2 from them? And if you could just elaborate on the size of the balances on promotional, how much is rolling and what the [Effective Interest Rate] is?\",\n  \"answer_quote\": \"I'm not going to go into the details of [Effective Interest Rate] assumptions. What I would say is that when we do reflect effective interest rates across our cards books, we do so conservatively, as we do across all of our businesses. Typically, what we're doing there is we're spreading the up-front fee, but we're also reflecting a bit of post-promotional balances. Actually, what we're seeing is the 2024 cohort maturing nicely and that's really what we're calling out here. In terms of UK deposits, we're broadly following the trends of our peers. Current accounts market share is being maintained. You can see that we are not encountering anything unexpected, simply because we're rolling 100% of the hedge. Our planning assumption is 90%, we rolled 100% of it in the second quarter, so that tells you that things are broadly panning out. We continue to see some deposit migration, but the ISA season aside, that continues to just normalise. So nothing unexpected here. On Kensington, we're seeing now high loan-to-value mortgages occupy about 25% of our flow. That's up from around 15% a couple of years back. I won't call out Kensington balances specifically, but they are being very helpful in helping us address the full scale, the full breadth of the mortgage market, which is why we are now taking gross share a little ahead of stock. Retention is very good and what's notable about Kensington is the margins are much richer. They're about, on equivalent products, they're about four times the scale of a normal BUK mortgage margin. So we're really pleased with its performance and it's fully integrated now into the business.\",\n  \"reason\": \"The answer provides some clarification on promotional card interest rates and UK deposit growth but does not fully address the question about the size of promotional balances and the effective interest rate. It also partially answers the question about Kensington book size and growth, mentioning the increase in high loan-to-value mortgages but not providing specific balance figures.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 900,
+      "batch_seconds": 26.18008355099937
+    }
+  ],
+  "exchange_id": "700cb9deb01d-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "cbb104eba5137398270b9729c141d573b8f8cf91d54227221514930a20289b71",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on promotional card interest rates, UK deposit growth, and Kensington book size and growth",
+    "main_topics": [
+      "Promotional Card Interest Rates",
+      "UK Deposit Growth",
+      "Kensington Book Size and Growth"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can I just ask on the promotional cards, aren't they booked at effective interest rates, so why would you get a pickup in H2 from them? And if you could just elaborate on the size of the balances on promotional, how much is rolling and what the [Effective Interest Rate] is?",
+    "answer_quote": "I'm not going to go into the details of [Effective Interest Rate] assumptions. What I would say is that when we do reflect effective interest rates across our cards books, we do so conservatively, as we do across all of our businesses. Typically, what we're doing there is we're spreading the up-front fee, but we're also reflecting a bit of post-promotional balances. Actually, what we're seeing is the 2024 cohort maturing nicely and that's really what we're calling out here. In terms of UK deposits, we're broadly following the trends of our peers. Current accounts market share is being maintained. You can see that we are not encountering anything unexpected, simply because we're rolling 100% of the hedge. Our planning assumption is 90%, we rolled 100% of it in the second quarter, so that tells you that things are broadly panning out. We continue to see some deposit migration, but the ISA season aside, that continues to just normalise. So nothing unexpected here. On Kensington, we're seeing now high loan-to-value mortgages occupy about 25% of our flow. That's up from around 15% a couple of years back. I won't call out Kensington balances specifically, but they are being very helpful in helping us address the full scale, the full breadth of the mortgage market, which is why we are now taking gross share a little ahead of stock. Retention is very good and what's notable about Kensington is the margins are much richer. They're about, on equivalent products, they're about four times the scale of a normal BUK mortgage margin. So we're really pleased with its performance and it's fully integrated now into the business.",
+    "reason": "The answer provides some clarification on promotional card interest rates and UK deposit growth but does not fully address the question about the size of promotional balances and the effective interest rate. It also partially answers the question about Kensington book size and growth, mentioning the increase in high loan-to-value mortgages but not providing specific balance figures."
+  },
+  "whitespace_adjusted_quotes": []
+}

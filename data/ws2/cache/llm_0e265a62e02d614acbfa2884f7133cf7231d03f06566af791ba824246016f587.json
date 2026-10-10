@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Understanding bank's approach to competition and hedging strategy\",\n  \"main_topics\": [\"Bank's pricing confidence\", \"Competition in the banking industry\", \"Hedgeable deposits and hedging strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I want to come back to deposits and competition for deposits again. Clearly, you've been surprised in the quarter by the level of competition out there, but the comments you're giving us back is very much that you're confident in your current pricing.\",\n  \"answer_quote\": \"Okay. Thanks Adam. Why don't I take those and I'm sure Venkat might add, particularly on pricing. So, as I said on the previous answer, we are pretty comfortable with the way that we are placed on our pricing.\",\n  \"reason\": \"The answer addresses the bank's confidence in pricing and briefly touches on the hedge strategy, but does not fully respond to the question about the bank's approach to competition and the specifics of their hedgeable deposits and hedging strategy.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 935,
+      "batch_seconds": 26.02040559299985
+    }
+  ],
+  "exchange_id": "4e98e4abfb11-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0e265a62e02d614acbfa2884f7133cf7231d03f06566af791ba824246016f587",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Understanding bank's approach to competition and hedging strategy",
+    "main_topics": [
+      "Bank's pricing confidence",
+      "Competition in the banking industry",
+      "Hedgeable deposits and hedging strategy"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I want to come back to deposits and competition for deposits again. Clearly, you've been surprised in the quarter by the level of competition out there, but the comments you're giving us back is very much that you're confident in your current pricing.",
+    "answer_quote": "Okay. Thanks Adam. Why don't I take those and I'm sure Venkat might add, particularly on pricing. So, as I said on the previous answer, we are pretty comfortable with the way that we are placed on our pricing.",
+    "reason": "The answer addresses the bank's confidence in pricing and briefly touches on the hedge strategy, but does not fully respond to the question about the bank's approach to competition and the specifics of their hedgeable deposits and hedging strategy."
+  },
+  "whitespace_adjusted_quotes": []
+}

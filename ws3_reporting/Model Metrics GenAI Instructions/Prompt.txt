@@ -1,0 +1,15 @@
+From the reference files attached that explains the source data and also the signal classification and reporting approach:
+1a. Reflect_on_DataPipeline_and_BERT.docx
+1b. LLMSignals_DataDictionary.xlsx
+2. Generic Reporting Signal Approach.docx
+3. Consolidated_Report_Prompt_Instructions_NEW.docx
+4. TEMPLATE_Supervisory_Report_Template_Edition.pdf
+
+Focus on the data attributes as outlined in document 1a/1b, and create report outputs as described in document 3, but the output format style should mimic document "4. TEMPLATE_Supervisory_Report_Template_Edition.pdf". 
+
+The top level investigation signal should be generated solely from the attached instruction reference files and the supporting CSV data attached. 
+For evidentiary section, try to link the exchange_ID back to respective transcript.pdf and provide hyperlink. Where the exchange.csv provides a transcript and page reference per exchange, and the original PDF transcripts are available at shred drive location https://drive.google.com/drive/folders/1cUsBoFeKpizATjeGImfLz9Z0DDEA7O6L?usp=drive_link
+
+Use document "4. TEMPLATE_Supervisory_Report_Template_Edition.pdf" as a report output template of style and sections.
+
+Can you try this and output focused on "Barclays" as the target or bank in focus for the single PDF document report.

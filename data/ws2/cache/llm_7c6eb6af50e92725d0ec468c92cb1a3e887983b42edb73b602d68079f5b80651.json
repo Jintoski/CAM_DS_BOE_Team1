@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the impact of deposit costs on BUK NIM and the need for competitive rates.\",\n  \"main_topics\": [\"deposit costs\", \"BUK NIM\", \"competitive rates\", \"savings franchise\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"If I frame it slightly differently, how do you expect investors to be able to take a view on what might happen with the BUK NIM, unless we're armed with basic information about what you're currently paying on deposits relative to the types of offers that are out there in the market.\",\n  \"answer_quote\": \"So Chris, all I would say is that we price competitively, but not uncommercially.\",\n  \"reason\": \"The answer deflects the question by stating competitive pricing without addressing the specific concern about deposit costs and their impact on BUK NIM.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the bank's deposit pricing strategy and its impact on Net Interest Margin (NIM) and investor expectations.\",\n  \"main_topics\": [\"Deposit pricing strategy\", \"Net Interest Margin (NIM)\", \"Investor expectations\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"If I frame it slightly differently, how do you expect investors to be able to take a view on what might happen with the BUK NIM, unless we're armed with basic information about what you're currently paying on deposits relative to the types of offers that are out there in the market.\",\n  \"answer_quote\": \"So Chris, all I would say is that we price competitively, but not uncommercially.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 645,
+      "batch_seconds": 15.891535941999791
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 690,
+      "batch_seconds": 17.289219684000273
+    }
+  ],
+  "exchange_id": "4e98e4abfb11-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7c6eb6af50e92725d0ec468c92cb1a3e887983b42edb73b602d68079f5b80651",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the impact of deposit costs on BUK NIM and the need for competitive rates.",
+    "main_topics": [
+      "deposit costs",
+      "BUK NIM",
+      "competitive rates",
+      "savings franchise"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "If I frame it slightly differently, how do you expect investors to be able to take a view on what might happen with the BUK NIM, unless we're armed with basic information about what you're currently paying on deposits relative to the types of offers that are out there in the market.",
+    "answer_quote": "So Chris, all I would say is that we price competitively, but not uncommercially.",
+    "reason": "The answer deflects the question by stating competitive pricing without addressing the specific concern about deposit costs and their impact on BUK NIM."
+  },
+  "whitespace_adjusted_quotes": []
+}

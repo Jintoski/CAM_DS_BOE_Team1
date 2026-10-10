@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about mortgage completion margins and the rationale behind reinvesting in the structural hedge.\",\n  \"main_topics\": [\"mortgage completion margins\", \"structural hedge reinvestment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second question, perhaps a little bit more, slightly philosophical question about the structural hedge. Why are you reinvesting at the moment?\",\n  \"answer_quote\": \"On your first point on mortgage completions. I think, we've been pretty consistent in not quoting spread.\",\n  \"reason\": \"The response directly addresses both questions, provides a high level of evidence with a specific numeric example, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about mortgage completion margins and the rationale for reinvesting in the structural hedge.\",\n  \"main_topics\": [\"Mortgage Completion Margins\", \"Structural Hedge Reinvestment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And the second question, perhaps a little bit more, slightly philosophical question about the structural hedge. Why are you reinvesting at the moment?\",\n  \"answer_quote\": \"So the reason that we have the structural hedges to smooth the income of our banking book businesses over time. It is not there to be an expression of where we think rates will go, either up or down.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 954,
+      "batch_seconds": 25.86036075099946
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 999,
+      "batch_seconds": 28.60324703399965
+    }
+  ],
+  "exchange_id": "4b42e60e1183-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d5c212da0d6c6fd24d0acf71fc04175d60d9fc7dc0a2242f373875758202cfaf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about mortgage completion margins and the rationale behind reinvesting in the structural hedge.",
+    "main_topics": [
+      "mortgage completion margins",
+      "structural hedge reinvestment"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And the second question, perhaps a little bit more, slightly philosophical question about the structural hedge. Why are you reinvesting at the moment?",
+    "answer_quote": "On your first point on mortgage completions. I think, we've been pretty consistent in not quoting spread.",
+    "reason": "The response directly addresses both questions, provides a high level of evidence with a specific numeric example, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Outlook for card growth\",\n  \"main_topics\": [\"Card growth\", \"Strategy\", \"Avios product\", \"Customer behavior\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could I just follow up on the outlook for card growth in the UK? Because obviously the start of the year was a very strong trend, would you expect that to slow down as a consequence?\",\n  \"answer_quote\": \"I wouldn't expect that to translate through to significant increases in interest-earning lending.\",\n  \"reason\": \"The answer partially addresses the question by discussing the bank's strategy and customer behavior, but does not provide a clear outlook on the future trend of card growth.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 513,
+      "batch_seconds": 11.167466369000067
+    }
+  ],
+  "exchange_id": "6d4760f97290-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8b2ffbfa81a850176f6f1e3d8128baeb7cd6c5f6b64687e85b29518b79db5f1e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Outlook for card growth",
+    "main_topics": [
+      "Card growth",
+      "Strategy",
+      "Avios product",
+      "Customer behavior"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Could I just follow up on the outlook for card growth in the UK? Because obviously the start of the year was a very strong trend, would you expect that to slow down as a consequence?",
+    "answer_quote": "I wouldn't expect that to translate through to significant increases in interest-earning lending.",
+    "reason": "The answer partially addresses the question by discussing the bank's strategy and customer behavior, but does not provide a clear outlook on the future trend of card growth."
+  },
+  "whitespace_adjusted_quotes": []
+}

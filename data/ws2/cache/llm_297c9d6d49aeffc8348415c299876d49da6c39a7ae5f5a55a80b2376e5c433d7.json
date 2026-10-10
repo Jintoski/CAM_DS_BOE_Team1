@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the appropriateness of pre-hedging duration, the role of swaps in profitability, and the composition of HQLA in the context of a ring-fenced bank's liquidity management.\",\n  \"main_topics\": [\"Pre-hedging duration\", \"Role of swaps in profitability\", \"Composition of HQLA\", \"Liquidity management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first is, I take what you're saying about banks that pre-hedge the pipeline and so on. We've been publishing spread-adjusted numbers for six years, and I've been asking for six years how far ahead do you hedge, and what's the right lag to use? So, any colour around that would be helpful.\",\n  \"answer_quote\": \"I don't think we'd specifically comment on that length of pre-hedge, so you might need to keep asking. What I would say is that, as the team are pricing mortgages, they are looking at a number of factors, and they would look at the swap. And it's one of the pricing disciplines you would expect us to have, that we consider the marginal cost of funding as we price each marginal product. Having said that, it's not the only consideration, and they would look at the liquidity position of the bank as well, and also consider our franchise position.\",\n  \"reason\": \"The answer addresses some aspects of the question but does not fully respond to the pre-hedging duration or the specific role of swaps in profitability, and it only partially aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1023,
+      "batch_seconds": 31.574076158000025
+    }
+  ],
+  "exchange_id": "40fbb063266a-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "297c9d6d49aeffc8348415c299876d49da6c39a7ae5f5a55a80b2376e5c433d7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the appropriateness of pre-hedging duration, the role of swaps in profitability, and the composition of HQLA in the context of a ring-fenced bank's liquidity management.",
+    "main_topics": [
+      "Pre-hedging duration",
+      "Role of swaps in profitability",
+      "Composition of HQLA",
+      "Liquidity management"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The first is, I take what you're saying about banks that pre-hedge the pipeline and so on. We've been publishing spread-adjusted numbers for six years, and I've been asking for six years how far ahead do you hedge, and what's the right lag to use? So, any colour around that would be helpful.",
+    "answer_quote": "I don't think we'd specifically comment on that length of pre-hedge, so you might need to keep asking. What I would say is that, as the team are pricing mortgages, they are looking at a number of factors, and they would look at the swap. And it's one of the pricing disciplines you would expect us to have, that we consider the marginal cost of funding as we price each marginal product. Having said that, it's not the only consideration, and they would look at the liquidity position of the bank as well, and also consider our franchise position.",
+    "reason": "The answer addresses some aspects of the question but does not fully respond to the pre-hedging duration or the specific role of swaps in profitability, and it only partially aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing the trajectory of Investment Bank RWAs and their impact on the group's composition\",\n  \"main_topics\": [\"Investment Bank RWAs\", \"Regulatory impact\", \"Organic growth\", \"Group composition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So just a question here about the Investment Bank RWAs. How should we sort of think about the trajectory of the Investment Bank RWAs given that the prior guidance of 50% for the group by 2026 has been pushed due to the timing of the regulatory impact. But by 2028, you'll have a couple of additional years of organic RWA growth from other divisions. So, sort of if Investment Bank RWAs are flattish, could that not mean that the IB is less than 50% of the group or by stability in Investment Bank RWAs, should we think about some very modest low single-digit growth and optionality depending on the environment?\",\n  \"answer_quote\": \"Thank you very much for that. So, what we're saying simplistically here is that we do expect RWAs in the Investment Bank to remain around circa £200 million. As you've seen over the last few quarters, they have been slightly below that, slightly above that in various quarters, but think of that as where we expect them to be over the next three years. The circa 50% reflects, I guess, it could be either slightly above or slightly below that. We're just giving you sort of a circa number. We do expect growth for the UK businesses whilst holding that flat. Obviously, the point here that we're reflecting on that's somewhat out of our control is the regulatory timing. So, what we're telling you now is no different to what we told you last time really and don't expect the mechanics or the strategy underpinning it [to be any different].\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with a specific numeric figure, aligning with the question's narrative.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assess trajectory of Investment Bank RWAs\",\n  \"main_topics\": [\"Investment Bank RWAs\", \"Regulatory impact\", \"Organic growth\", \"Growth expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So just a question here about the Investment Bank RWAs. How should we sort of think about the trajectory of the Investment Bank RWAs given that the prior guidance of 50% for the group by 2026 has been pushed due to the timing of the regulatory impact. But by 2028, you'll have a couple of additional years of organic RWA growth from other divisions. So, sort of if Investment Bank RWAs are flattish, could that not mean that the IB is less than 50% of the group or by stability in Investment Bank RWAs, should we think about some very modest low single-digit growth and optionality depending on the environment?\",\n  \"answer_quote\": \"Thank you very much for that. So, what we're saying simplistically here is that we do expect RWAs in the Investment Bank to remain around circa £200 million. As you've seen over the last few quarters, they have been slightly below that, slightly above that in various quarters, but think of that as where we expect them to be over the next three years. The circa 50% reflects, I guess, it could be either slightly above or slightly below that. We're just giving you sort of a circa number. We do expect growth for the UK businesses whilst holding that flat. Obviously, the point here that we're reflecting on that's somewhat out of our control is the regulatory timing. So, what we're telling you now is no different to what we told you last time really and don't expect the mechanics or the strategy underpinning it [to be any different].\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 697,
+      "batch_seconds": 16.607167997000033
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 18.49001912699896
+    }
+  ],
+  "exchange_id": "f2e71aa79765-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0a8eff7cce410b447d57228561e5a0012c187bce9cfdc9f120ede8b4eba26a1d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing the trajectory of Investment Bank RWAs and their impact on the group's composition",
+    "main_topics": [
+      "Investment Bank RWAs",
+      "Regulatory impact",
+      "Organic growth",
+      "Group composition"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So just a question here about the Investment Bank RWAs. How should we sort of think about the trajectory of the Investment Bank RWAs given that the prior guidance of 50% for the group by 2026 has been pushed due to the timing of the regulatory impact. But by 2028, you'll have a couple of additional years of organic RWA growth from other divisions. So, sort of if Investment Bank RWAs are flattish, could that not mean that the IB is less than 50% of the group or by stability in Investment Bank RWAs, should we think about some very modest low single-digit growth and optionality depending on the environment?",
+    "answer_quote": "Thank you very much for that. So, what we're saying simplistically here is that we do expect RWAs in the Investment Bank to remain around circa £200 million. As you've seen over the last few quarters, they have been slightly below that, slightly above that in various quarters, but think of that as where we expect them to be over the next three years. The circa 50% reflects, I guess, it could be either slightly above or slightly below that. We're just giving you sort of a circa number. We do expect growth for the UK businesses whilst holding that flat. Obviously, the point here that we're reflecting on that's somewhat out of our control is the regulatory timing. So, what we're telling you now is no different to what we told you last time really and don't expect the mechanics or the strategy underpinning it [to be any different].",
+    "reason": "The answer directly addresses the question's intent, provides a clear stance, and includes high evidence with a specific numeric figure, aligning with the question's narrative."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,3 @@
+﻿bank,audience,question_topic,question_topic_label,n_exchanges,directness,specificity,semantic_alignment,q_polarity,a_polarity,tone_gap,polarity_gap,number_coverage,number_requests,time_coverage,time_requests,llm_valid,hybrid_n,hybrid_dissonance,small_group
+barclays,equity,,,662,0.5772753252608644,0.46410498489425983,0.5858465,,,,,0.7916666666666666,96,0.622093023255814,172,435,433,0.3129699906586107,False
+hsbc,equity,,,460,0.5922392543893232,0.5759510869565218,0.58408564,,,,,0.8518518518518519,54,0.7037037037037037,108,318,318,0.2796202685929596,False

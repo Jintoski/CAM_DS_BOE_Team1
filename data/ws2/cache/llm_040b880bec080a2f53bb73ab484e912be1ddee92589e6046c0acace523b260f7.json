@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on the nature of a change\",\n  \"main_topics\": [\"Change Nature\", \"Product Change\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"So, it's not like a product change or something?\",\n  \"answer_quote\": \"No.\",\n  \"reason\": \"The answer directly addresses the question but does not provide a detailed explanation or evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on product change\",\n  \"main_topics\": [\"Product Change\", \"Banking\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"So, it's not like a product change or something?\",\n  \"answer_quote\": \"No.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 402,
+      "batch_seconds": 6.255509784999958
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 3,
+      "input_tokens": 447,
+      "batch_seconds": 6.076693746999808
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x018",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "040b880bec080a2f53bb73ab484e912be1ddee92589e6046c0acace523b260f7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on the nature of a change",
+    "main_topics": [
+      "Change Nature",
+      "Product Change"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "So, it's not like a product change or something?",
+    "answer_quote": "No.",
+    "reason": "The answer directly addresses the question but does not provide a detailed explanation or evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

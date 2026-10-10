@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on hedging strategy and potential increase in structural hedge notional\",\n  \"main_topics\": [\"Hedging strategy\", \"Structural hedge notional\", \"Hedging opportunities\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Does that mean that it then gives you more potential to then increase the structural hedge notional and that's the logic or you're talking about the broader picture?\",\n  \"answer_quote\": \"I'm not going to comment on exactly where we think that overall hedge notional might go to. What we've said is that we're always looking for opportunities to reduce the overall structural hedge sensitivity. We've taken it down from $4.3 billion about a year ago down to $2.7 billion now, and it was, if you look back, above $7 billion 18 months, two years ago, so we've brought it down quite a lot. We will look at opportunities. Going forward, we've done about $25 billion of extra hedging in the first half of this year, and it's probably reasonable to assume a similar kind of run rate for the second half of the year in terms of the amount of hedging we do. Subject to market conditions.\",\n  \"reason\": \"The answer deflects the question about increasing structural hedge notional by discussing past actions and future hedging without directly addressing the potential for increasing notional amounts.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 591,
+      "batch_seconds": 14.784660463999899
+    }
+  ],
+  "exchange_id": "7f553358cc34-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d4b2a5703d0aacddb47951fb4a01318116cfe7b16675d7a60a8a01a6943a8d02",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on hedging strategy and potential increase in structural hedge notional",
+    "main_topics": [
+      "Hedging strategy",
+      "Structural hedge notional",
+      "Hedging opportunities"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Does that mean that it then gives you more potential to then increase the structural hedge notional and that's the logic or you're talking about the broader picture?",
+    "answer_quote": "I'm not going to comment on exactly where we think that overall hedge notional might go to. What we've said is that we're always looking for opportunities to reduce the overall structural hedge sensitivity. We've taken it down from $4.3 billion about a year ago down to $2.7 billion now, and it was, if you look back, above $7 billion 18 months, two years ago, so we've brought it down quite a lot. We will look at opportunities. Going forward, we've done about $25 billion of extra hedging in the first half of this year, and it's probably reasonable to assume a similar kind of run rate for the second half of the year in terms of the amount of hedging we do. Subject to market conditions.",
+    "reason": "The answer deflects the question about increasing structural hedge notional by discussing past actions and future hedging without directly addressing the potential for increasing notional amounts."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on UK cards and CIB performance\",\n  \"main_topics\": [\n    \"UK cards performance\",\n    \"Barclays market share\",\n    \"CIB share gains\",\n    \"Competitive landscape\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I was wondering, on the UK cards, if there was anything specifically to call out on Barclays' performance. It seems like the market share in terms of credit card balances in the UK keeps dropping lower, even though there had been comments about a year ago about your intention to lean back into the recovery and regain some of the market share lost. So, I was wondering how we should think about the card progression balances going forward? Would that be in line with the market, that you are roughly content with a market share of around 15%? Or would you also see an ambition to regain some of the market share in UK cards?\",\n  \"answer_quote\": \"I think the first thing to say is that we are in cards and actually [no one] else [is] exactly the same. We are not targeting a specific market share, that is not part of our philosophy. Our performance, I think, reflects the fact that we did step back from risk. We actually stepped back from risk post-Brexit and we stepped back at the beginning of the pandemic. Therefore, as we step back in, the response is not an immediate one. It takes a while for those customers to join us, to start to borrow, and so on. So, I think we would hope that we will see balances grow over time from stepping back into that market, but it is not instantaneous. There is a delay. I think that is what we are seeing now. The other thing I would say is that it is our intention, over time, that we will reshape that business, and you are seeing evidence of us doing that now. So, ensuring that we have got products that are focused on spend, not lend. Our Avios product launched in February (for example). It is too early to talk about specific numbers but we are pleased with how that is going. So, I think the cards business of the future is not going to be a replica of the cards business of the past for quite a few reasons.\",\n  \"reason\": \"The question and answer are aligned, but the answer does not provide specific numeric evidence or forward guidance, hence the 'Medium' evidence level and 'Hedged' stance.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Follow-up on UK cards performance and Barclays' market share, and the competitive landscape for CIB share gains.\",\n  \"main_topics\": [\"UK cards performance\", \"Barclays market share\", \"CIB competitive landscape\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I was wondering, on the UK cards, if there was anything specifically to call out on Barclays' performance.\",\n  \"answer_quote\": \"I think the first thing to say is that we are in cards and actually [no one] else [is] exactly the same. We are not targeting a specific market share, that is not part of our philosophy.\",\n  \"reason\": \"The response addresses the question about Barclays' performance and the competitive landscape but does not provide specific numeric evidence or forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on UK cards and CIB performance\",\n  \"main_topics\": [\n    \"UK cards performance\",\n    \"Barclays market share\",\n    \"CIB share gains\",\n    \"Competitive landscape\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I was wondering, on the UK cards, if there was anything specifically to call out on Barclays' performance. It seems like the market share in terms of credit card balances in the UK keeps dropping lower, even though there had been comments about a year ago about your intention to lean back into the recovery and regain some of the market share lost. So, I was wondering how we should think about the card progression balances going forward? Would that be in line with the market, that you are roughly content with a market share of around 15%? Or would you also see an ambition to regain some of the market share in UK cards?\",\n  \"answer_quote\": \"I think the first thing to say is that we are in cards and actually [no one] else [is] exactly the same. We are not targeting a specific market share, that is not part of our philosophy. Our performance, I think, reflects the fact that we did step back from risk. We actually stepped back from risk post-Brexit and we stepped back at the beginning of the pandemic. Therefore, as we step back in, the response is not an immediate one. It takes a while for those customers to join us, to start to borrow, and so on. So, I think we would hope that we will see balances grow over time from stepping back into that market, but it is not instantaneous. There is a delay. I think that is what we are seeing now. The other thing I would say is that it is our intention, over time, that we will reshape that business, and you are seeing evidence of us doing that now. So, ensuring that we have got products that are focused on spend, not lend. Our Avios product launched in February (for example). It is too early to talk about specific numbers but we are pleased with how that is going. So, I think the cards business of the future is not going to be a replica of the cards business of the past for quite a few reasons.\",\n  \"reason\": \"The question and answer are aligned, but the answer does not provide specific numeric evidence or forward guidance, hence the 'Medium' evidence level and 'Hedged' stance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on UK cards and CIB performance\",\n  \"main_topics\": [\n    \"UK cards performance\",\n    \"Barclays market share\",\n    \"CIB share gains\",\n    \"Competitive landscape\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I was wondering, on the UK cards, if there was anything specifically to call out on Barclays' performance. It seems like the market share in terms of credit card balances in the UK keeps dropping lower, even though there had been comments about a year ago about your intention to lean back into the recovery and regain some of the market share lost. So, I was wondering how we should think about the card progression balances going forward? Would that be in line with the market, that you are roughly content with a market share of around 15%? Or would you also see an ambition to regain some of the market share in UK cards?\",\n  \"answer_quote\": \"I think the first thing to say is that we are in cards and actually [no one] else [is] exactly the same. We are not targeting a specific market share, that is not part of our philosophy. Our performance, I think, reflects the fact that we did step back from risk. We actually stepped back from risk post-Brexit and we stepped back at the beginning of the pandemic. Therefore, as we step back in, the response is not an immediate one. It takes a while for those customers to join us, to start to borrow, and so on. So, I think we would hope that we will see balances grow over time from stepping back into that market, but it is not instantaneous. There is a delay. I think that is what we are seeing now. The other thing I would say is that it is our intention, over time, that we will reshape that business, and you are seeing evidence of us doing that now. So, ensuring that we have got products that are focused on spend, not lend. Our Avios product launched in February (for example). It is too early to talk about specific numbers but we are pleased with how that is going. So, I think the cards business of the future is not going to be a replica of the cards business of the past for quite a few reasons.\",\n  \"reason\": \"The question and answer are aligned, but the answer does not provide specific numeric evidence or forward guidance, hence the 'Medium' evidence level and 'Hedged' stance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1201,
+      "batch_seconds": 38.87187994800024
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1249,
+      "batch_seconds": 96.98653812799967
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1249,
+      "batch_seconds": 40.31078212700049
+    }
+  ],
+  "exchange_id": "224db408a071-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f48af6b8e68898405ebb4859b41537b4cd848bb300af5c64ed25feb14e829a04",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

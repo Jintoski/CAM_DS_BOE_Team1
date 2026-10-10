@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Investment Bank performance and future outlook\",\n  \"main_topics\": [\"Investment Bank performance\", \"Future outlook\", \"Investment strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was going to ask about the Investment Bank and how you're seeing the trading. Obviously we saw the numbers in the second quarter and, it's not about next quarter now, but where do you see it on a two, three year basis and how much are you investing, etc.\",\n  \"answer_quote\": \"So I won't make a trading statement for the third quarter. What I would say is that obviously what we noted at the end of the second quarter was that our share of announced deals in banking was higher than our share of completed deals, and therefore we were comfortable with our pipeline, certainly for the second half of the year. And obviously you would expect us along with the rest of the market to monetise the kind of volatility that we've seen more broadly. So I think short term, happy with where we're trading. I think longer term, what we're really trying to do here is put more stability into the Investment Bank in general.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a complete response with high evidence, including numeric evidence and forward guidance, and is aligned with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 852,
+      "batch_seconds": 23.558009484999275
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e42aa8dc5326f9f1061535ff68483d2601daf3378f8d4d034e6ca04fa4f1f49d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investment Bank performance and future outlook",
+    "main_topics": [
+      "Investment Bank performance",
+      "Future outlook",
+      "Investment strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I was going to ask about the Investment Bank and how you're seeing the trading. Obviously we saw the numbers in the second quarter and, it's not about next quarter now, but where do you see it on a two, three year basis and how much are you investing, etc.",
+    "answer_quote": "So I won't make a trading statement for the third quarter. What I would say is that obviously what we noted at the end of the second quarter was that our share of announced deals in banking was higher than our share of completed deals, and therefore we were comfortable with our pipeline, certainly for the second half of the year. And obviously you would expect us along with the rest of the market to monetise the kind of volatility that we've seen more broadly. So I think short term, happy with where we're trading. I think longer term, what we're really trying to do here is put more stability into the Investment Bank in general.",
+    "reason": "The answer directly addresses the question's intent, provides a complete response with high evidence, including numeric evidence and forward guidance, and is aligned with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

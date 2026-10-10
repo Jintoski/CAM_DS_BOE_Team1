@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss NIM and cost projections for 2022 and 2023, and the feasibility of a CIB cost-to-income ratio below 60%.\",\n  \"main_topics\": [\"NIM trajectory\", \"Cost projections\", \"CIB cost-to-income ratio\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I can just quickly add another one on costs, another year of a CIB cost-to-income ratio below 60%. Assuming revenues don't drop meaningfully in the CIB, is that something you think is achievable, going forward from here?\",\n  \"answer_quote\": \"On costs, I think it's reasonable, again, the building blocks that you used. I won't quote whether you use 2% or 3% or whatever in your precise models. I'll let you judge that but I think the building blocks that you're using are pretty reasonable. In terms of CIB and cost: income ratio, look, we're pretty pleased with the operating leverage that the CIB has been able to demonstrate so where we have a very buoyant top-line environment, a lot of that drops straight through to the bottom line.\",\n  \"reason\": \"The answer directly addresses the questions about NIM, cost projections, and the CIB cost-to-income ratio, providing a clear stance and high-level evidence without specific numeric details.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1129,
+      "batch_seconds": 34.156555157000184
+    }
+  ],
+  "exchange_id": "a055cc76c938-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1e91acc0dd79ffc26c8e742607ed22ec9284af7486e50edf919e891664df9d28",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss NIM and cost projections for 2022 and 2023, and the feasibility of a CIB cost-to-income ratio below 60%.",
+    "main_topics": [
+      "NIM trajectory",
+      "Cost projections",
+      "CIB cost-to-income ratio"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "If I can just quickly add another one on costs, another year of a CIB cost-to-income ratio below 60%. Assuming revenues don't drop meaningfully in the CIB, is that something you think is achievable, going forward from here?",
+    "answer_quote": "On costs, I think it's reasonable, again, the building blocks that you used. I won't quote whether you use 2% or 3% or whatever in your precise models. I'll let you judge that but I think the building blocks that you're using are pretty reasonable. In terms of CIB and cost: income ratio, look, we're pretty pleased with the operating leverage that the CIB has been able to demonstrate so where we have a very buoyant top-line environment, a lot of that drops straight through to the bottom line.",
+    "reason": "The answer directly addresses the questions about NIM, cost projections, and the CIB cost-to-income ratio, providing a clear stance and high-level evidence without specific numeric details."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Investment Bank capital strategy and market share expectations\",\n  \"main_topics\": [\"FRTB\", \"US and UK regulatory impact\", \"Investment Bank capital efficiency\", \"Market share in Banking and Global Markets\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"First one, on FRTB, and really I'm thinking about the US if it doesn't get implemented with Basel 4. If the PRA responds by delaying areas which you might see as kind of anti-competitive for UK bank institutions, how would you respond? I imagine that's a conversation you must have discussed. I'm thinking about it in the sense of as shareholders, should they expect you to target lower capital in the Investment Bank as a consequence of that? So less than flat RWAs vs percent of the Group, or would it just be redeployed into other areas in that scenario?\",\n  \"answer_quote\": \"So on the first one, difficult to answer that fully at this point in time because obviously we don't have final US rules, we don't really even have the final UK rules, although we should expect to have those relatively soon. So that in mind we continue to guide to the [lower end of] 5-10% [of Group RWA inflation from regulatory change]. I guess the answer to your question depends on how material any changes were and if indeed they occur. So anything I said at this point would be just complete speculation. What we are focused on is holding RWAs within that business flat, ensuring that it becomes more capital efficient. That's a plan irrespective of where the regulation goes. And we'll update you as soon as we have clearer plans.\",\n  \"reason\": \"The answer partially addresses the question about capital strategy and market share expectations, providing a hedged response with high evidence level, including numeric evidence and forward guidance, but it does not fully answer the shareholder's concern about the potential for lower capital in the Investment Bank.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1147,
+      "batch_seconds": 34.982933763999426
+    }
+  ],
+  "exchange_id": "c2dcd0d52d2d-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ee87861af3228bc21ab7ce5502ffe649a436bce684019a1f022156775fcad0e7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investment Bank capital strategy and market share expectations",
+    "main_topics": [
+      "FRTB",
+      "US and UK regulatory impact",
+      "Investment Bank capital efficiency",
+      "Market share in Banking and Global Markets"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "First one, on FRTB, and really I'm thinking about the US if it doesn't get implemented with Basel 4. If the PRA responds by delaying areas which you might see as kind of anti-competitive for UK bank institutions, how would you respond? I imagine that's a conversation you must have discussed. I'm thinking about it in the sense of as shareholders, should they expect you to target lower capital in the Investment Bank as a consequence of that? So less than flat RWAs vs percent of the Group, or would it just be redeployed into other areas in that scenario?",
+    "answer_quote": "So on the first one, difficult to answer that fully at this point in time because obviously we don't have final US rules, we don't really even have the final UK rules, although we should expect to have those relatively soon. So that in mind we continue to guide to the [lower end of] 5-10% [of Group RWA inflation from regulatory change]. I guess the answer to your question depends on how material any changes were and if indeed they occur. So anything I said at this point would be just complete speculation. What we are focused on is holding RWAs within that business flat, ensuring that it becomes more capital efficient. That's a plan irrespective of where the regulation goes. And we'll update you as soon as we have clearer plans.",
+    "reason": "The answer partially addresses the question about capital strategy and market share expectations, providing a hedged response with high evidence level, including numeric evidence and forward guidance, but it does not fully answer the shareholder's concern about the potential for lower capital in the Investment Bank."
+  },
+  "whitespace_adjusted_quotes": []
+}

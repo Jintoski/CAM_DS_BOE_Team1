@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on private credit, growth rate, and USCB RoTE and pipeline wins.\",\n  \"main_topics\": [\"private credit\", \"growth rate\", \"USCB RoTE\", \"pipeline wins\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I guess there are two follow-ups. I apologise for another one on private credit. As you look at what went wrong in Tricolor and you've reviewed the rest of the book, are you satisfied that the collateral integrity is there, and can you reassure us?\",\n  \"answer_quote\": \"So, about the review that we took, it's along the three dimensions which I said to you. One is the company is being financially stretched. The second part is strength of financial controls in the company and independence of financial controls.\",\n  \"reason\": \"The question and answer are directly related, with the answer addressing the concerns about private credit, growth rate, and USCB RoTE and pipeline wins, providing a direct response with high evidence level.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1185,
+      "batch_seconds": 40.80070205899938
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "67191b08c7c9429bfa4a05cd77d81676b4c1df9eed0078ad50ca4cc287549ece",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on private credit, growth rate, and USCB RoTE and pipeline wins.",
+    "main_topics": [
+      "private credit",
+      "growth rate",
+      "USCB RoTE",
+      "pipeline wins"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I guess there are two follow-ups. I apologise for another one on private credit. As you look at what went wrong in Tricolor and you've reviewed the rest of the book, are you satisfied that the collateral integrity is there, and can you reassure us?",
+    "answer_quote": "So, about the review that we took, it's along the three dimensions which I said to you. One is the company is being financially stretched. The second part is strength of financial controls in the company and independence of financial controls.",
+    "reason": "The question and answer are directly related, with the answer addressing the concerns about private credit, growth rate, and USCB RoTE and pipeline wins, providing a direct response with high evidence level."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Wealth revenue-growth outlook\",\n  \"main_topics\": [\"Wealth revenue-growth outlook\", \"Asia Wealth growth\", \"Revenue CAGR\", \"Market sentiment\", \"Organic investment programme\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would be it be possible to give us some guidance in terms of the Wealth revenue-growth outlook?\",\n  \"answer_quote\": \"We talked about our revenue-growth outlook in February. For Asia Wealth, we're assuming close to double-digit growth in assets, as we said in February, and mid-single-digit growth in other regions outside of Asia. And that would result in probably Asia Wealth revenues to grow at around about 10% CAGR over the next few years.\",\n  \"reason\": \"The answer directly addresses the question with specific numeric evidence and forward guidance, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Wealth revenue-growth outlook\",\n  \"main_topics\": [\"Wealth revenue-growth\", \"Asia Wealth growth\", \"Revenue CAGR\", \"Market growth\", \"Organic investment programme\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would be it be possible to give us some guidance in terms of the Wealth revenue-growth outlook?\",\n  \"answer_quote\": \"We talked about our revenue-growth outlook in February. For Asia Wealth, we're assuming close to double-digit growth in assets, as we said in February, and mid-single-digit growth in other regions outside of Asia. And that would result in probably Asia Wealth revenues to grow at around about 10% CAGR over the next few years. And if I remember correctly, I think, if you look at market sentiment and market stats, you're probably looking at the underlying market in Asia probably growing 6%, 7%, 8%, so we're trying to outperform the market via the organic investment programme that we're putting in place.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 534,
+      "batch_seconds": 11.99581223000041
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 579,
+      "batch_seconds": 12.623332375000246
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c2efe559ba8c1fcf50d74f74e0740a383997738d9961173acbb8bbe11a1baa25",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Wealth revenue-growth outlook",
+    "main_topics": [
+      "Wealth revenue-growth outlook",
+      "Asia Wealth growth",
+      "Revenue CAGR",
+      "Market sentiment",
+      "Organic investment programme"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Would be it be possible to give us some guidance in terms of the Wealth revenue-growth outlook?",
+    "answer_quote": "We talked about our revenue-growth outlook in February. For Asia Wealth, we're assuming close to double-digit growth in assets, as we said in February, and mid-single-digit growth in other regions outside of Asia. And that would result in probably Asia Wealth revenues to grow at around about 10% CAGR over the next few years.",
+    "reason": "The answer directly addresses the question with specific numeric evidence and forward guidance, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Duration of benefits from interest rate stabilization\",\n  \"main_topics\": [\"Interest rate stabilization\", \"Net interest income\", \"Net interest margin\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How many quarters does that last? Let's say if rate curves stabilise and, I guess, from that point onwards, would there be any benefits that we should be thinking about once interest rates stabilise at a certain level from higher Treasury returns, or should we just take that into account from the net interest income sensitivity you have provided?\",\n  \"answer_quote\": \"No, there'll be no latent one-off gain or loss at that point. And then effectively you'll see the benefit of wherever those rates stabilise come through in net interest income and the net interest margin over time.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on the duration of benefits from interest rate stabilization, and aligns with the narrative of the question without providing numeric evidence or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Duration of benefits from interest rate stabilization\",\n  \"main_topics\": [\"Interest rate stabilization\", \"Net interest income\", \"Net interest margin\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How many quarters does that last? Let's say if rate curves stabilise and, I guess, from that point onwards, would there be any benefits that we should be thinking about once interest rates stabilise at a certain level from higher Treasury returns, or should we just take that into account from the net interest income sensitivity you have provided?\",\n  \"answer_quote\": \"No, there'll be no latent one-off gain or loss at that point. And then effectively you'll see the benefit of wherever those rates stabilise come through in net interest income and the net interest margin over time.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 502,
+      "batch_seconds": 10.323243250000814
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 547,
+      "batch_seconds": 10.71841162399869
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fbb301210facae982a4c5e157007aec833580abfd455f6b36485b193c4ba5f4b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Duration of benefits from interest rate stabilization",
+    "main_topics": [
+      "Interest rate stabilization",
+      "Net interest income",
+      "Net interest margin"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How many quarters does that last? Let's say if rate curves stabilise and, I guess, from that point onwards, would there be any benefits that we should be thinking about once interest rates stabilise at a certain level from higher Treasury returns, or should we just take that into account from the net interest income sensitivity you have provided?",
+    "answer_quote": "No, there'll be no latent one-off gain or loss at that point. And then effectively you'll see the benefit of wherever those rates stabilise come through in net interest income and the net interest margin over time.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on the duration of benefits from interest rate stabilization, and aligns with the narrative of the question without providing numeric evidence or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

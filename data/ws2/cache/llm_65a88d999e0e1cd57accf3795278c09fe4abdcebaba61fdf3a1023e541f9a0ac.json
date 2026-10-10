@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Anticipation of Q4 results announcement\",\n  \"main_topics\": [\"Q4 results\", \"Announcement timing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So most likely we'll get to hear the conclusions with the Q4 results. Is that right?\",\n  \"answer_quote\": \"Well, to the extent that we believe that there's something that we would [share], then that would be about the right time.\",\n  \"reason\": \"The answer hedges the timing of the Q4 results announcement without confirming or denying the anticipation.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 434,
+      "batch_seconds": 8.018176011999458
+    }
+  ],
+  "exchange_id": "7c783b078a7c-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "65a88d999e0e1cd57accf3795278c09fe4abdcebaba61fdf3a1023e541f9a0ac",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Anticipation of Q4 results announcement",
+    "main_topics": [
+      "Q4 results",
+      "Announcement timing"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So most likely we'll get to hear the conclusions with the Q4 results. Is that right?",
+    "answer_quote": "Well, to the extent that we believe that there's something that we would [share], then that would be about the right time.",
+    "reason": "The answer hedges the timing of the Q4 results announcement without confirming or denying the anticipation."
+  },
+  "whitespace_adjusted_quotes": []
+}

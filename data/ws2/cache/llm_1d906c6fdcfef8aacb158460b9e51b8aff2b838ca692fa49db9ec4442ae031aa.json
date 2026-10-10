@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing Chase's impact on UK retail banking\",\n  \"main_topics\": [\"Chase's UK market entry\", \"Banking competition\", \"Regulatory impact\", \"Strategic response\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you spend much time as a management team looking at what they're doing in the UK retail space?\",\n  \"answer_quote\": \"I think when someone like Chase comes into your backyard, you've got to take people like that very seriously.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on Chase's impact and the bank's strategic response, with high evidence from the narrative.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assess Chase's impact on UK retail banking and its potential threat to core business.\",\n  \"main_topics\": [\"Chase's UK market entry\", \"Impact on UK retail banking\", \"Threat to core business\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you spend much time as a management team looking at what they're doing in the UK retail space?\",\n  \"answer_quote\": \"I think when someone like Chase comes into your backyard, you've got to take people like that very seriously. I can't say we spend all day and every day thinking about that. Obviously, it's a greenfield [operation] and it'll take some time for them to get scaled up and running, but we should never underestimate folks like that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 783,
+      "batch_seconds": 21.483448043999488
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 828,
+      "batch_seconds": 21.183683261000624
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1d906c6fdcfef8aacb158460b9e51b8aff2b838ca692fa49db9ec4442ae031aa",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing Chase's impact on UK retail banking",
+    "main_topics": [
+      "Chase's UK market entry",
+      "Banking competition",
+      "Regulatory impact",
+      "Strategic response"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Do you spend much time as a management team looking at what they're doing in the UK retail space?",
+    "answer_quote": "I think when someone like Chase comes into your backyard, you've got to take people like that very seriously.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on Chase's impact and the bank's strategic response, with high evidence from the narrative."
+  },
+  "whitespace_adjusted_quotes": []
+}

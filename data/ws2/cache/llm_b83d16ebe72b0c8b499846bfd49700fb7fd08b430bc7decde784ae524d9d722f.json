@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Understanding reasons for exiting a small market like Indonesia\",\n  \"main_topics\": [\"Indonesia\", \"CIB network\", \"retail footprint\", \"wealth business\", \"risk appetite\", \"growth trajectory\", \"disposal\", \"costs\", \"seniority\", \"coverage\", \"investment prioritization\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on Indonesia? I know it's a very small business for you, but I'm trying to get an idea about how you think about these smaller markets?\",\n  \"answer_quote\": \"We're making a distinction between the countries we need for our CIB network, and Indonesia is absolutely part of that and important and core to that.\",\n  \"reason\": \"The response directly addresses the question about Indonesia, providing reasons for exiting the market, and includes a numeric evidence of a $400 million gain on disposal.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding reasons for exiting Indonesia market\",\n  \"main_topics\": [\"Market exit\", \"CIB network\", \"Retail footprint\", \"Wealth business growth\", \"Risk appetite\", \"Investment prioritization\", \"Costs\", \"Disposal gains\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there a lot of cost? Because I presume you've still kept operations in Indonesia, so I'm just trying to work out what was the driver for you to get out of that business, albeit noting the size.\",\n  \"answer_quote\": \"Any costs associated with that business will go back into the core franchises on disposal. And there is a $400 million gain on disposal.\",\n  \"reason\": \"The answer directly addresses the question about the costs and reasons for exiting the Indonesia market, providing a clear explanation and mentioning a specific financial gain from the disposal.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding the bank's strategy and reasons for exiting the Indonesian market\",\n  \"main_topics\": [\"Indonesia market exit\", \"CIB network\", \"retail footprint\", \"wealth business growth\", \"risk appetite\", \"investment prioritization\", \"costs\", \"disposal\", \"CIB to retail transition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on Indonesia? I know it's a very small business for you, but I'm trying to get an idea about how you think about these smaller markets? When you sell that loan book, is it about capital release? Is it about simplification of the business? Is there a lot of cost? Because I presume you've still kept operations in Indonesia, so I'm just trying to work out what was the driver for you to get out of that business, albeit noting the size.\",\n  \"answer_quote\": \"We're making a distinction between the countries we need for our CIB network, and Indonesia is absolutely part of that and important and core to that. We've gone back and looked at the other countries where we have, in addition to the CIB business, some retail footprint. The question we ask is in terms of the scale of the retail footprint and the growth trajectory of the wealth business in that market, given the risk appetite we are comfortable with - 'where would it stand in priority order for growth of wealth?' That is the reason why we are exiting some of these sub-scale markets - our focus is pretty much on wealth and, within the risk appetite, the growth and the size of that wealth business. If we don't want to be in mass retail, then what's the growth trajectory for that wealth business? That becomes a risk appetite, growth trajectory and investment prioritisation question, but it does not mean that we are reducing either seniority of people or coverage or investment from a CIB perspective. Many of these businesses started as CIB businesses and over time grew retail and wealth, like many other international banks. Any costs associated with that business will go back into the core franchises on disposal. And there is a $400 million gain on disposal.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with a specific numeric figure, and aligns with the narrative of the question without forward guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding reasons for exiting a small market like Indonesia\",\n  \"main_topics\": [\"Indonesia\", \"CIB network\", \"retail footprint\", \"wealth business\", \"risk appetite\", \"growth trajectory\", \"disposal\", \"costs\", \"seniority\", \"coverage\", \"investment prioritization\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask a question on Indonesia? I know it's a very small business for you, but I'm trying to get an idea about how you think about these smaller markets?\",\n  \"answer_quote\": \"We're making a distinction between the countries we need for our CIB network, and Indonesia is absolutely part of that and important and core to that.\",\n  \"reason\": \"The response directly addresses the question about Indonesia, providing reasons for exiting the market, and includes a numeric evidence of a $400 million gain on disposal.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 736,
+      "batch_seconds": 20.983468356999765
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 790,
+      "batch_seconds": 20.96559369500028
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 790,
+      "batch_seconds": 20.02667680200102
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b83d16ebe72b0c8b499846bfd49700fb7fd08b430bc7decde784ae524d9d722f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

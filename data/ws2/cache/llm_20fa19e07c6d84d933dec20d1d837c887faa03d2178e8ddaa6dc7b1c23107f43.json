@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for additional financial tool\",\n  \"main_topics\": [\"FX split\", \"financial forecasting\", \"financial tools\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"It's observable from your FX split that you give us that next year ought to be smaller than this year just on the mix that you've got, if you look what the curves are saying. I think it's an important tool that you might want to consider adding to the arsenal.\",\n  \"answer_quote\": \"Fair enough.\",\n  \"reason\": \"The answer does not address the request for a new financial tool, instead it deflects with a noncommittal response.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Suggest adding a tool to the bank's financial analysis.\",\n  \"main_topics\": [\"Financial Analysis\", \"Bank's Tools\", \"FX Split\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"It's observable from your FX split that you give us that next year ought to be smaller than this year just on the mix that you've got, if you look what the curves are saying. I think it's an important tool that you might want to consider adding to the arsenal.\",\n  \"answer_quote\": \"Fair enough.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 446,
+      "batch_seconds": 7.9235276970002815
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 491,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "df882adea623-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "20fa19e07c6d84d933dec20d1d837c887faa03d2178e8ddaa6dc7b1c23107f43",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for additional financial tool",
+    "main_topics": [
+      "FX split",
+      "financial forecasting",
+      "financial tools"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "It's observable from your FX split that you give us that next year ought to be smaller than this year just on the mix that you've got, if you look what the curves are saying. I think it's an important tool that you might want to consider adding to the arsenal.",
+    "answer_quote": "Fair enough.",
+    "reason": "The answer does not address the request for a new financial tool, instead it deflects with a noncommittal response."
+  },
+  "whitespace_adjusted_quotes": []
+}

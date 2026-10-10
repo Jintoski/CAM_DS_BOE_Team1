@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on timing and appropriate coverage level for Hong Kong CRE charge\",\n  \"main_topics\": [\"Hong Kong CRE charge timing\", \"appropriate coverage level\", \"credit risk migration\", \"valuation process\", \"distressed valuations\", \"LTVs\", \"over-supply in office space\", \"market liquidity\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a simple follow-up on the Hong Kong CRE, which I think you've done a pretty good job of addressing. I guess what drove the timing of this charge, because some of the dynamics that you point out in the interim report you could have easily argued were there in Q4, so I guess what drove the timing of today versus Q4?\",\n  \"answer_quote\": \"I'm going to make a couple of comments but ask Pam to address your question. The first one is to reiterate the fact that we are comfortable with our position on Hong Kong CRE. We've explained the area of specific focus, and we've captured the outlook for 2025 in our revised ECL target. So firstly, part of the charge, you said, is a model change, and the model changes happen periodically, and that's only $100 million.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Timing and rationale for Hong Kong CRE charge, and gauging appropriate coverage level.\",\n  \"main_topics\": [\"Hong Kong CRE charge timing\", \"Valuation process\", \"ECL charge\", \"LTVs\", \"Office space over-supply\", \"Market liquidity\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a simple follow-up on the Hong Kong CRE, which I think you've done a pretty good job of addressing. I guess what drove the timing of this charge, because some of the dynamics that you point out in the interim report you could have easily argued were there in Q4, so I guess what drove the timing of today versus Q4?\",\n  \"answer_quote\": \"I'm going to make a couple of comments but ask Pam to address your question. The first one is to reiterate the fact that we are comfortable with our position on Hong Kong CRE. We've explained the area of specific focus, and we've captured the outlook for 2025 in our revised ECL target. So firstly, part of the charge, you said, is a model change, and the model changes happen periodically, and that's only $100 million. The key thing that we look at every quarter and we looked at the last year-end as well, is valuations. Now, valuations is an ongoing process. You see the valuations in terms of orderly valuations, but the valuations also get impacted even on the performing book when you see some distressed valuations. And already, we had started considering distressed valuations as part of our ECL charge for the year-end by giving some probability for those distressed valuations, and this lag on a performing book, because the book is still performing on the valuations as it comes as part of our credit processes - we do a read-across to the book. Now, generally, the LTVs have remained strong, so just to say the LTVs which have gone higher than 70% is still a very small portion of the book, but while we are focused on this, we are, as in every quarter, looking at the rest of the book. The real challenge continues with the over-supply in the office space. Now, it's not across everywhere the same. It depends upon the location of the office space; it depends upon the quality of the building. Has it been new, refurbed, or otherwise? So that's the piece that we also then bear in mind when we look at the valuation shift, to say, 'Is there any greater calibration or divergence from the kind of property, the use of property?' And the overall liquidity in the market, in terms of actual transactions, has been relatively low.\"\n  \"reason\": \"The answer partially addresses the question by discussing the charge timing, valuation process, and ECL charge, but does not directly answer the question about the appropriate coverage level or the timing of the charge compared to Q4.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 3 (char 2679)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the timing of the Hong Kong CRE charge and gauge the appropriate coverage level.\",\n  \"main_topics\": [\"Hong Kong CRE charge timing\", \"appropriate coverage level\", \"credit risk migration\", \"valuation process\", \"distressed valuations\", \"LTVs\", \"over-supply in office space\", \"market liquidity\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a simple follow-up on the Hong Kong CRE, which I think you've done a pretty good job of addressing. I guess what drove the timing of this charge, because some of the dynamics that you point out in the interim report you could have easily argued were there in Q4, so I guess what drove the timing of today versus Q4?\",\n  \"answer_quote\": \"I'm going to make a couple of comments but ask Pam to address your question. The first one is to reiterate the fact that we are comfortable with our position on Hong Kong CRE. We've explained the area of specific focus, and we've captured the outlook for 2025 in our revised ECL target.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on timing and appropriate coverage level for Hong Kong CRE charge\",\n  \"main_topics\": [\"Hong Kong CRE charge timing\", \"appropriate coverage level\", \"credit risk migration\", \"valuation process\", \"distressed valuations\", \"LTVs\", \"over-supply in office space\", \"market liquidity\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a simple follow-up on the Hong Kong CRE, which I think you've done a pretty good job of addressing. I guess what drove the timing of this charge, because some of the dynamics that you point out in the interim report you could have easily argued were there in Q4, so I guess what drove the timing of today versus Q4?\",\n  \"answer_quote\": \"I'm going to make a couple of comments but ask Pam to address your question. The first one is to reiterate the fact that we are comfortable with our position on Hong Kong CRE. We've explained the area of specific focus, and we've captured the outlook for 2025 in our revised ECL target. So firstly, part of the charge, you said, is a model change, and the model changes happen periodically, and that's only $100 million.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 910,
+      "batch_seconds": 25.496445402000063
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 965,
+      "batch_seconds": 26.911594532999516
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 955,
+      "batch_seconds": 27.953487042999768
+    }
+  ],
+  "exchange_id": "bc90a34c5f04-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9f8598bbac661230e0d858398714ce499f558afaa8d8bd55eca889efd0dfedf5",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

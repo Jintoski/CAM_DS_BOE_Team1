@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Verify the calculation of BUK's share of structural hedge revenue\",\n  \"main_topics\": [\"structural hedge revenue\", \"BUK\", \"CIB\", \"mathematical calculation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Just one, please, and it's just to check my maths on something. The structural hedge revenue in the second quarter, I think it's slide 35, shot up even more than I was expecting. It's up about £120m, I think, on Q122. Historically, you've told us that 60% of that falls into BUK, so that would be about £70m if that's right, but the BUK NII only went up £50m, or thereabouts. Obviously, you've got the mortgage headwinds, you've obviously got the base rate increases on the unhedged deposits in Barclays UK as well, but is that maths still right, that 60% of the structural hedge is falling into BUK? Or has something odd happened in the second quarter, where more of this has gone into CIB?\",\n  \"answer_quote\": \"The structural hedge income did go up significantly. That's not just the ongoing rolling of the hedge, but it's also the fact that we've extended the hedge. So we've put on an additional £18bn in the quarter, and obviously that's gone straight in at current rates, so it has quite an impact, quite an eye-catching impact. We are talking there about the gross income on the hedge. Within BUK, yes, we do see [c.]60% of the benefit flowing into there, so I'm not sure how your maths is working, but perhaps we can help you with that offline.\",\n  \"reason\": \"The answer deflects the question by not directly addressing the discrepancy in the calculation, instead offering to help with the maths offline.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Verify the percentage of structural hedge income allocated to BUK\",\n  \"main_topics\": [\"structural hedge revenue\", \"BUK\", \"CIB\", \"mathematical calculation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Just one, please, and it's just to check my maths on something. The structural hedge revenue in the second quarter, I think it's slide 35, shot up even more than I was expecting. It's up about £120m, I think, on Q122. Historically, you've told us that 60% of that falls into BUK, so that would be about £70m if that's right, but the BUK NII only went up £50m, or thereabouts. Obviously, you've got the mortgage headwinds, you've obviously got the base rate increases on the unhedged deposits in Barclays UK as well, but is that maths still right, that 60% of the structural hedge is falling into BUK? Or has something odd happened in the second quarter, where more of this has gone into CIB?\",\n  \"answer_quote\": \"The structural hedge income did go up significantly. That's not just the ongoing rolling of the hedge, but it's also the fact that we've extended the hedge. So we've put on an additional £18bn in the quarter, and obviously that's gone straight in at current rates, so it has quite an impact, quite an eye-catching impact. We are talking there about the gross income on the hedge. Within BUK, yes, we do see [c.]60% of the benefit flowing into there, so I'm not sure how your maths is working, but perhaps we can help you with that offline.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 676,
+      "batch_seconds": 17.66034953899998
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 721,
+      "batch_seconds": 18.00490129800164
+    }
+  ],
+  "exchange_id": "335469fccfd8-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "34eabb665be3ef9ec1f259030f22f162b4ab277c789f55039329f8802380cb42",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Verify the calculation of BUK's share of structural hedge revenue",
+    "main_topics": [
+      "structural hedge revenue",
+      "BUK",
+      "CIB",
+      "mathematical calculation"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Just one, please, and it's just to check my maths on something. The structural hedge revenue in the second quarter, I think it's slide 35, shot up even more than I was expecting. It's up about £120m, I think, on Q122. Historically, you've told us that 60% of that falls into BUK, so that would be about £70m if that's right, but the BUK NII only went up £50m, or thereabouts. Obviously, you've got the mortgage headwinds, you've obviously got the base rate increases on the unhedged deposits in Barclays UK as well, but is that maths still right, that 60% of the structural hedge is falling into BUK? Or has something odd happened in the second quarter, where more of this has gone into CIB?",
+    "answer_quote": "The structural hedge income did go up significantly. That's not just the ongoing rolling of the hedge, but it's also the fact that we've extended the hedge. So we've put on an additional £18bn in the quarter, and obviously that's gone straight in at current rates, so it has quite an impact, quite an eye-catching impact. We are talking there about the gross income on the hedge. Within BUK, yes, we do see [c.]60% of the benefit flowing into there, so I'm not sure how your maths is working, but perhaps we can help you with that offline.",
+    "reason": "The answer deflects the question by not directly addressing the discrepancy in the calculation, instead offering to help with the maths offline."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Multiple questions about BoCom, restructuring costs, and tokenised deposits\",\n  \"main_topics\": [\"BoCom\", \"Restructuring costs\", \"Tokenised deposits\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I have three questions. The first is that I would want to ask about what are the outstanding parts of the threshold deduction related to the BoCom, if there is further impairment on BoCom? If there's further impairment on BoCom, what would the amount be in order for that future impairment to have an impact on your CET1 ratios and share buyback and EPS, and so forth?\",\n  \"answer_quote\": \"Let me then answer your third question; I'll ask Pam to address the first two. So, today, this is available to HSBC's clients and any whitelisted clients' clients, or clients' counterparties, but ultimately, they need to go through the HSBC standards for know your client, financial crime checks, among other kinds of checks. So the capabilities will be extended, but will be expanded in a way where we remain very comfortable with the KYC considerations to be able to onboard them as clients or future clients. We are looking, obviously, at stablecoin developments. We believe it is still early to understand how some of these stablecoin issuers are able to KYC the wider client base. Some of them are, but obviously, the regulations are going to dictate, for those who will be effectively whitelisted, what these requirements are, and we will evaluate accordingly over the next few weeks and months as this develops.\",\n  \"reason\": \"The answer directly addresses the questions about BoCom, restructuring costs, and tokenised deposits, providing specific details and figures.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1050,
+      "batch_seconds": 30.375494398999763
+    }
+  ],
+  "exchange_id": "bc90a34c5f04-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "770a2aadba84f82a3c4e2922b0750596dfce9ede112a53948b15d9f7286a6dbc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Multiple questions about BoCom, restructuring costs, and tokenised deposits",
+    "main_topics": [
+      "BoCom",
+      "Restructuring costs",
+      "Tokenised deposits"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I have three questions. The first is that I would want to ask about what are the outstanding parts of the threshold deduction related to the BoCom, if there is further impairment on BoCom? If there's further impairment on BoCom, what would the amount be in order for that future impairment to have an impact on your CET1 ratios and share buyback and EPS, and so forth?",
+    "answer_quote": "Let me then answer your third question; I'll ask Pam to address the first two. So, today, this is available to HSBC's clients and any whitelisted clients' clients, or clients' counterparties, but ultimately, they need to go through the HSBC standards for know your client, financial crime checks, among other kinds of checks. So the capabilities will be extended, but will be expanded in a way where we remain very comfortable with the KYC considerations to be able to onboard them as clients or future clients. We are looking, obviously, at stablecoin developments. We believe it is still early to understand how some of these stablecoin issuers are able to KYC the wider client base. Some of them are, but obviously, the regulations are going to dictate, for those who will be effectively whitelisted, what these requirements are, and we will evaluate accordingly over the next few weeks and months as this develops.",
+    "reason": "The answer directly addresses the questions about BoCom, restructuring costs, and tokenised deposits, providing specific details and figures."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing hedge scaling in response to rate changes and competition\",\n  \"main_topics\": [\"Hedge scaling\", \"Rate changes\", \"Competition\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Did the size of the buffer that you had in scaling the hedge take into account things like large competitors offering 2.75% on instant access savings, and 4% on 1-year fixed bonds?\",\n  \"answer_quote\": \"As we scale the hedge, we identify what we believe are rate-sensitive balances. So in part, yes. Clearly, not the specific rates that you've quoted there, rates are moving all the time. We believe we've got a competitive savings product ourselves, and actually we're seeing little migration, in fact practically no migration, out of the bank, and migration within our expectation to those products. We do consider migration when we put the hedge together.\",\n  \"reason\": \"The answer partially addresses the question by mentioning the consideration of rate-sensitive balances and competition, but does not provide specific details on how the buffer size was scaled in relation to the exact rates mentioned.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 577,
+      "batch_seconds": 12.588194320999719
+    }
+  ],
+  "exchange_id": "6d4760f97290-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ec68ba213875f4e53c380bfc6c4ef29bcbbc3e89f57f50f3fb69f99e5ab9d436",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing hedge scaling in response to rate changes and competition",
+    "main_topics": [
+      "Hedge scaling",
+      "Rate changes",
+      "Competition"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Did the size of the buffer that you had in scaling the hedge take into account things like large competitors offering 2.75% on instant access savings, and 4% on 1-year fixed bonds?",
+    "answer_quote": "As we scale the hedge, we identify what we believe are rate-sensitive balances. So in part, yes. Clearly, not the specific rates that you've quoted there, rates are moving all the time. We believe we've got a competitive savings product ourselves, and actually we're seeing little migration, in fact practically no migration, out of the bank, and migration within our expectation to those products. We do consider migration when we put the hedge together.",
+    "reason": "The answer partially addresses the question by mentioning the consideration of rate-sensitive balances and competition, but does not provide specific details on how the buffer size was scaled in relation to the exact rates mentioned."
+  },
+  "whitespace_adjusted_quotes": []
+}

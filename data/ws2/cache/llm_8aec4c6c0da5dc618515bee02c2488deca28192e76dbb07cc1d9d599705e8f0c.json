@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on fraud risk review in private credit portfolio\",\n  \"main_topics\": [\"private credit\", \"fraud risk\", \"risk assessment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"The first is to follow up on private credit. Based on your comment, my understanding is that HSBC has reviewed the whole $22 billion private credit portfolio and assessed the potential underlying risk, also for fraud cases, no matter which industry that the borrower is in - you have reviewed the portfolio of that industry, even though it may be or not in private credit, right?\",\n  \"answer_quote\": \"Nobody reviews fraud risk in the market. Can I be really clear - nobody reviews fraud risk because it is idiosyncratic by nature. You look at your risk from a materiality perspective and say, 'What is the propensity of risk?', just to clarify.\",\n  \"reason\": \"The answer deflects the question by stating that no one reviews fraud risk, which diverges from the question's focus on HSBC's review of a specific $22 billion private credit portfolio.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 522,
+      "batch_seconds": 11.349980590999621
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8aec4c6c0da5dc618515bee02c2488deca28192e76dbb07cc1d9d599705e8f0c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on fraud risk review in private credit portfolio",
+    "main_topics": [
+      "private credit",
+      "fraud risk",
+      "risk assessment"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "The first is to follow up on private credit. Based on your comment, my understanding is that HSBC has reviewed the whole $22 billion private credit portfolio and assessed the potential underlying risk, also for fraud cases, no matter which industry that the borrower is in - you have reviewed the portfolio of that industry, even though it may be or not in private credit, right?",
+    "answer_quote": "Nobody reviews fraud risk in the market. Can I be really clear - nobody reviews fraud risk because it is idiosyncratic by nature. You look at your risk from a materiality perspective and say, 'What is the propensity of risk?', just to clarify.",
+    "reason": "The answer deflects the question by stating that no one reviews fraud risk, which diverges from the question's focus on HSBC's review of a specific $22 billion private credit portfolio."
+  },
+  "whitespace_adjusted_quotes": []
+}

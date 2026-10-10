@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Impact of legacy debt on common equity tier 1 ratio and NII implications\",\n  \"main_topics\": [\"Legacy debt\", \"Common equity tier 1 ratio\", \"NII implications\", \"Capital management\", \"Exchange accounting\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just back on capital, you're doing a Liability Management Exercise at the moment for some of your legacy debt. I just wondered if you could give us an indication of how much of a common equity tier 1 ratio impact that might have, and, assuming that's embedded within your forecast, whether there's any NII implications of it. I think there's still about $6 or 7 billion of remaining legacy debt. Should we factor in some additional capital common equity tier 1 headwinds from retiring that debt as well?\",\n  \"answer_quote\": \"Thanks, Manus. We have a significant stack of legacy securities, as you know. What we have said is that we will address those to an extent that the impact to the cost base is limited, and that's the case with this exchange. We've taken account of what is called exchange accounting, which basically means that we don't materialise any P&L on the securities you're taking out in exchange for the new one, so it's just the fee differential that hits your capital, and it's a limited amount. Going forward it's pretty much going to be the same idea: we will look at each component of the stack and we will assess. To the extent that the cost is reasonable then we will address it, so nothing significant.\",\n  \"reason\": \"The answer partially addresses the impact on common equity tier 1 ratio and NII implications but does not provide specific figures or a clear indication of the impact, hence 'Partial'.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of legacy debt on CET1 ratio and NII implications\",\n  \"main_topics\": [\"Legacy debt\", \"CET1 ratio\", \"NII implications\", \"Capital management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just back on capital, you're doing a Liability Management Exercise at the moment for some of your legacy debt. I just wondered if you could give us an indication of how much of a common equity tier 1 ratio impact that might have, and, assuming that's embedded within your forecast, whether there's any NII implications of it. I think there's still about $6 or 7 billion of remaining legacy debt. Should we factor in some additional capital common equity tier 1 headwinds from retiring that debt as well?\",\n  \"answer_quote\": \"Thanks, Manus. We have a significant stack of legacy securities, as you know. What we have said is that we will address those to an extent that the impact to the cost base is limited, and that's the case with this exchange. We've taken account of what is called exchange accounting, which basically means that we don't materialise any P&L on the securities you're taking out in exchange for the new one, so it's just the fee differential that hits your capital, and it's a limited amount. Going forward it's pretty much going to be the same idea: we will look at each component of the stack and we will assess. To the extent that the cost is reasonable then we will address it, so nothing significant.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 635,
+      "batch_seconds": 15.20493993800028
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 680,
+      "batch_seconds": 16.749183160998655
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9c13c3ec4b8d38ccf684cde870e53fc6fd1b1eb085f4d62acd5837809dcca462",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Impact of legacy debt on common equity tier 1 ratio and NII implications",
+    "main_topics": [
+      "Legacy debt",
+      "Common equity tier 1 ratio",
+      "NII implications",
+      "Capital management",
+      "Exchange accounting"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Just back on capital, you're doing a Liability Management Exercise at the moment for some of your legacy debt. I just wondered if you could give us an indication of how much of a common equity tier 1 ratio impact that might have, and, assuming that's embedded within your forecast, whether there's any NII implications of it. I think there's still about $6 or 7 billion of remaining legacy debt. Should we factor in some additional capital common equity tier 1 headwinds from retiring that debt as well?",
+    "answer_quote": "Thanks, Manus. We have a significant stack of legacy securities, as you know. What we have said is that we will address those to an extent that the impact to the cost base is limited, and that's the case with this exchange. We've taken account of what is called exchange accounting, which basically means that we don't materialise any P&L on the securities you're taking out in exchange for the new one, so it's just the fee differential that hits your capital, and it's a limited amount. Going forward it's pretty much going to be the same idea: we will look at each component of the stack and we will assess. To the extent that the cost is reasonable then we will address it, so nothing significant.",
+    "reason": "The answer partially addresses the impact on common equity tier 1 ratio and NII implications but does not provide specific figures or a clear indication of the impact, hence 'Partial'."
+  },
+  "whitespace_adjusted_quotes": []
+}

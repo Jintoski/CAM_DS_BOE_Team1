@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank's position and deposit insurance in non-ringfenced areas\",\n  \"main_topics\": [\"ringfence\", \"liquidity\", \"deposit insurance\", \"US market\", \"non-ringfenced bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I appreciate that we haven't seen any big stresses in European funding markets yet. But do you think the fact that you're ringfenced puts you at a potential disadvantage [versus others] if we do start to see stress coming from the US?\",\n  \"answer_quote\": \"I would turn that on its head, if I'm honest. Because the way I think about it is, in particular as we engaged with the regulator about the debate about deposit insurance etc. The ringfence was set up to protect retail and small business depositors, that's why it's there. And you can see the extent to which the liabilities within the ringfence are insured. So, the ringfence is a source of liquidity stability for the UK.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss the impact of ringfencing on the bank's funding and deposit insurance, and the implications of the Wealth and Private Banking consolidation.\",\n  \"main_topics\": [\"Ringfencing\", \"Funding\", \"Deposit Insurance\", \"Wealth and Private Banking Consolidation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I appreciate that we haven't seen any big stresses in European funding markets yet. But do you think the fact that you're ringfenced puts you at a potential disadvantage [versus others] if we do start to see stress coming from the US? And related to that point, can you give us an indication of what proportion of deposits in the non-ring fenced bank are insured? I'm guessing it's very low. And on this recent question around the consolidation of the Wealth and Private Banking businesses. Presumably you're doing that outside of the ringfence. So, does the liquidity position of the Group and where liquidity sits feed into that position at all?\",\n  \"answer_quote\": \"I would turn that on its head, if I'm honest. Because the way I think about it is, in particular as we engaged with the regulator about the debate about deposit insurance etc. The ringfence was set up to protect retail and small business depositors, that's why it's there. And you can see the extent to which the liabilities within the ringfence are insured. So, the ringfence is a source of liquidity stability for the UK. So I'll take the other side of it, which is outside, does it inherently weaken the rest of the Group as a funding matter? Which I think is where your question is going. We gave some additional disclosure, which hopefully helps you understand the insured nature, but also the depth of the relationship outside of the ringfence. So within the US retail bank, more than 90% insured. Not surprising really, given the nature of the deposit functionality we have there. In the CIB, more than 20% insured. But really also what's important there is sector concentration, which is obviously really important in the US, the length of relationship, and also, if you like, a reflection of quality of that relationship. Is it just an operational bank account or are they depositing with us on a term basis? And what we've seen is an increasing move to term in a rising rate environment. So from our perspective, as a non-ringfence matter, the diversity and opportunity for deposits there is really significant and exists outside of the UK. And the deposit in flows that we saw quarter on quarter actually are largely non-UK. Our ability to access international corporate deposits is actually a source of strength for us, given the nature of our business.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's position and deposit insurance in non-ringfenced areas\",\n  \"main_topics\": [\"ringfence\", \"liquidity\", \"deposit insurance\", \"US market\", \"non-ringfenced bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I appreciate that we haven't seen any big stresses in European funding markets yet. But do you think the fact that you're ringfenced puts you at a potential disadvantage [versus others] if we do start to see stress coming from the US?\",\n  \"answer_quote\": \"I would turn that on its head, if I'm honest. Because the way I think about it is, in particular as we engaged with the regulator about the debate about deposit insurance etc. The ringfence was set up to protect retail and small business depositors, that's why it's there. And you can see the extent to which the liabilities within the ringfence are insured. So, the ringfence is a source of liquidity stability for the UK.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's position and deposit insurance in non-ringfenced areas\",\n  \"main_topics\": [\"ringfence\", \"liquidity\", \"deposit insurance\", \"US market\", \"non-ringfenced bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I appreciate that we haven't seen any big stresses in European funding markets yet. But do you think the fact that you're ringfenced puts you at a potential disadvantage [versus others] if we do start to see stress coming from the US?\",\n  \"answer_quote\": \"I would turn that on its head, if I'm honest. Because the way I think about it is, in particular as we engaged with the regulator about the debate about deposit insurance etc. The ringfence was set up to protect retail and small business depositors, that's why it's there. And you can see the extent to which the liabilities within the ringfence are insured. So, the ringfence is a source of liquidity stability for the UK.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 870,
+      "batch_seconds": 24.51077147400065
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 915,
+      "batch_seconds": 25.085518096999294
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 915,
+      "batch_seconds": 27.97939145899909
+    }
+  ],
+  "exchange_id": "c91814891a58-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e1e91b2e82d987657ee57639f382439c17f61e4486229cea213151e09b871851",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

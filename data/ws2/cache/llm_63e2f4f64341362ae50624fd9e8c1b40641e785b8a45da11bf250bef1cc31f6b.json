@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for specific numerical data\",\n  \"main_topics\": [\"corporate deposits\", \"disclosure\", \"Asia retail wholesale books\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Apologies, I can't remember if you put it in the slides, but have you given a number for corporate deposits that would be -\",\n  \"answer_quote\": \"No, we haven't. But you could look at the disclosure and you could take your own view, Manus, quite easily. If you look at disclosure within the Asia retail wholesale books, you could take a view on it.\",\n  \"reason\": \"The answer deflects the request for specific data by suggesting the respondent look at the disclosure themselves, without providing the requested numerical data.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for specific numerical data\",\n  \"main_topics\": [\"Corporate deposits\", \"Disclosure\", \"Asia retail wholesale books\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Apologies, I can't remember if you put it in the slides, but have you given a number for corporate deposits that would be -\",\n  \"answer_quote\": \"No, we haven't. But you could look at the disclosure and you could take your own view, Manus, quite easily. If you look at disclosure within the Asia retail wholesale books, you could take a view on it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 462,
+      "batch_seconds": 8.866081524000037
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 507,
+      "batch_seconds": 10.038360675000149
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x024",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "63e2f4f64341362ae50624fd9e8c1b40641e785b8a45da11bf250bef1cc31f6b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for specific numerical data",
+    "main_topics": [
+      "corporate deposits",
+      "disclosure",
+      "Asia retail wholesale books"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Apologies, I can't remember if you put it in the slides, but have you given a number for corporate deposits that would be -",
+    "answer_quote": "No, we haven't. But you could look at the disclosure and you could take your own view, Manus, quite easily. If you look at disclosure within the Asia retail wholesale books, you could take a view on it.",
+    "reason": "The answer deflects the request for specific data by suggesting the respondent look at the disclosure themselves, without providing the requested numerical data."
+  },
+  "whitespace_adjusted_quotes": []
+}

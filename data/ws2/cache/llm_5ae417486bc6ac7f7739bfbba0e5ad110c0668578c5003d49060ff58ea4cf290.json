@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for rate sensitivity by currency\",\n  \"main_topics\": [\"Rate Sensitivity\", \"Currency Impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"It's quite an important input into really understanding your rate sensitivity by currency.\",\n  \"answer_quote\": \"We don't do much in Hong Kong dollar, so by definition it's going to be sterling and US dollar.\",\n  \"reason\": \"The answer deflects the question by not providing the requested rate sensitivity information and instead focuses on currency activity.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 439,
+      "batch_seconds": 7.9235276970002815
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5ae417486bc6ac7f7739bfbba0e5ad110c0668578c5003d49060ff58ea4cf290",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for rate sensitivity by currency",
+    "main_topics": [
+      "Rate Sensitivity",
+      "Currency Impact"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "It's quite an important input into really understanding your rate sensitivity by currency.",
+    "answer_quote": "We don't do much in Hong Kong dollar, so by definition it's going to be sterling and US dollar.",
+    "reason": "The answer deflects the question by not providing the requested rate sensitivity information and instead focuses on currency activity."
+  },
+  "whitespace_adjusted_quotes": []
+}

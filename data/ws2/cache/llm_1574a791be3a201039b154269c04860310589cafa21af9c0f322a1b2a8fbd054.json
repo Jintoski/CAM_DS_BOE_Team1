@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "raw": "```json\n{\n  \"question_intent\": \"Clarification on organisational simplification and wealth\",\n  \"main_topics\": [\"Organisational simplification\", \"Restructuring costs\", \"Annualised savings\", \"Asian invested assets\", \"Wealth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning. If I could have a couple on the organisational simplification and then also just one clarification on wealth.\",\n  \"answer_quote\": \"Okay, thank you, Andrew. Andrew, I'm going to ask Pam to address the first two questions with regard to the organisation simplification. Just saying that, we will give, as I said earlier, a more thorough update at the interim results, and on your final question, let us take it forward and see what we can communicate.\",\n  \"reason\": \"The answer directly addresses the questions asked, providing a clear explanation of the time lag in savings realization and the expected timing of restructuring costs, while also acknowledging the forward guidance on Asian invested assets.\"\n}\n```",
+  "data": {
+    "question_intent": "Clarification on organisational simplification and wealth",
+    "main_topics": [
+      "Organisational simplification",
+      "Restructuring costs",
+      "Annualised savings",
+      "Asian invested assets",
+      "Wealth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Morning. If I could have a couple on the organisational simplification and then also just one clarification on wealth.",
+    "answer_quote": "Okay, thank you, Andrew. Andrew, I'm going to ask Pam to address the first two questions with regard to the organisation simplification. Just saying that, we will give, as I said earlier, a more thorough update at the interim results, and on your final question, let us take it forward and see what we can communicate.",
+    "reason": "The answer directly addresses the questions asked, providing a clear explanation of the time lag in savings realization and the expected timing of restructuring costs, while also acknowledging the forward guidance on Asian invested assets."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "c6e92c439106-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1574a791be3a201039b154269c04860310589cafa21af9c0f322a1b2a8fbd054"
+}

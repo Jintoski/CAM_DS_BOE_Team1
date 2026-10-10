@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify the yield on 2025 loans given the 5-year hedge and historical rates\",\n  \"main_topics\": [\"2025 loan yields\", \"5-year hedge\", \"historical rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"In 2025, it sounds like you're saying the average yield to maybe around the midpoint [of the] 1% to 2% range. If you've been, bar the stuff that was put on during the pandemic, which was obviously feathered, if you've been putting a hedge on typically at 5 years rolling, why is the yield on the stuff coming off in 2025 at that level, when the 5-year swap rate was pretty close to zero in 2025?\",\n  \"answer_quote\": \"There is a blend in there, Jonathan. We can take you through it in a bit more detail. So there will be a large part of the 2020 vintage, but they're not all 5 years.\",\n  \"reason\": \"The answer partially addresses the question by mentioning a blend in the 2020 vintage but does not provide specific details or numeric evidence to fully explain the yield on 2025 loans.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 563,
+      "batch_seconds": 13.144700353999724
+    }
+  ],
+  "exchange_id": "4b42e60e1183-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d3d801ff27ac759eeff0082207a9583efb98df7b8a770c7e2f97b3ae743c9b1b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify the yield on 2025 loans given the 5-year hedge and historical rates",
+    "main_topics": [
+      "2025 loan yields",
+      "5-year hedge",
+      "historical rates"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "In 2025, it sounds like you're saying the average yield to maybe around the midpoint [of the] 1% to 2% range. If you've been, bar the stuff that was put on during the pandemic, which was obviously feathered, if you've been putting a hedge on typically at 5 years rolling, why is the yield on the stuff coming off in 2025 at that level, when the 5-year swap rate was pretty close to zero in 2025?",
+    "answer_quote": "There is a blend in there, Jonathan. We can take you through it in a bit more detail. So there will be a large part of the 2020 vintage, but they're not all 5 years.",
+    "reason": "The answer partially addresses the question by mentioning a blend in the 2020 vintage but does not provide specific details or numeric evidence to fully explain the yield on 2025 loans."
+  },
+  "whitespace_adjusted_quotes": []
+}

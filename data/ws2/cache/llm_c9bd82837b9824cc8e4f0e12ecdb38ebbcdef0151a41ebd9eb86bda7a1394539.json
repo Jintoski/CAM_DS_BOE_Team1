@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about consumer behavior and its impact on NIM guidance\",\n  \"main_topics\": [\"consumer behavior\", \"NIM guidance\", \"interest-bearing accounts\", \"financial switching\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And then can I just ask, very, very quickly, in consumer behaviour, I think what we all heard this quarter we might not have heard as much, is people switching from current accounts to interest-bearing accounts, and that's what's driving NIM guidance down across the piece. It seems to be a little bit of a surprise, because otherwise we would have heard a bit more about it, I guess. But is that just people getting to year-end and trying to sort out their finances and think about moving. Is there an element of surprise to you?\",\n  \"answer_quote\": \"No, it's not a surprise to me at all. I have always said that I expected switching to be more significant than passthrough in the end. It's just much, much more difficult to call for a number of reasons. We are internet-enabled now, which we weren't in the last high-rate environment, and equally, going in the opposite direction, banks don't have the same need for liquidity as they had last time we were in a high-rate environment. All of those things are going to change that behaviour. Customers haven't done a whole load of switching yet, I guess we're expecting them to, because, firstly, there are some quite attractive headline rates out there. We want them to, because we think that's the right thing for the franchise, that's the right thing for their own financial resilience, and we're just coming up to ISA season. So, if I did a quick poll about who's actually taken their ISA yet, I'm guessing it would be a bit of a mixed bag. People leave it quite late. Okay, so I'm going to leave it there. Thank you so much. Lovely to see you all. Take care.\",\n  \"reason\": \"The answer directly addresses the question, providing a clear stance and aligning with the topic of consumer behavior and NIM guidance, with some evidence to support the response.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 727,
+      "batch_seconds": 19.723983283000052
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x021",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c9bd82837b9824cc8e4f0e12ecdb38ebbcdef0151a41ebd9eb86bda7a1394539",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about consumer behavior and its impact on NIM guidance",
+    "main_topics": [
+      "consumer behavior",
+      "NIM guidance",
+      "interest-bearing accounts",
+      "financial switching"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And then can I just ask, very, very quickly, in consumer behaviour, I think what we all heard this quarter we might not have heard as much, is people switching from current accounts to interest-bearing accounts, and that's what's driving NIM guidance down across the piece. It seems to be a little bit of a surprise, because otherwise we would have heard a bit more about it, I guess. But is that just people getting to year-end and trying to sort out their finances and think about moving. Is there an element of surprise to you?",
+    "answer_quote": "No, it's not a surprise to me at all. I have always said that I expected switching to be more significant than passthrough in the end. It's just much, much more difficult to call for a number of reasons. We are internet-enabled now, which we weren't in the last high-rate environment, and equally, going in the opposite direction, banks don't have the same need for liquidity as they had last time we were in a high-rate environment. All of those things are going to change that behaviour. Customers haven't done a whole load of switching yet, I guess we're expecting them to, because, firstly, there are some quite attractive headline rates out there. We want them to, because we think that's the right thing for the franchise, that's the right thing for their own financial resilience, and we're just coming up to ISA season. So, if I did a quick poll about who's actually taken their ISA yet, I'm guessing it would be a bit of a mixed bag. People leave it quite late. Okay, so I'm going to leave it there. Thank you so much. Lovely to see you all. Take care.",
+    "reason": "The answer directly addresses the question, providing a clear stance and aligning with the topic of consumer behavior and NIM guidance, with some evidence to support the response."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing the security of the offshore book in relation to liquidity measures and collateral\",\n  \"main_topics\": [\"offshore book security\", \"liquidity measures\", \"collateral\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Should we consider the offshore book at this point to be essentially unsecured, then, if they're not able to get access to any of the liquidity measures and there are questions over collateral? Is it effectively an unsecured book that you've got offshore now?\",\n  \"answer_quote\": \"Relative to the onshore book it is less secure, so that is a fair assessment, but is it fair to say that the onshore policy measures will not benefit the offshore book? No, that's not a fair statement. I think we have to see, on a client-by-client basis, how much of the onshore liquidity support can then support that company's ability to service the offshore book. So I wouldn't have a complete separation between on and offshore. It will be client-by-client dependent. I wouldn't describe it as unsecured. The onshore book is typically secured against specific properties. The offshore book has less specific security but there is security underpinning that portfolio. It's not secured and it's definitely not unsecured. It sits somewhere between those two.\",\n  \"reason\": \"The answer provides a hedged stance, acknowledging the relative security of the offshore book compared to the onshore book, and clarifies that the security of the offshore book is not absolute but varies by client, without directly stating it is unsecured.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assess the security of the offshore book in relation to onshore measures and its collateral status.\",\n  \"main_topics\": [\"offshore book security\", \"onshore policy measures\", \"collateral status\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Should we consider the offshore book at this point to be essentially unsecured, then, if they're not able to get access to any of the liquidity measures and there are questions over collateral? Is it effectively an unsecured book that you've got offshore now?\",\n  \"answer_quote\": \"Relative to the onshore book it is less secure, so that is a fair assessment, but is it fair to say that the onshore policy measures will not benefit the offshore book? No, that's not a fair statement. I think we have to see, on a client-by-client basis, how much of the onshore liquidity support can then support that company's ability to service the offshore book. So I wouldn't have a complete separation between on and offshore. It will be client-by-client dependent. I wouldn't describe it as unsecured. The onshore book is typically secured against specific properties. The offshore book has less specific security but there is security underpinning that portfolio. It's not secured and it's definitely not unsecured. It sits somewhere between those two.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 586,
+      "batch_seconds": 12.588194320999719
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 631,
+      "batch_seconds": 14.894256813000538
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ec2d2d458cae67a1926c5f58ffed4ecedc6422fe5c99cc4cf937f1f374fdd07d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing the security of the offshore book in relation to liquidity measures and collateral",
+    "main_topics": [
+      "offshore book security",
+      "liquidity measures",
+      "collateral"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Should we consider the offshore book at this point to be essentially unsecured, then, if they're not able to get access to any of the liquidity measures and there are questions over collateral? Is it effectively an unsecured book that you've got offshore now?",
+    "answer_quote": "Relative to the onshore book it is less secure, so that is a fair assessment, but is it fair to say that the onshore policy measures will not benefit the offshore book? No, that's not a fair statement. I think we have to see, on a client-by-client basis, how much of the onshore liquidity support can then support that company's ability to service the offshore book. So I wouldn't have a complete separation between on and offshore. It will be client-by-client dependent. I wouldn't describe it as unsecured. The onshore book is typically secured against specific properties. The offshore book has less specific security but there is security underpinning that portfolio. It's not secured and it's definitely not unsecured. It sits somewhere between those two.",
+    "reason": "The answer provides a hedged stance, acknowledging the relative security of the offshore book compared to the onshore book, and clarifies that the security of the offshore book is not absolute but varies by client, without directly stating it is unsecured."
+  },
+  "whitespace_adjusted_quotes": []
+}

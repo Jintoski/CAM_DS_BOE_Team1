@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Ask about bank earnings-call Q1 headwinds and dividend vs buyback policy\",\n  \"main_topics\": [\"Equity Tier 1\", \"CET1 headwinds\", \"Dividend policy\", \"Buybacks vs dividends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is a numbers question around Equity Tier 1 in the first quarter.\",\n  \"answer_quote\": \"On your question about CET1 headwinds from AFS/FVOCI, of course, there are some headwinds there.\",\n  \"reason\": \"The answer directly addresses the questions about CET1 headwinds and dividend policy, providing a high level of evidence with specific figures and a clear stance on the bank's financial strategy.\"\n}",
+  "data": {
+    "question_intent": "Ask about bank earnings-call Q1 headwinds and dividend vs buyback policy",
+    "main_topics": [
+      "Equity Tier 1",
+      "CET1 headwinds",
+      "Dividend policy",
+      "Buybacks vs dividends"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is a numbers question around Equity Tier 1 in the first quarter.",
+    "answer_quote": "On your question about CET1 headwinds from AFS/FVOCI, of course, there are some headwinds there.",
+    "reason": "The answer directly addresses the questions about CET1 headwinds and dividend policy, providing a high level of evidence with specific figures and a clear stance on the bank's financial strategy."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "a055cc76c938-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c69de00a818268500e9efb77274df3ba8227715ef9d168b10fcd6c6ab9fe0e13"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss capital ratio rebuilding and stock buyback strategy, and evaluate the costs of structural change.\",\n  \"main_topics\": [\n    \"capital ratio rebuilding\",\n    \"stock buyback strategy\",\n    \"structural change costs\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When do you think you might be in a position to buy back stock again from a capita] perspective?\",\n  \"answer_quote\": \"We should not expect us to be doing buybacks until we're back within our common equity tier 1 range of 14 to 14.5%, which, you can imply from that will be more back-end loaded next year as a result.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "```json\n{\n  \"question_intent\": \"Discuss capital ratio rebuilding and the cost of structural change.\",\n  \"main_topics\": [\"capital ratio\", \"structural change\", \"costs\", \"dividend policy\", \"regulatory approval\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When do you think you might be in a position to buy back stock again from a capital perspective?\",\n  \"answer_quote\": \"We should not expect us to be doing buybacks until we're back within our common equity tier 1 range of 14 to 14.5%, which, you can imply from that will be more back-end loaded next year as a result.\"\n}\n```",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss capital ratio rebuilding and stock buyback strategy, and evaluate the costs of structural change.\",\n  \"main_topics\": [\"capital ratio\", \"stock buyback\", \"structural change costs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When do you think you might be in a position to buy back stock again from a capital perspective?\",\n  \"answer_quote\": \"We should not expect us to be doing buybacks until we're back within our common equity tier 1 range of 14 to 14.5%, which, you can imply from that will be more back-end loaded next year as a result.\",\n  \"reason\": \"The answer directly addresses the question about the capital ratio and stock buyback strategy, provides a specific timeframe for when buybacks might occur, and discusses the costs associated with structural change, all supported by numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss capital ratio rebuilding and stock buyback strategy, and evaluate the costs of structural change.\",\n  \"main_topics\": [\n    \"capital ratio rebuilding\",\n    \"stock buyback strategy\",\n    \"structural change costs\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"When do you think you might be in a position to buy back stock again from a capita] perspective?\",\n  \"answer_quote\": \"We should not expect us to be doing buybacks until we're back within our common equity tier 1 range of 14 to 14.5%, which, you can imply from that will be more back-end loaded next year as a result.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1868,
+      "batch_seconds": 71.30604900900016
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1913,
+      "batch_seconds": 111.91430351500003
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1916,
+      "batch_seconds": 112.26392812099948
+    }
+  ],
+  "exchange_id": "344542bde5ab-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5af553f94e5dddf38bb8a47d52bb344a3d3bfc300250c77a365c165ee5a8537d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

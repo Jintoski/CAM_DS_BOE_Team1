@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Investment spend and NIM outlook\",\n  \"main_topics\": [\"cost discipline\", \"UK mortgage market\", \"NIM\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I'm just interested in how you're thinking about investment spend in that context of what is a better revenue backdrop that you had previously anticipated.\",\n  \"answer_quote\": \"Certainly on costs it's a very simple answer. We're not giving any guidance at this stage on 2024. We'll give an update on 2024 guidance at the end of the year, but on 2023 we've given, I think, a strong commitment on cost discipline.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on cost discipline and NIM, with high evidence level due to the inclusion of specific percentages and market share figures.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1177,
+      "batch_seconds": 36.99237988999994
+    }
+  ],
+  "exchange_id": "d4d76c03f26c-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "43b8053dbad47631d358a9bb8df54f3293950a8f2bb8e8120dd9c06a393224c9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investment spend and NIM outlook",
+    "main_topics": [
+      "cost discipline",
+      "UK mortgage market",
+      "NIM"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I'm just interested in how you're thinking about investment spend in that context of what is a better revenue backdrop that you had previously anticipated.",
+    "answer_quote": "Certainly on costs it's a very simple answer. We're not giving any guidance at this stage on 2024. We'll give an update on 2024 guidance at the end of the year, but on 2023 we've given, I think, a strong commitment on cost discipline.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on cost discipline and NIM, with high evidence level due to the inclusion of specific percentages and market share figures."
+  },
+  "whitespace_adjusted_quotes": []
+}

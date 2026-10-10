@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for information on impairment overlay discussions, future comfort with balance, and profitability of Green Mortgages.\",\n  \"main_topics\": [\"impairment overlay\", \"future comfort with balance\", \"profitability of Green Mortgages\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you give some colour on the discussions you had with your accountants when you posted that overlay, and how comfortable they were with it?\",\n  \"answer_quote\": \"When these models were built, we hadn't had a period of high inflation for a long time, so there's a degree of economic uncertainty, both from the pandemic and from some of the other macroeconomic factors, that we judged were not fully reflected in the macroeconomic consensus that we used for our modelling.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific references, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Request information on impairment overlay discussions, future comfort with balance, and profitability of Green Mortgages\",\n \"main_topics\": [\"Impairment Overlay\", \"Green Mortgages\", \"Profitability\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Can you give some colour on the discussions you had with your accountants when you posted that overlay, and how comfortable they were with it?\",\n \"answer_quote\": \"What you've got to consider here is the balance sheet date. The environment is quite different now to what it was at 31st December, and specifically at that point in time we had a new variant, and we were asked to work from home again across the UK and across the US in particular. For us to run our models, we have to take a macroeconomic forecast. We use consensus for that, as do our peers. It was difficult to see, or we judged that it was difficult to see that, in that environment, the consensus was effective, i.e. that it was able to pick up all of the risks that we saw around us, whether they were directly from Omicron, or whether they related to some of the other macroeconomic stresses that we see still and perhaps intensified in the economy. So, supply chain stresses, inflation stresses, etc. When these models were built, we hadn't had a period of high inflation for a long time, so there's a degree of economic uncertainty, both from the pandemic and from some of the other macroeconomic factors, that we judged were not fully reflected in the macroeconomic consensus that we used for our modelling. That's one of the specific reasons that we had for maintaining those overlays. I would say we're also very watchful of specific cohorts, whether that be in corporate, or in retail. And essentially, what we were looking at was cohorts where there's still a degree of support out there, probably less so in the UK, other than SME. More so in the US, there were many support schemes that extended out into Q122. So, we're looking at two things, like people at risk of delinquency, whether they be corporate or customers, and also the fact that the macroeconomic stress, perhaps, wasn't fully reflected in consensus. That's why we kept those overlays. They are judgements by nature, but they are very complex models. And as we've gone into the pandemic, we actually almost went the other way. We said the macroeconomic forecasts that we were looking at in February/March 2020 weren't fully encapsulating the risks, so we pushed more impairment in. And then when the government support schemes kicked in, we had to adjust them again. The models are complex, but they're not fool proof, and therefore, we have to exercise a degree of management judgement over and above them. What happens from here is, we're very watchful of how the macroeconomic environment continues to evolve. We are very watchful of how those customers and clients behave from here on in, but I wouldn't expect a single event [trigger]. This may unwind itself over a period, but each quarter, we'll reassess the macroeconomic environment and if it's right, and if our process would require us to, then we'll refresh it.\"\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"And when we get to the end of next year, do you think they'll be comfortable if there's any balance left?\",\n \"answer_quote\": \"I confess, I have not looked at the specific profitability of the Green Mortgage. What I would say is, though, that all our mortgages go through the same pricing process. Each mortgage has to stand on its own, in terms of its profitability. I would expect us to lean into that kind of product under Venkat's third priority. You should expect to see it becoming a larger part of what we do. But at this stage, it's not a massive driver of volume. I think Venkat may have said on the call that we had last week. But if he were here, I think he would also add that you normally think about the wholesale opportunities when it comes to ESG, and that in some ways makes sense if there's trillions of dollars that need to be invested into the transitioning of the economy, in terms of its energy sources. But I think we're equally excited about the retail side. And that's probably an area that you'll hear us talk more and more about as him and Anna go through the quarters. So, it's something that we're extremely focused on internally, and I think you'll see more and more innovation, probably across the whole sector, but certainly, we want to be at the forefront of that.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 2 (char 3311)"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1376,
+      "batch_seconds": 44.31235364999975
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1431,
+      "batch_seconds": 99.6867379159994
+    }
+  ],
+  "exchange_id": "40fbb063266a-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f444235bb85e550516ed82d0b6dfc7d99ddcac3a6082a2191b85f0e400d42127",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for information on impairment overlay discussions, future comfort with balance, and profitability of Green Mortgages.",
+    "main_topics": [
+      "impairment overlay",
+      "future comfort with balance",
+      "profitability of Green Mortgages"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can you give some colour on the discussions you had with your accountants when you posted that overlay, and how comfortable they were with it?",
+    "answer_quote": "When these models were built, we hadn't had a period of high inflation for a long time, so there's a degree of economic uncertainty, both from the pandemic and from some of the other macroeconomic factors, that we judged were not fully reflected in the macroeconomic consensus that we used for our modelling.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific references, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

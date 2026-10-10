@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank's view on dividend cuts and capital framework changes\",\n  \"main_topics\": [\"dividend cuts\", \"capital framework\", \"regulatory actions\", \"market signals\", \"global banking sector\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You talked about the significance of dividends for some of your investors, specifically in Hong Kong, and I think it's probably consistency of dividends as much as it is the quantum of dividends and how that plays through with the dividend cut that came through.\",\n  \"answer_quote\": \"We viewed the action that was taken in early 2020...we understood it in the context of ... a very early stage of Covid and the extreme uncertainty that existed, and it wasn't just the UK regulator that did it. A number of regulators did it globally.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed perspective on dividend cuts, capital framework, and regulatory actions, with high evidence level including a specific numeric example ($4 billion).\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1067,
+      "batch_seconds": 33.59942327399949
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x026",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3f0f23d705a026a97571654bc44734be6e1afdec33d21ac0cf3ce18c44ed8413",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank's view on dividend cuts and capital framework changes",
+    "main_topics": [
+      "dividend cuts",
+      "capital framework",
+      "regulatory actions",
+      "market signals",
+      "global banking sector"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "You talked about the significance of dividends for some of your investors, specifically in Hong Kong, and I think it's probably consistency of dividends as much as it is the quantum of dividends and how that plays through with the dividend cut that came through.",
+    "answer_quote": "We viewed the action that was taken in early 2020...we understood it in the context of ... a very early stage of Covid and the extreme uncertainty that existed, and it wasn't just the UK regulator that did it. A number of regulators did it globally.",
+    "reason": "The answer directly addresses the question's intent, providing a detailed perspective on dividend cuts, capital framework, and regulatory actions, with high evidence level including a specific numeric example ($4 billion)."
+  },
+  "whitespace_adjusted_quotes": []
+}

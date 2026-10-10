@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about pass-through rates and asset quality implications due to higher mortgage rates.\",\n  \"main_topics\": [\"pass-through rates\", \"asset quality\", \"mortgage rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Morning. Let me echo, first of all, earlier comments and thank Ewen for a good collaboration over the years and all your patience with our questions. If I could just have two, one on pass-throughs and one on asset quality, I was just wondering, in terms of pass-throughs, earlier comments were on pass-throughs being more begin compared to assumptions you have made earlier in the year. I was just wondering have you seen any meaningful signs of attrition in your core markets, Hong Kong and UK ring-fenced bank in terms of current accounts into higher yielding accounts? Is it something that has started to trend higher and could imply higher pass-throughs going forward? And, secondly, on asset quality, I was just wondering what are the main ramifications you think higher mortgage rates in the UK will have? I think most recently mortgage rates' headline had increased to a level of around 6%. I was just wondering, from your UK business perspective, what are the main implications of mortgage rates at such a level?\",\n  \"answer_quote\": \"On the pass-through levels, Martin, they have been below expectations so far, but I think they have been rising. As I said, in our guidance we've made some reasonably conservative assumptions and cautious assumptions on where deposit betas go to from here, but implied in that comment is materially higher than 50% to what we've seen to date, and hence why I would caution on using our interest rate sensitivity tables at this point, because they're based on a 50% deposit beta, which are becoming increasingly less relevant as we get to higher rates. We haven't seen any material attrition. We are seeing migration out of non-interest-bearing current accounts into saving accounts. We're starting to see that trend now in Hong Kong pick up a bit, given where rates are. Again, just as a reminder, if you looked in previous cycles, our extent of deposit migration out of non-interest-bearing current accounts has been well below sector averages in Hong Kong. On asset quality, again, the book in the UK is typically a mix of two-year and five-year fixed. So the impact of those higher rates will take time to roll through the book. They are typically stressed when we put them on to rates of up to 7%. And you can look at our IFRS 9 modelling and look at the downside 1 and 2 scenarios, if you want to look at the potential sensitivity we have to higher provisioning levels, if you want to take some more adverse scenarios on the outlook for the UK. We think, as we sit today, we're not complacent about it, but we think for most of our customers those higher rates are affordable, given the stress analysis we put on when those loans were put on.\",\n  \"reason\": \"The answer directly addresses the questions about pass-through rates and asset quality, providing specific details and numeric evidence, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 939,
+      "batch_seconds": 27.160419657999228
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "10c66f57cb242faed4c75d24fde3a51b886ee31bdc858b8cde336df402f53a2c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about pass-through rates and asset quality implications due to higher mortgage rates.",
+    "main_topics": [
+      "pass-through rates",
+      "asset quality",
+      "mortgage rates"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Morning. Let me echo, first of all, earlier comments and thank Ewen for a good collaboration over the years and all your patience with our questions. If I could just have two, one on pass-throughs and one on asset quality, I was just wondering, in terms of pass-throughs, earlier comments were on pass-throughs being more begin compared to assumptions you have made earlier in the year. I was just wondering have you seen any meaningful signs of attrition in your core markets, Hong Kong and UK ring-fenced bank in terms of current accounts into higher yielding accounts? Is it something that has started to trend higher and could imply higher pass-throughs going forward? And, secondly, on asset quality, I was just wondering what are the main ramifications you think higher mortgage rates in the UK will have? I think most recently mortgage rates' headline had increased to a level of around 6%. I was just wondering, from your UK business perspective, what are the main implications of mortgage rates at such a level?",
+    "answer_quote": "On the pass-through levels, Martin, they have been below expectations so far, but I think they have been rising. As I said, in our guidance we've made some reasonably conservative assumptions and cautious assumptions on where deposit betas go to from here, but implied in that comment is materially higher than 50% to what we've seen to date, and hence why I would caution on using our interest rate sensitivity tables at this point, because they're based on a 50% deposit beta, which are becoming increasingly less relevant as we get to higher rates. We haven't seen any material attrition. We are seeing migration out of non-interest-bearing current accounts into saving accounts. We're starting to see that trend now in Hong Kong pick up a bit, given where rates are. Again, just as a reminder, if you looked in previous cycles, our extent of deposit migration out of non-interest-bearing current accounts has been well below sector averages in Hong Kong. On asset quality, again, the book in the UK is typically a mix of two-year and five-year fixed. So the impact of those higher rates will take time to roll through the book. They are typically stressed when we put them on to rates of up to 7%. And you can look at our IFRS 9 modelling and look at the downside 1 and 2 scenarios, if you want to look at the potential sensitivity we have to higher provisioning levels, if you want to take some more adverse scenarios on the outlook for the UK. We think, as we sit today, we're not complacent about it, but we think for most of our customers those higher rates are affordable, given the stress analysis we put on when those loans were put on.",
+    "reason": "The answer directly addresses the questions about pass-through rates and asset quality, providing specific details and numeric evidence, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

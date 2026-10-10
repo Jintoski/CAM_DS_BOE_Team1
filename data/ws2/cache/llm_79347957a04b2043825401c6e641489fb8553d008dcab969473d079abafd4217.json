@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Risks in SRT dynamic\",\n  \"main_topics\": [\"SRT dynamic\", \"counterparty risk\", \"regulatory requirements\", \"credit risk\", \"maturity risk\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just had a question on the SRT dynamic because I appreciate you mentioning it's a relatively mature program and of course it benefits the credit risk part of the book, but are there any risks there in terms of counter parties or anything, more broadly that you would like to point out? Or is it more quite straightforward and you don't really see anything there?\",\n  \"answer_quote\": \"Look, it's designed to not have additional risks in it, and the regulator has obviously got a very sort of strict set of requirements for a transaction to be judged as significant risk transfer. So it's a pretty tightly controlled market and set of structures. There is a significant credit risk in the transaction, but either the transaction is a true sale where the cash has been received, or the transactions are cash collateralised against the counterparty. So there's not counterparty risk in the transactions and the regulators specifically design them to make sure that that's not in there. So for us, they're complicated transactions, but at this point they're relatively straightforward and repeatable. Thanks, Dan. The only thing I would add is the other risk that we're mindful of is maturity risk, and therefore the program is that only a certain portion of it will mature in any particular quarter. We've got a well established program that we believe would continue to perform in periods of stress. That's one of the reasons why we've run it very consistently over time but we manage it so that sort of no more than £2.5bn is maturing in any quarter, so that it's in a manageable amount if the market were closed for a period. The rundown of the transactions also reflect the rundown of the loan portfolio after the first three years as well for the Colonnade program. So you get active decision as to whether you want to refinance the loan or not.\",\n  \"reason\": \"The answer directly addresses the question about risks in the SRT dynamic, including counterparty and maturity risks, and provides a clear stance on the program's design to mitigate these risks. It includes a specific numeric example of the maturity risk management strategy.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 744,
+      "batch_seconds": 21.440061830999184
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "79347957a04b2043825401c6e641489fb8553d008dcab969473d079abafd4217",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Risks in SRT dynamic",
+    "main_topics": [
+      "SRT dynamic",
+      "counterparty risk",
+      "regulatory requirements",
+      "credit risk",
+      "maturity risk"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I just had a question on the SRT dynamic because I appreciate you mentioning it's a relatively mature program and of course it benefits the credit risk part of the book, but are there any risks there in terms of counter parties or anything, more broadly that you would like to point out? Or is it more quite straightforward and you don't really see anything there?",
+    "answer_quote": "Look, it's designed to not have additional risks in it, and the regulator has obviously got a very sort of strict set of requirements for a transaction to be judged as significant risk transfer. So it's a pretty tightly controlled market and set of structures. There is a significant credit risk in the transaction, but either the transaction is a true sale where the cash has been received, or the transactions are cash collateralised against the counterparty. So there's not counterparty risk in the transactions and the regulators specifically design them to make sure that that's not in there. So for us, they're complicated transactions, but at this point they're relatively straightforward and repeatable. Thanks, Dan. The only thing I would add is the other risk that we're mindful of is maturity risk, and therefore the program is that only a certain portion of it will mature in any particular quarter. We've got a well established program that we believe would continue to perform in periods of stress. That's one of the reasons why we've run it very consistently over time but we manage it so that sort of no more than £2.5bn is maturing in any quarter, so that it's in a manageable amount if the market were closed for a period. The rundown of the transactions also reflect the rundown of the loan portfolio after the first three years as well for the Colonnade program. So you get active decision as to whether you want to refinance the loan or not.",
+    "reason": "The answer directly addresses the question about risks in the SRT dynamic, including counterparty and maturity risks, and provides a clear stance on the program's design to mitigate these risks. It includes a specific numeric example of the maturity risk management strategy."
+  },
+  "whitespace_adjusted_quotes": []
+}

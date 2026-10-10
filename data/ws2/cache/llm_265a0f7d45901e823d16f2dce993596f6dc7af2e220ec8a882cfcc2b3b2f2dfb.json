@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request more details on CIB performance costs and Gap portfolio\",\n  \"main_topics\": [\"CIB performance costs\", \"Gap portfolio\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just ask for a little bit more colour on the CIB performance costs?\",\n  \"answer_quote\": \"On the CIB, we are very much focused on returns and obviously last year returns are impacted by impairment.\",\n  \"reason\": \"The question and answer are directly related, with the answer providing a detailed explanation of the CIB's focus on returns and the impact of impairment on last year's performance, as well as the current year's performance and the Gap portfolio's transition.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request more details on CIB performance costs and Gap portfolio transition\",\n  \"main_topics\": [\"CIB performance costs\", \"Gap portfolio transition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just ask for a little bit more colour on the CIB performance costs?\",\n  \"answer_quote\": \"On the CIB, we are very much focused on returns and obviously last year returns are impacted by impairment. There is never a single formula we use, and we have to pay for performance. We have to be competitive in the marketplace, and we have to keep the right balance between employees and shareholders. Generally speaking, the primary lens we use to get that right is returns.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1249,
+      "batch_seconds": 40.77262181199967
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1294,
+      "batch_seconds": 42.315160068001205
+    }
+  ],
+  "exchange_id": "d46e8685e978-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "265a0f7d45901e823d16f2dce993596f6dc7af2e220ec8a882cfcc2b3b2f2dfb",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request more details on CIB performance costs and Gap portfolio",
+    "main_topics": [
+      "CIB performance costs",
+      "Gap portfolio"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I just ask for a little bit more colour on the CIB performance costs?",
+    "answer_quote": "On the CIB, we are very much focused on returns and obviously last year returns are impacted by impairment.",
+    "reason": "The question and answer are directly related, with the answer providing a detailed explanation of the CIB's focus on returns and the impact of impairment on last year's performance, as well as the current year's performance and the Gap portfolio's transition."
+  },
+  "whitespace_adjusted_quotes": []
+}

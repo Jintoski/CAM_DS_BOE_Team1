@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on product gaps, loan book growth, and mortgage market outlook.\",\n  \"main_topics\": [\"Private Banking Wealth Management\", \"Loan Book Growth\", \"Mortgage Market Outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"First one is on Private Banking Wealth Management. What products are you currently missing from your Premier Banking proposition? And how easy is it for you to build those yourself? And then secondly, can you continue on the UK loan book? UK retail banks continue to surprise to the upside on loan book growth relative to GDP. I think your guidance is for 5% loan growth CAGR out 2028. What's driving the growth in excess of GDP? And what's your outlook for volumes in the mortgage market for the next couple of years? Thank you.\",\n  \"answer_quote\": \"We've got a pretty big and complete product suite. There are a couple of gaps in the product suite that are missing, SIPs and Junior ISAs that are coming online. But if you put yourself at a higher level looking at it, starting at the self-directed end of the spectrum, what we've got is Direct Investment, what we used to call Smart Investor, which is you're basically doit-yourself investment buying stocks, bonds. Then you come to the next piece, which is planning and advice. That is where we are doing some work, as I said, to create products, which we will talk to you about soon, which you know clearly constructed, fairly priced, transparently built and efficiently distributed. There we are looking to grow in scale and we've got the basic product set. And then we've got our Private Bank both domestically and internationally. So, I would view it more as a scaling journey than as a completion of product capability. And that is our goal. I think more broadly, the UK is a nation of savers. I think it needs to be more of a nation of investors. I think we're going to have a broader tailwind and support for this. I think it's important role for banks to play and you'll see us emphasise it. Then if I come to loan growth above GDP, let me begin and then Anna should fill in. We've said 5% as you say, loan growth versus nominal GDP of 2%. Basically, there are parts of the business in Corporate Banking, in Business Banking and even parts of personal loans where we were underrepresented in the last number of years. Tesco has given us the capability in personal loans and you can see the increase. You're seeing the increase of 18% growth in lending in the UK Corporate Bank. If you look at the UK Corporate Bank broadly, still loan-to-deposit [ratio of 34%]. So, we have a lot to grow, right, versus what you might normally expect. Simply put, Ben, I think it's a combination of increased capability. So, we've talked a lot about the mortgage platform. Actually, we're doing very similar things within the Corporate Banking environment, making it easier for that customer or client to engage with us and making that journey efficient, quick, giving them certainty, etc, that's making a really big difference. I think also the sort of broader product architecture that Venkat talked about. We see it in cards across multiple products. We obviously see it in our mortgage business. So, we're just going to market with a much broader range and certainly more of a step change than we've had sort of two or three years ago. What it isn't is price, and what it isn't is risk. So, you can imagine as CFO, I've got a very keen eye on those things. If you think about our Corporate lending, it's up by 18% year-on-year. We've got more than 1000 new clients in two years. About half of those are driving some of that lending. But as I look at the risk profile, it's not changed since the beginning of the plan. And as I look at the portfolio margin, it's not changed since the beginning of the plan. So, it's really technology, intention to lend, and I would say breadth of product.\",\n  \"reason\": \"The response directly addresses the bank's product gaps, loan book growth, and mortgage market outlook, providing specific figures and future plans, thus fulfilling the question's request for information on these topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss missing products in Premier Banking, ease of building them, UK loan book growth, and mortgage market outlook.\",\n \"main_topics\": [\"Premier Banking product suite\", \"UK loan book growth\", \"Mortgage market outlook\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"What products are you currently missing from your Premier Banking proposition? And how easy is it for you to build those yourself?\",\n \"answer_quote\": \"We've got a pretty big and complete product suite. There are a couple of gaps in the product suite that are missing, SIPs and Junior ISAs that are coming online.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1165,
+      "batch_seconds": 35.997767290999946
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1210,
+      "batch_seconds": 96.58504830299898
+    }
+  ],
+  "exchange_id": "f7f72b2656e8-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "237ac35e96c1b67ac9e6af8cd28093cb2c5044749d757a54e6edfb7fb64e097b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on product gaps, loan book growth, and mortgage market outlook.",
+    "main_topics": [
+      "Private Banking Wealth Management",
+      "Loan Book Growth",
+      "Mortgage Market Outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "First one is on Private Banking Wealth Management. What products are you currently missing from your Premier Banking proposition? And how easy is it for you to build those yourself? And then secondly, can you continue on the UK loan book? UK retail banks continue to surprise to the upside on loan book growth relative to GDP. I think your guidance is for 5% loan growth CAGR out 2028. What's driving the growth in excess of GDP? And what's your outlook for volumes in the mortgage market for the next couple of years? Thank you.",
+    "answer_quote": "We've got a pretty big and complete product suite. There are a couple of gaps in the product suite that are missing, SIPs and Junior ISAs that are coming online. But if you put yourself at a higher level looking at it, starting at the self-directed end of the spectrum, what we've got is Direct Investment, what we used to call Smart Investor, which is you're basically doit-yourself investment buying stocks, bonds. Then you come to the next piece, which is planning and advice. That is where we are doing some work, as I said, to create products, which we will talk to you about soon, which you know clearly constructed, fairly priced, transparently built and efficiently distributed. There we are looking to grow in scale and we've got the basic product set. And then we've got our Private Bank both domestically and internationally. So, I would view it more as a scaling journey than as a completion of product capability. And that is our goal. I think more broadly, the UK is a nation of savers. I think it needs to be more of a nation of investors. I think we're going to have a broader tailwind and support for this. I think it's important role for banks to play and you'll see us emphasise it. Then if I come to loan growth above GDP, let me begin and then Anna should fill in. We've said 5% as you say, loan growth versus nominal GDP of 2%. Basically, there are parts of the business in Corporate Banking, in Business Banking and even parts of personal loans where we were underrepresented in the last number of years. Tesco has given us the capability in personal loans and you can see the increase. You're seeing the increase of 18% growth in lending in the UK Corporate Bank. If you look at the UK Corporate Bank broadly, still loan-to-deposit [ratio of 34%]. So, we have a lot to grow, right, versus what you might normally expect. Simply put, Ben, I think it's a combination of increased capability. So, we've talked a lot about the mortgage platform. Actually, we're doing very similar things within the Corporate Banking environment, making it easier for that customer or client to engage with us and making that journey efficient, quick, giving them certainty, etc, that's making a really big difference. I think also the sort of broader product architecture that Venkat talked about. We see it in cards across multiple products. We obviously see it in our mortgage business. So, we're just going to market with a much broader range and certainly more of a step change than we've had sort of two or three years ago. What it isn't is price, and what it isn't is risk. So, you can imagine as CFO, I've got a very keen eye on those things. If you think about our Corporate lending, it's up by 18% year-on-year. We've got more than 1000 new clients in two years. About half of those are driving some of that lending. But as I look at the risk profile, it's not changed since the beginning of the plan. And as I look at the portfolio margin, it's not changed since the beginning of the plan. So, it's really technology, intention to lend, and I would say breadth of product.",
+    "reason": "The response directly addresses the bank's product gaps, loan book growth, and mortgage market outlook, providing specific figures and future plans, thus fulfilling the question's request for information on these topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank's interest rate risk sensitivity and reinvestment strategy\",\n  \"main_topics\": [\"interest rate risk sensitivity\", \"reinvestment strategy\", \"hedge tenure\", \"notional stability\", \"structural hedge\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I bring you back to the hedge. Obviously, the hedge is a very large component of the way you manage the interest rate risk. So with the scale of the hedge, does that mean that your sensitivity to long rates would be higher than perhaps other banks or your peers? All else equal, would you expect more sensitivity to the long rates?\",\n  \"answer_quote\": \"I will take both of those. So first is the tenure of what we're hedging is between two and seven [years]. So I wouldn't say we're any more sensitive to the long-end of the curve than others. We really try and reflect what we think the varying behavioural lives of the different pockets of deposits that we have. And so I wouldn't call that out as a key difference.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Sensitivity to long rates and reinvestment strategy\",\n  \"main_topics\": [\"Interest rate risk\", \"Hedge sensitivity\", \"Reinvestment strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I bring you back to the hedge. Obviously, the hedge is a very large component of the way you manage the interest rate risk. So with the scale of the hedge, does that mean that your sensitivity to long rates would be higher than perhaps other banks or your peers? All else equal, would you expect more sensitivity to the long rates?\",\n  \"answer_quote\": \"I will take both of those. So first is the tenure of what we're hedging is between two and seven [years]. So I wouldn't say we're any more sensitive to the long-end of the curve than others. We really try and reflect what we think the varying behavioural lives of the different pockets of deposits that we have. And so I wouldn't call that out as a key difference.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's interest rate risk sensitivity and reinvestment strategy\",\n  \"main_topics\": [\"interest rate risk sensitivity\", \"reinvestment strategy\", \"hedge tenure\", \"notional stability\", \"structural hedge\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I bring you back to the hedge. Obviously, the hedge is a very large component of the way you manage the interest rate risk. So with the scale of the hedge, does that mean that your sensitivity to long rates would be higher than perhaps other banks or your peers? All else equal, would you expect more sensitivity to the long rates?\",\n  \"answer_quote\": \"I will take both of those. So first is the tenure of what we're hedging is between two and seven [years]. So I wouldn't say we're any more sensitive to the long-end of the curve than others. We really try and reflect what we think the varying behavioural lives of the different pockets of deposits that we have. And so I wouldn't call that out as a key difference.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank's interest rate risk sensitivity and reinvestment strategy\",\n  \"main_topics\": [\"interest rate risk sensitivity\", \"reinvestment strategy\", \"hedge tenure\", \"notional stability\", \"structural hedge\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I bring you back to the hedge. Obviously, the hedge is a very large component of the way you manage the interest rate risk. So with the scale of the hedge, does that mean that your sensitivity to long rates would be higher than perhaps other banks or your peers? All else equal, would you expect more sensitivity to the long rates?\",\n  \"answer_quote\": \"I will take both of those. So first is the tenure of what we're hedging is between two and seven [years]. So I wouldn't say we're any more sensitive to the long-end of the curve than others. We really try and reflect what we think the varying behavioural lives of the different pockets of deposits that we have. And so I wouldn't call that out as a key difference.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 955,
+      "batch_seconds": 25.86036075099946
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1000,
+      "batch_seconds": 28.60324703399965
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1000,
+      "batch_seconds": 28.196108809999714
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x020",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "79b3d0ee70c2da8193c5e91282ce13cce744fef9391d9ccf850be5162f8a57ae",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

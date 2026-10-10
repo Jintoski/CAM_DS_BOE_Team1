@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Outlook and concerns for UK business\",\n  \"main_topics\": [\"UK business outlook\", \"cost of living\", \"asset quality\", \"UK business concerns\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just ask on the outlook for the UK? Obviously very strong print in terms of revenue and NI progression. I was just wondering, in terms of cost of living squeeze, asset quality, how worried are you in terms of your UK business from here? Any particular pockets in the loan book where you would be focusing on?\",\n  \"answer_quote\": \"Firstly, for our own staff, a couple of weeks ago we announced a £1,500 one-off payment to any of our staff who were getting paid less than about £30,000. The cost of that is about £20 million-odd, so it's not a material number and not a permanent feature of the cost base.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a complete response with medium-level evidence, including a specific numeric example. The narrative is aligned with the question's focus on the UK business outlook and concerns.\"\n}",
+  "data": {
+    "question_intent": "Outlook and concerns for UK business",
+    "main_topics": [
+      "UK business outlook",
+      "cost of living",
+      "asset quality",
+      "UK business concerns"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I just ask on the outlook for the UK? Obviously very strong print in terms of revenue and NI progression. I was just wondering, in terms of cost of living squeeze, asset quality, how worried are you in terms of your UK business from here? Any particular pockets in the loan book where you would be focusing on?",
+    "answer_quote": "Firstly, for our own staff, a couple of weeks ago we announced a £1,500 one-off payment to any of our staff who were getting paid less than about £30,000. The cost of that is about £20 million-odd, so it's not a material number and not a permanent feature of the cost base.",
+    "reason": "The answer directly addresses the question's intent, providing a complete response with medium-level evidence, including a specific numeric example. The narrative is aligned with the question's focus on the UK business outlook and concerns."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "a92582cac0bc-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5003e88cfe833210be65ca9ab45bf76dbff3a9d19691abe6b9dffd8159085ae3"
+}

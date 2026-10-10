@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on RoTE, NII, cost, non-NII growth, BoCom impairment, and capital deduction\",\n  \"main_topics\": [\"RoTE\", \"NII\", \"cost\", \"non-NII growth\", \"BoCom impairment\", \"capital deduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I want to clarify the mid-teen RoTE guidance is a normalised RoTE. That means that the RoTE excludes Canada disposal gain.\",\n  \"answer_quote\": \"The mid-teens RoTE is excluding notable items, therefore it is excluding the gain on Canada.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on RoTE, NII, cost, non-NII growth, BoCom impairment charges, and capital deduction\",\n \"main_topics\": [\"RoTE\", \"NII\", \"cost\", \"non-NII growth\", \"BoCom impairment\", \"capital deduction\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I have two questions here. The first question is I want to clarify the mid-teen RoTE guidance is a normalised RoTE. That means that the RoTE excludes Canada disposal gain. I want to clarify that, because if that is the case in mid-teen RoTE then, if you look at the company compiled consensus the RoTE is 17.4%. I just calculated on a very top-down basis you're excluding the disposal gain and consensus, RoTE is roughly around mid-teens as well. The thing is that I think that means the HSBC guidance and consensus is quite in line in terms of normalised RoTE, but on NII, on costs, in previous questions I think there may be a bit of reset in expectations. I think the 5% cost is a bit higher than where consensus was indicating. Does that mean that you are quite optimistic on non-NII growth, i.e. fee growth? Or maybe you have a different view on asset quality, and hence the ECL charges. This is the first part of the big question. The second part is on BoCom. May I know what triggered the $3 billion impairment charges? As China's yield is declining - they just announced 25 basis point on five-year LPR cuts and all those - should we be expecting more impairments on the BoCom investment? Basically I want to see if there is any one-time event that triggered this impairment, or if it is going to be a normalised part of the business. I think in the statement you clearly stated that that would have no impact on dividend and shareholders' return. I believe this is related to the $14 billion capital deduction which you have already made on Associates. I think that is primarily BoCom. Can you explain a bit of that mechanism? I think today's share price reaction is partly factoring in the kind of concern that there is an ongoing impairment on BoCom that will affect the company's ability to deliver shareholders' return.\",\n \"answer_quote\": \"Katherine, taking them in the order you said, first, the mid-teens RoTE is excluding notable items, therefore it is excluding the gain on Canada. Your calculation is correct. In terms of NII and cost, a couple of things to share. We recognise the cost assessment. In terms of banking NII, we have given the guidance here. I mentioned it in my earlier speech, but I will just point you that our banking NII sensitivity has reduced by more than half from the full-year 2022 due to, among other parameters, our structural hedging activity, so therefore the rate impact on our banking NII is reduced commensurately. Equally, we do have some anticipation of volume growth if and when rates start decreasing, which is now planned for H2, and this is why we have some positive outlook for H2. If rates decrease, volume could pick up, subject to economic conditions, etc, but that's the assessment we have made today. Thirdly, on the non-rate-sensitive earnings, I've called out Transaction Banking and Wealth earlier. Between them they constitute about 80% of our non-rate-sensitive earnings. One has grown 5%, 2022 to 2023, and the other one has grown 7%, and therefore we do feel there is momentum in both these areas for continued growth. I didn't talk about the residual 20%, but in the residual 20%, capital market activities, for instance, is included. Again, in a different rate environment we have grounds to believe this can also pick up. So yes, we are comfortable with the momentum we have in the revenue. Can I point you on one thing about costs? We called it out. 5% for 2024 has a flow-through impact from inflation in 2023. 2023 experienced high inflation. There's some flow through, some adjustments, including wage inflation, which we anticipate to do in 2024. Based on current outlook of inflation that parameter is easing as we look forward beyond 2024, without giving you any guidance for 2025, the inflationary component flow through into 2025 does look like easing from where we stand today, looking at 2024 outlook for inflation. If I move on to your second question about BoCom, this is a - we do talk about the value-in-use model. It's following the Hong Kong accounting standards, international accounting standards. Without boring you with the accounting details, the AR&A has many pages, which we can point you to, that explain it. It feeds into parameters all essentially in the public domain, including macro data, other factors, including analysts' comments. It feeds in through the model. The model is not highly intuitive, but the outcome is the outcome and we've been consistently applying it for umpteen quarters now, and therefore will apply for Q4. It is very difficult to predict what the model will give us in Q1. We will take into account the information we receive over the course of Q1, and we will run the model as we do every quarter and consistently apply the outcome. Finally, capital deduction. I think this is a very important point. Your math, Katherine, is correct. There is about $14 billion sitting today in our regulatory capital deductions, because they sit above our threshold. Therefore, you could legitimately assume that there is that much of buffer against any impairments we face in our financial holdings, BoCom being one of them. The other one is insurance. That's the two, essentially, and therefore you can legitimately assume that the compensation we would get from any hypothetical future impairment will be commensurate, given the size of our threshold deductions at this stage.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RoTE, NII, cost, non-NII growth, BoCom impairment, and capital deduction\",\n  \"main_topics\": [\"RoTE\", \"NII\", \"cost\", \"non-NII growth\", \"BoCom impairment\", \"capital deduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I want to clarify the mid-teen RoTE guidance is a normalised RoTE. That means that the RoTE excludes Canada disposal gain.\",\n  \"answer_quote\": \"Katherine, taking them in the order you said, first, the mid-teens RoTE is excluding notable items, therefore it is excluding the gain on Canada.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RoTE, NII, cost, non-NII growth, BoCom impairment, and capital deduction\",\n  \"main_topics\": [\"RoTE\", \"NII\", \"cost\", \"non-NII growth\", \"BoCom impairment\", \"capital deduction\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I want to clarify the mid-teen RoTE guidance is a normalised RoTE. That means that the RoTE excludes Canada disposal gain.\",\n  \"answer_quote\": \"The mid-teens RoTE is excluding notable items, therefore it is excluding the gain on Canada.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1536,
+      "batch_seconds": 101.96692094400032
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1581,
+      "batch_seconds": 102.58716728999934
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1581,
+      "batch_seconds": 103.3027122200001
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d2b8f10390d49055783c69601d992a44e4f23a2d75c27cd034d34f8bab5b7953",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

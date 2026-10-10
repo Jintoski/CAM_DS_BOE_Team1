@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiry about net interest margin (NII) and growth prospects, including deposit migration and growth opportunities.\",\n  \"main_topics\": [\"Net Interest Margin\", \"Growth\", \"Deposit Migration\", \"Growth Opportunities\", \"Economic Uncertainty\", \"Term Lending\", \"Working Capital Finance\", \"Trade\", \"Middle East Business\", \"India Market\", \"Hong Kong Market\", \"China Market\", \"Canada Transaction\", \"Special Dividend\", \"Buyback and Retention of Proceeds\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you give us a steer on how you think of the shape of net interest margins on these two core businesses going forward?\",\n  \"answer_quote\": \"I think with the economic uncertainty that exists around the world at the moment, I think it's wise to be cautious on expecting too much underlying growth, particularly I think in the demand for term lending from corporates.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiry about net interest margin (NII) and growth prospects, including deposit migration and growth opportunities.\",\n  \"main_topics\": [\"Net Interest Margin\", \"Growth\", \"Deposit Migration\", \"Growth Opportunities\", \"Economic Uncertainty\", \"Term Lending\", \"Working Capital Finance\", \"Mortgage Market\", \"Market Share\", \"Wealth Activity\", \"Dividend Use\", \"NII Forecasting\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you give us a steer on how you think of the shape of net interest margins on these two core businesses going forward?\",\n  \"answer_quote\": \"I think with the economic uncertainty that exists around the world at the moment, I think it's wise to be cautious on expecting too much underlying growth, particularly I think in the demand for term lending from corporates.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiry about net interest margin (NII) and growth prospects, including deposit migration and growth opportunities.\",\n  \"main_topics\": [\"Net Interest Margin\", \"Growth Prospects\", \"Deposit Migration\", \"Growth Opportunities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you give us a steer on how you think of the shape of net interest margins on these two core businesses going forward?\",\n  \"answer_quote\": \"I think with the economic uncertainty that exists around the world at the moment, I think it's wise to be cautious on expecting too much underlying growth, particularly I think in the demand for term lending from corporates.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiry about net interest margin (NII) and growth prospects, including deposit migration and growth opportunities.\",\n  \"main_topics\": [\"Net Interest Margin\", \"Growth\", \"Deposit Migration\", \"Growth Opportunities\", \"Economic Uncertainty\", \"Term Lending\", \"Working Capital Finance\", \"Trade\", \"Middle East Business\", \"India Market\", \"Hong Kong Market\", \"China Market\", \"Canada Transaction\", \"Special Dividend\", \"Buyback and Retention of Proceeds\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Mixed\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Could you give us a steer on how you think of the shape of net interest margins on these two core businesses going forward?\",\n  \"answer_quote\": \"I think with the economic uncertainty that exists around the world at the moment, I think it's wise to be cautious on expecting too much underlying growth, particularly I think in the demand for term lending from corporates.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1631,
+      "batch_seconds": 46.22701585100003
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1676,
+      "batch_seconds": 105.7286256440002
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1676,
+      "batch_seconds": 58.222243031999824
+    }
+  ],
+  "exchange_id": "90eabcdcf010-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "db4d426d28d34dc55479534f490e9379d5cff90e7bbddfce28c80447e0e0ade8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

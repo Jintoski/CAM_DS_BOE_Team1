@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on net interest income guidance and deposit beta assumptions, and inquiry about the relationship between average interest-earning assets and loan growth.\",\n  \"main_topics\": [\"Net Interest Income Guidance\", \"Deposit Beta Assumptions\", \"Interest-Earning Assets and Loan Growth\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first is just to clarify the $31 billion and $37 billion net interest income guidance that you give. Could you just provide a bit more detail on what you are assuming on deposit betas - because I know you have illustrative numbers on 50% but in your commentary, you talked about the deposit beta rising as you go through the rate-hike cycle. It would be good to just clarify what beta is assumed against that $31 and $37 billion.\",\n  \"answer_quote\": \"On the second one, Andy, average interest-earning assets are not FX adjusted. If you talk to our research team afterwards, they'll be able to give you a FX-adjusted average interest earning assets. Also, some lower liquidity balances in the quarter as well. On NII guidance, you know I hate giving NII guidance, so I thought I was doing well today to give it. We're not going to go in and give you deposit beta assumptions as part of that. We've said through the cycle we expect it to be 50 per cent. We've said that deposit betas so far have been in the 20s. You should assume that there's a material ramp up in deposit betas as rates go higher from here.\",\n  \"reason\": \"The answer partially addresses the question by discussing the deposit beta assumptions and the lack of FX adjustment for average interest-earning assets, but it does not provide the detailed clarification requested for the $31 billion and $37 billion net interest income guidance, nor does it directly address the loan growth and average interest-earning assets relationship for the next year.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 720,
+      "batch_seconds": 18.794323938999696
+    }
+  ],
+  "exchange_id": "344542bde5ab-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "52d8200a3f912a948e64e60d3465945d5075b24cccb283933877e513b82b6fa3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on net interest income guidance and deposit beta assumptions, and inquiry about the relationship between average interest-earning assets and loan growth.",
+    "main_topics": [
+      "Net Interest Income Guidance",
+      "Deposit Beta Assumptions",
+      "Interest-Earning Assets and Loan Growth"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The first is just to clarify the $31 billion and $37 billion net interest income guidance that you give. Could you just provide a bit more detail on what you are assuming on deposit betas - because I know you have illustrative numbers on 50% but in your commentary, you talked about the deposit beta rising as you go through the rate-hike cycle. It would be good to just clarify what beta is assumed against that $31 and $37 billion.",
+    "answer_quote": "On the second one, Andy, average interest-earning assets are not FX adjusted. If you talk to our research team afterwards, they'll be able to give you a FX-adjusted average interest earning assets. Also, some lower liquidity balances in the quarter as well. On NII guidance, you know I hate giving NII guidance, so I thought I was doing well today to give it. We're not going to go in and give you deposit beta assumptions as part of that. We've said through the cycle we expect it to be 50 per cent. We've said that deposit betas so far have been in the 20s. You should assume that there's a material ramp up in deposit betas as rates go higher from here.",
+    "reason": "The answer partially addresses the question by discussing the deposit beta assumptions and the lack of FX adjustment for average interest-earning assets, but it does not provide the detailed clarification requested for the $31 billion and $37 billion net interest income guidance, nor does it directly address the loan growth and average interest-earning assets relationship for the next year."
+  },
+  "whitespace_adjusted_quotes": []
+}

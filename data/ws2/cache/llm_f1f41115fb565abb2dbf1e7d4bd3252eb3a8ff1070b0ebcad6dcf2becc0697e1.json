@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about factors affecting rate sensitivity in UK NII movements.\",\n  \"main_topics\": [\"UK NII movements\", \"Personal Banking revenues\", \"Mortgage margins\", \"Negative churn margin\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Was there something else in there that was a particular headwind to the rate sensitivity?\",\n  \"answer_quote\": \"It's probably the other point that I think is worth talking about. You remember at that time, I can't remember the exact period now, but on mortgage margins, we were almost back to where we are today with very tight margins. What that does is create a negative churn margin.\",\n  \"reason\": \"The answer directly addresses the question about factors affecting rate sensitivity, providing a specific example related to mortgage margins and negative churn margin, which aligns with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about factors affecting rate sensitivity in UK NII movements.\",\n  \"main_topics\": [\"UK NII movements\", \"Personal Banking revenue decline\", \"Mortgage margins\", \"Negative churn margin\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Was there something else in there that was a particular headwind to the rate sensitivity?\",\n  \"answer_quote\": \"What that does is create a negative churn margin. That's the other effect that was quite pronounced then.\",\n  \"reason\": \"The answer directly addresses the question about factors affecting rate sensitivity, mentioning negative churn margin and mortgage margins as headwinds, with a high level of evidence including a reference to a previous earnings call.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 609,
+      "batch_seconds": 14.887864954000179
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 657,
+      "batch_seconds": 14.078725104000114
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f1f41115fb565abb2dbf1e7d4bd3252eb3a8ff1070b0ebcad6dcf2becc0697e1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about factors affecting rate sensitivity in UK NII movements.",
+    "main_topics": [
+      "UK NII movements",
+      "Personal Banking revenues",
+      "Mortgage margins",
+      "Negative churn margin"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Was there something else in there that was a particular headwind to the rate sensitivity?",
+    "answer_quote": "It's probably the other point that I think is worth talking about. You remember at that time, I can't remember the exact period now, but on mortgage margins, we were almost back to where we are today with very tight margins. What that does is create a negative churn margin.",
+    "reason": "The answer directly addresses the question about factors affecting rate sensitivity, providing a specific example related to mortgage margins and negative churn margin, which aligns with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

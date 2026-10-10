@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiry about future deposit migration and interest rate changes beyond Q423, and forward guidance on Basel 3.1 impact.\",\n  \"main_topics\": [\"Deposit migration\", \"Interest rate changes\", \"Basel 3.1 impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you say anything on deposit migration in 2024 and changes in mix beyond Q423? Or is it too crystal ball?\",\n  \"answer_quote\": \"So, it's too early to tell, as I noted before. All I would say is that given the strong pickup in the structural hedge, we would expect those two things to be offsetting.\",\n  \"reason\": \"The answer partially addresses the question by discussing the impact of a strong structural hedge on deposit migration and interest rate changes, but it does not provide specific details or numeric evidence. Forward guidance on Basel 3.1 impact is given, but the response is hedged and not definitive.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 715,
+      "batch_seconds": 18.794323938999696
+    }
+  ],
+  "exchange_id": "4b42e60e1183-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a139b75631e8de6d09d68ff424397ea6d1ca0d4eef21050687f54302a40afd51",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiry about future deposit migration and interest rate changes beyond Q423, and forward guidance on Basel 3.1 impact.",
+    "main_topics": [
+      "Deposit migration",
+      "Interest rate changes",
+      "Basel 3.1 impact"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can you say anything on deposit migration in 2024 and changes in mix beyond Q423? Or is it too crystal ball?",
+    "answer_quote": "So, it's too early to tell, as I noted before. All I would say is that given the strong pickup in the structural hedge, we would expect those two things to be offsetting.",
+    "reason": "The answer partially addresses the question by discussing the impact of a strong structural hedge on deposit migration and interest rate changes, but it does not provide specific details or numeric evidence. Forward guidance on Basel 3.1 impact is given, but the response is hedged and not definitive."
+  },
+  "whitespace_adjusted_quotes": []
+}

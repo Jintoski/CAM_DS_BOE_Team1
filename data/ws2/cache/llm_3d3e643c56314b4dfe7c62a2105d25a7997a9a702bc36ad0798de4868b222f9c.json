@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing bank's net interest margin and loan loss guidance in light of policy rate changes\",\n  \"main_topics\": [\"Net Interest Margin\", \"Balance Sheet Structure\", \"Loan Loss Guidance\", \"Policy Rates\", \"Inflation\", \"Cost Management\", \"ECLs\", \"Forward Guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Has anything changed in terms of the balance sheet structure that would mean that, just in terms of sense checking, that wouldn't be achievable again or is that a good target to think about?\",\n  \"answer_quote\": \"Firstly, the balance sheet is materially bigger, so our average interest-earning assets have gone up materially, so on a rate-by-volume basis we should be earning higher net interest income if we return to previous NIM levels.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Net interest margin and loan loss guidance in a higher interest rate environment\",\n  \"main_topics\": [\"Net Interest Margin (NIM)\", \"Loan Loss Guidance\", \"Interest Rate Environment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Has anything changed in terms of the balance sheet structure that would mean that, just in terms of sense checking, that wouldn't be achievable again or is that a good target to think about?\",\n  \"answer_quote\": \"Firstly, the balance sheet is materially bigger, so our average interest-earning assets have gone up materially, so on a rate-by-volume basis we should be earning higher net interest income if we return to previous NIM levels.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about changes in net interest margin and loan loss guidance in light of higher policy rates.\",\n  \"main_topics\": [\"Net Interest Margin\", \"Balance Sheet Structure\", \"Loan Loss Guidance\", \"Policy Rates\", \"Inflation\", \"Cost Management\", \"ECLs\", \"Forward Guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Has anything changed in terms of the balance sheet structure that would mean that, just in terms of sense checking, that wouldn't be achievable again or is that a good target to think about?\",\n  \"answer_quote\": \"Firstly, the balance sheet is materially bigger, so our average interest-earning assets have gone up materially, so on a rate-by-volume basis we should be earning higher net interest income if we return to previous NIM levels.\",\n  \"reason\": \"The response directly addresses the question about changes in the balance sheet structure and its impact on net interest margin, providing a clear and complete answer with high evidence level, including numeric evidence and forward guidance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing bank's net interest margin and loan loss guidance in light of policy rate changes\",\n  \"main_topics\": [\"Net Interest Margin\", \"Balance Sheet Structure\", \"Loan Loss Guidance\", \"Policy Rates\", \"Inflation\", \"Cost Management\", \"ECLs\", \"Forward Guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Has anything changed in terms of the balance sheet structure that would mean that, just in terms of sense checking, that wouldn't be achievable again or is that a good target to think about?\",\n  \"answer_quote\": \"Firstly, the balance sheet is materially bigger, so our average interest-earning assets have gone up materially, so on a rate-by-volume basis we should be earning higher net interest income if we return to previous NIM levels.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 972,
+      "batch_seconds": 29.61618395200003
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1017,
+      "batch_seconds": 94.12811429700014
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1026,
+      "batch_seconds": 28.790443990999847
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3d3e643c56314b4dfe7c62a2105d25a7997a9a702bc36ad0798de4868b222f9c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

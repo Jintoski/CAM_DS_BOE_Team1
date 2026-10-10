@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the impact of tariffs on revenues and the details of stage 1 and stage 2 movements in corporate and commercial banking.\",\n  \"main_topics\": [\n    \"Tariffs impact on revenues\",\n    \"Stage 1 and Stage 2 movements in banking\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Two questions: the first one is related to tariffs. You gave guidance of 5% impact on revenues and I just wanted to see how we should think about that going forward, as you don't see anything in the numbers today.\",\n  \"answer_quote\": \"On tariffs, first, tariffs have never been a new feature of global trade. They have always been there, although we have seen recently a more significant shift in the US tariff policy. That's created more uncertainty but, at the same time now, we're encouraged to see that more agreements are being concluded, and this is giving us ideally more certainty as we look into the future.\",\n  \"reason\": \"The response directly addresses the impact of tariffs on revenues and the details of stage 1 and stage 2 movements, providing high-level evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1236,
+      "batch_seconds": 40.28168834000007
+    }
+  ],
+  "exchange_id": "bc90a34c5f04-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "31deb173a30b1b28b84c4b3eea1a202d0b0787891b112d0f2fb11967f9726cd3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the impact of tariffs on revenues and the details of stage 1 and stage 2 movements in corporate and commercial banking.",
+    "main_topics": [
+      "Tariffs impact on revenues",
+      "Stage 1 and Stage 2 movements in banking"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Two questions: the first one is related to tariffs. You gave guidance of 5% impact on revenues and I just wanted to see how we should think about that going forward, as you don't see anything in the numbers today.",
+    "answer_quote": "On tariffs, first, tariffs have never been a new feature of global trade. They have always been there, although we have seen recently a more significant shift in the US tariff policy. That's created more uncertainty but, at the same time now, we're encouraged to see that more agreements are being concluded, and this is giving us ideally more certainty as we look into the future.",
+    "reason": "The response directly addresses the impact of tariffs on revenues and the details of stage 1 and stage 2 movements, providing high-level evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

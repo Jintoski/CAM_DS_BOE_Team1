@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about changes in rate sensitivity and structural hedges\",\n  \"main_topics\": [\"rate sensitivity\", \"structural hedges\", \"financial performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at your rate sensitivity at the end of 2022 it looks like you've been quite purposefully bringing down your rate sensitivity on a year one view. I was hoping you could perhaps give us a little bit of colour of the direction that sensitivity over one year has changed in the first couple of months of the year. Can we assume that some of the structural hedges have been further increased and when we see the sensitivity at the interim it might have reduced further? Any colour in that respect would be really helpful.\",\n  \"answer_quote\": \"At the end of 2022 the rate sensitivity on the downside 100 basis points scenario was reduced from around $6 billion at the half year to around $4 billion. That $2 billion reduction, the NII sensitivity reduction of 100 basis points is for about a third of it, justified by the structural hedges that we started putting in place or that we continued putting in place as of last year. Two-thirds of it is due to the fact that we're just at a higher level of rates and therefore we have less rates convexity on the downside.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high-level evidence with numeric figures, and includes forward guidance, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about changes in rate sensitivity and structural hedges\",\n  \"main_topics\": [\"Rate Sensitivity\", \"Structural Hedges\", \"Financial Impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at your rate sensitivity at the end of 2022 it looks like you've been quite purposefully bringing down your rate sensitivity on a year one view. I was hoping you could perhaps give us a little bit of colour of the direction that sensitivity over one year has changed in the first couple of months of the year. Can we assume that some of the structural hedges have been further increased and when we see the sensitivity at the interim it might have reduced further? Any colour in that respect would be really helpful.\",\n  \"answer_quote\": \"At the end of 2022 the rate sensitivity on the downside 100 basis points scenario was reduced from around $6 billion at the half year to around $4 billion. That $2 billion reduction, the NII sensitivity reduction of 100 basis points is for about a third of it, justified by the structural hedges that we started putting in place or that we continued putting in place as of last year. Two-thirds of it is due to the fact that we're just at a higher level of rates and therefore we have less rates convexity on the downside. If you look into Q1 we have not published a revised rate sensitivity but we continued the trajectory of our structural hedges. Just as a reminder, structural hedges will reduce somewhat our rate sensitivity, and our target is to take that $4 billion in the medium term to circa $3 billion. We are on that journey. We will be giving you an update at H1.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about changes in rate sensitivity and structural hedges\",\n  \"main_topics\": [\"rate sensitivity\", \"structural hedges\", \"financial impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"If I look at your rate sensitivity at the end of 2022 it looks like you've been quite purposefully bringing down your rate sensitivity on a year one view. I was hoping you could perhaps give us a little bit of colour of the direction that sensitivity over one year has changed in the first couple of months of the year. Can we assume that some of the structural hedges have been further increased and when we see the sensitivity at the interim it might have reduced further? Any colour in that respect would be really helpful.\",\n  \"answer_quote\": \"At the end of 2022 the rate sensitivity on the downside 100 basis points scenario was reduced from around $6 billion at the half year to around $4 billion. That $2 billion reduction, the NII sensitivity reduction of 100 basis points is for about a third of it, justified by the structural hedges that we started putting in place or that we continued putting in place as of last year. Two-thirds of it is due to the fact that we're just at a higher level of rates and therefore we have less rates convexity on the downside. If you look into Q1 we have not published a revised rate sensitivity but we continued the trajectory of our structural hedges. Just as a reminder, structural hedges will reduce somewhat our rate sensitivity, and our target is to take that $4 billion in the medium term to circa $3 billion. We are on that journey. We will be giving you an update at H1.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides high-level evidence with specific figures, and includes forward guidance on future actions, aligning with the question's topics.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 711,
+      "batch_seconds": 18.794323938999696
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 756,
+      "batch_seconds": 19.25648544899923
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 759,
+      "batch_seconds": 19.912649574998795
+    }
+  ],
+  "exchange_id": "f2c2f493cdb9-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "83a1aa3508012f3e337f937841e3ca10848d7184edf1ca5f821e54f8adb68fe1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about changes in rate sensitivity and structural hedges",
+    "main_topics": [
+      "rate sensitivity",
+      "structural hedges",
+      "financial performance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "If I look at your rate sensitivity at the end of 2022 it looks like you've been quite purposefully bringing down your rate sensitivity on a year one view. I was hoping you could perhaps give us a little bit of colour of the direction that sensitivity over one year has changed in the first couple of months of the year. Can we assume that some of the structural hedges have been further increased and when we see the sensitivity at the interim it might have reduced further? Any colour in that respect would be really helpful.",
+    "answer_quote": "At the end of 2022 the rate sensitivity on the downside 100 basis points scenario was reduced from around $6 billion at the half year to around $4 billion. That $2 billion reduction, the NII sensitivity reduction of 100 basis points is for about a third of it, justified by the structural hedges that we started putting in place or that we continued putting in place as of last year. Two-thirds of it is due to the fact that we're just at a higher level of rates and therefore we have less rates convexity on the downside.",
+    "reason": "The answer directly addresses the question's intent, provides high-level evidence with numeric figures, and includes forward guidance, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

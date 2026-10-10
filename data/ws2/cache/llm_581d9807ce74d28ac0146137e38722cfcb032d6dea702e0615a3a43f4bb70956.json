@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on NII guide and revenue consensus\",\n  \"main_topics\": [\"NII guide\", \"revenue consensus\", \"banking NII vs total NII\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are you comfortable with that consensus number? Are you seeking to change that with this guide?\",\n  \"answer_quote\": \"Yes, so I recognise your arithmetic, Yes, I agree with your arithmetic. This being said, I cannot give you guidance on total revenue, otherwise I'll be giving you guidance on our full profitability, but we recognise your arithmetic.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references. The narrative is aligned with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on NII guidance and revenue consensus\",\n  \"main_topics\": [\n    \"NII guidance\",\n    \"Revenue consensus\",\n    \"Banking NII vs total NII\",\n    \"Trading book funding cost dynamic\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are you comfortable with that consensus number? Are you seeking to change that with this guide?\",\n  \"answer_quote\": \"Yes, so I recognise your arithmetic, Yes, I agree with your arithmetic. This being said, I cannot give you guidance on total revenue, otherwise I'll be giving you guidance on our full profitability, but we recognise your arithmetic.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on NII guidance and revenue consensus\",\n  \"main_topics\": [\"NII guidance\", \"Revenue consensus\", \"Banking NII vs total NII\", \"Trading book funding cost dynamic\", \"Non-NII component\", \"Transaction Banking and Wealth growth\", \"Net new invested assets\", \"AUM growth\", \"Valuation impact\", \"Banking NII guidance\", \"Trading book funding\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are you comfortable with that consensus number? Are you seeking to change that with this guide?\",\n  \"answer_quote\": \"Yes, so I recognise your arithmetic, Yes, I agree with your arithmetic. This being said, I cannot give you guidance on total revenue, otherwise I'll be giving you guidance on our full profitability, but we recognise your arithmetic.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references, aligning with the question's topics.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1095,
+      "batch_seconds": 94.47761923500002
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1140,
+      "batch_seconds": 34.52651048000007
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1149,
+      "batch_seconds": 96.35221222899963
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "581d9807ce74d28ac0146137e38722cfcb032d6dea702e0615a3a43f4bb70956",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on NII guide and revenue consensus",
+    "main_topics": [
+      "NII guide",
+      "revenue consensus",
+      "banking NII vs total NII"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Are you comfortable with that consensus number? Are you seeking to change that with this guide?",
+    "answer_quote": "Yes, so I recognise your arithmetic, Yes, I agree with your arithmetic. This being said, I cannot give you guidance on total revenue, otherwise I'll be giving you guidance on our full profitability, but we recognise your arithmetic.",
+    "reason": "The response directly addresses the question's intent, provides a clear stance, and includes high evidence with numeric references. The narrative is aligned with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

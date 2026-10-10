@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request clarification on bank earnings-call topics\",\n  \"main_topics\": [\"Adjusted Disclosure\", \"Banking NIM\", \"Pro Forma Figures\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I have two, please? Richard, you started with disclosure, so on disclosure I'm wondering what your thought process was about doing away with adjusted disclosure.\",\n  \"answer_quote\": \"First, we're moving away from the CTA programme. Second, we wanted really to convey the strong sense that we're managing every line item in our income statement and our costs.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a complete response with high evidence level, including numeric evidence and forward guidance. The narrative is aligned with the question's topics.\"\n}",
+  "data": {
+    "question_intent": "Request clarification on bank earnings-call topics",
+    "main_topics": [
+      "Adjusted Disclosure",
+      "Banking NIM",
+      "Pro Forma Figures"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I have two, please? Richard, you started with disclosure, so on disclosure I'm wondering what your thought process was about doing away with adjusted disclosure.",
+    "answer_quote": "First, we're moving away from the CTA programme. Second, we wanted really to convey the strong sense that we're managing every line item in our income statement and our costs.",
+    "reason": "The answer directly addresses the question's intent, providing a complete response with high evidence level, including numeric evidence and forward guidance. The narrative is aligned with the question's topics."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "4970375d012d-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a29c825004ba3368acfc496593e083370681e87856f134e5f2cd42791aa62c65"
+}

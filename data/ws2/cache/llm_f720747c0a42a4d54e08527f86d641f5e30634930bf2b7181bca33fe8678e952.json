@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on bank earnings-call data\",\n  \"main_topics\": [\"structural hedge\", \"notional\", \"maturing yield\", \"gross yield\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"how much of the notional is attributed to the locked-in component that you refer to of £4.0bn in 2025 and £3.2bn in 2026?\",\n  \"answer_quote\": \"On your first question, we'll probably need to come back to you in relation to that.\",\n  \"reason\": \"The answer partially addresses the question but deflects by not providing the specific breakdown of the notional and maturing yield, and instead discusses the gross yield and locked-in income without the requested numerical details.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on bank's structural hedge notional and yield breakdown\",\n  \"main_topics\": [\"structural hedge notional\", \"maturing yield breakdown\", \"gross yield\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Firstly, could you confirm how much of the notional is attributed to the locked-in component that you refer to of £4.0bn in 2025 and £3.2bn in 2026?\",\n  \"answer_quote\": \"Okay, thanks, Guy. On your first question, we'll probably need to come back to you in relation to that.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1003,
+      "batch_seconds": 30.838299467999605
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1048,
+      "batch_seconds": 93.09711851599968
+    }
+  ],
+  "exchange_id": "9939bc5e1544-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f720747c0a42a4d54e08527f86d641f5e30634930bf2b7181bca33fe8678e952",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on bank earnings-call data",
+    "main_topics": [
+      "structural hedge",
+      "notional",
+      "maturing yield",
+      "gross yield"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "how much of the notional is attributed to the locked-in component that you refer to of £4.0bn in 2025 and £3.2bn in 2026?",
+    "answer_quote": "On your first question, we'll probably need to come back to you in relation to that.",
+    "reason": "The answer partially addresses the question but deflects by not providing the specific breakdown of the notional and maturing yield, and instead discusses the gross yield and locked-in income without the requested numerical details."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on CET1 headwinds and dividend distribution profile\",\n  \"main_topics\": [\"CET1 headwinds\", \"Dividend distribution profile\", \"Share buybacks vs. dividends\", \"Share price valuation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first one is a numbers question around Equity Tier 1 in the first quarter. And I was particularly looking for some guidance on whether there's going to be an impact with the big move in the swap rates that we've seen so far this year.\",\n  \"answer_quote\": \"Yes, thanks, Jonathan. On your question about CET1 headwinds from AFS/FVOCI, of course, there are some headwinds there.\",\n  \"reason\": \"The answer provides a hedged response to the CET1 headwinds question and partially addresses the dividend distribution profile, but lacks specific numeric evidence for the impact of swap rate changes.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for guidance on CET1 ratio impact and dividend vs buyback distribution policy\",\n  \"main_topics\": [\"CET1 ratio impact\", \"Dividend vs buyback distribution\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is a numbers question around Equity Tier 1 in the first quarter. And I was particularly looking for some guidance on whether there's going to be an impact with the big move in the swap rates that we've seen so far this year.\",\n  \"answer_quote\": \"Yes, thanks, Jonathan. On your question about CET1 headwinds from AFS/FVOCI, of course, there are some headwinds there.\",\n  \"reason\": \"The answer directly addresses both questions, providing guidance on CET1 ratio impact and explaining the bank's dividend vs buyback distribution policy, with high evidence level due to the inclusion of specific details and forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on CET1 headwinds and dividend distribution profile\",\n  \"main_topics\": [\"CET1 headwinds\", \"Dividend distribution profile\", \"Share buybacks vs. dividends\", \"Share price valuation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first one is a numbers question around Equity Tier 1 in the first quarter. And I was particularly looking for some guidance on whether there's going to be an impact with the big move in the swap rates that we've seen so far this year.\",\n  \"answer_quote\": \"Yes, thanks, Jonathan. On your question about CET1 headwinds from AFS/FVOCI, of course, there are some headwinds there.\",\n  \"reason\": \"The answer provides a hedged response to the CET1 headwinds question and partially addresses the dividend distribution profile, but does not provide specific numeric evidence for the impact of swap rate changes.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on CET1 headwinds and dividend distribution profile\",\n  \"main_topics\": [\"CET1 headwinds\", \"Dividend distribution profile\", \"Share buybacks vs. dividends\", \"Share price valuation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first one is a numbers question around Equity Tier 1 in the first quarter. And I was particularly looking for some guidance on whether there's going to be an impact with the big move in the swap rates that we've seen so far this year.\",\n  \"answer_quote\": \"Yes, thanks, Jonathan. On your question about CET1 headwinds from AFS/FVOCI, of course, there are some headwinds there.\",\n  \"reason\": \"The answer provides a hedged response to the CET1 headwinds question and partially addresses the dividend distribution profile, but lacks specific numeric evidence for the impact of swap rate changes.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1078,
+      "batch_seconds": 29.851370065000083
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1126,
+      "batch_seconds": 34.05024706800032
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1126,
+      "batch_seconds": 95.98136610499932
+    }
+  ],
+  "exchange_id": "a055cc76c938-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ef45d20975498ca76cf85e67f5d1993d74a538e098fae9d101ef18b250bd817a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

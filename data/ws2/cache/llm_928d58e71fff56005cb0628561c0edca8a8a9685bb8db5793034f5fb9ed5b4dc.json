@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Comparing bank's deposit beta assumptions to peers\",\n  \"main_topics\": [\"Competitive reasons\", \"Deposit beta\", \"Market characteristics\", \"Bank's deposit profile\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"When we think about what you're working to in your assumptions, do you think it is, ballpark, similar to your peers or do you think you're widely different?\",\n  \"answer_quote\": \"As I said previously, I won't talk about it because I feel it's inappropriate as a competitive matter.\",\n  \"reason\": \"The answer deflects the question without providing a direct comparison to peers' deposit beta assumptions, and does not contain numeric evidence or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 582,
+      "batch_seconds": 12.588194320999719
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "928d58e71fff56005cb0628561c0edca8a8a9685bb8db5793034f5fb9ed5b4dc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Comparing bank's deposit beta assumptions to peers",
+    "main_topics": [
+      "Competitive reasons",
+      "Deposit beta",
+      "Market characteristics",
+      "Bank's deposit profile"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "When we think about what you're working to in your assumptions, do you think it is, ballpark, similar to your peers or do you think you're widely different?",
+    "answer_quote": "As I said previously, I won't talk about it because I feel it's inappropriate as a competitive matter.",
+    "reason": "The answer deflects the question without providing a direct comparison to peers' deposit beta assumptions, and does not contain numeric evidence or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

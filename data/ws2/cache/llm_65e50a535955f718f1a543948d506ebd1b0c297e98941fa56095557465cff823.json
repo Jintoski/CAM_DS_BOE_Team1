@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing the likelihood of a future event based on current conditions\",\n  \"main_topics\": [\"future event likelihood\", \"current conditions\", \"rate cycle\", \"deposit pricing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So that's realistic that that could happen from here?\",\n  \"answer_quote\": \"I'm not going to say it's realistic. On average, 50% is a reasonable assumption, as you go down. We present on a stylised beta because it allows one to look consistently quarter upon quarter, but 50% on average, as we go down to a more normalised rate cycle, is not probably a bad assumption. And you've got two things happening. You've got some deposits where you can pass through more than 50%, but then, as we were saying before, you've got some deposits that are already priced below 50 basis points, so you wouldn't be able to pass through even 50%.\"\n}\n",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the likelihood of a future event\",\n  \"main_topics\": [\"Bank earnings-call\", \"Interest rate pass-through\", \"Deposit pricing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So that's realistic that that could happen from here?\",\n  \"answer_quote\": \"I'm not going to say it's realistic. On average, 50% is a reasonable assumption, as you go down. We present on a stylised beta because it allows one to look consistently quarter upon quarter, but 50% on average, as we go down to a more normalised rate cycle, is not probably a bad assumption. And you've got two things happening. You've got some deposits where you can pass through more than 50%, but then, as we were saying before, you've got some deposits that are already priced below 50 basis points, so you wouldn't be able to pass through even 50%.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the likelihood of a future event based on current conditions\",\n  \"main_topics\": [\"future event likelihood\", \"current conditions\", \"rate cycle\", \"deposit pricing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So that's realistic that that could happen from here?\",\n  \"answer_quote\": \"I'm not going to say it's realistic. On average, 50% is a reasonable assumption, as you go down. We present on a stylised beta because it allows one to look consistently quarter upon quarter, but 50% on average, as we go down to a more normalised rate cycle, is not probably a bad assumption. And you've got two things happening. You've got some deposits where you can pass through more than 50%, but then, as we were saying before, you've got some deposits that are already priced below 50 basis points, so you wouldn't be able to pass through even 50%.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the likelihood of a future event based on current conditions\",\n  \"main_topics\": [\"future event likelihood\", \"current conditions\", \"rate cycle\", \"deposit pricing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So that's realistic that that could happen from here?\",\n  \"answer_quote\": \"I'm not going to say it's realistic. On average, 50% is a reasonable assumption, as you go down. We present on a stylised beta because it allows one to look consistently quarter upon quarter, but 50% on average, as we go down to a more normalised rate cycle, is not probably a bad assumption. And you've got two things happening. You've got some deposits where you can pass through more than 50%, but then, as we were saying before, you've got some deposits that are already priced below 50 basis points, so you wouldn't be able to pass through even 50%.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 524,
+      "batch_seconds": 11.349980590999621
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 569,
+      "batch_seconds": 10.71841162399869
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 569,
+      "batch_seconds": 12.46537487400019
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "65e50a535955f718f1a543948d506ebd1b0c297e98941fa56095557465cff823",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

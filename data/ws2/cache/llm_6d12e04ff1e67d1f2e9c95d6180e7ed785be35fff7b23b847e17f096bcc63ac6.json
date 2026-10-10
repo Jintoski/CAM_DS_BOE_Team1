@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for updates on FRTB and Basel 3.1 impact\",\n  \"main_topics\": [\"FRTB\", \"Basel 3.1\", \"Market Risk Guidance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"My other question was around FRTB, also since your results you've had Deutsche and UBS report, both have actually guided down on the impact from FRTB, smaller impact than previously guided. I appreciate there are nuances depending on the region, and how it's being introduced. But any update you can provide around FRTB and Basel [3.1] more broadly.\",\n  \"answer_quote\": \"Clearly we've had a delay in the final guidance from the PRA, so we would expect broadly the market [risk] guidance in Q423, I think we're expecting it in November. Then obviously the credit risk guidance next year. So unfortunately that guidance is a little behind where we might have hoped it might be, Andy. So, I'm unable to guide you more firmly now, other than to just remind you, we said between 5% and 10% of RWA increase [impact for Basel 3.1] and through mitigation, we would hope to be towards the bottom end of that range.\",\n  \"reason\": \"The answer provides a partial update on FRTB and Basel 3.1, mentioning a delay in guidance and a hedged stance on the impact, but does not fully address the request for a broader update.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Update on FRTB and Basel 3.1 impact\",\n  \"main_topics\": [\"FRTB\", \"Basel 3.1\", \"market risk guidance\", \"credit risk guidance\", \"RWA impact\", \"mitigation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Any update you can provide around FRTB and Basel [3.1] more broadly.\",\n  \"answer_quote\": \"So unfortunately that guidance is a little behind where we might have hoped it might be, Andy. So, I'm unable to guide you more firmly now, other than to just remind you, we said between 5% and 10% of RWA increase [impact for Basel 3.1] and through mitigation, we would hope to be towards the bottom end of that range.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for updates on FRTB and Basel 3.1 impact\",\n  \"main_topics\": [\"FRTB\", \"Basel 3.1\", \"market risk guidance\", \"credit risk guidance\", \"RWA impact\", \"mitigation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"My other question was around FRTB, also since your results you've had Deutsche and UBS report, both have actually guided down on the impact from FRTB, smaller impact than previously guided. I appreciate there are nuances depending on the region, and how it's being introduced. But any update you can provide around FRTB and Basel [3.1] more broadly.\",\n  \"answer_quote\": \"Clearly we've had a delay in the final guidance from the PRA, so we would expect broadly the market [risk] guidance in Q423, I think we're expecting it in November. Then obviously the credit risk guidance next year. So unfortunately that guidance is a little behind where we might have hoped it might be, Andy. So, I'm unable to guide you more firmly now, other than to just remind you, we said between 5% and 10% of RWA increase [impact for Basel 3.1] and through mitigation, we would hope to be towards the bottom end of that range.\",\n  \"reason\": \"The answer provides a complete response to the question, including a hedged stance on the lack of firm guidance, high evidence with numeric evidence, and forward guidance on when more information is expected.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 586,
+      "batch_seconds": 12.588194320999719
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 631,
+      "batch_seconds": 14.894256813000538
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 640,
+      "batch_seconds": 14.608119999000337
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6d12e04ff1e67d1f2e9c95d6180e7ed785be35fff7b23b847e17f096bcc63ac6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for updates on FRTB and Basel 3.1 impact",
+    "main_topics": [
+      "FRTB",
+      "Basel 3.1",
+      "Market Risk Guidance"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "My other question was around FRTB, also since your results you've had Deutsche and UBS report, both have actually guided down on the impact from FRTB, smaller impact than previously guided. I appreciate there are nuances depending on the region, and how it's being introduced. But any update you can provide around FRTB and Basel [3.1] more broadly.",
+    "answer_quote": "Clearly we've had a delay in the final guidance from the PRA, so we would expect broadly the market [risk] guidance in Q423, I think we're expecting it in November. Then obviously the credit risk guidance next year. So unfortunately that guidance is a little behind where we might have hoped it might be, Andy. So, I'm unable to guide you more firmly now, other than to just remind you, we said between 5% and 10% of RWA increase [impact for Basel 3.1] and through mitigation, we would hope to be towards the bottom end of that range.",
+    "reason": "The answer provides a partial update on FRTB and Basel 3.1, mentioning a delay in guidance and a hedged stance on the impact, but does not fully address the request for a broader update."
+  },
+  "whitespace_adjusted_quotes": []
+}

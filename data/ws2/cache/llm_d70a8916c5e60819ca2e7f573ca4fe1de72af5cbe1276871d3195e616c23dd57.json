@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify how higher spreads are achieved in new business despite volatile market pricing.\",\n  \"main_topics\": [\"Interest rates\", \"Credit card rates\", \"Mortgage pricing\", \"Market volatility\", \"Pricing strategies\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I'm struggling to see how your current new business is being made at higher spreads than, say, five years ago, or similarly on the two-year products.\",\n  \"answer_quote\": \"The entire UK credit card book tracks base rates. It's nothing more complex than that. If base rates go up, then the cards rate will follow that directly. Hence, no complexity there at all.\",\n  \"reason\": \"The answer partially addresses the question by explaining the simplicity of credit card rate adjustments and the direct tracking of base rates, but it does not fully explain the higher spreads in new business or the two-year products.\"\n}",
+  "data": {
+    "question_intent": "Clarify how higher spreads are achieved in new business despite volatile market pricing.",
+    "main_topics": [
+      "Interest rates",
+      "Credit card rates",
+      "Mortgage pricing",
+      "Market volatility",
+      "Pricing strategies"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I'm struggling to see how your current new business is being made at higher spreads than, say, five years ago, or similarly on the two-year products.",
+    "answer_quote": "The entire UK credit card book tracks base rates. It's nothing more complex than that. If base rates go up, then the cards rate will follow that directly. Hence, no complexity there at all.",
+    "reason": "The answer partially addresses the question by explaining the simplicity of credit card rate adjustments and the direct tracking of base rates, but it does not fully explain the higher spreads in new business or the two-year products."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "5331686a7ed2-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d70a8916c5e60819ca2e7f573ca4fe1de72af5cbe1276871d3195e616c23dd57"
+}

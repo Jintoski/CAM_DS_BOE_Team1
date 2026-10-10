@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify the current balance of cash at central banks and the implications for liquidity and asset mix.\",\n  \"main_topics\": [\"Central bank liquidity\", \"Asset mix\", \"Banking strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are you assuming that the bulk of that excess liquidity sitting at central banks unwinds over the next two or three years as part of that comment?\",\n  \"answer_quote\": \"The balance of cash, including a central bank, is over $400 billion at the moment, which is part of about $880 billion of HQLA that we have, gross of the deductions we have in each of the sites.\",\n  \"reason\": \"The answer directly addresses the question about the current balance of cash at central banks and its implications, providing specific figures and explaining the bank's strategy to absorb liquidity through client activity and deposit betas.\"\n}",
+  "data": {
+    "question_intent": "Clarify the current balance of cash at central banks and the implications for liquidity and asset mix.",
+    "main_topics": [
+      "Central bank liquidity",
+      "Asset mix",
+      "Banking strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Are you assuming that the bulk of that excess liquidity sitting at central banks unwinds over the next two or three years as part of that comment?",
+    "answer_quote": "The balance of cash, including a central bank, is over $400 billion at the moment, which is part of about $880 billion of HQLA that we have, gross of the deductions we have in each of the sites.",
+    "reason": "The answer directly addresses the question about the current balance of cash at central banks and its implications, providing specific figures and explaining the bank's strategy to absorb liquidity through client activity and deposit betas."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "80c6a173b5c1-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "215426186350f8a11bab9c6fd9faf4957767f2209683123466f52f8315de44b5"
+}

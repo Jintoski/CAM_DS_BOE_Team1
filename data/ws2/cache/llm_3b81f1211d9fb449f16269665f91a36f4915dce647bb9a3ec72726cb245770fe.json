@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Management of CRE exposures in Hong Kong and mainland China\",\n  \"main_topics\": [\"CRE exposures\", \"Hong Kong\", \"mainland China\", \"provisioning\", \"market developments\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"how are you thinking internally of managing this exposure in the provisioning of Hong Kong CRE, and how did that compare to maybe last year's developments on your management of mainland China CRE?\",\n  \"answer_quote\": \"So China - I want to make a distinction between onshore and offshore exposures. The onshore was secured, so there wasn't the risk associated with them, and we did pretty well with them. The offshore China exposures which were in Hong Kong were not secured exposures, so that's the big distinction between that. And I'll come to you on Hong Kong, why we are more comfortable. In Hong Kong, about 54% of our exposures are secured and 46% unsecured. The secured ones have very low LTVs, very strong collateral, and therefore, even when because of cashflow reasons they go into a stage 3, the ECLs are minimal. From a regulation perspective, the HKMA was very forward looking. They've got very strict guidelines on the LTVs and lending, and that really helped the market to stay stable, even through the various price shocks that the Hong Kong markets had had over the years. In terms of the unsecured, 90% of it is investment grade, and it's investment grade in the hands of conglomerates who also have property exposure, but by the nature of their business have diversified cashflows. So therefore, in terms of the performance of their book, there is very little, if any, that's going into stage 3s. That's the way to look at it, both the nature of the market, the nature of the borrowers, as well as our participation in it.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Management of CRE exposures in Hong Kong and mainland China\",\n  \"main_topics\": [\"CRE exposures\", \"Hong Kong CRE\", \"mainland China CRE\", \"provisioning\", \"market developments\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"how are you thinking internally of managing this exposure in the provisioning of Hong Kong CRE, and how did that compare to maybe last year's developments on your management of mainland China CRE?\",\n  \"answer_quote\": \"So China - I want to make a distinction between onshore and offshore exposures. The onshore was secured, so there wasn't the risk associated with them, and we did pretty well with them. The offshore China exposures which were in Hong Kong were not secured exposures, so that's the big distinction between that. And I'll come to you on Hong Kong, why we are more comfortable. In Hong Kong, about 54% of our exposures are secured and 46% unsecured. The secured ones have very low LTVs, very strong collateral, and therefore, even when because of cashflow reasons they go into a stage 3, the ECLs are minimal. From a regulation perspective, the HKMA was very forward looking. They've got very strict guidelines on the LTVs and lending, and that really helped the market to stay stable, even through the various price shocks that the Hong Kong markets had had over the years. In terms of the unsecured, 90% of it is investment grade, and it's investment grade in the hands of conglomerates who also have property exposure, but by the nature of their business have diversified cashflows. So therefore, in terms of the performance of their book, there is very little, if any, that's going into stage 3s. That's the way to look at it, both the nature of the market, the nature of the borrowers, as well as our participation in it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Management of CRE exposures in Hong Kong and mainland China\",\n  \"main_topics\": [\"CRE exposures\", \"Hong Kong\", \"mainland China\", \"provisioning\", \"market developments\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"how are you thinking internally of managing this exposure in the provisioning of Hong Kong CRE, and how did that compare to maybe last year's developments on your management of mainland China CRE?\",\n  \"answer_quote\": \"So China - I want to make a distinction between onshore and offshore exposures. The onshore was secured, so there wasn't the risk associated with them, and we did pretty well with them. The offshore China exposures which were in Hong Kong were not secured exposures, so that's the big distinction between that. And I'll come to you on Hong Kong, why we are more comfortable. In Hong Kong, about 54% of our exposures are secured and 46% unsecured. The secured ones have very low LTVs, very strong collateral, and therefore, even when because of cashflow reasons they go into a stage 3, the ECLs are minimal. From a regulation perspective, the HKMA was very forward looking. They've got very strict guidelines on the LTVs and lending, and that really helped the market to stay stable, even through the various price shocks that the Hong Kong markets had had over the years. In terms of the unsecured, 90% of it is investment grade, and it's investment grade in the hands of conglomerates who also have property exposure, but by the nature of their business have diversified cashflows. So therefore, in terms of the performance of their book, there is very little, if any, that's going into stage 3s. That's the way to look at it, both the nature of the market, the nature of the borrowers, as well as our participation in it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Management of CRE exposures in Hong Kong and mainland China\",\n  \"main_topics\": [\"CRE exposures\", \"Hong Kong\", \"mainland China\", \"provisioning\", \"market developments\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"how are you thinking internally of managing this exposure in the provisioning of Hong Kong CRE, and how did that compare to maybe last year's developments on your management of mainland China CRE?\",\n  \"answer_quote\": \"So China - I want to make a distinction between onshore and offshore exposures. The onshore was secured, so there wasn't the risk associated with them, and we did pretty well with them. The offshore China exposures which were in Hong Kong were not secured exposures, so that's the big distinction between that. And I'll come to you on Hong Kong, why we are more comfortable. In Hong Kong, about 54% of our exposures are secured and 46% unsecured. The secured ones have very low LTVs, very strong collateral, and therefore, even when because of cashflow reasons they go into a stage 3, the ECLs are minimal. From a regulation perspective, the HKMA was very forward looking. They've got very strict guidelines on the LTVs and lending, and that really helped the market to stay stable, even through the various price shocks that the Hong Kong markets had had over the years. In terms of the unsecured, 90% of it is investment grade, and it's investment grade in the hands of conglomerates who also have property exposure, but by the nature of their business have diversified cashflows. So therefore, in terms of the performance of their book, there is very little, if any, that's going into stage 3s. That's the way to look at it, both the nature of the market, the nature of the borrowers, as well as our participation in it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 740,
+      "batch_seconds": 21.440061830999184
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 785,
+      "batch_seconds": 19.25648544899923
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 785,
+      "batch_seconds": 20.02667680200102
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3b81f1211d9fb449f16269665f91a36f4915dce647bb9a3ec72726cb245770fe",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

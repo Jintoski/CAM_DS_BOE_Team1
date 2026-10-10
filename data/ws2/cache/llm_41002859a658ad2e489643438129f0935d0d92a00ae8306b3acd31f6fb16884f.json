@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for specific financial details on hedging strategies and potential impact of Fed rate cuts\",\n  \"main_topics\": [\"Hedging strategies\", \"Impact of Fed rate cuts\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I don't know if you can provide us any kind of sizing on that in terms of what the notional is, what the capacity is on the unhedged balances and what kind of rate do you think you're going to lock in on the basis that, if the Fed does cut rates in the next 12 to 24 months, this potentially limits the impact for you, so anything you can provide there would be useful.\",\n  \"answer_quote\": \"I'm not going to provide you exact guidance on that one. The amounts that we have done so far are not a bad indication of potentially what else we're going to do at this stage. We made a decision last year that we wanted to increase the overall stabilisation that we had. That is a strategic decision in the context of the rate environment. If the rate environment strategically changes, then we would reassess that, but that is the path that we are on at the moment. Let me answer another way. Our downside to 100 bps was $6 billion, $7 billion. It's now $4 billion. It should go to $3 billion or less. That's what we should be aiming for. It's not guidance; it's what you should look at us to do.\",\n  \"reason\": \"The answer partially addresses the question by discussing the impact of hedging and Fed rate cuts but does not provide the specific financial details requested.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 699,
+      "batch_seconds": 16.607167997000033
+    }
+  ],
+  "exchange_id": "4970375d012d-x017",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "41002859a658ad2e489643438129f0935d0d92a00ae8306b3acd31f6fb16884f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for specific financial details on hedging strategies and potential impact of Fed rate cuts",
+    "main_topics": [
+      "Hedging strategies",
+      "Impact of Fed rate cuts"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I don't know if you can provide us any kind of sizing on that in terms of what the notional is, what the capacity is on the unhedged balances and what kind of rate do you think you're going to lock in on the basis that, if the Fed does cut rates in the next 12 to 24 months, this potentially limits the impact for you, so anything you can provide there would be useful.",
+    "answer_quote": "I'm not going to provide you exact guidance on that one. The amounts that we have done so far are not a bad indication of potentially what else we're going to do at this stage. We made a decision last year that we wanted to increase the overall stabilisation that we had. That is a strategic decision in the context of the rate environment. If the rate environment strategically changes, then we would reassess that, but that is the path that we are on at the moment. Let me answer another way. Our downside to 100 bps was $6 billion, $7 billion. It's now $4 billion. It should go to $3 billion or less. That's what we should be aiming for. It's not guidance; it's what you should look at us to do.",
+    "reason": "The answer partially addresses the question by discussing the impact of hedging and Fed rate cuts but does not provide the specific financial details requested."
+  },
+  "whitespace_adjusted_quotes": []
+}

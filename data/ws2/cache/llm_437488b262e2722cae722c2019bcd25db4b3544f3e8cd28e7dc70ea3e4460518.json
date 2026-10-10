@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assess bank earnings-call Q&A\",\n  \"main_topics\": [\"Risk Weighted Assets\", \"RWA growth expectations\", \"US tax impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How should we be thinking now about where you expect to land in 2026 for Group RWAs relative to that previous £50 billion growth expectation?\",\n  \"answer_quote\": \"I think the way we think about it, Chris, is that there is some uncertainty around the timing and the quantum of the regulatory impact, and we've given you our best view.\",\n  \"reason\": \"The response directly addresses the question about RWA growth expectations and provides a clear stance on the uncertainty of regulatory impact, with high evidence level due to the explicit mention of RWA figures and regulatory considerations.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss RWA developments, Basel 3 impact, and potential US tax changes on Group RWAs and Barclays.\",\n \"main_topics\": [\"Risk Weighted Assets (RWA) developments\", \"Basel 3 impact\", \"US tax changes\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"how should we think about RWA developments into Q2, specifically thinking about market risk here given the volatility?\",\n \"answer_quote\": \"I think there are some uncertainties around the timing and the quantum of the regulatory impact, and we've given you our best view.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1333,
+      "batch_seconds": 55.57041523099997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1378,
+      "batch_seconds": 98.61168351199922
+    }
+  ],
+  "exchange_id": "d970c7e31290-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "437488b262e2722cae722c2019bcd25db4b3544f3e8cd28e7dc70ea3e4460518",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assess bank earnings-call Q&A",
+    "main_topics": [
+      "Risk Weighted Assets",
+      "RWA growth expectations",
+      "US tax impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How should we be thinking now about where you expect to land in 2026 for Group RWAs relative to that previous £50 billion growth expectation?",
+    "answer_quote": "I think the way we think about it, Chris, is that there is some uncertainty around the timing and the quantum of the regulatory impact, and we've given you our best view.",
+    "reason": "The response directly addresses the question about RWA growth expectations and provides a clear stance on the uncertainty of regulatory impact, with high evidence level due to the explicit mention of RWA figures and regulatory considerations."
+  },
+  "whitespace_adjusted_quotes": []
+}

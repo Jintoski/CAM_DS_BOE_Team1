@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about private credit economics, risk management, and growth concerns in light of Bank of England's potential review.\",\n  \"main_topics\": [\"private credit economics\", \"risk management\", \"growth concerns\", \"Bank of England review\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you help us with the economics of how that business works? So what spread are you making on the business, the risk weights?\",\n  \"answer_quote\": \"What I would say is that the exposure is growing in a sort of relatively stable manner and has been for us for a while.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific practices, and includes numeric evidence of the Kensington balance.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Understanding private credit economics, risk management, and growth concerns\",\n  \"main_topics\": [\"private credit economics\", \"risk management\", \"growth concerns\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you help us with the economics of how that business works? So what spread are you making on the business, the risk weights?\",\n  \"answer_quote\": \"What I would say is that the exposure is growing in a sort of relatively stable manner and has been for us for a while. I'm not going to get into RWAs and spreads. I think we've been very clear about the strong credit controls we put on this and the types of people we work with.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about private credit economics, risk management, and potential growth concerns.\",\n  \"main_topics\": [\"private credit economics\", \"risk management\", \"growth concerns\", \"Bank of England review\", \"Kensington business expansion\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you help us with the economics of how that business works? So what spread are you making on the business, the risk weights?\",\n  \"answer_quote\": \"Right. Let me take the first one, Rob, and then Anna will cover Kensington. So, we have a disclosure slide, slide 43 in our [Q325 Results Presentation] on private credit. What I would say is that the exposure is growing in a sort of relatively stable manner and has been for us for a while.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about private credit economics, risk management, and growth concerns in light of Bank of England's potential review.\",\n  \"main_topics\": [\"private credit economics\", \"risk management\", \"growth concerns\", \"Bank of England review\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you help us with the economics of how that business works? So what spread are you making on the business, the risk weights?\",\n  \"answer_quote\": \"What I would say is that the exposure is growing in a sort of relatively stable manner and has been for us for a while.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific practices, and includes numeric evidence of the Kensington balance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1012,
+      "batch_seconds": 31.431468079000297
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1057,
+      "batch_seconds": 93.49079408299986
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1057,
+      "batch_seconds": 36.98953617400002
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3e0f3e004868d8bd36de00b8644220bc8e82bfb631fbfa9f5294ecaa26e1f053",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

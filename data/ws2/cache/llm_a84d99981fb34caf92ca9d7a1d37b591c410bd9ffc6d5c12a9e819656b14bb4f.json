@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Strategic review and cost savings, fees and income growth\",\n  \"main_topics\": [\"Strategic review\", \"Cost savings\", \"Fees and income growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, you mentioned in the release that you've launched a strategic review of Malta. At full-year results, we were relatively early in the strategic refresh process. Are there other geographies that you're also strategically reviewing?\",\n  \"answer_quote\": \"Thank you very much, Ben. So we've announced, in February, $1.5 billion of cost saves from the organisation and simplification, which we expect to take to the bottom line.\",\n  \"reason\": \"The answer directly addresses the strategic review and cost savings, provides a specific figure for cost savings, and discusses the progress and focus on these areas, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1161,
+      "batch_seconds": 36.2811490590002
+    }
+  ],
+  "exchange_id": "c6e92c439106-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a84d99981fb34caf92ca9d7a1d37b591c410bd9ffc6d5c12a9e819656b14bb4f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Strategic review and cost savings, fees and income growth",
+    "main_topics": [
+      "Strategic review",
+      "Cost savings",
+      "Fees and income growth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Firstly, you mentioned in the release that you've launched a strategic review of Malta. At full-year results, we were relatively early in the strategic refresh process. Are there other geographies that you're also strategically reviewing?",
+    "answer_quote": "Thank you very much, Ben. So we've announced, in February, $1.5 billion of cost saves from the organisation and simplification, which we expect to take to the bottom line.",
+    "reason": "The answer directly addresses the strategic review and cost savings, provides a specific figure for cost savings, and discusses the progress and focus on these areas, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

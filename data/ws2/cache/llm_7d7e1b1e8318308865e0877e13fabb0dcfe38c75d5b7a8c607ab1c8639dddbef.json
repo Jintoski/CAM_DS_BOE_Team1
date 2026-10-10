@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Transition to next question\",\n  \"main_topics\": [\"Bank earnings-call\", \"Transition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Sure. Okay. Thanks very much.\",\n  \"answer_quote\": \"Okay. Thank you. Perhaps we can go to the next question, please.\",\n  \"reason\": \"The answer deflects to the next question without addressing the previous one.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 413,
+      "batch_seconds": 6.238793649999934
+    }
+  ],
+  "exchange_id": "d970c7e31290-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7d7e1b1e8318308865e0877e13fabb0dcfe38c75d5b7a8c607ab1c8639dddbef",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Transition to next question",
+    "main_topics": [
+      "Bank earnings-call",
+      "Transition"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Sure. Okay. Thanks very much.",
+    "answer_quote": "Okay. Thank you. Perhaps we can go to the next question, please.",
+    "reason": "The answer deflects to the next question without addressing the previous one."
+  },
+  "whitespace_adjusted_quotes": []
+}

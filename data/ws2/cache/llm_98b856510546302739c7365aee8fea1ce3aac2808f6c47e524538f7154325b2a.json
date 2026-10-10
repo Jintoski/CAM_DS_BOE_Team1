@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on variable compensation accruals and legacy funding costs\",\n  \"main_topics\": [\"variable compensation\", \"CIB profitability\", \"legacy funding costs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the £335m that you're adding this quarter is not quite doubling the amount of variable comp that seems to be being put aside.\",\n  \"answer_quote\": \"When we look at our hiring and our retention of MDs and directors in our CIB platform, we're quite comfortable where we are and what we've seen, over the last year, so I think we feel that compensation levels were competitive.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on variable compensation accruals and legacy funding costs\",\n  \"main_topics\": [\"Variable compensation\", \"Legacy funding costs\", \"Profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So it's just a question of, is this you, in effect, saying you under-accrued last year? Are you seeing some sort of upward pressure on wages coming through here? Is this coming to a new level? And also, if we see provision releases in the second quarter, on the back of the macro changes, is that going to go into the comp pool as well?\",\n  \"answer_quote\": \"When we look at our hiring and our retention of MDs and directors in our CIB platform, we're quite comfortable where we are and what we've seen, over the last year, so I think we feel that compensation levels were competitive. Obviously, there are other reasons, not just comp, as to why people are part of our team. I would point you to look at, as I'm sure you have, the comp accruals for many of the US banks, and, indeed, some of the European banks in the first quarter. And we need to reflect that as well. We do include the impairment impact on the profitability of the business. And, obviously, as you've seen in the first quarter of last year, we took a pretty significant impairment charge which impacted the accrual of variable compensation. We had virtually no impairment charge here, and so that would have an impact as well. On your second question, around legacy funding, there is some in head office, you'll notice that we actually retired some legacy funding in, I think it was Q420, where we took a charge to redeem that, or we put a tender offer out. So there is some in head office. And a lot of it is at the operating company level, rather than at the holding company level. But hopefully it gives you some sense of the geography.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1003,
+      "batch_seconds": 30.838299467999605
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1048,
+      "batch_seconds": 93.09711851599968
+    }
+  ],
+  "exchange_id": "5c9f6bef592a-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "98b856510546302739c7365aee8fea1ce3aac2808f6c47e524538f7154325b2a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on variable compensation accruals and legacy funding costs",
+    "main_topics": [
+      "variable compensation",
+      "CIB profitability",
+      "legacy funding costs"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So the £335m that you're adding this quarter is not quite doubling the amount of variable comp that seems to be being put aside.",
+    "answer_quote": "When we look at our hiring and our retention of MDs and directors in our CIB platform, we're quite comfortable where we are and what we've seen, over the last year, so I think we feel that compensation levels were competitive.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

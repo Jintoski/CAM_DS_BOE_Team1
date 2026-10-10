@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess sustainability and pent-up demand in UK loan market\",\n  \"main_topics\": [\n    \"UK mortgage market activity\",\n    \"Sustainability of loan demand\",\n    \"Pent-up demand in loans\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How sustainable do you think this current activity spike in the UK mortgage market is?\",\n  \"answer_quote\": \"I think, in the UK, it's true that there is strong activity at the moment.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and contains forward guidance about future trends.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Sustainability of UK mortgage market activity and pent-up demand in loans\",\n  \"main_topics\": [\"UK mortgage market\", \"loan demand\", \"sustainability\", \"pent-up demand\", \"consumer lending\", \"credit card activity\", \"wholesale business\", \"corporate borrowers\", \"economic growth\", \"facility renewals\", \"loan drawdowns\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How sustainable do you think this current activity spike in the UK mortgage market is?\",\n  \"answer_quote\": \"I think, in the UK, it's true that there is strong activity at the moment. There'll undoubtedly be an element of that which is driven by the stamp duty holidays that were put in place and that are likely to come to an end shortly.\",\n  \"reason\": \"The answer directly addresses the sustainability of the UK mortgage market activity, provides a high level of evidence with specific references to the stamp duty holiday and housing market, and includes forward guidance on expected trends in consumer lending and credit card activity.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess sustainability of UK mortgage market activity spike, future loan demand, and pent-up demand in loans.\",\n  \"main_topics\": [\"UK mortgage market\", \"loan demand\", \"pent-up demand in loans\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How sustainable do you think this current activity spike in the UK mortgage market is?\",\n  \"answer_quote\": \"I think, in the UK, it's true that there is strong activity at the moment.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and contains forward guidance about future loan demand.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess sustainability and pent-up demand in UK loan market\",\n  \"main_topics\": [\n    \"UK mortgage market activity\",\n    \"Sustainability of loan demand\",\n    \"Pent-up demand in loans\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How sustainable do you think this current activity spike in the UK mortgage market is?\",\n  \"answer_quote\": \"I think, in the UK, it's true that there is strong activity at the moment.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and contains forward guidance about future trends.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1050,
+      "batch_seconds": 30.375494398999763
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1104,
+      "batch_seconds": 30.380961690998447
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1098,
+      "batch_seconds": 95.75413214400032
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "28072ce39c18e8599423a5fcd41bd12d2bf9901fbd31764ce2408220593dc087",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

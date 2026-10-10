@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Execution risks for remaining cost target\",\n  \"main_topics\": [\"cost target\", \"execution risks\", \"remaining £300 million\", \"macroeconomic shift\", \"confidence in meeting target\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you see any execution risks for the remaining £300 million?\",\n  \"answer_quote\": \"So, we've done £350 million of the £500 million that we need to do this year at the half year.\",\n  \"reason\": \"The answer directly addresses the question about execution risks for the remaining cost target, provides a numeric update on the progress, and discusses the impact of macroeconomic shifts, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Execution risks for remaining cost target\",\n  \"main_topics\": [\"Cost target\", \"Execution risks\", \"Inflation impact\", \"Efficiency focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you see any execution risks for the remaining £300 million?\",\n  \"answer_quote\": \"So, we've done £350 million of the £500 million that we need to do this year at the half year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 811,
+      "batch_seconds": 18.459268222999526
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 856,
+      "batch_seconds": 21.946229556999242
+    }
+  ],
+  "exchange_id": "08b5e1a731d1-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "54d8e4895f596a0601708eb1e2659bd2bfc75205805225d54aa67a9896e6e34a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Execution risks for remaining cost target",
+    "main_topics": [
+      "cost target",
+      "execution risks",
+      "remaining £300 million",
+      "macroeconomic shift",
+      "confidence in meeting target"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Do you see any execution risks for the remaining £300 million?",
+    "answer_quote": "So, we've done £350 million of the £500 million that we need to do this year at the half year.",
+    "reason": "The answer directly addresses the question about execution risks for the remaining cost target, provides a numeric update on the progress, and discusses the impact of macroeconomic shifts, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

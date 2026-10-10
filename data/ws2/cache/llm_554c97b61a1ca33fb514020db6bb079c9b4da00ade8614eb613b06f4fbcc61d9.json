@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Capital efficiency and balance sheet philosophy improvement\",\n  \"main_topics\": [\"Capital efficiency\", \"Balance sheet philosophy\", \"Risk weighted assets\", \"Leverage\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just come back on the IB, Tushar? One of the successes of the last few years is you do look to significantly improve the capital efficiency of the investment bank and largely close the gap with peers. Do you feel there is still more to go from a capital efficiency perspective or a balance sheet philosophy?\",\n  \"answer_quote\": \"I think it is going to get harder. One of the things we look at is revenue divided by risk weighed assets, and on our numbers we think we score really at the top end there. Actually, on return on assets, we're probably not quite as efficient as some other IBs, so there is probably something for us that we're looking at there. We've probably spent a lot of time and effort to be really efficient as we've designed the bank to be bound by risk weighted assets. But, efficiency on leverage is something that we're going to take a long, hard look at and that will be helpful. But, I think we feel reasonably productive on capital at the moment, on an RWA measure, really.\",\n  \"reason\": \"The answer addresses the question's intent, provides a hedged stance with both positive and negative aspects, includes high evidence with specific measures like 'revenue divided by risk weighted assets' and 'return on assets', and aligns with the narrative of capital efficiency and balance sheet philosophy.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 596,
+      "batch_seconds": 14.784660463999899
+    }
+  ],
+  "exchange_id": "0bcb8152dc08-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "554c97b61a1ca33fb514020db6bb079c9b4da00ade8614eb613b06f4fbcc61d9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Capital efficiency and balance sheet philosophy improvement",
+    "main_topics": [
+      "Capital efficiency",
+      "Balance sheet philosophy",
+      "Risk weighted assets",
+      "Leverage"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I just come back on the IB, Tushar? One of the successes of the last few years is you do look to significantly improve the capital efficiency of the investment bank and largely close the gap with peers. Do you feel there is still more to go from a capital efficiency perspective or a balance sheet philosophy?",
+    "answer_quote": "I think it is going to get harder. One of the things we look at is revenue divided by risk weighed assets, and on our numbers we think we score really at the top end there. Actually, on return on assets, we're probably not quite as efficient as some other IBs, so there is probably something for us that we're looking at there. We've probably spent a lot of time and effort to be really efficient as we've designed the bank to be bound by risk weighted assets. But, efficiency on leverage is something that we're going to take a long, hard look at and that will be helpful. But, I think we feel reasonably productive on capital at the moment, on an RWA measure, really.",
+    "reason": "The answer addresses the question's intent, provides a hedged stance with both positive and negative aspects, includes high evidence with specific measures like 'revenue divided by risk weighted assets' and 'return on assets', and aligns with the narrative of capital efficiency and balance sheet philosophy."
+  },
+  "whitespace_adjusted_quotes": []
+}

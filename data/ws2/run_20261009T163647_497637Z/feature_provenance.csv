@@ -1,0 +1,111 @@
+﻿feature,contributor,method
+exchange_id,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+doc_sha256,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+bank,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+period,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+audience,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+analyst,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+analyst_firm,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+question_text,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+question_turn_id,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+question_page,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+answer_text,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+answer_turn_ids,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+responder_names,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+responder_roles,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+n_words_q,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+n_words_a,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__relpath,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__bank,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__fiscal_year,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__fiscal_quarter,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__audience,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__doc_format,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__source_url,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__source_page,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__fetched_at,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__n_pages,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__n_turns,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__n_exchanges,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__n_speakers,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__fffd_before,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__silent_repairs,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__parse_status,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_documents__warnings,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_topics__topic_id,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_topics__topic_label,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_sentiment_exchanges__q_positive,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_sentiment_exchanges__q_negative,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_sentiment_exchanges__a_positive,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_sentiment_exchanges__a_negative,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+ws1_sentiment_exchanges__tone_gap,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+invalid_turn_links,Mayami and Wessam — WS2,validation/normalisation; source text retained
+missing_question,Mayami and Wessam — WS2,validation/normalisation; source text retained
+missing_answer,Mayami and Wessam — WS2,validation/normalisation; source text retained
+missing_document,Mayami and Wessam — WS2,validation/normalisation; source text retained
+in_scope,Mayami and Wessam — WS2,validation/normalisation; source text retained
+question_model_text,Mayami and Wessam — WS2,validation/normalisation; source text retained
+answer_model_text,Mayami and Wessam — WS2,validation/normalisation; source text retained
+eligible,Mayami and Wessam — WS2,validation/normalisation; source text retained
+quarter_order,Mayami and Wessam — WS2,validation/normalisation; source text retained
+quarter_id,Mayami and Wessam — WS2,validation/normalisation; source text retained
+ws1_derived_status,Jamie and Eion — WS1,upstream data retained; joined by stable ID
+question_topic,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+question_topic_label,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+q_polarity,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+a_polarity,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+polarity_gap,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+tone_gap,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+immediate_follow_up,Jamie and Eion — WS1 -> WS2,upstream field mapping/arithmetic; no model rerun
+question_metrics,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+question_numbers,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+question_time_expressions,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+question_chars,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_metrics,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_numbers,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_time_expressions,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_chars,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+requests_number,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+requests_time,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+metric_recurrence,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+number_coverage,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+time_coverage,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+specificity_score,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+semantic_alignment,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+topic_match,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_topic,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_topic_confidence,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+semantic_alignment_source,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+question_embedding_chunks,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+answer_embedding_chunks,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+topic_substitution,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+directness_score,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+directness_components,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+directness_available_weight,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+directness_variant,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"
+llm_status,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_error,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_cache_key,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_answer_completeness,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_response_stance,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_evidence_level,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_narrative_alignment,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_question_intent,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_main_topics,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_contains_numeric_evidence,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_contains_forward_guidance,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_question_quote,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_answer_quote,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_reason,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_model,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_revision,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_prompt_version,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_dtype,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_attention,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_batch_size,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+llm_generation_regime,Mayami and Wessam — WS2,Wessam Course 3 Phi workflow adapted to structured BoE Q&A
+qa_dissonance_deterministic,Mayami and Wessam — WS2,exploratory comparison; uncalibrated thresholds
+qa_dissonance_hybrid,Mayami and Wessam — WS2,exploratory comparison; uncalibrated thresholds
+method_disagreement,Mayami and Wessam — WS2,exploratory comparison; uncalibrated thresholds
+human_review_priority,Mayami and Wessam — WS2,exploratory comparison; uncalibrated thresholds
+audit_numeric_integrity,Mayami and Wessam — WS2,"Mayami analytical design, integrated and extended"

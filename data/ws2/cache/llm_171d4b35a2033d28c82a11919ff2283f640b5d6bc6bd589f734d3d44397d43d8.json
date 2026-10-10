@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about the bank's rate sensitivity to short-term and long-term interest rate changes.\",\n  \"main_topics\": [\"Rate Sensitivity\", \"Short-term vs Long-term\", \"Market Dynamics\", \"Currency Impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just one question, about understanding the sensitivity in terms of how much are exposed to base rates short-end going up and how much is the long-end of your sensitivity.\",\n  \"answer_quote\": \"In Hong Kong dollars, a lot of the sensitivity is really short term, because of the dynamics of the market. The asset side reprices quite quickly.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing specific information about the bank's rate sensitivity, with high evidence level due to the inclusion of numeric evidence and a clear narrative alignment.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 766,
+      "batch_seconds": 19.062921921999987
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "171d4b35a2033d28c82a11919ff2283f640b5d6bc6bd589f734d3d44397d43d8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about the bank's rate sensitivity to short-term and long-term interest rate changes.",
+    "main_topics": [
+      "Rate Sensitivity",
+      "Short-term vs Long-term",
+      "Market Dynamics",
+      "Currency Impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just one question, about understanding the sensitivity in terms of how much are exposed to base rates short-end going up and how much is the long-end of your sensitivity.",
+    "answer_quote": "In Hong Kong dollars, a lot of the sensitivity is really short term, because of the dynamics of the market. The asset side reprices quite quickly.",
+    "reason": "The answer directly addresses the question's intent, providing specific information about the bank's rate sensitivity, with high evidence level due to the inclusion of numeric evidence and a clear narrative alignment."
+  },
+  "whitespace_adjusted_quotes": []
+}

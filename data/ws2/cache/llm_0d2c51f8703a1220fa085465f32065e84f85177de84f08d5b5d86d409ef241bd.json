@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Discuss bank's net interest margin outlook, consumer behavior, hedge notional, and valuation concerns.\",\n \"main_topics\": [\"Net Interest Margin\", \"Consumer Behavior\", \"Hedge Notional\", \"Valuation Concerns\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"The first one I guess ties together net interest margin outlook, consumer behaviour and the hedge update. I was interested to read that the skew on larger hedge notional was mostly involved with BI balances. In BUK there's £50bn more deposits than at the end of 2019, and I just wondered what your assessment around those balance are. The fact that it's not included in a bigger notional, does that mean you're expecting balances to fall and is a decline in those deposits a prerequisite for better behaviour on the interest bearing part of the unsecured book there?\",\n \"answer_quote\": \"In terms of net interest margin, the hedge notional that we talked about, actually we have been increasing the size of our hedges over the course of last year and into this year. You'll see that from the disclosures. It's been steadily increasing every quarter rather than a big step up. That's actually been mostly in the UK bank, those increases. Where we haven't actually done much is on the corporate side of the business. That £25bn that we talked about of potential capacity is a mix of UK and corporate, just skewed more towards corporate. Obviously were we to do that, it'd still be possibly accretive to UK NIM, but certainly accretive to corporate NIM. The other thing is that you'll see from our disclosures and our comments early this morning, we have slightly lengthened the duration of hedges as well. That's a good thing for us to do given the steepening of the curve that we've seen, although it's flattened recently. But as we were lengthening, the curve was steepening nicely.\",\n \"reason\": \"The answer directly addresses the net interest margin, hedge notional, and valuation concerns, providing specific figures and future outlooks, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1365,
+      "batch_seconds": 58.23529587699977
+    }
+  ],
+  "exchange_id": "418cffd1dc8d-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0d2c51f8703a1220fa085465f32065e84f85177de84f08d5b5d86d409ef241bd",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss bank's net interest margin outlook, consumer behavior, hedge notional, and valuation concerns.",
+    "main_topics": [
+      "Net Interest Margin",
+      "Consumer Behavior",
+      "Hedge Notional",
+      "Valuation Concerns"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one I guess ties together net interest margin outlook, consumer behaviour and the hedge update. I was interested to read that the skew on larger hedge notional was mostly involved with BI balances. In BUK there's £50bn more deposits than at the end of 2019, and I just wondered what your assessment around those balance are. The fact that it's not included in a bigger notional, does that mean you're expecting balances to fall and is a decline in those deposits a prerequisite for better behaviour on the interest bearing part of the unsecured book there?",
+    "answer_quote": "In terms of net interest margin, the hedge notional that we talked about, actually we have been increasing the size of our hedges over the course of last year and into this year. You'll see that from the disclosures. It's been steadily increasing every quarter rather than a big step up. That's actually been mostly in the UK bank, those increases. Where we haven't actually done much is on the corporate side of the business. That £25bn that we talked about of potential capacity is a mix of UK and corporate, just skewed more towards corporate. Obviously were we to do that, it'd still be possibly accretive to UK NIM, but certainly accretive to corporate NIM. The other thing is that you'll see from our disclosures and our comments early this morning, we have slightly lengthened the duration of hedges as well. That's a good thing for us to do given the steepening of the curve that we've seen, although it's flattened recently. But as we were lengthening, the curve was steepening nicely.",
+    "reason": "The answer directly addresses the net interest margin, hedge notional, and valuation concerns, providing specific figures and future outlooks, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

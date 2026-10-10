@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for elaboration on IT issue, regulator discussions, and UK IT investment, and inquiry about capital return strategy.\",\n  \"main_topics\": [\"IT issue\", \"regulator discussions\", \"UK IT investment\", \"capital return strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Perhaps a couple, one just because it didn't come up on the analyst call last week. The IT issue in the UK, a couple of weeks back over the weekend, if you could just elaborate on the cause of that, the resolution of that, how subsequent discussions have gone with the regulator and if there is anything on the additional UK investment spend for IT post that event.\",\n  \"answer_quote\": \"Okay, thank you, Andy. So on the first, I haven't got a huge amount to say at this point in time. We would expect to make a statement fairly soon. All I would say, in summary, is clearly we are very focused on remediating the situation for clients and for our customers. We've done some recourse analysis with the supplier and we would expect to make that statement relatively soon. But I would reiterate that it was not as a result, either of a cyber event or indeed any change that we had implemented internally. So our focus at this point in time is just on the client and customer resolution.\",\n  \"reason\": \"The answer provides some information on the IT issue and regulator discussions but does not fully address the additional UK IT investment or the capital return strategy, hence partial completeness.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Elaboration on IT issue, capital return strategy\",\n  \"main_topics\": [\"IT issue resolution\", \"capital return strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Morning, Andrew Coombs from Citi. Perhaps a couple, one just because it didn't come up on the analyst call last week. The IT issue in the UK, a couple of weeks back over the weekend, if you could just elaborate on the cause of that, the resolution of that, how subsequent discussions have gone with the regulator and if there is anything on the additional UK investment spend for IT post that event.\",\n  \"answer_quote\": \"Okay, thank you, Andy. So on the first, I haven't got a huge amount to say at this point in time. We would expect to make a statement fairly soon. All I would say, in summary, is clearly we are very focused on remediating the situation for clients and for our customers. We've done some recourse analysis with the supplier and we would expect to make that statement relatively soon. But I would reiterate that it was not as a result, either of a cyber event or indeed any change that we had implemented internally. So our focus at this point in time is just on the client and customer resolution. To your second point on capital return, as we said last Thursday, we're very focused on total capital return. We think that's the right measure, particularly at this point in time, and that was 5% up year-on-year on a per share basis. And you know, we delivered a distribution in alignment with the expectation that we set out in February 2024. We've reiterated our targets through to 2026, so just to remind you all of that: at least '£10 billion over a 3 year period, so there was no reason at this stage for us to change that target. I take your point about timing, but actually when we plan our capital flight path, we have a couple of things in mind. Firstly, those regulatory pieces that have changed and do move around, as we've observed over the last year or so. Secondly, we do so over a multi-year period, we're not planning in sort of six month blocks or anything like that. It is really a long term view Andy, we're happy with the guidance that we've given and just to reiterate [the capital return target of] at least £10 billion. Okay, thank you.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 935,
+      "batch_seconds": 26.02040559299985
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 980,
+      "batch_seconds": 28.67375667199849
+    }
+  ],
+  "exchange_id": "ce1602510e69-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "32b1470e653666552a1b42a91052b9309b7725e8c56cb5a2407fcce0b5a650f4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for elaboration on IT issue, regulator discussions, and UK IT investment, and inquiry about capital return strategy.",
+    "main_topics": [
+      "IT issue",
+      "regulator discussions",
+      "UK IT investment",
+      "capital return strategy"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Perhaps a couple, one just because it didn't come up on the analyst call last week. The IT issue in the UK, a couple of weeks back over the weekend, if you could just elaborate on the cause of that, the resolution of that, how subsequent discussions have gone with the regulator and if there is anything on the additional UK investment spend for IT post that event.",
+    "answer_quote": "Okay, thank you, Andy. So on the first, I haven't got a huge amount to say at this point in time. We would expect to make a statement fairly soon. All I would say, in summary, is clearly we are very focused on remediating the situation for clients and for our customers. We've done some recourse analysis with the supplier and we would expect to make that statement relatively soon. But I would reiterate that it was not as a result, either of a cyber event or indeed any change that we had implemented internally. So our focus at this point in time is just on the client and customer resolution.",
+    "reason": "The answer provides some information on the IT issue and regulator discussions but does not fully address the additional UK IT investment or the capital return strategy, hence partial completeness."
+  },
+  "whitespace_adjusted_quotes": []
+}

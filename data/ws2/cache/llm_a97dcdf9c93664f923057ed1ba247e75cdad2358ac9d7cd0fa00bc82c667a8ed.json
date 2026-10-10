@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Analyzing bank strategy and industry structure\",\n  \"main_topics\": [\"Loan-to-deposit ratio\", \"Bank pricing strategy\", \"Industry structural changes\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Does that imply you'd let your loan-to-deposit ratio pick up because you wouldn't need time deposits, you'd structurally price a lot lower than your peers, because you wouldn't need those time deposits?\",\n  \"answer_quote\": \"I think most UK banks are in a similar position. Their loan-to-deposit ratios are lower than they were. And I wouldn't comment on competitors' pricing on this call. I think it's more of a structural piece across the industry. Thank you, everybody. Fahed was the last question. Looking forward to seeing some of you next week, and many of you in the coming weeks. Thank you. Thank you.\",\n  \"reason\": \"The answer partially addresses the question by discussing the loan-to-deposit ratio and industry structure but hedges on competitors' pricing and lacks numeric evidence.\"\n}",
+  "data": {
+    "question_intent": "Analyzing bank strategy and industry structure",
+    "main_topics": [
+      "Loan-to-deposit ratio",
+      "Bank pricing strategy",
+      "Industry structural changes"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Does that imply you'd let your loan-to-deposit ratio pick up because you wouldn't need time deposits, you'd structurally price a lot lower than your peers, because you wouldn't need those time deposits?",
+    "answer_quote": "I think most UK banks are in a similar position. Their loan-to-deposit ratios are lower than they were. And I wouldn't comment on competitors' pricing on this call. I think it's more of a structural piece across the industry. Thank you, everybody. Fahed was the last question. Looking forward to seeing some of you next week, and many of you in the coming weeks. Thank you. Thank you.",
+    "reason": "The answer partially addresses the question by discussing the loan-to-deposit ratio and industry structure but hedges on competitors' pricing and lacks numeric evidence."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "6d4760f97290-x017",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a97dcdf9c93664f923057ed1ba247e75cdad2358ac9d7cd0fa00bc82c667a8ed"
+}

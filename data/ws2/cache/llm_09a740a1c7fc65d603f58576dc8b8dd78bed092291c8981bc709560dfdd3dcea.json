@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for comments on cost growth consensus, investment spend acceleration, and payback timeframe\",\n  \"main_topics\": [\"Bank Earnings Call\", \"Cost Growth\", \"Investment Spend\", \"Revenue Growth\", \"Divestments\", \"Simplification Savings\", \"Strategic Investments\", \"Cost Discipline\", \"Revenue-Cost Storyline\", \"Forward Guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask you to comment on current consensus, which is the 3% cost growth to $35.4 billion next year?\",\n  \"answer_quote\": \"We're pleased to be moving at pace in our simplification. The increase of our simplification saves to $2 billion and the speed of decisioning in our business exits - three of which we announced over the last ten days or so, 15 of which we announced since 2025 - are giving us capacity to accelerate investments in our businesses.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and maintains narrative alignment with the question's topics.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Requesting commentary on cost growth, investment spend acceleration, and revenue growth targets.\",\n  \"main_topics\": [\"cost growth\", \"investment spend\", \"revenue growth\", \"divestments\", \"simplification savings\", \"forward guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask you to comment on current consensus, which is the 3% cost growth to $35.4 billion next year?\",\n  \"answer_quote\": \"We said we would accelerate some investments as we go into next year, so that number would be a bit higher, but we do have, partly offsetting that - the operative word is 'partly offsetting that' - the additional benefits we are getting both in terms of increased simplification costs, which is $300 million, which goes into next year, as well as an addition of the redeployment of costs coming from our divestments.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for commentary on cost growth consensus and investment payback\",\n  \"main_topics\": [\"cost growth\", \"investment spend\", \"revenue growth\", \"simplification savings\", \"divestments\", \"forward guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask you to comment on current consensus, which is the 3% cost growth to $35.4 billion next year?\",\n  \"answer_quote\": \"We're pleased to be moving at pace in our simplification. The increase of our simplification saves to $2 billion and the speed of decisioning in our business exits - three of which we announced over the last ten days or so, 15 of which we announced since 2025 - are giving us capacity to accelerate investments in our businesses.\",\n  \"reason\": \"The answer directly addresses the question's request for commentary on cost growth consensus and investment payback, providing a high level of evidence with specific figures and a clear stance.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for comments on cost growth consensus, investment spend acceleration, and payback timeframe\",\n  \"main_topics\": [\"Bank Earnings Call\", \"Cost Growth\", \"Investment Spend\", \"Revenue Growth\", \"Divestments\", \"Simplification Savings\", \"Strategic Investments\", \"Cost Discipline\", \"Revenue-Cost Storyline\", \"Forward Guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I ask you to comment on current consensus, which is the 3% cost growth to $35.4 billion next year?\",\n  \"answer_quote\": \"We're pleased to be moving at pace in our simplification. The increase of our simplification saves to $2 billion and the speed of decisioning in our business exits - three of which we announced over the last ten days or so, 15 of which we announced since 2025 - are giving us capacity to accelerate investments in our businesses.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and maintains narrative alignment with the question's topics.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1128,
+      "batch_seconds": 35.32207129899962
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1173,
+      "batch_seconds": 95.43166388499958
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1182,
+      "batch_seconds": 36.75294905999908
+    }
+  ],
+  "exchange_id": "0f3a106b51bf-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "09a740a1c7fc65d603f58576dc8b8dd78bed092291c8981bc709560dfdd3dcea",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Client reactions to tariffs, HSBC's support, and new business opportunities\",\n  \"main_topics\": [\"Client reactions to tariffs\", \"HSBC support\", \"New business opportunities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you give an example of how your major clients react to tariff policy in April? Are they facing a sharp decline in business demand or are they actively seeking the solutions to reduce the effect of tariffs, or just to cut their business? And how HSBC help them navigate through the challenge from the tariffs, and beyond risks, have we seen any new business opportunities for HSBC in this context?\",\n  \"answer_quote\": \"So yes, indeed. First, the customers aren't taking any decisions in panic. Customers are essentially in wait-and-see mode. A number of capex or large investments have been slowed down, and certainly trade between China and the US, we've seen a major slowdown. But on the whole, customers are looking at their business models. They are looking at their supply chains. They're looking at ways to create more resilience in their business, and we're definitely here to help them. As I said earlier, we are our customers' trusted banking partner. They trust our financial strength, the strength of our balance sheet, of our proposition. They trust the stability of our commitments to support them through their needs and through all predictable and unpredictable times, and very importantly, they trust our expertise. We have more than 5,000 trade experts in more than 50 jurisdictions working with clients to help them think through what this means for their business model, and how they can help them adapt and adjust and create resilience. So therefore, in an environment like this one, we expect to deepen relationships with clients. We expect to acquire new clients and to consolidate our position as a leading trade bank, and we expect to make hopefully a difference for our customers in navigating these uncertainties. Thank you very much, Yan. I think we addressed all the questions, so I want to take this opportunity to thank all of you for your questions. In closing, we had a strong quarter marked by momentum in our earnings, discipline in our execution and confidence in our ability to deliver our targets. Neil and the team are available for any follow-up questions with our investor relations experts. Meanwhile, Pam and I look forward to speaking with you again soon. Enjoy the rest of the day. Thank you.\",\n  \"reason\": \"The answer directly addresses the client's reactions to tariffs, HSBC's support, and potential new business opportunities, with high evidence level including a specific number of trade experts.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 855,
+      "batch_seconds": 24.24835875500048
+    }
+  ],
+  "exchange_id": "c6e92c439106-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e420b3918e509c340eaa30bbdba0e0428b96d3fa1e164fa0efb93fd34906a222",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Client reactions to tariffs, HSBC's support, and new business opportunities",
+    "main_topics": [
+      "Client reactions to tariffs",
+      "HSBC support",
+      "New business opportunities"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could you give an example of how your major clients react to tariff policy in April? Are they facing a sharp decline in business demand or are they actively seeking the solutions to reduce the effect of tariffs, or just to cut their business? And how HSBC help them navigate through the challenge from the tariffs, and beyond risks, have we seen any new business opportunities for HSBC in this context?",
+    "answer_quote": "So yes, indeed. First, the customers aren't taking any decisions in panic. Customers are essentially in wait-and-see mode. A number of capex or large investments have been slowed down, and certainly trade between China and the US, we've seen a major slowdown. But on the whole, customers are looking at their business models. They are looking at their supply chains. They're looking at ways to create more resilience in their business, and we're definitely here to help them. As I said earlier, we are our customers' trusted banking partner. They trust our financial strength, the strength of our balance sheet, of our proposition. They trust the stability of our commitments to support them through their needs and through all predictable and unpredictable times, and very importantly, they trust our expertise. We have more than 5,000 trade experts in more than 50 jurisdictions working with clients to help them think through what this means for their business model, and how they can help them adapt and adjust and create resilience. So therefore, in an environment like this one, we expect to deepen relationships with clients. We expect to acquire new clients and to consolidate our position as a leading trade bank, and we expect to make hopefully a difference for our customers in navigating these uncertainties. Thank you very much, Yan. I think we addressed all the questions, so I want to take this opportunity to thank all of you for your questions. In closing, we had a strong quarter marked by momentum in our earnings, discipline in our execution and confidence in our ability to deliver our targets. Neil and the team are available for any follow-up questions with our investor relations experts. Meanwhile, Pam and I look forward to speaking with you again soon. Enjoy the rest of the day. Thank you.",
+    "reason": "The answer directly addresses the client's reactions to tariffs, HSBC's support, and potential new business opportunities, with high evidence level including a specific number of trade experts."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Rate sensitivity and capital release from business disposals\",\n  \"main_topics\": [\"Rate sensitivity\", \"Capital release from business disposals\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just had a question, firstly, on rate sensitivity because I can't find any tables or disclosure in today's releases. I guess, are you now approaching in regards to base rates, a position whereby the bank is liability sensitive? Or how should we think about rate sensitivity going forward?\",\n  \"answer_quote\": \"Thanks for your questions, so I'll cover the first one and then hand across to Venkat. So you're exactly right. What we are saying is that given where base rates have now got to, we expect further rate rises from here would have no impact on our net interest margin, in fact it might be even slightly negative.\",\n  \"reason\": \"The answer directly addresses the rate sensitivity question with a clear stance and provides high evidence with a specific figure for the expected impact on net interest margin. It also aligns with the narrative by discussing the bank's position on rate sensitivity and capital release from business disposals.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 755,
+      "batch_seconds": 19.727787560999786
+    }
+  ],
+  "exchange_id": "4b42e60e1183-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a6bf42a3aefd62ca01515de386f59e73b5e4368abd566074b0c890dbd6a5dc02",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Rate sensitivity and capital release from business disposals",
+    "main_topics": [
+      "Rate sensitivity",
+      "Capital release from business disposals"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I just had a question, firstly, on rate sensitivity because I can't find any tables or disclosure in today's releases. I guess, are you now approaching in regards to base rates, a position whereby the bank is liability sensitive? Or how should we think about rate sensitivity going forward?",
+    "answer_quote": "Thanks for your questions, so I'll cover the first one and then hand across to Venkat. So you're exactly right. What we are saying is that given where base rates have now got to, we expect further rate rises from here would have no impact on our net interest margin, in fact it might be even slightly negative.",
+    "reason": "The answer directly addresses the rate sensitivity question with a clear stance and provides high evidence with a specific figure for the expected impact on net interest margin. It also aligns with the narrative by discussing the bank's position on rate sensitivity and capital release from business disposals."
+  },
+  "whitespace_adjusted_quotes": []
+}

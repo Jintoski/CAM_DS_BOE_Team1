@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Lagging effect in Transaction Banking\",\n  \"main_topics\": [\"Rate Passthrough\", \"Transaction Banking\", \"Lagging Effect\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And then in terms of the passthrough of rates on deposit balances, is there any lagging effect in Transaction Banking?\",\n  \"answer_quote\": \"A little bit, but not as significant as in retail.\",\n  \"reason\": \"The answer addresses the question but lacks specific figures or detailed explanation.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 426,
+      "batch_seconds": 7.036173496000629
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0f34b52224c1fdc41ed390bd0f3c8f79ce75a0e8f6531bb9b8203ffa61913769",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Lagging effect in Transaction Banking",
+    "main_topics": [
+      "Rate Passthrough",
+      "Transaction Banking",
+      "Lagging Effect"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And then in terms of the passthrough of rates on deposit balances, is there any lagging effect in Transaction Banking?",
+    "answer_quote": "A little bit, but not as significant as in retail.",
+    "reason": "The answer addresses the question but lacks specific figures or detailed explanation."
+  },
+  "whitespace_adjusted_quotes": []
+}

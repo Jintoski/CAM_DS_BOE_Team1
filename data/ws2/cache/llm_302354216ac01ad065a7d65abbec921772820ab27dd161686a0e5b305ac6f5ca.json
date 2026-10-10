@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on capital and stress-testing timeline\",\n  \"main_topics\": [\"Capital\", \"Stress-testing timeline\", \"Regulatory restrictions\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I was wondering if you have any further thoughts on the stress-testing timeline this year and if there's any scope for regulatory restrictions in the UK to come off earlier for yourselves.\",\n  \"answer_quote\": \"I think you know that there's a current mini stress test being done by the Bank of England and the PRA, and that was in the absence of them having done an Annual Cyclical Scenario at the back end of last year.\",\n  \"reason\": \"The answer partially addresses the stress-testing timeline but does not directly comment on the potential for regulatory restrictions to be lifted earlier.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 556,
+      "batch_seconds": 12.271816891000526
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "302354216ac01ad065a7d65abbec921772820ab27dd161686a0e5b305ac6f5ca",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on capital and stress-testing timeline",
+    "main_topics": [
+      "Capital",
+      "Stress-testing timeline",
+      "Regulatory restrictions"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I was wondering if you have any further thoughts on the stress-testing timeline this year and if there's any scope for regulatory restrictions in the UK to come off earlier for yourselves.",
+    "answer_quote": "I think you know that there's a current mini stress test being done by the Bank of England and the PRA, and that was in the absence of them having done an Annual Cyclical Scenario at the back end of last year.",
+    "reason": "The answer partially addresses the stress-testing timeline but does not directly comment on the potential for regulatory restrictions to be lifted earlier."
+  },
+  "whitespace_adjusted_quotes": []
+}

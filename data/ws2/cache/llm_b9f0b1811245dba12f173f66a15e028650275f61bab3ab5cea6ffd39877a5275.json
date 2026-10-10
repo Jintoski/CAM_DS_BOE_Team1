@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing revenue impact from widening credit spreads\",\n  \"main_topics\": [\"Credit Spreads\", \"Revenue Impact\", \"Credit Losses\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"I'm just conscious it's there and obviously we're seeing credit spreads widening through Q222. So I'm just trying to gauge in my own head how much of a revenue impact that might have. In anticipation obviously of potential future credit losses.\",\n  \"answer_quote\": \"Specifically around a syndicate pipeline?\",\n  \"reason\": \"The answer deflects from the question's focus on revenue impact and credit spreads, and does not provide a complete response.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 442,
+      "batch_seconds": 7.9235276970002815
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b9f0b1811245dba12f173f66a15e028650275f61bab3ab5cea6ffd39877a5275",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing revenue impact from widening credit spreads",
+    "main_topics": [
+      "Credit Spreads",
+      "Revenue Impact",
+      "Credit Losses"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "I'm just conscious it's there and obviously we're seeing credit spreads widening through Q222. So I'm just trying to gauge in my own head how much of a revenue impact that might have. In anticipation obviously of potential future credit losses.",
+    "answer_quote": "Specifically around a syndicate pipeline?",
+    "reason": "The answer deflects from the question's focus on revenue impact and credit spreads, and does not provide a complete response."
+  },
+  "whitespace_adjusted_quotes": []
+}

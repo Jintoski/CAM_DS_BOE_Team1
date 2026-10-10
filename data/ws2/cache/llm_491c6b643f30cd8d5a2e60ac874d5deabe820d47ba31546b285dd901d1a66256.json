@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Future deposit beta and industry trends\",\n  \"main_topics\": [\"Bank of England rate cuts\", \"Barclays deposit pricing\", \"Industry deposit beta trends\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"In that context, I'm wondering where Barclays and maybe where you think the industry will move to in terms of deposit beta across the longer term, as you get toward the neutral rates.\",\n  \"answer_quote\": \"I would think about it broadly across the range, not just one individual product. What we observe of the back of the first rate cut, which is somewhat behind us now, is pricing changes across the industry that were between 10 and 25 bps and we were on average broadly within that range.\",\n  \"reason\": \"The answer partially addresses the question by discussing industry trends and Barclays' approach but does not provide a clear stance on the future direction of deposit beta or specific predictions for the industry.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 774,
+      "batch_seconds": 22.53639922399998
+    }
+  ],
+  "exchange_id": "4740a0d8a633-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "491c6b643f30cd8d5a2e60ac874d5deabe820d47ba31546b285dd901d1a66256",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Future deposit beta and industry trends",
+    "main_topics": [
+      "Bank of England rate cuts",
+      "Barclays deposit pricing",
+      "Industry deposit beta trends"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "In that context, I'm wondering where Barclays and maybe where you think the industry will move to in terms of deposit beta across the longer term, as you get toward the neutral rates.",
+    "answer_quote": "I would think about it broadly across the range, not just one individual product. What we observe of the back of the first rate cut, which is somewhat behind us now, is pricing changes across the industry that were between 10 and 25 bps and we were on average broadly within that range.",
+    "reason": "The answer partially addresses the question by discussing industry trends and Barclays' approach but does not provide a clear stance on the future direction of deposit beta or specific predictions for the industry."
+  },
+  "whitespace_adjusted_quotes": []
+}

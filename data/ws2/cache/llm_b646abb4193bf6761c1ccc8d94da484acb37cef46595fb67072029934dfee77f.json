@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Seeking clarification on bank's risk management and potential issues\",\n  \"main_topics\": [\"bank risk management\", \"market volatility\", \"capital resilience\", \"credit exposure\", \"fraud management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What has to happen for there to be a problem? You know, you must sensitise your book. Is it that the Middle East [crisis] continues for much longer than expected? Is it the oil price of $150 is the big question mark?\",\n  \"answer_quote\": \"So, we are very mindful of the environment around us, and that's why we are managing risk and capital very, very carefully. But we go into this kind of environment with a resilience that would not have been there a few years ago.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Seeking clarification on bank's risk management and potential issues\",\n \"main_topics\": [\"Bank's risk management\", \"Potential issues\", \"Write-off exposures\", \"Fraud\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"What has to happen for there to be a problem? You must sensitise your book. Is it that the Middle East [crisis] continues for much longer than expected? Is it the oil price of $150 is the big question mark? Because obviously $100 is not a problem. So, what is an environment which would have you guys thinking, this is a problem for our book, and we're going to have to start taking some material numbers?\",\n \"answer_quote\": \"So, we are very mindful of the environment around us, and that's why we are managing risk and capital very, very carefully. But we go into this kind of environment with a resilience that would not have been there a few years ago. So, we are operating with greater proportion of our capital focused on more stable returns. We have higher operating leverage, which gives us greater resilience. And of course, we have much higher levels of absolute capital. So, if there is a deterioration, then we would face that in a completely different position as a bank.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Seeking clarification on bank's risk management and potential issues\",\n  \"main_topics\": [\n    \"Bank's risk management\",\n    \"Potential issues and problem scenarios\",\n    \"Bank's capital and resilience\",\n    \"Market volatility and economic weakness\",\n    \"Bank's trading and credit exposure\",\n    \"Fraud and risk management in banking\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What has to happen for there to be a problem? You must sensitise your book. Is it that the Middle East [crisis] continues for much longer than expected? Is it the oil price of $150 is the big question mark? Because obviously $100 is not a problem. So, what is an environment which would have you guys thinking, this is a problem for our book, and we're going to have to start taking some material numbers?\",\n  \"answer_quote\": \"So, we are very mindful of the environment around us, and that's why we are managing risk and capital very, very carefully. But we go into this kind of environment with a resilience that would not have been there a few years ago. So, we are operating with greater proportion of our capital focused on more stable returns. We have higher operating leverage, which gives us greater resilience. And of course, we have much higher levels of absolute capital. So, if there is a deterioration, then we would face that in a completely different position as a bank.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Seeking clarification on bank's risk management and potential issues\",\n  \"main_topics\": [\"bank risk management\", \"market volatility\", \"capital resilience\", \"credit exposure\", \"fraud management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What has to happen for there to be a problem? You know, you must sensitise your book. Is it that the Middle East [crisis] continues for much longer than expected? Is it the oil price of $150 is the big question mark?\",\n  \"answer_quote\": \"So, we are very mindful of the environment around us, and that's why we are managing risk and capital very, very carefully. But we go into this kind of environment with a resilience that would not have been there a few years ago.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 2089,
+      "batch_seconds": 130.69171488799975
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 2134,
+      "batch_seconds": 130.14764433800065
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 2134,
+      "batch_seconds": 131.21219203000146
+    }
+  ],
+  "exchange_id": "a91585caef10-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b646abb4193bf6761c1ccc8d94da484acb37cef46595fb67072029934dfee77f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Investment bank pipeline confidence, retail bank deposit mix\",\n \"main_topics\": [\"Investment Banking\", \"Retail Banking\", \"Market Conditions\", \"Deposit Mix\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Hedged\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"How much of that pipeline are you confident will come back, including some of these firms with crazy multiples, that to my understanding were a big chunk of the pipeline?\",\n \"answer_quote\": \"Let me start with the Investment Banking state of play. I'm not going to give any trading outlook, as you would expect. What I would say is that the environment remains quite similar to what it was throughout Q122. You'll notice from Dealogic, it's a difficult market to issue into. At this point in time, I think we'd say that the pipeline is still there, it's still strong. We're not seeing a huge amount of fallout from it, so no real change from what we described at the end of Q122. And you're right, the flip side of that remains quite constructive for Markets. How long that particular set of macroeconomic circumstances prevails is difficult for us to tell. What I would say is that we feel like the franchise that we've built is better able to cope with those circumstances flipping around. We're confident with the progress that we've made. For example, if you look at Q421, FICC was not great, Banking was really good. If you look at Q122, it was the opposite way round. We're able to push these businesses forward and take advantage of the circumstances that surround us. It's difficult to give an outlook in this environment, but we're confident with the ability of the franchise to react, but the circumstances are very similar to what they were in Q122 and the pipeline's not really changed, not really moved.\",\n \"reason\": \"The answer provides a hedged response to the investment bank pipeline confidence, indicating stability but avoiding a definitive outlook. It also addresses the retail bank deposit mix, discussing the potential for a shift towards higher-yielding products without committing to specific figures.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1335,
+      "batch_seconds": 53.59223178900038
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2d3f18934a0530d751bbd112ec60b57d70e47615bd56b64e76bd4bd6dde17297",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Investment bank pipeline confidence, retail bank deposit mix",
+    "main_topics": [
+      "Investment Banking",
+      "Retail Banking",
+      "Market Conditions",
+      "Deposit Mix"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How much of that pipeline are you confident will come back, including some of these firms with crazy multiples, that to my understanding were a big chunk of the pipeline?",
+    "answer_quote": "Let me start with the Investment Banking state of play. I'm not going to give any trading outlook, as you would expect. What I would say is that the environment remains quite similar to what it was throughout Q122. You'll notice from Dealogic, it's a difficult market to issue into. At this point in time, I think we'd say that the pipeline is still there, it's still strong. We're not seeing a huge amount of fallout from it, so no real change from what we described at the end of Q122. And you're right, the flip side of that remains quite constructive for Markets. How long that particular set of macroeconomic circumstances prevails is difficult for us to tell. What I would say is that we feel like the franchise that we've built is better able to cope with those circumstances flipping around. We're confident with the progress that we've made. For example, if you look at Q421, FICC was not great, Banking was really good. If you look at Q122, it was the opposite way round. We're able to push these businesses forward and take advantage of the circumstances that surround us. It's difficult to give an outlook in this environment, but we're confident with the ability of the franchise to react, but the circumstances are very similar to what they were in Q122 and the pipeline's not really changed, not really moved.",
+    "reason": "The answer provides a hedged response to the investment bank pipeline confidence, indicating stability but avoiding a definitive outlook. It also addresses the retail bank deposit mix, discussing the potential for a shift towards higher-yielding products without committing to specific figures."
+  },
+  "whitespace_adjusted_quotes": []
+}

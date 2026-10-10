@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on financial reporting\",\n  \"main_topics\": [\"Non-interest income\", \"Interest income\", \"Financial reporting\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"Why do the reward costs go through the non-interest income line? Should they not be offset against an effective interest rate in the NII line? Are there any reward costs within the NII line, as well?\",\n  \"answer_quote\": \"There are also interchange fees too. That's maybe something we can spend a bit of time with you on if you'd like to go through that in a bit more detail. I think that's it for today. Again, please do submit your feedback. Our colleagues in investor relations say they will try and make this an in-person one for next time round, but [if there are] any other ways in which we can improve this, we're all ears, as we always are. With that, we'll sign off. Thanks for joining us and stay well everybody.\",\n  \"reason\": \"The response deflects the question by introducing a new topic (interchange fees) and ends without addressing the original question about reward costs in the NII line.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 542,
+      "batch_seconds": 12.62525182399986
+    }
+  ],
+  "exchange_id": "5331686a7ed2-x017",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "01350e5f2eee09cec7b3f799932539726229db6344a748faaa91fe84e9dd65f4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on financial reporting",
+    "main_topics": [
+      "Non-interest income",
+      "Interest income",
+      "Financial reporting"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "Why do the reward costs go through the non-interest income line? Should they not be offset against an effective interest rate in the NII line? Are there any reward costs within the NII line, as well?",
+    "answer_quote": "There are also interchange fees too. That's maybe something we can spend a bit of time with you on if you'd like to go through that in a bit more detail. I think that's it for today. Again, please do submit your feedback. Our colleagues in investor relations say they will try and make this an in-person one for next time round, but [if there are] any other ways in which we can improve this, we're all ears, as we always are. With that, we'll sign off. Thanks for joining us and stay well everybody.",
+    "reason": "The response deflects the question by introducing a new topic (interchange fees) and ends without addressing the original question about reward costs in the NII line."
+  },
+  "whitespace_adjusted_quotes": []
+}

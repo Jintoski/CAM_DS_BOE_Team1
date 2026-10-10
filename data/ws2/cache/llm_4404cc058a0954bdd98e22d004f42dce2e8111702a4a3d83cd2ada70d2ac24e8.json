@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on UK card balances outlook, market share recovery, and CIB market share gains\",\n  \"main_topics\": [\"UK card balances outlook\", \"Market share recovery\", \"CIB market share gains\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I have just have two, one on cards and one on the investment bank? And on cards, in particular in the UK, I was just wondering if anything has changed in terms of the outlook along Q4 result.\",\n  \"answer_quote\": \"I would say you're right, we've gained important market share over the last couple of years.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a complete response with high evidence level, including numeric evidence and forward guidance, and is aligned with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1092,
+      "batch_seconds": 94.47761923500002
+    }
+  ],
+  "exchange_id": "5c9f6bef592a-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "4404cc058a0954bdd98e22d004f42dce2e8111702a4a3d83cd2ada70d2ac24e8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on UK card balances outlook, market share recovery, and CIB market share gains",
+    "main_topics": [
+      "UK card balances outlook",
+      "Market share recovery",
+      "CIB market share gains"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I have just have two, one on cards and one on the investment bank? And on cards, in particular in the UK, I was just wondering if anything has changed in terms of the outlook along Q4 result.",
+    "answer_quote": "I would say you're right, we've gained important market share over the last couple of years.",
+    "reason": "The answer directly addresses the question's intent, providing a complete response with high evidence level, including numeric evidence and forward guidance, and is aligned with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

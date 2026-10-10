@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for earnings guidance and explanation of rate sensitivity uptick\",\n  \"main_topics\": [\"Earnings guidance\", \"Rate sensitivity\", \"Reallocation and severance costs\", \"NII sensitivity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you help us at all in terms of sizing? I know there's some uncertainty around what those actions will be, but certainly a lot of the conversations with investors I've had have been around trying to work out what the statutory earnings are going to be in particularly 2026 and 2027, so any colour there would be very helpful.\",\n  \"answer_quote\": \"Let me come to the first question first. We are not giving any more guidance on that reallocation, and the reason is quite simple: for the first $1.5 billion, we know it's direct FTE savings from the reorganisation, named teams, etc, so therefore, the severances are straight through. In the other one, it's not related to just changes in market participation or shrinking footprint. There could be sales. There's M&A activity, so there isn't really a mathematical way of saying there's an upfront or a severance cost-related matter to it. So that's the answer on that. There was an uptick in the NII sensitivity. I presume you're talking about the NII sensitivity to a 100 basis point move. There was a marginal uptick from Q3 to Q4.\",\n  \"reason\": \"The answer directly addresses the question's request for earnings guidance and rate sensitivity explanation, providing specific figures and reasons for the observed changes.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 945,
+      "batch_seconds": 25.474934328000018
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bc6ca44f71494306138bb3a6362efa7bb5ad68114a0cda9c81b14f43907427ac",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for earnings guidance and explanation of rate sensitivity uptick",
+    "main_topics": [
+      "Earnings guidance",
+      "Rate sensitivity",
+      "Reallocation and severance costs",
+      "NII sensitivity"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can you help us at all in terms of sizing? I know there's some uncertainty around what those actions will be, but certainly a lot of the conversations with investors I've had have been around trying to work out what the statutory earnings are going to be in particularly 2026 and 2027, so any colour there would be very helpful.",
+    "answer_quote": "Let me come to the first question first. We are not giving any more guidance on that reallocation, and the reason is quite simple: for the first $1.5 billion, we know it's direct FTE savings from the reorganisation, named teams, etc, so therefore, the severances are straight through. In the other one, it's not related to just changes in market participation or shrinking footprint. There could be sales. There's M&A activity, so there isn't really a mathematical way of saying there's an upfront or a severance cost-related matter to it. So that's the answer on that. There was an uptick in the NII sensitivity. I presume you're talking about the NII sensitivity to a 100 basis point move. There was a marginal uptick from Q3 to Q4.",
+    "reason": "The answer directly addresses the question's request for earnings guidance and rate sensitivity explanation, providing specific figures and reasons for the observed changes."
+  },
+  "whitespace_adjusted_quotes": []
+}

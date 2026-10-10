@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for clarification on the approximation of embedded value\",\n  \"main_topics\": [\"Embedded value approximation\", \"Sensitivity analysis\", \"Beta change impact\", \"ROTE feedback\", \"2024 commitment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And, sorry, that's an approximation for what's embedded in the $41 billion.\",\n  \"answer_quote\": \"It's a fair approximation. Look, I can give you a sensitivity, if that helps. A 10% change in beta across all currencies is an annual sensitivity of $600 million. So the $3.4 billion we communicate as 50% beta, your 10% up or down would move it up or down by $600 million on a full-year basis, so then you can do your impact, if it happens in H2, and if it's phased in H2, what it means, etc. On the RoTE, look, we've taken the feedback. We are minded, but we'll update you in time. For the moment, we're committing to 2024.\",\n  \"reason\": \"The answer provides a direct response to the question, includes a high level of evidence with numeric details, and aligns with the question's narrative by addressing the embedded value approximation and providing forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for clarification on the embedded value approximation\",\n  \"main_topics\": [\"Embedded value approximation\", \"Sensitivity analysis\", \"RoTE impact\", \"Forward guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And, sorry, that's an approximation for what's embedded in the $41 billion.\",\n  \"answer_quote\": \"It's a fair approximation. Look, I can give you a sensitivity, if that helps. A 10% change in beta across all currencies is an annual sensitivity of $600 million. So the $3.4 billion we communicate as 50% beta, your 10% up or down would move it up or down by $600 million on a full-year basis, so then you can do your impact, if it happens in H2, and if it's phased in H2, what it means, etc. On the RoTE, look, we've taken the feedback. We are minded, but we'll update you in time. For the moment, we're committing to 2024.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 543,
+      "batch_seconds": 12.62525182399986
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 588,
+      "batch_seconds": 12.623332375000246
+    }
+  ],
+  "exchange_id": "287d803c2083-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "244c5497acf713a32172299a0bdc6d438daf6b0652626427dcb62dbc20d556dc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for clarification on the approximation of embedded value",
+    "main_topics": [
+      "Embedded value approximation",
+      "Sensitivity analysis",
+      "Beta change impact",
+      "ROTE feedback",
+      "2024 commitment"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "And, sorry, that's an approximation for what's embedded in the $41 billion.",
+    "answer_quote": "It's a fair approximation. Look, I can give you a sensitivity, if that helps. A 10% change in beta across all currencies is an annual sensitivity of $600 million. So the $3.4 billion we communicate as 50% beta, your 10% up or down would move it up or down by $600 million on a full-year basis, so then you can do your impact, if it happens in H2, and if it's phased in H2, what it means, etc. On the RoTE, look, we've taken the feedback. We are minded, but we'll update you in time. For the moment, we're committing to 2024.",
+    "reason": "The answer provides a direct response to the question, includes a high level of evidence with numeric details, and aligns with the question's narrative by addressing the embedded value approximation and providing forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

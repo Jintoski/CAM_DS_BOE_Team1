@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on market trends and partnerships\",\n  \"main_topics\": [\"market trends\", \"stamp duty changes\", \"Brookfield partnership\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So first is, going back to your comment on March being the strongest month for application and completion in Kensington. How much of the strength was driven by customers moving ahead of the stamp duty changes?\",\n  \"answer_quote\": \"There was undoubtedly a degree of pull forward into Q1.\",\n  \"reason\": \"The answer directly addresses the question about the strength of March's application and completion rates, attributing part of it to customers moving ahead of stamp duty changes, and provides a comprehensive view on market trends and the Brookfield partnership.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the impact of stamp duty changes on application rates, sustainable rate outlook, and Brookfield partnership strategy.\",\n  \"main_topics\": [\"Stamp Duty Impact\", \"Sustainable Rate Outlook\", \"Brookfield Partnership Strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So first is, going back to your comment on March being the strongest month for application and completion in Kensington. How much of the strength was driven by customers moving ahead of the stamp duty changes?\",\n  \"answer_quote\": \"There was undoubtedly a degree of pull forward into Q1. I think we've called that out and I think many of our competitors have done also, and you can see that in the strength of the data.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1093,
+      "batch_seconds": 94.47761923500002
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1138,
+      "batch_seconds": 34.52651048000007
+    }
+  ],
+  "exchange_id": "61b944164df6-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6c1b07bd11254447d59961e5167f5fa61fd9a505a9d7aae93cecb8430af6939d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on market trends and partnerships",
+    "main_topics": [
+      "market trends",
+      "stamp duty changes",
+      "Brookfield partnership"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So first is, going back to your comment on March being the strongest month for application and completion in Kensington. How much of the strength was driven by customers moving ahead of the stamp duty changes?",
+    "answer_quote": "There was undoubtedly a degree of pull forward into Q1.",
+    "reason": "The answer directly addresses the question about the strength of March's application and completion rates, attributing part of it to customers moving ahead of stamp duty changes, and provides a comprehensive view on market trends and the Brookfield partnership."
+  },
+  "whitespace_adjusted_quotes": []
+}

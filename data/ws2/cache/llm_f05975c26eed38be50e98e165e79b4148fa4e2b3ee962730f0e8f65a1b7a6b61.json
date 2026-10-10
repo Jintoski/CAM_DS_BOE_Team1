@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss concrete measures taken to reduce risk appetite and impact on revenues, and provide outlook on NII in the context of high rates and loan growth.\",\n  \"main_topics\": [\"Risk Appetite Reduction\", \"Impact on Revenues\", \"NII Outlook\", \"High Rates\", \"Loan Growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"You made the comment that you've reduced the risk appetite or pulled back (I can't remember the exact words you used) on slightly higher leveraged and some structured products. Can you give us a bit more colour of the concrete measures you've taken and maybe speak to slide 45 (and thanks very much for that disclosure). In which areas have you pulled back a bit, and how should we think about any impact on revenues from that sort of reduced risk appetite?\",\n  \"answer_quote\": \"So, we said in the statement that the impact is not material, either today or a foregone income in the future. On slide 45, in that third box is where you'll see the £17 billion lending to business models that are basically themselves asset-backed lenders. That is [one area] where we have [in the past] seen more vulnerable business models where we may not find the strength of financial controls we'd like to see them demonstrate. That's really the place where in the structured financing exposure, we would expect to see some limitations. But as I said in the prepared remarks, it's not material now as a source of income, nor foregone income in the future. Anna? Thanks, Alvaro, for the question. Given the experience that we've had in Q1, we are more confident now on NII than we were at the full year, because the actual experience that we've had in Q1 is either positive or neutral. And I'm very comfortable with consensus for '26, both for the Group and for Barclays UK. As I look a little further out into '27 and '28, that consensus looks light. We said the same at full year, it looks very light in '28. So what we've observed in Q1 is actually a good deposit performance. So current accounts in BUK have been broadly flat. Ordinarily, we would see a seasonal decline in Q1. We've had a good ISA season where we grew faster than the market. You can see good lending growth across the piece, 5%, pretty much on the [UK lending] target that we've given you. Our USCB NIM is a little higher than we guided to at 12.8%. And of course, as I said, we've topped up the hedge by £6 billion, and we've rolled it in the quarter at around 3.9%. Now, this change in rates is really about the future years. We are still basing the guidance that we're giving you on 3.5%. To the extent that we see rates remaining higher, obviously that will build through time, and you'll see the impact a little further out. And I'd just remind you that our hedge income for 2026 is 95% locked in already. So, our confidence is really coming from the real factors that we see in both deposits and in lending. To your point about slowdown in lending, we have not seen a slowdown in lending. We see it growing strongly both in BUK across the products, also in [UK] Corporate. And for the first time, we're seeing some really good signs of growth within Business Banking. That's driven by our own actions. We're not reliant on the market. So, at this point, I wouldn't say that we would adjust our NII guidance for any change in lending. It's more the experience that we've had in Q1 just gives us greater confidence to deliver [against] the consensus numbers.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing specific measures taken to reduce risk, the impact on revenues, and the outlook on NII, with high evidence level and numeric evidence present.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1233,
+      "batch_seconds": 33.825311269999474
+    }
+  ],
+  "exchange_id": "a91585caef10-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f05975c26eed38be50e98e165e79b4148fa4e2b3ee962730f0e8f65a1b7a6b61",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss concrete measures taken to reduce risk appetite and impact on revenues, and provide outlook on NII in the context of high rates and loan growth.",
+    "main_topics": [
+      "Risk Appetite Reduction",
+      "Impact on Revenues",
+      "NII Outlook",
+      "High Rates",
+      "Loan Growth"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "You made the comment that you've reduced the risk appetite or pulled back (I can't remember the exact words you used) on slightly higher leveraged and some structured products. Can you give us a bit more colour of the concrete measures you've taken and maybe speak to slide 45 (and thanks very much for that disclosure). In which areas have you pulled back a bit, and how should we think about any impact on revenues from that sort of reduced risk appetite?",
+    "answer_quote": "So, we said in the statement that the impact is not material, either today or a foregone income in the future. On slide 45, in that third box is where you'll see the £17 billion lending to business models that are basically themselves asset-backed lenders. That is [one area] where we have [in the past] seen more vulnerable business models where we may not find the strength of financial controls we'd like to see them demonstrate. That's really the place where in the structured financing exposure, we would expect to see some limitations. But as I said in the prepared remarks, it's not material now as a source of income, nor foregone income in the future. Anna? Thanks, Alvaro, for the question. Given the experience that we've had in Q1, we are more confident now on NII than we were at the full year, because the actual experience that we've had in Q1 is either positive or neutral. And I'm very comfortable with consensus for '26, both for the Group and for Barclays UK. As I look a little further out into '27 and '28, that consensus looks light. We said the same at full year, it looks very light in '28. So what we've observed in Q1 is actually a good deposit performance. So current accounts in BUK have been broadly flat. Ordinarily, we would see a seasonal decline in Q1. We've had a good ISA season where we grew faster than the market. You can see good lending growth across the piece, 5%, pretty much on the [UK lending] target that we've given you. Our USCB NIM is a little higher than we guided to at 12.8%. And of course, as I said, we've topped up the hedge by £6 billion, and we've rolled it in the quarter at around 3.9%. Now, this change in rates is really about the future years. We are still basing the guidance that we're giving you on 3.5%. To the extent that we see rates remaining higher, obviously that will build through time, and you'll see the impact a little further out. And I'd just remind you that our hedge income for 2026 is 95% locked in already. So, our confidence is really coming from the real factors that we see in both deposits and in lending. To your point about slowdown in lending, we have not seen a slowdown in lending. We see it growing strongly both in BUK across the products, also in [UK] Corporate. And for the first time, we're seeing some really good signs of growth within Business Banking. That's driven by our own actions. We're not reliant on the market. So, at this point, I wouldn't say that we would adjust our NII guidance for any change in lending. It's more the experience that we've had in Q1 just gives us greater confidence to deliver [against] the consensus numbers.",
+    "reason": "The answer directly addresses the question's intent, providing specific measures taken to reduce risk, the impact on revenues, and the outlook on NII, with high evidence level and numeric evidence present."
+  },
+  "whitespace_adjusted_quotes": []
+}

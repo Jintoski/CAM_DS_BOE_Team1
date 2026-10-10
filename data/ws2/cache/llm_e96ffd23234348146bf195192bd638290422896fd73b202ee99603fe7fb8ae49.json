@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about the reasons behind the flat coverage ratio despite provisions and the impact of potential risk migration on CET1 guidance.\",\n  \"main_topics\": [\"Coverage Ratio\", \"Provisions\", \"CET1 Guidance\", \"Risk Migration\", \"Economic Outlook\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"When you talk about your greater than 14% guidance on CET1 from first half 2023, have you factored in potential risk migration from higher loan losses, falling CRE within that, or, if we saw increased migration, would that be a risk to that greater than 14% CET1 guidance from 1H 2023?\",\n  \"answer_quote\": \"On the second question -we've clearly factored in a view on what the economic outlook is and what the impact on ratings migration would be as a result of that. And you can see what our assumptions are on the macro outlook from our first nine scenarios. So clearly, within that, in some markets, there is an element of ratings migration that we build into our RWA forecasts and capital forecasts.\",\n  \"reason\": \"The answer partially addresses the question about the flat coverage ratio and the impact of risk migration on CET1 guidance, but it hedges on specifics and does not fully explain the reasons behind the flat coverage ratio.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 899,
+      "batch_seconds": 26.18008355099937
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e96ffd23234348146bf195192bd638290422896fd73b202ee99603fe7fb8ae49",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about the reasons behind the flat coverage ratio despite provisions and the impact of potential risk migration on CET1 guidance.",
+    "main_topics": [
+      "Coverage Ratio",
+      "Provisions",
+      "CET1 Guidance",
+      "Risk Migration",
+      "Economic Outlook"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "When you talk about your greater than 14% guidance on CET1 from first half 2023, have you factored in potential risk migration from higher loan losses, falling CRE within that, or, if we saw increased migration, would that be a risk to that greater than 14% CET1 guidance from 1H 2023?",
+    "answer_quote": "On the second question -we've clearly factored in a view on what the economic outlook is and what the impact on ratings migration would be as a result of that. And you can see what our assumptions are on the macro outlook from our first nine scenarios. So clearly, within that, in some markets, there is an element of ratings migration that we build into our RWA forecasts and capital forecasts.",
+    "reason": "The answer partially addresses the question about the flat coverage ratio and the impact of risk migration on CET1 guidance, but it hedges on specifics and does not fully explain the reasons behind the flat coverage ratio."
+  },
+  "whitespace_adjusted_quotes": []
+}

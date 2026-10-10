@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about resources, capital allocation, and staff/resource distribution for Asia Wealth growth.\",\n  \"main_topics\": [\"Asia Wealth growth\", \"Capital allocation\", \"Staff and resource distribution\", \"China and Hong Kong resource shift\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you. I have a follow-up question on Asia Wealth, because you have mentioned in the mid-term, the growth target would be a high single digit on the revenue side. I was wondering whether any colour, like what are the resources to support the revenue growth target, for example? Also, any target on how much capital we are going to allocate in this space or what is the cost guidance, for example, to increase the staff number or the branches to support this growth? And within the Asia Wealth, as you mentioned, there is a trend of increasing Chinese people coming to Hong Kong for the Wealth Management services. So any colour on whether to shift some resources between China and Hong Kong, for example? Some capital or some resources from China wealth management to shift to other areas of Asia. Thank you.\",\n  \"answer_quote\": \"On capital and investments itself, the way I would articulate it is, first on capital, I think it's back to what Georges mentioned. We are selectively looking at bolt-on inorganic transactions. You would have seen the purchase of the Citi portfolio onshore in China. We've bought the AXA insurance portfolio in Singapore. Typically, the wealth business beyond wealth lending is not as capital intensive, so any use of capital would typically, more predominantly come from inorganic-type activities. That's how I would say to think about it. We are exploring opportunities, but again they will largely be bolt-on acquisitions that supplement our either distribution or product manufacturing capabilities. I think the markets we predominantly would look at would be China, India, Singapore, from an Asia perspective. On costs and headcounts, I would guide you to our China investment across Private Banking and Pinnacle. Pinnacle is one of the big investments we've put in over the last few years. We have just over 1,700 Personal Wealth Planners onshore in China. Beyond that, we are selectively investing in Private Banking, for example, in Singapore. Those are the cost and FTE investment. Having said that, anything that we're guiding to in terms of the investment is embedded in the 5% cost guidance that Georges has put out at a group level overall. Thank you very much. I will be handing over for Q3 to Jon. You'll see me in a different format, but you'll carry on seeing me. Thank you for the engagement today and wish you all some rest over the summer.\",\n  \"reason\": \"The answer provides some information on capital allocation and staff investment but does not fully address the question about specific resource allocation or cost guidance for staff and branches.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about resources, capital allocation, and staff/resource distribution for Asia Wealth growth.\",\n \"main_topics\": [\"Asia Wealth growth\", \"Capital allocation\", \"Staff and resource distribution\"],\n \"answer_completeness\": \"Partial\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Thank you. I have a follow-up question on Asia Wealth, because you have mentioned in the mid-term, the growth target would be a high single digit on the revenue side. I was wondering whether any colour, like what are the resources to support the revenue growth target, for example? Also, any target on how much capital we are going to allocate in this space or what is the cost guidance, for example, to increase the staff number or the branches to support this growth? And within the Asia Wealth, as you mentioned, there is a trend of increasing Chinese people coming to Hong Kong for the Wealth Management services. So any colour on whether to shift some resources between China and Hong Kong, for example? Some capital or some resources from China wealth management to shift to other areas of Asia. Thank you.\",\n \"answer_quote\": \"On capital and investments itself, the way I would articulate it is, first on capital, I think it's back to what Georges mentioned. We are selectively looking at bolt-on inorganic transactions. You would have seen the purchase of the Citi portfolio onshore in China. We've bought the AXA insurance portfolio in Singapore. Typically, the wealth business beyond wealth lending is not as capital intensive, so any use of capital would typically, more predominantly come from inorganic-type activities. That's how I would say to think about it. We are exploring opportunities, but again they will largely be bolt-on acquisitions that supplement our either distribution or product manufacturing capabilities. I think the markets we predominantly would look at would be China, India, Singapore, from an Asia perspective. On costs and headcounts, I would guide you to our China investment across Private Banking and Pinnacle. Pinnacle is one of the big investments we've put in over the last few years. We have just over 1,700 Personal Wealth Planners onshore in China. Beyond that, we are selectively investing in Private Banking, for example, in Singapore. Those are the cost and FTE investment. Having said that, anything that we're guiding to in terms of the investment is embedded in the 5% cost guidance that Georges has put out at a group level overall. Thank you very much. I will be handing over for Q3 to Jon. You'll see me in a different format, but you'll carry on seeing me. Thank you for the engagement today and wish you all some rest over the summer.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 862,
+      "batch_seconds": 24.51077147400065
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 907,
+      "batch_seconds": 25.085518096999294
+    }
+  ],
+  "exchange_id": "7f553358cc34-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "119f335f8a865264a2d2b00a032e69719a2dd086a287d60fa77d87575ff1d453",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about resources, capital allocation, and staff/resource distribution for Asia Wealth growth.",
+    "main_topics": [
+      "Asia Wealth growth",
+      "Capital allocation",
+      "Staff and resource distribution",
+      "China and Hong Kong resource shift"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Thank you. I have a follow-up question on Asia Wealth, because you have mentioned in the mid-term, the growth target would be a high single digit on the revenue side. I was wondering whether any colour, like what are the resources to support the revenue growth target, for example? Also, any target on how much capital we are going to allocate in this space or what is the cost guidance, for example, to increase the staff number or the branches to support this growth? And within the Asia Wealth, as you mentioned, there is a trend of increasing Chinese people coming to Hong Kong for the Wealth Management services. So any colour on whether to shift some resources between China and Hong Kong, for example? Some capital or some resources from China wealth management to shift to other areas of Asia. Thank you.",
+    "answer_quote": "On capital and investments itself, the way I would articulate it is, first on capital, I think it's back to what Georges mentioned. We are selectively looking at bolt-on inorganic transactions. You would have seen the purchase of the Citi portfolio onshore in China. We've bought the AXA insurance portfolio in Singapore. Typically, the wealth business beyond wealth lending is not as capital intensive, so any use of capital would typically, more predominantly come from inorganic-type activities. That's how I would say to think about it. We are exploring opportunities, but again they will largely be bolt-on acquisitions that supplement our either distribution or product manufacturing capabilities. I think the markets we predominantly would look at would be China, India, Singapore, from an Asia perspective. On costs and headcounts, I would guide you to our China investment across Private Banking and Pinnacle. Pinnacle is one of the big investments we've put in over the last few years. We have just over 1,700 Personal Wealth Planners onshore in China. Beyond that, we are selectively investing in Private Banking, for example, in Singapore. Those are the cost and FTE investment. Having said that, anything that we're guiding to in terms of the investment is embedded in the 5% cost guidance that Georges has put out at a group level overall. Thank you very much. I will be handing over for Q3 to Jon. You'll see me in a different format, but you'll carry on seeing me. Thank you for the engagement today and wish you all some rest over the summer.",
+    "reason": "The answer provides some information on capital allocation and staff investment but does not fully address the question about specific resource allocation or cost guidance for staff and branches."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Comparing Barclays US Cards income profile and fee share to the industry average\",\n  \"main_topics\": [\"Barclays US Cards\", \"Income profile\", \"Fee share\", \"Industry average\", \"Partnership terms\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"In terms of thinking about quantifying the impact, is there any reason to suppose that Barclays US Cards income profile and fee share is different or markedly different to the industry average in the US?\",\n  \"answer_quote\": \"It's not really that I would think about, but rather the specific partner terms which will vary partner by partner.\",\n  \"reason\": \"The response deflects the question without addressing the comparison, and there is no quantitative evidence provided.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 449,
+      "batch_seconds": 9.044579651000276
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "07d4fb44cb229e4607323de55d1340c8c12e09f471a618c1652483c097103648",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Comparing Barclays US Cards income profile and fee share to the industry average",
+    "main_topics": [
+      "Barclays US Cards",
+      "Income profile",
+      "Fee share",
+      "Industry average",
+      "Partnership terms"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Divergent",
+    "question_quote": "In terms of thinking about quantifying the impact, is there any reason to suppose that Barclays US Cards income profile and fee share is different or markedly different to the industry average in the US?",
+    "answer_quote": "It's not really that I would think about, but rather the specific partner terms which will vary partner by partner.",
+    "reason": "The response deflects the question without addressing the comparison, and there is no quantitative evidence provided."
+  },
+  "whitespace_adjusted_quotes": []
+}

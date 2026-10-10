@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Update on RWA density objective and financial targets\",\n  \"main_topics\": [\"RWA density\", \"financial targets\", \"Best Egg\", \"Prime\", \"Financing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can I just check in the previous strategy, I think [RWA density went to 160%, and we thought we might mitigate it to 140%]. Did you update that objective in this plan?\",\n  \"answer_quote\": \"No, we did not. So, the only thing that we've said is that at this point in time, we still expect £16 billion to be roughly the right number.\",\n  \"reason\": \"The answer partially addresses the RWA density question by stating it was not updated, but it also provides forward guidance on financial targets and discusses other topics, which may not directly answer the original question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 700,
+      "batch_seconds": 16.997578093999437
+    }
+  ],
+  "exchange_id": "f2e71aa79765-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1df93e413b1d16b3f278d01461b811eed10c8eeb20af5ca720f71f89e7dd4432",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Update on RWA density objective and financial targets",
+    "main_topics": [
+      "RWA density",
+      "financial targets",
+      "Best Egg",
+      "Prime",
+      "Financing"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can I just check in the previous strategy, I think [RWA density went to 160%, and we thought we might mitigate it to 140%]. Did you update that objective in this plan?",
+    "answer_quote": "No, we did not. So, the only thing that we've said is that at this point in time, we still expect £16 billion to be roughly the right number.",
+    "reason": "The answer partially addresses the RWA density question by stating it was not updated, but it also provides forward guidance on financial targets and discusses other topics, which may not directly answer the original question."
+  },
+  "whitespace_adjusted_quotes": []
+}

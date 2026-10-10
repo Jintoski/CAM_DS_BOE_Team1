@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about sustainable banking NII levels and the impact of structural hedges and rate environment on NII profile.\",\n  \"main_topics\": [\"sustainable NII levels\", \"structural hedges\", \"rate environment impact\", \"NII profile\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you have something in mind in terms of what your sustainable level of banking NII is?\",\n  \"answer_quote\": \"A couple of observations. The first one is, yes, indeed, I don't think you can take history when rates were zero and then moved to 5%. That spread - $10 billion to $12 billion of NII - isn't reflective of how it will work on the way down.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n\"question_intent\": \"Inquiring about sustainable banking NII levels and the impact of structural hedges and rate environment on NII profile.\",\n\"main_topics\": [\"Sustainable NII levels\", \"Impact of structural hedges\", \"Rate environment impact on NII\"],\n\"answer_completeness\": \"Complete\",\n\"response_stance\": \"Direct\",\n\"evidence_level\": \"High\",\n\"contains_numeric_evidence\": true,\n\"contains_forward_guidance\": false,\n\"narrative_alignment\": \"Aligned\",\n\"question_quote\": \"Do you have something in mind in terms of what your sustainable level of banking NII is?\",\n\"answer_quote\": \"A couple of observations. The first one is, yes, indeed, I don't think you can take history when rates were zero and then moved to 5%. That spread - $10 billion to $12 billion of NII - isn't reflective of how it will work on the way down.\"\n\"reason\": \"The answer directly addresses the question about sustainable NII levels, provides a high level of evidence with a specific example, and aligns with the narrative of the question.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 1 (char 814)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about sustainable banking NII levels and the impact of structural hedges and rate environment on NII profile.\",\n  \"main_topics\": [\"sustainable NII levels\", \"structural hedges\", \"rate environment impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you have something in mind in terms of what your sustainable level of banking NII is?\",\n  \"answer_quote\": \"A couple of observations. The first one is, yes, indeed, I don't think you can take history when rates were zero and then moved to 5%. That spread - $10 billion to $12 billion of NII - isn't reflective of how it will work on the way down.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about sustainable banking NII levels and the impact of structural hedges and rate environment on NII profile.\",\n  \"main_topics\": [\"sustainable NII levels\", \"structural hedges\", \"rate environment impact\", \"NII profile\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Do you have something in mind in terms of what your sustainable level of banking NII is?\",\n  \"answer_quote\": \"A couple of observations. The first one is, yes, indeed, I don't think you can take history when rates were zero and then moved to 5%. That spread - $10 billion to $12 billion of NII - isn't reflective of how it will work on the way down.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 911,
+      "batch_seconds": 26.406154000999777
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 965,
+      "batch_seconds": 26.911594532999516
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 956,
+      "batch_seconds": 27.953487042999768
+    }
+  ],
+  "exchange_id": "287d803c2083-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0d125df0bb3c33790d531ecfb3e58690f6fcbdcdee2238b0e1db1a73d5b7367e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

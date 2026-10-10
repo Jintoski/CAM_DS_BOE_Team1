@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for detailed breakdown of financing revenue growth\",\n  \"main_topics\": [\"financing revenues\", \"growth drivers\", \"volume vs. spreads/rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"then the second question was just on the financing revenues. Firstly, thank you for that, but I was wondering if we might get a little bit more from you, just in terms of the driver and particularly the breakdown between volume and spreads or rates on the financing revenue growth?\",\n  \"answer_quote\": \"We haven't disclosed that split. It's actually a little bit of both. Clearly in a rising rate environment you're going to see some expansion in margin, in a volatile environment you would see the same. The other thing I would say is you can see that we are taking share, not just from European peers, but more broadly across the street. Think of it as a combination of both volume and margin.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for detailed breakdown of financing revenue growth\",\n  \"main_topics\": [\"Financing Revenues\", \"Revenue Growth Drivers\", \"Volume vs. Spreads/Rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"just on the financing revenues. Firstly, thank you for that, but I was wondering if we might get a little bit more from you, just in terms of the driver and particularly the breakdown between volume and spreads or rates on the financing revenue growth?\",\n  \"answer_quote\": \"We haven't disclosed that split. It's actually a little bit of both. Clearly in a rising rate environment you're going to see some expansion in margin, in a volatile environment you would see the same. The other thing I would say is you can see that we are taking share, not just from European peers, but more broadly across the street. Think of it as a combination of both volume and margin.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for detailed breakdown of financing revenue growth\",\n  \"main_topics\": [\"financing revenues\", \"growth drivers\", \"volume vs. spreads/rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"then the second question was just on the financing revenues. Firstly, thank you for that, but I was wondering if we might get a little bit more from you, just in terms of the driver and particularly the breakdown between volume and spreads or rates on the financing revenue growth?\",\n  \"answer_quote\": \"We haven't disclosed that split. It's actually a little bit of both. Clearly in a rising rate environment you're going to see some expansion in margin, in a volatile environment you would see the same. The other thing I would say is you can see that we are taking share, not just from European peers, but more broadly across the street. Think of it as a combination of both volume and margin.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for detailed breakdown of financing revenue growth\",\n  \"main_topics\": [\"financing revenues\", \"growth drivers\", \"volume vs. spreads/rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"then the second question was just on the financing revenues. Firstly, thank you for that, but I was wondering if we might get a little bit more from you, just in terms of the driver and particularly the breakdown between volume and spreads or rates on the financing revenue growth?\",\n  \"answer_quote\": \"We haven't disclosed that split. It's actually a little bit of both. Clearly in a rising rate environment you're going to see some expansion in margin, in a volatile environment you would see the same. The other thing I would say is you can see that we are taking share, not just from European peers, but more broadly across the street. Think of it as a combination of both volume and margin.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 524,
+      "batch_seconds": 11.349980590999621
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 569,
+      "batch_seconds": 10.71841162399869
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 569,
+      "batch_seconds": 12.46537487400019
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f9f7eeb19188a08d97917c8e059ff99103384471b178ec50d1fe59bceb00a802",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

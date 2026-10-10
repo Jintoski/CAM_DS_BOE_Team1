@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about the unexpected change in stage-three balances between home loans and credit cards.\",\n  \"main_topics\": [\"Bank Earnings Call\", \"Stage Three Balances\", \"Home Loans\", \"Credit Cards\", \"Regulatory Quirk\", \"Default Definition\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a quick one stage-three balances. It looks like in the home loans bit, it's increased by about £400m, and then in credit cards it's gone down. Which is a little bit surprising, because normally you would expect credit cards stage-three to be ahead of home loans. So why is that?\",\n  \"answer_quote\": \"I think it's a regulatory quirk. I'm going to get one of the guys to come back to you, but I think it's a change in the definition of default.\",\n  \"reason\": \"The answer provides a partial explanation and a hedged stance, but lacks numeric evidence and forward guidance. The narrative is partially aligned with the question's intent but does not fully address the unexpected change in stage-three balances.\"\n}",
+  "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Explain the unexpected change in stage-three balances between home loans and credit cards.\",\n  \"main_topics\": [\"Bank Earnings Call\", \"Stage Three Balances\", \"Home Loans\", \"Credit Cards\", \"Regulatory Quirk\", \"Default Definition\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a quick one stage-three balances. It looks like in the home loans bit, it's increased by about £400m, and then in credit cards it's gone down. Which is a little bit surprising, because normally you would expect credit cards stage-three to be ahead of home loans. So why is that?\",\n  \"answer_quote\": \"I think it's a regulatory quirk. I'm going to get one of the guys to come back to you, but I think it's a change in the definition of default.\",\n  \"reason\": \"The answer provides a partial explanation and a possible reason for the change, but lacks detailed evidence and does not fully address the question.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the unexpected change in stage-three balances between home loans and credit cards.\",\n  \"main_topics\": [\"Bank Earnings Call\", \"Stage Three Balances\", \"Home Loans\", \"Credit Cards\", \"Regulatory Quirk\", \"Default Definition\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a quick one stage-three balances. It looks like in the home loans bit, it's increased by about £400m, and then in credit cards it's gone down. Which is a little bit surprising, because normally you would expect credit cards stage-three to be ahead of home loans. So why is that?\",\n  \"answer_quote\": \"I think it's a regulatory quirk. I'm going to get one of the guys to come back to you, but I think it's a change in the definition of default.\",\n  \"reason\": \"The answer provides a partial explanation and a hedged stance, but lacks numeric evidence and forward guidance. The narrative is partially aligned with the question's intent.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about the unexpected change in stage-three balances between home loans and credit cards.\",\n  \"main_topics\": [\"Bank Earnings Call\", \"Stage Three Balances\", \"Home Loans\", \"Credit Cards\", \"Regulatory Quirk\", \"Default Definition\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just a quick one stage-three balances. It looks like in the home loans bit, it's increased by about £400m, and then in credit cards it's gone down. Which is a little bit surprising, because normally you would expect credit cards stage-three to be ahead of home loans. So why is that?\",\n  \"answer_quote\": \"I think it's a regulatory quirk. I'm going to get one of the guys to come back to you, but I think it's a change in the definition of default.\",\n  \"reason\": \"The answer provides a partial explanation and a hedged stance, but lacks numeric evidence and forward guidance. The narrative is partially aligned with the question's intent but does not fully address the unexpected change in stage-three balances.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 485,
+      "batch_seconds": 10.181106705000275
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 539,
+      "batch_seconds": 10.852135373001147
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 539,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x020",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "deec7a16cde0f02419322aa553ad78ca583f14ddf050e3811992c7d60056dcab",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

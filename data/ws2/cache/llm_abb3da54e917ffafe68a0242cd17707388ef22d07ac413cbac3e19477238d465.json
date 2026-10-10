@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Recession playbook priorities\",\n  \"main_topics\": [\"recession readiness\", \"customer behavior\", \"credit management\", \"corporate customer focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Then secondly, just wondering what your playbook looks like when it comes to a recession. What are the priorities in that playbook? Would it be focus on existing customers, and maybe not take on as many new customers, or maybe more generally tightening credit for everyone including existing customers? Or do you think it's a chance to support customers, or even take on new customers who might be otherwise very valuable customers, but might just need a bit more support in bad times. What's your priority in that playbook?\",\n  \"answer_quote\": \"We have what we call a recession readiness framework, it exists for every product. What that does, is it basically says what are the behavioural early-warning indicators that we are looking for? Increased overdraft usage, withdrawing cash on a credit card, increasing proportions of customers paying [only minimum payments]. You can imagine, there's a whole list of them. Essentially what happens, as we see them start to trigger, is we will take action. That would involve both new customer flow-in, and it may impact current customers. For example, it might cause us to withdraw certain products from the market. In terms of existing customers, we may manage limits. You'd expect all of that to happen.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed explanation of the recession readiness framework and its application to both new and existing customers, aligning with the narrative of the question.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Recession playbook priorities\",\n  \"main_topics\": [\"Recession Readiness\", \"Customer Behavior\", \"Credit Management\", \"Corporate Customer Focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Then secondly, just wondering what your playbook looks like when it comes to a recession. What are the priorities in that playbook?\",\n  \"answer_quote\": \"We have what we call a recession readiness framework, it exists for every product. What that does, is it basically says what are the behavioural early-warning indicators that we are looking for?\",\n  \"reason\": \"The answer directly addresses the question about the recession playbook, providing details on the framework and its focus on customer behavior and credit management, with a specific mention of forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Recession playbook priorities\",\n  \"main_topics\": [\"recession readiness\", \"customer behavior\", \"credit management\", \"corporate customer focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Then secondly, just wondering what your playbook looks like when it comes to a recession. What are the priorities in that playbook? Would it be focus on existing customers, and maybe not take on as many new customers, or maybe more generally tightening credit for everyone including existing customers? Or do you think it's a chance to support customers, or even take on new customers who might be otherwise very valuable customers, but might just need a bit more support in bad times. What's your priority in that playbook?\",\n  \"answer_quote\": \"We have what we call a recession readiness framework, it exists for every product. What that does, is it basically says what are the behavioural early-warning indicators that we are looking for? Increased overdraft usage, withdrawing cash on a credit card, increasing proportions of customers paying [only minimum payments]. You can imagine, there's a whole list of them. Essentially what happens, as we see them start to trigger, is we will take action. That would involve both new customer flow-in, and it may impact current customers. For example, it might cause us to withdraw certain products from the market. In terms of existing customers, we may manage limits. You'd expect all of that to happen.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a high-level overview of the bank's recession playbook, including customer behavior monitoring and credit management strategies, with a clear narrative alignment to the question's topics.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Recession playbook priorities\",\n  \"main_topics\": [\"recession readiness\", \"customer behavior\", \"credit management\", \"corporate customer focus\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Then secondly, just wondering what your playbook looks like when it comes to a recession. What are the priorities in that playbook? Would it be focus on existing customers, and maybe not take on as many new customers, or maybe more generally tightening credit for everyone including existing customers? Or do you think it's a chance to support customers, or even take on new customers who might be otherwise very valuable customers, but might just need a bit more support in bad times. What's your priority in that playbook?\",\n  \"answer_quote\": \"We have what we call a recession readiness framework, it exists for every product. What that does, is it basically says what are the behavioural early-warning indicators that we are looking for? Increased overdraft usage, withdrawing cash on a credit card, increasing proportions of customers paying [only minimum payments]. You can imagine, there's a whole list of them. Essentially what happens, as we see them start to trigger, is we will take action. That would involve both new customer flow-in, and it may impact current customers. For example, it might cause us to withdraw certain products from the market. In terms of existing customers, we may manage limits. You'd expect all of that to happen.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed explanation of the recession readiness framework and its application to both new and existing customers, aligning with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 857,
+      "batch_seconds": 24.24835875500048
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 905,
+      "batch_seconds": 26.728799688000436
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 905,
+      "batch_seconds": 27.97939145899909
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "abb3da54e917ffafe68a0242cd17707388ef22d07ac413cbac3e19477238d465",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

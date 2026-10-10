@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on the basis of bank earnings\",\n  \"main_topics\": [\"SONIA\", \"LIBOR\", \"Bank Earnings\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to check, the income is a SONIA based income and not three months LIBOR based.\",\n  \"answer_quote\": \"Yes, that's right. Everything's SONIA based now. Obviously, given the demise of Sterling LIBOR by the end of the year, we're fully SONIA.\",\n  \"reason\": \"The answer directly addresses the question, confirming the switch to SONIA and the discontinuation of LIBOR, providing a clear and complete response.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on the basis of income\",\n  \"main_topics\": [\"SONIA\", \"LIBOR\", \"income basis\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just to check, the income is a SONIA based income and not three months LIBOR based.\",\n  \"answer_quote\": \"Yes, that's right. Everything's SONIA based now. Obviously, given the demise of Sterling LIBOR by the end of the year, we're fully SONIA.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 442,
+      "batch_seconds": 7.9235276970002815
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 487,
+      "batch_seconds": 10.414343467000435
+    }
+  ],
+  "exchange_id": "5c9f6bef592a-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "72479837e316ac020e2758ee57bfa5579f79bff0a6548d0faa3daf2001db9735",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on the basis of bank earnings",
+    "main_topics": [
+      "SONIA",
+      "LIBOR",
+      "Bank Earnings"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just to check, the income is a SONIA based income and not three months LIBOR based.",
+    "answer_quote": "Yes, that's right. Everything's SONIA based now. Obviously, given the demise of Sterling LIBOR by the end of the year, we're fully SONIA.",
+    "reason": "The answer directly addresses the question, confirming the switch to SONIA and the discontinuation of LIBOR, providing a clear and complete response."
+  },
+  "whitespace_adjusted_quotes": []
+}

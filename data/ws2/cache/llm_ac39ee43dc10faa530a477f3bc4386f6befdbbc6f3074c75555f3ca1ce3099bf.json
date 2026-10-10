@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on the bank's approach to hedging\",\n  \"main_topics\": [\"Hedging strategy\", \"Behavioural aspects\", \"Forward-looking model\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the structural hedge, we've heard from your competitors, over the last week, that they manage the hedge in different ways. One is on a forward-looking model basis, based on the volume and stickiness of deposits that they expect, and one is backward-looking, reflecting the stickiness of deposits and the size and mix of the deposit base. It sounds, from your earlier response, that you're more in the backward-looking camp, so you reflect what has happened to the deposit base in how you hedge, but I just wanted to check that that was the case.\",\n  \"answer_quote\": \"No, forward-looking. Let me explain how we do it. In order to decide how much we are going to hedge, we are constantly looking at what we believe are the behavioural aspects of the deposits that we have, so that will be the type of depositor, how much they have over what we might imagine to be an operational float, for example. And so, what we're trying to do is identify what we perceive to be rate-sensitive balances. Those rate-sensitive balances are completely excluded from the hedge. Then, within the non-rate-sensitive balances, we don't hedge it all, we maintain a buffer. So we're looking at behaviour, then we create a buffer for safety, and then obviously, because we are rolling a portion of the hedge every month, if we think we're going off track, and the behavioural assumptions that we have made are not panning out, either up or down, we can adjust the hedge roll in order to do that. What we've done recently is we've adjusted the hedge roll in order to preserve the buffer in corporate, which is what I mentioned before. And if you think about it at the moment, whilst you don't get the enduring impact, if you maintain a buffer, the opportunity cost of maintaining that buffer is much lower than it was, because you're comparing, essentially, SONIA to the yield curve. Previously, they were [wider apart]. So, from our perspective, it is behaviourally led, we are looking forward all the time, and we're adjusting the buffer, and potentially the hedge roll, in order to make sure that we are capturing that behaviour.\",\n  \"reason\": \"The answer directly addresses the question, clarifying the bank's forward-looking hedging strategy and providing a detailed explanation with evidence of behavioral aspects and adjustments.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 838,
+      "batch_seconds": 23.62516695300019
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "ac39ee43dc10faa530a477f3bc4386f6befdbbc6f3074c75555f3ca1ce3099bf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on the bank's approach to hedging",
+    "main_topics": [
+      "Hedging strategy",
+      "Behavioural aspects",
+      "Forward-looking model"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On the structural hedge, we've heard from your competitors, over the last week, that they manage the hedge in different ways. One is on a forward-looking model basis, based on the volume and stickiness of deposits that they expect, and one is backward-looking, reflecting the stickiness of deposits and the size and mix of the deposit base. It sounds, from your earlier response, that you're more in the backward-looking camp, so you reflect what has happened to the deposit base in how you hedge, but I just wanted to check that that was the case.",
+    "answer_quote": "No, forward-looking. Let me explain how we do it. In order to decide how much we are going to hedge, we are constantly looking at what we believe are the behavioural aspects of the deposits that we have, so that will be the type of depositor, how much they have over what we might imagine to be an operational float, for example. And so, what we're trying to do is identify what we perceive to be rate-sensitive balances. Those rate-sensitive balances are completely excluded from the hedge. Then, within the non-rate-sensitive balances, we don't hedge it all, we maintain a buffer. So we're looking at behaviour, then we create a buffer for safety, and then obviously, because we are rolling a portion of the hedge every month, if we think we're going off track, and the behavioural assumptions that we have made are not panning out, either up or down, we can adjust the hedge roll in order to do that. What we've done recently is we've adjusted the hedge roll in order to preserve the buffer in corporate, which is what I mentioned before. And if you think about it at the moment, whilst you don't get the enduring impact, if you maintain a buffer, the opportunity cost of maintaining that buffer is much lower than it was, because you're comparing, essentially, SONIA to the yield curve. Previously, they were [wider apart]. So, from our perspective, it is behaviourally led, we are looking forward all the time, and we're adjusting the buffer, and potentially the hedge roll, in order to make sure that we are capturing that behaviour.",
+    "reason": "The answer directly addresses the question, clarifying the bank's forward-looking hedging strategy and providing a detailed explanation with evidence of behavioral aspects and adjustments."
+  },
+  "whitespace_adjusted_quotes": []
+}

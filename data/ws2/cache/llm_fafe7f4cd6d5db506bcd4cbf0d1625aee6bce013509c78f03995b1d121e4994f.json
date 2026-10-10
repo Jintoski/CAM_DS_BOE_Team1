@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the strategic trade-off between deposit growth and CASA in Hong Kong, and provide a breakdown of the structural hedge and its impact on Banking NII.\",\n  \"main_topics\": [\"Hong Kong deposits\", \"CASA migration\", \"Structural hedge\", \"Banking NII\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first question is on deposits. We're glad to see that the CASA migration in Hong Kong is slowing down, but it's not stabilised at this level. But on the other hand, I think the bank has seen some deposit outflow in Q1, while your Hong Kong local peers still see some deposit growth. So I'm wondering if there is a strategic trade-off between the deposit growth and CASA for you at this stage, and how do you see that trend in the rest of the year?\",\n  \"answer_quote\": \"Thank you, Jeremy. So on your first question about deposits in Hong Kong, if you remember at Q4 our deposits in Hong Kong have increased by about $14 billion. What we've seen in Q1 this year is a decrease of about $16 billion, therefore you can see seasonality playing across the two quarters and therefore is broadly stable across the two quarters. What happened, though, is some of these deposit inflows in Q4 related to some deposit campaigns we were driving to drive some of our deposits into wealth. When you look at Q1, while you see the deposit outflows you also can see that $19 billion of our net new invested assets were in Asia. Therefore, a chunk of these outflows has manifested or translated into wealth inflows for us, which was the purpose of the campaign in Q4 and explains, if you want, the seasonality of these deposits. Second, we have a powerful deposit franchise. We have a very cherished and enviable franchise. We continue globally being a very attractive deposit proposition for both our retail and wholesale customers. We cherish this. We continue investing in our deposit capabilities. Throughout the last six quarters you've seen how our deposit base has been very stable, with our deposit costs being relatively benign compared to some of our peers, therefore I won't comment on month-to-month movements between ourselves and our peers. If I move on to your second question about the structural hedge, first you would have noticed that we increased this quarter the structural hedge by about $10 billion, taking it to $487 billion, with the weighted average life broadly unchanged at just shy of three years. Second, we commit at this stage to continue our structural hedging activity. Obviously this will remain subject to market conditions, but we will continue the trend that we put in Q1 based on current market outlook. This activity of additional structural hedging will contribute to a mild headwind toward Banking NII, and this is due to the fact that the rate curves are inverted, as you know, and you can do the maths. But equally, we also are reinvesting maturing structural hedges at higher rates, and this reinvestment of maturing of structural hedges at higher rates is a tailwind into Banking NII. Between the two of those effects the structural hedge activity for the full-year 2024 would remain a net tailwind to our Banking NII. We have not yet quantified to the market that tailwind. We're looking at enhancing our disclosure in this space, but that tailwind has been factored into our guidance of 'at least $41 billion Banking NII', and obviously factored into our return on tangible equity mid-teens guidance.\",\n  \"reason\": \"The answer directly addresses the strategic trade-off between deposit growth and CASA in Hong Kong, and provides a detailed breakdown of the structural hedge, including its impact on Banking NII, with high-level numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1093,
+      "batch_seconds": 94.47761923500002
+    }
+  ],
+  "exchange_id": "19af689d7a65-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fafe7f4cd6d5db506bcd4cbf0d1625aee6bce013509c78f03995b1d121e4994f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the strategic trade-off between deposit growth and CASA in Hong Kong, and provide a breakdown of the structural hedge and its impact on Banking NII.",
+    "main_topics": [
+      "Hong Kong deposits",
+      "CASA migration",
+      "Structural hedge",
+      "Banking NII"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first question is on deposits. We're glad to see that the CASA migration in Hong Kong is slowing down, but it's not stabilised at this level. But on the other hand, I think the bank has seen some deposit outflow in Q1, while your Hong Kong local peers still see some deposit growth. So I'm wondering if there is a strategic trade-off between the deposit growth and CASA for you at this stage, and how do you see that trend in the rest of the year?",
+    "answer_quote": "Thank you, Jeremy. So on your first question about deposits in Hong Kong, if you remember at Q4 our deposits in Hong Kong have increased by about $14 billion. What we've seen in Q1 this year is a decrease of about $16 billion, therefore you can see seasonality playing across the two quarters and therefore is broadly stable across the two quarters. What happened, though, is some of these deposit inflows in Q4 related to some deposit campaigns we were driving to drive some of our deposits into wealth. When you look at Q1, while you see the deposit outflows you also can see that $19 billion of our net new invested assets were in Asia. Therefore, a chunk of these outflows has manifested or translated into wealth inflows for us, which was the purpose of the campaign in Q4 and explains, if you want, the seasonality of these deposits. Second, we have a powerful deposit franchise. We have a very cherished and enviable franchise. We continue globally being a very attractive deposit proposition for both our retail and wholesale customers. We cherish this. We continue investing in our deposit capabilities. Throughout the last six quarters you've seen how our deposit base has been very stable, with our deposit costs being relatively benign compared to some of our peers, therefore I won't comment on month-to-month movements between ourselves and our peers. If I move on to your second question about the structural hedge, first you would have noticed that we increased this quarter the structural hedge by about $10 billion, taking it to $487 billion, with the weighted average life broadly unchanged at just shy of three years. Second, we commit at this stage to continue our structural hedging activity. Obviously this will remain subject to market conditions, but we will continue the trend that we put in Q1 based on current market outlook. This activity of additional structural hedging will contribute to a mild headwind toward Banking NII, and this is due to the fact that the rate curves are inverted, as you know, and you can do the maths. But equally, we also are reinvesting maturing structural hedges at higher rates, and this reinvestment of maturing of structural hedges at higher rates is a tailwind into Banking NII. Between the two of those effects the structural hedge activity for the full-year 2024 would remain a net tailwind to our Banking NII. We have not yet quantified to the market that tailwind. We're looking at enhancing our disclosure in this space, but that tailwind has been factored into our guidance of 'at least $41 billion Banking NII', and obviously factored into our return on tangible equity mid-teens guidance.",
+    "reason": "The answer directly addresses the strategic trade-off between deposit growth and CASA in Hong Kong, and provides a detailed breakdown of the structural hedge, including its impact on Banking NII, with high-level numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

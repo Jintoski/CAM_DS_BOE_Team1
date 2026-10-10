@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's capital actions, their impact on P&L, and the potential benefits of further interest rate increases.\",\n  \"main_topics\": [\"Capital Actions\", \"P&L Impact\", \"Interest Rate Increases\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is just on capital actions and if you can elaborate on what you're doing in - I think it was the 20, 30 basis points of planned actions in the second half of those and any revenue hits they might have. What informs taking those actions now? Would it not have been possible just to build the capital naturally and get back to target a little bit more slowly, especially given the capital hit is in part rate-driven, which is P&L beneficial and in time, ultimately, net positive?\",\n  \"answer_quote\": \"On capital actions, they mainly benefit RWAs. It will have some, but modest, impact on the P&L, but when we think about the balance of considerations of heading into probably tougher economic conditions in 2023, the right thing for us to do is to accelerate our capital ratios to being back within target. So we're happy to accept some impact on income in order to achieve that, but we do think that the return analysis that we're running on those incremental actions make sense, and we're not doing anything that goes into what I'd describe as franchise impairing actions. On NII, I think it is market dependent. So, here in Hong Kong, there's probably very little benefit that we would derive from interest rates going higher than what's implied in forward curves at the moment, but I think, in other markets, definitely there would be value. And I still think that we're structurally geared. If you think about the last couple of years, in 2021, net interest income was slightly under $27 billion. So over two years we're generating an extra $10 billion of net interest income which more than offsets any incremental ECL costs we could see or higher costs because of inflationary issues. So I still think there's some way to run, even based on forward curves, before you start seeing impairments materially tick up. I think the other thing that's important to remember, Guy, for us, and it probably applies to other banks, but our customer base on the retail side is mainly affluent. They've had their savings rates go up materially during Covid. So they're all sitting quite liquid with good cash reserves at the moment. We've seen credit card spending pick up, but people are still mainly rolling their credit card balances, so we don't have any particular difficult credit exposure on the retail side that I would call out, with the customers sitting with good cash balances. And now, on the mainstream corporate side, the global corporate sector has effectively been de-leveraging for two and a half years. In most parts of the world, corporate loan growth has been well below nominal GDP growth. So, again, corporate balance sheets are unusually healthy for what would be at this point in a cycle facing a downturn. So for all those reasons, I think if interest rates went higher, other than Hong Kong, I think we would view that as a positive for us. I think we have time for one more question, and then we'll hand back to Noel to sum up.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the question's topics. It also contains forward guidance and numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1079,
+      "batch_seconds": 29.851370065000083
+    }
+  ],
+  "exchange_id": "344542bde5ab-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "aee7eb6ebe692a807fc5a6ed0c8e0267503dd3aa5becc4317cc5806f6db101b0",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the bank's capital actions, their impact on P&L, and the potential benefits of further interest rate increases.",
+    "main_topics": [
+      "Capital Actions",
+      "P&L Impact",
+      "Interest Rate Increases"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is just on capital actions and if you can elaborate on what you're doing in - I think it was the 20, 30 basis points of planned actions in the second half of those and any revenue hits they might have. What informs taking those actions now? Would it not have been possible just to build the capital naturally and get back to target a little bit more slowly, especially given the capital hit is in part rate-driven, which is P&L beneficial and in time, ultimately, net positive?",
+    "answer_quote": "On capital actions, they mainly benefit RWAs. It will have some, but modest, impact on the P&L, but when we think about the balance of considerations of heading into probably tougher economic conditions in 2023, the right thing for us to do is to accelerate our capital ratios to being back within target. So we're happy to accept some impact on income in order to achieve that, but we do think that the return analysis that we're running on those incremental actions make sense, and we're not doing anything that goes into what I'd describe as franchise impairing actions. On NII, I think it is market dependent. So, here in Hong Kong, there's probably very little benefit that we would derive from interest rates going higher than what's implied in forward curves at the moment, but I think, in other markets, definitely there would be value. And I still think that we're structurally geared. If you think about the last couple of years, in 2021, net interest income was slightly under $27 billion. So over two years we're generating an extra $10 billion of net interest income which more than offsets any incremental ECL costs we could see or higher costs because of inflationary issues. So I still think there's some way to run, even based on forward curves, before you start seeing impairments materially tick up. I think the other thing that's important to remember, Guy, for us, and it probably applies to other banks, but our customer base on the retail side is mainly affluent. They've had their savings rates go up materially during Covid. So they're all sitting quite liquid with good cash reserves at the moment. We've seen credit card spending pick up, but people are still mainly rolling their credit card balances, so we don't have any particular difficult credit exposure on the retail side that I would call out, with the customers sitting with good cash balances. And now, on the mainstream corporate side, the global corporate sector has effectively been de-leveraging for two and a half years. In most parts of the world, corporate loan growth has been well below nominal GDP growth. So, again, corporate balance sheets are unusually healthy for what would be at this point in a cycle facing a downturn. So for all those reasons, I think if interest rates went higher, other than Hong Kong, I think we would view that as a positive for us. I think we have time for one more question, and then we'll hand back to Noel to sum up.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the question's topics. It also contains forward guidance and numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

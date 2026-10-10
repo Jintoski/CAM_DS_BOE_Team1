@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Estimate sub-scale geographies and revenue headwinds\",\n  \"main_topics\": [\"sub-scale geographies\", \"revenue headwinds\", \"costs and revenue reallocation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How many geographies do you think that you are sub-scale in, and if we aggregated it together at a revenue level, can you give us an indication about what kind of headwinds to revenues that might be? Less than 5%? Is that the right way of thinking about it out of 2027?\",\n  \"answer_quote\": \"If you look over the medium term, this is not a story of cutting down footprint, reducing revenue and just driving costs.\",\n  \"reason\": \"The answer partially addresses the question by discussing costs and revenue reallocation but does not provide specific numbers or a clear indication of the percentage of sub-scale geographies or the exact headwinds to revenues.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Estimate the number of geographies where the bank is sub-scale and discuss potential revenue headwinds.\",\n  \"main_topics\": [\"Geographical scale\", \"Revenue impact\", \"Cost reallocation\", \"Reinvestment strategy\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How many geographies do you think that you are sub-scale in, and if we aggregated it together at a revenue level, can you give us an indication about what kind of headwinds to revenues that might be? Less than 5%? Is that the right way of thinking about it out of 2027?\",\n  \"answer_quote\": \"If you look over the medium term, this is not a story of cutting down footprint, reducing revenue and just driving costs.\",\n  \"reason\": \"The answer partially addresses the question by discussing the bank's approach to cost reallocation and reinvestment strategy, but does not provide a specific number of geographies where the bank is sub-scale or a clear indication of potential revenue headwinds.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Estimate sub-scale geographies and potential revenue headwinds\",\n  \"main_topics\": [\"sub-scale geographies\", \"revenue headwinds\", \"cost reallocation\", \"revenue reinvestment\", \"cost to bottom line\", \"revenue impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I appreciate you won't want to talk specifics on the individual geographies, but we've talked today about geographies where you're sub-scale. I think retail is probably a focus of that. You've also talked about how you'd like to execute by 2027, so it forms part of our model. If we don't talk about individual geographies, but we talk about in aggregate, how many geographies do you think that you are sub-scale in, and if we aggregated it together at a revenue level, can you give us an indication about what kind of headwinds to revenues that might be? Less than 5%? Is that the right way of thinking about it out of 2027? Thank you.\",\n  \"answer_quote\": \"Let me pick up the point on revenue first, and then talk about geographies because the reality is, when we talk about a geography, it's mainly market participation - like we've done on the Bahrain retail - it's not the entirety of a geography. On revenue, the way we are looking at this is, when we reallocate the costs, the costs come off, they come to the group, and then the group determines where it's going to reinvest, and there is a bit of a time lag. So you get the benefit of the costs as a tailwind, but you haven't reinvested as yet in the other area. It's not a lot, but there's still some time lag. Similarly, the revenue that you lose as a headwind - you expect that to come through where you've reinvested, and at a higher return. So I don't think there is any link between saying, 'We're cutting these costs and this is the revenue stream', because it's not a reallocation of costs which is going to the bottom line and not being reinvested for growth purposes. If you look over the medium term, this is not a story of cutting down footprint, reducing revenue and just driving costs. It's more in terms of having the cost to the bottom line where there's no revenue impact, which is the first $1.5 billion, and the second $1.5 billion is the redeployment into areas which will give us more revenue and better returns.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Estimate sub-scale geographies and revenue headwinds\",\n  \"main_topics\": [\"sub-scale geographies\", \"revenue headwinds\", \"costs and revenue reallocation\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"How many geographies do you think that you are sub-scale in, and if we aggregated it together at a revenue level, can you give us an indication about what kind of headwinds to revenues that might be? Less than 5%? Is that the right way of thinking about it out of 2027?\",\n  \"answer_quote\": \"If you look over the medium term, this is not a story of cutting down footprint, reducing revenue and just driving costs.\",\n  \"reason\": \"The answer partially addresses the question by discussing costs and revenue reallocation but does not provide specific numbers or a clear indication of the percentage of sub-scale geographies or the exact headwinds to revenues.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 824,
+      "batch_seconds": 24.884960510999917
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 872,
+      "batch_seconds": 25.60815282600015
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 869,
+      "batch_seconds": 24.21767322100095
+    }
+  ],
+  "exchange_id": "b1e2035f0240-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6617e9c97352d9934b0f88ed8727725027f16420e5b27e9fd457997915cdbd2e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

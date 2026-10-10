@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request specific figures and details on bank earnings and buyback plans\",\n  \"main_topics\": [\"Bank Earnings\", \"Buyback Plans\", \"Regulatory Filings\", \"Capital Accretion\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The hedge income looks like it could be pushing £2bn per annum by the time it gets towards the end of the year, so could I just invite you to maybe tell us how much of that is actually in Barclays UK as opposed to CIB, please?\",\n  \"answer_quote\": \"In terms of the structural hedge income, approximately 60% of it sits in BUK, so hopefully that is quite straightforward.\",\n  \"reason\": \"The answer directly addresses the question with specific figures and provides a clear stance on the buyback plans and regulatory filings.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1045,
+      "batch_seconds": 30.897852226000396
+    }
+  ],
+  "exchange_id": "224db408a071-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "0c27c57536e76450052ba1909a6bc0dabfbfc41cf269add6fefe348f9301e0a3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request specific figures and details on bank earnings and buyback plans",
+    "main_topics": [
+      "Bank Earnings",
+      "Buyback Plans",
+      "Regulatory Filings",
+      "Capital Accretion"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The hedge income looks like it could be pushing £2bn per annum by the time it gets towards the end of the year, so could I just invite you to maybe tell us how much of that is actually in Barclays UK as opposed to CIB, please?",
+    "answer_quote": "In terms of the structural hedge income, approximately 60% of it sits in BUK, so hopefully that is quite straightforward.",
+    "reason": "The answer directly addresses the question with specific figures and provides a clear stance on the buyback plans and regulatory filings."
+  },
+  "whitespace_adjusted_quotes": []
+}

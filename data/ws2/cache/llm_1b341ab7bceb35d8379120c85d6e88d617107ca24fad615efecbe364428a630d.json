@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Financial performance\",\n  \"main_topics\": [\"Bank earnings\", \"Financial figures\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Consensus?\",\n  \"answer_quote\": \"£844 million [Around £800 million1].\"\n}\n",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Financial figures\",\n  \"main_topics\": [\"Bank earnings\", \"Financial results\", \"Forward guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Consensus?\",\n  \"answer_quote\": \"£844 million [Around £800 million1].\"\n}\n\nReason: The answer provides a specific financial figure, directly addressing the question's request for a consensus on earnings, with high evidence level due to the explicit quantity provided. There is no forward guidance, and the narrative is aligned with the question.",
+      "error": "JSONDecodeError: Extra data: line 14 column 1 (char 422)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Earnings figure\",\n  \"main_topics\": [\"Bank earnings\", \"Financial figures\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Consensus?\",\n  \"answer_quote\": \"£844 million [Around £800 million1].\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Financial performance\",\n  \"main_topics\": [\"Bank earnings\", \"Financial figures\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Consensus?\",\n  \"answer_quote\": \"£844 million [Around £800 million1].\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 401,
+      "batch_seconds": 6.255509784999958
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 453,
+      "batch_seconds": 6.791888847999871
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 2,
+      "input_tokens": 446,
+      "batch_seconds": 8.03993407300004
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x022",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "1b341ab7bceb35d8379120c85d6e88d617107ca24fad615efecbe364428a630d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

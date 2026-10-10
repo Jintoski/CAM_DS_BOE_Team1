@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Identify the peculiarity of the bank's earnings-call question.\",\n  \"main_topics\": [\"Bank Earnings\", \"Quarterly Peculiarity\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Based on what we can see, the bulk of those sound to me like they're peculiar to this quarter?\",\n  \"answer_quote\": \"Yes, they are peculiar to this quarter.\",\n  \"reason\": \"The answer directly addresses the question's intent, confirming the peculiarity of the bank's earnings-call question for the quarter.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 419,
+      "batch_seconds": 6.752684400999897
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f548a83436b49086c71f50ab1c12d33a63e3bd01502b752275b1b442e8acdc58",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Identify the peculiarity of the bank's earnings-call question.",
+    "main_topics": [
+      "Bank Earnings",
+      "Quarterly Peculiarity"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Based on what we can see, the bulk of those sound to me like they're peculiar to this quarter?",
+    "answer_quote": "Yes, they are peculiar to this quarter.",
+    "reason": "The answer directly addresses the question's intent, confirming the peculiarity of the bank's earnings-call question for the quarter."
+  },
+  "whitespace_adjusted_quotes": []
+}

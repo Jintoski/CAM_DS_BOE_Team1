@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for bank earnings-call Q4 transaction details and future performance outlook.\",\n  \"main_topics\": [\"CIB revenue outlook\", \"Q4 transaction impact\", \"Future business performance\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Morning everybody, I just have two questions please. The first one was around CIB revenue outlook and I seem to remember there was a lot of speculation in the press in January that you'd taken a big one-off hit on a particular [Q4] transaction.\",\n  \"answer_quote\": \"Yes, do you want to give us both of them, Ed? And we'll try and do them both together.\",\n  \"reason\": \"The response deflects the question without providing the requested details or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for CIB revenue details and future performance outlook\",\n  \"main_topics\": [\"CIB revenue\", \"Q4 transaction impact\", \"Future performance outlook\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Morning everybody, I just have two questions please. The first one was around CIB revenue outlook and I seem to remember there was a lot of speculation in the press in January that you'd taken a big one-off hit on a particular [Q4] transaction.\",\n  \"answer_quote\": \"Yes, do you want to give us both of them, Ed? And we'll try and do them both together.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 599,
+      "batch_seconds": 12.97318208300021
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 644,
+      "batch_seconds": 14.078725104000114
+    }
+  ],
+  "exchange_id": "a055cc76c938-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f89be972ac0f6598f7f7507ef6ee058fc00b7a85d042bbeada3990cd5135e9bc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for bank earnings-call Q4 transaction details and future performance outlook.",
+    "main_topics": [
+      "CIB revenue outlook",
+      "Q4 transaction impact",
+      "Future business performance"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Morning everybody, I just have two questions please. The first one was around CIB revenue outlook and I seem to remember there was a lot of speculation in the press in January that you'd taken a big one-off hit on a particular [Q4] transaction.",
+    "answer_quote": "Yes, do you want to give us both of them, Ed? And we'll try and do them both together.",
+    "reason": "The response deflects the question without providing the requested details or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

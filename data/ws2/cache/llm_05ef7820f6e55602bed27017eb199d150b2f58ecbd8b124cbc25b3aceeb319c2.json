@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for explanation on higher yields and cost distribution\",\n  \"main_topics\": [\"Yield Comparison\", \"Cost Distribution\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So I don't know if you could give us the explanation, or whether you want to save this to the 28th of November, as to why your maturities may be at higher yields.\",\n  \"answer_quote\": \"Yeah, so obviously the five year average life is an average. So what we will do, is we will look at the stability and the stickiness of different types of deposits.\",\n  \"reason\": \"The answer partially addresses the question by explaining the concept of average life and the factors affecting it, but does not provide a specific explanation for the higher yields or a detailed cost distribution breakdown.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 802,
+      "batch_seconds": 22.248980599999413
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "05ef7820f6e55602bed27017eb199d150b2f58ecbd8b124cbc25b3aceeb319c2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for explanation on higher yields and cost distribution",
+    "main_topics": [
+      "Yield Comparison",
+      "Cost Distribution"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So I don't know if you could give us the explanation, or whether you want to save this to the 28th of November, as to why your maturities may be at higher yields.",
+    "answer_quote": "Yeah, so obviously the five year average life is an average. So what we will do, is we will look at the stability and the stickiness of different types of deposits.",
+    "reason": "The answer partially addresses the question by explaining the concept of average life and the factors affecting it, but does not provide a specific explanation for the higher yields or a detailed cost distribution breakdown."
+  },
+  "whitespace_adjusted_quotes": []
+}

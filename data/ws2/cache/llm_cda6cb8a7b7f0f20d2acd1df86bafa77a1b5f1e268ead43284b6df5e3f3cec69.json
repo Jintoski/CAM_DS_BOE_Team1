@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about Q2 revenue projections and OCI impact from higher rates\",\n  \"main_topics\": [\"Capital Markets revenue\", \"OCI impact from higher rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A very resilient quarter because of market volatility. I just wanted to get a bit of flavour, with April volatility coming down a bit, how you are thinking about the Fixed Income and Capital Markets side of the revenue for second quarter?\",\n  \"answer_quote\": \"On Global Banking and Markets and the outlook, there's nothing really to call out that's surprised us so far in April. Very much tracking according to underlying plans at the moment. We haven't seen any material slowdown going on in our Markets franchise month to date.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a complete answer, and includes high evidence with a numeric figure ($1 billion pre-tax of fair value losses).\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Forecasting Q2 revenue and modeling OCI impact from higher rates\",\n  \"main_topics\": [\"Q2 revenue forecast\", \"OCI impact modeling\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How you are thinking about the Fixed Income and Capital Markets side of the revenue for second quarter?\",\n  \"answer_quote\": \"On Global Banking and Markets and the outlook, there's nothing really to call out that's surprised us so far in April. Very much tracking according to underlying plans at the moment. We haven't seen any material slowdown going on in our Markets franchise month to date. Global Banking, I don't know whether it's us but our pipeline continues to look pretty robust and has been pretty resilient. Probably in part we are less exposed to the US M&A and IPO markets, and some of the other markets that we are exposed to, like the Middle East, have been outperforming for us. The other thing I would note in our Global Banking and Markets franchise is a lot of the revenue line items are interest rate sensitive, so Securities Services, GLCM, GTRF, they should outperform on the back of this better rates environment, which will help cushion if there was any weakness that we saw in some of the more traditional investment banking lines and markets lines that you would compare with peers, and I do think we're continuing to operate in an environment with higher levels of FX volatility, which again should benefit our FX franchise. On OCI, I think the only thing to call out is if you take the month-to-date adjustment on the Treasury portfolio, there's about an addition $1 billion pre-tax of fair value losses, which would obviously run through OCI in April.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 790,
+      "batch_seconds": 20.713170187000287
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 835,
+      "batch_seconds": 22.267153798000436
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "cda6cb8a7b7f0f20d2acd1df86bafa77a1b5f1e268ead43284b6df5e3f3cec69",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about Q2 revenue projections and OCI impact from higher rates",
+    "main_topics": [
+      "Capital Markets revenue",
+      "OCI impact from higher rates"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "A very resilient quarter because of market volatility. I just wanted to get a bit of flavour, with April volatility coming down a bit, how you are thinking about the Fixed Income and Capital Markets side of the revenue for second quarter?",
+    "answer_quote": "On Global Banking and Markets and the outlook, there's nothing really to call out that's surprised us so far in April. Very much tracking according to underlying plans at the moment. We haven't seen any material slowdown going on in our Markets franchise month to date.",
+    "reason": "The response directly addresses the question's intent, provides a complete answer, and includes high evidence with a numeric figure ($1 billion pre-tax of fair value losses)."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on deposit flight and product offering differentiation\",\n  \"main_topics\": [\"Deposit flight\", \"Product offering\", \"Pricing strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So we've got more points of comparison, and if we look at your quantum of deposits, you saw an acceleration in deposit flight in Q323, whereas when we look at the others, we've almost seen the opposite in Q323, we've actually seen a slowdown in overall, not personal current accounts, but overall deposit base. So when you're talking about quantum of deposits, why is it you think you've seen a step change versus peers in Q323? You talked about consistent pricing, but is it your product offering? Is it the pricing? What's differentiated you and your experience in Q323?\",\n  \"answer_quote\": \"You're right. I think, in current accounts we are broadly much of a muchness with everybody, we would've hoped to capture much more of the flow into higher rate products than we did in Q323. I think that was about the timing of our pricing because by the time we moved our pricing, we ended up in a competitive table, which had a 6.2% [rate] at the top of it. So I think it was, with hindsight, poor timing on savings pricing, which is why I'm saying it would be much better for us to just be consistently in the market. I don't think it's about the product construct actually, when I look at the absolute rates, and where we are on the table, we're broadly in line with most of our major peers. So, I think it was a specific point around Q323 timing.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear explanation for the observed deposit flight and differentiating factors in Q323, supported by a specific numeric rate.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 743,
+      "batch_seconds": 21.440061830999184
+    }
+  ],
+  "exchange_id": "ffe1aaec8422-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "73dec54efdf993ab6e4545c8d990dcc188128952754770d6a23d8e504ebc9d2f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on deposit flight and product offering differentiation",
+    "main_topics": [
+      "Deposit flight",
+      "Product offering",
+      "Pricing strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So we've got more points of comparison, and if we look at your quantum of deposits, you saw an acceleration in deposit flight in Q323, whereas when we look at the others, we've almost seen the opposite in Q323, we've actually seen a slowdown in overall, not personal current accounts, but overall deposit base. So when you're talking about quantum of deposits, why is it you think you've seen a step change versus peers in Q323? You talked about consistent pricing, but is it your product offering? Is it the pricing? What's differentiated you and your experience in Q323?",
+    "answer_quote": "You're right. I think, in current accounts we are broadly much of a muchness with everybody, we would've hoped to capture much more of the flow into higher rate products than we did in Q323. I think that was about the timing of our pricing because by the time we moved our pricing, we ended up in a competitive table, which had a 6.2% [rate] at the top of it. So I think it was, with hindsight, poor timing on savings pricing, which is why I'm saying it would be much better for us to just be consistently in the market. I don't think it's about the product construct actually, when I look at the absolute rates, and where we are on the table, we're broadly in line with most of our major peers. So, I think it was a specific point around Q323 timing.",
+    "reason": "The answer directly addresses the question's intent, providing a clear explanation for the observed deposit flight and differentiating factors in Q323, supported by a specific numeric rate."
+  },
+  "whitespace_adjusted_quotes": []
+}

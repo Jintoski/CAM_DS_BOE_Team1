@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Banking strategy and cost management in light of conservative assumptions, and the impact of US Transaction banking deposit trends on the bank's deposit volumes.\",\n  \"main_topics\": [\"Banking strategy\", \"Cost management\", \"US Transaction banking deposits\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Yeah, good morning, everybody. Thanks for taking my questions. Two quick ones. So given the conservative banking wallet already embedded in your planning assumptions, which I guess you just referenced. Are there any initiatives, either on the cost side or the investment side, that you would need to either undertake or delay should 2025 indeed play out as per those wallet assumptions? That's the first question. And then second, you mentioned the substantial increase in Transaction banking deposits in the US. How has that trended post-quarter end? So companies are maybe building liquidity, delaying some investment spend. Are you seeing that show up in your deposit volumes? Thank you.\",\n  \"answer_quote\": \"Okay, thanks. Thanks, Chris. Thanks for the questions. I'll take the first one and then I'll hand across to Venkat. Look, as I said, that was our assumption for Banking. And actually what we're seeing here is the diversification of income working really well across the bank, both in terms of [being] more than offset by Markets activity and also the strength that we're seeing coming through in the UK and the UK complex more generally across deposits that's underpinned our upgrade today. So the revenue line appears to be very robust and we have confidence in it. That said, that does not undermine our focus on costs and it's what we're doing every day. It's a key part of the strategy. You can see that all the way through the P&L today. Income up by 11%, profits up by 19%. The plan is to create operating leverage, not just at the Group, but across every single business within the Group. Overall, I still expect what I expected at the year-end, which is for incremental investment to underpin the longer-term growth of the plan and inflation to outweigh our growth efficiencies for the year and for us to see an uptick in costs. All of that is contained within the most important cost metric, which is cost income ratio at 61%. That is the number that we are most focused on. It's likely that we'll see some movement in absolute costs. I'm happy with consensus as it currently starts, but it is FX sensitive and it is performance and volume sensitive. And therefore, I'd really urge you to focus on the cost income ratio target that we've given. We feel like 57% in Q1 is a good down payment against that and should show you how focused we are on operating leverage. Venkat, Transaction banking? Yeah. So Transaction banking has been an area of great emphasis for us in the last few years. We spoke about it last year. We've spoken about it at our year-end earnings. People choose us and the quantum of deposits is based on two factors. One is the growth in our overall Transaction banking business or relationships generally, people's choice of us as a counterparty, which is increasing. And then ultimately, their needs for cash and their use of cash. In this period, we continue to see happily people choosing us as a counterparty newly, and that's good and that's improving again. And then I think on cash, what you're seeing is growth in deposits, in part, what you would expect when people are being cautious on the deploying of cash for transactions. So you're seeing deposit growth, whether it's individuals or it's institutions. It's all what you would normally expect in this environment. Okay. Thank you. Thanks, Chris. Can we go to the next question, please?\",\n  \"reason\": \"The answer directly addresses the bank's conservative planning assumptions, cost management strategy, and the impact of US Transaction banking deposit trends, providing specific figures and forward guidance on cost income ratio targets.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1073,
+      "batch_seconds": 33.79182608800056
+    }
+  ],
+  "exchange_id": "d970c7e31290-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5c3be55e68484976ed46dfbe76cb9add0ed5757a63df1ee2d4c689bbca4353ce",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Banking strategy and cost management in light of conservative assumptions, and the impact of US Transaction banking deposit trends on the bank's deposit volumes.",
+    "main_topics": [
+      "Banking strategy",
+      "Cost management",
+      "US Transaction banking deposits"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Yeah, good morning, everybody. Thanks for taking my questions. Two quick ones. So given the conservative banking wallet already embedded in your planning assumptions, which I guess you just referenced. Are there any initiatives, either on the cost side or the investment side, that you would need to either undertake or delay should 2025 indeed play out as per those wallet assumptions? That's the first question. And then second, you mentioned the substantial increase in Transaction banking deposits in the US. How has that trended post-quarter end? So companies are maybe building liquidity, delaying some investment spend. Are you seeing that show up in your deposit volumes? Thank you.",
+    "answer_quote": "Okay, thanks. Thanks, Chris. Thanks for the questions. I'll take the first one and then I'll hand across to Venkat. Look, as I said, that was our assumption for Banking. And actually what we're seeing here is the diversification of income working really well across the bank, both in terms of [being] more than offset by Markets activity and also the strength that we're seeing coming through in the UK and the UK complex more generally across deposits that's underpinned our upgrade today. So the revenue line appears to be very robust and we have confidence in it. That said, that does not undermine our focus on costs and it's what we're doing every day. It's a key part of the strategy. You can see that all the way through the P&L today. Income up by 11%, profits up by 19%. The plan is to create operating leverage, not just at the Group, but across every single business within the Group. Overall, I still expect what I expected at the year-end, which is for incremental investment to underpin the longer-term growth of the plan and inflation to outweigh our growth efficiencies for the year and for us to see an uptick in costs. All of that is contained within the most important cost metric, which is cost income ratio at 61%. That is the number that we are most focused on. It's likely that we'll see some movement in absolute costs. I'm happy with consensus as it currently starts, but it is FX sensitive and it is performance and volume sensitive. And therefore, I'd really urge you to focus on the cost income ratio target that we've given. We feel like 57% in Q1 is a good down payment against that and should show you how focused we are on operating leverage. Venkat, Transaction banking? Yeah. So Transaction banking has been an area of great emphasis for us in the last few years. We spoke about it last year. We've spoken about it at our year-end earnings. People choose us and the quantum of deposits is based on two factors. One is the growth in our overall Transaction banking business or relationships generally, people's choice of us as a counterparty, which is increasing. And then ultimately, their needs for cash and their use of cash. In this period, we continue to see happily people choosing us as a counterparty newly, and that's good and that's improving again. And then I think on cash, what you're seeing is growth in deposits, in part, what you would expect when people are being cautious on the deploying of cash for transactions. So you're seeing deposit growth, whether it's individuals or it's institutions. It's all what you would normally expect in this environment. Okay. Thank you. Thanks, Chris. Can we go to the next question, please?",
+    "reason": "The answer directly addresses the bank's conservative planning assumptions, cost management strategy, and the impact of US Transaction banking deposit trends, providing specific figures and forward guidance on cost income ratio targets."
+  },
+  "whitespace_adjusted_quotes": []
+}

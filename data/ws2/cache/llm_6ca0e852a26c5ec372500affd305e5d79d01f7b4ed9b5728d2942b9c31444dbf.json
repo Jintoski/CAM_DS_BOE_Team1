@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Asset quality concerns and impact of AI on employment\",\n  \"main_topics\": [\"Asset Quality\", \"Fraud Risk\", \"Double Pledging of Collateral\", \"AI Impact on Employment\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Are there potentially a lot more to come in terms of fraud risk, double pledging of collateral? Are you re-reviewing the book? I'm curious how you're thinking about that and whether that's something we do need to be a bit more concerned about, maybe for the industry or how you think about that. On asset quality, I'm getting a lot more questions about the impact of AI on employment. I'm trying to get how you think about that - your sense, if you think that's something to really be concerned about or something that we'll just see over time?\",\n  \"answer_quote\": \"Your first question really is much more near-term and the rest is more near- and medium-term. Let me address the asset quality question straight away. As you look at market events and developments, particularly given what we've in the last few days in terms of the conflict, you know your capital and your credit deployment - you want to really focus on your customers, retail, corporate in your key markets. In those circumstances, because you want to make those choices, you increase approval levels. In other words, for some of those transactions, you get more senior people engaged for approval because you could, at the same time, have a need for credit deployment in other areas. It's not as though your underwriting standards change, but, because of the choices you have to make, you get more senior people engaged because it's the same capital where you want to best deploy, and that's something we've done. We did the same when Russia-Ukraine happened - typically, you raise the level of escalation at which you'd have to do credit approvals in these kinds of macro environments. When we at AI, we look at how it is impacting the business models of our customers. And to the extent that there's an impact on the business models of our customers, that is considered ... as we look both at an individual corporate level or institutional level, you adjust your appetite accordingly if you feel there's an impact on their business model, but you also looked at sectoral caps and you see, because of certain developments, would you do differently on your sector caps, whether sector caps for data centres, logistics companies, just like we did for commercial real estate, or names in AI and other areas. It's those who provide the AI, those who consume the AI, and the ancillary businesses that depend on it. And that's an ongoing process that we will constantly continue to monitor as the world around us moves at different speeds.\",\n  \"reason\": \"The answer directly addresses concerns about asset quality and the impact of AI on employment, providing a high level of evidence with specific examples and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 928,
+      "batch_seconds": 25.919842233000054
+    }
+  ],
+  "exchange_id": "4c46c28cb2e2-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6ca0e852a26c5ec372500affd305e5d79d01f7b4ed9b5728d2942b9c31444dbf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Asset quality concerns and impact of AI on employment",
+    "main_topics": [
+      "Asset Quality",
+      "Fraud Risk",
+      "Double Pledging of Collateral",
+      "AI Impact on Employment"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Are there potentially a lot more to come in terms of fraud risk, double pledging of collateral? Are you re-reviewing the book? I'm curious how you're thinking about that and whether that's something we do need to be a bit more concerned about, maybe for the industry or how you think about that. On asset quality, I'm getting a lot more questions about the impact of AI on employment. I'm trying to get how you think about that - your sense, if you think that's something to really be concerned about or something that we'll just see over time?",
+    "answer_quote": "Your first question really is much more near-term and the rest is more near- and medium-term. Let me address the asset quality question straight away. As you look at market events and developments, particularly given what we've in the last few days in terms of the conflict, you know your capital and your credit deployment - you want to really focus on your customers, retail, corporate in your key markets. In those circumstances, because you want to make those choices, you increase approval levels. In other words, for some of those transactions, you get more senior people engaged for approval because you could, at the same time, have a need for credit deployment in other areas. It's not as though your underwriting standards change, but, because of the choices you have to make, you get more senior people engaged because it's the same capital where you want to best deploy, and that's something we've done. We did the same when Russia-Ukraine happened - typically, you raise the level of escalation at which you'd have to do credit approvals in these kinds of macro environments. When we at AI, we look at how it is impacting the business models of our customers. And to the extent that there's an impact on the business models of our customers, that is considered ... as we look both at an individual corporate level or institutional level, you adjust your appetite accordingly if you feel there's an impact on their business model, but you also looked at sectoral caps and you see, because of certain developments, would you do differently on your sector caps, whether sector caps for data centres, logistics companies, just like we did for commercial real estate, or names in AI and other areas. It's those who provide the AI, those who consume the AI, and the ancillary businesses that depend on it. And that's an ongoing process that we will constantly continue to monitor as the world around us moves at different speeds.",
+    "reason": "The answer directly addresses concerns about asset quality and the impact of AI on employment, providing a high level of evidence with specific examples and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

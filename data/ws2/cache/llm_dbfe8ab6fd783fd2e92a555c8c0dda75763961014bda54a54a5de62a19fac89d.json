@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess potential growth in Wealth Management and Transaction Banking for 2024.\",\n  \"main_topics\": [\"Wealth Management growth\", \"Transaction Banking run rate\", \"Investment in Wealth Management\", \"Client acquisition in Wealth Management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the Wealth Management piece - there's no reason to think, then, that can't accelerate from that kind of growth rate in 2023. Wealth Management, for the numbers that you've called out and for a number of reasons, could accelerate quite meaningfully in 2024, right?\",\n  \"answer_quote\": \"There are two reasons. The first one is if we see an underlying improvement in the equity conditions in Hong Kong and mainland China, which is an underlying trend. The second one is the investment we are putting to grow this business.\",\n  \"reason\": \"The answer directly addresses the potential for growth in Wealth Management and Transaction Banking, providing two reasons for expected acceleration in Wealth Management, with one being the investment in the business and the other being the underlying equity conditions in key markets.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assess potential growth in Wealth Management\",\n  \"main_topics\": [\"Wealth Management growth\", \"Investment in Wealth Management\", \"Client acquisition in Wealth Management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the Wealth Management piece - there's no reason to think, then, that can't accelerate from that kind of growth rate in 2023. Wealth Management, for the numbers that you've called out and for a number of reasons, could accelerate quite meaningfully in 2024, right?\",\n  \"answer_quote\": \"There are two reasons. The first one is if we see an underlying improvement in the equity conditions in Hong Kong and mainland China, which is an underlying trend. The second one is the investment we are putting to grow this business.\",\n  \"reason\": \"The answer directly addresses the potential for Wealth Management growth, citing two reasons: equity conditions and investment, with a high level of evidence including a specific percentage for client acquisition.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess potential growth in Wealth Management and Transaction Banking for 2024.\",\n  \"main_topics\": [\"Wealth Management growth\", \"Transaction Banking run rate\", \"Investment in Wealth Management\", \"Client acquisition in Wealth Management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the Wealth Management piece - there's no reason to think, then, that can't accelerate from that kind of growth rate in 2023. Wealth Management, for the numbers that you've called out and for a number of reasons, could accelerate quite meaningfully in 2024, right?\",\n  \"answer_quote\": \"There are two reasons. The first one is if we see an underlying improvement in the equity conditions in Hong Kong and mainland China, which is an underlying trend. The second one is the investment we are putting to grow this business.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing reasons for potential growth in Wealth Management and aligning with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess potential growth in Wealth Management and Transaction Banking for 2024.\",\n  \"main_topics\": [\"Wealth Management growth\", \"Transaction Banking run rate\", \"Investment in Wealth Management\", \"Client acquisition in Wealth Management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the Wealth Management piece - there's no reason to think, then, that can't accelerate from that kind of growth rate in 2023. Wealth Management, for the numbers that you've called out and for a number of reasons, could accelerate quite meaningfully in 2024, right?\",\n  \"answer_quote\": \"There are two reasons. The first one is if we see an underlying improvement in the equity conditions in Hong Kong and mainland China, which is an underlying trend. The second one is the investment we are putting to grow this business.\",\n  \"reason\": \"The answer directly addresses the potential for growth in Wealth Management and Transaction Banking, providing two reasons for expected acceleration in Wealth Management, with one being the investment in the business and the other being the underlying equity conditions in key markets.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 596,
+      "batch_seconds": 14.784660463999899
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 644,
+      "batch_seconds": 14.894256813000538
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 644,
+      "batch_seconds": 14.608119999000337
+    }
+  ],
+  "exchange_id": "287d803c2083-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "dbfe8ab6fd783fd2e92a555c8c0dda75763961014bda54a54a5de62a19fac89d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

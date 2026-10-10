@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Future trend of spread point and book dynamic\",\n  \"main_topics\": [\"spread point\", \"book dynamic\", \"future trend\", \"pricing levels\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just on that spread point, the slight tailwind you're feeling from the back book, front book dynamic, can you just confirm that trend continues into 2025? That's not just a 2024 thing. That's from here on if pricing stays around current levels?\",\n  \"answer_quote\": \"I would say assume it is going to be broadly neutral over time. I mean what we experienced last year was a position where you had Covid period loans rolling off and they were on higher margins. So throughout 2023, there was a big difference between those front book and back book margins. Now they're more aligned. And then what you've seen is a broad stabilisation in margins since that point. I don't think we're anticipating any massive change in what we see right now.\",\n  \"reason\": \"The answer partially addresses the future trend but hedges the response and lacks specific numeric evidence or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 537,
+      "batch_seconds": 11.927918320000572
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6194927a554c6231c2780d10386be6b80c42dd9f067d8bc71a6b40158866430c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Future trend of spread point and book dynamic",
+    "main_topics": [
+      "spread point",
+      "book dynamic",
+      "future trend",
+      "pricing levels"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Just on that spread point, the slight tailwind you're feeling from the back book, front book dynamic, can you just confirm that trend continues into 2025? That's not just a 2024 thing. That's from here on if pricing stays around current levels?",
+    "answer_quote": "I would say assume it is going to be broadly neutral over time. I mean what we experienced last year was a position where you had Covid period loans rolling off and they were on higher margins. So throughout 2023, there was a big difference between those front book and back book margins. Now they're more aligned. And then what you've seen is a broad stabilisation in margins since that point. I don't think we're anticipating any massive change in what we see right now.",
+    "reason": "The answer partially addresses the future trend but hedges the response and lacks specific numeric evidence or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

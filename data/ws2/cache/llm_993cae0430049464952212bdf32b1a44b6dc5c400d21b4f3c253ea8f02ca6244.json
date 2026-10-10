@@ -1,0 +1,68 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Requesting qualitative details on 2027-2028 targets and structural hedge maturity yield\",\n  \"main_topics\": [\"2027-2028 targets\", \"RoTE targets\", \"CET1 ratio\", \"structural hedge\", \"maturity yield\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first is on what we're going to get for the year with regard to these 2027-2028 targets.\",\n  \"answer_quote\": \"So, what should you expect? We were really clear at the time that greater than 12% RoTE was not an end point.\",\n  \"reason\": \"The response directly addresses the qualitative details requested for 2027-2028 targets and structural hedge maturity yield, with high evidence level including numeric evidence for maturity yield.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Requesting qualitative details on 2027-2028 financial targets and structural hedge maturity yield\",\n  \"main_topics\": [\"2027-2028 financial targets\", \"structural hedge maturity yield\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first is on what we're going to get for the year with regard to these 2027-2028 targets.\",\n  \"answer_quote\": \"So, what should you expect? We were really clear at the time that greater than 12% RoTE was not an end point.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Requesting qualitative details on future targets and structural hedge\",\n  \"main_topics\": [\"2027-2028 targets\", \"RoTE targets\", \"CET1 ratio\", \"structural hedge\", \"maturities\", \"maturing yield\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first is on what we're going to get for the year with regard to these 2027-2028 targets.\",\n  \"answer_quote\": \"So, what should you expect? We were really clear at the time that greater than 12% RoTE was not an end point.\",\n  \"reason\": \"The answer directly addresses the qualitative details requested about future targets and structural hedge, provides numeric evidence, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1112,
+      "batch_seconds": 35.59591206099958
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1157,
+      "batch_seconds": 95.09474024600058
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1166,
+      "batch_seconds": 96.27417817800051
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "993cae0430049464952212bdf32b1a44b6dc5c400d21b4f3c253ea8f02ca6244",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Requesting qualitative details on 2027-2028 targets and structural hedge maturity yield",
+    "main_topics": [
+      "2027-2028 targets",
+      "RoTE targets",
+      "CET1 ratio",
+      "structural hedge",
+      "maturity yield"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first is on what we're going to get for the year with regard to these 2027-2028 targets.",
+    "answer_quote": "So, what should you expect? We were really clear at the time that greater than 12% RoTE was not an end point.",
+    "reason": "The response directly addresses the qualitative details requested for 2027-2028 targets and structural hedge maturity yield, with high evidence level including numeric evidence for maturity yield."
+  },
+  "whitespace_adjusted_quotes": []
+}

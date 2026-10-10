@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assess the sensitivity of dollar rates to changes in interest rates.\",\n  \"main_topics\": [\"Dollar rate sensitivity\", \"Interest rate changes\", \"Forward curve outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on the dollar rate sensitivity, then, please - dollar rates have moved again since the half-year results - how sticky is the rate sensitivity to the upside?\",\n  \"answer_quote\": \"I would say similar to what you saw in the first quarter. I think that's quite indicative of what we have seen. I wouldn't expect it to be any different to what you have seen so far.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a stance on the rate sensitivity, and includes forward guidance, but lacks explicit numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Rate sensitivity to the upside\",\n  \"main_topics\": [\"Dollar rate sensitivity\", \"Forward curve\", \"Deposit betas\", \"Rate pass-through\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on the dollar rate sensitivity, then, please - dollar rates have moved again since the half-year results - how sticky is the rate sensitivity to the upside?\",\n  \"answer_quote\": \"I would say similar to what you saw in the first quarter. I think that's quite indicative of what we have seen. I wouldn't expect it to be any different to what you have seen so far.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 585,
+      "batch_seconds": 12.588194320999719
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 630,
+      "batch_seconds": 14.894256813000538
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6180e3c0878202fcddf2e90689f0fbc72d2c4b531d16de67439359b14fedac96",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assess the sensitivity of dollar rates to changes in interest rates.",
+    "main_topics": [
+      "Dollar rate sensitivity",
+      "Interest rate changes",
+      "Forward curve outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just on the dollar rate sensitivity, then, please - dollar rates have moved again since the half-year results - how sticky is the rate sensitivity to the upside?",
+    "answer_quote": "I would say similar to what you saw in the first quarter. I think that's quite indicative of what we have seen. I wouldn't expect it to be any different to what you have seen so far.",
+    "reason": "The answer directly addresses the question's intent, provides a stance on the rate sensitivity, and includes forward guidance, but lacks explicit numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

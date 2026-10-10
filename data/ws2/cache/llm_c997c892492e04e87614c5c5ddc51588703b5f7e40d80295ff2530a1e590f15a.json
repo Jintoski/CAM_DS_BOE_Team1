@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing consistency with expected behaviors\",\n  \"main_topics\": [\"Bank behaviors\", \"Consistency\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just in terms of taking a step back, big picture in terms of the behaviours we've seen though, it feels broadly consistent with what you might have expected to see.\",\n  \"answer_quote\": \"Very, yeah.\",\n  \"reason\": \"The answer directly affirms the expected consistency but lacks detail and evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 426,
+      "batch_seconds": 7.036173496000629
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c997c892492e04e87614c5c5ddc51588703b5f7e40d80295ff2530a1e590f15a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assessing consistency with expected behaviors",
+    "main_topics": [
+      "Bank behaviors",
+      "Consistency"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Just in terms of taking a step back, big picture in terms of the behaviours we've seen though, it feels broadly consistent with what you might have expected to see.",
+    "answer_quote": "Very, yeah.",
+    "reason": "The answer directly affirms the expected consistency but lacks detail and evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

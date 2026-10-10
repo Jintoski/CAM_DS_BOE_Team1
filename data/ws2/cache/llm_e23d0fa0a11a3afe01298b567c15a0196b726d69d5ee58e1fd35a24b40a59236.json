@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Profitability targets and market share growth in investment banking fees\",\n  \"main_topics\": [\"BUK profitability\", \"Investment Bank fees\", \"Market share\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Looking at BUK profitability targets. So, 2028, greater than 20% RoTE, similar to 2026, greater than 20% RoTE, despite a mid 40s cost income ratio and versus the low 50s further progression in terms of the income from the hedge. And I mean, I guess just wondering why isn't that number say greater than 25% RoTE or higher or you don't want to show a number like that? So just curious on that, that's the first question. And the second, just on the Investment Bank fees, again, this comes back to the market share point. So, I understand the flat wallet assumption going into 2028. But again, when I look at the trajectory, I think last time we were thinking that there had been investment in 2023 and so forth, which should drive market share gains We saw gains into 2024. I think we went from about 3% to 3.3% in 2024, but that's come back down now to around 3% again. So just wondering what's going to create the reacceleration back to the 3.5% and what gives the conviction on that piece? Thank you.\",\n  \"answer_quote\": \"So, a couple of things just to call out, Amit, just to help you. Firstly, again, I'm going to lean on the greater than. And the second thing is that although this is not true for the Group, for Barclays UK, it is true. We are expecting some impairment normalisation within that business. As we said, it's been running relatively low because we've been recalibrating these impairment models that are consistently over predicting impairment in the UK. So, we've been running pretty low in BUK. We do expect that to normalise up to around 30 basis points. That's not true of the Group. The Group is running in totality where I expect it to be. So that's not flattering the Group, but I think it is flattering Barclays UK right now. So, if you take that plus just lean on the greater than number then. That should hopefully explain. Venkat? So I'll begin with an answer on fees similar to one I often give on Markets. So, when we have quarter-by-quarter annual returns and results in Markets, people will always ask, why are you better in this or why are you worse than that. Some of it has to do with our relative strengths. And then how do the markets evolve to either play to your relative strengths or not. And you've got to look at it over a long period of time. On Investment Banking fees, as I said, we made the investment in bankers and DCM is relatively strong. It's ECM and M&A where we need to do more catching up. Leveraged finances are obviously reasonably strong. So, when you then look at that, some of it has to do with the pattern of deals in the last year versus the year before. There were larger, more lumpy deals. Sometimes if you're lucky to be in them, you're good, otherwise you're not. So 2024 was a helpful year, 2025 less helpful. But over the long run, we expect to get that market share simply by having the right bankers and the right product and we look at this over a longer period. So, I will give that kind of answer to you. Alright well listen thank you very much. Let me say that over the last couple of years, Anna and I have really appreciated the engagement from all of you and your organisations as we've been on this journey. We appreciate your candid feedback, supportive and encouragement. We welcome the opportunity to continue these conversations with you. Some of it will be on the road and one-on-ones and I want to really thank all my colleagues who've helped put this together. Thank you. Thank you.\",\n  \"reason\": \"The answer directly addresses the profitability targets and market share growth, providing specific figures and explanations for the expected outcomes, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1169,
+      "batch_seconds": 35.997767290999946
+    }
+  ],
+  "exchange_id": "f7f72b2656e8-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e23d0fa0a11a3afe01298b567c15a0196b726d69d5ee58e1fd35a24b40a59236",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Profitability targets and market share growth in investment banking fees",
+    "main_topics": [
+      "BUK profitability",
+      "Investment Bank fees",
+      "Market share"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Looking at BUK profitability targets. So, 2028, greater than 20% RoTE, similar to 2026, greater than 20% RoTE, despite a mid 40s cost income ratio and versus the low 50s further progression in terms of the income from the hedge. And I mean, I guess just wondering why isn't that number say greater than 25% RoTE or higher or you don't want to show a number like that? So just curious on that, that's the first question. And the second, just on the Investment Bank fees, again, this comes back to the market share point. So, I understand the flat wallet assumption going into 2028. But again, when I look at the trajectory, I think last time we were thinking that there had been investment in 2023 and so forth, which should drive market share gains We saw gains into 2024. I think we went from about 3% to 3.3% in 2024, but that's come back down now to around 3% again. So just wondering what's going to create the reacceleration back to the 3.5% and what gives the conviction on that piece? Thank you.",
+    "answer_quote": "So, a couple of things just to call out, Amit, just to help you. Firstly, again, I'm going to lean on the greater than. And the second thing is that although this is not true for the Group, for Barclays UK, it is true. We are expecting some impairment normalisation within that business. As we said, it's been running relatively low because we've been recalibrating these impairment models that are consistently over predicting impairment in the UK. So, we've been running pretty low in BUK. We do expect that to normalise up to around 30 basis points. That's not true of the Group. The Group is running in totality where I expect it to be. So that's not flattering the Group, but I think it is flattering Barclays UK right now. So, if you take that plus just lean on the greater than number then. That should hopefully explain. Venkat? So I'll begin with an answer on fees similar to one I often give on Markets. So, when we have quarter-by-quarter annual returns and results in Markets, people will always ask, why are you better in this or why are you worse than that. Some of it has to do with our relative strengths. And then how do the markets evolve to either play to your relative strengths or not. And you've got to look at it over a long period of time. On Investment Banking fees, as I said, we made the investment in bankers and DCM is relatively strong. It's ECM and M&A where we need to do more catching up. Leveraged finances are obviously reasonably strong. So, when you then look at that, some of it has to do with the pattern of deals in the last year versus the year before. There were larger, more lumpy deals. Sometimes if you're lucky to be in them, you're good, otherwise you're not. So 2024 was a helpful year, 2025 less helpful. But over the long run, we expect to get that market share simply by having the right bankers and the right product and we look at this over a longer period. So, I will give that kind of answer to you. Alright well listen thank you very much. Let me say that over the last couple of years, Anna and I have really appreciated the engagement from all of you and your organisations as we've been on this journey. We appreciate your candid feedback, supportive and encouragement. We welcome the opportunity to continue these conversations with you. Some of it will be on the road and one-on-ones and I want to really thank all my colleagues who've helped put this together. Thank you. Thank you.",
+    "reason": "The answer directly addresses the profitability targets and market share growth, providing specific figures and explanations for the expected outcomes, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

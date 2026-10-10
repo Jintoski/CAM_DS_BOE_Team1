@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarify the relationship between accelerated spend and simplification savings, and the timing of the financial benefits.\",\n  \"main_topics\": [\"cost discipline\", \"investment acceleration\", \"simplification savings\", \"financial benefits timing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of the accelerated spend, is that more than the $500 million incremental simplification savings or around the same amount?\",\n  \"answer_quote\": \"The simplification savings will partly offset the accelerated costs.\",\n  \"reason\": \"The answer partially addresses the question by explaining the relationship between simplification savings and accelerated costs, but does not provide a direct comparison to the $500 million figure or the exact timing of the financial benefits.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarify the relationship between accelerated spend and simplification savings, and the timing of the financial benefits.\",\n \"main_topics\": [\"cost discipline\", \"investment acceleration\", \"simplification savings\", \"financial benefits timing\"],\n \"answer_completeness\": \"Partial\",\n \"response_stance\": \"Mixed\",\n \"evidence_level\": \"Medium\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"In terms of the accelerated spend, is that more than the $500 million incremental simplification savings or around the same amount?\",\n \"answer_quote\": \"The simplification savings will partly offset the accelerated costs.\",\n \"reason\": \"The answer partially addresses the question by explaining the relationship between simplification savings and accelerated costs, but does not provide a specific comparison to the $500 million figure. It also discusses the timing of financial benefits but does not directly answer the question about the exact timing (2028 vs. 2029-2030).\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the relationship between accelerated spend and simplification savings, and the timing of the financial benefits.\",\n  \"main_topics\": [\"cost discipline\", \"investment acceleration\", \"simplification savings\", \"financial benefits timing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Just on the cost piece, just to make sure I understand it correctly in terms of the incremental or the acceleration in spend. In terms of the accelerated spend, is that more than the $500 million incremental simplification savings or around the same amount? And then, how are you thinking about the payoff from that, in terms of - will that be benefiting 2028 earnings or is this more 2029 to 2030? Really just trying to understand that a little bit better would be helpful.\",\n  \"answer_quote\": \"Let me just say on the headline, we are fully committed to cost discipline. We recognise we have fantastic growth opportunities, and we are creating capacity to be able to invest in those growth opportunities. So that is what we're managing as you look forward, but the cost discipline remains steadfast. So firstly, the payoffs of the investment we do sometimes come very quickly, actually intra-year. And I'll draw your attention to some of the additional acceleration on investment we did in our Securities Services business last year, which gave us payoffs on new mandates, both last year and into this year. The payoffs don't have to wait for one or two years. These are very quick payoffs, and because they are in areas where we already have plans, we have already invested, and it's just accelerating as opposed to some de novo new areas. In terms of costs, the simplification savings will partly offset the accelerated costs. You can expect some shift on that cost space. However, it'll be very much determined based upon where we see the revenue projections and where we see accelerated growth opportunities. And one thing we are crystal clear about, run-the-bank cost discipline will not change, and any investment will have to stand in terms of the hurdle rates we have for returns. That's a competitive process when we look at a range of opportunities and then we make the choice, whether it's with regard to simplification savings being redeployed or indeed the redeployment of costs coming from divestments.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the relationship between accelerated spend and simplification savings, and the timing of the financial benefits.\",\n  \"main_topics\": [\"cost discipline\", \"investment acceleration\", \"simplification savings\", \"financial benefits timing\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of the accelerated spend, is that more than the $500 million incremental simplification savings or around the same amount?\",\n  \"answer_quote\": \"The simplification savings will partly offset the accelerated costs.\",\n  \"reason\": \"The answer partially addresses the question by explaining the relationship between simplification savings and accelerated costs, but does not provide a direct comparison to the $500 million figure or the exact timing of the financial benefits.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 785,
+      "batch_seconds": 21.483448043999488
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 833,
+      "batch_seconds": 22.267153798000436
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 830,
+      "batch_seconds": 21.285828822999974
+    }
+  ],
+  "exchange_id": "0f3a106b51bf-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5ad3ed028efd4d99e8a4222796078823883125066dca775de801bb033d3a2196",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

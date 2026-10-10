@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on NII guidance, swap reinvestment, and customer strategy\",\n  \"main_topics\": [\"NII guidance\", \"swap reinvestment\", \"customer strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On BUK and the £8.2 billion implied NII figure, I know you said middle of the £8.1 billion to £8.3 billion range, but let's just work with £8.2 billion for the sake of argument. Is that specifically assuming 3.5% swap reinvestment in the second half?\",\n  \"answer_quote\": \"At the beginning of the year, we gave you a range of £8.1 billion to £8.3 billion on BUK [NII guidance] and we said that the reason for that range was actually around how we felt around the uncertainty on deposit dynamics in particular. All we're saying at this point in time is that with the ISA season behind us, given the pricing dynamics that I called out before, there's a narrowing range of outcomes in the second half and us focusing on that middle of the range reflects that and no more.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on NII guidance, swap reinvestment rate, and customer strategy\",\n \"main_topics\": [\"NII guidance\", \"swap reinvestment rate\", \"customer strategy\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"On BUK and the £8.2 billion implied NII figure, I know you said middle of the £8.1 billion to £8.3 billion range, but let's just work with £8.2 billion for the sake of argument. Is that specifically assuming 3.5% swap reinvestment in the second half?\",\n \"answer_quote\": \"So at the beginning of the year, we gave you a range of £8.1 billion to £8.3 billion on BUK [NII guidance] and we said that the reason for that range was actually around how we felt around the uncertainty on deposit dynamics in particular. All we're saying at this point in time is that with the ISA season behind us, given the pricing dynamics that I called out before, there's a narrowing range of outcomes in the second half and us focusing on that middle of the range reflects that and no more. In terms of the swap rates, we consistently apply a swap rate assumption of 3.5% to our structural hedge.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on NII guidance, swap reinvestment, and customer strategy\",\n  \"main_topics\": [\"NII guidance\", \"swap reinvestment\", \"customer strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On BUK and the £8.2 billion implied NII figure, I know you said middle of the £8.1 billion to £8.3 billion range, but let's just work with £8.2 billion for the sake of argument. Is that specifically assuming 3.5% swap reinvestment in the second half?\",\n  \"answer_quote\": \"At the beginning of the year, we gave you a range of £8.1 billion to £8.3 billion on BUK [NII guidance] and we said that the reason for that range was actually around how we felt around the uncertainty on deposit dynamics in particular. All we're saying at this point in time is that with the ISA season behind us, given the pricing dynamics that I called out before, there's a narrowing range of outcomes in the second half and us focusing on that middle of the range reflects that and no more.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on NII guidance, swap reinvestment, and customer strategy\",\n  \"main_topics\": [\"NII guidance\", \"swap reinvestment\", \"customer strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On BUK and the £8.2 billion implied NII figure, I know you said middle of the £8.1 billion to £8.3 billion range, but let's just work with £8.2 billion for the sake of argument. Is that specifically assuming 3.5% swap reinvestment in the second half?\",\n  \"answer_quote\": \"At the beginning of the year, we gave you a range of £8.1 billion to £8.3 billion on BUK [NII guidance] and we said that the reason for that range was actually around how we felt around the uncertainty on deposit dynamics in particular. All we're saying at this point in time is that with the ISA season behind us, given the pricing dynamics that I called out before, there's a narrowing range of outcomes in the second half and us focusing on that middle of the range reflects that and no more.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1727,
+      "batch_seconds": 106.53887218299997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1772,
+      "batch_seconds": 107.16828208400057
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1772,
+      "batch_seconds": 112.26392812099948
+    }
+  ],
+  "exchange_id": "59043c81adbf-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d55f88f71953aa1671004e6d5385e8029120468ee38f2b0ab61ac56c19cada96",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

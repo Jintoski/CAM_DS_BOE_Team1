@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Ask about the impact of threshold deductions and Basel 3.1 on BoCom's capital and RWAs.\",\n  \"main_topics\": [\"BoCom capital\", \"Basel 3.1\", \"RWAs\", \"Threshold deductions\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you expand on the hit from the threshold deductions in Q1?\",\n  \"answer_quote\": \"In terms of the increase in threshold deductions, about $1.3 billion of it comes from the growth in the value of investments in AXA, which is about $600 million, and BoCom, which is about $700 million.\",\n  \"reason\": \"The answer directly addresses the question about threshold deductions, providing specific numeric evidence and forward guidance on Basel 3.1's impact on BoCom's capital and RWAs.\"\n}",
+  "data": {
+    "question_intent": "Ask about the impact of threshold deductions and Basel 3.1 on BoCom's capital and RWAs.",
+    "main_topics": [
+      "BoCom capital",
+      "Basel 3.1",
+      "RWAs",
+      "Threshold deductions"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could you expand on the hit from the threshold deductions in Q1?",
+    "answer_quote": "In terms of the increase in threshold deductions, about $1.3 billion of it comes from the growth in the value of investments in AXA, which is about $600 million, and BoCom, which is about $700 million.",
+    "reason": "The answer directly addresses the question about threshold deductions, providing specific numeric evidence and forward guidance on Basel 3.1's impact on BoCom's capital and RWAs."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "d760dcd5e6e5-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5aa7507c42b26cc7a308fcd7460e72ed6e2d2b494e8d69186e12549e693832d2"
+}

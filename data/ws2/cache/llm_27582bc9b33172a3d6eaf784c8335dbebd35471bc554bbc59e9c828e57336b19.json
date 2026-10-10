@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on variable compensation and its consistency with profitability over the past year.\",\n  \"main_topics\": [\"Variable Compensation\", \"Profitability\", \"Consistency Over Time\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could I just come back very briefly, just on the variable comp? The comments you made around comp relative to profitability, was that the same through last year as well? So, Q120 last year would've reflected high impairments, for example.\",\n  \"answer_quote\": \"Yes, absolutely. One of the questions, if you recall, last year that I was certainly asked was, are we accruing enough variable comp? The response at the time was, we're indexing it to the CIB that made just a bit under 10% return. So, we paid for the performance that's generated and we do that each quarter. So, yes, last year was no different. It would've tracked the performance by quarter.\",\n  \"reason\": \"The answer directly addresses the question, confirming the consistency of variable compensation with profitability over the past year and provides a specific figure (10% return) as evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 527,
+      "batch_seconds": 11.349980590999621
+    }
+  ],
+  "exchange_id": "5c9f6bef592a-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "27582bc9b33172a3d6eaf784c8335dbebd35471bc554bbc59e9c828e57336b19",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on variable compensation and its consistency with profitability over the past year.",
+    "main_topics": [
+      "Variable Compensation",
+      "Profitability",
+      "Consistency Over Time"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Could I just come back very briefly, just on the variable comp? The comments you made around comp relative to profitability, was that the same through last year as well? So, Q120 last year would've reflected high impairments, for example.",
+    "answer_quote": "Yes, absolutely. One of the questions, if you recall, last year that I was certainly asked was, are we accruing enough variable comp? The response at the time was, we're indexing it to the CIB that made just a bit under 10% return. So, we paid for the performance that's generated and we do that each quarter. So, yes, last year was no different. It would've tracked the performance by quarter.",
+    "reason": "The answer directly addresses the question, confirming the consistency of variable compensation with profitability over the past year and provides a specific figure (10% return) as evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

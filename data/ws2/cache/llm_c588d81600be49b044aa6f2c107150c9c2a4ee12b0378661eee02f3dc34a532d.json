@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Understanding the bank's strategy and focus on digital money and related products\",\n  \"main_topics\": [\"Digital Money Strategy\", \"Regulatory Considerations\", \"Bank of England JV\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On digital money, I know you're probably going to discuss it next week, but I just wanted to get a bit of a feeling, because you have your fingers everywhere - tokenised deposits, stablecoins, CBDC - whereas we see some differentiation by some banks and players. Just trying to understand, what is your aim? Where are you trying to go? Do you want to be in everything or do you want to focus on something? And then, clearly, also Bank of England JV, I just wanted to see if you can put a bit more colour on that?\",\n  \"answer_quote\": \"We are very comfortable to operate in those markets and spaces where it is strategically important for us - our home markets, or markets where we have good-scale businesses. The next factor we consider is how well regulated those markets are and how comfortably we can navigate the ecosystem without falling foul of financial crime risk. That's the second hurdle. The third piece is we are there to maintain our number one preeminent position - joint or otherwise - on payments - that is very important for us. So we want to be in that space where, both for our customers today as well as the expectations going forward, we play the full gambit because we are a relationship bank, provided we have looked at those filters. And therefore, whether it comes to CBDCs or stablecoins or tokenised deposits, we are very comfortable to push through with that because it's on strategy, it's an area we are good at, we have scale, and we will put our full firepower to that. The limitation is purely that we don't want to fall foul of regulation, we have to be in markets that matter for us, and where we are comfortable to operate - you'll see more in that space. Fas, anything you want to add? I would just say that regulation is evolving at different paces and with different nuances in different markets. We're very on top of that and we're looking at what customer demand will look like as well in those markets. For tokenised deposits in particular, we believe these offer the benefits that stablecoin offers - the programmability, but also the protection in terms of AML and KYC that you would have in your standard deposit taking businesses. We're very pro-tokenised deposits, and our Tokenised Deposits Service has made great progress in terms of we've launched that into multiple markets over the past 18 months - we're now in five or six markets around the world. That's something we're investing in heavily, but we'll continue to look at how regulation evolves in all of our core markets, as Pam says, and we'll be in line with that. We have multi-year investment plans for our payments business, and this is a fundamental part of that investment plan, which is all costed. Thank you, everybody, for your time today. We look forward to seeing you next week. Thank you.\",\n  \"reason\": \"The answer directly addresses the bank's strategy and focus on digital money, regulatory considerations, and the Bank of England JV, providing a complete response with high evidence level, including numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 962,
+      "batch_seconds": 28.43113693199939
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x026",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c588d81600be49b044aa6f2c107150c9c2a4ee12b0378661eee02f3dc34a532d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Understanding the bank's strategy and focus on digital money and related products",
+    "main_topics": [
+      "Digital Money Strategy",
+      "Regulatory Considerations",
+      "Bank of England JV"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On digital money, I know you're probably going to discuss it next week, but I just wanted to get a bit of a feeling, because you have your fingers everywhere - tokenised deposits, stablecoins, CBDC - whereas we see some differentiation by some banks and players. Just trying to understand, what is your aim? Where are you trying to go? Do you want to be in everything or do you want to focus on something? And then, clearly, also Bank of England JV, I just wanted to see if you can put a bit more colour on that?",
+    "answer_quote": "We are very comfortable to operate in those markets and spaces where it is strategically important for us - our home markets, or markets where we have good-scale businesses. The next factor we consider is how well regulated those markets are and how comfortably we can navigate the ecosystem without falling foul of financial crime risk. That's the second hurdle. The third piece is we are there to maintain our number one preeminent position - joint or otherwise - on payments - that is very important for us. So we want to be in that space where, both for our customers today as well as the expectations going forward, we play the full gambit because we are a relationship bank, provided we have looked at those filters. And therefore, whether it comes to CBDCs or stablecoins or tokenised deposits, we are very comfortable to push through with that because it's on strategy, it's an area we are good at, we have scale, and we will put our full firepower to that. The limitation is purely that we don't want to fall foul of regulation, we have to be in markets that matter for us, and where we are comfortable to operate - you'll see more in that space. Fas, anything you want to add? I would just say that regulation is evolving at different paces and with different nuances in different markets. We're very on top of that and we're looking at what customer demand will look like as well in those markets. For tokenised deposits in particular, we believe these offer the benefits that stablecoin offers - the programmability, but also the protection in terms of AML and KYC that you would have in your standard deposit taking businesses. We're very pro-tokenised deposits, and our Tokenised Deposits Service has made great progress in terms of we've launched that into multiple markets over the past 18 months - we're now in five or six markets around the world. That's something we're investing in heavily, but we'll continue to look at how regulation evolves in all of our core markets, as Pam says, and we'll be in line with that. We have multi-year investment plans for our payments business, and this is a fundamental part of that investment plan, which is all costed. Thank you, everybody, for your time today. We look forward to seeing you next week. Thank you.",
+    "reason": "The answer directly addresses the bank's strategy and focus on digital money, regulatory considerations, and the Bank of England JV, providing a complete response with high evidence level, including numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explain the reasoning behind a financial strategy\",\n  \"main_topics\": [\"cross-currency market\", \"hedging\", \"US dollars\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"What's the logic for that?\",\n  \"answer_quote\": \"It's easier to hedge in US dollars, so the cross-currency market is quite active. We can swap it into US dollars and then easier to hedge.\",\n  \"reason\": \"The answer directly addresses the question with a clear explanation, but lacks numeric evidence.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 426,
+      "batch_seconds": 7.036173496000629
+    }
+  ],
+  "exchange_id": "7f553358cc34-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a95e7713d6e852580e5e58209c918dc34803b1ac00669eb3ddae928a19a39672",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Explain the reasoning behind a financial strategy",
+    "main_topics": [
+      "cross-currency market",
+      "hedging",
+      "US dollars"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "What's the logic for that?",
+    "answer_quote": "It's easier to hedge in US dollars, so the cross-currency market is quite active. We can swap it into US dollars and then easier to hedge.",
+    "reason": "The answer directly addresses the question with a clear explanation, but lacks numeric evidence."
+  },
+  "whitespace_adjusted_quotes": []
+}

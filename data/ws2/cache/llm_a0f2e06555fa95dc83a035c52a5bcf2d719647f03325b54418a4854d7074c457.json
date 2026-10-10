@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Discuss net interest income (NII) and dividend sustainability\",\n  \"main_topics\": [\"net interest income\", \"dividend sustainability\", \"rate hikes\", \"HIBOR normalisation\", \"headwinds\", \"balance sheet growth\", \"deposit costs\", \"structured hedging\", \"non-NII income\", \"share buybacks\", \"cost discipline\", \"fee income growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I suspect you'd point us to the 'greater than $35 billion', suggesting that there's some conservatism that's baked in there, but can you talk to what the pressures are or indeed even the sources of support on the net interest income run rate from here through to year-end?\",\n  \"answer_quote\": \"In terms of the pressure and the support we're seeing, we're seeing certainly tailwinds that we've seen already in Q2, one in terms of additional rate hikes, to be expected very much in the major currencies such as dollars, pounds and euros. We've seen also tailwinds in the HIBOR normalisation. We've seen about 1% quarter on quarter normalisation of HIBOR and, if you look at July, we continue seeing further normalisation. HIBOR is now around 5%, so probably around the end of July will have fully normalised, and those will provide us certainly some tailwinds as we look into H2.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss net interest income (NII) and dividend sustainability for the year and beyond.\",\n \"main_topics\": [\"Net Interest Income (NII)\", \"Dividend Sustainability\", \"Interest Rate Hikes\", \"HIBOR Normalisation\", \"Balance Sheet Growth\", \"Deposit Costs\", \"Share Buybacks\", \"NII Stabilisation Actions\", \"Cost Discipline\", \"Fee Income Growth\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I suspect you'd point us to the 'greater than $35 billion', suggesting that there's some conservatism that's baked in there, but can you talk to what the pressures are or indeed even the sources of support on the net interest income run rate from here through to year-end?\",\n \"answer_quote\": \"In terms of the pressure and the support we're seeing, we're seeing certainly tailwinds that we've seen already in Q2, one in terms of additional rate hikes, to be expected very much in the major currencies such as dollars, pounds and euros. We've seen also tailwinds in the HIBOR normalisation. We've seen about 1% quarter on quarter normalisation of HIBOR and, if you look at July, we continue seeing further normalisation. HIBOR is now around 5%, so probably around the end of July will have fully normalised, and those will provide us certainly some tailwinds as we look into H2.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss net interest income (NII) and dividend sustainability\",\n  \"main_topics\": [\"net interest income\", \"dividend sustainability\", \"rate hikes\", \"HIBOR normalisation\", \"balance sheet growth\", \"deposit costs\", \"share buybacks\", \"NII stabilisation\", \"cost discipline\", \"fee income growth\", \"investment in fee-generating areas\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I suspect you'd point us to the 'greater than $35 billion', suggesting that there's some conservatism that's baked in there, but can you talk to what the pressures are or indeed even the sources of support on the net interest income run rate from here through to year-end?\",\n  \"answer_quote\": \"In terms of the pressure and the support we're seeing, we're seeing certainly tailwinds that we've seen already in Q2, one in terms of additional rate hikes, to be expected very much in the major currencies such as dollars, pounds and euros. We've seen also tailwinds in the HIBOR normalisation. We've seen about 1% quarter on quarter normalisation of HIBOR and, if you look at July, we continue seeing further normalisation. HIBOR is now around 5%, so probably around the end of July will have fully normalised, and those will provide us certainly some tailwinds as we look into H2.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Discuss net interest income (NII) and dividend sustainability\",\n  \"main_topics\": [\"net interest income\", \"dividend sustainability\", \"rate hikes\", \"HIBOR normalisation\", \"headwinds\", \"balance sheet growth\", \"deposit costs\", \"structured hedging\", \"non-NII income\", \"share buybacks\", \"cost discipline\", \"fee income growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I suspect you'd point us to the 'greater than $35 billion', suggesting that there's some conservatism that's baked in there, but can you talk to what the pressures are or indeed even the sources of support on the net interest income run rate from here through to year-end?\",\n  \"answer_quote\": \"In terms of the pressure and the support we're seeing, we're seeing certainly tailwinds that we've seen already in Q2, one in terms of additional rate hikes, to be expected very much in the major currencies such as dollars, pounds and euros. We've seen also tailwinds in the HIBOR normalisation. We've seen about 1% quarter on quarter normalisation of HIBOR and, if you look at July, we continue seeing further normalisation. HIBOR is now around 5%, so probably around the end of July will have fully normalised, and those will provide us certainly some tailwinds as we look into H2.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1695,
+      "batch_seconds": 106.53887218299997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1740,
+      "batch_seconds": 107.16828208400057
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1740,
+      "batch_seconds": 106.59646868799973
+    }
+  ],
+  "exchange_id": "d4d76c03f26c-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a0f2e06555fa95dc83a035c52a5bcf2d719647f03325b54418a4854d7074c457",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

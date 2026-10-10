@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Understanding hedge size changes and managing risks in Hong Kong CRE\",\n  \"main_topics\": [\"Hedge size changes\", \"Hedge management\", \"Hong Kong CRE\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I'm just trying to understand how the notional size of the hedge is changing in the UK versus the rest of the world.\",\n  \"answer_quote\": \"So, Raul, on the hedge size, we haven't given the specific currency split to balance sheet split, but, yes, you should assume that the sterling component is one of the largest components in terms of the hedge size, and the UK, therefore the sterling component, is one of the most mature by way of size of hedge, but there is obviously still our previous hedges struck at lower yields maturing, and we're able to benefit from the reinvestment of maturing hedges at higher yields.\",\n  \"reason\": \"The answer directly addresses the question about hedge size changes, provides specific details about the UK and the rest of the world, and discusses the Hong Kong CRE book, including the management of the unsecured portion.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1041,
+      "batch_seconds": 29.782261903999824
+    }
+  ],
+  "exchange_id": "fbf6b5dfe7b5-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fb257c4800cbf71d8694551dd64039c6e3b04843a732dc07a7c5cf864c69d5b1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Understanding hedge size changes and managing risks in Hong Kong CRE",
+    "main_topics": [
+      "Hedge size changes",
+      "Hedge management",
+      "Hong Kong CRE"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I'm just trying to understand how the notional size of the hedge is changing in the UK versus the rest of the world.",
+    "answer_quote": "So, Raul, on the hedge size, we haven't given the specific currency split to balance sheet split, but, yes, you should assume that the sterling component is one of the largest components in terms of the hedge size, and the UK, therefore the sterling component, is one of the most mature by way of size of hedge, but there is obviously still our previous hedges struck at lower yields maturing, and we're able to benefit from the reinvestment of maturing hedges at higher yields.",
+    "reason": "The answer directly addresses the question about hedge size changes, provides specific details about the UK and the rest of the world, and discusses the Hong Kong CRE book, including the management of the unsecured portion."
+  },
+  "whitespace_adjusted_quotes": []
+}

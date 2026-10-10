@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Comparing returns on isolation for non-ringfenced banks to the group\",\n  \"main_topics\": [\"CIB business returns\", \"Ringfencing impact\", \"Perimeter of ringfenced bank\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It was just about whether or not, when we look at the returns on isolation for the non-ringfenced bank, that will move up closer to the rest of the group, or do you just see the low returns there as a corollary of -\",\n  \"answer_quote\": \"No, the way you should look at the returns for the CIB business, it is the totality of the CIB business and its returns, not just one legal entity or another, because the relationships you have are global relationships and you have to look at where the transaction is actually booked, as well as fee income. And we are very pleased that the CIB business, both in terms of its cost-income ratio, the way it stands, as well as the totality of the returns we are getting on it are very good.\",\n  \"reason\": \"The answer directly addresses the question, comparing the CIB business returns to the rest of the group and discussing the impact of ringfencing, with high evidence level due to the mention of cost-income ratio and returns.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 768,
+      "batch_seconds": 19.062921921999987
+    }
+  ],
+  "exchange_id": "df882adea623-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9cda91f342c8e324da8aab5f5e998ae63d60d56148b7472bbe32f9a1bcc9fcfa",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Comparing returns on isolation for non-ringfenced banks to the group",
+    "main_topics": [
+      "CIB business returns",
+      "Ringfencing impact",
+      "Perimeter of ringfenced bank"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "It was just about whether or not, when we look at the returns on isolation for the non-ringfenced bank, that will move up closer to the rest of the group, or do you just see the low returns there as a corollary of -",
+    "answer_quote": "No, the way you should look at the returns for the CIB business, it is the totality of the CIB business and its returns, not just one legal entity or another, because the relationships you have are global relationships and you have to look at where the transaction is actually booked, as well as fee income. And we are very pleased that the CIB business, both in terms of its cost-income ratio, the way it stands, as well as the totality of the returns we are getting on it are very good.",
+    "reason": "The answer directly addresses the question, comparing the CIB business returns to the rest of the group and discussing the impact of ringfencing, with high evidence level due to the mention of cost-income ratio and returns."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Inquire about efforts to narrow the Prime-minus for mortgage borrowers, potential deposit migration, and the relationship between Prime interest rates and savings deposit rates, and ask about HSBC's conservatism in credit cost provisions.\",\n \"main_topics\": [\"Prime Rate in Hong Kong\", \"Mortgage cap\", \"Deposit migration\", \"Prime interest rates vs savings deposit rates\", \"HSBC conservatism in credit cost provisions\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Mixed\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"The first is on the Prime Rate in Hong Kong, and then the mortgage cap that should effectively be hitting all the mortgage borrowers starting next month, if I'm not mistaken. What could be the efforts to narrow that \\\"Prime-minus\\\", and hence to lift the effective gap for the mortgage borrowers? How much of that can we do before we see deposit migration, as Ewen, you have talked about, and then we run into that question of raising the Prime interest rates. Once they are raised, will it be symmetrical with the savings deposit rate or asymmetrical? That's the first question.\",\n \"answer_quote\": \"Today, about 12% of our portfolio is subject to the mortgage cap, but I would say that given movement in the last month or so that's likely to trend materially higher, to most of the portfolio, over the next couple of months.\",\n \"reason\": \"The answer addresses the Prime Rate, mortgage cap, and potential deposit migration, but does not fully answer the question about the relationship between Prime interest rates and savings deposit rates, and only partially discusses HSBC's conservatism in credit cost provisions.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1329,
+      "batch_seconds": 42.11168159199997
+    }
+  ],
+  "exchange_id": "344542bde5ab-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8f1d0eae5b26ceaf312ada2abf890d628d045b68b3317b2b392f5b546d93b8e2",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about efforts to narrow the Prime-minus for mortgage borrowers, potential deposit migration, and the relationship between Prime interest rates and savings deposit rates, and ask about HSBC's conservatism in credit cost provisions.",
+    "main_topics": [
+      "Prime Rate in Hong Kong",
+      "Mortgage cap",
+      "Deposit migration",
+      "Prime interest rates vs savings deposit rates",
+      "HSBC conservatism in credit cost provisions"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Mixed",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "The first is on the Prime Rate in Hong Kong, and then the mortgage cap that should effectively be hitting all the mortgage borrowers starting next month, if I'm not mistaken. What could be the efforts to narrow that \"Prime-minus\", and hence to lift the effective gap for the mortgage borrowers? How much of that can we do before we see deposit migration, as Ewen, you have talked about, and then we run into that question of raising the Prime interest rates. Once they are raised, will it be symmetrical with the savings deposit rate or asymmetrical? That's the first question.",
+    "answer_quote": "Today, about 12% of our portfolio is subject to the mortgage cap, but I would say that given movement in the last month or so that's likely to trend materially higher, to most of the portfolio, over the next couple of months.",
+    "reason": "The answer addresses the Prime Rate, mortgage cap, and potential deposit migration, but does not fully answer the question about the relationship between Prime interest rates and savings deposit rates, and only partially discusses HSBC's conservatism in credit cost provisions."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Regulatory changes impact and NIM guidance\",\n  \"main_topics\": [\"Regulatory environment\", \"Consumer Duty\", \"NIM guidance\", \"Deposit levels\", \"Base rate increases\", \"Loan growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could update us on your latest thoughts around some of these regulatory changes, whether they're material or not, impacts on any particular business, whether you're looking to change pricing and what you see at the industry level?\",\n  \"answer_quote\": \"So, as far as we're concerned, a large part of the work is already behind us, as you would expect with a change of this scale. I would mark out a couple of things that are probably newsworthy to you. The first, [and] I think the biggest change, will be maintaining sufficient data to ensure that we are demonstrating good outcomes.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Regulatory changes impact and NIM guidance\",\n \"main_topics\": [\"Consumer Duty\", \"NIM guidance\", \"deposit levels\", \"base rate increases\", \"loan growth\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I was wondering if you could update us on your latest thoughts around some of these regulatory changes, whether they're material or not, impacts on any particular business, whether you're looking to change pricing and what you see at the industry level?\",\n \"answer_quote\": \"In terms of the regulatory matters that you're talking about, [is that] largely Consumer Duty? Okay. As you might imagine, we have been working on Consumer Duty for a long time. So, whilst it's been very newsworthy over the last sort of week or so, for us it's actually been a long time in the planning. Indeed, the BUK transformation that we've been talking to you about has Consumer Duty at its heart. What we've been doing is training all the colleagues in the bank around Consumer Duty because, whilst it predominantly affects BUK, it also has implications for the rest of the bank. Within BUK we've also reviewed and made any changes required to any of the open product sets that we have. So, as far as we're concerned, a large part of the work is already behind us, as you would expect with a change of this scale. I would mark out a couple of things that are probably newsworthy to you. The first, [and] I think the biggest change, will be maintaining sufficient data to ensure that we are demonstrating good outcomes. That is what is materially different. So, when you read the Consumer Duty, you would expect that as a retail bank, we would have sought to do those things in any event - ensuring good outcomes for customers should be at the heart of what any retail bank does. However, there is a requirement around data and for us to be able to demonstrate that's the case. So, the BUK team have been working very hard on that. The second thing I would say is [...] we're confident in the range of pricing that we've got on our savings products in particular, which is what's been particularly in focus. We've had a 5% rate out there since last September. What is very important though is not only that those rates are available, but that those rates are easily accessible for our customers. Savings is a non-advised sale, so [we] don't advise you to move savings, but [we] should make it very clear what those rates are, and make it easy for you to switch. Again, we think we're in a good place. If I go back to [the] Rainy Day Saver, more than 90%, I think 95%, of our customers have opened it digitally. So, they're using the channels that we've given them to move actively. That movement and proactivity is wrapped into the NIM guidance that we have given you. So we considered that when we gave you guidance. Also I would say that as rates are materially higher in absolute terms, customers are more likely to make those changes, [and] that was also reflected in [our guidance]. Let me come on to the [BUK] NIM guidance that we gave you. So, to be clear, what prompted us to change our guidance was deposit levels, not switching. Specifically, what happens in retail banking or business banking in a normal year [is that] deposits fall in the first quarter, thereafter they rise. That's because people [tend to] pay off their credit cards and pay their tax in the first quarter, and then we see a rise in deposits in the second quarter. That didn't happen across the industry and it didn't happen for us. Deposits fell again. So that was unexpected for us, and it reflected those factors that I talked about; it reflected the fact that customers are dealing with a higher and more persistent level of inflation. They are proactively dealing with considerably higher mortgage rates if they are coming up for a renewal. We saw a change in behaviour, [and] what we are assuming from here is that we see a similar level of behaviour in Q3. That's really important. We expect to see some stabilisation in Q4. Normally what happens in Q4 is deposits rise. We're not assuming that, we're assuming that they stabilise. So, I don't believe that this is behind us, specifically because the factors that we believe are driving [this behaviour] are still out there, which is why we've made that assumption. The second assumption that we've made is that base rate increases from here give us no benefit. That's simply because we believe, as we said for some time, that pass through will be higher with each subsequent base rate rise. Base rates are now extremely high and customers have clear expectations. Pass through will be significant from this point in time and it will prompt switching such that we don't expect to see a benefit. In fact, we might see a slight negative and that's what we're expecting. The third thing that we are assuming is that we do not see material loan growth in the second half of the year, and that includes unsecured loan growth. That is because of the conservative nature of our customers. We believe we're seeing the benefit of that in our impairment.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Regulatory changes impact and NIM guidance\",\n  \"main_topics\": [\"Regulatory environment\", \"Consumer Duty\", \"NIM guidance\", \"Deposit levels\", \"Base rate increases\", \"Loan growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could update us on your latest thoughts around some of these regulatory changes, whether they're material or not, impacts on any particular business, whether you're looking to change pricing and what you see at the industry level?\",\n  \"answer_quote\": \"So, as far as we're concerned, a large part of the work is already behind us, as you would expect with a change of this scale. I would mark out a couple of things that are probably newsworthy to you. The first, [and] I think the biggest change, will be maintaining sufficient data to ensure that we are demonstrating good outcomes.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Regulatory changes impact and NIM guidance\",\n  \"main_topics\": [\"Regulatory environment\", \"Consumer Duty\", \"NIM guidance\", \"Deposit levels\", \"Base rate increases\", \"Loan growth\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering if you could update us on your latest thoughts around some of these regulatory changes, whether they're material or not, impacts on any particular business, whether you're looking to change pricing and what you see at the industry level?\",\n  \"answer_quote\": \"So, as far as we're concerned, a large part of the work is already behind us, as you would expect with a change of this scale. I would mark out a couple of things that are probably newsworthy to you. The first, [and] I think the biggest change, will be maintaining sufficient data to ensure that we are demonstrating good outcomes.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1544,
+      "batch_seconds": 101.96692094400032
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1589,
+      "batch_seconds": 103.5719654279992
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1589,
+      "batch_seconds": 104.51589792399864
+    }
+  ],
+  "exchange_id": "7c783b078a7c-x000",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "85cfecdc202cdff1d72bcb10bcc2a0bc28b1dc643e43772361351eab87c72933",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

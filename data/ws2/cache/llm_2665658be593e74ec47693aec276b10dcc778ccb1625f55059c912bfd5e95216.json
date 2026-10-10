@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquiring about organic growth and market share gains contributing to revenue\",\n  \"main_topics\": [\"organic growth\", \"market share\", \"revenue\", \"non-interest income\", \"interest rate impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Besides that interest rate shift, are there any organic growth that HSBC is getting market share that you think that sell-side is missing that could drive more consensus revenue upgrades from non-interest income?\",\n  \"answer_quote\": \"I mean, to be clear, we're not reliant on interest rate rises to underpin the business plan that we've got. With NIM stabilising we're probably going to see about 3% loan growth this year. We would expect mid-single-digit low growth next year, so you would expect a healthy increase in net interest income next year with or without rate rises. We're seeing very good growth on fee income as we come out of COVID. Yeah, the core business at the moment is seeing very good, attractive growth. Interest rate rises will just come on top of that. In terms of where we're growing, Noel said earlier that we're taking share in trade. We're up a couple of percentage points of share over the last year, both in Hong Kong and Singapore. We're continuing to grow the UK mortgage share above stock share. I think we were about a percent ahead of stock share in the quarter. We're growing the private bank, I think ahead of peers, particularly Credit Suisse in Asia at the moment. Most of our businesses, I think, are flat to gaining share.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Organic growth and market share increase\",\n  \"main_topics\": [\"organic growth\", \"market share\", \"non-interest income\", \"interest rate impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Besides that interest rate shift, are there any organic growth that HSBC is getting market share that you think that sell-side is missing that could drive more consensus revenue upgrades from non-interest income?\",\n  \"answer_quote\": \"We're taking share in trade. We're up a couple of percentage points of share over the last year, both in Hong Kong and Singapore. We're continuing to grow the UK mortgage share above stock share. I think we were about a percent ahead of stock share in the quarter. We're growing the private bank, I think ahead of peers, particularly Credit Suisse in Asia at the moment.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about organic growth and market share gains contributing to revenue\",\n  \"main_topics\": [\"organic growth\", \"market share\", \"revenue\", \"non-interest income\", \"interest rate impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"are there any organic growth that HSBC is getting market share that you think that sell-side is missing that could drive more consensus revenue upgrades from non-interest income?\",\n  \"answer_quote\": \"I mean, to be clear, we're not reliant on interest rate rises to underpin the business plan that we've got. With NIM stabilising we're probably going to see about 3% loan growth this year. We would expect mid-single-digit low growth next year, so you would expect a healthy increase in net interest income next year with or without rate rises. We're seeing very good growth on fee income as we come out of COVID. I think it's up 10% year-on-year. Yeah, the core business at the moment is seeing very good, attractive growth. Interest rate rises will just come on top of that. In terms of where we're growing, Noel said earlier that we're taking share in trade. We're up a couple of percentage points of share over the last year, both in Hong Kong and Singapore. We're continuing to grow the UK mortgage share above stock share. I think we were about a percent ahead of stock share in the quarter. We're growing the private bank, I think ahead of peers, particularly Credit Suisse in Asia at the moment. Most of our businesses, I think, are flat to gaining share.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about organic growth and market share gains contributing to revenue\",\n  \"main_topics\": [\"organic growth\", \"market share\", \"revenue\", \"non-interest income\", \"interest rate impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Besides that interest rate shift, are there any organic growth that HSBC is getting market share that you think that sell-side is missing that could drive more consensus revenue upgrades from non-interest income?\",\n  \"answer_quote\": \"I mean, to be clear, we're not reliant on interest rate rises to underpin the business plan that we've got. With NIM stabilising we're probably going to see about 3% loan growth this year. We would expect mid-single-digit low growth next year, so you would expect a healthy increase in net interest income next year with or without rate rises. We're seeing very good growth on fee income as we come out of COVID. Yeah, the core business at the moment is seeing very good, attractive growth. Interest rate rises will just come on top of that. In terms of where we're growing, Noel said earlier that we're taking share in trade. We're up a couple of percentage points of share over the last year, both in Hong Kong and Singapore. We're continuing to grow the UK mortgage share above stock share. I think we were about a percent ahead of stock share in the quarter. We're growing the private bank, I think ahead of peers, particularly Credit Suisse in Asia at the moment. Most of our businesses, I think, are flat to gaining share.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 685,
+      "batch_seconds": 16.33152911400066
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 730,
+      "batch_seconds": 18.66627761699965
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 730,
+      "batch_seconds": 17.25838861400007
+    }
+  ],
+  "exchange_id": "2895638cae6c-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2665658be593e74ec47693aec276b10dcc778ccb1625f55059c912bfd5e95216",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

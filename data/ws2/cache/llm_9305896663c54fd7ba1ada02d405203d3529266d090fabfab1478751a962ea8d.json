@@ -1,0 +1,67 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about loan demand in Hong Kong and Pinnacle's experience with competition and profitability.\",\n  \"main_topics\": [\"Hong Kong loan demand\", \"Pinnacle's experience\", \"Competition\", \"Profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A couple of questions from me. First of all, I just wondered whether you could talk about what you're seeing in terms of loan demand out of Hong Kong in particular this year and whether that's been impacted by what's happening at the moment, and also maybe the pace at which you might see that pick up later in the year.\",\n  \"answer_quote\": \"On loan demand on the wholesale side, I would say term lending, similar to last year, has been relatively muted.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Loan demand in Hong Kong and Pinnacle's experience with competition and profitability\",\n  \"main_topics\": [\"Hong Kong loan demand\", \"Pinnacle's experience\", \"Competition\", \"Profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A couple of questions from me. First of all, I just wondered whether you could talk about what you're seeing in terms of loan demand out of Hong Kong in particular this year and whether that's been impacted by what's happening at the moment, and also maybe the pace at which you might see that pick up later in the year.\",\n  \"answer_quote\": \"On loan demand on the wholesale side, I would say term lending, similar to last year, has been relatively muted. The positive so far has really been on the trade side, so, when you look at trade volumes, trade financing, the recovery on that had picked up through 2021, and through January the trade-financing volumes are still at all-time highs. On the residential side, we had seen some good volumes come through on residential mortgage originations, albeit, when you look at what's happening in the short term on Omicron and the lockdowns and so forth that are happening, clearly that is dampening some of the residential property sales volumes. So I'm expecting that first half residential sales volumes will likely be weak, but, hopefully, Omicron and the fifth wave is quick and we'll come out of this in the second half. On Pinnacle, it's still early days. We've got up to about 700 personal wealth planners. Broadly, in terms of what we're expecting from sales activity, annual net premiums and so forth from the 700, it's slightly above where we expect to be in terms of sales, but it's early days. In terms of competition, I would say it's noticeable, but I would say the market in China is big enough that there's enough market share for us to grab - it looks on track, but extremely early days at this point. Just on term lending outside of Hong Kong, actually notably many of the sites in our network have seen slightly better term lending trends outside of the UK and Hong Kong. At the moment, UK is still pretty weak, as we've seen in all the UK banks' wholesale lending numbers. Hopefully that picks up during this year. Lots of bullish talk on how people need to spend more on capex all around the world, and globally let's see if that comes through, but certainly we're seeing notably in some other countries outside of UK and Hong Kong and Asia at the moment term lending.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Loan demand in Hong Kong and Pinnacle's experience with competition and profitability\",\n  \"main_topics\": [\"Hong Kong loan demand\", \"Pinnacle's experience\", \"Competition\", \"Profitability\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A couple of questions from me. First of all, I just wondered whether you could talk about what you're seeing in terms of loan demand out of Hong Kong in particular this year and whether that's been impacted by what's happening at the moment, and also maybe the pace at which you might see that pick up later in the year.\",\n  \"answer_quote\": \"On loan demand on the wholesale side, I would say term lending, similar to last year, has been relatively muted. The positive so far has really been on the trade side, so, when you look at trade volumes, trade financing, the recovery on that had picked up through 2021, and through January the trade-financing volumes are still at all-time highs. On the residential side, we had seen some good volumes come through on residential mortgage originations, albeit, when you look at what's happening in the short term on Omicron and the lockdowns and so forth that are happening, clearly that is dampening some of the residential property sales volumes. So I'm expecting that first half residential sales volumes will likely be weak, but, hopefully, Omicron and the fifth wave is quick and we'll come out of this in the second half. On Pinnacle, it's still early days. We've got up to about 700 personal wealth planners. Broadly, in terms of what we're expecting from sales activity, annual net premiums and so forth from the 700, it's slightly above where we expect to be in terms of sales, but it's early days. In terms of competition, I would say it's noticeable, but I would say the market in China is big enough that there's enough market share for us to grab - it looks on track, but extremely early days at this point. Just on term lending outside of Hong Kong, actually notably many of the sites in our network have seen slightly better term lending trends outside of the UK and Hong Kong. At the moment, UK is still pretty weak, as we've seen in all the UK banks' wholesale lending numbers. Hopefully that picks up during this year. Lots of bullish talk on how people need to spend more on capex all around the world, and globally let's see if that comes through, but certainly we're seeing notably in some other countries outside of UK and Hong Kong and Asia at the moment term lending.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 964,
+      "batch_seconds": 28.43113693199939
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1009,
+      "batch_seconds": 94.12811429700014
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1009,
+      "batch_seconds": 28.790443990999847
+    }
+  ],
+  "exchange_id": "80c6a173b5c1-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9305896663c54fd7ba1ada02d405203d3529266d090fabfab1478751a962ea8d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about loan demand in Hong Kong and Pinnacle's experience with competition and profitability.",
+    "main_topics": [
+      "Hong Kong loan demand",
+      "Pinnacle's experience",
+      "Competition",
+      "Profitability"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "A couple of questions from me. First of all, I just wondered whether you could talk about what you're seeing in terms of loan demand out of Hong Kong in particular this year and whether that's been impacted by what's happening at the moment, and also maybe the pace at which you might see that pick up later in the year.",
+    "answer_quote": "On loan demand on the wholesale side, I would say term lending, similar to last year, has been relatively muted.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

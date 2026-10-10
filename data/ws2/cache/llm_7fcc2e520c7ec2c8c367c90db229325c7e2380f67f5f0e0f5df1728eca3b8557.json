@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on treasury mishap and its impact on net interest margin\",\n  \"main_topics\": [\"Treasury mishap\", \"Net interest margin\", \"Quarterly financial performance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On the treasury mishap, or idiosyncratic element that you've drawn out, the messaging shifted around, so I just wanted to clarify. There's a 16bps, approximately, quarter-on-quarter drag in Q422, you're now saying that's net neutral, quarter-on-quarter for Q1. There's a positive reversal coming through in Q223, Q323, Q423?\",\n  \"answer_quote\": \"Yes, I think that's what I've said on the call.\",\n  \"reason\": \"The answer confirms the speaker's previous statements but does not provide the requested clarification or additional details.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 495,
+      "batch_seconds": 10.274504325000635
+    }
+  ],
+  "exchange_id": "9fe4e338715a-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "7fcc2e520c7ec2c8c367c90db229325c7e2380f67f5f0e0f5df1728eca3b8557",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on treasury mishap and its impact on net interest margin",
+    "main_topics": [
+      "Treasury mishap",
+      "Net interest margin",
+      "Quarterly financial performance"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "On the treasury mishap, or idiosyncratic element that you've drawn out, the messaging shifted around, so I just wanted to clarify. There's a 16bps, approximately, quarter-on-quarter drag in Q422, you're now saying that's net neutral, quarter-on-quarter for Q1. There's a positive reversal coming through in Q223, Q323, Q423?",
+    "answer_quote": "Yes, I think that's what I've said on the call.",
+    "reason": "The answer confirms the speaker's previous statements but does not provide the requested clarification or additional details."
+  },
+  "whitespace_adjusted_quotes": []
+}

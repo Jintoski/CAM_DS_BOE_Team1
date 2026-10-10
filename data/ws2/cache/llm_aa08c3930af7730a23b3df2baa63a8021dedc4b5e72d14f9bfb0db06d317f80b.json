@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify the duration and impact of a multi-year investment programme on cost: income ratio\",\n  \"main_topics\": [\"multi-year investment programme\", \"cost: income ratio\", \"duration\", \"interest rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, well, when you say multi-year investment programme, what should we be thinking about then? So, is your expectation that that will end at some point, and we will see the cost: income ratio improve then?\",\n  \"answer_quote\": \"Yes, I think it goes into 2023, so it's this year and next year, and it should improve.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a specific duration and indicating an expected improvement in the cost: income ratio, aligning with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future of multi-year investment program and cost:income ratio\",\n  \"main_topics\": [\"multi-year investment program\", \"cost:income ratio\", \"interest rates\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Okay, well, when you say multi-year investment programme, what should we be thinking about then? So, is your expectation that that will end at some point, and we will see the cost:income ratio improve then?\",\n  \"answer_quote\": \"Yes, I think it goes into 2023, so it's this year and next year, and it should improve.\",\n  \"reason\": \"The answer directly addresses the future of the investment program and its expected impact on the cost:income ratio, aligning with the question's intent. It provides a specific timeframe (2023) as forward guidance, but lacks numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 490,
+      "batch_seconds": 10.181106705000275
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 538,
+      "batch_seconds": 10.852135373001147
+    }
+  ],
+  "exchange_id": "335469fccfd8-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "aa08c3930af7730a23b3df2baa63a8021dedc4b5e72d14f9bfb0db06d317f80b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify the duration and impact of a multi-year investment programme on cost: income ratio",
+    "main_topics": [
+      "multi-year investment programme",
+      "cost: income ratio",
+      "duration",
+      "interest rates"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Okay, well, when you say multi-year investment programme, what should we be thinking about then? So, is your expectation that that will end at some point, and we will see the cost: income ratio improve then?",
+    "answer_quote": "Yes, I think it goes into 2023, so it's this year and next year, and it should improve.",
+    "reason": "The answer directly addresses the question's intent, providing a specific duration and indicating an expected improvement in the cost: income ratio, aligning with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

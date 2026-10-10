@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Future development of software capitalisation and amortisation\",\n  \"main_topics\": [\"software capitalisation\", \"amortisation\", \"digital investment\", \"policy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"over the last couple of years, you've been capitalising software, internally generated software, at about $1 billion a year higher than you're amortising it, which is quite a big shift, even in the context of the size of HSBC, that's quite a big effective cost gap. So I'm just wondering, how would you expect that to develop over time, looking out not over the next year but over the next two, three, four years? Should we be expecting that amortisation to rise towards the level at which you're capitalising it or is there something extraordinary about the level you're capitalising at the moment?\",\n  \"answer_quote\": \"There's no change in policy or approach in terms of how we capitalise. We took an impairment a couple of years ago. Broadly, what you're seeing there is digital investment coming through and, as we invest in digital, that pushes up the amount of software that we've got in there. That will naturally - because we've been on that journey, investing in digital - start to level out, so it will start to normalise, but we've not given any guidance to that. But it's in line. You saw the growth in the technology budget as a percentage of the cost base. It's in line with that trend as well, and clearly there's an element of CTA, which would support Jon's view that it will start to level off over the next couple of years, once CTA comes off as well.\",\n  \"reason\": \"The answer addresses the question's intent, providing a hedged stance on the future of software capitalisation and amortisation, with medium evidence level due to the lack of specific numeric evidence and no forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 695,
+      "batch_seconds": 17.331225140999777
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x019",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "16c4a30993283250ec3e780b99dcc50074724b2a8508f5c5ac8930ee1432a5f3",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Future development of software capitalisation and amortisation",
+    "main_topics": [
+      "software capitalisation",
+      "amortisation",
+      "digital investment",
+      "policy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "over the last couple of years, you've been capitalising software, internally generated software, at about $1 billion a year higher than you're amortising it, which is quite a big shift, even in the context of the size of HSBC, that's quite a big effective cost gap. So I'm just wondering, how would you expect that to develop over time, looking out not over the next year but over the next two, three, four years? Should we be expecting that amortisation to rise towards the level at which you're capitalising it or is there something extraordinary about the level you're capitalising at the moment?",
+    "answer_quote": "There's no change in policy or approach in terms of how we capitalise. We took an impairment a couple of years ago. Broadly, what you're seeing there is digital investment coming through and, as we invest in digital, that pushes up the amount of software that we've got in there. That will naturally - because we've been on that journey, investing in digital - start to level out, so it will start to normalise, but we've not given any guidance to that. But it's in line. You saw the growth in the technology budget as a percentage of the cost base. It's in line with that trend as well, and clearly there's an element of CTA, which would support Jon's view that it will start to level off over the next couple of years, once CTA comes off as well.",
+    "reason": "The answer addresses the question's intent, providing a hedged stance on the future of software capitalisation and amortisation, with medium evidence level due to the lack of specific numeric evidence and no forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

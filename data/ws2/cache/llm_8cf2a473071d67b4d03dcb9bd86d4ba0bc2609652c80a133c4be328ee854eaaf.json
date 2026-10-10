@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Requesting details on structural hedge income growth beyond 2028 and the marginal contribution of a partnership with Samsung.\",\n  \"main_topics\": [\"structural hedge income growth\", \"maturing yields beyond 2028\", \"partnership with Samsung\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"So, I don't know if at this point you can share anything regarding maybe the maturing yields beyond 2028, maybe the kind of marginal growth you expect beyond that point.\",\n  \"answer_quote\": \"Of course, we will do that in time. The only thing I would just anchor you back to is the fact that we are planning this on, we think, a very realistic basis at 3.5%.\",\n  \"reason\": \"The answer provides a partial response, hedging on the details of maturing yields beyond 2028 and the partnership with Samsung, while also giving a forward-looking statement with a specific numeric expectation for the hedge.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 948,
+      "batch_seconds": 27.377247978000014
+    }
+  ],
+  "exchange_id": "59043c81adbf-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8cf2a473071d67b4d03dcb9bd86d4ba0bc2609652c80a133c4be328ee854eaaf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Requesting details on structural hedge income growth beyond 2028 and the marginal contribution of a partnership with Samsung.",
+    "main_topics": [
+      "structural hedge income growth",
+      "maturing yields beyond 2028",
+      "partnership with Samsung"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "So, I don't know if at this point you can share anything regarding maybe the maturing yields beyond 2028, maybe the kind of marginal growth you expect beyond that point.",
+    "answer_quote": "Of course, we will do that in time. The only thing I would just anchor you back to is the fact that we are planning this on, we think, a very realistic basis at 3.5%.",
+    "reason": "The answer provides a partial response, hedging on the details of maturing yields beyond 2028 and the partnership with Samsung, while also giving a forward-looking statement with a specific numeric expectation for the hedge."
+  },
+  "whitespace_adjusted_quotes": []
+}

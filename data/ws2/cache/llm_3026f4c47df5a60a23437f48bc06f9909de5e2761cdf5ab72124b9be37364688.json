@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for detailed guidance on Wealth-related revenue growth expectations\",\n  \"main_topics\": [\"Wealth-related revenue growth\", \"Internal changes\", \"Sustainable growth vs. market trends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Would you be able to give us some more detailed guidance in terms of how much Wealth-related revenue growth you are expecting for this year and probably for the coming years, based on your internal planning?\",\n  \"answer_quote\": \"We recruited an extra 600 wealth managers in Asia in the first quarter alone, 100 of those in China as part of an expansion of our Pinnacle opportunities.\",\n  \"reason\": \"The answer provides a direct response with high evidence level, including a specific number of wealth managers recruited, aligning with the question's request for detailed guidance on Wealth-related revenue growth.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 907,
+      "batch_seconds": 25.496445402000063
+    }
+  ],
+  "exchange_id": "42ff4ad756f3-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3026f4c47df5a60a23437f48bc06f9909de5e2761cdf5ab72124b9be37364688",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for detailed guidance on Wealth-related revenue growth expectations",
+    "main_topics": [
+      "Wealth-related revenue growth",
+      "Internal changes",
+      "Sustainable growth vs. market trends"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Would you be able to give us some more detailed guidance in terms of how much Wealth-related revenue growth you are expecting for this year and probably for the coming years, based on your internal planning?",
+    "answer_quote": "We recruited an extra 600 wealth managers in Asia in the first quarter alone, 100 of those in China as part of an expansion of our Pinnacle opportunities.",
+    "reason": "The answer provides a direct response with high evidence level, including a specific number of wealth managers recruited, aligning with the question's request for detailed guidance on Wealth-related revenue growth."
+  },
+  "whitespace_adjusted_quotes": []
+}

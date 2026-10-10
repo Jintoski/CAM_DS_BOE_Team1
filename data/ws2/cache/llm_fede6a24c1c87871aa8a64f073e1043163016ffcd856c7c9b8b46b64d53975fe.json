@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on PBT impact and cost-to-achieve spending plans\",\n  \"main_topics\": [\"PBT impact\", \"cost-to-achieve spending\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"In terms of the two-thirds PBT impact that you expect in 2023, I guess that insurance profit that we would be making that adjustment to, are we talking - is it around a $1.5 billion hit that we should be looking for reported PBT in 2023?\",\n  \"answer_quote\": \"On PBT impacts, well, $1.5 billion - it obviously depends what your forecast is, but if that's two-thirds of the insurance profits in that year then yes, it's probably not wildly out of line with what we think.\",\n  \"reason\": \"The answer directly addresses the PBT impact question with a specific figure and confirms the alignment with the expected impact, and also provides a detailed explanation for the cost-to-achieve spending plans, including the reasons for the delay and the expected spending in Q4.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 891,
+      "batch_seconds": 25.700167768999563
+    }
+  ],
+  "exchange_id": "2895638cae6c-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "fede6a24c1c87871aa8a64f073e1043163016ffcd856c7c9b8b46b64d53975fe",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on PBT impact and cost-to-achieve spending plans",
+    "main_topics": [
+      "PBT impact",
+      "cost-to-achieve spending"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "In terms of the two-thirds PBT impact that you expect in 2023, I guess that insurance profit that we would be making that adjustment to, are we talking - is it around a $1.5 billion hit that we should be looking for reported PBT in 2023?",
+    "answer_quote": "On PBT impacts, well, $1.5 billion - it obviously depends what your forecast is, but if that's two-thirds of the insurance profits in that year then yes, it's probably not wildly out of line with what we think.",
+    "reason": "The answer directly addresses the PBT impact question with a specific figure and confirms the alignment with the expected impact, and also provides a detailed explanation for the cost-to-achieve spending plans, including the reasons for the delay and the expected spending in Q4."
+  },
+  "whitespace_adjusted_quotes": []
+}

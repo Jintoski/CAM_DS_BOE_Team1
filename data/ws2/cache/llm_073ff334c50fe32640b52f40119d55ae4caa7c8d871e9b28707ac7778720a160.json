@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the bank's actions and potential liabilities regarding shelf issuance, ETNs, and regulatory fines.\",\n  \"main_topics\": [\"shelf issuance\", \"ETNs\", \"regulatory fines\", \"liability determination\", \"regulatory relationship\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"If I could just come back on the shelf issuance problem. First, could you explain in a bit more detail what you have done to size the potential impact here in terms of the provision you have taken?\",\n  \"answer_quote\": \"Okay, thanks, Chris. What we have put in the financial statements this time is our best estimate at this stage.\",\n  \"reason\": \"The answer provides some details on the bank's actions and the provision made, but it does not fully address the question about the potential impact or the specifics of the liability determination for ETNs.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 941,
+      "batch_seconds": 27.160419657999228
+    }
+  ],
+  "exchange_id": "224db408a071-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "073ff334c50fe32640b52f40119d55ae4caa7c8d871e9b28707ac7778720a160",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the bank's actions and potential liabilities regarding shelf issuance, ETNs, and regulatory fines.",
+    "main_topics": [
+      "shelf issuance",
+      "ETNs",
+      "regulatory fines",
+      "liability determination",
+      "regulatory relationship"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "If I could just come back on the shelf issuance problem. First, could you explain in a bit more detail what you have done to size the potential impact here in terms of the provision you have taken?",
+    "answer_quote": "Okay, thanks, Chris. What we have put in the financial statements this time is our best estimate at this stage.",
+    "reason": "The answer provides some details on the bank's actions and the provision made, but it does not fully address the question about the potential impact or the specifics of the liability determination for ETNs."
+  },
+  "whitespace_adjusted_quotes": []
+}

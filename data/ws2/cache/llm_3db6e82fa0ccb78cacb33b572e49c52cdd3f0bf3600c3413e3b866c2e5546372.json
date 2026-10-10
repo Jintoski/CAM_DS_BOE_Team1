@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on RWAs increase and impact on capital due to asset quality deterioration in Hong Kong CRE\",\n  \"main_topics\": [\"RWAs increase\", \"Asset quality deterioration\", \"Capital impact\", \"Hong Kong CRE outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, we've indicated a $6.4 billion increase in RWAs due to modelling adjustment.\",\n  \"answer_quote\": \"To be specific, we've adjusted the probability of default models for banks globally, and the reason we adjusted this probability of default model for banks is because we wanted to factor in some of the observations and learnings from the March 2023 crisis in the way governments have supported a bank resolution.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on RWAs increase and impact on capital due to modelling adjustments and Hong Kong CRE book deterioration\",\n \"main_topics\": [\"RWAs increase\", \"Modelling adjustments\", \"Hong Kong CRE book deterioration\", \"Capital impact\", \"Hong Kong CRE outlook\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"On capital, we've indicated a $6.4 billion increase in RWAs due to modelling adjustment. To be specific, we've adjusted the probability of default models for banks globally, and the reason we adjusted this probability of default model for banks is because we wanted to factor in some of the observations and learnings from the March 2023 crisis in the way governments have supported a bank resolution. That's specifically true for the US and Switzerland. We've taken those learnings; we've baked them in our modelling; and this resulted in this additional RWA.\",\n \"answer_quote\": \"Thanks. Katherine, on capital, we've indicated a $6.4 billion increase in RWAs due to modelling adjustment. To be specific, we've adjusted the probability of default models for banks globally, and the reason we adjusted this probability of default model for banks is because we wanted to factor in some of the observations and learnings from the March 2023 crisis in the way governments have supported a bank resolution. That's specifically true for the US and Switzerland. We've taken those learnings; we've baked them in our modelling; and this resulted in this additional RWA.\",\n \"reason\": \"The answer directly addresses the question's intent, provides high-level evidence with specific figures, and includes forward guidance on future model updates and the outlook for Hong Kong CRE.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RWAs increase and impact on capital due to asset quality deterioration in Hong Kong CRE\",\n  \"main_topics\": [\"RWAs increase\", \"Asset quality deterioration\", \"Capital impact\", \"Hong Kong CRE outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, we've indicated a $6.4 billion increase in RWAs due to modelling adjustment. To be specific, we've adjusted the probability of default models for banks globally, and the reason we adjusted this probability of default model for banks is because we wanted to factor in some of the observations and learnings from the March 2023 crisis in the way governments have supported a bank resolution. That's specifically true for the US and Switzerland. We've taken those learnings; we've baked them in our modelling; and this resulted in this additional RWA.\",\n  \"answer_quote\": \"In terms of Hong Kong CRE, we've spoken earlier about the 40% that is unsecured, with which we remain very comfortable, so your question probably relates to the other 60%, which is the secured portfolio of our $36 billion exposure. So of this about $3.2 billion are credit impaired. What's happening basically is a few of our customers basically are facing some short-term cash flow pressure challenges, and this is partly due to high rates, but the balance sheet remains strong, and our level of collateralisation remains strong. Typically for this impaired $3.2 billion portfolio the level of collateralisation on average is 55% loan to value. So, this is why there is a material, if any, ECL impact from the designation to stage 3. In terms of the capital impact, depending on which models we're using and what form of lending it is, some of the impact may manifest in RWAs, and we've seen a little bit of that in last quarter. Some of it will manifest in EEL, excess expected loss, which will go straight into our CET1. We publish these numbers, but by and large these are immaterial numbers and, again, it's all supported by the fact that we have a very strong level of collateralisation against the exposure. As we look forward, first, these customers, the specifically credit impaired customers, are current, remain current. We expect some of the pressure they're facing to ease as rates reduce and as economic activity in Hong Kong picks up. In terms of the medium-to-long-term outlook for the sector, we are actually positive. We are confident, first, in the Hong Kong economy in general to rebound, but in particular for the sector. We expect the sector's pressure will ease in the medium-to-long term, and we remain confident and positive about the sector.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RWAs increase and impact on capital due to asset quality deterioration in Hong Kong CRE\",\n  \"main_topics\": [\"RWAs increase\", \"Asset quality deterioration\", \"Capital impact\", \"Hong Kong CRE outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On capital, we've indicated a $6.4 billion increase in RWAs due to modelling adjustment.\",\n  \"answer_quote\": \"To be specific, we've adjusted the probability of default models for banks globally, and the reason we adjusted this probability of default model for banks is because we wanted to factor in some of the observations and learnings from the March 2023 crisis in the way governments have supported a bank resolution.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific figures, and aligns with the narrative of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1232,
+      "batch_seconds": 33.825311269999474
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1280,
+      "batch_seconds": 96.81079734500054
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1277,
+      "batch_seconds": 97.71949095200034
+    }
+  ],
+  "exchange_id": "fbf6b5dfe7b5-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3db6e82fa0ccb78cacb33b572e49c52cdd3f0bf3600c3413e3b866c2e5546372",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

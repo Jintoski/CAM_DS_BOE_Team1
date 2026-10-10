@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Bank capital availability and NBFI risk management\",\n  \"main_topics\": [\"US Investment Banking\", \"Capital Regulation\", \"NBFI Industry Risks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one, just looking at competitive conditions in US Investment Banking, we've had some of the peers talk about potentially very significant levels of additional capital that's available for deployment following some of the deregulation and stress test changes. And Prime appears to be one of the places that they may be looking to allocate additional capacity. So, given it's a focus for the bank, could you just talk about whether you think you have additional capital to deploy given the changes in things like stress tests and what you're seeing on product margins and that sort of thing?\",\n  \"answer_quote\": \"All right. On the first one on capital regulation or disparity, potential disparity in capital regulation between Europe, the UK and the US. Look, it is, I think, an important factor in the industry. We haven't seen ultimately what will be the changes in the US and how much the UK, which is the important jurisdiction for us as a home regulator, makes itself consistent or not. I think what I would point out on things like Prime is, we've got a good and strong market share. We work with a few important and big clients carefully. It is as much a balance sheet business as it is a capital business. And so, we think we've got the wherewithal, and given our current market position, given our product capability, given our client penetration, we've got the wherewithal to compete effectively and continue to compete effectively. Of course, it's all subject to capital rules. We'll have to see where they are, but I'm pretty confident in the strength of that business and how we will adapt overall in the Investment Bank, because ultimately, it's about that.\",\n  \"reason\": \"The response directly addresses the question about additional capital for deployment in US Investment Banking and the bank's confidence in its market position and product capability, as well as discussing NBFI industry risks and the bank's approach to credit selection and monitoring.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Discuss additional capital availability and NBFI industry risks\",\n \"main_topics\": [\"US Investment Banking\", \"Capital Regulation\", \"NBFI Industry Risks\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"Medium\",\n \"contains_numeric_evidence\": false,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Could you just talk about whether you think you have additional capital to deploy given the changes in things like stress tests and what you're seeing on product margins and that sort of thing?\",\n \"answer_quote\": \"We've got a good and strong market share. We work with a few important and big clients carefully. It is as much a balance sheet business as it is a capital business. And so, we think we've got the wherewithal, and given our current market position, given our product capability, given our client penetration, we've got the wherewithal to compete effectively and continue to compete effectively.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank capital availability and NBFI risk management\",\n  \"main_topics\": [\"US Investment Banking\", \"Capital Regulation\", \"NBFI Industry Risks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you just talk about whether you think you have additional capital to deploy given the changes in things like stress tests and what you're seeing on product margins and that sort of thing?\",\n  \"answer_quote\": \"We've got a good and strong market share. We work with a few important and big clients carefully. It is as much a balance sheet business as it is a capital business. And so, we think we've got the wherewithal, and given our current market position, given our product capability, given our client penetration, we've got the wherewithal to compete effectively and continue to compete effectively.\",\n  \"reason\": \"The answer directly addresses the question about additional capital deployment and NBFI industry risks, providing a clear stance and high evidence level with numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Bank capital availability and NBFI risk management\",\n  \"main_topics\": [\"US Investment Banking\", \"Capital Regulation\", \"NBFI Industry Risks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one, just looking at competitive conditions in US Investment Banking, we've had some of the peers talk about potentially very significant levels of additional capital that's available for deployment following some of the deregulation and stress test changes. And Prime appears to be one of the places that they may be looking to allocate additional capacity. So, given it's a focus for the bank, could you just talk about whether you think you have additional capital to deploy given the changes in things like stress tests and what you're seeing on product margins and that sort of thing?\",\n  \"answer_quote\": \"All right. On the first one on capital regulation or disparity, potential disparity in capital regulation between Europe, the UK and the US. Look, it is, I think, an important factor in the industry. We haven't seen ultimately what will be the changes in the US and how much the UK, which is the important jurisdiction for us as a home regulator, makes itself consistent or not. I think what I would point out on things like Prime is, we've got a good and strong market share. We work with a few important and big clients carefully. It is as much a balance sheet business as it is a capital business. And so, we think we've got the wherewithal, and given our current market position, given our product capability, given our client penetration, we've got the wherewithal to compete effectively and continue to compete effectively. Of course, it's all subject to capital rules. We'll have to see where they are, but I'm pretty confident in the strength of that business and how we will adapt overall in the Investment Bank, because ultimately, it's about that.\",\n  \"reason\": \"The response directly addresses the question about additional capital for deployment in US Investment Banking and the bank's confidence in its market position and product capability, as well as discussing NBFI industry risks and the bank's approach to credit selection and monitoring.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1296,
+      "batch_seconds": 43.28837274200032
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1341,
+      "batch_seconds": 98.05423513099959
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1344,
+      "batch_seconds": 94.00161404900064
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5daec43622977e21287e7d1c386ae103e915fed437e2199bd36450c8af49f9e4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

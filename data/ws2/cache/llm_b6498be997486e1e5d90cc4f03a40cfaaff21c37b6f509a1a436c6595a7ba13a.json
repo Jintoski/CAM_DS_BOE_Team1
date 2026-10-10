@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for clarification on interest rate sensitivity and US margin strategy\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"US margin strategy\", \"NIM\", \"Loyalty programs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had two questions. One was just on the BUK interest rate sensitivity. It's quite striking that you're not highlighting it at all as an impact this quarter.\",\n  \"answer_quote\": \"Thanks, Ed. I will take both of those. And on the first one, we gave you some guidance on the interest rate sensitivity in the previous quarter and that really showed for a 25 basis-point parallel shift, it was £50m in the first year.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about interest rate sensitivity and US margin strategies\",\n \"main_topics\": [\"Interest rate sensitivity\", \"US margin strategy\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I had two questions. One was just on the BUK interest rate sensitivity. It's quite striking that you're not highlighting it at all as an impact this quarter. And I think you said it was minimal or marginal. I can't remember your exact words in terms of your sensitivity to rates falling going forward?\",\n \"answer_quote\": \"Thanks, Ed. I will take both of those. And on the first one, we gave you some guidance on the interest rate sensitivity in the previous quarter and that really showed for a 25 basis-point parallel shift, it was £50m in the first year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for clarification on interest rate sensitivity and US margin strategy\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"US margin strategy\", \"NIM\", \"Loyalty programs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had two questions. One was just on the BUK interest rate sensitivity. It's quite striking that you're not highlighting it at all as an impact this quarter. And I think you said it was minimal or marginal. I can't remember your exact words in terms of your sensitivity to rates falling going forward?\",\n  \"answer_quote\": \"Thanks, Ed. I will take both of those. And on the first one, we gave you some guidance on the interest rate sensitivity in the previous quarter and that really showed for a 25 basis-point parallel shift, it was £50m in the first year. And then what you saw was that build over time and the way I think about it, Ed, is in the first year, it's dominated by the lag effect. So the 60-day regulatory lag that we have, particularly in the UK. And then in the outer years, you see the impact of the hedge grinding lower in response to that parallel movement. So that's really what's going on there.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for clarification on interest rate sensitivity and US margin strategy\",\n  \"main_topics\": [\"Interest rate sensitivity\", \"US margin strategy\", \"NIM\", \"Loyalty programs\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had two questions. One was just on the BUK interest rate sensitivity. It's quite striking that you're not highlighting it at all as an impact this quarter.\",\n  \"answer_quote\": \"Thanks, Ed. I will take both of those. And on the first one, we gave you some guidance on the interest rate sensitivity in the previous quarter and that really showed for a 25 basis-point parallel shift, it was £50m in the first year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1585,
+      "batch_seconds": 54.74402957300026
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1630,
+      "batch_seconds": 57.86427026899946
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1630,
+      "batch_seconds": 104.51589792399864
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b6498be997486e1e5d90cc4f03a40cfaaff21c37b6f509a1a436c6595a7ba13a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

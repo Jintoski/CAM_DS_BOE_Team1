@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Request for FX bottom line percentage and excess expected loss deductions\",\n  \"main_topics\": [\"FX bottom line\", \"Excess expected loss deductions\", \"PMAs\", \"ECL models\", \"Regulatory EL\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I think management have in the past given us a percentage of the bottom line, which is in dollars, on a couple of occasions. Could you give us an update on that?\",\n  \"answer_quote\": \"I don't have those numbers to hand. But if we've done it before, then perhaps we can consider giving out for Q222.\",\n  \"reason\": \"The answer partially addresses the question by acknowledging past practices and suggesting a future update, but does not provide specific numbers or a clear stance on excess expected loss deductions.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 618,
+      "batch_seconds": 15.590586241999517
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "35b9f24ce91a65944d2e80b1a2925ef82d94dfc07dc93bccd7bcb13bdfaa0d77",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Request for FX bottom line percentage and excess expected loss deductions",
+    "main_topics": [
+      "FX bottom line",
+      "Excess expected loss deductions",
+      "PMAs",
+      "ECL models",
+      "Regulatory EL"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "I think management have in the past given us a percentage of the bottom line, which is in dollars, on a couple of occasions. Could you give us an update on that?",
+    "answer_quote": "I don't have those numbers to hand. But if we've done it before, then perhaps we can consider giving out for Q222.",
+    "reason": "The answer partially addresses the question by acknowledging past practices and suggesting a future update, but does not provide specific numbers or a clear stance on excess expected loss deductions."
+  },
+  "whitespace_adjusted_quotes": []
+}

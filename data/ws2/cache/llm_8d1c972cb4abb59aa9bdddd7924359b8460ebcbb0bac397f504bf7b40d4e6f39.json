@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarification on cashflow hedge reclassification\",\n  \"main_topics\": [\"cashflow hedge reclassification\", \"error in reporting\", \"financial correction\", \"income reclassification\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Alright, thank you. There was just that one little question of what the cashflow hedge reclassification in the quarter...\",\n  \"answer_quote\": \"Yes, that reclassification is an error in reporting. It related to one geography where some of our cashflow hedges were booked wrongly between NII and non-NII, and we've done this correction. It has affected one jurisdiction. The amount is a full-year amount, so the $0.3 billion charge we've taken reflects a full-year correction, of which around a fourth relates to actually the fourth quarter. The rest is a catch up for the first three quarters of the year. Just to be clear, Robert, the total income is not affected. This is just a reclassification of income from one line item to another line item.\"\n}\n",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on cashflow hedge reclassification\",\n  \"main_topics\": [\"Cashflow Hedge Reclassification\", \"Error Correction\", \"Financial Reporting\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Alright, thank you. There was just that one little question of what the cashflow hedge reclassification in the quarter...\",\n  \"answer_quote\": \"Yes, that reclassification is an error in reporting. It related to one geography where some of our cashflow hedges were booked wrongly between NII and non-NII, and we've done this correction. It has affected one jurisdiction. The amount is a full-year amount, so the $0.3 billion charge we've taken reflects a full-year correction, of which around a fourth relates to actually the fourth quarter. The rest is a catch up for the first three quarters of the year. Just to be clear, Robert, the total income is not affected. This is just a reclassification of income from one line item to another line item.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on cashflow hedge reclassification\",\n  \"main_topics\": [\"cashflow hedge reclassification\", \"error in reporting\", \"financial correction\", \"income reclassification\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Alright, thank you. There was just that one little question of what the cashflow hedge reclassification in the quarter...\",\n  \"answer_quote\": \"Yes, that reclassification is an error in reporting. It related to one geography where some of our cashflow hedges were booked wrongly between NII and non-NII, and we've done this correction. It has affected one jurisdiction. The amount is a full-year amount, so the $0.3 billion charge we've taken reflects a full-year correction, of which around a fourth relates to actually the fourth quarter. The rest is a catch up for the first three quarters of the year. Just to be clear, Robert, the total income is not affected. This is just a reclassification of income from one line item to another line item.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on cashflow hedge reclassification\",\n  \"main_topics\": [\"cashflow hedge reclassification\", \"error in reporting\", \"financial correction\", \"income reclassification\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Alright, thank you. There was just that one little question of what the cashflow hedge reclassification in the quarter...\",\n  \"answer_quote\": \"Yes, that reclassification is an error in reporting. It related to one geography where some of our cashflow hedges were booked wrongly between NII and non-NII, and we've done this correction. It has affected one jurisdiction. The amount is a full-year amount, so the $0.3 billion charge we've taken reflects a full-year correction, of which around a fourth relates to actually the fourth quarter. The rest is a catch up for the first three quarters of the year. Just to be clear, Robert, the total income is not affected. This is just a reclassification of income from one line item to another line item.\"\n}\n",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 543,
+      "batch_seconds": 12.62525182399986
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 588,
+      "batch_seconds": 12.623332375000246
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 588,
+      "batch_seconds": 12.46537487400019
+    }
+  ],
+  "exchange_id": "618d5f0f7af5-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8d1c972cb4abb59aa9bdddd7924359b8460ebcbb0bac397f504bf7b40d4e6f39",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

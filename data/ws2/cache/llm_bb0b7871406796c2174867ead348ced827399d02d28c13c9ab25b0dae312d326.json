@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the impact of interest rate changes on Hong Kong mortgage rates and the bank's net interest income (NII) sensitivity.\",\n  \"main_topics\": [\"Hong Kong mortgage rates\", \"Net interest income sensitivity\", \"Interest rate changes\", \"Bank's financial outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So the Hong Kong mortgage, the price cap used to be prime rate minus 2.5% but it's just been reduced to 2.25%.\",\n  \"answer_quote\": \"On the mortgage rate itself, we reduced the discount on the mortgage cap by 25 basis points, so the mortgage caps now are essentially BLR minus 225 basis points.\",\n  \"reason\": \"The answer directly addresses the question about the change in Hong Kong mortgage rates and provides specific numeric evidence regarding the bank's mortgage cap adjustments.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1068,
+      "batch_seconds": 33.59942327399949
+    }
+  ],
+  "exchange_id": "a92582cac0bc-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "bb0b7871406796c2174867ead348ced827399d02d28c13c9ab25b0dae312d326",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the impact of interest rate changes on Hong Kong mortgage rates and the bank's net interest income (NII) sensitivity.",
+    "main_topics": [
+      "Hong Kong mortgage rates",
+      "Net interest income sensitivity",
+      "Interest rate changes",
+      "Bank's financial outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So the Hong Kong mortgage, the price cap used to be prime rate minus 2.5% but it's just been reduced to 2.25%.",
+    "answer_quote": "On the mortgage rate itself, we reduced the discount on the mortgage cap by 25 basis points, so the mortgage caps now are essentially BLR minus 225 basis points.",
+    "reason": "The answer directly addresses the question about the change in Hong Kong mortgage rates and provides specific numeric evidence regarding the bank's mortgage cap adjustments."
+  },
+  "whitespace_adjusted_quotes": []
+}

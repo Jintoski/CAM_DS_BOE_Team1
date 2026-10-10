@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assessing the appropriateness of a bank's earnings-call response regarding regulatory and liquidity stress testing.\",\n  \"main_topics\": [\"Regulatory stress testing\", \"Liquidity stress testing\", \"Banking standards\", \"Opportunistic tuck-ins\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"So, 34 basis points per year is definitely too high, it sounds like.\",\n  \"answer_quote\": \"I would say, to a large extent, that's how we are already thinking about our stress within the liquidity perspective.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a complete response with medium-level evidence. It contains numeric evidence with the mention of '160% or more' for LCR and aligns with the narrative of assessing regulatory and liquidity stress testing.\"\n}",
+  "data": {
+    "question_intent": "Assessing the appropriateness of a bank's earnings-call response regarding regulatory and liquidity stress testing.",
+    "main_topics": [
+      "Regulatory stress testing",
+      "Liquidity stress testing",
+      "Banking standards",
+      "Opportunistic tuck-ins"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "So, 34 basis points per year is definitely too high, it sounds like.",
+    "answer_quote": "I would say, to a large extent, that's how we are already thinking about our stress within the liquidity perspective.",
+    "reason": "The answer directly addresses the question's intent, providing a complete response with medium-level evidence. It contains numeric evidence with the mention of '160% or more' for LCR and aligns with the narrative of assessing regulatory and liquidity stress testing."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "c91814891a58-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9d8376da2c3a750dc4803d3123687a49e73965517f6f203c9f655130fc58e895"
+}

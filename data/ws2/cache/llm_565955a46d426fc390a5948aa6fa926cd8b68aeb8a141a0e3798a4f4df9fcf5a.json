@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for quantification and framing of fees\",\n  \"main_topics\": [\"Bank earnings\", \"Quantification of fees\", \"Modeling process\", \"UK macro scenario\", \"Scenario weighting\", \"Post-model adjustment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"And any quantification, any way we can frame that?\",\n  \"answer_quote\": \"I wouldn't disclose it. That line can be a bit lumpy, particularly when you're taking partners on, or indeed off. Just think of it as a multi-quarter trend. In terms of the UK [macro] scenario, we have a well-defined model process. The scenario that we use is consensus and we snap consensus at a particular point in time. Secondly, the way we weight it is that we weight the scenario using historical probabilities. You currently have a Baseline Scenario using historical probability. So, if you currently have a Baseline Scenario of X percent, what is the probability of getting to Y percent? That might be the Downside One [scenario]. They are a modelled output for us. To the extent that we have concerns about whether or not consensus is effective or is moving quickly, because clearly, the MEVs is one part of a very long modelling process, it's how your models will react to those MEVs, that will be different by business. How you weight your scenarios, again, that will be different by business. Then again, we've obviously got a fairly hefty post-model adjustment and it's reflective of all of those things together. I appreciate that looking from the outside in, it's quite difficult. Because when you take the three bigger banks, we've all gone about it in a completely different way. The only consistent output you have is coverage.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Request for quantification of fees and framing method\",\n  \"main_topics\": [\"Bank earnings\", \"Modeling process\", \"UK macro scenario\", \"Scenario weighting\", \"Post-model adjustment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"And that's through fees, presumably, then? And any quantification, any way we can frame that?\",\n  \"answer_quote\": \"I wouldn't disclose it. That line can be a bit lumpy, particularly when you're taking partners on, or indeed off. Just think of it as a multi-quarter trend. In terms of the UK [macro] scenario, we have a well-defined model process. The scenario that we use is consensus and we snap consensus at a particular point in time. Secondly, the way we weight it is that we weight the scenario using historical probabilities. You currently have a Baseline Scenario using historical probability. So, if you currently have a Baseline Scenario of X percent, what is the probability of getting to Y percent? That might be the Downside One [scenario]. They are a modelled output for us. To the extent that we have concerns about whether or not consensus is effective or is moving quickly, because clearly, the MEVs is one part of a very long modelling process, it's how your models will react to those MEVs, that will be different by business. How you weight your scenarios, again, that will be different by business. Then again, we've obviously got a fairly hefty post-model adjustment and it's reflective of all of those things together. I appreciate that looking from the outside in, it's quite difficult. Because when you take the three bigger banks, we've all gone about it in a completely different way. The only consistent output you have is coverage.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for quantification and framing of fees\",\n  \"main_topics\": [\"Bank earnings\", \"Quantification of fees\", \"Modeling process\", \"UK macro scenario\", \"Scenario weighting\", \"Post-model adjustment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"And any quantification, any way we can frame that?\",\n  \"answer_quote\": \"I wouldn't disclose it. That line can be a bit lumpy, particularly when you're taking partners on, or indeed off. Just think of it as a multi-quarter trend. In terms of the UK [macro] scenario, we have a well-defined model process. The scenario that we use is consensus and we snap consensus at a particular point in time. Secondly, the way we weight it is that we weight the scenario using historical probabilities. You currently have a Baseline Scenario using historical probability. So, if you currently have a Baseline Scenario of X percent, what is the probability of getting to Y percent? That might be the Downside One [scenario]. They are a modelled output for us. To the extent that we have concerns about whether or not consensus is effective or is moving quickly, because clearly, the MEVs is one part of a very long modelling process, it's how your models will react to those MEVs, that will be different by business. How you weight your scenarios, again, that will be different by business. Then again, we've obviously got a fairly hefty post-model adjustment and it's reflective of all of those things together. I appreciate that looking from the outside in, it's quite difficult. Because when you take the three bigger banks, we've all gone about it in a completely different way. The only consistent output you have is coverage.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for quantification and framing of fees\",\n  \"main_topics\": [\"Bank earnings\", \"Quantification of fees\", \"Modeling process\", \"UK macro scenario\", \"Scenario weighting\", \"Post-model adjustment\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Divergent\",\n  \"question_quote\": \"And any quantification, any way we can frame that?\",\n  \"answer_quote\": \"I wouldn't disclose it. That line can be a bit lumpy, particularly when you're taking partners on, or indeed off. Just think of it as a multi-quarter trend. In terms of the UK [macro] scenario, we have a well-defined model process. The scenario that we use is consensus and we snap consensus at a particular point in time. Secondly, the way we weight it is that we weight the scenario using historical probabilities. You currently have a Baseline Scenario using historical probability. So, if you currently have a Baseline Scenario of X percent, what is the probability of getting to Y percent? That might be the Downside One [scenario]. They are a modelled output for us. To the extent that we have concerns about whether or not consensus is effective or is moving quickly, because clearly, the MEVs is one part of a very long modelling process, it's how your models will react to those MEVs, that will be different by business. How you weight your scenarios, again, that will be different by business. Then again, we've obviously got a fairly hefty post-model adjustment and it's reflective of all of those things together. I appreciate that looking from the outside in, it's quite difficult. Because when you take the three bigger banks, we've all gone about it in a completely different way. The only consistent output you have is coverage.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 684,
+      "batch_seconds": 16.33152911400066
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 729,
+      "batch_seconds": 18.66627761699965
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 729,
+      "batch_seconds": 17.25838861400007
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "565955a46d426fc390a5948aa6fa926cd8b68aeb8a141a0e3798a4f4df9fcf5a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

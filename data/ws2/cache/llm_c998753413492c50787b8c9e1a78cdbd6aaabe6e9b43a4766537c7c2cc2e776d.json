@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Request for information on performance-related pay and Q2 Wealth and Private Banking business performance\",\n  \"main_topics\": [\"performance-related pay\", \"Wealth and Private Banking business performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you tell me - you've probably disclosed it somewhere and I've missed it, but performance-related pay - I see you're assuming that's going to be flat this year. Is it possible to tell us what the total quantum of that is? Because I guess there must be some potential that that may have to go up, particularly given the revenue performance.\",\n  \"answer_quote\": \"We've paid $3.8 billion through full year 2023 on performance-related pay.\",\n  \"reason\": \"The question and answer are directly related, with the answer providing a specific numeric figure for performance-related pay, which is the main topic of the question.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about performance-related pay and the Q2 performance of Wealth and Private Banking business.\",\n \"main_topics\": [\"Performance-related pay\", \"Q2 Wealth and Private Banking performance\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Could you tell me - you've probably disclosed it somewhere and I've missed it, but performance-related pay - I see you're assuming that's going to be flat this year. Is it possible to tell us what the total quantum of that is?\",\n \"answer_quote\": \"We paid $3.8 billion through full year 2023 on performance-related pay.\"\n \"reason\": \"The question is fully addressed with a direct response, including a specific numeric figure for performance-related pay, and the Q2 performance of Wealth and Private Banking is discussed with a high level of evidence.\"\n}",
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 12 column 2 (char 758)"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for information on performance-related pay and Q2 Wealth and Private Banking business performance\",\n  \"main_topics\": [\"performance-related pay\", \"Wealth and Private Banking business performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you tell me - you've probably disclosed it somewhere and I've missed it, but performance-related pay - I see you're assuming that's going to be flat this year. Is it possible to tell us what the total quantum of that is?\",\n  \"answer_quote\": \"We paid $3.8 billion through full year 2023 on performance-related pay.\",\n  \"reason\": \"The answer directly addresses the question about performance-related pay and provides a specific figure, aligning with the question's intent.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Request for information on performance-related pay and Q2 Wealth and Private Banking business performance\",\n  \"main_topics\": [\"performance-related pay\", \"Wealth and Private Banking business performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Could you tell me - you've probably disclosed it somewhere and I've missed it, but performance-related pay - I see you're assuming that's going to be flat this year. Is it possible to tell us what the total quantum of that is? Because I guess there must be some potential that that may have to go up, particularly given the revenue performance.\",\n  \"answer_quote\": \"We've paid $3.8 billion through full year 2023 on performance-related pay.\",\n  \"reason\": \"The question and answer are directly related, with the answer providing a specific numeric figure for performance-related pay, which is the main topic of the question.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1284,
+      "batch_seconds": 40.036461369000335
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1338,
+      "batch_seconds": 98.05423513099959
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1332,
+      "batch_seconds": 45.81825328599916
+    }
+  ],
+  "exchange_id": "fbf6b5dfe7b5-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c998753413492c50787b8c9e1a78cdbd6aaabe6e9b43a4766537c7c2cc2e776d",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

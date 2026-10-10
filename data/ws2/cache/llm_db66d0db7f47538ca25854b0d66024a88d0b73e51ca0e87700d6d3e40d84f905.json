@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss UK corporate loan demand, growth expectations, and capital mix strategy for HSBC.\",\n  \"main_topics\": [\n    \"UK corporate loan demand\",\n    \"Growth expectations\",\n    \"Capital mix strategy\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first, just a quick one, UK corporate, as you mentioned earlier, we saw pick up in loan demand coming through Q4 and into Q1. Can you talk about the loan demand, and what picture you're seeing today, whether or not we can continue to see that growth coming through for the remainder of the year or whether you're seeing counterparties perhaps postponing their lending?\",\n  \"answer_quote\": \"OK. Thank you. Let me start with the UK Corporate Bank. So we are seeing momentum in UK Corporate, as you call out. There's normally a fairly significant lag between putting the facilities out and corporates drawing down on them. If I were to call out any particular behaviour at the moment, I would say that's perhaps lengthening out a little, so it's not a change in demand as such, maybe just a slowing of the process. Obviously, when you get into individual sectors, that picture will be different. If you get into sectors where they have a significant exposure to import-export, then clearly they will be more cautious. But as the sector as a whole, I wouldn't say we see anything more meaningful than just a slowdown in the pull through. When I get to 2026 and beyond, I'd call out a couple of things. The first is, 2026 was designed to be a point in time. We gave you a three-year plan, it's not deemed to be an ending point for any of the metrics that we set out for you, whether that was RoTE, whether that was the proportion of capital deployment. The plan had the ultimate aim of raising the returns of the Group and making them more consistent and we believe that is driven by deploying a greater proportion of capital in the Group towards the higher returning, more stable businesses. That plan remains intact. So I wouldn't see the 50% or the 12% as being a resting point, you should expect them to progress beyond that. I'm not going to give you numbers now, I can't give you the endpoint. Think of it as a sense of direction and momentum that we would expect it to continue. Really importantly for us, we see value in having a diversified business that allows us particularly to perform in a range of environments, but we have to get the right capital balance across the Group and we're on a journey. 2026 is a staging point, that is the one that we are 100% focused on delivering right now and we'll come back to you in due course.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific references to the 2026 plan, and includes forward guidance on growth and capital mix strategy.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1148,
+      "batch_seconds": 34.982933763999426
+    }
+  ],
+  "exchange_id": "61b944164df6-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "db66d0db7f47538ca25854b0d66024a88d0b73e51ca0e87700d6d3e40d84f905",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss UK corporate loan demand, growth expectations, and capital mix strategy for HSBC.",
+    "main_topics": [
+      "UK corporate loan demand",
+      "Growth expectations",
+      "Capital mix strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first, just a quick one, UK corporate, as you mentioned earlier, we saw pick up in loan demand coming through Q4 and into Q1. Can you talk about the loan demand, and what picture you're seeing today, whether or not we can continue to see that growth coming through for the remainder of the year or whether you're seeing counterparties perhaps postponing their lending?",
+    "answer_quote": "OK. Thank you. Let me start with the UK Corporate Bank. So we are seeing momentum in UK Corporate, as you call out. There's normally a fairly significant lag between putting the facilities out and corporates drawing down on them. If I were to call out any particular behaviour at the moment, I would say that's perhaps lengthening out a little, so it's not a change in demand as such, maybe just a slowing of the process. Obviously, when you get into individual sectors, that picture will be different. If you get into sectors where they have a significant exposure to import-export, then clearly they will be more cautious. But as the sector as a whole, I wouldn't say we see anything more meaningful than just a slowdown in the pull through. When I get to 2026 and beyond, I'd call out a couple of things. The first is, 2026 was designed to be a point in time. We gave you a three-year plan, it's not deemed to be an ending point for any of the metrics that we set out for you, whether that was RoTE, whether that was the proportion of capital deployment. The plan had the ultimate aim of raising the returns of the Group and making them more consistent and we believe that is driven by deploying a greater proportion of capital in the Group towards the higher returning, more stable businesses. That plan remains intact. So I wouldn't see the 50% or the 12% as being a resting point, you should expect them to progress beyond that. I'm not going to give you numbers now, I can't give you the endpoint. Think of it as a sense of direction and momentum that we would expect it to continue. Really importantly for us, we see value in having a diversified business that allows us particularly to perform in a range of environments, but we have to get the right capital balance across the Group and we're on a journey. 2026 is a staging point, that is the one that we are 100% focused on delivering right now and we'll come back to you in due course.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific references to the 2026 plan, and includes forward guidance on growth and capital mix strategy."
+  },
+  "whitespace_adjusted_quotes": []
+}

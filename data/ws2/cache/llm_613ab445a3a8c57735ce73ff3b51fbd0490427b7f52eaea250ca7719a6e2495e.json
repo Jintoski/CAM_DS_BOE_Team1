@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions about BUK fees and RWAs\",\n  \"main_topics\": [\"BUK fees\", \"Risk-weighted assets (RWAs)\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Number one, [BUK] fees look very weak. They're down about I think, 9% year-on-year, and they're certainly annualizing at no more than about £1 billion, I guess, and that's in the UK business. So could you tell us a little bit about what's going on there and how we should expect that going forward? Is the [greater than £250 million] run-rate we should be thinking about or is there something that was in there that means it might pick up as the rest of the year progresses?\",\n  \"answer_quote\": \"So on [BUK] non-NII, we've given you guidance previously for greater than £250 million. I'd just repeat that guidance. This number can be a bit lumpy. There is no story within the Q1, beyond the fact that Q1 can sometimes be a bit light just because of lower transactional activity. And honestly, there's nothing more in there to read into. So I'd stick to the guidance of greater than £250 [million]. On RWAs, you're right, there's a bit of FX in there that's taking it downwards. We haven't elevated the SRT. We've said before that the Colonnade program, which is the one that impacts the IB, is mature and we do not expect to extend it.\",\n  \"reason\": \"The answer directly addresses both questions, providing guidance on BUK fees and explaining the RWAs' performance, with high evidence level due to the inclusion of specific figures and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1084,
+      "batch_seconds": 32.25073803899977
+    }
+  ],
+  "exchange_id": "d970c7e31290-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "613ab445a3a8c57735ce73ff3b51fbd0490427b7f52eaea250ca7719a6e2495e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions about BUK fees and RWAs",
+    "main_topics": [
+      "BUK fees",
+      "Risk-weighted assets (RWAs)"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Number one, [BUK] fees look very weak. They're down about I think, 9% year-on-year, and they're certainly annualizing at no more than about £1 billion, I guess, and that's in the UK business. So could you tell us a little bit about what's going on there and how we should expect that going forward? Is the [greater than £250 million] run-rate we should be thinking about or is there something that was in there that means it might pick up as the rest of the year progresses?",
+    "answer_quote": "So on [BUK] non-NII, we've given you guidance previously for greater than £250 million. I'd just repeat that guidance. This number can be a bit lumpy. There is no story within the Q1, beyond the fact that Q1 can sometimes be a bit light just because of lower transactional activity. And honestly, there's nothing more in there to read into. So I'd stick to the guidance of greater than £250 [million]. On RWAs, you're right, there's a bit of FX in there that's taking it downwards. We haven't elevated the SRT. We've said before that the Colonnade program, which is the one that impacts the IB, is mature and we do not expect to extend it.",
+    "reason": "The answer directly addresses both questions, providing guidance on BUK fees and explaining the RWAs' performance, with high evidence level due to the inclusion of specific figures and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

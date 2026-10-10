@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about HSBC's return profile post-Hang Seng integration and why it isn't in the high teens.\",\n  \"main_topics\": [\"HSBC's return profile\", \"Hang Seng integration\", \"ROTE target\", \"forward guidance\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Great, thanks. It's just more of a conceptual question, really, in terms of the return profile of the bank. Why isn't HSBC post-Hang Seng integration more of a high-teens bank than a mid-teens bank?\",\n  \"answer_quote\": \"Thank you, Joe. It's a really good question. As you can imagine, we in the bank obviously reflect on this very closely as well, and you'll see that we have upgraded, obviously, our guidance for this year.\",\n  \"reason\": \"The answer partially addresses the question by mentioning an upgrade in guidance but does not provide specific reasons for why HSBC's return profile isn't in the high teens, nor does it provide numeric evidence or a detailed explanation of the return profile.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Why isn't HSBC post-Hang Seng integration more of a high-teens bank than a mid-teens bank?\",\n \"main_topics\": [\"HSBC's return profile\", \"HSBC's ROTE target\", \"HSBC's future guidance\"],\n \"answer_completeness\": \"Partial\",\n \"response_stance\": \"Hedged\",\n \"evidence_level\": \"Low\",\n \"contains_numeric_evidence\": false,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Partially aligned\",\n \"question_quote\": \"Why isn't HSBC post-Hang Seng integration more of a high-teens bank than a mid-teens bank?\",\n \"answer_quote\": \"Thank you, Joe. It's a really good question. As you can imagine, we in the bank obviously reflect on this very closely as well, and you'll see that we have upgraded, obviously, our guidance for this year.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 796,
+      "batch_seconds": 20.713170187000287
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 841,
+      "batch_seconds": 22.267153798000436
+    }
+  ],
+  "exchange_id": "499cc685b9a4-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "30988d2c3ac7a13d3e119956bb8439d69295940327f5866b1be0eb4e70434564",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about HSBC's return profile post-Hang Seng integration and why it isn't in the high teens.",
+    "main_topics": [
+      "HSBC's return profile",
+      "Hang Seng integration",
+      "ROTE target",
+      "forward guidance"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Great, thanks. It's just more of a conceptual question, really, in terms of the return profile of the bank. Why isn't HSBC post-Hang Seng integration more of a high-teens bank than a mid-teens bank?",
+    "answer_quote": "Thank you, Joe. It's a really good question. As you can imagine, we in the bank obviously reflect on this very closely as well, and you'll see that we have upgraded, obviously, our guidance for this year.",
+    "reason": "The answer partially addresses the question by mentioning an upgrade in guidance but does not provide specific reasons for why HSBC's return profile isn't in the high teens, nor does it provide numeric evidence or a detailed explanation of the return profile."
+  },
+  "whitespace_adjusted_quotes": []
+}

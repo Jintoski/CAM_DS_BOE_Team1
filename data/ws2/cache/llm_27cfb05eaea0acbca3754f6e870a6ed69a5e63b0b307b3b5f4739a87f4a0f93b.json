@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Acknowledgment and transition to next question\",\n  \"main_topics\": [\"Acknowledgment\", \"Transition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you.\",\n  \"answer_quote\": \"Okay, thank you, Ben. Perhaps we could go to the next question, please.\",\n  \"reason\": \"The response directly acknowledges the previous speaker and transitions to the next question, fulfilling the intent of the question without additional evidence or forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Transition to next question\",\n  \"main_topics\": [\"Bank earnings-call\", \"Question transition\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you.\",\n  \"answer_quote\": \"Okay, thank you, Ben. Perhaps we could go to the next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 410,
+      "batch_seconds": 6.006447677000324
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 455,
+      "batch_seconds": 6.791888847999871
+    }
+  ],
+  "exchange_id": "59043c81adbf-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "27cfb05eaea0acbca3754f6e870a6ed69a5e63b0b307b3b5f4739a87f4a0f93b",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Acknowledgment and transition to next question",
+    "main_topics": [
+      "Acknowledgment",
+      "Transition"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Thank you.",
+    "answer_quote": "Okay, thank you, Ben. Perhaps we could go to the next question, please.",
+    "reason": "The response directly acknowledges the previous speaker and transitions to the next question, fulfilling the intent of the question without additional evidence or forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}

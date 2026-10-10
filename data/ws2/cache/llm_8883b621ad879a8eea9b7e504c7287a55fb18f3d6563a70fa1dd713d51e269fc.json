@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Impact of China's export dynamics on regional profitability\",\n  \"main_topics\": [\"China exports\", \"Profitability\", \"Regional impact\", \"Outward investment\", \"Asia\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On that, I've also noticed that China exports and volumes have been going up but value has been coming down. That is in part because of various things; FX is a big part of it, but also government subsidies. How does that affect your profitability in the region?\",\n  \"answer_quote\": \"Perlie, if I can just give you an indication, what we are seeing at the moment is a very strong level of activity of China corporates expanding across the rest of Asia. Our outbound activity from mainland China to the rest of the world is seeing a significant increase in activity over the past 12 months. We've seen that trend continue in the first quarter of this year. A lot of people talk about inward investment into China slowing down, but what I would say is outward investment from China to the rest of the world is actually picking up at quite a pace, a very significant pace. We're very well placed to capture that outflow, and we are capturing that outflow. Our business in mainland China performed well last year. It's performing well again in the first quarter of this year, and its outbound activity is performing extremely well. We'll give more updates on that at the half year, but we are capturing that. That is why, actually, I think the rest of Asia is performing well on balance sheet, because a lot of it is being fed by good intra-Asia activity and outbound from mainland China.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of China's export dynamics on regional profitability\",\n  \"main_topics\": [\"China exports\", \"Profitability\", \"Outward investment\", \"Asia region\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On that, I've also noticed that China exports and volumes have been going up but value has been coming down. That is in part because of various things; FX is a big part of it, but also government subsidies. How does that affect your profitability in the region?\",\n  \"answer_quote\": \"Perlie, if I can just give you an indication, what we are seeing at the moment is a very strong level of activity of China corporates expanding across the rest of Asia. Our outbound activity from mainland China to the rest of the world is seeing a significant increase in activity over the past 12 months. We've seen that trend continue in the first quarter of this year. A lot of people talk about inward investment into China slowing down, but what I would say is outward investment from China to the rest of the world is actually picking up at quite a pace, a very significant pace. We're very well placed to capture that outflow, and we are capturing that outflow. Our business in mainland China performed well last year. It's performing well again in the first quarter of this year, and its outbound activity is performing extremely well. We'll give more updates on that at the half year, but we are capturing that. That is why, actually, I think the rest of Asia is performing well on balance sheet, because a lot of it is being fed by good intra-Asia activity and outbound from mainland China.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of China's export dynamics on regional profitability\",\n  \"main_topics\": [\"China exports\", \"Profitability\", \"Regional impact\", \"Outward investment\", \"Asia\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On that, I've also noticed that China exports and volumes have been going up but value has been coming down. That is in part because of various things; FX is a big part of it, but also government subsidies. How does that affect your profitability in the region?\",\n  \"answer_quote\": \"Perlie, if I can just give you an indication, what we are seeing at the moment is a very strong level of activity of China corporates expanding across the rest of Asia. Our outbound activity from mainland China to the rest of the world is seeing a significant increase in activity over the past 12 months. We've seen that trend continue in the first quarter of this year. A lot of people talk about inward investment into China slowing down, but what I would say is outward investment from China to the rest of the world is actually picking up at quite a pace, a very significant pace. We're very well placed to capture that outflow, and we are capturing that outflow. Our business in mainland China performed well last year. It's performing well again in the first quarter of this year, and its outbound activity is performing extremely well. We'll give more updates on that at the half year, but we are capturing that. That is why, actually, I think the rest of Asia is performing well on balance sheet, because a lot of it is being fed by good intra-Asia activity and outbound from mainland China.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of China's export dynamics on regional profitability\",\n  \"main_topics\": [\"China exports\", \"Profitability\", \"Regional impact\", \"Outward investment\", \"Asia\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On that, I've also noticed that China exports and volumes have been going up but value has been coming down. That is in part because of various things; FX is a big part of it, but also government subsidies. How does that affect your profitability in the region?\",\n  \"answer_quote\": \"Perlie, if I can just give you an indication, what we are seeing at the moment is a very strong level of activity of China corporates expanding across the rest of Asia. Our outbound activity from mainland China to the rest of the world is seeing a significant increase in activity over the past 12 months. We've seen that trend continue in the first quarter of this year. A lot of people talk about inward investment into China slowing down, but what I would say is outward investment from China to the rest of the world is actually picking up at quite a pace, a very significant pace. We're very well placed to capture that outflow, and we are capturing that outflow. Our business in mainland China performed well last year. It's performing well again in the first quarter of this year, and its outbound activity is performing extremely well. We'll give more updates on that at the half year, but we are capturing that. That is why, actually, I think the rest of Asia is performing well on balance sheet, because a lot of it is being fed by good intra-Asia activity and outbound from mainland China.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 679,
+      "batch_seconds": 17.234387012000298
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 724,
+      "batch_seconds": 17.366536229999838
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 724,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "19af689d7a65-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8883b621ad879a8eea9b7e504c7287a55fb18f3d6563a70fa1dd713d51e269fc",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

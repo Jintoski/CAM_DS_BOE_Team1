@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assessing the impact of historical debt levels on current market share\",\n  \"main_topics\": [\"market share\", \"historical debt levels\", \"Brexit\", \"pandemic\", \"risk management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I take the point on persistent debt, but I think your share is still down, isn't it? I think you're now at, what, 18% of balances maybe, and it was 29/30%. But you think that is now just a historical footnote somewhere, and it doesn't give you any benefit today?\",\n  \"answer_quote\": \"I would say market share is an output. It's not a target for that team. What was really important was that we implemented those changes through Brexit. We were risk-off from that period of time of that period of time, and then again, as we went into the pandemic, you would expect us to act cautiously, going into a pandemic. We're now reversing those decisions, and we'll see where we get to, but we're not aiming to get to a magic number. It's an output, not an input. We feel like the product's very compelling, and risk is out there, so we'll just have to wait and see how they develop.\",\n  \"reason\": \"The answer partially addresses the question by discussing market share as an output and the impact of Brexit and the pandemic on risk management, but it does not directly address the historical debt levels or their current impact on market share.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing market share and its relevance\",\n  \"main_topics\": [\"market share\", \"Brexit\", \"pandemic\", \"risk management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I think you're now at, what, 18% of balances maybe, and it was 29/30%. But you think that is now just a historical footnote somewhere, and it doesn't give you any benefit today?\",\n  \"answer_quote\": \"I would say market share is an output. It's not a target for that team. What was really important was that we implemented those changes through Brexit. We were risk-off from that period of time of that period of time, and then again, as we went into the pandemic, you would expect us to act cautiously, going into a pandemic. We're now reversing those decisions, and we'll see where we get to, but we're not aiming to get to a magic number. It's an output, not an input. We feel like the product's very compelling, and risk is out there, so we'll just have to wait and see how they develop.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing bank's market share and its relevance to current performance\",\n  \"main_topics\": [\"bank market share\", \"current performance\", \"Brexit impact\", \"pandemic response\", \"future outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I take the point on persistent debt, but I think your share is still down, isn't it? I think you're now at, what, 18% of balances maybe, and it was 29/30%. But you think that is now just a historical footnote somewhere, and it doesn't give you any benefit today?\",\n  \"answer_quote\": \"I would say market share is an output. It's not a target for that team. What was really important was that we implemented those changes through Brexit. We were risk-off from that period of time of that period of time, and then again, as we went into the pandemic, you would expect us to act cautiously, going into a pandemic. We're now reversing those decisions, and we'll see where we get to, but we're not aiming to get to a magic number. It's an output, not an input. We feel like the product's very compelling, and risk is out there, so we'll just have to wait and see how they develop.\",\n  \"reason\": \"The answer addresses the question's concern about market share and its current relevance, but it hedges on the future outlook and does not provide specific numeric evidence or forward guidance.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assessing the impact of historical debt levels on current market share\",\n  \"main_topics\": [\"market share\", \"historical debt levels\", \"Brexit\", \"pandemic\", \"risk management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"I take the point on persistent debt, but I think your share is still down, isn't it? I think you're now at, what, 18% of balances maybe, and it was 29/30%. But you think that is now just a historical footnote somewhere, and it doesn't give you any benefit today?\",\n  \"answer_quote\": \"I would say market share is an output. It's not a target for that team. What was really important was that we implemented those changes through Brexit. We were risk-off from that period of time of that period of time, and then again, as we went into the pandemic, you would expect us to act cautiously, going into a pandemic. We're now reversing those decisions, and we'll see where we get to, but we're not aiming to get to a magic number. It's an output, not an input. We feel like the product's very compelling, and risk is out there, so we'll just have to wait and see how they develop.\",\n  \"reason\": \"The answer partially addresses the question by discussing market share as an output and the impact of Brexit and the pandemic on risk management, but it does not directly address the historical debt levels or their current impact on market share.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 578,
+      "batch_seconds": 12.588194320999719
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 623,
+      "batch_seconds": 14.27197855400118
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 626,
+      "batch_seconds": 14.608119999000337
+    }
+  ],
+  "exchange_id": "40fbb063266a-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e7315519ce1dce77542862fc7915cadd1eb4170c54c65656cfff9aadaea49b54",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

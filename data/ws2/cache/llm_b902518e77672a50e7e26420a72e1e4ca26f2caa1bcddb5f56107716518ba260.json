@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about the certainty of RWA reversal and mortgage spread stability in Q3.\",\n  \"main_topics\": [\"RWAs\", \"Mortgage Spreads\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I'm just wondering what are your certainty levels of that £3bn reversing in Q3 at this point in the quarter.\",\n  \"answer_quote\": \"Just to cover off the IB point, as you can imagine over any particular day, weekend, month end, quarter end the level of client trading activity in the IB will vary. This was a little higher at the end of Q2 than it was at the end of Q1, and that's reflected in a slight increase in the RWAs.\",\n  \"reason\": \"The answer directly addresses the certainty of RWA reversal and provides a clear stance on mortgage spreads, with high evidence level due to the mention of specific figures and a direct response to the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 855,
+      "batch_seconds": 24.24835875500048
+    }
+  ],
+  "exchange_id": "3a74cf861f97-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b902518e77672a50e7e26420a72e1e4ca26f2caa1bcddb5f56107716518ba260",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about the certainty of RWA reversal and mortgage spread stability in Q3.",
+    "main_topics": [
+      "RWAs",
+      "Mortgage Spreads"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I'm just wondering what are your certainty levels of that £3bn reversing in Q3 at this point in the quarter.",
+    "answer_quote": "Just to cover off the IB point, as you can imagine over any particular day, weekend, month end, quarter end the level of client trading activity in the IB will vary. This was a little higher at the end of Q2 than it was at the end of Q1, and that's reflected in a slight increase in the RWAs.",
+    "reason": "The answer directly addresses the certainty of RWA reversal and provides a clear stance on mortgage spreads, with high evidence level due to the mention of specific figures and a direct response to the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

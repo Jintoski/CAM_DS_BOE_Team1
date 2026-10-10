@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss IB costs, efficiency, and ring fencing reform\",\n  \"main_topics\": [\"IB costs and efficiency\", \"ring fencing and customer protection\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"First on IB, specifically around cost. So revenues beat by 9%, but cost miss is only 1%. So how should we think about costs in the IB, and in relation to revenue, and maybe phasing?\",\n  \"answer_quote\": \"Okay, thank you. Let me just start with costs in the IB, I mean not cost, but efficiency. So efficiency is a really key part of the plan to create higher and more consistent returns in the IB.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a detailed explanation of the bank's approach to costs and efficiency in the IB, and its stance on ring fencing and customer protection, with high evidence level due to the inclusion of specific figures and plans.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1102,
+      "batch_seconds": 33.84535162700013
+    }
+  ],
+  "exchange_id": "61b944164df6-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "92fff6abb4f787f07ce1ad0d4eac253d2901483fccbc6fa7c87122b0a698a40c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss IB costs, efficiency, and ring fencing reform",
+    "main_topics": [
+      "IB costs and efficiency",
+      "ring fencing and customer protection"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "First on IB, specifically around cost. So revenues beat by 9%, but cost miss is only 1%. So how should we think about costs in the IB, and in relation to revenue, and maybe phasing?",
+    "answer_quote": "Okay, thank you. Let me just start with costs in the IB, I mean not cost, but efficiency. So efficiency is a really key part of the plan to create higher and more consistent returns in the IB.",
+    "reason": "The answer directly addresses the question's intent, providing a detailed explanation of the bank's approach to costs and efficiency in the IB, and its stance on ring fencing and customer protection, with high evidence level due to the inclusion of specific figures and plans."
+  },
+  "whitespace_adjusted_quotes": []
+}

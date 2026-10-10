@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank earnings-call questions on RoTE target and cost actions impact\",\n  \"main_topics\": [\"RoTE target\", \"Cost actions\", \"Revenue impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"One is, again, just when you're talking about the mid-teens RoTE target, so this year on a reported basis it was 14.6%, on ex. notable items 16%. I just wanted to see, are you thinking about that more in line with the underlying ex. notable items level that you've achieved this year and that you can maintain that given the cost savings and wealth management growth that you're targeting, or are you looking at it closer to the reported number that you achieved in 2024?\",\n  \"answer_quote\": \"What we mean by mid-teens is around 14% to 16%, and our target is on return on tangible equity excluding notable items. This is how you should look at it.\",\n  \"reason\": \"The response directly addresses the RoTE target question and provides a clear stance on the cost actions and their expected revenue impact, with high evidence level due to the inclusion of specific figures and a clear explanation.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Clarification on RoTE target and revenue impact of cost actions\",\n \"main_topics\": [\"RoTE target\", \"Revenue impact of cost actions\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": false,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"One is, again, just when you're talking about the mid-teens RoTE target, so this year on a reported basis it was 14.6%, on ex. notable items 16%. I just wanted to see, are you thinking about that more in line with the underlying ex. notable items level that you've achieved this year and that you can maintain that given the cost savings and wealth management growth that you're targeting, or are you looking at it closer to the reported number that you achieved in 2024?\",\n \"answer_quote\": \"What we mean by mid-teens is around 14% to 16%, and our target is on return on tangible equity excluding notable items. This is how you should look at it.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1050,
+      "batch_seconds": 30.375494398999763
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1095,
+      "batch_seconds": 32.946076596999774
+    }
+  ],
+  "exchange_id": "5a6c7a6247ee-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5f9aa399c0b5476fa84e61a1e5acce79c4e743601d1d4bbdf5d7818d608096b6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank earnings-call questions on RoTE target and cost actions impact",
+    "main_topics": [
+      "RoTE target",
+      "Cost actions",
+      "Revenue impact"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "One is, again, just when you're talking about the mid-teens RoTE target, so this year on a reported basis it was 14.6%, on ex. notable items 16%. I just wanted to see, are you thinking about that more in line with the underlying ex. notable items level that you've achieved this year and that you can maintain that given the cost savings and wealth management growth that you're targeting, or are you looking at it closer to the reported number that you achieved in 2024?",
+    "answer_quote": "What we mean by mid-teens is around 14% to 16%, and our target is on return on tangible equity excluding notable items. This is how you should look at it.",
+    "reason": "The response directly addresses the RoTE target question and provides a clear stance on the cost actions and their expected revenue impact, with high evidence level due to the inclusion of specific figures and a clear explanation."
+  },
+  "whitespace_adjusted_quotes": []
+}

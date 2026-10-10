@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer for BoE research\",\n  \"main_topics\": [\"Q1 earnings\", \"NII expectations\", \"Cost:income ratio\", \"Investment strategy\", \"US Consumer Bank\", \"Shareholder distributions\", \"Capitalization\", \"Business investment\", \"Cost:income ratio\", \"NII expectations\", \"Investment strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to check, I think you made an earlier comment from the call to suggest maybe that wasn't the case. So can I just sort of check that comment you made earlier in terms of when we get back to that Q1 run-rate.\",\n  \"answer_quote\": \"Okay, thank you, Guy. So if you recall, and clearly you do, in Q1, I said I felt that Q1 was a good basis for subsequent quarters.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Assess bank's Q1 earnings, NII expectations, and cost-to-income ratio for 2028\",\n \"main_topics\": [\"Q1 earnings\", \"NII expectations\", \"cost-to-income ratio\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"I just want to check, I think you made an earlier comment from the call to suggest maybe that wasn't the case. So can I just sort of check that comment you made earlier in terms of when we get back to that Q1 run-rate.\",\n \"answer_quote\": \"Okay, thank you, Guy. So if you recall, and clearly you do, in Q1, I said I felt that Q1 was a good basis for subsequent quarters.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer for BoE research\",\n  \"main_topics\": [\"Q1 earnings\", \"NII expectations\", \"Cost: income ratio\", \"Investment strategy\", \"US Consumer Bank\", \"Shareholder distributions\", \"Capitalization\", \"Business investment\", \"Cost: income ratio\", \"NII expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to check, I think you made an earlier comment from the call to suggest maybe that wasn't the case. So can I just sort of check that comment you made earlier in terms of when we get back to that Q1 run-rate.\",\n  \"answer_quote\": \"Okay, thank you, Guy. So if you recall, and clearly you do, in Q1, I said I felt that Q1 was a good basis for subsequent quarters.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assess bank earnings-call question and answer for BoE research\",\n  \"main_topics\": [\"Q1 earnings\", \"NII expectations\", \"Cost:income ratio\", \"Investment strategy\", \"US Consumer Bank\", \"Shareholder distributions\", \"Capitalization\", \"Business investment\", \"Cost:income ratio\", \"NII expectations\", \"Investment strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I just want to check, I think you made an earlier comment from the call to suggest maybe that wasn't the case. So can I just sort of check that comment you made earlier in terms of when we get back to that Q1 run-rate.\",\n  \"answer_quote\": \"Okay, thank you, Guy. So if you recall, and clearly you do, in Q1, I said I felt that Q1 was a good basis for subsequent quarters.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1590,
+      "batch_seconds": 103.67732233900006
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1635,
+      "batch_seconds": 57.86427026899946
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1635,
+      "batch_seconds": 58.222243031999824
+    }
+  ],
+  "exchange_id": "59043c81adbf-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "07913b5cb96a0e7bc3ac3f483ea23889c5470fdeca3427adc9b27ed96d33a7d8",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

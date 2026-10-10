@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Explaining differences in NIM and customer behavior at Barclays UK\",\n  \"main_topics\": [\n    \"NIM expectations\",\n    \"customer base differences\",\n    \"inflationary pressures\",\n    \"mortgage repayments\",\n    \"IB franchise and Basel 4\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Back to Barclays UK and NIM. It feels like there's a slightly bigger step change in expectations for BUK versus some peers at Q2, so I'm just trying to get to the bottom of why that is. Is it simply a reflection of greater conservatism or is it something about the customer base which is slightly different from peers?\",\n  \"answer_quote\": \"Okay, so back to Barclays UK and NIM, is it conservatism or mix? I think we've been quite clear about what we expect to happen. It sounds like there are some differences in core assumptions that we are making, and I would say they're probably about unsecured [lending], what happens to deposit balances, and also what happens on pass through. So I would say all three of those are probably differences in expectations that we've articulated versus some of our peers.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific references to Barclays' expectations, and includes numeric evidence and forward guidance. The narrative is aligned with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Explaining differences in NIM expectations and the impact of inflationary pressures and Basel 4 on Barclays UK\",\n \"main_topics\": [\"NIM expectations\", \"Inflationary pressures\", \"Basel 4\", \"Mortgage repayments\", \"IB franchise\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"Back to Barclays UK and NIM. It feels like there's a slightly bigger step change in expectations for BUK versus some peers at Q2, so I'm just trying to get to the bottom of why that is. Is it simply a reflection of greater conservatism or is it something about the customer base which is slightly different from peers?\",\n \"answer_quote\": \"Okay, so back to Barclays UK and NIM, is it conservatism or mix? I think we've been quite clear about what we expect to happen. It sounds like there are some differences in core assumptions that we are making, and I would say they're probably about unsecured [lending], what happens to deposit balances, and also what happens on pass through. So I would say all three of those are probably differences in expectations that we've articulated versus some of our peers.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1451,
+      "batch_seconds": 46.656300270999964
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1496,
+      "batch_seconds": 101.02394661499966
+    }
+  ],
+  "exchange_id": "7c783b078a7c-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "c877d226b41cdc8529409432c95ecdd34c81fe87a6a2b19d2fd28d3879059fb7",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Explaining differences in NIM and customer behavior at Barclays UK",
+    "main_topics": [
+      "NIM expectations",
+      "customer base differences",
+      "inflationary pressures",
+      "mortgage repayments",
+      "IB franchise and Basel 4"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Back to Barclays UK and NIM. It feels like there's a slightly bigger step change in expectations for BUK versus some peers at Q2, so I'm just trying to get to the bottom of why that is. Is it simply a reflection of greater conservatism or is it something about the customer base which is slightly different from peers?",
+    "answer_quote": "Okay, so back to Barclays UK and NIM, is it conservatism or mix? I think we've been quite clear about what we expect to happen. It sounds like there are some differences in core assumptions that we are making, and I would say they're probably about unsecured [lending], what happens to deposit balances, and also what happens on pass through. So I would say all three of those are probably differences in expectations that we've articulated versus some of our peers.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific references to Barclays' expectations, and includes numeric evidence and forward guidance. The narrative is aligned with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

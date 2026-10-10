@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquire about NII, product margin impacts, and USCB margins\",\n  \"main_topics\": [\"NII\", \"Product Margin Impacts\", \"USCB Margins\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A couple of more questions on NII, please. So, the product margin side of things, can I just dig a little bit deeper [on] that? So, I think previously you said that the mortgage compression from the COVID-era mortgages rolling of would be about £100 million. How far are we in that?\",\n  \"answer_quote\": \"Okay, thank you, Perlie. I will take both of those. So, our product margin impacts in Q1 are as we guided and they're in line with our expectations. And I'm going to merge your two NII questions, if I may Perlie, because actually that product dilution is coming from both mortgages and from deposits.\",\n  \"reason\": \"The answer directly addresses the NII, product margin impacts, and USCB margins, providing a complete response with high evidence level, including numeric evidence and forward guidance, and is aligned with the question's topics.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n \"question_intent\": \"Inquire about NII, product margin impacts, and USCB margins\",\n \"main_topics\": [\"NII\", \"Product Margin Impacts\", \"USCB Margins\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"A couple of more questions on NII, please. So, the product margin side of things, can I just dig a little bit deeper [on] that? So, I think previously you said that the mortgage compression from the COVID-era mortgages rolling of would be about £100 million. How far are we in that? Because presumably, as you said, some of the volumes that might be rolling of in Q2 probably got pulled forward in Q1. And then with swap rates volatility, can you comment on what you're seeing in terms of front-end margins as well? And then on the deposit side, I suppose the competition has been maybe a little bit higher, partly reflecting seasonality as well. So, when you said that you expect product margin to be similar next quarter, is that more mortgages or is it more deposits? If you could just help us understand that a little bit better. And then on the USCB as well, you commented that margins were quite high this quarter, there's a big improvement. Obviously, there will be some mechanical improvements further from the American Airlines exit. But how much more sort of underlying improvement can we expect from pricing and from deposit mix, et cetera?\",\n \"answer_quote\": \"Okay, thank you, Perlie. I will take both of those. So, our product margin impacts in Q1 are as we guided and they're in line with our expectations. And I'm going to merge your two NII questions, if I may Perlie, because actually that product dilution is coming from both mortgages and from deposits. In mortgages, we are seeing the impacts that we called out at the full year, and that's the maturation of the COVID-era loans coming through as expected. Somewhat offsetting that, we are seeing better performance from more recent vintages, where we are seeing better retention. So that's a slight positive impact in mortgages. And we are seeing the impact of deposit margin compression coming through in there. I expect it to be broadly similar in Q2, Perlie, with all of those factors continuing. And that's simply because of the timing of the maturity of mortgages. But also, very importantly, remember deposit competition in the UK tends to be concentrated in Q1 and Q2 because of the ISA season. Thereafter, we would expect that product margin compression to ease of a little. What's different from when I spoke to you at the full year is we now do expect NII growth in Q2. We expected it to be broadly flat previously. Now we expect growth into Q2, and then to continue growing quarterly thereafter, and to grow year-on-year in every single quarter of the year. When I think about what's happening in the mortgage market, we have seen a pull forward of applications, but they have not yet completed. So, March was a very, very large month for applications, and I think that just speaks to the volatility in the rate environment and customers seeking to lock in. To give you an idea, for our June maturities, we've seen roughly double the number of customers lock in by this stage than we would ordinarily. But that hasn't completed yet, it's going to complete through Q2 and Q3. Margins remain fairly robust. Clearly rates are moving around, but so are swaps, and they tend to move in alignment with one another. So that's what's happening in terms of BUK NII. In terms of USCB, the net interest income there is a little higher than we anticipated, but not significantly so, and I wouldn't call out anything in particular. The repricing impacts have worked their way through now, but we will continue to see ongoing beneficial, both NIM impacts and net risk-adjusted margin impacts from continuing to rebalance the book from just travel and entertainment towards a bit more retail. So you're obviously going to see a step change over the next quarter, but that will be an ongoing impact. And I just call out here also our progress in deposits. Really pleased with that, our retail deposits are now 76% of our overall funding. That's higher than the target that we gave you of 75% by the end of '26, and that has been disproportionately driven by some of the partnerships. So, you're going to continue to see margin accretion, but obviously it will be more pronounced over the next quarter or so. But thank you for the questions. Can we go to the next question please?\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about NII, product margins, and USCB margins\",\n  \"main_topics\": [\"NII\", \"Product margins\", \"USCB margins\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"A couple of more questions on NII, please. So, the product margin side of things, can I just dig a little bit deeper [on] that? So, I think previously you said that the mortgage compression from the COVID-era mortgages rolling of would be about £100 million. How far are we in that?\",\n  \"answer_quote\": \"Okay, thank you, Perlie. I will take both of those. So, our product margin impacts in Q1 are as we guided and they're in line with our expectations. And I'm going to merge your two NII questions, if I may Perlie, because actually that product dilution is coming from both mortgages and from deposits.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1278,
+      "batch_seconds": 39.33959417799997
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1323,
+      "batch_seconds": 42.72194012299951
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1323,
+      "batch_seconds": 45.81825328599916
+    }
+  ],
+  "exchange_id": "a91585caef10-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "52c27cbd6e86130c5838aacdd2e7c870622ed80d48855bb0db7bb36962e317e4",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquire about NII, product margin impacts, and USCB margins",
+    "main_topics": [
+      "NII",
+      "Product Margin Impacts",
+      "USCB Margins"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "A couple of more questions on NII, please. So, the product margin side of things, can I just dig a little bit deeper [on] that? So, I think previously you said that the mortgage compression from the COVID-era mortgages rolling of would be about £100 million. How far are we in that?",
+    "answer_quote": "Okay, thank you, Perlie. I will take both of those. So, our product margin impacts in Q1 are as we guided and they're in line with our expectations. And I'm going to merge your two NII questions, if I may Perlie, because actually that product dilution is coming from both mortgages and from deposits.",
+    "reason": "The answer directly addresses the NII, product margin impacts, and USCB margins, providing a complete response with high evidence level, including numeric evidence and forward guidance, and is aligned with the question's topics."
+  },
+  "whitespace_adjusted_quotes": []
+}

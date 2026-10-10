@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Seeking explanation for change in duration targeting and confidence in the change\",\n  \"main_topics\": [\"duration targeting\", \"seven-year swap rate\", \"structural hedge book\", \"customer and client behavior\", \"deposit books performance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I think today, in [your] guidance, it's the first time you've pointed us to the seven-year swap rate from the five-year swap rate on the [structural] hedge book. And could you talk about, is there a change in kind of the duration targeting there and what gives you the confidence to make that change? You're looking at deposit betas, etc?\",\n  \"answer_quote\": \"We actually extended the length of the hedge last year and taking it from roughly three years to three and a half and that's why the seven-year swap rates becomes the most relevant rate. That really follows the observation of customer and client behaviour, because what we do is every single month, we are looking at how the deposit books perform across Retail and Corporate at a very, very granular level. And what we were observing was really that the customer and client lives were lengthening out and we were getting more confidence around that. So, it's purely a reflection of that change.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with a specific numeric change in the hedge duration, and aligns with the narrative of changing customer and client behavior.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Duration targeting change and confidence in the decision\",\n  \"main_topics\": [\"Duration targeting\", \"Confidence in decision\", \"Hedge book length\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is there a change in kind of the duration targeting there and what gives you the confidence to make that change?\",\n  \"answer_quote\": \"We actually extended the length of the hedge last year and taking it from roughly three years to three and a half and that's why the seven-year swap rates becomes the most relevant rate.\",\n  \"reason\": \"The answer directly addresses the change in duration targeting and the confidence behind it, providing a specific example of the hedge book length extension and its relevance to the seven-year swap rate.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 577,
+      "batch_seconds": 12.588194320999719
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 625,
+      "batch_seconds": 14.894256813000538
+    }
+  ],
+  "exchange_id": "f7f72b2656e8-x004",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9f118b08230d7862d28d864cd44a5f1ccea1a1b31979eb15cdecefc20291970e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Seeking explanation for change in duration targeting and confidence in the change",
+    "main_topics": [
+      "duration targeting",
+      "seven-year swap rate",
+      "structural hedge book",
+      "customer and client behavior",
+      "deposit books performance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I think today, in [your] guidance, it's the first time you've pointed us to the seven-year swap rate from the five-year swap rate on the [structural] hedge book. And could you talk about, is there a change in kind of the duration targeting there and what gives you the confidence to make that change? You're looking at deposit betas, etc?",
+    "answer_quote": "We actually extended the length of the hedge last year and taking it from roughly three years to three and a half and that's why the seven-year swap rates becomes the most relevant rate. That really follows the observation of customer and client behaviour, because what we do is every single month, we are looking at how the deposit books perform across Retail and Corporate at a very, very granular level. And what we were observing was really that the customer and client lives were lengthening out and we were getting more confidence around that. So, it's purely a reflection of that change.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with a specific numeric change in the hedge duration, and aligns with the narrative of changing customer and client behavior."
+  },
+  "whitespace_adjusted_quotes": []
+}

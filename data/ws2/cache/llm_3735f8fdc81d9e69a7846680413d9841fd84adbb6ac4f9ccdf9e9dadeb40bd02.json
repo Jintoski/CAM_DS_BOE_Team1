@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on net interest income guidance and IFRS 17 impact\",\n  \"main_topics\": [\n    \"Net Interest Income (NII) guidance\",\n    \"IFRS 17 impact on P&L\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can I just squeeze in two questions, please? Sorry to come back to net interest income, but the guide for next year I am really struggling to make sense of.\",\n  \"answer_quote\": \"Well, look, to start with IFRS 17, I appreciate that we're in an awkward phase at the minute with some of you modelling IFRS 17 numbers in terms of your forecasts and some of you still on IFRS 4. We're not able to - and we're giving our guidance at the moment based on IFRS 4 rather than IFRS 17.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing clarification on NII guidance and explaining the current inability to provide IFRS 17 impact due to ongoing transition.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1179,
+      "batch_seconds": 37.95864154999981
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x013",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3735f8fdc81d9e69a7846680413d9841fd84adbb6ac4f9ccdf9e9dadeb40bd02",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on net interest income guidance and IFRS 17 impact",
+    "main_topics": [
+      "Net Interest Income (NII) guidance",
+      "IFRS 17 impact on P&L"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Can I just squeeze in two questions, please? Sorry to come back to net interest income, but the guide for next year I am really struggling to make sense of.",
+    "answer_quote": "Well, look, to start with IFRS 17, I appreciate that we're in an awkward phase at the minute with some of you modelling IFRS 17 numbers in terms of your forecasts and some of you still on IFRS 4. We're not able to - and we're giving our guidance at the moment based on IFRS 4 rather than IFRS 17.",
+    "reason": "The answer directly addresses the question's intent, providing clarification on NII guidance and explaining the current inability to provide IFRS 17 impact due to ongoing transition."
+  },
+  "whitespace_adjusted_quotes": []
+}

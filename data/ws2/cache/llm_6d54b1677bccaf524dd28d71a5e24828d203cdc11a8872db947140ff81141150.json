@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarify margin rates for large corporate clients\",\n  \"main_topics\": [\"margin rates\", \"corporate clients\", \"money management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On the margin piece, that's because you effectively pay wholesale rates to your large corporate clients, or close to?\",\n  \"answer_quote\": \"If you're a large corporate and multi-banked and you've got a treasurer managing your money, then your ability to move your money around and get the best rates is fairly easy. Also, these are really important clients to us; they are, as I say, a key part of the franchise.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify margin rates for large corporate clients\",\n  \"main_topics\": [\"Margin rates\", \"Large corporate clients\", \"Wholesale rates\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the margin piece, that's because you effectively pay wholesale rates to your large corporate clients, or close to?\",\n  \"answer_quote\": \"If you're a large corporate and multi-banked and you've got a treasurer managing your money, then your ability to move your money around and get the best rates is fairly easy.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify margin rates for large corporate clients\",\n  \"main_topics\": [\"margin rates\", \"corporate clients\", \"money management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On the margin piece, that's because you effectively pay wholesale rates to your large corporate clients, or close to?\",\n  \"answer_quote\": \"If you're a large corporate and multi-banked and you've got a treasurer managing your money, then your ability to move your money around and get the best rates is fairly easy. Also, these are really important clients to us; they are, as I say, a key part of the franchise.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify margin rates for large corporate clients\",\n  \"main_topics\": [\"margin rates\", \"corporate clients\", \"money management\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"On the margin piece, that's because you effectively pay wholesale rates to your large corporate clients, or close to?\",\n  \"answer_quote\": \"If you're a large corporate and multi-banked and you've got a treasurer managing your money, then your ability to move your money around and get the best rates is fairly easy. Also, these are really important clients to us; they are, as I say, a key part of the franchise.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 485,
+      "batch_seconds": 10.181106705000275
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 530,
+      "batch_seconds": 10.852135373001147
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 530,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "f3114cdb5d2d-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6d54b1677bccaf524dd28d71a5e24828d203cdc11a8872db947140ff81141150",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

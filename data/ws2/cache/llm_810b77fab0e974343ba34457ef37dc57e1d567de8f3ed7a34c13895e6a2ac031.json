@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Capital requirements and AT1 issuance strategy\",\n  \"main_topics\": [\"AT1 issuance\", \"Capital requirements\", \"Regulatory debate\", \"PRA stance\", \"Operating entity leverage constraints\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"As we think forward towards an update from the Bank of England, is there anything you're particularly focused on for HSBC which you think would move the needle in terms of your requirements, which you think there's a realistic chance of some changes?\",\n  \"answer_quote\": \"Our plan for this year was around $4 billion of AT1 issuance, and we've issued $4 billion, so we're pretty much done in terms of our plan.\",\n  \"reason\": \"The answer directly addresses the question about AT1 issuance and capital requirements, providing specific figures and the bank's stance on regulatory debates, aligning with the question's intent.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 848,
+      "batch_seconds": 23.558009484999275
+    }
+  ],
+  "exchange_id": "2d9a21ff1167-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "810b77fab0e974343ba34457ef37dc57e1d567de8f3ed7a34c13895e6a2ac031",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Capital requirements and AT1 issuance strategy",
+    "main_topics": [
+      "AT1 issuance",
+      "Capital requirements",
+      "Regulatory debate",
+      "PRA stance",
+      "Operating entity leverage constraints"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "As we think forward towards an update from the Bank of England, is there anything you're particularly focused on for HSBC which you think would move the needle in terms of your requirements, which you think there's a realistic chance of some changes?",
+    "answer_quote": "Our plan for this year was around $4 billion of AT1 issuance, and we've issued $4 billion, so we're pretty much done in terms of our plan.",
+    "reason": "The answer directly addresses the question about AT1 issuance and capital requirements, providing specific figures and the bank's stance on regulatory debates, aligning with the question's intent."
+  },
+  "whitespace_adjusted_quotes": []
+}

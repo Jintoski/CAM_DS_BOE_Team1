@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Future deposit trajectory and market competition\",\n  \"main_topics\": [\"deposit trajectory\", \"market competition\", \"hedge impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do you have a view going into next year in terms of deposit trajectory given what you're seeing in terms of competition in the market?\",\n  \"answer_quote\": \"What I'm not going to do is give you a 2024 NIM outlook.\",\n  \"reason\": \"The answer partially addresses the question by discussing factors affecting the deposit trajectory but does not provide a specific view for 2024, and it hedges the response without giving a clear stance.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Future deposit trajectory and market competition\",\n  \"main_topics\": [\"Deposit trajectory\", \"Market competition\", \"Structural hedge\", \"Mortgage churn\", \"Customer deposit behaviour\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do you have a view going into next year in terms of deposit trajectory given what you're seeing in terms of competition in the market?\",\n  \"answer_quote\": \"What I'm not going to do is give you a 2024 NIM outlook. What I can tell you is that there are three factors that we're looking at. One is positive, one is neutral and one is more negative.\",\n  \"reason\": \"The answer partially addresses the question by discussing factors affecting the deposit trajectory but does not provide a specific view for 2024, hence 'Partial'. The stance is 'Hedged' as the speaker avoids giving a definitive NIM outlook. The evidence level is 'Medium' due to the mention of factors without specific figures. The narrative is 'Partially aligned' as it touches on relevant topics but does not fully align with the question's request for a view on the next year's deposit trajectory.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future deposit trajectory and market competition\",\n  \"main_topics\": [\"deposit trajectory\", \"market competition\", \"hedge\", \"deposit behaviour\", \"mortgage churn\", \"economic environment\", \"structural hedge\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do you have a view going into next year in terms of deposit trajectory given what you're seeing in terms of competition in the market?\",\n  \"answer_quote\": \"What I'm not going to do is give you a 2024 NIM outlook. What I can tell you is that there are three factors that we're looking at. One is positive, one is neutral and one is more negative.\",\n  \"reason\": \"The answer partially addresses the question by discussing factors affecting the deposit trajectory but does not provide a specific view for 2024, hence 'Partial'. The stance is 'Hedged' as the speaker avoids giving a direct NIM outlook. Evidence level is 'Low' due to the lack of specific figures or detailed analysis. Narrative alignment is 'Partially aligned' as the response touches on relevant topics but does not fully align with the question's request for a view on the next year's deposit trajectory.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future deposit trajectory and market competition\",\n  \"main_topics\": [\"deposit trajectory\", \"market competition\", \"hedge impact\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Do you have a view going into next year in terms of deposit trajectory given what you're seeing in terms of competition in the market?\",\n  \"answer_quote\": \"What I'm not going to do is give you a 2024 NIM outlook.\",\n  \"reason\": \"The answer partially addresses the question by discussing factors affecting the deposit trajectory but does not provide a specific view for 2024, and it hedges the response without giving a clear stance.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 656,
+      "batch_seconds": 17.227680126999985
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 704,
+      "batch_seconds": 16.73286601899963
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 710,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "4e98e4abfb11-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b5fbb055dba2a9aa0d2dfeec87867da68789d91bc929116d9cf5dbaa7e3692ec",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

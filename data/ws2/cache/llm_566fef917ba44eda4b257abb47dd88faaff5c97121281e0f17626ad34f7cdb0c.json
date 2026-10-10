@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiry about bank's future plans in buy-now-pay-later market\",\n  \"main_topics\": [\"buy-now-pay-later ambitions\", \"regulation\", \"customer care\", \"financing activities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Can you just talk a little bit about your ambitions to enter the buy-now-pay-later space?\",\n  \"answer_quote\": \"We are actually in the buy-now-pay-later business today, but in a regulated way.\",\n  \"reason\": \"The answer deflects from the direct question about future ambitions by stating the current position and regulatory stance, without providing a clear future plan.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about bank's future plans in buy-now-pay-later market\",\n  \"main_topics\": [\"buy-now-pay-later ambitions\", \"regulation\", \"bank activities\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Can you just talk a little bit about your ambitions to enter the buy-now-pay-later space?\",\n  \"answer_quote\": \"We are actually in the buy-now-pay-later business today, but in a regulated way. What we're not going to do is get into the unregulated buy-now-pay-later space, which we think may not be long unregulated.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 543,
+      "batch_seconds": 12.62525182399986
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 588,
+      "batch_seconds": 12.623332375000246
+    }
+  ],
+  "exchange_id": "b201a3107d88-x015",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "566fef917ba44eda4b257abb47dd88faaff5c97121281e0f17626ad34f7cdb0c",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiry about bank's future plans in buy-now-pay-later market",
+    "main_topics": [
+      "buy-now-pay-later ambitions",
+      "regulation",
+      "customer care",
+      "financing activities"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Deflecting",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Can you just talk a little bit about your ambitions to enter the buy-now-pay-later space?",
+    "answer_quote": "We are actually in the buy-now-pay-later business today, but in a regulated way.",
+    "reason": "The answer deflects from the direct question about future ambitions by stating the current position and regulatory stance, without providing a clear future plan."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Expectations on T&E and variable compensation in 2022\",\n  \"main_topics\": [\"T&E costs\", \"variable compensation\", \"2022 cost expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And just on the costs - if you're saying the T&E has basically been delayed and that's the offset, presumably you do expect the T&E to come back in 2022, so is the hope that that variable comp may also reverse slightly at that point?\",\n  \"answer_quote\": \"I think I would describe it as our margin for error in 2022 has tightened because of that pay pressure that we're seeing relative to what we previously thought. You're right that those Covid-related savings should get back to more normal levels or what we describe as more normal levels in 2022 onwards, but also I think, embedded in that is new normal versus old normal, for example we've reduced our travel budget. If you looked in 2019, we were spending about $400 million a year. We have taken that down to a run rate $200 million a year for planning purposes going forward from 2022 onwards. We've talked about the big savings that we see in head office expenses - getting out of 40% of our own real estate ex-branches over the next few years, which will reduce that part of our cost structure by just over 20%, but you're right that those numbers were already embedded into our full-year 2022 cost target. So the other thing, again just for all of you, our cost target was based on constant FX, so what was $31 billion today is about $31.5 billion of cost for 2022.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Expectations for T&E and variable compensation in 2022\",\n  \"main_topics\": [\"T&E costs\", \"variable compensation\", \"cost targets\", \"travel budget\", \"head office expenses\", \"real estate\", \"FX impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And just on the costs - if you're saying the T&E has basically been delayed and that's the offset, presumably you do expect the T&E to come back in 2022, so is the hope that that variable comp may also reverse slightly at that point?\",\n  \"answer_quote\": \"I think I would describe it as our margin for error in 2022 has tightened because of that pay pressure that we're seeing relative to what we previously thought. You're right that those Covid-related savings should get back to more normal levels or what we describe as more normal levels in 2022 onwards, but also I think, embedded in that is new normal versus old normal, for example we've reduced our travel budget. If you looked in 2019, we were spending about $400 million a year. We have taken that down to a run rate $200 million a year for planning purposes going forward from 2022 onwards. We've talked about the big savings that we see in head office expenses - getting out of 40% of our own real estate ex-branches over the next few years, which will reduce that part of our cost structure by just over 20%, but you're right that those numbers were already embedded into our full-year 2022 cost target. So the other thing, again just for all of you, our cost target was based on constant FX, so what was $31 billion today is about $31.5 billion of cost for 2022.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Expectations on T&E and variable compensation in 2022\",\n  \"main_topics\": [\"T&E costs\", \"variable compensation\", \"2022 cost expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And just on the costs - if you're saying the T&E has basically been delayed and that's the offset, presumably you do expect the T&E to come back in 2022, so is the hope that that variable comp may also reverse slightly at that point?\",\n  \"answer_quote\": \"I think I would describe it as our margin for error in 2022 has tightened because of that pay pressure that we're seeing relative to what we previously thought. You're right that those Covid-related savings should get back to more normal levels or what we describe as more normal levels in 2022 onwards, but also I think, embedded in that is new normal versus old normal, for example we've reduced our travel budget. If you looked in 2019, we were spending about $400 million a year. We have taken that down to a run rate $200 million a year for planning purposes going forward from 2022 onwards. We've talked about the big savings that we see in head office expenses - getting out of 40% of our own real estate ex-branches over the next few years, which will reduce that part of our cost structure by just over 20%, but you're right that those numbers were already embedded into our full-year 2022 cost target. So the other thing, again just for all of you, our cost target was based on constant FX, so what was $31 billion today is about $31.5 billion of cost for 2022.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Expectations on T&E and variable compensation in 2022\",\n  \"main_topics\": [\"T&E costs\", \"variable compensation\", \"2022 cost expectations\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"And just on the costs - if you're saying the T&E has basically been delayed and that's the offset, presumably you do expect the T&E to come back in 2022, so is the hope that that variable comp may also reverse slightly at that point?\",\n  \"answer_quote\": \"I think I would describe it as our margin for error in 2022 has tightened because of that pay pressure that we're seeing relative to what we previously thought. You're right that those Covid-related savings should get back to more normal levels or what we describe as more normal levels in 2022 onwards, but also I think, embedded in that is new normal versus old normal, for example we've reduced our travel budget. If you looked in 2019, we were spending about $400 million a year. We have taken that down to a run rate $200 million a year for planning purposes going forward from 2022 onwards. We've talked about the big savings that we see in head office expenses - getting out of 40% of our own real estate ex-branches over the next few years, which will reduce that part of our cost structure by just over 20%, but you're right that those numbers were already embedded into our full-year 2022 cost target. So the other thing, again just for all of you, our cost target was based on constant FX, so what was $31 billion today is about $31.5 billion of cost for 2022.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 677,
+      "batch_seconds": 17.234387012000298
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 722,
+      "batch_seconds": 18.00490129800164
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 722,
+      "batch_seconds": 17.19881976600118
+    }
+  ],
+  "exchange_id": "05365a3a7fbe-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "a2596de70a43b993673c4cb9f992821fcc5a2e764e82810ce820cb68a2a55fd6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Comparing current market volatility to past events, assessing counterparties' risk levels, and evaluating the bank's real estate exposure.\",\n  \"main_topics\": [\"Market Volatility\", \"Counterparty Risk\", \"Real Estate Exposure\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"Low\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Are you hitting risk limits? Are we at levels of extreme or is the book looking actually much better than one might imagine from an external observation?\",\n  \"answer_quote\": \"Yes. Again, I won't comment on where we are relative to our risk limits to the outside world. But we talked about the fact that we went into Q122 with a cautious stance. I think we've maintained that. That certainly benefited us through Q122. So you might expect us to be in a similar position now.\",\n  \"reason\": \"The answer partially addresses the question by discussing the bank's cautious stance and its impact on Q122, but it deflects from directly answering about current risk limits and the state of the book relative to market volatility.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 763,
+      "batch_seconds": 19.062921921999987
+    }
+  ],
+  "exchange_id": "a8ff12f96c5b-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "3bbc358e0b62098c5120fc34d3ea8181c8b781c32b24bd10b0d80e1b0dc0caa9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Comparing current market volatility to past events, assessing counterparties' risk levels, and evaluating the bank's real estate exposure.",
+    "main_topics": [
+      "Market Volatility",
+      "Counterparty Risk",
+      "Real Estate Exposure"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Deflecting",
+    "evidence_level": "Low",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Are you hitting risk limits? Are we at levels of extreme or is the book looking actually much better than one might imagine from an external observation?",
+    "answer_quote": "Yes. Again, I won't comment on where we are relative to our risk limits to the outside world. But we talked about the fact that we went into Q122 with a cautious stance. I think we've maintained that. That certainly benefited us through Q122. So you might expect us to be in a similar position now.",
+    "reason": "The answer partially addresses the question by discussing the bank's cautious stance and its impact on Q122, but it deflects from directly answering about current risk limits and the state of the book relative to market volatility."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Inquire about the sustainability of fee performance, lumpy deals, and the factors influencing leverage finance marks.\",\n  \"main_topics\": [\"fee performance\", \"lumpy deals\", \"leverage finance marks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"First of all, on the Investment Bank from me, please. First of all, on the fee performance, obviously, very strong in the quarter. But similar to Q2 where you called out a large deal there, is there any lumpy deals that we should bear in mind? Is the performance sustainable? Ultimately I'm asking about the pipeline from here given the strong performance.\",\n  \"answer_quote\": \"So on fee performance in Q3, there's nothing special to call out. Look, we are part of certain larger deals, but I wouldn't say that unduly there is anything I would call out.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a complete answer, and includes high evidence with a direct stance. The narrative is aligned with the question's topics.\"\n}",
+  "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the sustainability of fee performance and the factors influencing leverage finance marks.\",\n  \"main_topics\": [\"fee performance sustainability\", \"leverage finance marks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Is the performance sustainable? Ultimately I'm asking about the pipeline from here given the strong performance.\",\n  \"answer_quote\": \"So it's very much a BAU and as I say, it's episodic. I wouldn't comment on our clients as we would never do.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the sustainability of fee performance, lumpy deals, and the factors driving leverage finance marks.\",\n  \"main_topics\": [\"fee performance\", \"lumpy deals\", \"leverage finance marks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"First of all, on the Investment Bank from me, please. First of all, on the fee performance, obviously, very strong in the quarter. But similar to Q2 where you called out a large deal there, is there any lumpy deals that we should bear in mind? Is the performance sustainable? Ultimately I'm asking about the pipeline from here given the strong performance.\",\n  \"answer_quote\": \"So on fee performance in Q3, there's nothing special to call out. Look, we are part of certain larger deals, but I wouldn't say that unduly there is anything I would call out.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a complete answer, and includes high evidence with a direct stance and narrative alignment.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquire about the sustainability of fee performance, lumpy deals, and the factors influencing leverage finance marks.\",\n  \"main_topics\": [\"fee performance\", \"lumpy deals\", \"leverage finance marks\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"First of all, on the Investment Bank from me, please. First of all, on the fee performance, obviously, very strong in the quarter. But similar to Q2 where you called out a large deal there, is there any lumpy deals that we should bear in mind? Is the performance sustainable? Ultimately I'm asking about the pipeline from here given the strong performance.\",\n  \"answer_quote\": \"So on fee performance in Q3, there's nothing special to call out. Look, we are part of certain larger deals, but I wouldn't say that unduly there is anything I would call out.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a complete answer, and includes high evidence with a direct stance. The narrative is aligned with the question's topics.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 972,
+      "batch_seconds": 29.61618395200003
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1017,
+      "batch_seconds": 94.12811429700014
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 1020,
+      "batch_seconds": 28.790443990999847
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "237355c146aaecff9c47ba84b080981ebc4ee2b1d6f9e5f983d93232f41e48d9",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

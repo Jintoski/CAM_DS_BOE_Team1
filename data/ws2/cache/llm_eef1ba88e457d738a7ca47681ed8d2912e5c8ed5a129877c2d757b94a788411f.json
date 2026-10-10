@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Discuss the impact of pass-through rates on banking NII and forward guidance.\",\n  \"main_topics\": [\n    \"Banking NII sensitivity\",\n    \"Pass-through rates\",\n    \"Forward guidance\"\n  ],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thank you very much. That colour is excellent. Just around pass-throughs, I think earlier this year you talked about 10% lower betas adding something like $600 million.\",\n  \"answer_quote\": \"So the banking NII sensitivity to a 10% change in pass-through rates remains around $600 million, and this is based off an assumption of around $600 billion of IBCAs.\",\n  \"reason\": \"The answer directly addresses the impact of pass-through rates on banking NII and provides forward guidance, with high evidence level due to the inclusion of specific figures and a clear narrative alignment with the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 694,
+      "batch_seconds": 17.331225140999777
+    }
+  ],
+  "exchange_id": "fbf6b5dfe7b5-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "eef1ba88e457d738a7ca47681ed8d2912e5c8ed5a129877c2d757b94a788411f",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Discuss the impact of pass-through rates on banking NII and forward guidance.",
+    "main_topics": [
+      "Banking NII sensitivity",
+      "Pass-through rates",
+      "Forward guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Thank you very much. That colour is excellent. Just around pass-throughs, I think earlier this year you talked about 10% lower betas adding something like $600 million.",
+    "answer_quote": "So the banking NII sensitivity to a 10% change in pass-through rates remains around $600 million, and this is based off an assumption of around $600 billion of IBCAs.",
+    "reason": "The answer directly addresses the impact of pass-through rates on banking NII and provides forward guidance, with high evidence level due to the inclusion of specific figures and a clear narrative alignment with the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

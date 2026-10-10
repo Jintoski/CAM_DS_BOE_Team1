@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarify private markets exposure, single-party exposures, and NII in Hong Kong.\",\n  \"main_topics\": [\"private markets exposure\", \"single-party exposures\", \"NII in Hong Kong\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I had a follow-on on the private markets exposure because that's where we've been getting a lot of questions and debate. I appreciate the points post-fact and obviously now you've gone through the book and so forth, but there's a lot of questions about the build-up. So, for example, how do you think about single-party exposures, whether it's different when it's done on this indirect basis versus a direct exposure in the book? Reading press reports, it seems like the loan-to-value is higher than some of peers or industry norms for this type of lending. So trying to understand how did the Group get into a position where it could have that type of exposure or risk? And what's changed? How does that not happen going forwards? Then a secondary question. There was a negative NII in Hong Kong, $100 million or so. I wanted to double-check what that was and what drives some of those things.\",\n  \"answer_quote\": \"So from a risk perspective, in our credit books we have single-name concentrations when we underwrite risk. We look at the duration of risk and we look at the underlying assets in any situation. Fraud is something which is idiosyncratic. It can happen anywhere. Fraud does not in any shape or form reflect on how good your credit underwriting is. However, to protect yourself from things like fraud, you have concentration risk limits, which is absolutely what we have. The learning in this case has been that, even though we've said quite clearly that private credit in itself is not something which contributes significantly to our growth - it never has, it never really will - the question is, in the build-up of an exposure over a period of time are you now looking differently in terms of how you would curtail risk appetite? And we are, absolutely. We've also said that, to some extent, secondary exposure is a bit like correspondent banking. You rely on your correspondent and their due diligence, but we have all learned, whether it's in correspondent banking or private credit, that, no matter how good the financial sponsor is, you can't rely on that due diligence, and that is something which is another learning we've taken. We called it out at the results. We've called it out also at our AGM. Those are the filters we will be following through going forward. In this particular case, the credit underwriting per se - and, yes, you say the LTVs were high, but, given what we knew of the assets... we said that we have now got a substantively good level of provisioning. On the second one on NII, it's 1% of quarterly NII. It's just that we call these things out because we know, quite reasonably, everybody takes the last three months and timeses them by four. So there was a positive in Q4 and there's a negative in Q1. We're just calling them out to help the modelling.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a comprehensive response with high evidence, including numeric evidence and forward guidance, and is aligned with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 966,
+      "batch_seconds": 29.61618395200003
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x009",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "b278129550da79326246302ab21124aea33bff339f1f9e5ac1a323d8a8210a61",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarify private markets exposure, single-party exposures, and NII in Hong Kong.",
+    "main_topics": [
+      "private markets exposure",
+      "single-party exposures",
+      "NII in Hong Kong"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I had a follow-on on the private markets exposure because that's where we've been getting a lot of questions and debate. I appreciate the points post-fact and obviously now you've gone through the book and so forth, but there's a lot of questions about the build-up. So, for example, how do you think about single-party exposures, whether it's different when it's done on this indirect basis versus a direct exposure in the book? Reading press reports, it seems like the loan-to-value is higher than some of peers or industry norms for this type of lending. So trying to understand how did the Group get into a position where it could have that type of exposure or risk? And what's changed? How does that not happen going forwards? Then a secondary question. There was a negative NII in Hong Kong, $100 million or so. I wanted to double-check what that was and what drives some of those things.",
+    "answer_quote": "So from a risk perspective, in our credit books we have single-name concentrations when we underwrite risk. We look at the duration of risk and we look at the underlying assets in any situation. Fraud is something which is idiosyncratic. It can happen anywhere. Fraud does not in any shape or form reflect on how good your credit underwriting is. However, to protect yourself from things like fraud, you have concentration risk limits, which is absolutely what we have. The learning in this case has been that, even though we've said quite clearly that private credit in itself is not something which contributes significantly to our growth - it never has, it never really will - the question is, in the build-up of an exposure over a period of time are you now looking differently in terms of how you would curtail risk appetite? And we are, absolutely. We've also said that, to some extent, secondary exposure is a bit like correspondent banking. You rely on your correspondent and their due diligence, but we have all learned, whether it's in correspondent banking or private credit, that, no matter how good the financial sponsor is, you can't rely on that due diligence, and that is something which is another learning we've taken. We called it out at the results. We've called it out also at our AGM. Those are the filters we will be following through going forward. In this particular case, the credit underwriting per se - and, yes, you say the LTVs were high, but, given what we knew of the assets... we said that we have now got a substantively good level of provisioning. On the second one on NII, it's 1% of quarterly NII. It's just that we call these things out because we know, quite reasonably, everybody takes the last three months and timeses them by four. So there was a positive in Q4 and there's a negative in Q1. We're just calling them out to help the modelling.",
+    "reason": "The answer directly addresses the question's intent, providing a comprehensive response with high evidence, including numeric evidence and forward guidance, and is aligned with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on deposit beta assumptions and confidence in short-term RoTE guidance\",\n  \"main_topics\": [\"Deposit beta assumptions\", \"Short-term RoTE guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Firstly, a follow-up on the $41 billion NII - can you just confirm that that embeds your 50% deposit beta on interest-bearing account assumptions, or marginal deposit beta on interest-bearing account assumptions, and if so, whether you think that's a realistic assumption here or not?\",\n  \"answer_quote\": \"Thanks, Matt. So, in our forecasting, we apply different betas by currency and by balance sheet, so it's a very, very complex mishmash of betas where we have the best assessment within the jurisdiction where we're looking at it and for the currency. I think your best guess is, if you want to use an average assessment, 50% is fair. It's difficult to talk to deposit behaviour in a rate-going-down environment, because we just haven't seen how it's going to happen. It is fair that, the last 100 basis points of rate hikes, our betas were closer to 75 to 100%, so our betas were materially higher for the last hikes. From 4% to 5%, most of that benefit has gone to customers, and I know you will have a natural inclination to say, 'Well, then, if you go back from 5% to 4%, you'll take most of it back'. It's difficult to call this out, and this is part of the uncertainties we're facing. As a starting position, that's a good thinking process, but we need to see the competitive pressures on deposits, etc. So your 50% is probably still your best guess in the current environment.\",\n  \"reason\": \"The answer directly addresses the question's intent, provides a high level of evidence with specific numeric references, and aligns with the narrative of the question.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 766,
+      "batch_seconds": 19.062921921999987
+    }
+  ],
+  "exchange_id": "287d803c2083-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "e307ee0a17a08344a80322394b3548f21876fa5a1f9094e171fe3a9ec600dcfe",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on deposit beta assumptions and confidence in short-term RoTE guidance",
+    "main_topics": [
+      "Deposit beta assumptions",
+      "Short-term RoTE guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Firstly, a follow-up on the $41 billion NII - can you just confirm that that embeds your 50% deposit beta on interest-bearing account assumptions, or marginal deposit beta on interest-bearing account assumptions, and if so, whether you think that's a realistic assumption here or not?",
+    "answer_quote": "Thanks, Matt. So, in our forecasting, we apply different betas by currency and by balance sheet, so it's a very, very complex mishmash of betas where we have the best assessment within the jurisdiction where we're looking at it and for the currency. I think your best guess is, if you want to use an average assessment, 50% is fair. It's difficult to talk to deposit behaviour in a rate-going-down environment, because we just haven't seen how it's going to happen. It is fair that, the last 100 basis points of rate hikes, our betas were closer to 75 to 100%, so our betas were materially higher for the last hikes. From 4% to 5%, most of that benefit has gone to customers, and I know you will have a natural inclination to say, 'Well, then, if you go back from 5% to 4%, you'll take most of it back'. It's difficult to call this out, and this is part of the uncertainties we're facing. As a starting position, that's a good thinking process, but we need to see the competitive pressures on deposits, etc. So your 50% is probably still your best guess in the current environment.",
+    "reason": "The answer directly addresses the question's intent, provides a high level of evidence with specific numeric references, and aligns with the narrative of the question."
+  },
+  "whitespace_adjusted_quotes": []
+}

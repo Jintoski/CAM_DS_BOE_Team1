@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Assumption about Argentina's impact on CMB\",\n  \"main_topics\": [\"Argentina\", \"CMB\", \"ECL\", \"interim report\", \"GBM collaboration\", \"foreign exchange\", \"interest rate hedging\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is that right to assume then, if it's more than $1 billion on Argentina, then the $43 billion automatically moves higher?\",\n  \"answer_quote\": \"Yes. We very much see it as '$42 billion plus Argentina'. On the ECL coverage, on page 90 of the interim report, it doesn't quite get to exactly your question, but you can see, consistent with what we say about the security and coverage, the ECLs are pretty minimal against there, but you can see some of the allowance - the $258 million that we've got against the Hong Kong CRE in that table. On your third question, Raul, we give a little bit of the detail on the slide. Markets Treasury allocations, lower interest on debt held by Group holding company, Argentina volatility - which is inflating the earnings because of the inflation taking hold but no devaluation taking place in Q2 - as well as GBM collaboration, which basically reflects foreign exchange or interest rate hedging, et cetera. So it's a combination of all of the above that has created the additional 20% or $100 million in CMB.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Impact of Argentina's financial situation on bank's earnings\",\n  \"main_topics\": [\"Argentina's financial impact\", \"Earnings impact\", \"ECL coverage\", \"Interest rates\", \"Hedging\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is that right to assume then, if it's more than $1 billion on Argentina, then the $43 billion automatically moves higher?\",\n  \"answer_quote\": \"Yes. We very much see it as '$42 billion plus Argentina'. On the ECL coverage, on page 90 of the interim report, it doesn't quite get to exactly your question, but you can see, consistent with what we say about the security and coverage, the ECLs are pretty minimal against there, but you can see some of the allowance - the $258 million that we've got against the Hong Kong CRE in that table. On your third question, Raul, we give a little bit of the detail on the slide. Markets Treasury allocations, lower interest on debt held by Group holding company, Argentina volatility - which is inflating the earnings because of the inflation taking hold but no devaluation taking place in Q2 - as well as GBM collaboration, which basically reflects foreign exchange or interest rate hedging, et cetera. So it's a combination of all of the above that has created the additional 20% or $100 million in CMB.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assumption about Argentina's impact on CMB\",\n  \"main_topics\": [\"Argentina\", \"CMB\", \"ECL\", \"interim report\", \"GBM collaboration\", \"foreign exchange\", \"interest rate hedging\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is that right to assume then, if it's more than $1 billion on Argentina, then the $43 billion automatically moves higher?\",\n  \"answer_quote\": \"Yes. We very much see it as '$42 billion plus Argentina'. On the ECL coverage, on page 90 of the interim report, it doesn't quite get to exactly your question, but you can see, consistent with what we say about the security and coverage, the ECLs are pretty minimal against there, but you can see some of the allowance - the $258 million that we've got against the Hong Kong CRE in that table. On your third question, Raul, we give a little bit of the detail on the slide. Markets Treasury allocations, lower interest on debt held by Group holding company, Argentina volatility - which is inflating the earnings because of the inflation taking hold but no devaluation taking place in Q2 - as well as GBM collaboration, which basically reflects foreign exchange or interest rate hedging, et cetera. So it's a combination of all of the above that has created the additional 20% or $100 million in CMB.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Assumption about Argentina's impact on CMB\",\n  \"main_topics\": [\"Argentina\", \"CMB\", \"ECL\", \"interim report\", \"GBM collaboration\", \"foreign exchange\", \"interest rate hedging\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Is that right to assume then, if it's more than $1 billion on Argentina, then the $43 billion automatically moves higher?\",\n  \"answer_quote\": \"Yes. We very much see it as '$42 billion plus Argentina'. On the ECL coverage, on page 90 of the interim report, it doesn't quite get to exactly your question, but you can see, consistent with what we say about the security and coverage, the ECLs are pretty minimal against there, but you can see some of the allowance - the $258 million that we've got against the Hong Kong CRE in that table. On your third question, Raul, we give a little bit of the detail on the slide. Markets Treasury allocations, lower interest on debt held by Group holding company, Argentina volatility - which is inflating the earnings because of the inflation taking hold but no devaluation taking place in Q2 - as well as GBM collaboration, which basically reflects foreign exchange or interest rate hedging, et cetera. So it's a combination of all of the above that has created the additional 20% or $100 million in CMB.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 609,
+      "batch_seconds": 14.887864954000179
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 654,
+      "batch_seconds": 14.078725104000114
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 654,
+      "batch_seconds": 15.262415260000125
+    }
+  ],
+  "exchange_id": "7f553358cc34-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "8943adc687bc4af2a7c45cb4374ae9e0459d8e4af63e716f23acc73b65a38b2e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

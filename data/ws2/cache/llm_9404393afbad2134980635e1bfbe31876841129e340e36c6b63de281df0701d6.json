@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Mortgage pricing and macroeconomic strategy in Hong Kong and China\",\n  \"main_topics\": [\"Hong Kong mortgage pricing\", \"China macroeconomic strategy\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The mortgage rate in Hong Kong right now is well below HIBOR. Many smaller banks are actually backing off from the mortgage market, so do you see mortgage pricing in Hong Kong going up? What would be the implications for that?\",\n  \"answer_quote\": \"I can take the first part. Sam, first our mortgage - we continue printing mortgages. Yes, indeed the rates are quite attractive for borrowers. And we increased our mortgage book, not a very large amount, but we increased our mortgage book. So we continue - and this is despite subdued property sales in Hong Kong. We continue increasing our book. On the pricing, as you know, the mortgages are capped and the pricing is highly correlated to the savings rate. For instance, last week we increased the saving rate by about 12.5 basis points on the Hong Kong dollar. It automatically increases the cap, and therefore the mortgage pricing today, by 12.5 basis points. I see this as a natural evolution with rates, not a specific pricing for the mortgage or a specific dynamic for the mortgage pricing, if you want.\",\n  \"reason\": \"The answer directly addresses the question about mortgage pricing in Hong Kong, providing a clear stance and high evidence level with numeric evidence of a 12.5 basis point increase in the savings rate affecting mortgage pricing.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1051,
+      "batch_seconds": 30.479592789999515
+    }
+  ],
+  "exchange_id": "d4d76c03f26c-x011",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "9404393afbad2134980635e1bfbe31876841129e340e36c6b63de281df0701d6",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Mortgage pricing and macroeconomic strategy in Hong Kong and China",
+    "main_topics": [
+      "Hong Kong mortgage pricing",
+      "China macroeconomic strategy"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The mortgage rate in Hong Kong right now is well below HIBOR. Many smaller banks are actually backing off from the mortgage market, so do you see mortgage pricing in Hong Kong going up? What would be the implications for that?",
+    "answer_quote": "I can take the first part. Sam, first our mortgage - we continue printing mortgages. Yes, indeed the rates are quite attractive for borrowers. And we increased our mortgage book, not a very large amount, but we increased our mortgage book. So we continue - and this is despite subdued property sales in Hong Kong. We continue increasing our book. On the pricing, as you know, the mortgages are capped and the pricing is highly correlated to the savings rate. For instance, last week we increased the saving rate by about 12.5 basis points on the Hong Kong dollar. It automatically increases the cap, and therefore the mortgage pricing today, by 12.5 basis points. I see this as a natural evolution with rates, not a specific pricing for the mortgage or a specific dynamic for the mortgage pricing, if you want.",
+    "reason": "The answer directly addresses the question about mortgage pricing in Hong Kong, providing a clear stance and high evidence level with numeric evidence of a 12.5 basis point increase in the savings rate affecting mortgage pricing."
+  },
+  "whitespace_adjusted_quotes": []
+}

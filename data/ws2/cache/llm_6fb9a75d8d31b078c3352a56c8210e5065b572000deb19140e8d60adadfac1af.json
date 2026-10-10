@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Inquiring about RWA assumptions and future projections\",\n  \"main_topics\": [\"RWA assumptions\", \"Credit migration\", \"RWA forecast\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Maybe just to follow up on the 14%, what kind of RWA assumption? You must have some optimisation coming through in the second of the year, and related to that, you must have an assumption of credit migration as well. I'm just wondering if we can get any more sense on what you think RWAs will shape up, especially towards Q4.\",\n  \"answer_quote\": \"I'm not going to give an RWA forecast, but we've taken all of that stuff into account. As I said, we track our common equity tier 1 daily, and as of yesterday we're still in line with the guidance we gave at Q2.\",\n  \"reason\": \"The answer partially addresses the inquiry about RWA assumptions and future projections, but does not provide specific RWA forecasts or detailed assumptions, instead focusing on tracking and alignment with previous guidance.\"\n}",
+  "data": {
+    "question_intent": "Inquiring about RWA assumptions and future projections",
+    "main_topics": [
+      "RWA assumptions",
+      "Credit migration",
+      "RWA forecast"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Maybe just to follow up on the 14%, what kind of RWA assumption? You must have some optimisation coming through in the second of the year, and related to that, you must have an assumption of credit migration as well. I'm just wondering if we can get any more sense on what you think RWAs will shape up, especially towards Q4.",
+    "answer_quote": "I'm not going to give an RWA forecast, but we've taken all of that stuff into account. As I said, we track our common equity tier 1 daily, and as of yesterday we're still in line with the guidance we gave at Q2.",
+    "reason": "The answer partially addresses the inquiry about RWA assumptions and future projections, but does not provide specific RWA forecasts or detailed assumptions, instead focusing on tracking and alignment with previous guidance."
+  },
+  "error": "",
+  "whitespace_adjusted_quotes": [],
+  "failed_attempts": [],
+  "exchange_id": "a92582cac0bc-x002",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6fb9a75d8d31b078c3352a56c8210e5065b572000deb19140e8d60adadfac1af"
+}

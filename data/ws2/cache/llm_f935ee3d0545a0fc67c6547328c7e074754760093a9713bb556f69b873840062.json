@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Understanding conditions for future guidance\",\n  \"main_topics\": [\"Guidance conditions\", \"Risk assessment\", \"Philosophical stance on guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I wasn't expecting you to guide today. I just want to know what has to change for you to be confident enough to guide. I want to understand the 'why not'.\",\n  \"answer_quote\": \"Philosophically, when we guided to 12% plus RoTE, we were at single digits. You all took it as clear, aspirational, ambitious, 'We want to work hard to get there'. We are already at mid-teens, so whatever we're going to guide to is going to be more than aspirational. We need to feel that we've done all the necessary work in terms of risk assessment, etc, to put a guidance out. I can understand that others have guided, but they've guided long-term on aspirational numbers. That's a different story when you're already there.\",\n  \"reason\": \"The answer addresses the conditions for future guidance and the philosophical stance, aligning with the question's intent. It is hedged, acknowledging the complexity of the issue, and provides a medium level of evidence through the explanation of the current position and the need for further work.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 545,
+      "batch_seconds": 12.62525182399986
+    }
+  ],
+  "exchange_id": "287d803c2083-x005",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "f935ee3d0545a0fc67c6547328c7e074754760093a9713bb556f69b873840062",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Understanding conditions for future guidance",
+    "main_topics": [
+      "Guidance conditions",
+      "Risk assessment",
+      "Philosophical stance on guidance"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "I wasn't expecting you to guide today. I just want to know what has to change for you to be confident enough to guide. I want to understand the 'why not'.",
+    "answer_quote": "Philosophically, when we guided to 12% plus RoTE, we were at single digits. You all took it as clear, aspirational, ambitious, 'We want to work hard to get there'. We are already at mid-teens, so whatever we're going to guide to is going to be more than aspirational. We need to feel that we've done all the necessary work in terms of risk assessment, etc, to put a guidance out. I can understand that others have guided, but they've guided long-term on aspirational numbers. That's a different story when you're already there.",
+    "reason": "The answer addresses the conditions for future guidance and the philosophical stance, aligning with the question's intent. It is hedged, acknowledging the complexity of the issue, and provides a medium level of evidence through the explanation of the current position and the need for further work."
+  },
+  "whitespace_adjusted_quotes": []
+}

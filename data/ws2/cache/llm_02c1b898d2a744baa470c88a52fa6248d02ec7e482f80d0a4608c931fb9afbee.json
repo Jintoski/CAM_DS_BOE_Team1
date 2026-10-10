@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Acknowledgment and request to proceed\",\n  \"main_topics\": [\"Acknowledgment\", \"Proceeding to next question\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Unclear\",\n  \"question_quote\": \"Thanks very much.\",\n  \"answer_quote\": \"Okay. Perhaps we could go to the next question, please.\",\n  \"reason\": \"The response deflects the acknowledgment without addressing any specific question or providing information.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Transition to next question\",\n  \"main_topics\": [\"Bank earnings-call\", \"Transition\"],\n  \"answer_completeness\": \"Unanswered\",\n  \"response_stance\": \"Deflecting\",\n  \"evidence_level\": \"None\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Thanks very much.\",\n  \"answer_quote\": \"Okay. Perhaps we could go to the next question, please.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 406,
+      "batch_seconds": 6.255509784999958
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 451,
+      "batch_seconds": 6.791888847999871
+    }
+  ],
+  "exchange_id": "24ac65b8a861-x001",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "02c1b898d2a744baa470c88a52fa6248d02ec7e482f80d0a4608c931fb9afbee",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Acknowledgment and request to proceed",
+    "main_topics": [
+      "Acknowledgment",
+      "Proceeding to next question"
+    ],
+    "answer_completeness": "Unanswered",
+    "response_stance": "Deflecting",
+    "evidence_level": "None",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Unclear",
+    "question_quote": "Thanks very much.",
+    "answer_quote": "Okay. Perhaps we could go to the next question, please.",
+    "reason": "The response deflects the acknowledgment without addressing any specific question or providing information."
+  },
+  "whitespace_adjusted_quotes": []
+}

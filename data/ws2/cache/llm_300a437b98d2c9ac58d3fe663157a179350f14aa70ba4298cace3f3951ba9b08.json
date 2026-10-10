@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank's expectations for net mortgage growth, Pillar 2A add-on confirmation\",\n  \"main_topics\": [\"Net mortgage growth\", \"Pillar 2A add-on\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is on the mortgage market. It feels like housing and mortgages are starting to turn. What's your expectations for net mortgage growth for this year?\",\n  \"answer_quote\": \"What we see in the mortgage market is quite a change, really. It's dominated by re-mortgage, by low loan-to-value remortgage, and the demand for high loan-to-value mortgages has reduced significantly, which is exactly what you might expect it to do in the face of HPI uncertainty.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a high level of evidence with a clear narrative alignment, and includes numeric evidence in the form of market changes and customer behavior.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Bank's expectations for net mortgage growth, Pillar 2A add-on confirmation\",\n  \"main_topics\": [\"Mortgage market\", \"Pillar 2A add-on\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first one is on the mortgage market. It feels like housing and mortgages are starting to turn. What's your expectations for net mortgage growth for this year?\",\n  \"answer_quote\": \"What we see in the mortgage market is quite a change, really. It's dominated by re-mortgage, by low loan-to-value remortgage, and the demand for high loan-to-value mortgages has reduced significantly, which is exactly what you might expect it to do in the face of HPI uncertainty. In terms of what we're seeing in customer behaviour, again, very defensive. They're re-mortgaging very quickly. We're seeing no change in arrears. We're seeing some slightly elevated levels of over-payment, but not so much that it would move the overall balance. So, nothing of concern. Actually, I would say, absolute margins are still healthy, it's the mix and churn effect that we're thoughtful about.\",\n  \"reason\": \"The answer directly addresses the bank's expectations for net mortgage growth and confirms the status of the Pillar 2A add-on, providing a high level of evidence with specific market observations and a clear stance on the matter.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 905,
+      "batch_seconds": 22.692067773000417
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 953,
+      "batch_seconds": 27.990703425000902
+    }
+  ],
+  "exchange_id": "9ba7893c81ce-x014",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "300a437b98d2c9ac58d3fe663157a179350f14aa70ba4298cace3f3951ba9b08",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank's expectations for net mortgage growth, Pillar 2A add-on confirmation",
+    "main_topics": [
+      "Net mortgage growth",
+      "Pillar 2A add-on"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "The first one is on the mortgage market. It feels like housing and mortgages are starting to turn. What's your expectations for net mortgage growth for this year?",
+    "answer_quote": "What we see in the mortgage market is quite a change, really. It's dominated by re-mortgage, by low loan-to-value remortgage, and the demand for high loan-to-value mortgages has reduced significantly, which is exactly what you might expect it to do in the face of HPI uncertainty.",
+    "reason": "The response directly addresses the question's intent, provides a high level of evidence with a clear narrative alignment, and includes numeric evidence in the form of market changes and customer behavior."
+  },
+  "whitespace_adjusted_quotes": []
+}

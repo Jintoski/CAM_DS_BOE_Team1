@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Trend analysis and future outlook for Private Bank NII and UKCB income\",\n  \"main_topics\": [\"Private Bank NII\", \"UKCB income\", \"Trend analysis\", \"Future outlook\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first on the Private Bank, on NII, which was down in the quarter, with increase in deposit balances. So just thinking about going forward, if this is a start of a trend or if there are some one ofs or things going on in the quarter in particular.\",\n  \"answer_quote\": \"On the Private Bank, what we continue to see is our clients are very heavily engaged with us and optimising their positions, whether that be across deposits or indeed investments. And in that business, clearly we are keeping that within the ecosystem, both in deposits and investments. So, broadly happy with it, but it has somewhat eroded the NII in the quarter. We'd expect a broadly similar level of income I think as we head into Q4, but just a reflection, I guess, of the nature of the clients. Just to remind you, I mean, that is a very, very high RoTE business and it remains above the target of greater than 25% that we've given you for 2026.\",\n  \"reason\": \"The answer provides a direct response to the trend analysis and future outlook for Private Bank NII and UKCB income, but it lacks specific numeric evidence to fully support the claims made.\"\n}",
+  "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Trend analysis and future outlook for Private Bank and UK Corporate Bank\",\n  \"main_topics\": [\"Private Bank NII\", \"UK Corporate Bank income growth\", \"Future outlook\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first on the Private Bank, on NII, which was down in the quarter, with increase in deposit balances. So just thinking about going forward, if this is a start of a trend or if there are some ones or things going on in the quarter in particular.\",\n  \"answer_quote\": \"On the Private Bank, what we continue to see is our clients are very heavily engaged with us and optimising their positions, whether that be across deposits or indeed investments. And in that business, clearly we are keeping that within the ecosystem, both in deposits and investments. So, broadly happy with it, but it has somewhat eroded the NII in the quarter. We'd expect a broadly similar level of income I think as we head into Q4, but just a reflection, I guess, of the nature of the clients. Just to remind you, I mean, that is a very, very high RoTE business and it remains above the target of greater than 25% that we've given you for 2026.\",\n  \"reason\": \"The answer directly addresses the trend analysis and future outlook for both the Private Bank and UK Corporate Bank, providing a high level of evidence with specific references to NII, income growth, and future expectations.\"\n}",
+      "error": "ValueError: Ungrounded question_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Future outlook on Private Bank NII and UKCB income trends\",\n  \"main_topics\": [\"Private Bank NII\", \"UKCB income growth\", \"Future trends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"The first on the Private Bank, on NII, which was down in the quarter, with increase in deposit balances. So just thinking about going forward, if this is a start of a trend or if there are some one ofs or things going on in the quarter in particular.\",\n  \"answer_quote\": \"On the Private Bank, what we continue to see is our clients are very heavily engaged with us and optimising their positions, whether that be across deposits or indeed investments. And in that business, clearly we are keeping that within the ecosystem, both in deposits and investments. So, broadly happy with it, but it has somewhat eroded the NII in the quarter. We'd expect a broadly similar level of income I think as we head into Q4, but just a reflection, I guess, of the nature of the clients. Just to remind you, I mean, that is a very, very high RoTE business and it remains above the target of greater than 25% that we've given you for 2026.\",\n  \"reason\": \"The answer provides a direct response to the question, discussing the future outlook of the Private Bank NII and UKCB income trends, with a medium level of evidence and forward guidance, but lacks specific numeric evidence.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Trend analysis and future outlook for Private Bank NII and UKCB income\",\n  \"main_topics\": [\"Private Bank NII\", \"UKCB income\", \"Trend analysis\", \"Future outlook\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"The first on the Private Bank, on NII, which was down in the quarter, with increase in deposit balances. So just thinking about going forward, if this is a start of a trend or if there are some one ofs or things going on in the quarter in particular.\",\n  \"answer_quote\": \"On the Private Bank, what we continue to see is our clients are very heavily engaged with us and optimising their positions, whether that be across deposits or indeed investments. And in that business, clearly we are keeping that within the ecosystem, both in deposits and investments. So, broadly happy with it, but it has somewhat eroded the NII in the quarter. We'd expect a broadly similar level of income I think as we head into Q4, but just a reflection, I guess, of the nature of the clients. Just to remind you, I mean, that is a very, very high RoTE business and it remains above the target of greater than 25% that we've given you for 2026.\",\n  \"reason\": \"The answer provides a direct response to the trend analysis and future outlook for Private Bank NII and UKCB income, but it lacks specific numeric evidence to fully support the claims made.\"\n}",
+      "error": "ValueError: Ungrounded answer_quote: copy a continuous original excerpt"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 694,
+      "batch_seconds": 17.331225140999777
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 18.49001912699896
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 742,
+      "batch_seconds": 17.25838861400007
+    }
+  ],
+  "exchange_id": "b1b01ee860a4-x003",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "2e7ba1b49a751e073a636da9a70ae37670aad5f8c4f185fff083925dcbe5fbaf",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

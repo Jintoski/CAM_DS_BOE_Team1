@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"CET1 ratio and capital management\",\n  \"main_topics\": [\"CET1 ratio\", \"capital management\", \"privatised subsidiary\", \"NPLs\", \"regulators\", \"RWAs\", \"capital optimisation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering about capital because the CET1 ratio is really strong. I was wondering what you think is the right CET1 ratio for that bank, now that you own it, and, if you think you can lower that ratio somewhat, would that be taking capital out or maybe putting some risk-weighted assets in?\",\n  \"answer_quote\": \"It's a really good question. As we said, with this transaction, what you have is a 100% privatised subsidiary. Like any other subsidiary we have globally, you have the ability to have more capital optimisation and at least efficiency and flexibility on how you move it from one legal entity to another, so that's the kind of starting point. It is pretty much subject to the level of NPLs - the level of the stress in the balance sheet of that particular entity. In discussion with regulators, you can make those choices and have those choices to upstream capital, exactly to your point, depending on what more you can build in terms of RWAs in that entity or move it to other entities within the Group where you may have the demand, and those are all the factors we will be looking at and considering from here on.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"CET1 ratio and capital management\",\n  \"main_topics\": [\"CET1 ratio\", \"capital management\", \"privatised subsidiary\", \"NPLs\", \"RWAs\", \"regulators\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering what you think is the right CET1 ratio for that bank, now that you own it, and, if you think you can lower that ratio somewhat, would that be taking capital out or maybe putting some risk-weighted assets in?\",\n  \"answer_quote\": \"It's a really good question. As we said, with this transaction, what you have is a 100% privatised subsidiary. Like any other subsidiary we have globally, you have the ability to have more capital optimisation and at least efficiency and flexibility on how you move it from one legal entity to another, so that's the kind of starting point. It is pretty much subject to the level of NPLs - the level of the stress in the balance sheet of that particular entity. In discussion with regulators, you can make those choices and have those choices to upstream capital, exactly to your point, depending on what more you can build in terms of RWAs in that entity or move it to other entities within the Group where you may have the demand, and those are all the factors we will be looking at and considering from here on.\",\n  \"reason\": \"The answer directly addresses the question about CET1 ratio and capital management, providing a clear stance on the ability to optimize capital and manage RWAs, with a medium level of evidence as it does not provide specific numeric values.\"\n}",
+      "error": "ValueError: Invalid main_topics: use a JSON array of 1 to 3 topic strings"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Inquiring about CET1 ratio and capital management post-acquisition\",\n  \"main_topics\": [\"CET1 ratio\", \"Capital management\", \"Acquisition impact\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering about capital because the CET1 ratio is really strong. I was wondering what you think is the right CET1 ratio for that bank, now that you own it, and, if you think you can lower that ratio somewhat, would that be taking capital out or maybe putting some risk-weighted assets in?\",\n  \"answer_quote\": \"It's a really good question. As we said, with this transaction, what you have is a 100% privatised subsidiary. Like any other subsidiary we have globally, you have the ability to have more capital optimisation and at least efficiency and flexibility on how you move it from one legal entity to another, so that's the kind of starting point. It is pretty much subject to the level of NPLs - the level of the stress in the balance sheet of that particular entity. In discussion with regulators, you can make those choices and have those choices to upstream capital, exactly to your point, depending on what more you can build in terms of RWAs in that entity or move it to other entities within the Group where you may have the demand, and those are all the factors we will be looking at and considering from here on.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"CET1 ratio and capital management\",\n  \"main_topics\": [\"CET1 ratio\", \"capital management\", \"privatised subsidiary\", \"NPLs\", \"regulators\", \"RWAs\", \"capital optimisation\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"I was wondering about capital because the CET1 ratio is really strong. I was wondering what you think is the right CET1 ratio for that bank, now that you own it, and, if you think you can lower that ratio somewhat, would that be taking capital out or maybe putting some risk-weighted assets in?\",\n  \"answer_quote\": \"It's a really good question. As we said, with this transaction, what you have is a 100% privatised subsidiary. Like any other subsidiary we have globally, you have the ability to have more capital optimisation and at least efficiency and flexibility on how you move it from one legal entity to another, so that's the kind of starting point. It is pretty much subject to the level of NPLs - the level of the stress in the balance sheet of that particular entity. In discussion with regulators, you can make those choices and have those choices to upstream capital, exactly to your point, depending on what more you can build in terms of RWAs in that entity or move it to other entities within the Group where you may have the demand, and those are all the factors we will be looking at and considering from here on.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 647,
+      "batch_seconds": 17.227680126999985
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 701,
+      "batch_seconds": 17.289219684000273
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 692,
+      "batch_seconds": 16.694297557000027
+    }
+  ],
+  "exchange_id": "4c46c28cb2e2-x007",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "d852fdd243926e1ffc9a127ed2322f77e55b37fc013d52035bed781afd8dfe85",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

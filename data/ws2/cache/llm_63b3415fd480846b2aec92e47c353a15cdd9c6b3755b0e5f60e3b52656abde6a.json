@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "raw": "{\n  \"question_intent\": \"Clarify the bank's stance on hedging sensitivity to HIBOR\",\n  \"main_topics\": [\"HIBOR hedging\", \"Banking NII conservatism\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It's in the context of kind of reducing the sensitivity to HIBOR, which I guess is something you're clear...\",\n  \"answer_quote\": \"We've said to you that HIBOR, by definition, you hedge less. That is the reason why we consider plausible downside scenarios, and every time you say, 'Why are you being so conservative on your Banking NII?' That's exactly the reason, and that's why we very often do better than we guide.\"\n}",
+  "error": "ValueError: LLM schema fields do not match",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify HIBOR sensitivity reduction\",\n  \"main_topics\": [\"HIBOR\", \"hedging\", \"Banking NII\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It's in the context of kind of reducing the sensitivity to HIBOR, which I guess is something you're clear...\",\n  \"answer_quote\": \"We've said to you that HIBOR, by definition, you hedge less. That is the reason why we consider plausible downside scenarios, and every time you say, 'Why are you being so conservative on your Banking NII?' That's exactly the reason, and that's why we very often do better than we guide.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the bank's stance on hedging sensitivity to HIBOR\",\n  \"main_topics\": [\"HIBOR hedging\", \"Banking NII conservatism\", \"Forward guidance\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It's in the context of kind of reducing the sensitivity to HIBOR, which I guess is something you're clear...\",\n  \"answer_quote\": \"We've said to you that HIBOR, by definition, you hedge less. That is the reason why we consider plausible downside scenarios, and every time you say, 'Why are you being so conservative on your Banking NII?' That's exactly the reason, and that's why we very often do better than we guide.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    },
+    {
+      "raw": "{\n  \"question_intent\": \"Clarify the bank's stance on hedging sensitivity to HIBOR\",\n  \"main_topics\": [\"HIBOR hedging\", \"Banking NII conservatism\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"It's in the context of kind of reducing the sensitivity to HIBOR, which I guess is something you're clear...\",\n  \"answer_quote\": \"We've said to you that HIBOR, by definition, you hedge less. That is the reason why we consider plausible downside scenarios, and every time you say, 'Why are you being so conservative on your Banking NII?' That's exactly the reason, and that's why we very often do better than we guide.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 475,
+      "batch_seconds": 9.364408016999732
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 520,
+      "batch_seconds": 10.038360675000149
+    },
+    {
+      "attempt": 3,
+      "actual_batch_size": 8,
+      "input_tokens": 520,
+      "batch_seconds": 11.184435553001094
+    }
+  ],
+  "exchange_id": "d0c412e8de27-x016",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "63b3415fd480846b2aec92e47c353a15cdd9c6b3755b0e5f60e3b52656abde6a",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  }
+}

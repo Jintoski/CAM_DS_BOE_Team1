@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Assess Barclays' deposit market share and pricing performance compared to peers.\",\n  \"main_topics\": [\"Barclays market share\", \"Barclays pricing performance\", \"Market trends\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"On the UK deposit piece, I know you don't disclose, you don't give us a specific number. I guess the reason for the question is when I look at data we do get for 2023, which we can at least see on an annual basis, Barclays in the UK was paying meaningfully lower rates than large incumbent peer banks in the UK, I guess off the back of that we saw deposit volumes compress for Barclays to a far greater degree than for those peers, so customers moved elsewhere because you weren't kind of keeping up, I guess, with even the large incumbent banks. We've seen that stabilise in the first half. Is it just that the customers who were going to move have now moved and actually you've retained a meaningful pricing differential to large peers, or do you feel like you've substantially caught up with large peers in terms of your rates?\",\n  \"answer_quote\": \"So, as I said we've seen that market share trend really stabilise in the second quarter, and what that tells me is that two things are going on. Firstly our range and pricing performance is better, and secondly, there is some moderation there more broadly across the market. So I think it's both, Chris, actually.\",\n  \"reason\": \"The answer directly addresses the question's intent, providing a clear stance on Barclays' market share and pricing performance, with medium evidence level due to the lack of specific numbers.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 625,
+      "batch_seconds": 15.20493993800028
+    }
+  ],
+  "exchange_id": "9939bc5e1544-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "4b1fa8486e65c766fadb558238f3345a305addf57e0cf7e4ff892e362eff524e",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Assess Barclays' deposit market share and pricing performance compared to peers.",
+    "main_topics": [
+      "Barclays market share",
+      "Barclays pricing performance",
+      "Market trends"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "On the UK deposit piece, I know you don't disclose, you don't give us a specific number. I guess the reason for the question is when I look at data we do get for 2023, which we can at least see on an annual basis, Barclays in the UK was paying meaningfully lower rates than large incumbent peer banks in the UK, I guess off the back of that we saw deposit volumes compress for Barclays to a far greater degree than for those peers, so customers moved elsewhere because you weren't kind of keeping up, I guess, with even the large incumbent banks. We've seen that stabilise in the first half. Is it just that the customers who were going to move have now moved and actually you've retained a meaningful pricing differential to large peers, or do you feel like you've substantially caught up with large peers in terms of your rates?",
+    "answer_quote": "So, as I said we've seen that market share trend really stabilise in the second quarter, and what that tells me is that two things are going on. Firstly our range and pricing performance is better, and secondly, there is some moderation there more broadly across the market. So I think it's both, Chris, actually.",
+    "reason": "The answer directly addresses the question's intent, providing a clear stance on Barclays' market share and pricing performance, with medium evidence level due to the lack of specific numbers."
+  },
+  "whitespace_adjusted_quotes": []
+}

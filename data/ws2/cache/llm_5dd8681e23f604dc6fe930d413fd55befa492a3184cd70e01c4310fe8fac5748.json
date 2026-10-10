@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Bank's capital deployment strategy and Wealth Management outlook\",\n  \"main_topics\": [\"Capital Deployment\", \"Wealth Management\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"How would you think about capital deployment, if you were to reach a position in excess? Would you consider further acquisitions?\",\n  \"answer_quote\": \"I don't want to be too definitive on use of proceeds. But, clearly, there would be an expectation that a significant element of the proceeds - I don't want to hang on to excess capital, so as we get back into our target range of 14% to 14.5%, which we're going to do without the benefit of Canada, and if we were to load a Canada disposal in on top of that, you would clearly have excess capital sitting at the group. Now, it would be reasonable to assume that we may retain some of our capital to fund further growth that would emerge in 2024 and beyond, but a good proportion of that capital would be available for distribution. I don't want to give too much guidance on that at this stage - let us get through the process on Canada - but I have no intention to hang on to excess capital over and above our target range unless we see good opportunities for profitable growth. So I think it would be a reasonable expectation to expect some distribution of that capital back to shareholders in some form.\",\n  \"reason\": \"The answer directly addresses the question about capital deployment and provides a clear stance on the expectation of capital distribution, with high evidence level due to the mention of specific capital target range and the reference to the $91 billion of net new assets.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1200,
+      "batch_seconds": 38.11599010600003
+    }
+  ],
+  "exchange_id": "d290e8ebf345-x012",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "5dd8681e23f604dc6fe930d413fd55befa492a3184cd70e01c4310fe8fac5748",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Bank's capital deployment strategy and Wealth Management outlook",
+    "main_topics": [
+      "Capital Deployment",
+      "Wealth Management"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "How would you think about capital deployment, if you were to reach a position in excess? Would you consider further acquisitions?",
+    "answer_quote": "I don't want to be too definitive on use of proceeds. But, clearly, there would be an expectation that a significant element of the proceeds - I don't want to hang on to excess capital, so as we get back into our target range of 14% to 14.5%, which we're going to do without the benefit of Canada, and if we were to load a Canada disposal in on top of that, you would clearly have excess capital sitting at the group. Now, it would be reasonable to assume that we may retain some of our capital to fund further growth that would emerge in 2024 and beyond, but a good proportion of that capital would be available for distribution. I don't want to give too much guidance on that at this stage - let us get through the process on Canada - but I have no intention to hang on to excess capital over and above our target range unless we see good opportunities for profitable growth. So I think it would be a reasonable expectation to expect some distribution of that capital back to shareholders in some form.",
+    "reason": "The answer directly addresses the question about capital deployment and provides a clear stance on the expectation of capital distribution, with high evidence level due to the mention of specific capital target range and the reference to the $91 billion of net new assets."
+  },
+  "whitespace_adjusted_quotes": []
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Capital implications of rate movements\",\n  \"main_topics\": [\"Net interest income\", \"Capital implications\", \"Interest rate movements\"],\n  \"answer_completeness\": \"Partial\",\n  \"response_stance\": \"Hedged\",\n  \"evidence_level\": \"Medium\",\n  \"contains_numeric_evidence\": false,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Partially aligned\",\n  \"question_quote\": \"Okay. Net-net, though, if you are putting through net interest income based on future rate movements, we have to consider the capital implications of those rate movements as well. Is that fair?\",\n  \"answer_quote\": \"I think if I look at consensus today, what hasn't it reflected? It hadn't reflected the impact of the fair value losses on capital. Equally, it hadn't reflected the benefit of those interest rate rises on net interest income over time.\",\n  \"reason\": \"The answer partially addresses the question by discussing the impact of interest rate movements on capital and net interest income, but does not provide a direct response to the fairness of considering capital implications in net interest income calculations.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 475,
+      "batch_seconds": 9.408274887000516
+    }
+  ],
+  "exchange_id": "d760dcd5e6e5-x010",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "60dd7376b74411d2f4f3b6fdb899f4604dc2f03d3921bc626c627f0bbdfb0554",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Capital implications of rate movements",
+    "main_topics": [
+      "Net interest income",
+      "Capital implications",
+      "Interest rate movements"
+    ],
+    "answer_completeness": "Partial",
+    "response_stance": "Hedged",
+    "evidence_level": "Medium",
+    "contains_numeric_evidence": false,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Partially aligned",
+    "question_quote": "Okay. Net-net, though, if you are putting through net interest income based on future rate movements, we have to consider the capital implications of those rate movements as well. Is that fair?",
+    "answer_quote": "I think if I look at consensus today, what hasn't it reflected? It hadn't reflected the impact of the fair value losses on capital. Equally, it hadn't reflected the benefit of those interest rate rises on net interest income over time.",
+    "reason": "The answer partially addresses the question by discussing the impact of interest rate movements on capital and net interest income, but does not provide a direct response to the fairness of considering capital implications in net interest income calculations."
+  },
+  "whitespace_adjusted_quotes": []
+}

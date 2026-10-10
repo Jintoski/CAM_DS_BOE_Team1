@@ -1,0 +1,145 @@
+bank,topic_id,year,n_questions,share,share_change,q_concern,label
+barclays,0,2021,1,0.008,,-0.009,"Hong Kong, China and group strategy (broad)"
+barclays,0,2022,4,0.028,0.02,-0.067,"Hong Kong, China and group strategy (broad)"
+barclays,0,2023,0,0.0,-0.028,,"Hong Kong, China and group strategy (broad)"
+barclays,0,2024,0,0.0,0.0,,"Hong Kong, China and group strategy (broad)"
+barclays,0,2025,1,0.01,0.01,0.039,"Hong Kong, China and group strategy (broad)"
+barclays,0,2026,1,0.02,0.01,-0.2,"Hong Kong, China and group strategy (broad)"
+barclays,2,2021,24,0.2,,-0.086,Structural hedge and rate sensitivity
+barclays,2,2022,21,0.148,-0.052,-0.066,Structural hedge and rate sensitivity
+barclays,2,2023,20,0.179,0.031,-0.111,Structural hedge and rate sensitivity
+barclays,2,2024,19,0.174,-0.005,0.013,Structural hedge and rate sensitivity
+barclays,2,2025,12,0.117,-0.057,0.011,Structural hedge and rate sensitivity
+barclays,2,2026,5,0.098,-0.019,-0.132,Structural hedge and rate sensitivity
+barclays,3,2021,29,0.242,,-0.0,UK business and cards (broad)
+barclays,3,2022,27,0.19,-0.052,-0.001,UK business and cards (broad)
+barclays,3,2023,28,0.25,0.06,-0.087,UK business and cards (broad)
+barclays,3,2024,19,0.174,-0.076,-0.023,UK business and cards (broad)
+barclays,3,2025,13,0.126,-0.048,-0.036,UK business and cards (broad)
+barclays,3,2026,7,0.137,0.011,-0.144,UK business and cards (broad)
+barclays,4,2021,7,0.058,,-0.105,RWAs and the Investment Bank
+barclays,4,2022,11,0.077,0.019,0.036,RWAs and the Investment Bank
+barclays,4,2023,9,0.08,0.003,-0.152,RWAs and the Investment Bank
+barclays,4,2024,12,0.11,0.03,-0.102,RWAs and the Investment Bank
+barclays,4,2025,27,0.262,0.152,-0.06,RWAs and the Investment Bank
+barclays,4,2026,5,0.098,-0.164,0.043,RWAs and the Investment Bank
+barclays,5,2021,9,0.075,,-0.028,"Mortgages, lending and UK rates"
+barclays,5,2022,21,0.148,0.073,0.035,"Mortgages, lending and UK rates"
+barclays,5,2023,5,0.045,-0.103,-0.044,"Mortgages, lending and UK rates"
+barclays,5,2024,10,0.092,0.047,-0.072,"Mortgages, lending and UK rates"
+barclays,5,2025,12,0.117,0.025,-0.152,"Mortgages, lending and UK rates"
+barclays,5,2026,5,0.098,-0.019,-0.039,"Mortgages, lending and UK rates"
+barclays,6,2021,5,0.042,,0.028,"Clarification, no subject"
+barclays,6,2022,5,0.035,-0.007,0.112,"Clarification, no subject"
+barclays,6,2023,4,0.036,0.001,-0.142,"Clarification, no subject"
+barclays,6,2024,5,0.046,0.01,-0.011,"Clarification, no subject"
+barclays,6,2025,1,0.01,-0.036,-0.009,"Clarification, no subject"
+barclays,6,2026,1,0.02,0.01,-0.122,"Clarification, no subject"
+barclays,7,2021,3,0.025,,0.198,"AT1, legacy capital and issuance"
+barclays,7,2022,3,0.021,-0.004,0.044,"AT1, legacy capital and issuance"
+barclays,7,2023,0,0.0,-0.021,,"AT1, legacy capital and issuance"
+barclays,7,2024,0,0.0,0.0,,"AT1, legacy capital and issuance"
+barclays,7,2025,1,0.01,0.01,-0.053,"AT1, legacy capital and issuance"
+barclays,7,2026,0,0.0,-0.01,,"AT1, legacy capital and issuance"
+barclays,8,2021,14,0.117,,-0.006,Costs and investment spend
+barclays,8,2022,10,0.07,-0.047,-0.089,Costs and investment spend
+barclays,8,2023,6,0.054,-0.016,0.013,Costs and investment spend
+barclays,8,2024,2,0.018,-0.036,-0.132,Costs and investment spend
+barclays,8,2025,1,0.01,-0.008,-0.674,Costs and investment spend
+barclays,8,2026,2,0.039,0.029,-0.273,Costs and investment spend
+barclays,9,2021,10,0.083,,-0.059,Capital and buybacks
+barclays,9,2022,8,0.056,-0.027,0.029,Capital and buybacks
+barclays,9,2023,8,0.071,0.015,0.041,Capital and buybacks
+barclays,9,2024,4,0.037,-0.034,-0.006,Capital and buybacks
+barclays,9,2025,4,0.039,0.002,-0.125,Capital and buybacks
+barclays,9,2026,0,0.0,-0.039,,Capital and buybacks
+barclays,10,2021,4,0.033,,-0.164,Deposits and deposit pricing
+barclays,10,2022,16,0.113,0.08,0.029,Deposits and deposit pricing
+barclays,10,2023,9,0.08,-0.033,0.054,Deposits and deposit pricing
+barclays,10,2024,3,0.028,-0.052,0.066,Deposits and deposit pricing
+barclays,10,2025,2,0.019,-0.009,-0.117,Deposits and deposit pricing
+barclays,10,2026,2,0.039,0.02,-0.077,Deposits and deposit pricing
+barclays,11,2021,6,0.05,,-0.016,Net interest income and margin guidance
+barclays,11,2022,13,0.092,0.042,-0.002,Net interest income and margin guidance
+barclays,11,2023,16,0.143,0.051,0.046,Net interest income and margin guidance
+barclays,11,2024,13,0.119,-0.024,-0.037,Net interest income and margin guidance
+barclays,11,2025,5,0.049,-0.07,-0.017,Net interest income and margin guidance
+barclays,11,2026,6,0.118,0.069,-0.125,Net interest income and margin guidance
+barclays,12,2021,8,0.067,,-0.157,Guidance against consensus (broad)
+barclays,12,2022,3,0.021,-0.046,0.032,Guidance against consensus (broad)
+barclays,12,2023,7,0.062,0.041,-0.163,Guidance against consensus (broad)
+barclays,12,2024,22,0.202,0.14,-0.087,Guidance against consensus (broad)
+barclays,12,2025,24,0.233,0.031,-0.055,Guidance against consensus (broad)
+barclays,12,2026,17,0.333,0.1,-0.089,Guidance against consensus (broad)
+hsbc,0,2021,14,0.23,,-0.151,"Hong Kong, China and group strategy (broad)"
+hsbc,0,2022,33,0.317,0.087,-0.018,"Hong Kong, China and group strategy (broad)"
+hsbc,0,2023,14,0.226,-0.091,-0.037,"Hong Kong, China and group strategy (broad)"
+hsbc,0,2024,40,0.494,0.268,-0.071,"Hong Kong, China and group strategy (broad)"
+hsbc,0,2025,40,0.506,0.012,-0.061,"Hong Kong, China and group strategy (broad)"
+hsbc,0,2026,27,0.458,-0.048,-0.078,"Hong Kong, China and group strategy (broad)"
+hsbc,2,2021,8,0.131,,0.001,Structural hedge and rate sensitivity
+hsbc,2,2022,16,0.154,0.023,-0.096,Structural hedge and rate sensitivity
+hsbc,2,2023,13,0.21,0.056,-0.055,Structural hedge and rate sensitivity
+hsbc,2,2024,9,0.111,-0.099,-0.093,Structural hedge and rate sensitivity
+hsbc,2,2025,5,0.063,-0.048,-0.043,Structural hedge and rate sensitivity
+hsbc,2,2026,4,0.068,0.005,-0.177,Structural hedge and rate sensitivity
+hsbc,3,2021,4,0.066,,-0.111,UK business and cards (broad)
+hsbc,3,2022,4,0.038,-0.028,0.077,UK business and cards (broad)
+hsbc,3,2023,1,0.016,-0.022,-0.019,UK business and cards (broad)
+hsbc,3,2024,1,0.012,-0.004,-0.106,UK business and cards (broad)
+hsbc,3,2025,5,0.063,0.051,-0.085,UK business and cards (broad)
+hsbc,3,2026,3,0.051,-0.012,0.013,UK business and cards (broad)
+hsbc,4,2021,3,0.049,,-0.075,RWAs and the Investment Bank
+hsbc,4,2022,3,0.029,-0.02,-0.039,RWAs and the Investment Bank
+hsbc,4,2023,4,0.065,0.036,-0.078,RWAs and the Investment Bank
+hsbc,4,2024,4,0.049,-0.016,-0.009,RWAs and the Investment Bank
+hsbc,4,2025,4,0.051,0.002,-0.05,RWAs and the Investment Bank
+hsbc,4,2026,7,0.119,0.068,-0.008,RWAs and the Investment Bank
+hsbc,5,2021,7,0.115,,0.024,"Mortgages, lending and UK rates"
+hsbc,5,2022,4,0.038,-0.077,-0.227,"Mortgages, lending and UK rates"
+hsbc,5,2023,2,0.032,-0.006,0.113,"Mortgages, lending and UK rates"
+hsbc,5,2024,1,0.012,-0.02,-0.129,"Mortgages, lending and UK rates"
+hsbc,5,2025,1,0.013,0.001,-0.402,"Mortgages, lending and UK rates"
+hsbc,5,2026,1,0.017,0.004,-0.05,"Mortgages, lending and UK rates"
+hsbc,6,2021,5,0.082,,0.118,"Clarification, no subject"
+hsbc,6,2022,6,0.058,-0.024,-0.104,"Clarification, no subject"
+hsbc,6,2023,2,0.032,-0.026,-0.014,"Clarification, no subject"
+hsbc,6,2024,4,0.049,0.017,-0.032,"Clarification, no subject"
+hsbc,6,2025,0,0.0,-0.049,,"Clarification, no subject"
+hsbc,6,2026,1,0.017,0.017,-0.108,"Clarification, no subject"
+hsbc,7,2021,0,0.0,,,"AT1, legacy capital and issuance"
+hsbc,7,2022,3,0.029,0.029,0.031,"AT1, legacy capital and issuance"
+hsbc,7,2023,0,0.0,-0.029,,"AT1, legacy capital and issuance"
+hsbc,7,2024,0,0.0,0.0,,"AT1, legacy capital and issuance"
+hsbc,7,2025,3,0.038,0.038,0.001,"AT1, legacy capital and issuance"
+hsbc,7,2026,1,0.017,-0.021,-0.22,"AT1, legacy capital and issuance"
+hsbc,8,2021,6,0.098,,0.029,Costs and investment spend
+hsbc,8,2022,12,0.115,0.017,-0.16,Costs and investment spend
+hsbc,8,2023,4,0.065,-0.05,0.061,Costs and investment spend
+hsbc,8,2024,6,0.074,0.009,-0.152,Costs and investment spend
+hsbc,8,2025,7,0.089,0.015,-0.113,Costs and investment spend
+hsbc,8,2026,8,0.136,0.047,-0.058,Costs and investment spend
+hsbc,9,2021,6,0.098,,-0.054,Capital and buybacks
+hsbc,9,2022,7,0.067,-0.031,-0.024,Capital and buybacks
+hsbc,9,2023,8,0.129,0.062,-0.083,Capital and buybacks
+hsbc,9,2024,4,0.049,-0.08,-0.125,Capital and buybacks
+hsbc,9,2025,7,0.089,0.04,-0.112,Capital and buybacks
+hsbc,9,2026,2,0.034,-0.055,-0.186,Capital and buybacks
+hsbc,10,2021,2,0.033,,0.09,Deposits and deposit pricing
+hsbc,10,2022,6,0.058,0.025,-0.016,Deposits and deposit pricing
+hsbc,10,2023,2,0.032,-0.026,-0.252,Deposits and deposit pricing
+hsbc,10,2024,0,0.0,-0.032,,Deposits and deposit pricing
+hsbc,10,2025,0,0.0,0.0,,Deposits and deposit pricing
+hsbc,10,2026,4,0.068,0.068,-0.13,Deposits and deposit pricing
+hsbc,11,2021,5,0.082,,-0.031,Net interest income and margin guidance
+hsbc,11,2022,4,0.038,-0.044,0.022,Net interest income and margin guidance
+hsbc,11,2023,6,0.097,0.059,-0.005,Net interest income and margin guidance
+hsbc,11,2024,5,0.062,-0.035,-0.07,Net interest income and margin guidance
+hsbc,11,2025,2,0.025,-0.037,0.002,Net interest income and margin guidance
+hsbc,11,2026,0,0.0,-0.025,,Net interest income and margin guidance
+hsbc,12,2021,1,0.016,,0.35,Guidance against consensus (broad)
+hsbc,12,2022,6,0.058,0.042,-0.0,Guidance against consensus (broad)
+hsbc,12,2023,6,0.097,0.039,0.1,Guidance against consensus (broad)
+hsbc,12,2024,7,0.086,-0.011,-0.077,Guidance against consensus (broad)
+hsbc,12,2025,5,0.063,-0.023,-0.103,Guidance against consensus (broad)
+hsbc,12,2026,1,0.017,-0.046,-0.03,Guidance against consensus (broad)

@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "raw": "{\n  \"question_intent\": \"Clarification on RoTE guidance presentation and its impact on investor understanding\",\n  \"main_topics\": [\"RoTE guidance\", \"notable items\", \"Canada sale impact\", \"investor understanding\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": false,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on your revised RoTE guidance 2023 and 2024, it's in the mid-teens, excluding the material notable items.\",\n  \"answer_quote\": \"Our RoTE guidance of mid-teens initially has been excluding notable items, so for this year, obviously we had two notable items in Q1: the provisional gain of SVB, $1.5 billion, but also the reversal of the impairment of the French retail business, $2.1 billion.\",\n  \"reason\": \"The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence with specific numeric examples.\"\n}",
+  "error": "",
+  "failed_attempts": [
+    {
+      "raw": "{\n  \"question_intent\": \"Clarification on RoTE guidance presentation and its impact on investor understanding and rating\",\n  \"main_topics\": [\"RoTE guidance\", \"notable items\", \"Canada sale impact\", \"investor understanding\", \"rating\"],\n  \"answer_completeness\": \"Complete\",\n  \"response_stance\": \"Direct\",\n  \"evidence_level\": \"High\",\n  \"contains_numeric_evidence\": true,\n  \"contains_forward_guidance\": true,\n  \"narrative_alignment\": \"Aligned\",\n  \"question_quote\": \"Just on your revised RoTE guidance 2023 and 2024, it's in the mid-teens, excluding the material notable items.\",\n  \"answer_quote\": \"Our RoTE guidance of mid-teens initially has been excluding notable items, so for this year, obviously we had two notable items in Q1: the provisional gain of SVB, $1.5 billion, but also the reversal of the impairment of the French retail business, $2.1 billion.\"\n}",
+      "error": "ValueError: LLM schema fields do not match"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 1037,
+      "batch_seconds": 32.292568000000756
+    },
+    {
+      "attempt": 2,
+      "actual_batch_size": 8,
+      "input_tokens": 1082,
+      "batch_seconds": 93.82789632300046
+    }
+  ],
+  "exchange_id": "d4d76c03f26c-x008",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "362afaf518ebccd9830aa26b81bf3d93574fb59b89bad660aabf1a7015b75ea1",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Clarification on RoTE guidance presentation and its impact on investor understanding",
+    "main_topics": [
+      "RoTE guidance",
+      "notable items",
+      "Canada sale impact",
+      "investor understanding"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": false,
+    "narrative_alignment": "Aligned",
+    "question_quote": "Just on your revised RoTE guidance 2023 and 2024, it's in the mid-teens, excluding the material notable items.",
+    "answer_quote": "Our RoTE guidance of mid-teens initially has been excluding notable items, so for this year, obviously we had two notable items in Q1: the provisional gain of SVB, $1.5 billion, but also the reversal of the impairment of the French retail business, $2.1 billion.",
+    "reason": "The response directly addresses the question's intent, provides a clear stance, and includes high-level evidence with specific numeric examples."
+  },
+  "whitespace_adjusted_quotes": []
+}

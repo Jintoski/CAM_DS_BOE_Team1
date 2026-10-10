@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "raw": "{\n \"question_intent\": \"Inquiring about the bank's strategy for 2028, capital allocation, and the expected Net Interest Margin (NIM) for the upcoming quarters.\",\n \"main_topics\": [\"2028 strategy\", \"capital allocation\", \"NIM outlook\"],\n \"answer_completeness\": \"Complete\",\n \"response_stance\": \"Direct\",\n \"evidence_level\": \"High\",\n \"contains_numeric_evidence\": true,\n \"contains_forward_guidance\": true,\n \"narrative_alignment\": \"Aligned\",\n \"question_quote\": \"One, just coming back in terms of the strategy update or new targets for 2028 that we get with full year [results]. I'm just kind of curious how you're going through that process and are you thinking about kind of things like revising capital allocation to the businesses, things like that? Or is it more about efficiency and driving more out of the business with the kind of path already set?\",\n \"answer_quote\": \"So, see a continuation and intensification of what we've done. And Amit, on your second question, I mean, I wouldn't really add anything. There is a degree of seasonality to the business. I mean, NIM, we do see as many of those effects, having flowed through largely already. Typically, we see slightly lower levels of retail funding as we go into the full year, just because balance has grown. We tend to use a bit more of the broker deposits. So that does have a little bit of an impact on NIM. But nothing really to call out. Just assume it's broadly flat, really, over the next couple of quarters.\",\n \"reason\": \"The answer directly addresses the questions about the 2028 strategy, capital allocation, and NIM outlook, providing a clear stance and high evidence level with numeric evidence and forward guidance.\"\n}",
+  "error": "",
+  "failed_attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_batch_size": 8,
+      "input_tokens": 854,
+      "batch_seconds": 24.24835875500048
+    }
+  ],
+  "exchange_id": "055b8b90ffec-x006",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "prompt_version": "boe-qa-v4-concise",
+  "cache_key": "6ee9255a152eecd4ceec2d8c7486682911727f540c4f08ff8484ea72929a9d34",
+  "generation": {
+    "regime": "phi-batched-v1",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 16,
+    "quantize_4bit": false,
+    "padding_side": "left"
+  },
+  "data": {
+    "question_intent": "Inquiring about the bank's strategy for 2028, capital allocation, and the expected Net Interest Margin (NIM) for the upcoming quarters.",
+    "main_topics": [
+      "2028 strategy",
+      "capital allocation",
+      "NIM outlook"
+    ],
+    "answer_completeness": "Complete",
+    "response_stance": "Direct",
+    "evidence_level": "High",
+    "contains_numeric_evidence": true,
+    "contains_forward_guidance": true,
+    "narrative_alignment": "Aligned",
+    "question_quote": "One, just coming back in terms of the strategy update or new targets for 2028 that we get with full year [results]. I'm just kind of curious how you're going through that process and are you thinking about kind of things like revising capital allocation to the businesses, things like that? Or is it more about efficiency and driving more out of the business with the kind of path already set?",
+    "answer_quote": "So, see a continuation and intensification of what we've done. And Amit, on your second question, I mean, I wouldn't really add anything. There is a degree of seasonality to the business. I mean, NIM, we do see as many of those effects, having flowed through largely already. Typically, we see slightly lower levels of retail funding as we go into the full year, just because balance has grown. We tend to use a bit more of the broker deposits. So that does have a little bit of an impact on NIM. But nothing really to call out. Just assume it's broadly flat, really, over the next couple of quarters.",
+    "reason": "The answer directly addresses the questions about the 2028 strategy, capital allocation, and NIM outlook, providing a clear stance and high evidence level with numeric evidence and forward guidance."
+  },
+  "whitespace_adjusted_quotes": []
+}
