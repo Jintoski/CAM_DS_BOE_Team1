@@ -90,17 +90,6 @@ WS3 has no notebook. Each folder in `ws3_reporting/` holds a prompt file, the fi
 
 Three markdown cells near the top of notebook 1 (the introduction, "How to run this notebook" and "Common Variables") say that `RUN_FINBERT` and `RUN_BERTOPIC` are False and that the run covers preprocessing only. Both flags are True in the submitted notebook, and the sentiment and topic sections run, loading their saved results from `data/corpus/`. The Google Drive steps in "How to run this notebook" are not needed after cloning: the paths are already relative to the repository root, as described above.
 
-## Limitations
-
-- Notebook 3's labels have not yet been checked against human annotation. The template and the metrics are in place (5.2), so the accepted labels are known to be well formed and grounded in the text, but not yet known to be correct.
-- Component 7 holds one reviewed claim. A match on one number shows consistency for that claim only, not for the rest of the call.
-- Component 9's packets are the first 12 keyword matches in period order, so they cover 2021 quarters only and are not representative. Its three findings were drafted with OpenAI Codex, whose version was not recorded, so they cannot be regenerated exactly. Each was reviewed by a team member before it was saved.
-- 33% of WS2 assessments failed validation, 43% of those on the schema. Constrained decoding, which forces valid JSON during generation, is the next step.
-- The directness weights in notebook 3 are set by design, not fitted. They can be calibrated once human labels exist.
-- The WS3 reports were generated in hosted chat models and cannot be rerun exactly. The transcript-route report checked its quotations against the transcripts; the signal-route report states that its source links were not independently verified.
-- Summaries grouped by topic, metric and speaker across the whole corpus need a retrieval step over the exchanges and prepared remarks, which was not built. The `topic_id`, `role`, `bank`, `period` and `audience` columns are the filters it would use.
-- Topic labels are names given by reading each topic. The model was fitted on HSBC and Barclays only, so another firm would need its own fit.
-
 ## Data sources
 
 The transcripts are first-party publications of HSBC Holdings plc and Barclays PLC, downloaded from their investor relations websites. `data/raw/manifest_all.csv` records for each file the URL it was downloaded from, the page the link was found on, the download time and the SHA-256 of the file. Every row in the derived tables carries the `doc_sha256` of its source document, so any figure can be traced back to the transcript and page it came from.
