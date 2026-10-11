@@ -53,13 +53,16 @@ Every expensive step loads its saved result from `data/corpus/` when one exists,
 |---|---|---|---|
 | `REBUILD_CORPUS` | 1 | `True` | Parse the 104 PDFs in `data/raw/` again instead of loading the tables |
 | `FORCE_REBUILD` | 1 | `True` | Ignore the per-document page cache and extract the text from the PDFs again |
+| `RUN_FINBERT` | 1 | `False` | Skip the sentiment stage |
 | `RESCORE_SENTIMENT` | 1 | `True` | Score every turn and exchange with FinBERT again |
+| `RUN_BERTOPIC` | 1 | `False` | Skip the topic stage |
 | `REFIT_BERTOPIC` | 1 | `True` | Fit a new topic model instead of loading `data/corpus/topic_model/` |
-| `RUN_FINBERT`, `RUN_BERTOPIC` | 1 | `False` | Skip the sentiment or the topic stage |
-| `RUN_EXTRACTION` | 2 | `False` | Use only the Gemma results already in `signals_llm.jsonl` |
 | `RUN_ALIGNMENT` | 2 | `False` | Skip question-answer alignment, so no embedding model is loaded |
+| `RUN_EXTRACTION` | 2 | `False` | Use only the Gemma results already in `signals_llm.jsonl` |
 
 A rebuild from the PDFs, rescoring and refitting all benefit from a GPU. Notebook 2 calls Gemma 3 only for exchanges missing from `signals_llm.jsonl`, and the file in the repository covers all of them. To extract again, delete the file. On Colab the notebook then loads `google/gemma-3-4b-it` from Hugging Face, which requires accepting its licence there. Run locally, it expects `gemma3:4b` served by Ollama.
+
+Three markdown cells near the top of notebook 1 (the introduction, "How to run this notebook" and "Common Variables") say that `RUN_FINBERT` and `RUN_BERTOPIC` are False and that the run covers preprocessing only. Both flags are True in the submitted notebook, and the sentiment and topic sections run, loading their saved results from `data/corpus/`. The Google Drive steps in "How to run this notebook" are not needed after cloning: the paths are already relative to the repository root, as described above.
 
 ### Notebook 3 (WS2)
 
@@ -69,8 +72,9 @@ By default the notebook reviews the submitted run rather than running Phi again,
 
 1. Clone the repository and change into it, as above.
 2. Run the notebook top to bottom. Three cells mount Google Drive: subsection 1.2, the first cell of 7.2 and the cell before 7.4. The repository's data does not need Drive. On Colab, approve the prompt or skip the cell. Outside Colab, skip them, because `google.colab` is not available there.
-3. Subsections 7.2, 8.6 and 8.7 load the saved run from `data/ws2/run_20261009T163647_497637Z/` and print its coverage. Subsection 7.4 refreshes the reviewed extensions in `extensions/`. Section 9 shows the coverage, the failure categories and the dashboards.
-4. Subsection 9.1 fetches the St. Louis Fed Financial Stress Index (STLFSI4) from FRED, so it needs an internet connection. Each run writes a new timestamped set of `Bank_directness_FSI_*` and `FSI_*` files into `dashboard/`.
+3. Subsection 7.2 loads the saved run from `data/ws2/run_20261009T163647_497637Z/`, and 7.4 refreshes its reviewed extensions in `extensions/`.
+4. Subsections 8.6 and 8.7 load the saved results and print the run's coverage and validation status.
+5. Section 9 shows the coverage, the failure categories and the dashboards. Subsection 9.1 fetches the St. Louis Fed Financial Stress Index (STLFSI4) from FRED, so it needs an internet connection, and each run writes a new timestamped set of `Bank_directness_FSI_*` and `FSI_*` files into `dashboard/`.
 
 To run the model again, set `RUN_FULL_PIPELINE = True` in subsection 8.5. Sections 2 to 8 then load the WS1 tables from `data/corpus/`, run `microsoft/Phi-4-mini-instruct` over every eligible exchange, and write a new run folder named `run_<UTC timestamp>` under `data/ws2/`. To review that run instead, replace `run_20261009T163647_497637Z` with the folder it printed, wherever the notebook names the run: subsections 7.2, 7.4, 8.5, 8.6 and 9.1.
 
@@ -85,10 +89,6 @@ WS3 has no notebook. Each folder in `ws3_reporting/` holds a prompt file, the fi
 - `Model Metrics GenAI Instructions/` builds the supervisory report from the WS1 and WS2 signal tables.
 - `Transcript Based Gen AI Instructions/` builds it from the transcripts directly.
 - `Comparison Report/` compares the two methods.
-
-### Reading notebook 1
-
-Three markdown cells near the top of notebook 1 (the introduction, "How to run this notebook" and "Common Variables") say that `RUN_FINBERT` and `RUN_BERTOPIC` are False and that the run covers preprocessing only. Both flags are True in the submitted notebook, and the sentiment and topic sections run, loading their saved results from `data/corpus/`. The Google Drive steps in "How to run this notebook" are not needed after cloning: the paths are already relative to the repository root, as described above.
 
 ## Data sources
 
