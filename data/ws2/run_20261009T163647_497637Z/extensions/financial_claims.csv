@@ -1,0 +1,2 @@
+claim_id,exchange_id,reference_period,metric,unit,scope,basis,value,answer_quote,reviewed_by
+C7_HSBC_2024Q2_CET1_001,fbf6b5dfe7b5-x004,2024_Q2,CET1_ratio,percent,group,reported,15.0,"If you look at our CET1 ratio today, at 15%,",Wessam

@@ -1,0 +1,31 @@
+{
+  "component_7": {
+    "status": "numeric comparison exported; interpretation saved for one reviewed claim",
+    "comparisons": 1,
+    "counts": {
+      "within_tolerance": 1
+    },
+    "reviewed_interpretations": 1
+  },
+  "component_9": {
+    "status": "reviewed findings exported",
+    "research_questions": 3,
+    "reviewed_findings": 3,
+    "external_sources": 4
+  },
+  "completed_at": "2026-10-11T18:17:08.553855+00:00",
+  "source_run": "/content/drive/MyDrive/BoE_WS2_fixed_run/run_20261009T163647_497637Z",
+  "owners": "Jamie and Eion WS1; Mayami and Wessam WS2",
+  "limitations": "No classification accuracy claim. Numeric matches are not financial truth; research remains reviewed interpretation.",
+  "input_sha256": {
+    "ws2_features.parquet": "e30cabaf5c74819d49a3a3db64370b4778f5d424887ce975c4854542fce2fd92",
+    "financial_metrics.csv": "f6a5bc39cd72a48de64ad39127672321568df1054fd0fe6cef39e3acb6176eaf",
+    "financial_claims.csv": "8f20d9329d2cb0787c86e831db702b183a0ac0b040ca8b4e758c07e992598525",
+    "external_evidence.csv": "4da4c32d0ebcea3c9870a18d4e4abd9400782ee829f3040d91192728abdf05ce",
+    "reviewed_findings.csv": "1e41f2efedc9557e0e6a3ce79949141c2838ed9a83865c428447aac37bd82e08",
+    "claim_review_text.csv": "bc91861c7b678042d8f5eb31cab5119b69f7b3666b44fc5a6dd558198ec287f3",
+    "component_7_comparison.csv": "e606df558c2dcd163ae4f26d67beeedbdce0542bd3001265ad39a4aa6f063774",
+    "component_9_reviewed_findings.csv": "1e41f2efedc9557e0e6a3ce79949141c2838ed9a83865c428447aac37bd82e08",
+    "component_7_interpretation.json": "cfaf646268d6a2cb419daf59816fb7bc0aab07fae5dfd41cd11bd1f9c14588a7"
+  }
+}

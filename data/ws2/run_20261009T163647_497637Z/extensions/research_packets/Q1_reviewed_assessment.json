@@ -1,0 +1,16 @@
+{
+  "record": {
+    "query_id": "Q1",
+    "finding": "In the selected HSBC Q&A exchanges from Q1–Q3 2021, management described improving credit conditions while retaining caution about pandemic uncertainty and possible second-order China property risks.",
+    "exchange_ids_json": "[\"42ff4ad756f3-x005\", \"42ff4ad756f3-x006\", \"05365a3a7fbe-x000\", \"2895638cae6c-x002\"]",
+    "source_ids_json": "[]",
+    "counter_evidence": "Management reported strong Q1 stage 3 performance, improved credit conditions and lower credit-rating migration in Q2. In Q3 it stated that there was no direct exposure to red-list borrowers and expressed confidence in its China exposure position. These statements temper an interpretation of widespread credit deterioration.",
+    "limitations": "The packet contains 12 exchanges selected by keyword matching and chronological order from 460 HSBC exchanges. It is not representative and covers only Q1–Q3 2021. No external evidence independently verifies management's claims. This finding describes historical commentary, not current credit risk or proven financial outcomes.",
+    "model": "OpenAI Codex",
+    "model_version": "Not disclosed in the response",
+    "assessed_at": "2026-10-11T18:12:48.303701+00:00",
+    "reviewed_by": "Wessam"
+  },
+  "timestamp_note": "assessed_at records when this reviewed assessment was saved.",
+  "review_confirmation": "User agreed in the Codex conversation."
+}

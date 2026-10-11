@@ -1,0 +1,8 @@
+{
+  "claim_id": "C7_HSBC_2024Q2_CET1_001",
+  "exchange_id": "fbf6b5dfe7b5-x004",
+  "interpretation": "For the selected HSBC 2024 Q2 exchange, management's quoted CET1 ratio of 15% matches the published Group CET1 ratio of 15.0% at 30 June 2024. The absolute difference is zero percentage points, within the configured zero tolerance. This demonstrates consistency for one reviewed numerical claim. It does not establish consistency across other claims, overall narrative accuracy or the bank's financial condition.",
+  "source_url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/interim-results-2024-quick-read",
+  "reviewed_by": "Wessam",
+  "reviewed_at": "2026-10-11T18:16:28.452658+00:00"
+}
