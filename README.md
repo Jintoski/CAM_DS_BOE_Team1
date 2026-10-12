@@ -10,21 +10,21 @@ The project reads the analyst Q&A sections of HSBC and Barclays earnings call tr
 |---|---|---|
 | `Team1_CAM_EP_Assignment3_notebook_1_corpus_build.ipynb` | WS1 | Transcript PDFs to `turns`, `exchanges` and `documents` tables, then FinBERT sentiment and BERTopic topics |
 | `Team1_CAM_EP_Assignment3_notebook_2_qa_signals.ipynb` | WS1 | Answer-quality signals per exchange and per quarter, and grounded extraction with Gemma 3 |
-| `Team1_CAM_EP_Assignment3_notebook_3_llm_signals.ipynb` | WS2 | LLM assessment of each Q&A exchange, with validation and dashboard |
+| `Team1_CAM_EP_Assignment3_notebook_3_llm_signals.ipynb` | WS2 | LLM assessment of each Q&A exchange, with validation and dashboard. Saved with its outputs and charts, and runs on Google Colab with Google Drive |
 | `ws3_reporting/` | WS3 | GenAI prompts, the supervisory report template, the generated reports and the comparison of the two reporting methods |
 | `data/raw/` | | The 104 transcript PDFs and their manifest |
 | `data/corpus/` | | Every table notebooks 1 and 2 write, as `.parquet` and `.csv`, plus the fitted topic model and the Gemma output cache. Column definitions are in `DATA_DICTIONARY.md` |
-| `data/ws2/` | | WS2's submitted run, `run_20261009T163647_497637Z/`, with its reviewed extensions in `extensions/` and its dashboards in `dashboard/`, and the embedding and Phi caches it was built from |
+| `data/ws2/` | | A copy of WS2's Google Drive folder `BoE_WS2_fixed_run`: the submitted run, `run_20261009T163647_497637Z/`, with its reviewed extensions in `extensions/` and its dashboards in `dashboard/`, and the embedding and Phi caches it was built from |
 
 ## How to run this project
 
-Every path in the notebooks is relative to the repository root, so open and run them from there. Run them in order: each notebook reads what the previous one wrote.
+Every path in notebooks 1 and 2 is relative to the repository root, so open and run them from there. Notebook 3 reads and writes Google Drive instead, as described below. Run them in order: each notebook reads what the previous one wrote.
 
 | Notebook | Reads | Writes |
 |---|---|---|
 | 1 corpus build | `data/raw/manifest_all.csv` and the PDFs it lists | `data/corpus/`: `documents`, `turns`, `exchanges`, `sentiment`, `sentiment_exchanges`, `topics`, `topic_info`, `topic_model/` |
 | 2 Q&A signals | the tables notebook 1 wrote | `data/corpus/`: `signals`, `signals_quarter`, `signals_topic`, `signals_matched`, `signals_attention`, `signals_review`, `signals_llm.jsonl` |
-| 3 LLM signals | the tables in `data/corpus/`, and `data/ws2/cache/` | a timestamped run folder under `data/ws2/`, and new entries in `data/ws2/cache/` |
+| 3 LLM signals | the submitted run, from a copy of `data/ws2/` in Google Drive; for a full run, also a copy of `data/corpus/` | a timestamped run folder in that Drive copy |
 
 Every table is written both as `.parquet` and as `.csv`.
 
@@ -66,17 +66,25 @@ Three markdown cells near the top of notebook 1 (the introduction, "How to run t
 
 ### Notebook 3 (WS2)
 
-Notebook 3 was built for Google Colab with an A100 GPU. Run it in its own runtime rather than after notebooks 1 and 2, because its first cell installs `transformers` 4.51, while notebooks 1 and 2 pin 5.12.
+Notebook 3 is saved with its outputs, including its charts as images, so it can be reviewed on GitHub without running it.
+
+To run it, use Google Colab. Its paths point to Google Drive rather than to this repository, and several of its cells use `google.colab`, so it does not run outside Colab. Run it in its own runtime rather than after notebooks 1 and 2, because its first cell installs `transformers` 4.51, while notebooks 1 and 2 pin 5.12.
 
 By default the notebook reviews the submitted run rather than running Phi again, so it needs no GPU:
 
-1. Clone the repository and change into it, as above.
-2. Run the notebook top to bottom. Three cells mount Google Drive: subsection 1.2, the first cell of 7.2 and the cell before 7.4. The repository's data does not need Drive. On Colab, approve the prompt or skip the cell. Outside Colab, skip them, because `google.colab` is not available there.
-3. Subsection 7.2 loads the saved run from `data/ws2/run_20261009T163647_497637Z/`, and 7.4 refreshes its reviewed extensions in `extensions/`.
+1. Copy the contents of `data/ws2/` into your Google Drive as `MyDrive/BoE_WS2_fixed_run/`, so that the run sits at `MyDrive/BoE_WS2_fixed_run/run_20261009T163647_497637Z/`. The folder is 93 MB, including the cache.
+2. Run the notebook top to bottom and approve each Google Drive prompt. Subsection 8.6 also searches the rest of My Drive for a folder named `run_20261009T163647_497637Z`, but the other cells only look in `MyDrive/BoE_WS2_fixed_run/`.
+3. Subsection 7.2 loads the saved run, and 7.4 refreshes its reviewed extensions in `extensions/`.
 4. Subsections 8.6 and 8.7 load the saved results and print the run's coverage and validation status.
-5. Section 9 shows the coverage, the failure categories and the dashboards. Subsection 9.1 fetches the St. Louis Fed Financial Stress Index (STLFSI4) from FRED, so it needs an internet connection, and each run writes a new timestamped set of `Bank_directness_FSI_*` and `FSI_*` files into `dashboard/`.
+5. Section 9 shows the coverage, the failure categories and the dashboards. Its first cells install Chrome and its system libraries so that the charts can be saved as images, into `dashboard/github_images/` in the run folder. If that export fails, the dashboard cells in 9.2 ask you to download the chart with its camera icon and upload the image. Subsection 9.1 fetches the St. Louis Fed Financial Stress Index (STLFSI4) from FRED, so it needs an internet connection, and each run writes a new timestamped set of `Bank_directness_FSI_*` and `FSI_*` files into `dashboard/`.
 
-To run the model again, set `RUN_FULL_PIPELINE = True` in subsection 8.5. Sections 2 to 8 then load the WS1 tables from `data/corpus/`, run `microsoft/Phi-4-mini-instruct` over every eligible exchange, and write a new run folder named `run_<UTC timestamp>` under `data/ws2/`. To review that run instead, replace `run_20261009T163647_497637Z` with the folder it printed, wherever the notebook names the run: subsections 7.2, 7.4, 8.5, 8.6 and 9.1.
+To run the model again, use a Colab runtime with an A100 GPU:
+
+1. Copy the contents of `data/corpus/` into your Google Drive as `MyDrive/output_files_fix_20261008/`.
+2. Set `RUN_FULL_PIPELINE = True` in subsection 8.5 and run it.
+3. Run `results = run_pipeline(cfg)` in a new cell after 8.5. Subsection 8.6 only loads saved results.
+
+The pipeline loads the WS1 tables, runs `microsoft/Phi-4-mini-instruct` over every eligible exchange, and writes a new run folder named `run_<UTC timestamp>` in `MyDrive/BoE_WS2_fixed_run/`. To review that run instead, replace `run_20261009T163647_497637Z` with the folder it printed, wherever the notebook names the run: subsections 7.2, 7.4, 8.5, 8.6 and 9.1, and the cells that save the research findings in section 7.
 
 The submitted run folder holds every table the run exported. These include `LLMSignals.csv`, the 32-field file WS3 consumes, with its data dictionary next to it. `RUN_SUMMARY.md` gives the run's coverage: 753 of the 1,122 eligible exchanges have an accepted assessment.
 
